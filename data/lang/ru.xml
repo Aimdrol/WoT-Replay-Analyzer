@@ -5,15 +5,26 @@
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
+    <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
     <tank ID="A103_T71E1_IGR" sName="T71" lName="T71" />
     <tank ID="A104_M4A3E8A" sName="Fury" lName="M4A3E8 Fury" />
     <tank ID="A106_M48A2_120" sName="M48/T54E2" lName="M48A2/T54E2/T123E6" />
+    <tank ID="A107_T1_HMC" sName="T1 HMC" lName="T1 HMC" />
+    <tank ID="A108_T18_HMC" sName="T18 HMC" lName="T18 HMC" />
+    <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
+    <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
+    <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
     <tank ID="A18_M41" sName="M41 HMC" lName="M41 HMC" />
     <tank ID="A-20" sName="А-20" lName="А-20" />
+    <tank ID="A23_M7_med" sName="M7" lName="M7" />
+    <tank ID="A24_T2_med" sName="T2 Medium" lName="T2 Medium Tank" />
+    <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
+    <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
+    <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="А-32" lName="А-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -23,6 +34,7 @@
     <tank ID="A43" sName="А-43" lName="А-43" />
     <tank ID="A44" sName="А-44" lName="А-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
+    <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
@@ -75,6 +87,7 @@
     <tank ID="Ch04_T34_1_training" sName="T-34-1" lName="T-34-1" />
     <tank ID="Ch05_T34_2" sName="T-34-2" lName="T-34-2" />
     <tank ID="Ch06_Renault_NC31" sName="NC-31" lName="Renault NC-31" />
+    <tank ID="Ch06_Renault_NC31_bot" sName="NC-31" lName="Renault NC-31" />
     <tank ID="Ch07_Vickers_MkE_Type_BT26" sName="VAE Type B" lName="Vickers Mk. E Type B" />
     <tank ID="Ch08_Type97_Chi_Ha" sName="Chi-Ha" lName="Type 2597 Chi-Ha" />
     <tank ID="Ch09_M5" sName="M5A1 Stuart" lName="M5A1 Stuart" />
@@ -128,6 +141,8 @@
     <tank ID="F10_AMX_50B" sName="AMX 50 B" lName="AMX 50 B" />
     <tank ID="F10_AMX_50B_fallout" sName="(A) AMX 50 B" lName="(A) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
+    <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
@@ -139,6 +154,7 @@
     <tank ID="F71_AMX_30_prototype" sName="AMX 30" lName="AMX 30 1er prototype" />
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
+    <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -148,6 +164,8 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
+    <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
@@ -158,28 +176,49 @@
     <tank ID="G107_PzKpfwIII_AusfK" sName="Pz. III K" lName="Pz.Kpfw. III Ausf. K" />
     <tank ID="G108_PzKpfwII_AusfD" sName="Pz. II D" lName="Pz.Kpfw. II Ausf. D" />
     <tank ID="G109_Steyr_WT" sName="Steyr WT" lName="Krupp-Steyr Waffenträger" />
+    <tank ID="G11_Bison_I" sName="Bison" lName="Sturmpanzer I Bison" />
     <tank ID="G112_KanonenJagdPanzer" sName="KanJPz" lName="Kanonenjagdpanzer" />
     <tank ID="G113_SP_I_C" sName="SP I C" lName="Spähpanzer SP I C" />
     <tank ID="G114_Skorpian" sName="Skorpion" lName="Rheinmetall Skorpion" />
-    <tank ID="G115_Typ_205_4_Jun" sName="VK 100.01 (P)" lName="VK 100.01 (P)" />
+    <tank ID="G115_Typ_205_4_Jun" sName="VK 100.01 P" lName="VK 100.01 (P)" />
+    <tank ID="G116_Turan_III_prot" sName="Turán III PT" lName="Turán III prototípus" />
+    <tank ID="G117_Toldi_III" sName="Toldi III" lName="43 M. Toldi III" />
+    <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
+    <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
+    <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
+    <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
+    <tank ID="G16_PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="G17_JagdPzIV" sName="Jg.Pz. IV" lName="Jagdpanzer IV" />
+    <tank ID="G19_Wespe" sName="Wespe" lName="Wespe" />
     <tank ID="G20_Marder_II" sName="Marder II" lName="Marder II" />
     <tank ID="G21_PanzerJager_I" sName="Pz.Jäg. I" lName="Panzerjäger I" />
     <tank ID="G22_Sturmpanzer_II" sName="St.Pz. II" lName="Sturmpanzer II" />
+    <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
+    <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
+    <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
+    <tank ID="G65_JagdTiger_SdKfz_185_IGR" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
+    <tank ID="G71_JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="G78_Panther_M10" sName="Panther/M10" lName="Panther/M10" />
+    <tank ID="G82_Pz_II_AusfG" sName="Pz. II G" lName="Pz.Kpfw. II Ausf. G" />
+    <tank ID="G86_VK2001DB" sName="VK 20.01 D" lName="VK 20.01 (D)" />
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (П)" lName="Leopard 1 (П)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="СУ-85Б" lName="СУ-85Б" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
+    <tank ID="GB01_Medium_Mark_I_bot" sName="Medium I" lName="Vickers Medium Mk. I" />
     <tank ID="GB03_Cruiser_Mk_I" sName="Cruiser I" lName="Cruiser Mk. I" />
     <tank ID="GB04_Valentine" sName="Valentine" lName="Valentine" />
     <tank ID="GB05_Vickers_Medium_Mk_II" sName="Medium II" lName="Vickers Medium Mk. II" />
+    <tank ID="GB05_Vickers_Medium_Mk_II_bot" sName="Medium II" lName="Vickers Medium Mk. II" />
     <tank ID="GB06_Vickers_Medium_Mk_III" sName="Medium III" lName="Vickers Medium Mk. III" />
     <tank ID="GB07_Matilda" sName="Matilda" lName="Matilda" />
     <tank ID="GB08_Churchill_I" sName="Churchill I" lName="Churchill I" />
@@ -203,6 +242,7 @@
     <tank ID="GB23_Centurion_IGR" sName="Centurion I" lName="Centurion Mk. I" />
     <tank ID="GB24_Centurion_Mk3" sName="Centurion 7/1" lName="Centurion Mk. 7/1" />
     <tank ID="GB25_Loyd_Carrier" sName="Loyd GC" lName="Loyd Gun Carriage" />
+    <tank ID="GB25_Loyd_Gun_Carriage" sName="Loyd GC" lName="Loyd Gun Carriage" />
     <tank ID="GB26_Birch_Gun" sName="Birch Gun" lName="Birch Gun" />
     <tank ID="GB27_Sexton" sName="Sexton II" lName="Sexton II" />
     <tank ID="GB28_Bishop" sName="Bishop" lName="Bishop" />
@@ -210,6 +250,7 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -243,7 +284,10 @@
     <tank ID="GB80_Charioteer" sName="Charioteer" lName="Charioteer" />
     <tank ID="GB81_FV4004" sName="Conway" lName="FV4004 Conway" />
     <tank ID="GB83_FV4005" sName="FV4005" lName="FV4005 Stage II" />
+    <tank ID="GB84_Chieftain_Mk6" sName="Chieftain" lName="Chieftain Mk. 6" />
     <tank ID="GB85_Cromwell_Berlin" sName="Cromwell B" lName="Cromwell B" />
+    <tank ID="GB86_Centurion_Action_X" sName="Centurion AX" lName="Centurion Action X" />
+    <tank ID="GB87_Chieftain_T95_turret" sName="Chieftain/T95" lName="Chieftain/T95" />
     <tank ID="Grille" sName="Grille" lName="Grille" />
     <tank ID="GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GW_Tiger_P" sName="G.W. Tiger P" lName="G.W. Tiger (P)" />
@@ -260,7 +304,7 @@
     <tank ID="IS-7" sName="ИС-7" lName="ИС-7" />
     <tank ID="IS-7_fallout" sName="(А) ИС-7" lName="(А) ИС-7" />
     <tank ID="IS-7_IGR" sName="ИС-7" lName="ИС-7" />
-    <tank ID="IS8" sName="ИС-8" lName="ИС-8" />
+    <tank ID="IS8" sName="Т-10" lName="Т-10" />
     <tank ID="ISU-152" sName="ИСУ-152" lName="ИСУ-152" />
     <tank ID="ISU-152_IGR" sName="ИСУ-152" lName="ИСУ-152" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
@@ -291,8 +335,8 @@
     <tank ID="KV-1s" sName="КВ-1С" lName="КВ-1С" />
     <tank ID="KV2" sName="КВ-2" lName="КВ-2" />
     <tank ID="KV2_IGR" sName="КВ-2" lName="КВ-2" />
-    <tank ID="KV-220" sName="КВ-220 Т" lName="КВ-220 Бета-Тест" />
-    <tank ID="KV-220_action" sName="КВ-220" lName="КВ-220" />
+    <tank ID="KV-220" sName="КВ-220-2 Т" lName="КВ-220-2 Бета-Тест" />
+    <tank ID="KV-220_action" sName="КВ-220-2" lName="КВ-220-2" />
     <tank ID="KV-3" sName="КВ-3" lName="КВ-3" />
     <tank ID="KV4" sName="КВ-4" lName="КВ-4" />
     <tank ID="KV-5" sName="КВ-5" lName="КВ-5" />
@@ -305,6 +349,7 @@
     <tank ID="Lowe" sName="Löwe" lName="Löwe" />
     <tank ID="LTP" sName="ЛТП" lName="ЛТП" />
     <tank ID="Ltraktor" sName="L.Tr." lName="Leichttraktor" />
+    <tank ID="Ltraktor_bot" sName="L.Tr." lName="Leichttraktor" />
     <tank ID="M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="M103" sName="M103" lName="M103" />
     <tank ID="M12" sName="M12" lName="M12" />
@@ -344,10 +389,12 @@
     <tank ID="Maus" sName="Maus" lName="Maus" />
     <tank ID="Maus_IGR" sName="Maus" lName="Maus" />
     <tank ID="MS-1" sName="МС-1" lName="МС-1" />
+    <tank ID="MS-1_bot" sName="МС-1" lName="МС-1" />
     <tank ID="MT25" sName="МТ-25" lName="МТ-25" />
     <tank ID="MTLS-1G14" sName="MTLS-1G14" lName="MTLS-1G14" />
     <tank ID="Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="NC27" sName="R. Otsu" lName="Renault Otsu" />
+    <tank ID="NC27_bot" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="Object_140" sName="Об. 140" lName="Объект 140" />
     <tank ID="Object_140_fallout" sName="Об. 140 (П)" lName="Объект 140 (П)" />
     <tank ID="Object_212" sName="212А" lName="212А" />
@@ -425,11 +472,18 @@
     <tank ID="R118_T28_F30" sName="Т-28Э Ф-30" lName="Т-28Э с Ф-30" />
     <tank ID="R119_Object_777" sName="Об. 777 II" lName="Объект 777 Вариант II" />
     <tank ID="R120_T22SR_A22" sName="Т-22 ср." lName="Т-22 ср." />
+    <tank ID="R121_KV4_KTT" sName="КВ-4 КТТС" lName="КВ-4 КТТС" />
+    <tank ID="R122_T44_100" sName="Т-44-100" lName="Т-44-100" />
     <tank ID="R19_IS-3" sName="ИС-3" lName="ИС-3" />
     <tank ID="R19_IS-3_IGR" sName="ИС-3" lName="ИС-3" />
     <tank ID="R24_SU-76" sName="СУ-76М" lName="СУ-76М" />
+    <tank ID="R38_KV-220" sName="КВ-220-2 Т" lName="КВ-220-2 Бета-Тест" />
+    <tank ID="R38_KV-220_action" sName="КВ-220-2" lName="КВ-220-2" />
+    <tank ID="R51_Object_212" sName="212А" lName="212А" />
     <tank ID="R53_Object_704" sName="Об. 704" lName="Объект 704" />
     <tank ID="R71_IS_2B" sName="ИС-2" lName="ИС-2" />
+    <tank ID="R80_KV1" sName="КВ-1" lName="КВ-1" />
+    <tank ID="R81_IS8" sName="Т-10" lName="Т-10" />
     <tank ID="R87_T62A" sName="Т-62А" lName="Т-62А" />
     <tank ID="R87_T62A_fallout" sName="(А) Т-62А" lName="(А) Т-62А" />
     <tank ID="R90_IS_4M" sName="ИС-4" lName="ИС-4" />
@@ -437,6 +491,7 @@
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
     <tank ID="RenaultFT_AC" sName="FT AC" lName="Renault FT AC" />
+    <tank ID="RenaultFT_bot" sName="FT" lName="Renault FT" />
     <tank ID="RenaultUE57" sName="UE 57" lName="Renault UE 57" />
     <tank ID="RhB_Waffentrager" sName="Rhm.-B. WT" lName="Rhm.-Borsig Waffenträger" />
     <tank ID="S_35CA" sName="S35 CA" lName="S35 CA" />
@@ -478,6 +533,7 @@
     <tank ID="SU-85" sName="СУ-85" lName="СУ-85" />
     <tank ID="T_50_2" sName="Т-50-2" lName="Т-50-2" />
     <tank ID="T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="T1_E6" sName="T1E6" lName="T1E6" />
     <tank ID="T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="T110" sName="T110E5" lName="T110E5" />
@@ -499,6 +555,7 @@
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="Т-26" lName="Т-26" />
+    <tank ID="T-26_bot" sName="Т-26" lName="Т-26" />
     <tank ID="T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
     <tank ID="T28" sName="T28" lName="T28" />
     <tank ID="T-28" sName="Т-28" lName="Т-28" />
@@ -587,8 +644,10 @@
     <item ID="100_thepit" Name="Миттенгард" />
     <item ID="101_dday" Name="Оверлорд" />
     <item ID="103_ruinberg_winter" Name="Винтерберг" />
+    <item ID="105_germany" Name="Берлин" />
     <item ID="10_hills" Name="Рудники" />
     <item ID="111_paris" Name="Монте-Роза" />
+    <item ID="112_eiffel_tower" Name="Париж" />
     <item ID="11_murovanka" Name="Мурованка" />
     <item ID="13_erlenberg" Name="Эрленберг" />
     <item ID="14_siegfried_line" Name="Линия Зигфрида" />
@@ -610,7 +669,6 @@
     <item ID="44_north_america" Name="Лайв Окс" />
     <item ID="45_north_america" Name="Хайвей" />
     <item ID="47_canada_a" Name="Тихий берег" />
-    <item ID="53_japan" Name="Скрытая деревня" />
     <item ID="59_asia_great_wall" Name="Граница империи" />
     <item ID="60_asia_miao" Name="Жемчужная река" />
     <item ID="63_tundra" Name="Тундра" />
@@ -621,10 +679,14 @@
     <item ID="92_stalingrad" Name="Сталинград" />
     <item ID="95_lost_city" Name="Затерянный город" />
     <item ID="96_prohorovka_defense" Name="Огненная дуга" />
-    <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
+    <item ID="h04_remday_2015" />
+    <item ID="h05_thanks_2015" />
+    <item ID="h06_vetday_2015" />
     <item ID="15_komarin" Name="Комарин" />
     <item ID="43_north_america" Name="Северо-Запад" />
     <item ID="51_asia" Name="Хребет Дракона" />
+    <item ID="53_japan" Name="Скрытая деревня" />
     <item ID="85_winter" Name="Северогорск" />
     <item ID="87_ruinberg_on_fire" Name="Руинберг в огне" />
     <item ID="99_himmelball" />
@@ -843,7 +905,7 @@
     <achv ID_Num="474" ID="rangerMedal" Name="«Егерь»" />
     <achv ID_Num="476" ID="fireAndSteelMedal" Name="«Закалённый в боях»" />
     <achv ID_Num="478" ID="pyromaniacMedal" Name="«Пироман»" />
-    <achv ID_Num="479" ID="noMansLand" Name="«Бой до последнего»" />
+    <achv ID_Num="479" ID="noMansLand" Name="«Выжженная земля»" />
     <achv ID_Num="482" ID="conqueror" Name="«Завоеватель {0}»" />
     <achv ID_Num="483" ID="fireAndSword" Name="«За решающие сражения {0}»" />
     <achv ID_Num="484" ID="crusher" Name="«Сокрушитель крепостей»" />
@@ -890,6 +952,18 @@
     <achv ID_Num="597" ID="victoryMarch" Name="«Победный марш»" />
     <achv ID_Num="599" ID="testartilleryman" Name="«Артиллерист-испытатель 80 уровня»" />
     <achv ID_Num="600" ID="fallout" Name="Герой «Превосходства»" />
+    <achv ID_Num="850" ID="shoulderToShoulder" Name="«Плечом к плечу»" />
+    <achv ID_Num="851" ID="aloneInTheField" Name="«Один в поле воин»" />
+    <achv ID_Num="852" ID="fallenFlags" Name="«Павшие знамёна»" />
+    <achv ID_Num="853" ID="effectiveSupport" Name="«Эффективная поддержка»" />
+    <achv ID_Num="854" ID="falloutDieHard" Name="«Крепкий орешек»" />
+    <achv ID_Num="855" ID="stormLord" Name="«Повелитель бури {0}»" />
+    <achv ID_Num="856" ID="winnerLaurels" Name="«Лавры победителя {0}»" />
+    <achv ID_Num="857" ID="predator" Name="«Хищник»" />
+    <achv ID_Num="858" ID="unreachable" Name="«Недосягаемый»" />
+    <achv ID_Num="859" ID="champion" Name="«Чемпион»" />
+    <achv ID_Num="860" ID="bannerman" Name="«Знаменосец»" />
+    <achv ID_Num="861" ID="sauronEye" Name="«Выживший»" />
     <achv ID_Num="0" ID="unknown" Name="Неизвестно" />
   </Lang_Achievements>
   <Lang_PersonalMissions>
@@ -989,7 +1063,7 @@
         <req>• Не менее 4 раз нанести урон технике противника вашего уровня или выше.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ЛТ-12. Невидимка" short="«StuG IV»: ЛТ-12. Невидимка" desc="Хорошая маскировка — отличное подспорье для выживания в бою, а у лёгкого танка при его относительно небольших размерах маскировка действительно хорошая." tMID="12" opID="1" mID="12" setID="1" ID="quest_1_1_12_main" secID="quest_1_1_12_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1034,7 +1108,7 @@
         <req>• Уничтожить машину противника.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-2. Стрельба в упор" short="«StuG IV»: ТТ-2. Стрельба в упор" desc="Даже оказавшись в центре сражения, ваш танк способен уничтожить противника и остаться целым." tMID="17" opID="1" mID="2" setID="2" ID="quest_1_2_2_main" secID="quest_1_2_2_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1043,7 +1117,7 @@
         <req>• Уничтожить машину противника с расстояния не более 100 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-3. Всеядный" short="«StuG IV»: ТТ-3. Всеядный" desc="Докажите, что ваш танк способен уничтожить любого противника вне зависимости от типа." tMID="18" opID="1" mID="3" setID="2" ID="quest_1_2_3_main" secID="quest_1_2_3_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1052,7 +1126,7 @@
         <req>• Уничтожить не менее 2 машин противника.\n• Уничтоженная техника должна быть 2 разных типов.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-4. По болевым точкам" short="«StuG IV»: ТТ-4. По болевым точкам" desc="Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам. " tMID="19" opID="1" mID="4" setID="2" ID="quest_1_2_4_main" secID="quest_1_2_4_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1130,7 +1204,7 @@
     <PM name="ТТ-12. Броня крепка" short="«StuG IV»: ТТ-12. Броня крепка" desc="Ваша броня способна сдержать огромный урон, если научиться эффективно её использовать." tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>Чем дольше ваш танк остаётся способным сражаться, тем большую пользу вы принесёте команде.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Получить заблокированного бронёй урона не менее прочности собственной машины.\n• Нанести не менее 1000 урона.</req>
+        <req>• Получить заблокированного бронёй урона не менее прочности собственной машины.\n• Нанести не менее 1000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -1286,7 +1360,7 @@
         <req>• Лично (или суммарно взводом) уничтожить не менее 3 машин противника.\n• Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Лично (или суммарно взводом) нанести не менее 1500 урона.</req>
+        <req>• Лично (или суммарно взводом) нанести не менее 1500 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-15. Охота на охотника" short="«StuG IV»: СТ-15. Охота на охотника" desc="Уничтожение ПТ-САУ противника может переломить ход боя в вашу пользу." tMID="45" opID="1" mID="15" setID="3" ID="quest_1_3_15_main" secID="quest_1_3_15_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1340,7 +1414,7 @@
         <req>• Нанести урон машине противника с расстояния не менее 300 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ПТ-6. Точный расчёт" short="«StuG IV»: ПТ-6. Точный расчёт" desc="Попасть в движущуюся цель сложно. Сделать это с дальней дистанции ещё сложнее." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1364,7 +1438,7 @@
     <PM name="ПТ-8. Крупный калибр" short="«StuG IV»: ПТ-8. Крупный калибр" desc="Хороший навык для самоходчика — наносить существенно больше урона, чем прочность собственной машины." tMID="53" opID="1" mID="8" setID="4" ID="quest_1_4_8_main" secID="quest_1_4_8_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>Нанесение урона — залог победы. Никогда не упускайте возможности повредить технику противника, однако не действуйте во вред собственной выживаемости.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее чем в 2 раза больше урона, чем прочность собственной машины.</req>
+        <req>• Нанести технике противника не менее чем в 2 раза больше урона, чем прочность собственной машины.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -1391,7 +1465,7 @@
     <PM name="ПТ-11. Главная роль" short="«StuG IV»: ПТ-11. Главная роль" desc="С вашим мощным орудием стоит считаться. Если, конечно, вы достаточно метко стреляете." tMID="56" opID="1" mID="11" setID="4" ID="quest_1_4_11_main" secID="quest_1_4_11_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>Главной проблемой для ПТ-САУ может стать недостаточная выживаемость. Ваша машина, уничтоженная в первые минуты боя, не лучшая помощь команде.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Занять 1 место среди игроков своей команды по урону.\n• Нанести не менее 1000 урона.</req>
+        <req>• Занять 1 место среди игроков своей команды по урону.\n• Нанести не менее 1000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Выжить в бою.</req>
@@ -1400,7 +1474,7 @@
     <PM name="ПТ-12: Охотник на крупную дичь" short="«StuG IV»: ПТ-12" desc="Благодаря дальности обзора и точному орудию вы можете уничтожать противника ещё на подходе. Тяжёлый танк, попавший в ваше поле зрения, рискует заметить вас, будучи уже изрядно потрёпанным." tMID="57" opID="1" mID="12" setID="4" ID="quest_1_4_12_main" secID="quest_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>Приносите пользу команде любыми активными действиями. Если вы знаете слабые места тяжёлых танков противника, толщина их брони для вас больше не играет роли.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Уничтожить тяжёлый танк противника.\n• Нанести не менее 1000 урона.</req>
+        <req>• Уничтожить тяжёлый танк противника.\n• Нанести не менее 1000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.</req>
@@ -1439,7 +1513,7 @@
         <req>• Произвести по технике противника не менее 3 выстрелов, нанёсших урон.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-2. Скрыт и опасен" short="«StuG IV»: САУ-2. Скрыт и опасен" desc="САУ не могут полагаться на скорость или толщину брони, поэтому следует учиться оставаться незамеченной на протяжении всего боя." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1493,7 +1567,7 @@
         <req>• Уничтожить ПТ-САУ или САУ противника.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-8. По тяжёлым танкам — огонь!" short="«StuG IV»: САУ-8. По тяжёлым танкам — огонь!" desc="Тяжёлый танк — тяжёлая цель, но только не для вашего орудия. Навесная траектория полёта снаряда позволяет поражать противника в крышу, где толщина брони существенно меньше." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1520,7 +1594,7 @@
         <req>• Уничтожить 1 САУ противника и более.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1000 урона.</req>
+        <req>• Нанести не менее 1000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-11. Площадь поражения" short="«StuG IV»: САУ-11. Площадь поражения" desc="Ваш осколочно-фугасный снаряд не только способен при удачном попадании уничтожить противника с полным запасом прочности, но и нанести существенный урон нескольким целям одновременно, если они стоят вплотную одна к одной." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
@@ -1562,7 +1636,7 @@
     <PM name="САУ-15. Боги войны" short="«StuG IV»: САУ-15. Боги войны" desc="Выживание САУ — залог успеха команды. Не подставляйтесь под огонь противника и отправляйте снаряды в цель один за другим." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>Зная ТТХ своей САУ, планируйте поведение в бою. Тактика стрельбы с базы не всегда эффективна, ведь на быстрой и малозаметной САУ можно успешно менять огневую позицию и поражать противника с совершенно неожиданных для него сторон.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Попасть в топ-3 игроков своей команды по опыту и урону.\n• Нанести не менее 2000 урона.</req>
+        <req>• Попасть в топ-3 игроков своей команды по опыту и урону.\n• Нанести не менее 2000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Выжить в бою.</req>
@@ -1598,7 +1672,7 @@
     <PM name="ЛТ-4. Остановка по требованию" short="«Т28 Heavy Tank Concept»: ЛТ-4. Остановка по требованию" desc="Сбейте противнику гусеницы, тем самым обездвижив его и подставив под огонь более мощных союзных орудий. Сбив гусеницу, вы обездвижите противника на некоторое время, что позволит вам и вашей команде лучше прицеливаться по нему." tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Для того, чтобы легко сбить гусеницу, цельтесь в первый или последний катки. Помните, что если ваше орудие не способно пробить броню, оно всегда сможет сбить гусеницы. Осколочно-фугасные снаряды с этой задачей справятся лучше. Вы получите часть опыта за урон, нанесённый союзниками по обездвиженной вами технике.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Cбить гусеницу машине противника.\n• Союзники должны нанести не менее 250 единиц урона по обездвиженной вами машине, пока она не восстановила гусеницы.</req>
+        <req>• Cбить гусеницу машине противника.\n• Союзники должны нанести не менее 250 урона по обездвиженной вами машине, пока она не восстановила гусеницы.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Союзниками должно быть уничтожено не менее 1 обездвиженной вами машины.</req>
@@ -1664,7 +1738,7 @@
         <req>• Не менее 6 раз нанести урон технике противника вашего уровня или выше.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1500 урона.</req>
+        <req>• Нанести не менее 1500 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ЛТ-12. Невидимка" short="«Т28 Heavy Tank Concept»: ЛТ-12. Невидимка" desc="Хорошая маскировка — отличное подспорье для выживания в бою, а у лёгкого танка при его относительно небольших размерах маскировка действительно хорошая." tMID="87" opID="2" mID="12" setID="1" ID="quest_2_1_12_main" secID="quest_2_1_12_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -1709,7 +1783,7 @@
         <req>• Уничтожить не менее 2 машин противника.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-2. Стрельба в упор" short="«Т28 Heavy Tank Concept»: ТТ-2. Стрельба в упор" desc="Даже оказавшись в центре сражения, ваш танк способен уничтожить противника и остаться целым." tMID="92" opID="2" mID="2" setID="2" ID="quest_2_2_2_main" secID="quest_2_2_2_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -1718,7 +1792,7 @@
         <req>• Уничтожить не менее 2 машин противника с расстояния не более 100 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-3. Всеядный" short="«Т28 Heavy Tank Concept»: ТТ-3. Всеядный" desc="Докажите, что ваш танк способен уничтожить любого противника вне зависимости от типа." tMID="93" opID="2" mID="3" setID="2" ID="quest_2_2_3_main" secID="quest_2_2_3_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -1727,7 +1801,7 @@
         <req>• Уничтожить не менее 3 машин противника.\n• Уничтоженная техника должна быть 2 разных типов.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-4. По болевым точкам" short="«Т28 Heavy Tank Concept»: ТТ-4. По болевым точкам" desc="Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам. " tMID="94" opID="2" mID="4" setID="2" ID="quest_2_2_4_main" secID="quest_2_2_4_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -1805,7 +1879,7 @@
     <PM name="ТТ-12. Броня крепка" short="«Т28 Heavy Tank Concept»: ТТ-12. Броня крепка" desc="Ваша броня способна сдержать огромный урон, если научиться эффективно её использовать." tMID="102" opID="2" mID="12" setID="2" ID="quest_2_2_12_main" secID="quest_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Чем дольше ваш танк остаётся способным сражаться, тем большую пользу вы принесёте команде.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Получить заблокированного бронёй урона в 2 раза больше прочности собственной машины.\n• Нанести не менее 1500 урона.</req>
+        <req>• Получить заблокированного бронёй урона в 2 раза больше прочности собственной машины.\n• Нанести не менее 1500 урона технике противника.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -1859,7 +1933,7 @@
     <PM name="СТ-3. На острие атаки" short="«Т28 Heavy Tank Concept»: СТ-3. На острие атаки" desc="Средние танки — подвижные боевые машины с достойным вооружением." tMID="108" opID="2" mID="3" setID="3" ID="quest_2_3_3_main" secID="quest_2_3_3_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Прорвитесь в тыл вместе с союзниками и устройте там переполох — это отвлечёт внимание противника.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 750 урона машинам противника в первые 2 минуты боя.</req>
+        <req>• Нанести не менее 750 урона технике противника в первые 2 минуты боя.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Выжить в бою.</req>
@@ -1961,7 +2035,7 @@
         <req>• Лично (или суммарно взводом) уничтожить не менее 4 машин противника.\n• Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Лично (или суммарно взводом) нанести не менее 2000 урона.</req>
+        <req>• Лично (или суммарно взводом) нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-15. Охота на охотника" short="«Т28 Heavy Tank Concept»: СТ-15. Охота на охотника" desc="Уничтожение ПТ-САУ противника может переломить ход боя в вашу пользу." tMID="120" opID="2" mID="15" setID="3" ID="quest_2_3_15_main" secID="quest_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -2015,7 +2089,7 @@
         <req>• Уничтожить машину противника с расстояния не менее 300 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ПТ-6. Точный расчёт" short="«Т28 Heavy Tank Concept»: ПТ-6. Точный расчёт" desc="Попасть в движущуюся цель сложно. Сделать это с дальней дистанции ещё сложнее." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -2039,7 +2113,7 @@
     <PM name="ПТ-8. Крупный калибр" short="«Т28 Heavy Tank Concept»: ПТ-8. Крупный калибр" desc="Хороший навык для самоходчика — наносить существенно больше урона, чем прочность собственной машины." tMID="128" opID="2" mID="8" setID="4" ID="quest_2_4_8_main" secID="quest_2_4_8_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Нанесение урона — залог победы. Никогда не упускайте возможности повредить технику противника, однако не действуйте во вред собственной выживаемости.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее чем в 3 раза больше урона, чем прочность собственной машины.</req>
+        <req>• Нанести технике противника не менее чем в 3 раза больше урона, чем прочность собственной машины.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -2066,7 +2140,7 @@
     <PM name="ПТ-11. Главная роль" short="«Т28 Heavy Tank Concept»: ПТ-11. Главная роль" desc="С вашим мощным орудием стоит считаться. Если, конечно, вы достаточно метко стреляете." tMID="131" opID="2" mID="11" setID="4" ID="quest_2_4_11_main" secID="quest_2_4_11_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Главной проблемой для ПТ-САУ может стать недостаточная выживаемость. Ваша машина, уничтоженная в первые минуты боя, не лучшая помощь команде.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Занять 1 место среди игроков своей команды по урону.\n• Нанести не менее 2000 урона.</req>
+        <req>• Занять 1 место среди игроков своей команды по урону.\n• Нанести не менее 2000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Выжить в бою.</req>
@@ -2075,7 +2149,7 @@
     <PM name="ПТ-12: Охотник на крупную дичь" short="«Т28 Heavy Tank Concept»: ПТ-12" desc="Благодаря дальности обзора и точному орудию вы можете уничтожать противника ещё на подходе. Тяжёлый танк, попавший в ваше поле зрения, рискует заметить вас, будучи уже изрядно потрёпанным." tMID="132" opID="2" mID="12" setID="4" ID="quest_2_4_12_main" secID="quest_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Приносите пользу команде любыми активными действиями. Если вы знаете слабые места тяжёлых танков противника, толщина их брони для вас больше не играет роли.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Уничтожить тяжёлый танк противника на уровень выше.\n• Нанести не менее 2000 урона.</req>
+        <req>• Уничтожить тяжёлый танк противника на уровень выше.\n• Нанести не менее 2000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Победить в бою.</req>
@@ -2114,7 +2188,7 @@
         <req>• Произвести по технике противника не менее 4 выстрелов, нанёсших урон.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-2. Скрыт и опасен" short="«Т28 Heavy Tank Concept»: САУ-2. Скрыт и опасен" desc="САУ не могут полагаться на скорость или толщину брони, поэтому следует учиться оставаться незамеченной на протяжении всего боя." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -2168,7 +2242,7 @@
         <req>• Уничтожить ПТ-САУ или САУ противника на уровень выше.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-8. По тяжёлым танкам — огонь!" short="«Т28 Heavy Tank Concept»: САУ-8. По тяжёлым танкам — огонь!" desc="Тяжёлый танк — тяжёлая цель, но только не для вашего орудия. Навесная траектория полёта снаряда позволяет поражать противника в крышу, где толщина брони существенно меньше." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -2195,7 +2269,7 @@
         <req>• Уничтожить не менее 2 САУ противника.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-11. Площадь поражения" short="«Т28 Heavy Tank Concept»: САУ-11. Площадь поражения" desc="Ваш осколочно-фугасный снаряд не только способен при удачном попадании уничтожить противника с полным запасом прочности, но и нанести существенный урон нескольким целям одновременно, если они стоят вплотную одна к одной." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
@@ -2237,7 +2311,7 @@
     <PM name="САУ-15. Боги войны" short="«Т28 Heavy Tank Concept»: САУ-15. Боги войны" desc="Выживание САУ — залог успеха команды. Не подставляйтесь под огонь противника и отправляйте снаряды в цель один за другим." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>Зная ТТХ своей САУ, планируйте поведение в бою. Тактика стрельбы с базы не всегда эффективна, ведь на быстрой и малозаметной САУ можно успешно менять огневую позицию и поражать противника с совершенно неожиданных для него сторон.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Попасть в топ-3 игроков обеих команд по опыту и урону.\n• Нанести не менее 2000 урона.</req>
+        <req>• Попасть в топ-3 игроков обеих команд по опыту и урону.\n• Нанести не менее 2000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Выжить в бою.</req>
@@ -2339,7 +2413,7 @@
         <req>• Не менее 10 раз нанести урон технике противника вашего уровня или выше.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ЛТ-12. Невидимка" short="«Т 55A»: ЛТ-12. Невидимка" desc="Хорошая маскировка — отличное подспорье для выживания в бою, а у лёгкого танка при его относительно небольших размерах маскировка действительно хорошая." tMID="162" opID="3" mID="12" setID="1" ID="quest_3_1_12_main" secID="quest_3_1_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2384,7 +2458,7 @@
         <req>• Уничтожить не менее 3 машин противника.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-2. Стрельба в упор" short="«Т 55A»: ТТ-2. Стрельба в упор" desc="Даже оказавшись в центре сражения, ваш танк способен уничтожить противника и остаться целым." tMID="167" opID="3" mID="2" setID="2" ID="quest_3_2_2_main" secID="quest_3_2_2_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2393,7 +2467,7 @@
         <req>• Уничтожить не менее 3 машин противника с расстояния не более 100 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-3. Всеядный" short="«Т 55A»: ТТ-3. Всеядный" desc="Докажите, что ваш танк способен уничтожить любого противника вне зависимости от типа." tMID="168" opID="3" mID="3" setID="2" ID="quest_3_2_3_main" secID="quest_3_2_3_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2402,7 +2476,7 @@
         <req>• Уничтожить не менее 4 машин противника.\n• Уничтоженная техника должна быть 3 разных типов.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-4. По болевым точкам" short="«Т 55A»: ТТ-4. По болевым точкам" desc="Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам. " tMID="169" opID="3" mID="4" setID="2" ID="quest_3_2_4_main" secID="quest_3_2_4_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2429,7 +2503,7 @@
         <req>• Уничтожить не менее 2 тяжёлых танков противника на уровень выше.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-7. Всё под контролем" short="«Т 55A»: ТТ-7. Всё под контролем" desc="Ещё одна тактика для тяжёлых танков — прорыв. Пробейтесь через ряды обороняющегося противника и захватите его базу, но не забывайте, что тоже самое может сделать и он." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2480,7 +2554,7 @@
     <PM name="ТТ-12. Броня крепка" short="«Т 55A»: ТТ-12. Броня крепка" desc="Ваша броня способна сдержать огромный урон, если научиться эффективно её использовать." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
       <Hint>Чем дольше ваш танк остаётся способным сражаться, тем большую пользу вы принесёте команде.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Получить заблокированного бронёй урона в 3 раза больше прочности собственной машины.\n• Нанести не менее 2000 урона.</req>
+        <req>• Получить заблокированного бронёй урона в 3 раза больше прочности собственной машины.\n• Нанести не менее 2000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -2582,7 +2656,7 @@
         <req>• Выстрелами не менее 6 раз нанести урон средним танкам противника.\n• Уничтожить средний танк противника.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 1500 урона.</req>
+        <req>• Нанести не менее 1500 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-9. Достойный противник" short="«Т 55A»: СТ-9. Достойный противник" desc="Успешная охота за тяжёлыми танками — сложное, но полезное для команды занятие." tMID="189" opID="3" mID="9" setID="3" ID="quest_3_3_9_main" secID="quest_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2591,7 +2665,7 @@
         <req>• Уничтожить тяжёлый танк противника на 2 уровня выше.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Выжить в бою.\n• Победить в бою.\n• Нанести не менее 1500 урона.</req>
+        <req>• Выжить в бою.\n• Победить в бою.\n• Нанести не менее 1500 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-10. Универсальный боец" short="«Т 55A»: СТ-10. Универсальный боец" desc="Средний танк хорош на любой карте и против любого противника. Изучив особенности своей машины, вы поймёте, как следует действовать в той или иной ситуации." tMID="190" opID="3" mID="10" setID="3" ID="quest_3_3_10_main" secID="quest_3_3_10_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2636,7 +2710,7 @@
         <req>• Лично (или суммарно взводом) уничтожить не менее 6 машин противника.\n• Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Лично (или суммарно взводом) нанести не менее 3000 урона.</req>
+        <req>• Лично (или суммарно взводом) нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-15. Охота на охотника" short="«Т 55A»: СТ-15. Охота на охотника" desc="Уничтожение ПТ-САУ противника может переломить ход боя в вашу пользу." tMID="195" opID="3" mID="15" setID="3" ID="quest_3_3_15_main" secID="quest_3_3_15_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2645,7 +2719,7 @@
         <req>• Уничтожить не менее 2 ПТ-САУ противника на уровень выше.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
-        <req>• Выжить в бою.\n• Победить в бою.\n• Нанести не менее 2000 урона.</req>
+        <req>• Выжить в бою.\n• Победить в бою.\n• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ПТ-1. Эффективные действия" short="«Т 55A»: ПТ-1. Эффективные действия" desc="ПТ-САУ — хороший выбор для тех, кому нравится уничтожать противника с дальней дистанции." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2690,7 +2764,7 @@
         <req>• Уничтожить не менее 2 машин противника с расстояния не менее 300 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ПТ-6. Точный расчёт" short="«Т 55A»: ПТ-6. Точный расчёт" desc="Попасть в движущуюся цель сложно. Сделать это с дальней дистанции ещё сложнее." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2714,7 +2788,7 @@
     <PM name="ПТ-8. Крупный калибр" short="«Т 55A»: ПТ-8. Крупный калибр" desc="Хороший навык для самоходчика — наносить существенно больше урона, чем прочность собственной машины." tMID="203" opID="3" mID="8" setID="4" ID="quest_3_4_8_main" secID="quest_3_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
       <Hint>Нанесение урона — залог победы. Никогда не упускайте возможности повредить технику противника, однако не действуйте во вред собственной выживаемости.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее чем в 4 раза больше урона, чем прочность собственной машины.</req>
+        <req>• Нанести технике противника не менее чем в 4 раза больше урона, чем прочность собственной машины.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -2741,7 +2815,7 @@
     <PM name="ПТ-11. Главная роль" short="«Т 55A»: ПТ-11. Главная роль" desc="С вашим мощным орудием стоит считаться. Если, конечно, вы достаточно метко стреляете." tMID="206" opID="3" mID="11" setID="4" ID="quest_3_4_11_main" secID="quest_3_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
       <Hint>Главной проблемой для ПТ-САУ может стать недостаточная выживаемость. Ваша машина, уничтоженная в первые минуты боя, не лучшая помощь команде.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Занять 1 место среди игроков обеих команд по урону.\n• Нанести не менее 3000 урона.</req>
+        <req>• Занять 1 место среди игроков обеих команд по урону.\n• Нанести не менее 3000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Выжить в бою.</req>
@@ -2750,7 +2824,7 @@
     <PM name="ПТ-12: Охотник на крупную дичь" short="«Т 55A»: ПТ-12" desc="Благодаря дальности обзора и точному орудию вы можете уничтожать противника ещё на подходе. Тяжёлый танк, попавший в ваше поле зрения, рискует заметить вас, будучи уже изрядно потрёпанным." tMID="207" opID="3" mID="12" setID="4" ID="quest_3_4_12_main" secID="quest_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
       <Hint>Приносите пользу команде любыми активными действиями. Если вы знаете слабые места тяжёлых танков противника, толщина их брони для вас больше не играет роли.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Уничтожить не менее 2 тяжёлых танков противника.\n• Нанести не менее 3000 урона.</req>
+        <req>• Уничтожить не менее 2 тяжёлых танков противника.\n• Нанести не менее 3000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -2789,7 +2863,7 @@
         <req>• Произвести по технике противника не менее 5 выстрелов, нанёсших урон.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-2. Скрыт и опасен" short="«Т 55A»: САУ-2. Скрыт и опасен" desc="САУ не могут полагаться на скорость или толщину брони, поэтому следует учиться оставаться незамеченной на протяжении всего боя." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2843,7 +2917,7 @@
         <req>• Уничтожить суммарно не менее 2 ПТ-САУ или САУ противника.\n• Победить в бою.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-8. По тяжёлым танкам — огонь!" short="«Т 55A»: САУ-8. По тяжёлым танкам — огонь!" desc="Тяжёлый танк — тяжёлая цель, но только не для вашего орудия. Навесная траектория полёта снаряда позволяет поражать противника в крышу, где толщина брони существенно меньше." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2870,7 +2944,7 @@
         <req>• Уничтожить САУ противника, которая ещё не была обнаружена.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-11. Площадь поражения" short="«Т 55A»: САУ-11. Площадь поражения" desc="Ваш осколочно-фугасный снаряд не только способен при удачном попадании уничтожить противника с полным запасом прочности, но и нанести существенный урон нескольким целям одновременно, если они стоят вплотную одна к одной." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
@@ -2912,7 +2986,7 @@
     <PM name="САУ-15. Боги войны" short="«Т 55A»: САУ-15. Боги войны" desc="Выживание САУ — залог успеха команды. Не подставляйтесь под огонь противника и отправляйте снаряды в цель один за другим." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т 55A»">
       <Hint>Зная ТТХ своей САУ, планируйте поведение в бою. Тактика стрельбы с базы не всегда эффективна, ведь на быстрой и малозаметной САУ можно успешно менять огневую позицию и поражать противника с совершенно неожиданных для него сторон.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Занять 1 место среди игроков своей команды по опыту и урону.\n• Нанести не менее 3000 урона.</req>
+        <req>• Занять 1 место среди игроков своей команды по опыту и урону.\n• Нанести не менее 3000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Выжить в бою.</req>
@@ -2948,7 +3022,7 @@
     <PM name="ЛТ-4. Остановка по требованию" short="«Объект 260»: ЛТ-4. Остановка по требованию" desc="Сбейте противнику гусеницы, тем самым обездвижив его и подставив под огонь более мощных союзных орудий. Сбив гусеницу, вы обездвижите противника на некоторое время, что позволит вам и вашей команде лучше прицеливаться по нему." tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Для того, чтобы легко сбить гусеницу, цельтесь в первый или последний катки. Помните, что если ваше орудие не способно пробить броню, оно всегда сможет сбить гусеницы. Осколочно-фугасные снаряды с этой задачей справятся лучше. Вы получите часть опыта за урон, нанесённый союзниками по обездвиженной вами технике.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Cбить гусеницу не менее 3 машинам противника.\n• Союзники должны нанести не менее 500 единиц урона по обездвиженным вами машинам, пока они не восстановили гусеницы.</req>
+        <req>• Cбить гусеницу не менее 3 машинам противника.\n• Союзники должны нанести не менее 500 урона по обездвиженным вами машинам, пока они не восстановили гусеницы.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Союзниками должно быть уничтожено не менее 2 обездвиженных вами машин.</req>
@@ -3002,7 +3076,7 @@
     <PM name="ЛТ-10. Максимальный результат" short="«Объект 260»: ЛТ-10. Максимальный результат" desc="Чем эффективнее действия в бою, тем больше опыта начислят по его итогам. Покажите, на что способен ваш лёгкий танк!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Старайтесь не ошибаться во время боя, но не мешайте ошибаться противнику.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Занять 1 место по опыту среди обеих команд.\n• Выжить в бою.\n• Не получить никакого урона в бою.</req>
+        <req>• Занять 1 место среди игроков обеих команд по опыту.\n• Выжить в бою.\n• Не получить никакого урона в бою.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.</req>
@@ -3014,7 +3088,7 @@
         <req>• Не менее 12 раз нанести урон технике противника вашего уровня или выше.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2500 урона.</req>
+        <req>• Нанести не менее 2500 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ЛТ-12. Невидимка" short="«Объект 260»: ЛТ-12. Невидимка" desc="Хорошая маскировка — отличное подспорье для выживания в бою, а у лёгкого танка при его относительно небольших размерах маскировка действительно хорошая." tMID="237" opID="4" mID="12" setID="1" ID="quest_4_1_12_main" secID="quest_4_1_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3059,7 +3133,7 @@
         <req>• Уничтожить не менее 5 машин противника.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-2. Стрельба в упор" short="«Объект 260»: ТТ-2. Стрельба в упор" desc="Даже оказавшись в центре сражения, ваш танк способен уничтожить противника и остаться целым." tMID="242" opID="4" mID="2" setID="2" ID="quest_4_2_2_main" secID="quest_4_2_2_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3068,7 +3142,7 @@
         <req>• Уничтожить не менее 4 машин противника с расстояния не более 100 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-3. Всеядный" short="«Объект 260»: ТТ-3. Всеядный" desc="Докажите, что ваш танк способен уничтожить любого противника вне зависимости от типа." tMID="243" opID="4" mID="3" setID="2" ID="quest_4_2_3_main" secID="quest_4_2_3_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3077,7 +3151,7 @@
         <req>• Уничтожить не менее 6 машин противника.\n• Уничтоженная техника должна быть 3 разных типов.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-4. По болевым точкам" short="«Объект 260»: ТТ-4. По болевым точкам" desc="Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам. " tMID="244" opID="4" mID="4" setID="2" ID="quest_4_2_4_main" secID="quest_4_2_4_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3104,7 +3178,7 @@
         <req>• Уничтожить не менее 2 тяжёлых танков противника на 2 уровня выше.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 3000 урона.</req>
+        <req>• Нанести не менее 3000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ТТ-7. Всё под контролем" short="«Объект 260»: ТТ-7. Всё под контролем" desc="Ещё одна тактика для тяжёлых танков — прорыв. Пробейтесь через ряды обороняющегося противника и захватите его базу, но не забывайте, что тоже самое может сделать и он." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3155,7 +3229,7 @@
     <PM name="ТТ-12. Броня крепка" short="«Объект 260»: ТТ-12. Броня крепка" desc="Ваша броня способна сдержать огромный урон, если научиться эффективно её использовать." tMID="252" opID="4" mID="12" setID="2" ID="quest_4_2_12_main" secID="quest_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Чем дольше ваш танк остаётся способным сражаться, тем большую пользу вы принесёте команде.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Получить заблокированного бронёй урона в 3 раза больше прочности собственной машины.\n• Нанести не менее 3000 урона.</req>
+        <req>• Получить заблокированного бронёй урона в 3 раза больше прочности собственной машины.\n• Нанести не менее 3000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -3257,7 +3331,7 @@
         <req>• Уничтожить средний танк противника на 2 уровня выше.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 2000 урона.</req>
+        <req>• Нанести не менее 2000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-9. Достойный противник" short="«Объект 260»: СТ-9. Достойный противник" desc="Успешная охота за тяжёлыми танками — сложное, но полезное для команды занятие." tMID="264" opID="4" mID="9" setID="3" ID="quest_4_3_9_main" secID="quest_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3311,7 +3385,7 @@
         <req>• Лично (или суммарно взводом) уничтожить не менее 8 машин противника.\n• Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Лично (или суммарно взводом) нанести не менее 4000 урона.</req>
+        <req>• Лично (или суммарно взводом) нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="СТ-15. Охота на охотника" short="«Объект 260»: СТ-15. Охота на охотника" desc="Уничтожение ПТ-САУ противника может переломить ход боя в вашу пользу." tMID="270" opID="4" mID="15" setID="3" ID="quest_4_3_15_main" secID="quest_4_3_15_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3365,7 +3439,7 @@
         <req>• Уничтожить не менее 3 машин противника с расстояния не менее 300 метров.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="ПТ-6. Точный расчёт" short="«Объект 260»: ПТ-6. Точный расчёт" desc="Попасть в движущуюся цель сложно. Сделать это с дальней дистанции ещё сложнее." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3389,7 +3463,7 @@
     <PM name="ПТ-8. Крупный калибр" short="«Объект 260»: ПТ-8. Крупный калибр" desc="Хороший навык для самоходчика — наносить существенно больше урона, чем прочность собственной машины." tMID="278" opID="4" mID="8" setID="4" ID="quest_4_4_8_main" secID="quest_4_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Нанесение урона — залог победы. Никогда не упускайте возможности повредить технику противника, однако не действуйте во вред собственной выживаемости.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее чем в 5 раз больше урона, чем прочность собственной машины.</req>
+        <req>• Нанести технике противника не менее чем в 5 раз больше урона, чем прочность собственной машины.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -3416,7 +3490,7 @@
     <PM name="ПТ-11. Главная роль" short="«Объект 260»: ПТ-11. Главная роль" desc="С вашим мощным орудием стоит считаться. Если, конечно, вы достаточно метко стреляете." tMID="281" opID="4" mID="11" setID="4" ID="quest_4_4_11_main" secID="quest_4_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Главной проблемой для ПТ-САУ может стать недостаточная выживаемость. Ваша машина, уничтоженная в первые минуты боя, не лучшая помощь команде.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Занять 1 место среди игроков обеих команд по урону.\n• Нанести не менее 4000 урона.</req>
+        <req>• Занять 1 место среди игроков обеих команд по урону.\n• Нанести не менее 4000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Выжить в бою.</req>
@@ -3425,7 +3499,7 @@
     <PM name="ПТ-12: Охотник на крупную дичь" short="«Объект 260»: ПТ-12" desc="Благодаря дальности обзора и точному орудию вы можете уничтожать противника ещё на подходе. Тяжёлый танк, попавший в ваше поле зрения, рискует заметить вас, будучи уже изрядно потрёпанным." tMID="282" opID="4" mID="12" setID="4" ID="quest_4_4_12_main" secID="quest_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Приносите пользу команде любыми активными действиями. Если вы знаете слабые места тяжёлых танков противника, толщина их брони для вас больше не играет роли.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Уничтожить не менее 3 тяжёлых танков противника.\n• Нанести не менее 4000 урона.</req>
+        <req>• Уничтожить не менее 3 тяжёлых танков противника.\n• Нанести не менее 4000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Победить в бою.\n• Выжить в бою.</req>
@@ -3464,7 +3538,7 @@
         <req>• Произвести по технике противника не менее 6 выстрелов, нанёсших урон.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-2. Скрыт и опасен" short="«Объект 260»: САУ-2. Скрыт и опасен" desc="САУ не могут полагаться на скорость или толщину брони, поэтому следует учиться оставаться незамеченной на протяжении всего боя." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3518,7 +3592,7 @@
         <req>• Уничтожить суммарно не менее 3 ПТ-САУ или САУ противника.\n• Победить в бою.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-8. По тяжёлым танкам — огонь!" short="«Объект 260»: САУ-8. По тяжёлым танкам — огонь!" desc="Тяжёлый танк — тяжёлая цель, но только не для вашего орудия. Навесная траектория полёта снаряда позволяет поражать противника в крышу, где толщина брони существенно меньше." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3545,7 +3619,7 @@
         <req>• Уничтожить не менее 2 САУ противника, которые ещё не были обнаружены.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Нанести не менее 4000 урона.</req>
+        <req>• Нанести не менее 4000 урона технике противника.</req>
       </Secondary>
     </PM>
     <PM name="САУ-11. Площадь поражения" short="«Объект 260»: САУ-11. Площадь поражения" desc="Ваш осколочно-фугасный снаряд не только способен при удачном попадании уничтожить противника с полным запасом прочности, но и нанести существенный урон нескольким целям одновременно, если они стоят вплотную одна к одной." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
@@ -3587,7 +3661,7 @@
     <PM name="САУ-15. Боги войны" short="«Объект 260»: САУ-15. Боги войны" desc="Выживание САУ — залог успеха команды. Не подставляйтесь под огонь противника и отправляйте снаряды в цель один за другим." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>Зная ТТХ своей САУ, планируйте поведение в бою. Тактика стрельбы с базы не всегда эффективна, ведь на быстрой и малозаметной САУ можно успешно менять огневую позицию и поражать противника с совершенно неожиданных для него сторон.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Занять 1 место среди игроков обеих команд по опыту и урону.\n• Нанести не менее 3000 урона.</req>
+        <req>• Занять 1 место среди игроков обеих команд по опыту и урону.\n• Нанести не менее 3000 урона технике противника.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Выжить в бою.</req>
