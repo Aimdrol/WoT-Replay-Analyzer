@@ -3703,5 +3703,275 @@
         <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
+    <PM name="SH-1: A fölény színei" short="T-22 medium: SH-1" desc="A leszállított vagy megsemmisített zászló fontos mérföldkő a győzelem felé tartó úton. Szánj rá időt és fedezd fel a pályát, hogy megtaláld a legbiztonságosabb és leggyorsabb útvonalat a zászló szállításához." tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A nagysebességű járművek a leghatékonyabb zászló vadászok. A zászló szállítása közben próbálj cikk-cakkban mozogni és egyéb kiszámíthatatlan mozdulatokat tenni, így nehezebben találnak el.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le vagy semmisíts meg legalább 2 zászlót.\n• A zászlók csak a szakasz csatákban jelennek meg.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 7 000 életpont sebzést az ellenséges járműveknek lövéssel vagy ütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-2: Égszakadás" short="T-22 medium: SH-2" desc="Ha a csata rázóssá válik, használj harci tartalékokat. Kérj bölcsen tüzérségi tüzet és légicsapást és ne feledkezz meg róla, hogy időbe telik, míg újból használhatod." tMID="302" opID="5" mID="2" setID="1" ID="fallout_5_1_2_main" secID="fallout_5_1_2_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A harci tartalékokkal okozott sebzés hozzáadódik a személyes pontszámodhoz. Sebesítsd meg vagy lődd ki az ellenséges járműveket tüzérségi tűzzel és légicsapással győzelmi pontok szerzéséhez.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Szerezz legalább 100 győzelmi pontot.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 1 000 életpont sebzést harci tartalékok használatával.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-3: Lődd le a hírvivőt" short="T-22 medium: SH-3" desc="Minden ellenség által leszállított zászló közelebb viszi őket a győzelemhez, ami bizonyára nem az, amit akarsz. Összpontosítsd a lövéseid - ne engedd, hogy a zászlóvivő elérje a bázist." tMID="303" opID="5" mID="3" setID="1" ID="fallout_5_1_3_main" secID="fallout_5_1_3_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Több pontot kapsz egy zászló leszállításáért, mint egy ellenséges jármű kilövéséért. Amikor csak lehetséges, a zászlóvivő elfogása mindig kifizetődőbb, mint tűzharcba keveredni.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 1 ellenséges járművet, ami zászlót visz, lövéssel vagy ütközéssel.\n• A zászlók csak a szakasz csatákban jelennek meg.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Szerezz legalább 1 500 XP-t csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-4: Első a harcban" short="T-22 medium: SH-4" desc="Próbáld elkerülni a hibákat a front vonalban: nincs sok idő taktikai tervezésre és az ellenfelet gyorsan és határozottan kell megsemmisíteni." tMID="304" opID="5" mID="4" setID="1" ID="fallout_5_1_4_main" secID="fallout_5_1_4_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Jó ötlet lehet elsőre táras járművet választani, amíg teljesíted ezt a küldetést. Egy teljes tár elegendő lőszert tartalmaz szinte bármely ellenséges jármű megsemmisítéséhez.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg 1 ellenséges járművet a csata első 2 percében, lövéssel vagy ütközéssel.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Ne veszíts el 3 járműnél többet a csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-5: Harcra készen" short="T-22 medium: SH-5" desc="A siker érdekében próbálj higgadtan célozni. Minden mellé ment, lepattanó és nem átütő lövés csökkenti az esélyét, hogy te oszd ki a legtöbb sebzést." tMID="305" opID="5" mID="5" setID="1" ID="fallout_5_1_5_main" secID="fallout_5_1_5_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Fontold meg a nagy tűzerejű jármű választását. Légy óvatos: a javítás ideje a járművek sebzésével töltött időből vesz el.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 6 000 életpont sebzést az ellenséges járműveknek lövéssel vagy ütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 4 ellenséges járművet lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-6: Thor kalapácsa" short="T-22 medium: SH-6" desc="Ne becsüld le a harci tartalékokat: ha megfelelően használod őket, jelentős károkat okozhatsz az ellenséges járművekben." tMID="306" opID="5" mID="6" setID="1" ID="fallout_5_1_6_main" secID="fallout_5_1_6_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Használd a harci tartalékokat szűk részeken, hogy megnehezítsd az ellenségnek a manőverezést és a fenyegető pusztulás elkerülését. Akár a saját járműveddel is akadályozhatod az ellenfelet, de próbáld elkerülni a találatokat a saját harci tartalékodtól.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 2 000 életerő sebzést harci tartalékok használatával.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 4 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-7: Tüzet viszonozz 1. rész" short="T-22 medium: SH-7" desc="Tartalékold az életerőd. Emlékezz: egy kilőtt jármű sem sebzést kiosztani, sem zászlót szállítani nem tud." tMID="307" opID="5" mID="7" setID="1" ID="fallout_5_1_7_main" secID="fallout_5_1_7_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Egy meggondolatlan kirohanás az ellenségre csak azt eredményezi, hogy gyorsabban kilőnek, mint hogy azt mondhatnád \"Upsz\". Ehelyett próbálj meg kiosonni a zászlóval és biztonságban leszállítani a bázisodra.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 8 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Szállíts le vagy semmisíts meg legalább 2 zászlót.\n• A zászlók csak a szakasz csatákban jelennek meg.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 5 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-8: Ütőkártya" short="T-22 medium: SH-8" desc="Egy jó időben és jó helyre behívott tüzérségi vagy légi csapással bármelyik tűzharcot a javadra billentheted." tMID="308" opID="5" mID="8" setID="1" ID="fallout_5_1_8_main" secID="fallout_5_1_8_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Hogy teljesítsd ezt a küldetést, keress olyan sérült járműveket, melyeket néhány jól irányzott lövéssel megsemmisíthetsz. Tartsd észben, hogy mindig maradj távol a szövetséges tüzérségi és légi csapásoktól.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 3 ellenséges járművet harci tartalékok használatával.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szerezz legalább 1 700 XP-t csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-9: Szabotázs" short="T-22 medium: SH-9" desc="Az ellenséges járműveknek sérülést okozhatsz sebzés bevitelével, vagy a moduljaik megsebzésével és megsemmisítésével. Minden kritikus találat csökkenti az ellenség harci erejét." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A mesterlövész képzettség növeli a kritikus találatok esélyét, megkönnyítve az életed. Emlékezz: a toronygyűrű, a motor, az üzemanyagtartályok, a lőszertartó és a rádió a jármű belső moduljai.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz sérülést vagy semmisítsd meg az ellenséges jármű belső moduljait vagy sebesítsd meg a legénység tagjait, összesen 12 modult és legénységi tagot.\n• A harci tartalékok használatával okozott sebzés nem számít.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 8 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-10: Mindnek el kell buknia" short="T-22 medium: SH-10" desc="Az egyes járművek gyengepontjainak ismerete a kulcs a sikeres összecsapáshoz. Emlékezz: a nehéz tankok robosztus páncélzattal rendelkeznek, a páncélvadászok az álcázásra támaszkodnak, míg a könnyű és közepes tankok gyorsak és jól manőverezhetők. Mindegyik ellenséges járműtípus más-más taktikát igényel, hogy legyőzd őket." tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Nézz a hátad mögé: a gyors ellenfelek megkerülhetnek, könnyű prédává téve a járműved. Légy rendkívül óvatos, ha nyílt területen haladsz át, mert a páncélvadászok tűz alá vehetnek a nagy kaliberű lövegükkel.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 10 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 1 500 életerő sebzést harci tartalékok használatával.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-11: Tüzet viszonozz 2. rész" short="T-22 medium: SH-11" desc="1. szabály: Túlélés. Reagálj minden ellenséges lövésre, használj ravasz taktikákat, kerüld meg őket és járj túl az ellenség eszén." tMID="311" opID="5" mID="11" setID="1" ID="fallout_5_1_11_main" secID="fallout_5_1_11_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Keresd a sérült ellenséges járműveket ahelyett, hogy a teljes életerővel rendelkező járműveket próbálnád kilőni.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább háromszor annyi ellenséges járművet kilövéssel vagy összeütközéssel, mint amennyi járművet elvesztettél a csatában.\n• Semmisíts meg legalább 7 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szerezz legalább 1 800 XP-t csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-12: A bőröd alatt" short="T-22 medium: SH-12" desc="Még a legszívósabb fenevad is megállítható egyetlen lövéssel, ha tudod hova lőj. A nehéz páncélzat csak kis probléma egy képzett lövésznek." tMID="312" opID="5" mID="12" setID="1" ID="fallout_5_1_12_main" secID="fallout_5_1_12_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A prémium lőszerek használata lehetővé teszi, hogy sérülést okozz a legjobban páncélozott ellenfeleknek is.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 8 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Okozz legalább 6 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Ne veszíts el 2 járműnél többet a csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-13: Közelről és személyesen" short="T-22 medium: SH-13" desc="A közelharci taktikák meglehetősen eltérnek a távolsági harctól: a járművednek korlátozott helye van a manőverezéshez és az ellenfél kaphat egy szerencsés találatot. Néhány pályán az egyetlen esély a sebzés okozására, hogy olyan közel kerülsz az ellenséghez amennyire csak lehet." tMID="313" opID="5" mID="13" setID="1" ID="fallout_5_1_13_main" secID="fallout_5_1_13_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Maradj mozgásban! Kapcsold be az automata célzást, hogy könnyebben célozz mozgás közben (alapértelmezetten kattints jobb gombbal, miközben az ellenségre célzol).</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 12 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 5 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-14: A csata hevében" short="T-22 medium: SH-14" desc="Tapasztalati pontot kapsz a leszállított vagy megsemmisített zászlókért, a felderítésért, sebzés kiosztásáért és az ellenséges járművek kilövéséért. Mutasd meg, mire vagy képes és szerezz annyi tapasztalati pontot, amennyit csak tudsz." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Kerüld el a kereszttüzet és a direkt ellenséges lövéseket. Lebegj, mint egy pillangó és szúrj, mint egy méh.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 10 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Ne veszíts járművet a csata során.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 1 500 életerő sebzést harci tartalékok használatával.</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-15: Sakk-matt" short="T-22 medium: SH-15" desc="Eljött a dicsőséges pillanatod! Felfedezted a pályákat és megtanultad, hogy mire számíts az ellenséges járművektől. Ideje tesztelni a bátorságod." tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Szánj időt a járművek, a felszerelés és a fogyócikkek kiválasztására. Fontold meg a prémium lőszerek használatát. Győződj meg róla, hogy képzett legénységgel indulsz csatába. Harcra fel!</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
+        <req>• Végezz az első helyen a csatában az elért XP és győzelmi pont alapján.\n• Okozz legalább 12 000 életpont sebzést az ellenséges járműveknek lövéssel vagy ütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="250000" slots="0" tokens="0" done="false">
+        <req>•  Semmisíts meg legalább 7 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-1: Csapatjátékos" short="T-22 medium: D-1" desc="Sérülés okozása, az ellenséges járművek megsemmisítése és a zászlók leszállítása győzelmi pontokat ér. Minél többet teszel a csatában, annál hamarabb nyer a csapatod." tMID="401" opID="5" mID="1" setID="2" ID="fallout_5_2_1_main" secID="fallout_5_2_1_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Ne rohanj be mindig a harc középpontjába. A harc káoszában néha célravezetőbb, ha fogod a zászlót, és visszaviszed a bázisodra.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Szerezz legalább 50 győzelmi pontot.\n• Okozz legalább 2 000 életpont sebzést ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Nyerd meg a csatát.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-2: Gyorsítás &amp; Pusztítás" short="T-22 medium: D-2" desc="Jó ötlet lehet egy táras tank kiválasztása ennek a küldetésnek a teljesítéséhez. Egy teljes tárban elég lőszer van, hogy szinte bármilyen ellenséggel végezhess." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Próbáld meg tartani a távolságod az ellenséggel szemben, hogy álcázva maradj. A csapattársaid által felderített ellenségekre való tüzelés segít láthatatlannak maradni.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg 1 ellenséges járművet a csata első 2 percében, lövéssel vagy ütközéssel.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Érj el legalább 200 győzelmi pontot.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-3: Tűzgyújtás az esőben" short="T-22 medium: D-3" desc="Lehetőséged lesz Harci tartalékok igénybe vételére, tüzérségi vagy légicsapással sokkolva ellenséged. Emlékezz, hogy a harci tartalékok töltési időre kerülnek minden használat után." tMID="403" opID="5" mID="3" setID="2" ID="fallout_5_2_3_main" secID="fallout_5_2_3_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Használj Harci tartalékokat, hogy megállítsd az ellenséges járművek előrenyomulását a szűk átjárókban, ahol nehezebben manővereznek és kerülik el közelgő megsemmisülésüket. Akár saját járműveddel is útjukat állhatod, de kerüld el, hogy saját Harci tartalékod kárt tegyen benned.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 1 000 életerő sebzést harci tartalékok használatával.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 2 ellenséges járművet kilövéssel vagy összeütközéssel.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-4: Átfogó hadmozdulat" short="T-22 medium: D-4" desc="Egy csatában különböző típusú járművekkel találkozol. A különböző típusokhoz eltérő taktikák társulnak. De bármelyik típusról legyen is szó, mindig jó ötlet az oldalába vagy mögé kerülni, ahol kevésbé páncélozottak." tMID="404" opID="5" mID="4" setID="2" ID="fallout_5_2_4_main" secID="fallout_5_2_4_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Ha tudod, hogy hol találhatóak az ellenséges jármű fontosabb moduljai, ott ütheted, ahol a legjobban fáj. Például az üzemanyagtartályt lőve kigyújthatod a járművet. Ha pedig egyszer lángolnak, nem fogják sokáig húzni.</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 2 500 életpont sebzést ellenséges nehéz tankoknak, lövéssel vagy összeütközéssel.\n• Okozz legalább 2 500 életpont sebzést ellenséges közepes tankoknak, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le legalább 1 zászlót.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-5: Könnyű célpont" short="T-22 medium: D-5" desc="Egy ellenséges jármű mozgásképtelenné tétele egyet jelent azzal, hogy képtelen kitérni a tüzérségi és légicsapások elől, könnyű célponttá téve őt." tMID="405" opID="5" mID="5" setID="2" ID="fallout_5_2_5_main" secID="fallout_5_2_5_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Lőj le legalább 4 lánctalpat ellenséges járművekről lövéssel vagy összeütközéssel.\n• Semmisíts meg 1 ellenséges járművet kilövéssel úgy, hogy előzőleg nem sérült meg a járműved.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Nyerd meg a csatát.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-6: Egy lövésnyire" short="T-22 medium: D-6" desc="Az ellenséges járműveknek okozott sebzésért győzelmi pontokat kapsz. Vesd be harci képességeid hatékonyan: célozz pontosan és kerüld az ellenséges tüzet." tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A sérült ellenségek üldözése nem mindig jó ötlet; lehet, hogy csak csapdába akar csalni. Ne engedd, hogy az ellenség körülvegyen.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 6 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Ne veszíts 1-nél több járművet a csata során.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le legalább 1 zászlót.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-7 Acélidegek" short="T-22 medium: D-7 Acélidegek" desc="Ne becsüld túl a páncélod: ne engedd, hogy oldalról és hátulról támadhassanak téged. Próbáld meg gyorsan elhagyni a tüzérségi és légicsapás területét." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A küldetés teljesítéséhez válassz egy erősen páncélozott, ellenálló járművet. Minél több lepattanó és nem átütő találatot szenvedsz el, annál közelebb kerülsz a célodhoz.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Az elszenvedett és a páncélzat által felfogott összesített sérülés legyen legalább 8 000 életpont.\n• Adj le legalább 5 sérülést okozó lövést az ellenséges járművekre.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 3 000 életpont sebzést az ellenséges járműveknek, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-8: Villám és mennydörgés" short="T-22 medium: D-8" desc="Ne becsüld alá a Harci tartalékokat: egyetlen, jól időzített tüzérségi vagy légicsapás összezúzhatja az ellenséget." tMID="408" opID="5" mID="8" setID="2" ID="fallout_5_2_8_main" secID="fallout_5_2_8_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Hogy teljesítsd ezt a küldetést, keress olyan sérült járműveket, melyeket néhány jól irányzott lövéssel megsemmisíthetsz. Tartsd észben, hogy mindig maradj távol a baráti tüzérségi és légi csapásoktól.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 2 ellenséges járművet harci tartalékok használatával.\n• Szerezz legalább 150 győzelmi pontot.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le legalább 1 zászlót.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-9: Túlélni, bármi áron" short="T-22 medium: D-9" desc="A vastag, döntött páncél komoly akadályt jelent az ellenséges lövedékek számára. Rejtsd el járműved gyengepontjait, kerülj az ellenség oldalába és oszd ki a lehető legtöbb sebzést." tMID="409" opID="5" mID="9" setID="2" ID="fallout_5_2_9_main" secID="fallout_5_2_9_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Próbáld meg meglepni ellenségeid; támadj és vonulj vissza gyorsan. Választhatsz erős páncélzatú járművet, mely ellenállóbb az ellenséges tűzzel szemben.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Az elszenvedett és a páncélzat által felfogott összesített sérülés legyen legalább 10 000 életpont.\n• A harci tartalékok használatával okozott sebzés nem számít.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Ne veszíts kettőnél több saját járművet egy csatában.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-10: Közel, távol, bárhol is legyél" short="T-22 medium: D-10" desc="Közelről és távolról egyaránt hatékonyan harcolhatsz az ellenséggel. Előbbihez manőverezhetőségre és sebességre van szükséged, utóbbihoz pontos fegyverzetre." tMID="410" opID="5" mID="10" setID="2" ID="fallout_5_2_10_main" secID="fallout_5_2_10_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Távolsági harchoz válassz olyan tüzelési pozíciót, mely lehetővé teszi, hogy több területre is tüzelhess: előbb vagy utóbb az ellenfél betéved az egyikbe. Közelharchoz ajánlatos lehet egy táras tank, hogy gyorsan nagy sebzést okozhass.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 3 000 életpont sebzést az ellenséges járműveknek több mint 200 m távolságból.\n• Okozz legalább 3 000 életpont sebzést az ellenséges járműveknek kevesebb, mint 150m távolságról, lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Okozz legalább 500 életpont sebzést harci tartalékok használatával.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-11: Nincs szabály…" short="T-22 medium: D-11" desc="Ezúttal minden képességedet és tudásodat latba kell vetned, hogy győzedelmeskedhess. A különböző járműtípusok eltérő tulajdonságokkal rendelkeznek, melyeket észben kell tartanod a harc során." tMID="411" opID="5" mID="11" setID="2" ID="fallout_5_2_11_main" secID="fallout_5_2_11_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Közelharci összecsapás bizonyos ellenségekkel katasztrofális eredménnyel járhat. Az ilyen veszélyekkel érdemes tüzérségi vagy légicsapásokkal végezni. A harci tartalékok másik felhasználási módja a lassú és nehézkes járművek kiiktatása, melyek nem képesek elhagyni a tűz alá vett zónát.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 2 ellenséges járművet harci tartalékok használatával.\n•  Semmisíts meg legalább 8 ellenséges járművet kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Nyerd meg a csatát.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-12: Egy erő, amellyel számolni kell" short="T-22 medium: D-12" desc="Ideje megmutatni, hogy ki a főnök. Ossz ki sebzést, lőj ki ellenséges járműveket és szállítsd le a zászlókat. Ezekkel növeled a győzelmi pontjaid számát." tMID="412" opID="5" mID="12" setID="2" ID="fallout_5_2_12_main" secID="fallout_5_2_12_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Emlékezz: bár az ellenség mellett szövetségeseidnél is jobban kell teljesítened, a siker kulcsa a harctéren mutatott kooperáció.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Szerezd te a legtöbb győzelmi pontot mindkét csapatból.\n• Szerezz legalább 350 győzelmi pontot.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le legalább 1 zászlót.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-13: Vadászó óriások" short="T-22 medium: D-13" desc="A magasabb szintű járművek jobb harci képességekkel rendelkeznek, ami nehézségeket jelenthet, mikor harcolsz ellenük. Hogy sikeres lehess, ismerned kell az ellenséges járművek gyengepontjait." tMID="413" opID="5" mID="13" setID="2" ID="fallout_5_2_13_main" secID="fallout_5_2_13_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>Ne felejts el magaddal vinni néhány prémium lőszert a csatába.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Semmisíts meg legalább 10 ellenséges járművet, ami 2 különböző típusú, kilövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Ne veszíts járművet a csata során.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-14: Kritikai elismerés" short="T-22 medium: D-14" desc="Ennek a küldetésnek a teljesítéséhez nagy tűzgyorsaságú és jó látótávú jármű ajánlott. Ismerned kell a belső modulok és a legénységi tagok elhelyezkedését. Emlékezz: minél tovább élsz, és minél pontosabban tüzelsz, annál nagyobb az esély, hogy elérd a szükséges mennyiségű kritikus találatot." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A mesterlövész képzettség növeli a kritikus találatok esélyét, megkönnyítve az dolgod. A harci távolság növeléséhez használj távcsövet vagy periszkóp távcsövet.</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Okozz sérülést vagy semmisítsd meg az ellenséges járművek moduljait vagy sebesítsd meg a legénységét, összesen 10 modult vagy legénységi tagot, lövéssel.\n• Okozz legalább 10 000 életpont sebzést ellenséges járműveknek a jármű látótávolságán belül lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Szállíts le legalább 2 zászlót.</req>
+      </Secondary>
+    </PM>
+    <PM name="D-15: Jöttem, láttam, győztem" short="T-22 medium: D-15" desc="Itt az idő, hogy megmutasd, mire vagy képes. A küldetéshez illő jármű és felszerelés kiválasztásától, a tökéletes harci stratégia kidolgozásáig." tMID="415" opID="5" mID="15" setID="2" ID="fallout_5_2_15_main" secID="fallout_5_2_15_add" minLvl="8" maxLvl="10" campID="2" camp="Tűzvihar" reward="T-22 medium">
+      <Hint>A győzelemhez szükséged van szerencsére, de a szerencse azoké, akik irányítás alatt tartják a helyzetet és visszatartják ellenségeiket. Fegyverbe!</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
+        <req>• Szerezd te a legtöbb győzelmi pontot mindkét csapatból.\n• Okozz legalább 15 000 életpont sebzést ellenséges járműveknek lövéssel vagy összeütközéssel.\n• Az általad csatára kiválasztott összes járművel elért eredmény összeadódik.</req>
+      </Primary>
+      <Secondary fXP="0" cr="250000" slots="0" tokens="0" done="false">
+        <req>• Ne veszíts járművet a csata során.</req>
+      </Secondary>
+    </PM>
   </Lang_PersonalMissions>
 </Lang>

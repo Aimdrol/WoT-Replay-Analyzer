@@ -3703,5 +3703,275 @@
         <req>• 在战斗中幸存。</req>
       </Secondary>
     </PM>
+    <PM name="SH-1:优势之处" short="T-22: SH-1" desc="交付或击毁旗帜是获得战斗胜利的一个重要的方式。不要着急，在地图上找到一条安全并快捷的行驶路线。" tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>速度快的战车是最好的夺旗手。拿下旗帜后以出其不意灵活的路线撤离，这样可以更难被敌方坦克击中。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 至少击毁或交付2面旗帜。\n• 仅当旗帜出现在组队玩家战车上。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成7000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-2:触手可及" short="T-22: SH-2" desc="在战斗白热化的时候可以考虑使用空袭。巧妙的使用战斗储备，但别忘了考虑冷却时间。" tMID="302" opID="5" mID="2" setID="1" ID="fallout_5_1_2_main" secID="fallout_5_1_2_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>使用战斗储备造成的伤害也会让您获得胜利点数。这是一个获取胜利点数的非常有效的办法之一。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 获得至少100点胜利点数。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成1000点伤害。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-3:横拦竖挡" short="T-22: SH-3" desc="敌方每交付一面旗帜都让他们更接近胜利，我们是不能接受的。击毁交付旗帜的敌方战车，不要让它回到基地。" tMID="303" opID="5" mID="3" setID="1" ID="fallout_5_1_3_main" secID="fallout_5_1_3_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>交付旗帜比击毁敌方获得的胜利点数更多，所以当您面临选择时，交付旗帜的敌方战车永远是您的第一目标。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁一辆交付旗帜的敌方战车。\n• 仅当旗帜出现在组队玩家上时。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中至少获得1500经验。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-4:先发制人" short="T-22: SH-4" desc="尽量避免出现在错误的位置上：因为没有太多的时间来制定战术，遭遇敌方要果断迅速出击。" tMID="304" opID="5" mID="4" setID="1" ID="fallout_5_1_4_main" secID="fallout_5_1_4_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>要完成此任务，您可以考虑选择带有弹夹装填系统的战车。弹夹中所有弹药打出的伤害足以击毁任何敌方战车。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击在开局的前2分钟内击毁1辆敌方战车。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中被击毁的战车数不超过3辆。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-5:王者之巅" short="T-22: SH-5" desc="为了获得胜利，每次瞄准要耐心准确。每场失误、跳弹与未击穿都将降低领先敌方的优势。" tMID="305" opID="5" mID="5" setID="1" ID="fallout_5_1_5_main" secID="fallout_5_1_5_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>考虑选择火力强大的战车。请注意修理战车所花费的时间会影响您击毁敌方战车的时间。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成6000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁4辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-6:雷神之锤" short="T-22: SH-6" desc="不要低估战斗储备的威力：如果使用巧妙，敌方战车将受到巨大的伤害。" tMID="306" opID="5" mID="6" setID="1" ID="fallout_5_1_6_main" secID="fallout_5_1_6_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>尝试在狭窄的小路中或拥挤的空间内使用战斗储备，这样敌方战车很难躲避。您可以用自己的战车挡住敌方的前进路线，但小心自己不要被击中。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成2000点伤害。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁4辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-7:以牙还牙" short="T-22: SH-7" desc="选好您的目标！射击已被摧毁的战车不会给您带来任何收益也不能夺旗。" tMID="307" opID="5" mID="7" setID="1" ID="fallout_5_1_7_main" secID="fallout_5_1_7_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>完成此任务有两种方式：多打击敌人或少被敌人击中。请选择更适合您的方法。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成8000点伤害。\n• 至少交付或击毁两面旗帜。\n• 仅当旗帜出现在组队玩家上时。\n• 所有您参加战斗的战车的数据累加。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁5辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-8:一专多能" short="T-22: SH-8" desc="在合适的地点和时间使用战斗储备很可能会影响战局的走势。" tMID="308" opID="5" mID="8" setID="1" ID="fallout_5_1_8_main" secID="fallout_5_1_8_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>留意残血的敌方战车，您将更容易的击毁它们。别忘了您自己的战斗储备攻击也会伤到自己。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少击毁3辆敌方战车。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中至少获得1700点经验。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-9:破坏之王" short="T-22: SH-9" desc="击毁敌方坦克的装备也是一个很好的杀伤敌方的方法。每次致命的攻击都将对敌方的战斗力产生很大影响。" tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>鹰眼技能增加了您造成致命伤害的几率，可以更好的完成任务。战车的装备包括炮塔，发动机，油箱，弹药架以及无线电。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击至少击毁或击伤12个敌方战车的模块或乘员。\n• 战斗储备造成的伤害不包含在内。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成8000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-10:有所必为" short="T-22: SH-10" desc="了解战车身上的弱点在交战时非常重要。记住：重坦使用坚实的装甲，自行反战车炮依靠隐蔽性，轻型战车和中型战车速度快机动性强。对付不同的敌人需要不同的战术。" tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>要注意敌方战车在您基地的后侧进行快速入侵。要避免成为敌方自行反战车炮的目标，不要穿越空旷的开阔地。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁10辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成1500点伤害。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-11:以血还血" short="T-22: SH-11" desc="尽量在幸存的情况下击毁敌方战车。躲避敌方战车的每发炮弹，运用出其不意的战术进行绕后及佯攻。" tMID="311" opID="5" mID="11" setID="1" ID="fallout_5_1_11_main" secID="fallout_5_1_11_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>猎杀已经受损的敌方战车而不是满血的敌方战车。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁三倍(自身战车被击毁次数)的敌方战车。\n• 通过射击或撞击至少击毁7辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中至少获得1800经验。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-12:牢不可破" short="T-22: SH-12" desc="如果射击位置正确，就算是最强大的敌方战车也可以一发炮弹击毁它。高效的射击会让敌方战车的装甲失去意义。" tMID="312" opID="5" mID="12" setID="1" ID="fallout_5_1_12_main" secID="fallout_5_1_12_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>在战斗中使用金币弹可以容易击穿装甲防护高的敌方战车。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁8辆敌方战车。\n• 通过射击或撞击至少对敌方战车造成6000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中您的战车被击毁数量不能超过2次。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-13:近战之王" short="T-22: SH-13" desc="远距离与近距离战斗方式有很大的不同之处：您的战车局限于机动空间，让敌方战车更容易瞄准。此外，在某些地图上，近距离战斗更容易对敌方战车造成伤害。" tMID="313" opID="5" mID="13" setID="1" ID="fallout_5_1_13_main" secID="fallout_5_1_13_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>继续前进！使用自动瞄准可以在移动中的射击更简单(默认下瞄准时右键锁定目标)。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成12000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁5辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-14:枪炮齐鸣" short="T-22: SH-14" desc="在战斗中您可以通过各种方式获得经验：交付或击毁旗帜，点亮敌方战车，造成伤害或击毁敌方战车。证明您的价值并尽可能多的获得经验。" tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>避免与敌方战车的正面直接战斗。像蝴蝶一样飘动，像蜜蜂一样刺人。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方战车造成10000点伤害。\n•自身坦克不能被击毁。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成1500点伤害。</req>
+      </Secondary>
+    </PM>
+    <PM name="SH-15:最后时刻" short="T-22: SH-15" desc="您的光荣时刻已经来了！您已经探索了整个地图并了解了敌方战车：是时候证明自己的价值了。" tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>合理的选择坦克、装备以及给养。可以考虑带上一些金币弹，并且确保有一名训练过的乘员。出发！</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
+        <req>• 战斗结束后，获得的胜利点数与经验最高。\n• 通过射击或撞击至少对敌方战车造成12000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="250000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁7辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-1:团队合作" short="T-22: D-1" desc="杀伤或击毁敌方坦克以及夺旗都会得到胜利点数。在战斗中您贡献的越多，您的队伍离胜利越近。" tMID="401" opID="5" mID="1" setID="2" ID="fallout_5_2_1_main" secID="fallout_5_2_1_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>不要每次都冲进战场的正中心。有时候应该明智的躲避战斗来选字合适的时机来交付旗帜到基地。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 至少获得50点胜利点数。\n• 通过射击或撞击对敌方战车至少造成2000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 获得战斗胜利。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-2:磨刀霍霍" short="T-22: D-2" desc="要完成此任务，您可以考虑选择带有弹夹装填系统的战车。弹夹中所有弹药打出的伤害足以击毁任何敌方战车。" tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>要保持隐蔽状态，要和敌方战车保持距离。攻击已被友方点亮的敌方战车降低被敌方点亮的几率。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击在开局的前2分钟内击毁1辆敌方战车。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 至少获得200点胜利点数。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-3:炮火覆盖" short="T-22: D-3" desc="您可以用火炮支援和空袭给敌方出其不意的一击。但是别忘了战斗储备都是有冷却时间的。" tMID="403" opID="5" mID="3" setID="2" ID="fallout_5_2_3_main" secID="fallout_5_2_3_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>尝试在狭窄的小路中或拥挤的空间内使用战斗储备，这样敌方战车很难躲避。您可以用自己的战车挡住敌方的前进路线，但小心自己不要被击中。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成1000点伤害。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 击毁2辆敌方坦克。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-4:有效攻击" short="T-22: D-4" desc="在战场上您会遇到各种类型的战车。不同的战车需要不同的战术。但是无论对手是谁，您都可以绕过它们从后面攻击。" tMID="404" opID="5" mID="4" setID="2" ID="fallout_5_2_4_main" secID="fallout_5_2_4_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>如果您了解敌方战车身上最薄弱的位置在哪里，您可以着重进行打击。比如可以射击敌方战车的油箱让它们燃烧，那样它们就坚持不了多久了。</Hint>
+      <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少对敌方重坦造成2500点伤害。\n• 通过设计或撞击至少对敌方中坦造成2500点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
+        <req>• 至少交付1面旗帜。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-5:随时机动" short="T-22: D-5" desc="让敌方的战车丧失机动力就会让它们成为一个很好的打击目标。" tMID="405" opID="5" mID="5" setID="2" ID="fallout_5_2_5_main" secID="fallout_5_2_5_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>瞄准敌方战车的履带，尤其是前后主动轮与驱动轮的位置。别忘了在命令菜单中向您的盟友发出信号标记目标。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁4辆敌方战车。\n• 在自身战车未受到伤害时射击并击毁一辆敌方战车。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 获得战斗胜利。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-6:火力输出" short="T-22: D-6" desc="您可以通过击毁或击伤敌方战车来获得胜利点数。利用您的战斗技巧来高效的打击敌方并躲避敌方的炮弹。" tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>穷寇莫追，有的时候残血的敌方战车有可能将您引进陷阱。别陷入敌方战车的包围中。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击对敌方战车至少造成6000点伤害。\n• 在战斗中战车被击毁次数不超过1次。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 至少交付1面旗帜。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-7:铜墙铁壁" short="T-22: D-7" desc="装甲有的时候可以保护您的战车，但这不是一定的。不要把战车的侧面暴露在敌方的炮火下。要尽快逃离敌方的空袭范围。" tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>想要完成此任务，请选择血量高，装甲厚的战车。被击中的次数越多，任务完成的更快。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 装甲至少抵消与受到8000点伤害。\n• 至少射击5次并对敌方战车造成伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击对敌方战车至少造成3000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-8:火力支援" short="T-22: D-8" desc="不要低估战斗储备的威力：一次时机完美的空袭或火炮支援可以击毁任何敌方战车。" tMID="408" opID="5" mID="8" setID="2" ID="fallout_5_2_8_main" secID="fallout_5_2_8_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>要完成此任务，要着重留意那些血量偏低的敌方战车。别忘了避开敌方的战斗储备袭击。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少击毁2辆敌方战车。\n• 至少获得150点胜利点数。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 至少交付1面旗帜。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-9:适者生存" short="T-22: D-9" desc="厚重的斜装甲可以很好的阻挡敌方战车的炮弹。要尽量隐藏自己的弱点，绕开敌方战车进行攻击。" tMID="409" opID="5" mID="9" setID="2" ID="fallout_5_2_9_main" secID="fallout_5_2_9_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>尝试从意想不到的方向接近敌方战车，快速进攻快速撤离。尽量选择装甲厚的战车。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 在战斗中抵消的伤害与造成的伤害总和至少达到10000点。\n• 战斗储备造成的伤害不被计算在内。\n• 所有您参加战斗的战车的数据累加。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中您的战车被击毁数量不能超过2次。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-10:远程打击" short="T-22: D-10" desc="无论距离远近，对敌方战车的射击都可以很致命。远距离依靠火炮的精确性，近距离依靠战车的机动性和速度。" tMID="410" opID="5" mID="10" setID="2" ID="fallout_5_2_10_main" secID="fallout_5_2_10_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>如果是远距离，尽量选择一个覆盖面较大的射击位置。如果是近距离作战，射速很重要，敌方战车射击一发的同时可以多次打击敌方。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 在距离大于200米时通过射击对敌方战车至少造成3000点伤害。\n• 在距离小于150米时通过射击或撞击对敌方战车至少造成3000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少造成500点伤害。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-11:公平战斗" short="T-22: D-11" desc="这个任务需要您用到所有的技巧和指挥。对付不同类型的战车需要不同的战术。" tMID="411" opID="5" mID="11" setID="2" ID="fallout_5_2_11_main" secID="fallout_5_2_11_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>以一对多的近距离交战对您是非常危险的。这种情况最好使用战斗储备来处理。储备还很适合用来攻击移动缓慢的战车。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 使用战斗储备至少击毁2辆敌方战车。\n• 通过射击或撞击至少击毁8辆敌方战车。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 获得战斗胜利。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-12:胜者为王" short="T-22: D-12" desc="是时候给他们点颜色看看了。造成伤害、击毁敌方战车以及交付旗帜都可以获得胜利点数。" tMID="412" opID="5" mID="12" setID="2" ID="fallout_5_2_12_main" secID="fallout_5_2_12_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>记住，赢家不仅要战胜对手，还要比队友表现更好，尽管胜利是需要团队合作的。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 战斗结束后获得的胜利点数最高。\n• 至少获得350点胜利点数。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 至少交付1面旗帜。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-13:重要目标" short="T-22: D-13" desc="高等级的坦克战斗力更强，所以对付起来比较麻烦。所以了解他们的弱点就尤为重要。" tMID="413" opID="5" mID="13" setID="2" ID="fallout_5_2_13_main" secID="fallout_5_2_13_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>如果您装备了金币弹，您将在战场上打得更加从容。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击或撞击至少击毁10辆敌方坦克(两种不同类型)。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中您的任何战车不能被击毁。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-14:背水一战" short="T-22: D-14" desc="要完成此任务，最好使用高射速以及视野良好的战车。了解敌方战车的装备、乘员位置也非常重要。记住：您在战场上坚持的时间越长、射击越准确，打出致命一击的几率就越大。" tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>鹰眼这项乘员技能增加了致命一击的几率并对您完成任务很有帮助。要增加射程，带上高级光学观察镜和炮队镜。</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• 通过射击至少击毁或击伤10个敌方战车的配件或乘员。\n• •在自身战车观察范围内通过射击或撞击对敌方战车至少造成10000点伤害。\n• 所有您参加战斗的战车的数据累加。</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• 至少交付2面旗帜。</req>
+      </Secondary>
+    </PM>
+    <PM name="D-15:勇冠天下" short="T-22: D-15" desc="是时候大显身手了，选择合适的战车及装备，在战场上使用完美的战术。" tMID="415" opID="5" mID="15" setID="2" ID="fallout_5_2_15_main" secID="fallout_5_2_15_add" minLvl="8" maxLvl="10" campID="2" camp="巅峰" reward="T-22">
+      <Hint>运气十分重要，但是它只会眷顾做好准备的人。to战友！</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
+        <req>• 战斗结束后获得的经验和胜利点数最高。\n• 通过射击或撞击至少对敌方战车造成15000点伤害。\n• 所有选中的战车战绩会累加在一起。</req>
+      </Primary>
+      <Secondary fXP="0" cr="250000" slots="0" tokens="0" done="false">
+        <req>• 在战斗中您的任何战车不能被击毁。</req>
+      </Secondary>
+    </PM>
   </Lang_PersonalMissions>
 </Lang>
