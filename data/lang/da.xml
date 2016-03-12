@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Heavy" lName="Type 5 Heavy" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="LTTB" lName="LTTB" />
     <tank ID="R108_T34_85M" sName="T-34-85M" lName="T-34-85M" />
     <tank ID="R109_T54S" sName="T-54 ltwt." lName="T-54 ltwt." />
+    <tank ID="R11_MS-1" sName="MS-1" lName="MS-1" />
+    <tank ID="R11_MS-1_bot" sName="MS-1" lName="MS-1" />
     <tank ID="R110_Object_260" sName="Obj. 260" lName="Object 260" />
     <tank ID="R111_ISU130" sName="ISU-130" lName="ISU-130" />
     <tank ID="R112_T54_45" sName="T-54 mod. 1" lName="T-54 first prototype" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="T-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E F-30" lName="T-28E with F-30" />
     <tank ID="R119_Object_777" sName="Obj. 777 II" lName="Object 777 Version II" />
+    <tank ID="R12_A-20" sName="A-20" lName="A-20" />
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
+    <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="T-150" lName="T-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="T-26" lName="T-26" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Fisherman's Bay" />
     <item ID="37_caucasus" Name="Mountain Pass" />
     <item ID="38_mannerheim_line" Name="Arctic Region" />
-    <item ID="43_north_america" Name="Nordvest" />
     <item ID="44_north_america" Name="Live Oaks" />
     <item ID="45_north_america" Name="Highway" />
     <item ID="47_canada_a" Name="Serene Coast" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Vindstorm" />
     <item ID="86_himmelsdorf_winter" Name="Vinter Himmelsdorf" />
     <item ID="92_stalingrad" Name="Stalingrad" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fremskudt ildpunkt" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
+    <item ID="43_north_america" Name="Nordvest" />
     <item ID="51_asia" Name="Dragon Ridge" />
     <item ID="53_japan" Name="Skjult landsby" />
     <item ID="60_asia_miao" Name="Pearl River" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Tank Rally" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -754,10 +790,11 @@
     <item ID="nations" Name="Konfrontation" />
     <item ID="escort" Name="Eskorte" />
     <item ID="assault2" Name="Angreb/Forsvar" />
-    <item ID="fallout" Name="Ståljæger" />
-    <item ID="fallout1" Name="Ståljæger" />
-    <item ID="fallout2" Name="Ståljæger" />
-    <item ID="fallout3" Name="Ståljæger" />
+    <item ID="fallout" Name="Ståljagt" />
+    <item ID="sandbox" Name="Testområde" />
+    <item ID="fallout1" Name="Ståljagt" />
+    <item ID="fallout2" Name="Ståljagt" />
+    <item ID="fallout3" Name="Ståljagt" />
     <item ID="fallout4" Name="Dominans" />
     <item ID="fallout5" Name="Dominans" />
     <item ID="fallout6" Name="Dominans" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Kamptræning" />
     <item ID="7" Name="Hold: Urangerede kampe" />
     <item ID="8" Name="Historisk kamp" />
-    <item ID="9" Name="Raseri" />
+    <item ID="9" Name="Særlig kamptype" />
     <item ID="10" Name="Træfninger" />
     <item ID="11" Name="Kampe om befæstning" />
     <item ID="12" Name="Holdkamp: Rangeret" />
     <item ID="13" Name="Globalt kort" />
+    <item ID="17" Name="Testområde" />
     <item ID="unknown" Name="Ukendt" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Kamptiden udløbet" />
     <item ID="4" Name="Kampen sluttede på grund af systemfejl" />
     <item ID="5" Name="Teknisk nederlag" />
+    <item ID="6" Name="Sejrspoint" />
+    <item ID="7" Name="Målsætning ikke opfyldt" />
     <item ID="unknown" Name="Ukendt" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -901,7 +941,7 @@
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Våbenbrødre" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Afgørende bidrag" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De Langlades medalje" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Tamada Yoshios medalje" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Yoshio Tamadas medalje" />
     <achv ID_Num="147" ID="bombardier" Name="Artillerist" />
     <achv ID_Num="148" ID="huntsman" Name="Naydin's medalje" />
     <achv ID_Num="150" ID="sturdy" Name="Spartaner" />
@@ -954,7 +994,7 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Slagmark: Belejringen af Tobruk" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Historielektioner: Belejringen af Tobruk" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Guerilla" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Infiltrator" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Besejrer" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Vagt" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Akilleshæl" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Råstyrke" />
@@ -2770,7 +2810,7 @@
     <PM name="TD-2: Præcis ildafgivelse" short="T 55A: TD-2" desc="Hvis du rammer det fjendtlige køretøjs moduler eller sårer mandskabet, vil det reducere kampeffektiviteten hos fjenden." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>En træffer kan skade eller ødelægge det fjendtlige køretøjs moduler eller såre mandskabet. Nogle gange er høj-eksplosive granater bedre til dette formål.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade og ødelæg fjendtlige køretøjers moduler eller sår medlemmer af deres mandskab, i alt 2 moduler eller mandskab.</req>
+        <req>• Uddel mindst 2.000 hp skade og ødelæg fjendtlige køretøjers indre moduler eller sår medlemmer af deres mandskab, i alt 2 moduler eller mandskab.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Ved slutningen af kampen, hav ingen beskadigede/ødelagte moduler eller ukampdygtigt mandskab.</req>
@@ -3445,7 +3485,7 @@
     <PM name="TD-2: Præcis ildafgivelse" short="Object 260: TD-2" desc="Hvis du rammer det fjendtlige køretøjs moduler eller sårer mandskabet, vil det reducere kampeffektiviteten hos fjenden." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>En træffer kan skade eller ødelægge det fjendtlige køretøjs moduler eller såre mandskabet. Nogle gange er høj-eksplosive granater bedre til dette formål.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 5.000 hp skade og ødelæg fjendtlige køretøjers moduler eller sår medlemmer af deres mandskab, i alt 3 moduler eller mandskab.</req>
+        <req>• Uddel mindst 5.000 hp skade og ødelæg fjendtlige køretøjers indre moduler eller sår medlemmer af deres mandskab, i alt 3 moduler eller mandskab.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Ved slutningen af kampen, hav ingen beskadigede/ødelagte moduler eller ukampdygtigt mandskab.</req>
@@ -3778,7 +3818,7 @@
     <PM name="SH-9: Sabotage" short="T-22 medium: SH-9" desc="Du kan gøre fjendtlige køretøjer fortræd ved at beskadige eller ødelægge deres moduler. Hver kritisk træffer nedsætter fjendens kampevne betragteligt." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Ildstorm" reward="T-22 medium">
       <Hint>Snigskytte evnen forøger chancen for en kritisk træffer og kan gøre livet lettere. Husk: Indre køretøjsmoduler omfatter tårnringen, motoren, brændstoftanke, ammunitionsstativ og radioen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Skad eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 12 moduler og mandskab.\n• Skade uddelt med kampreserver tæller ikke med.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
+        <req>• Skad eller ødelæg fjendtlige køretøjers indre moduler eller sår deres mandskab, i alt mindst 12 moduler og mandskab.\n• Skade uddelt med kampreserver tæller ikke med.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.\n• Kritisk skade til det fjendtlige køretøj forårsaget af ild efter spillerens køretøj blev ødelagt, tæller ikke med.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 8.000 hp skade til fjendtlige køretøjer ved at skyde dem eller i sammenstød.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
@@ -3823,7 +3863,7 @@
     <PM name="SH-14: Kampens hede" short="T-22 medium: SH-14" desc="Du kan optjene xp ved at aflevere eller ødelægge et flag, observere fjenden, uddele skade og ved at ødelægge fjendtlige køretøjer. Bevis dit værd og akkumuler så meget xp som du kan." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Ildstorm" reward="T-22 medium">
       <Hint>Undgå at blive fanget i krydsild eller direkte ild fra fjenden. Svæv som en sommerfugl, stik som en bi.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 10.000 hp skade til fjendtlige køretøjer ved at skyde dem eller i sammenstød.\n• Mist ingen af dine køretøjer i kampen.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
+        <req>• Uddel mindst 10.000 hp skade til fjendtlige køretøjer ved at skyde dem eller i sammenstød.\n• Mist ingen af dine køretøjer i kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 1.500 hp skade med kampreserver.</req>
@@ -3895,7 +3935,7 @@
     <PM name="D-7: Nerver af stål" short="T-22 medium: D-7" desc="Overvurder ikke dit pansers beskyttelse: Undgå at vise dit køretøjs sider og bag for fjendtlig ild. Prøv hurtigt at komme væk fra artilleribeskydning og luftangreb." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Ildstorm" reward="T-22 medium">
       <Hint>For at fuldføre denne mission, vælg tungt pansrede køretøjer med god holdbarhed. Jo flere rikochets og ikke-gennembrydende skud du modtager, jo tættere er du på at nå dit mål.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Skade uddelt og skade blokeret af panser skal være mindst 8.000 hp.\n• Afgiv mindst 5 skud der giver skade til fjendtlige køretøjer.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
+        <req>• Skade uddelt og skade blokeret af panser skal være mindst 8.000 hp.\n• Skade uddelt med eller modtaget fra kampreserver tælles ikke med.\n• Afgiv mindst 5 skud der giver skade til fjendtlige køretøjer.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 3.000 hp skade til fjendtlige køretøjer ved at skyde dem eller i sammenstød.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
@@ -3958,7 +3998,7 @@
     <PM name="D-14: Kritikerros" short="T-22 medium: D-14" desc="For at fuldføre denne mission, overvej at bruge køretøjer med en høj skudrate og en god synsrækkevidde. Vær sikker på du kender placeringen af indre moduler og mandskab. Husk: Jo længere du forbliver i kampen og jo mere præcist du afgiver skud, jo højere er din chance for at opnå det krævede antal kritiske træffere." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Ildstorm" reward="T-22 medium">
       <Hint>Snigskytte evnen forøger chancen for en kritisk træffer og kan gøre tingene meget lettere. For at forøge kamprækkevidden, brug belagt optik eller teleskopsigte.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Skad eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 10 moduler og mandskab.\n• Uddel mindst 10.000 hp skade til fjendtlige køretøjer indenfor synsrækkevidde af dit køretøj ved at skyde dem eller i sammenstød.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.</req>
+        <req>• Skad eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 10 moduler og mandskab.\n• Uddel mindst 10.000 hp skade til fjendtlige køretøjer indenfor synsrækkevidde af dit køretøj ved at skyde dem eller i sammenstød.\n• Resultater opnået i alle køretøjer du valgte til kampen lægges sammen.\n• Kritisk skade til det fjendtlige køretøj forårsaget af ild efter spillerens køretøj blev ødelagt, tæller ikke med.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Aflever mindst 2 flag.</req>

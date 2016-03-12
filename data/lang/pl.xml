@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Heavy" lName="Type 5 Heavy" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="LTTB" lName="LTTB" />
     <tank ID="R108_T34_85M" sName="T-34-85M" lName="T-34-85M" />
     <tank ID="R109_T54S" sName="T-54 ltwt." lName="T-54 ltwt." />
+    <tank ID="R11_MS-1" sName="MS-1" lName="MS-1" />
+    <tank ID="R11_MS-1_bot" sName="MS-1" lName="MS-1" />
     <tank ID="R110_Object_260" sName="Obj. 260" lName="Object 260" />
     <tank ID="R111_ISU130" sName="ISU-130" lName="ISU-130" />
     <tank ID="R112_T54_45" sName="T-54 mod. 1" lName="T-54 first prototype" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="T-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E F-30" lName="T-28E with F-30" />
     <tank ID="R119_Object_777" sName="Obj. 777 II" lName="Object 777 Version II" />
+    <tank ID="R12_A-20" sName="A-20" lName="A-20" />
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (Р)" lName="T-44-100 (Р)" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
+    <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="T-150" lName="T-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="T-26" lName="T-26" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Zatoka rybacka" />
     <item ID="37_caucasus" Name="Przełęcz" />
     <item ID="38_mannerheim_line" Name="Koło podbiegunowe" />
-    <item ID="43_north_america" Name="Północny zachód" />
     <item ID="44_north_america" Name="Dębina" />
     <item ID="45_north_america" Name="Autostrada" />
     <item ID="47_canada_a" Name="Cichy Brzeg" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Wichura" />
     <item ID="86_himmelsdorf_winter" Name="Himmelsdorf zimą" />
     <item ID="92_stalingrad" Name="Stalingrad" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Miasto duchów" />
     <item ID="96_prohorovka_defense" Name="Łuk ognia" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Prowincja" />
     <item ID="15_komarin" Name="Komaryn" />
     <item ID="39_crimea" Name="Południowe Wybrzeże" />
+    <item ID="43_north_america" Name="Północny zachód" />
     <item ID="51_asia" Name="Smocza Grań" />
     <item ID="53_japan" Name="Ukryta wioska" />
     <item ID="60_asia_miao" Name="Rzeka Perłowa" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Wyścig czołgów" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -755,6 +791,7 @@
     <item ID="escort" Name="Eskorta" />
     <item ID="assault2" Name="Atak/Obrona" />
     <item ID="fallout" Name="Stalowe łowy" />
+    <item ID="sandbox" Name="Bitwa szkoleniowa" />
     <item ID="fallout1" Name="Stalowe łowy" />
     <item ID="fallout2" Name="Stalowe łowy" />
     <item ID="fallout3" Name="Stalowe łowy" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Trening bojowy" />
     <item ID="7" Name="Drużyna: bitwy nierankingowe" />
     <item ID="8" Name="Bitwa historyczna" />
-    <item ID="9" Name="Rozwałka" />
+    <item ID="9" Name="Specjalny tryb bitwy" />
     <item ID="10" Name="Potyczki" />
     <item ID="11" Name="Bitwy o Twierdzę" />
     <item ID="12" Name="Drużyna: bitwy rankingowe" />
     <item ID="13" Name="Mapa globalna" />
+    <item ID="17" Name="Bitwa szkoleniowa" />
     <item ID="unknown" Name="Nieznany" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Upłynął czas bitwy" />
     <item ID="4" Name="Bitwa została zakończona z powodu awarii systemu" />
     <item ID="5" Name="Porażki techniczne" />
+    <item ID="6" Name="Punkty zwycięstwa" />
+    <item ID="7" Name="Cel nie został osiągnięty" />
     <item ID="unknown" Name="Nieznany" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -898,10 +938,10 @@
     <achv ID_Num="132" ID="mechanicEngineer5" Name="Inżynier-mechanik: Wielka Brytania" />
     <achv ID_Num="133" ID="mechanicEngineer6" Name="Inżynier-mechanik: Japonia" />
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Inżynier-mechanik: Czechosłowacja" />
-    <achv ID_Num="143" ID="medalBrothersInArms" Name="Towarzysze broni" />
+    <achv ID_Num="143" ID="medalBrothersInArms" Name="Braterstwo broni" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Ostateczne poświęcenie" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Medal De Langlade'a" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Medal Tamady Yoshio" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Medal Yoshio Tamady" />
     <achv ID_Num="147" ID="bombardier" Name="Bombardier" />
     <achv ID_Num="148" ID="huntsman" Name="Medal Naydina" />
     <achv ID_Num="150" ID="sturdy" Name="Spartanin" />
@@ -954,7 +994,7 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Pole bitwy: bitwa o Tobruk" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Lekcje historii: bitwa o Tobruk" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Partyzant" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Infiltrator" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Zwycięzca" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Stróż" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Pięta Achillesa" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Brutalna siła" />
@@ -974,11 +1014,11 @@
     <achv ID_Num="533" ID="deathTrack" Name="Kierowca wyścigowy 2014" />
     <achv ID_Num="536" ID="firstMerit" Name="Pierwsza Zasługa" />
     <achv ID_Num="537" ID="tankwomen" Name="Kobiety na wojnie" />
-    <achv ID_Num="538" ID="readyForBattleLT" Name="Wzorowa Efektywność: lekkie czołgi {0}" />
-    <achv ID_Num="539" ID="readyForBattleMT" Name="Wzorowa Efektywność: średnie czołgi {0}" />
-    <achv ID_Num="540" ID="readyForBattleHT" Name="Wzorowa efektywność: ciężkie czołgi {0}" />
-    <achv ID_Num="541" ID="readyForBattleSPG" Name="Wzorowa Efektywność: działa samobieżne {0}" />
-    <achv ID_Num="542" ID="readyForBattleATSPG" Name="Wzorowa Efektywność: niszczyciele czołgów {0}" />
+    <achv ID_Num="538" ID="readyForBattleLT" Name="Wzorowa Efektywność: Lekkie czołgi {0}" />
+    <achv ID_Num="539" ID="readyForBattleMT" Name="Wzorowa Efektywność: Średnie czołgi {0}" />
+    <achv ID_Num="540" ID="readyForBattleHT" Name="Wzorowa efektywność: Ciężkie czołgi {0}" />
+    <achv ID_Num="541" ID="readyForBattleSPG" Name="Wzorowa Efektywność: Działa samobieżne {0}" />
+    <achv ID_Num="542" ID="readyForBattleATSPG" Name="Wzorowa Efektywność: Niszczyciele czołgów {0}" />
     <achv ID_Num="543" ID="readyForBattleALL" Name="Ze wszystkich sił {0}" />
     <achv ID_Num="588" ID="operationWinter" Name="Operacja \&quot;Zima\&quot;" />
     <achv ID_Num="589" ID="tacticalAdvantage" Name="Wyższość taktyczna" />
@@ -3445,7 +3485,7 @@
     <PM name="NC-2: Strzelanie do celu" short="Object 260: NC-2" desc="Jeśli trafisz moduły wrogiego pojazdu lub zranisz członków jego załogi, zmniejszy to jego efektywność w bitwie." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Udane trafienie może uszkodzić lub zniszczyć moduły wrogiego pojazdu lub zranić członków jego załogi. Czasami pociski odłamkowo-burzące lepiej się do tego nadają.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Zadaj co najmniej 5000 PW uszkodzeń i zniszcz moduły w pojeździe przeciwnika i/lub rań członków jego załogi, łącznie co najmniej 3 moduły i załogantów.</req>
+        <req>• Zadaj co najmniej 5000 PW uszkodzeń i zniszcz moduły wewnętrzne w pojeździe przeciwnika i/lub rań członków jego załogi, łącznie co najmniej 3 moduły i załogantów.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Przetrwaj bitwę.\n• Wyjdź z bitwy bez strat w załodze i bez uszkodzonych/zniszczonych modułów.</req>
@@ -3703,7 +3743,7 @@
         <req>• Przetrwaj bitwę.</req>
       </Secondary>
     </PM>
-    <PM name="SŁ-1: Kolory przewagi" short="T-22 medium: SŁ-1" desc="Dostarczona lub zniszczona flaga stanowi ważny krok na Twojej drodze do zwycięstwa. Nie spiesz się i przestudiuj mapę, szukając najbezpieczniejszej i najszybszej drogi na dostarczenie flagi." tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
+    <PM name="SŁ-1: Kolory przewagi" short="T-22 medium: SŁ-1" desc="Dostarczona lub zniszczona flaga stanowi ważny krok na Twojej drodze do zwycięstwa. Nie śpiesz się i przestudiuj mapę, szukając najbezpieczniejszej i najszybszej drogi na dostarczenie flagi." tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Szybkie pojazdy są najlepsze w polowaniu na flagi. Wioząc flagę, staraj się jechać zygzakiem, kluczyć i sterować nieprzewidywalnie, aby utrudnić trafienie Twojego pojazdu.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Dostarcz lub zniszcz przynajmniej 2 flagi.\n• Flagi pojawiają się tylko w bitwach z plutonami.</req>
@@ -3778,10 +3818,10 @@
     <PM name="SŁ-9: Sabotaż" short="T-22 medium: SŁ-9" desc="Możesz zaszkodzić pojazdom przeciwnika, zadając im uszkodzenia oraz uszkadzając lub niszcząc ich moduły. Każde trafienie krytyczne istotnie zmniejsza skuteczność bojową przeciwnika." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Atut Snajper zwiększa szanse na uszkodzenia krytyczne i mocno ułatwia życie. Pamiętaj: moduły wewnętrzne obejmują obręcz wieży, silnik, zbiorniki paliwa, magazyn amunicyjny i radio.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Strzelając, zniszcz lub uszkodź moduły wewnętrzne pojazdów przeciwnika lub zrań członków ich załogi na sumę 12 uszkodzeń i zranień.\n• Uszkodzenia i zranienia od rezerw bojowych nie są liczone.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Zniszcz lub uszkodź moduły wewnętrzne pojazdu przeciwnika lub zrań członków ich załogi, łącznie 12 modułów i członków załogi.\n• Uszkodzenia spowodowane przez rezerwy osobiste nie są wliczane.\n• Sumuje się zdobycze osiągnięte przez wszystkie pojazdy, które wybrałeś do bitwy.\n• Nie liczą się uszkodzenia krytyczne pojazdu przeciwnika zadane po zniszczeniu pojazdu gracza.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zadaj pojazdom przeciwnika przynajmniej 8000 PW uszkodzeń strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Zadaj pojazdom przeciwnika przynajmniej 8000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Secondary>
     </PM>
     <PM name="SŁ-10: Wszyscy padną" short="T-22 medium: SŁ-10" desc="Wiedza o czułych punktach wszystkich typów pojazdów jest kluczem do wygrania starcia. Pamiętaj: czołgi ciężkie używają mocnego pancerza, niszczyciele czołgów polegają na maskowaniu, a czołgi lekkie i średnie odznaczają się dużą prędkością i zwrotnością. Każdy typ pojazdu przeciwnika wymaga innej taktyki, kiedy chcesz go pokonać." tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
@@ -3820,17 +3860,17 @@
         <req>• Zniszcz przynajmniej 5 pojazdów przeciwnika, strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Secondary>
     </PM>
-    <PM name="SŁ-14: W ogniu bitwy" short="T-22 medium: SŁ-14" desc="Zdobywasz doświadczenie za dostarczanie lub niszczenie flagi, oraz za wykrywanie, uszkadzanie i niszczenie pojazdów przeciwnika. Pokaż swoją wartość i zbierz tyle doświadczenia, ile tylko dasz radę." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
+    <PM name="SŁ-14: W ogniu bitwy" short="T-22 medium: SŁ-14" desc="Zdobywasz doświadczenie za wykrywanie i niszczenie pojazdów przeciwnika oraz zadawanie im uszkodzeń, za zajmowanie bazy przeciwnika i obronę własnej oraz za wygranie bitwy." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Unikaj dostania się w krzyżowy lub bezpośredni ogień przeciwnika. Staraj się latać jak motyl i żądlić jak pszczoła.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zadaj pojazdom przeciwnika przynajmniej 10000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Nie strać w bitwie żadnych swoich pojazdów.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Zadaj pojazdom przeciwnika przynajmniej 10 000 PW uszkodzeń strzelaniem lub taranowaniem.\n• Nie strać w bitwie żadnego ze swoich pojazdów.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Zadaj przynajmniej 1500 PW uszkodzeń za pomocą rezerw bojowych.</req>
       </Secondary>
     </PM>
     <PM name="SŁ-15: Szach i mat" short="T-22 medium: SŁ-15" desc="Nadszedł Twój moment chwały! Już poznałeś dostępne mapy i wiesz, czego można się spodziewać po pojazdach przeciwnika: czas się sprawdzić." tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
-      <Hint>Nie spiesz się przy wybieraniu pojazdów, wyposażenia i materiałów eksploatacyjnych. Rozważ dodanie trochę pocisków premium; upewnij się, że wchodzisz do bitwy z wytrenowaną załogą. Naprzód!</Hint>
+      <Hint>Nie śpiesz się przy wybieraniu pojazdów, wyposażenia i materiałów eksploatacyjnych. Rozważ dodanie trochę pocisków premium; upewnij się, że wchodzisz do bitwy z wytrenowaną załogą. Naprzód!</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>• Ukończ bitwę jako najlepszy gracz pod względem liczby zdobytych punktów doświadczenia i zwycięstwa.\n• Zadaj pojazdom przeciwnika przynajmniej 12000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Primary>
@@ -3884,7 +3924,7 @@
       </Secondary>
     </PM>
     <PM name="D-6: O jeden strzał" short="T-22 medium: D-6" desc="Punkty zwycięstwa zdobywasz, zadając uszkodzenia pojazdom przeciwnika. Efektywnie używaj swoich umiejętności bojowych: celuj uważnie i unikaj ognia przeciwnika." tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
-      <Hint>Ściganie osłabionych pojazdów przeciwnika nie zawsze jest dobrym pomysłem. Mogą Cie w ten sposób wciągnąć w pułapkę. Nie pozwól przeciwnikom się otoczyć.</Hint>
+      <Hint>Ściganie osłabionych pojazdów przeciwnika nie zawsze jest dobrym pomysłem. Mogą Cię w ten sposób wciągnąć w pułapkę. Nie pozwól przeciwnikom się otoczyć.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Zadaj pojazdom przeciwnika przynajmniej 6000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Nie strać w bitwie więcej niż jeden własny pojazd.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Primary>
@@ -3895,10 +3935,10 @@
     <PM name="D-7: Nerwy ze stali" short="T-22 medium: D-7" desc="Nie przeceniaj siły swojego pancerza: unikaj wystawiania na ostrzał przeciwnika boków i tyłu swojego pojazdu. Próbuj się szybko wycofać ze stref ostrzału artyleryjskiego i nalotu." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Aby ukończyć tę misję, wybierz mocno opancerzony pojazd z dużą liczbą punktów wytrzymałości. Im więcej przyjmiesz rykoszetów i trafień bez przebicia, tym bliżej będziesz wypełnienia zadania.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uszkodzenia otrzymane i zablokowane przez pancerz muszą się sumować do przynajmniej 8000 PW.\n• Wystrzel przynajmniej 5 pocisków, które zadadzą uszkodzenia pojazdom przeciwnika.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Uszkodzenia otrzymane i zablokowane przez pancerz muszą wynosić łącznie przynajmniej 8000 PW.\n• Uszkodzenia zadane lub otrzymane od Rezerw bojowych nie są wliczane.\n• Wystrzel przynajmniej 5 pocisków, które zadadzą uszkodzenia pojazdom przeciwnika.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zadaj pojazdom przeciwnika przynajmniej 3000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach w Twojej grupie sumują się.</req>
+        <req>• Zadaj pojazdom przeciwnika przynajmniej 3000 PW uszkodzeń, strzelając do nich lub taranując je.\n• Wyniki osiągnięte przez wszystkie pojazdy, które wybrałeś do bitwy sumują się.</req>
       </Secondary>
     </PM>
     <PM name="D-8: Grom i błyskawica" short="T-22 medium: D-8" desc="Nie bagatelizuj rezerw bojowych: ostrzał artyleryjski lub nalot  w odpowiednim momencie może zmiażdżyć przeciwnika." tMID="408" opID="5" mID="8" setID="2" ID="fallout_5_2_8_main" secID="fallout_5_2_8_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
@@ -3913,7 +3953,7 @@
     <PM name="D-9: Lekcja przetrwania" short="T-22 medium: D-9" desc="Gruby i pochyły pancerz jest główną przeszkodą dla pocisków przeciwnika. Ukrywaj słabe punkty swojego pojazdu, zajeżdżaj przeciwnika z flanki i zadawaj maksymalne uszkodzenia." tMID="409" opID="5" mID="9" setID="2" ID="fallout_5_2_9_main" secID="fallout_5_2_9_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Spróbuj zaatakować przeciwnika z zaskoczenia: atakuj i wycofuj się szybko. Rozważ wybranie pojazdów z mocnym pancerzem zdolnych znieść ogień przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uszkodzenia otrzymane i zablokowane przez pancerz muszą się sumować do przynajmniej 10000 PW.\n• Uszkodzenia otrzymane lub zadane za pomocą rezerw bojowych nie są liczone.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Uszkodzenia zadane i zablokowane przez pancerz muszą się sumować do przynajmniej 10 000 PW.\n• Uszkodzenia otrzymane lub zadane za pomocą rezerw bojowych nie są liczone.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Nie strać w bitwie więcej niż 2 własne pojazdy.</req>
@@ -3955,10 +3995,10 @@
         <req>• Nie strać w bitwie żadnych swoich pojazdów.</req>
       </Secondary>
     </PM>
-    <PM name="D-14: Gotowy na wszystko" short="T-22 medium: D-14" desc="Aby ukończyć tę misję, rozważ użycie pojazdów o dużej szybkostrzelności i dobrym zasięgiem obserwacji. Poznaj rozmieszczenie modułów wewnętrznych i członków załogi. Pamiętaj: im dłużej pozostaniesz w bitwie i im celniej strzelasz, tym większą masz szansę na zadanie wymaganej liczby trafień krytycznych." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
+    <PM name="D-14: Gotowy na wszystko" short="T-22 medium: D-14" desc="Aby ukończyć tę misję, rozważ użycie pojazdów o dużej szybkostrzelności i z dobrym zasięgiem obserwacji. Poznaj rozmieszczenie modułów wewnętrznych i członków załogi. Pamiętaj: im dłużej pozostaniesz w bitwie i im celniej strzelasz, tym większą masz szansę na zadanie wymaganej liczby trafień krytycznych." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Burza" reward="T-22 medium">
       <Hint>Atut Snajper zwiększa szanse na uszkodzenia krytyczne i mocno ułatwia życie. Aby zwiększyć zasięg ostrzału, używaj powłoki antyrefleksyjnej lub lornety polowej.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zniszcz lub uszkodź moduły wewnętrzne pojazdów przeciwnika lub zrań członków ich załogi na sumę 10 uszkodzeń i zranień, strzelając do nich.\n• Zadaj przynajmniej 10000 PW uszkodzeń pojazdom przeciwnika w zasięgu obserwacji Twojego pojazdu, strzelając do nich lub taranując je.\n• Wyniki osiągnięte we wszystkich pojazdach, które wybrałeś do bitwy, sumują się.</req>
+        <req>• Zniszcz lub uszkodź moduły wewnętrzne pojazdów przeciwnika lub zrań członków ich załogi na sumę 10 uszkodzeń i zranień, strzelając do nich.\n• Zadaj pojazdom przeciwnika przynajmniej 10 000 PW uszkodzeń pojazdom przeciwnika w zasięgu obserwacji Twojego pojazdu, strzelając do nich lub taranując je.\n• Sumuje się wyniki osiągnięte we wszystkich pojazdach wybranych przez Ciebie do bitwy.\n• Nie liczą się uszkodzenia krytyczne pojazdu przeciwnika zadane po zniszczeniu pojazdu gracza.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Dostarcz przynajmniej 2 flagi.</req>

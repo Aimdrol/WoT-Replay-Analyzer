@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 migliorato" lName="M4 migliorato" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Heavy" lName="Type 5 Heavy" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="LTTB" lName="LTTB" />
     <tank ID="R108_T34_85M" sName="T-34-85M" lName="T-34-85M" />
     <tank ID="R109_T54S" sName="T-54 legg." lName="T-54 legg." />
+    <tank ID="R11_MS-1" sName="MS-1" lName="MS-1" />
+    <tank ID="R11_MS-1_bot" sName="MS-1" lName="MS-1" />
     <tank ID="R110_Object_260" sName="Obj. 260" lName="Object 260" />
     <tank ID="R111_ISU130" sName="ISU-130" lName="ISU-130" />
     <tank ID="R112_T54_45" sName="T-54 mod. 1" lName="T-54 primo prototipo" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="T-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E F-30" lName="T-28E con F-30" />
     <tank ID="R119_Object_777" sName="Obj. 777 II" lName="Object 777 Versione II" />
+    <tank ID="R12_A-20" sName="A-20" lName="A-20" />
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (Р)" lName="T-44-100 (Р)" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
+    <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="T-150" lName="T-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="T-26" lName="T-26" />
@@ -656,9 +691,9 @@
   </Lang_Tanks>
   <Lang_TankClasses>
     <item ID="td" Name="Cacciacarri" />
-    <item ID="ht" Name="Corazzato Pesante" />
-    <item ID="mt" Name="Corazzato Medio" />
-    <item ID="lt" Name="Corazzato Leggero" />
+    <item ID="ht" Name="Corazzato pesante" />
+    <item ID="mt" Name="Corazzato medio" />
+    <item ID="lt" Name="Corazzato leggero" />
     <item ID="spg" Name="A-SMV" />
     <item ID="unknown" Name="Sconosciuto" />
   </Lang_TankClasses>
@@ -677,7 +712,7 @@
     <item ID="105_germany" Name="Berlino" />
     <item ID="10_hills" Name="Miniere" />
     <item ID="111_paris" Name="Prigione di Ghiaccio" />
-    <item ID="112_eiffel_tower" Name="Capitale rivendicata" />
+    <item ID="112_eiffel_tower" Name="Capitale devastata" />
     <item ID="114_czech" Name="Pilsen" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Baia del Pescatore" />
     <item ID="37_caucasus" Name="Passo di Montagna" />
     <item ID="38_mannerheim_line" Name="Regione Polare" />
-    <item ID="43_north_america" Name="Nord-Ovest" />
     <item ID="44_north_america" Name="Live Oaks" />
     <item ID="45_north_america" Name="Highway" />
     <item ID="47_canada_a" Name="Costa Brava" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Windstorm" />
     <item ID="86_himmelsdorf_winter" Name="Himmelsdorf d'inverno" />
     <item ID="92_stalingrad" Name="Stalingrado" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Città Fantasma" />
     <item ID="96_prohorovka_defense" Name="Difesa infuocata" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Campania" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="Costa del Sud" />
+    <item ID="43_north_america" Name="Nord-Ovest" />
     <item ID="51_asia" Name="Crinale del Drago" />
     <item ID="53_japan" Name="Villaggio Nascosto" />
     <item ID="60_asia_miao" Name="Fiume delle Perle" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Tank Rally" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -755,6 +791,7 @@
     <item ID="escort" Name="Scorta" />
     <item ID="assault2" Name="Attacco/Difesa" />
     <item ID="fallout" Name="Caccia all'acciaio" />
+    <item ID="sandbox" Name="Terreni di prova" />
     <item ID="fallout1" Name="Caccia all'acciaio" />
     <item ID="fallout2" Name="Caccia all'acciaio" />
     <item ID="fallout3" Name="Caccia all'acciaio" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Battaglia di Addestramento" />
     <item ID="7" Name="Squadra: Battaglie Non Classificate" />
     <item ID="8" Name="Battaglia Storica" />
-    <item ID="9" Name="Furia" />
+    <item ID="9" Name="Modalità di battaglia speciale" />
     <item ID="10" Name="Schermaglie" />
     <item ID="11" Name="Battaglie per la Fortezza" />
     <item ID="12" Name="Battaglia di Squadra: Classificata" />
     <item ID="13" Name="Mappa globale" />
+    <item ID="17" Name="Terreni di prova" />
     <item ID="unknown" Name="Sconosciuto" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Tempo di battaglia scaduto" />
     <item ID="4" Name="Battaglia terminata per un errore di sistema" />
     <item ID="5" Name="Sconfitta a tavolino" />
+    <item ID="6" Name="Punti Vittoria" />
+    <item ID="7" Name="Obiettivo non soddisfatto" />
     <item ID="unknown" Name="Sconosciuto" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -901,7 +941,7 @@
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Fratelli d'Arme" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Contributo Cruciale" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Medaglia \&quot;De Langlade\&quot;" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Medaglia \&quot;Tamada Yoshio\&quot;" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Medaglia \&quot;Yoshio Tamada\&quot;" />
     <achv ID_Num="147" ID="bombardier" Name="Bombardiere" />
     <achv ID_Num="148" ID="huntsman" Name="Medaglia \&quot;Naydin\&quot;" />
     <achv ID_Num="150" ID="sturdy" Name="Spartano" />
@@ -954,11 +994,11 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Campo di battaglia: Assedio di Tobruk" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Lezione di storia: Assedio di Tobruk" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Guerriglia" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Infiltrato" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Conquistatore" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Sentinella" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Tallone d’Achille" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Forza Bruta" />
-    <achv ID_Num="506" ID="battleTested" Name="Temprato in Battaglia {0}" />
+    <achv ID_Num="506" ID="battleTested" Name="Temprato in battaglia {0}" />
     <achv ID_Num="507" ID="medalRotmistrov" Name="Medaglia Rotmistrov {0}" />
     <achv ID_Num="517" ID="impenetrable" Name="A prova di bomba" />
     <achv ID_Num="519" ID="reliableComrade" Name="Compagno di Battaglia" />
@@ -1249,7 +1289,7 @@
     <PM name="P-13: Tormento sulle difese! (Personale/Plotone)" short="StuG IV: P-13" desc="Un Plotone ben coordinato di corazzati pesanti può cambiare le sorti di una battaglia senza speranza. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="28" opID="1" mID="13" setID="2" ID="quest_1_2_13_main" secID="quest_1_2_13_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
       <Hint>Quando giocate in Plotone, guardatevi le spalle a vicenda e concentrate il fuoco sul nemico. Mantenevi in vita a vicenda, colpite il nemico e cercate un modo per vincere la battaglia.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un veicolo nemici durante i primi 3 minuti di battaglia, sia personalmente sia come membro di un Plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dal tuo corazzato pesante e qualsiasi altro veicolo.</req>
+        <req>• Distruggi un veicolo nemico durante i primi 3 minuti di battaglia. Vengono considerati anche i veicoli distrutti dai tuoi compagni di plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dal tuo corazzato pesante e qualsiasi altro veicolo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi personalmente alla battaglia.</req>
@@ -3247,7 +3287,7 @@
     <PM name="P-10: Un argomento pesante" short="Object 260: P-10" desc="Mantieni il tuo cannone attivo e te stesso vivo il più a lungo possibile." tMID="250" opID="4" mID="10" setID="2" ID="quest_4_2_10_main" secID="quest_4_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
       <Hint>É nel vivo della battaglia che il tuo carro armato mostra quello che vale. La tua ottima corazza, se usata in modo efficacie, ti assicurerà la sopravvivenza anche nella situazione più disperata. Più a lungo sopravvive il tuo corazzato, più danno potrai causare al nemico.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finisci la battaglia come miglior giocatore della tua squadra in danni causati.</req>
+        <req>• Finisci la battaglia come miglior giocatore di entrambe le squadre in danni causati.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -3703,7 +3743,7 @@
         <req>• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-1: I colori della superiorità" short="T-22 medio: CA-1" desc="Una bandiera consegnata o distrutta è un obiettivo importante sulla tua strada verso la vittoria. Prenditi il tempo necessario ed esplora la mappa per determinare i percorsi più sicuri e più rapidi per consegnare una bandiera." tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-1: I colori della superiorità" short="T-22 medium: CA-1" desc="Una bandiera consegnata o distrutta è un obiettivo importante sulla tua strada verso la vittoria. Prenditi il tempo necessario ed esplora la mappa per determinare i percorsi più sicuri e più rapidi per consegnare una bandiera." tMID="301" opID="5" mID="1" setID="1" ID="fallout_5_1_1_main" secID="fallout_5_1_1_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>I veicoli ad alta velocità sono i migliori cacciatori di bandiere. Quando consegni la bandiera, prova a zigzagare muovendoti in intrecci imprevedibili per renderti più difficile da colpire.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Consegna o distruggi almeno 2 bandiere.\n• Le bandiere appaiono solo in battaglie con Plotoni.</req>
@@ -3712,7 +3752,7 @@
         <req>• Provoca almeno 7.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-2: Giudizio dal cielo" short="T-22 medio: CA-2" desc="Se una battaglia gira per il verso sbagliato, usa le Riserve di Combattimento. Richiama i bombardamenti di artiglieria o aerei saggiamente e ricorda che hanno lunghi tempi di ricarica." tMID="302" opID="5" mID="2" setID="1" ID="fallout_5_1_2_main" secID="fallout_5_1_2_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-2: Giudizio dal cielo" short="T-22 medium: CA-2" desc="Se una battaglia gira per il verso sbagliato, usa le Riserve di Combattimento. Richiama i bombardamenti di artiglieria o aerei saggiamente e ricorda che hanno lunghi tempi di ricarica." tMID="302" opID="5" mID="2" setID="1" ID="fallout_5_1_2_main" secID="fallout_5_1_2_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>I danni causati con le Riserve di Combattimento vengono aggiunti al tuo punteggio personale. Danneggia o distruggi i veicoli nemici con i bombardamenti d'artiglieria.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Guadagna almeno 100 punti vittoria.</req>
@@ -3721,7 +3761,7 @@
         <req>• Provoca almeno 1.000 HP di danno con Riserve di Combattimento.</req>
       </Secondary>
     </PM>
-    <PM name="CA-3: Spara al messaggero" short="T-22 medio: CA-3" desc="Ogni bandiera che il nemico consegna lo porta più vicino alla vittoria, e tu non vuoi che ciò accada. Concentra il tuo fuoco, il portatore della bandiera non deve raggiungere la base." tMID="303" opID="5" mID="3" setID="1" ID="fallout_5_1_3_main" secID="fallout_5_1_3_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-3: Spara al messaggero" short="T-22 medium: CA-3" desc="Ogni bandiera che il nemico consegna lo porta più vicino alla vittoria, e tu non vuoi che ciò accada. Concentra il tuo fuoco, il portatore della bandiera non deve raggiungere la base." tMID="303" opID="5" mID="3" setID="1" ID="fallout_5_1_3_main" secID="fallout_5_1_3_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Ottieni più punti consegnando una bandiera che distruggendo un veicolo nemico. Ogni volta che ne avrai la possibilità, ricorda che intercettare il portatore della bandiera è sempre meglio che venir coinvolti in uno scontro a fuoco.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 1 veicolo nemico che trasporta una bandiera, sparandogli o speronandolo.\n• Le bandiere appaiono solo in battaglie con Plotoni.</req>
@@ -3730,7 +3770,7 @@
         <req>• Ottieni almeno 1.500 Exp in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-4: Il primo nel combattimento" short="T-22 medio: CA-4" desc="Cerca di evitare errori in prima linea: non c'è abbastanza tempo per le decisioni tattiche e il nemico deve essere distrutto velocemente e con prontezza." tMID="304" opID="5" mID="4" setID="1" ID="fallout_5_1_4_main" secID="fallout_5_1_4_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-4: Il primo nel combattimento" short="T-22 medium: CA-4" desc="Cerca di evitare errori in prima linea: non c'è abbastanza tempo per le decisioni tattiche e il nemico deve essere distrutto velocemente e con prontezza." tMID="304" opID="5" mID="4" setID="1" ID="fallout_5_1_4_main" secID="fallout_5_1_4_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Potrebbe essere una buona idea selezionare un veicolo con un caricatore automatico per completare questa missione. Un caricatore completo ha abbastanza proiettili per distruggere quasi qualsiasi veicolo nemico.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Distruggi 1 veicolo nemico durante i primi 2 minuti di battaglia, sparandogli o speronandolo.</req>
@@ -3739,7 +3779,7 @@
         <req>• Non perdere più di 3 dei tuoi veicoli in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-5: Sentiero di guerra" short="T-22 medio: CA-5" desc="Per avere successo, prova a mirare con precisione Ogni colpo mancato, rimbalzato e non penetrato ridurrà la tua possibilità di prendere e tenere il primo posto in danni causati." tMID="305" opID="5" mID="5" setID="1" ID="fallout_5_1_5_main" secID="fallout_5_1_5_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-5: Sentiero di guerra" short="T-22 medium: CA-5" desc="Per avere successo, prova a mirare con precisione Ogni colpo mancato, rimbalzato e non penetrato ridurrà la tua possibilità di prendere e tenere il primo posto in danni causati." tMID="305" opID="5" mID="5" setID="1" ID="fallout_5_1_5_main" secID="fallout_5_1_5_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Prendi in considerazione l'idea di scegliere un veicolo dall'alta potenza di fuoco Fai attenzione, il tempo speso a riparare il tuo veicolo è tempo tolto dal campo di battaglia a danneggiare i nemici.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 6.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3748,7 +3788,7 @@
         <req>• Distruggi almeno 4 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-6: Martello di Thor" short="T-22 medio: CA-6" desc="Non sottovalutare le Riserve di Combattimento: se usate correttamente possono causare danni considerevoli ai veicoli nemici." tMID="306" opID="5" mID="6" setID="1" ID="fallout_5_1_6_main" secID="fallout_5_1_6_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-6: Martello di Thor" short="T-22 medium: CA-6" desc="Non sottovalutare le Riserve di Combattimento: se usate correttamente possono causare danni considerevoli ai veicoli nemici." tMID="306" opID="5" mID="6" setID="1" ID="fallout_5_1_6_main" secID="fallout_5_1_6_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Prova a usare le Risorse di Combattimento per acchiappare i veicoli nemici in gole chiuse per rendere loro più difficile fare manovra ed evitare l'imminente distruzione. Puoi anche bloccare i nemici con i tuo stesso veicolo, ma fai attenzione a non farti colpire dalle tue stesse Riserve di Combattimento.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 2.000 HP di danno tramite Riserve di combattimento.</req>
@@ -3757,7 +3797,7 @@
         <req>• Distruggi almeno 4 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-7: Fuoco di ritorno parte 1" short="T-22 medio: CA-7" desc="Non perdere troppi punti integrità. Ricorda: un veicolo distrutto non infligge danni e non può consegnare bandiere alla base." tMID="307" opID="5" mID="7" setID="1" ID="fallout_5_1_7_main" secID="fallout_5_1_7_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-7: Fuoco di ritorno parte 1" short="T-22 medium: CA-7" desc="Non perdere troppi punti integrità. Ricorda: un veicolo distrutto non infligge danni e non può consegnare bandiere alla base." tMID="307" opID="5" mID="7" setID="1" ID="fallout_5_1_7_main" secID="fallout_5_1_7_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Una carica spericolata contro il nemico ti farà distruggere prima che tu possa dire \"Ops\". Invece cerca di infiltrarti per rubare la bandiera e ritirati per consegnarla alla tua base in tutta sicurezza.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 8.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• Consegna o distruggi almeno 2 bandiere durante la battaglia.\n• Le bandiere appaiono solo in battaglie con Plotoni.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3766,7 +3806,7 @@
         <req>• Distruggi almeno 5 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-8: Jolly" short="T-22 medio: CA-8" desc="Puoi influenzare i risultati di qualsiasi scontro a fuoco richiedendo un bombardamento di artiglieria o aereo nel posto giusto e al momento giusto." tMID="308" opID="5" mID="8" setID="1" ID="fallout_5_1_8_main" secID="fallout_5_1_8_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-8: Jolly" short="T-22 medium: CA-8" desc="Puoi influenzare i risultati di qualsiasi scontro a fuoco richiedendo un bombardamento di artiglieria o aereo nel posto giusto e al momento giusto." tMID="308" opID="5" mID="8" setID="1" ID="fallout_5_1_8_main" secID="fallout_5_1_8_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Per completare questa missione, stai allerta per i veicoli nemici danneggiati che possono essere distrutti da pochi colpi ben piazzati. Non scordarti di evitare i bombardamenti di artiglieria o aerei alleati.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 3 veicoli nemici con Riserve di combattimento.</req>
@@ -3775,16 +3815,16 @@
         <req>• Ottieni almeno 1.700 Exp in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-9: Sabotaggio" short="T-22 medio: CA-9" desc="Puoi danneggiare i veicoli nemici causando danni o danneggiando e distruggendo i suoi moduli. Ogni colpo critico sostanzialmente riduce le performance di battaglia del nemico." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-9: Sabotaggio" short="T-22 medium: CA-9" desc="Puoi danneggiare i veicoli nemici causando danni o danneggiando e distruggendo i suoi moduli. Ogni colpo critico sostanzialmente riduce le performance di battaglia del nemico." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Il talento \"Letale\" aumenta la possibilità di colpo critico e rende la vita più semplice. Ricorda: i moduli interni del veicolo includono l'anello della torretta, il motore, i serbatoi del carburante, il deposito munizioni e la radio.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di 12 moduli e membri dell'equipaggio.\n• I danni provocati con le Riserve di combattimento non vengono contati.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
+        <req>• Danneggia o distruggi i moduli interni o ferisci membri dell'equipaggio di veicoli nemici, per un totale di almeno 12 moduli e membri dell'equipaggio.\n• I danni causati dalle Riserve di Combattimento non vengono contati.\n• I risultati ottenuti in tutti i veicoli che hai selezionato per la battaglia vengono sommati.\n• I danni critici causati dal fuoco ai veicoli nemici dopo la distruzione del proprio veicolo non vengono contati.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 8.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-10: Dovranno cadere tutti" short="T-22 medio: CA-10" desc="Conoscere i punti deboli di ogni tipo di veicolo è la chiave per la vittoria di ogni scontro. Ricorda: i corazzati pesanti sono dotati di una corazza robusta, i cacciacarri si affidano al rimanere nascosti, mentre i corazzati leggeri e medi hanno alta velocità e manovrabilità. Ogni tipo di veicolo nemico richiede una tattica particolare per essere affrontato." tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-10: Dovranno cadere tutti" short="T-22 medium: CA-10" desc="Conoscere i punti deboli di ogni tipo di veicolo è la chiave per la vittoria di ogni scontro. Ricorda: i corazzati pesanti sono dotati di una corazza robusta, i cacciacarri si affidano al rimanere nascosti, mentre i corazzati leggeri e medi hanno alta velocità e manovrabilità. Ogni tipo di veicolo nemico richiede una tattica particolare per essere affrontato." tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Controlla le tue ore sei: i nemici più veloci possono accerchiarti, rendendo il tuo veicolo una preda facile. Fai particolare attenzione quando stai attraversando zone scoperte, dato che i cacciacarri possono beccarti con i loro cannoni ad alto calibro.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 10 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3793,7 +3833,7 @@
         <req>• Provoca almeno 1.500 HP di danno con Riserve di Combattimento.</req>
       </Secondary>
     </PM>
-    <PM name="CA-11: Fuoco di ritorno parte 2" short="T-22 medio: CA-11" desc="Regola numero 1: sopravvivere. Rispondi ad ogni colpo nemico, utilizza tattiche intelligenti, accerchia e supera in manovra i veicoli nemici." tMID="311" opID="5" mID="11" setID="1" ID="fallout_5_1_11_main" secID="fallout_5_1_11_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-11: Fuoco di ritorno parte 2" short="T-22 medium: CA-11" desc="Regola numero 1: sopravvivere. Rispondi ad ogni colpo nemico, utilizza tattiche intelligenti, accerchia e supera in manovra i veicoli nemici." tMID="311" opID="5" mID="11" setID="1" ID="fallout_5_1_11_main" secID="fallout_5_1_11_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Cerca veicoli nemici già danneggiati anziché provare a distruggere veicoli completamente integri.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno il triplo dei veicoli nemici, sparandogli o speronandoli, rispetto al numero dei tuoi veicoli persi in battaglia.\n• Distruggi almeno 7 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3802,7 +3842,7 @@
         <req>• Ottieni almeno 1.800 Exp in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-12: Sotto la tua pelle" short="T-22 medio: CA-12" desc="Anche la bestia più dura può venire fermata da un solo proiettile se sai dove colpire. Le corazze pesanti non dovrebbero essere un problema per un tiratore esperto." tMID="312" opID="5" mID="12" setID="1" ID="fallout_5_1_12_main" secID="fallout_5_1_12_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-12: Sotto la tua pelle" short="T-22 medium: CA-12" desc="Anche la bestia più dura può venire fermata da un solo proiettile se sai dove colpire. Le corazze pesanti non dovrebbero essere un problema per un tiratore esperto." tMID="312" opID="5" mID="12" setID="1" ID="fallout_5_1_12_main" secID="fallout_5_1_12_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Utilizzare proiettili Premium ti permette di danneggiare nemici con le corazze più pesanti.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 8 veicoli nemici, sparandogli o speronandoli.\n• Provoca almeno 6.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3811,7 +3851,7 @@
         <req>• Non perdere più di 2 dei tuoi veicoli in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="CA-13: A tu per tu" short="T-22 medio: CA-13" desc="Le tattiche di scontro ravvicinato sono differenti da quelle a lunga distanza: il tuo veicolo ha spazi di manovra limitati e il nemico può mettere a segno colpi fortuiti. In aggiunta, su alcune mappe, l'unica possibilità di poter fare danni si ha avvicinandosi il più possibile al nemico." tMID="313" opID="5" mID="13" setID="1" ID="fallout_5_1_13_main" secID="fallout_5_1_13_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-13: A tu per tu" short="T-22 medium: CA-13" desc="Le tattiche di scontro ravvicinato sono differenti da quelle a lunga distanza: il tuo veicolo ha spazi di manovra limitati e il nemico può mettere a segno colpi fortuiti. In aggiunta, su alcune mappe, l'unica possibilità di poter fare danni si ha avvicinandosi il più possibile al nemico." tMID="313" opID="5" mID="13" setID="1" ID="fallout_5_1_13_main" secID="fallout_5_1_13_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Continua ad avanzare! Utilizza il puntamento automatico per mirare più facilmente in movimento (per impostazione standard: tasto destro mirando al nemico).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 12.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3820,16 +3860,16 @@
         <req>• Distruggi almeno 5 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="CA-14: Il calore della battaglia" short="T-22 medio: CA-14" desc="Puoi ottenere esperienza con la consegna o distruggendo una bandiera, individuando, causando danni e distruggendo i veicoli nemici. Dimostra il tuo valore e accumula tutta l'esperienza che puoi." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-14: Il calore della battaglia" short="T-22 medium: CA-14" desc="Puoi ottenere esperienza con la consegna o distruggendo una bandiera, individuando, causando danni e distruggendo i veicoli nemici. Dimostra il tuo valore e accumula tutta l'esperienza che puoi." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Cerca di evitare di venir coinvolto in fuoco incrociato o da fuoco nemico diretto. Vola come una farfalla, pungi come un'ape.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 10.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• Non perdere nessuno dei tuoi veicoli in battaglia.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
+        <req>• Provoca almeno 10.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• Non perdere nessuno dei tuoi veicoli in battaglia.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 1.500 HP di danno con Riserve di combattimento.</req>
       </Secondary>
     </PM>
-    <PM name="CA-15: Scacco matto" short="T-22 medio: CA-15" desc="Il tuo momento della gloria è arrivato! Hai già esplorato le mappe e imparato cosa aspettarti dai veicoli nemici: è tempo di testare il tuo coraggio." tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="CA-15: Scacco matto" short="T-22 medium: CA-15" desc="Il tuo momento della gloria è arrivato! Hai già esplorato le mappe e imparato cosa aspettarti dai veicoli nemici: è tempo di testare il tuo coraggio." tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Prenditi i tuoi tempi quando selezioni veicolo, equipaggiamento e consumabili. Prendi in considerazione l'idea di caricare qualche colpo Premium; assicurati di entrare in battaglia con un equipaggio addestrato. Roll out!</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>• Termina la battaglia come miglior giocatore in ordine di esperienza e punti vittoria ottenuti.\n• Provoca almeno 12.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3838,7 +3878,7 @@
         <req>• Distruggi almeno 7 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="S-1: Compagno di squadra" short="T-22 medio: S-1" desc="Per guadagnare punti vittoria puoi causare danno, distruggere veicoli nemici oppure consegnare bandiere. Maggiore sarà il tuo contributo alla battaglia, più rapidamente la tua squadra conseguirà la vittoria." tMID="401" opID="5" mID="1" setID="2" ID="fallout_5_2_1_main" secID="fallout_5_2_1_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-1: Compagno di squadra" short="T-22 medium: S-1" desc="Per guadagnare punti vittoria puoi causare danno, distruggere veicoli nemici oppure consegnare bandiere. Maggiore sarà il tuo contributo alla battaglia, più rapidamente la tua squadra conseguirà la vittoria." tMID="401" opID="5" mID="1" setID="2" ID="fallout_5_2_1_main" secID="fallout_5_2_1_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Non buttarti sempre nel bel mezzo della battaglia. A volte è meglio stare lontani dal caos della battaglia e provare a rubare qualche bandiera e portarla alla tua base.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Guadagna almeno 50 punti vittoria.\n• Provoca almeno 2.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3847,7 +3887,7 @@
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="S-2: Accelera ed elimina" short="T-22 medio: S-2" desc="Per completare questa missione potrebbe essere utile selezionare un veicolo dotato di caricatore. Un caricatore pieno dispone di sufficienti proiettili per distruggere la maggior parte dei nemici." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-2: Accelera ed elimina" short="T-22 medium: S-2" desc="Per completare questa missione potrebbe essere utile selezionare un veicolo dotato di caricatore. Un caricatore pieno dispone di sufficienti proiettili per distruggere la maggior parte dei nemici." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Per rimanere nascosto, prova a mantenere una certa distanza dai nemici. Sparare ai veicoli nemici avvistati dai tuoi alleati ti aiuterà a non essere avvistato.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 1 veicolo nemico sparandogli o speronandolo durante i primi 2 minuti della battaglia.</req>
@@ -3856,7 +3896,7 @@
         <req>• Guadagna almeno 200 punti vittoria.</req>
       </Secondary>
     </PM>
-    <PM name="S-3: Dai fuoco alla pioggia" short="T-22 medio: S-3" desc="Hai la possibilità di richiedere una Riserva di Combattimento per sorprendere i nemici con improvvisi assalti aerei o attacchi di artiglieria. Ricordati che le Riserve di Combattimento necessitano di un tempo di ricarica prima di poter essere utilizzate nuovamente." tMID="403" opID="5" mID="3" setID="2" ID="fallout_5_2_3_main" secID="fallout_5_2_3_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-3: Dai fuoco alla pioggia" short="T-22 medium: S-3" desc="Hai la possibilità di richiedere una Riserva di Combattimento per sorprendere i nemici con improvvisi assalti aerei o attacchi di artiglieria. Ricordati che le Riserve di Combattimento necessitano di un tempo di ricarica prima di poter essere utilizzate nuovamente." tMID="403" opID="5" mID="3" setID="2" ID="fallout_5_2_3_main" secID="fallout_5_2_3_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Cerca di usare le Riserve di Combattimento quando i veicoli nemici sono bloccati in qualche strettoia, per impedire loro di scappare alla distruzione. Puoi anche bloccarli utilizzando il tuo veicolo, ma fai attenzione a non essere colpito dalle tue stesse Riserve di Combattimento.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 1.000 HP di danno tramite Riserve di combattimento.</req>
@@ -3865,7 +3905,7 @@
         <req>• Distruggi almeno 2 veicoli nemici, sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="S-4: Guarda dall'altra parte, grazie" short="T-22 medio: S-4" desc="In battaglia incontrerai differenti tipologie di veicoli. Veicoli diversi richiedono tattiche differenti. È però sempre una buona idea aggirare i nemici per attaccarli sul retro, dove la corazzatura è più sottile." tMID="404" opID="5" mID="4" setID="2" ID="fallout_5_2_4_main" secID="fallout_5_2_4_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-4: Guarda dall'altra parte, grazie" short="T-22 medium: S-4" desc="In battaglia incontrerai differenti tipologie di veicoli. Veicoli diversi richiedono tattiche differenti. È però sempre una buona idea aggirare i nemici per attaccarli sul retro, dove la corazzatura è più sottile." tMID="404" opID="5" mID="4" setID="2" ID="fallout_5_2_4_main" secID="fallout_5_2_4_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Se conosci dove sono posizionati i moduli dei veicoli nemici, puoi cercare di colpirli là dove fa più male. Per esempio, sparando ai serbatoi, potresti mandare a fuoco i veicoli nemici. Una volta che hanno iniziato a bruciare, non dureranno a lungo.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 2.500 HP di danno a corazzati pesanti nemici, sparandogli o speronandoli.\n• Provoca almeno 2.500 HP di danno a corazzati medi nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3874,7 +3914,7 @@
         <req>• Consegna almeno 1 bandiera.</req>
       </Secondary>
     </PM>
-    <PM name="S-5: Bersaglio facile" short="T-22 medio: S-5" desc="Se immobilizzi i veicoli nemici, essi saranno vulnerabili ai bombardamenti aerei e di artiglieria." tMID="405" opID="5" mID="5" setID="2" ID="fallout_5_2_5_main" secID="fallout_5_2_5_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-5: Bersaglio facile" short="T-22 medium: S-5" desc="Se immobilizzi i veicoli nemici, essi saranno vulnerabili ai bombardamenti aerei e di artiglieria." tMID="405" opID="5" mID="5" setID="2" ID="fallout_5_2_5_main" secID="fallout_5_2_5_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Mira alla ruota motrice o alla ruota di rinvio dei cingoli, ovvero alle ruote dentate poste davanti o in fondo alle sospensioni. Non dimenticarti di attirare l'attenzione dei tuoi alleati sul veicolo bersaglio, selezionando il comando di richiesta di supporto di fuoco dal Menù Radiale.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 4 cingoli di veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti con i tre veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3883,7 +3923,7 @@
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="S-6: Manca giusto un colpo" short="T-22 medio: S-6" desc="Guadagni punti vittoria ogni volta che causi danno a veicoli nemici. Usa al massimo le tue abilità di combattimento: mira accuratamente prima di aprire il fuoco e cerca di schivare il fuoco nemico." tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-6: Manca giusto un colpo" short="T-22 medium: S-6" desc="Guadagni punti vittoria ogni volta che causi danno a veicoli nemici. Usa al massimo le tue abilità di combattimento: mira accuratamente prima di aprire il fuoco e cerca di schivare il fuoco nemico." tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Non è sempre una buona idea inseguire i nemici feriti; potrebbero condurti in una trappola. Non lasciare che i nemici ti circondino.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 6.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• Non perdere più di 1 dei tuoi veicoli in battaglia.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3892,16 +3932,16 @@
         <req>• Consegna almeno 1 bandiera.</req>
       </Secondary>
     </PM>
-    <PM name="S-7: Nervi d'acciaio" short="T-22 medio: S-7" desc="Non sopravvalutare la protezione che ti garantisce la tua corazza: evita di esporre i fianchi e il retro al fuoco nemico. Ritirati rapidamente dalle zone oggetto di bombardamento aereo o di artiglieria." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-7: Nervi d'acciaio" short="T-22 medium: S-7" desc="Non sopravvalutare la protezione che ti garantisce la tua corazza: evita di esporre i fianchi e il retro al fuoco nemico. Ritirati rapidamente dalle zone oggetto di bombardamento aereo o di artiglieria." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Per completare questa missione, scegli veicoli pesantemente corazzati e molto resistenti. Più rimbalzi e colpi non penetrati sosterrai, più facilmente soddisferai l'obiettivo.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• La somma fra danno causato e danno bloccato dalla corazzatura deve essere pari almeno a 8.000 HP.\n• Spara almeno 5 colpi che causano danno a veicoli nemici.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
+        <req>• La somma fra danno causato e danno bloccato dalla corazzatura deve essere pari almeno a 8.000 HP.\n• Non vengono contati i danni inflitti o ricevuti tramite Riserve di Combattimento.\n• Spara almeno 5 colpi che causano danno a veicoli nemici.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 3.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
       </Secondary>
     </PM>
-    <PM name="S-8: Tuono e fulmine" short="T-22 medio: S-8" desc="Non sottovalutare le Riserve di Combattimento: un singolo bombardamento aereo o di artiglieria chiamato nel momento giusto può demolire qualsiasi nemico." tMID="408" opID="5" mID="8" setID="2" ID="fallout_5_2_8_main" secID="fallout_5_2_8_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-8: Tuono e fulmine" short="T-22 medium: S-8" desc="Non sottovalutare le Riserve di Combattimento: un singolo bombardamento aereo o di artiglieria chiamato nel momento giusto può demolire qualsiasi nemico." tMID="408" opID="5" mID="8" setID="2" ID="fallout_5_2_8_main" secID="fallout_5_2_8_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Per completare questa missione vai alla ricerca di nemici già danneggiati, per i quali, per completarne la distruzione, bastano pochi colpi ben piazzati. Non dimenticarti di evitare l'artiglieria e i bombardamenti aerei alleati.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 2 veicoli nemici con Riserve di combattimento.\n• Guadagna almeno 150 punti vittoria.</req>
@@ -3910,7 +3950,7 @@
         <req>• Consegna almeno 1 bandiera.</req>
       </Secondary>
     </PM>
-    <PM name="S-9: Sopravvivenza estrema" short="T-22 medio: S-9" desc="Le corazzature spesse e ben inclinate sono un potente ostacolo per i proiettili nemici. Proteggi i punti deboli del tuo veicolo, aggira il nemico e causa il massimo danno." tMID="409" opID="5" mID="9" setID="2" ID="fallout_5_2_9_main" secID="fallout_5_2_9_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-9: Sopravvivenza estrema" short="T-22 medium: S-9" desc="Le corazzature spesse e ben inclinate sono un potente ostacolo per i proiettili nemici. Proteggi i punti deboli del tuo veicolo, aggira il nemico e causa il massimo danno." tMID="409" opID="5" mID="9" setID="2" ID="fallout_5_2_9_main" secID="fallout_5_2_9_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Prova a cogliere i nemici alla sprovvista; attacca e ritirati rapidamente. Prendi in considerazione la possibilità di scegliere veicoli con corazzatura pesante in grado sostenere il fuoco nemico.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• La somma fra danno causato e danno bloccato dalla corazzatura deve essere pari almeno a 10.000 HP.\n• Il danno causato o ricevuto da Riserve di combattimento non viene contato.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3919,7 +3959,7 @@
         <req>• Non perdere più di 2 dei tuoi veicoli in battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="S-10: Vicino, lontano, ovunque" short="T-22 medio: S-10" desc="Puoi ingaggiare con efficacia i nemici sia sulle lunghe distanze che in combattimento ravvicinato. La prima situazione richiede di fare affidamento sulla precisione del cannone, la seconda necessità buona manovrabilità e velocità." tMID="410" opID="5" mID="10" setID="2" ID="fallout_5_2_10_main" secID="fallout_5_2_10_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-10: Vicino, lontano, ovunque" short="T-22 medium: S-10" desc="Puoi ingaggiare con efficacia i nemici sia sulle lunghe distanze che in combattimento ravvicinato. La prima situazione richiede di fare affidamento sulla precisione del cannone, la seconda necessità buona manovrabilità e velocità." tMID="410" opID="5" mID="10" setID="2" ID="fallout_5_2_10_main" secID="fallout_5_2_10_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Per il combattimento sulla lunga distanza appostati dove puoi colpire più aree. Prima o poi qualche nemico ti capiterà a tiro. Per il combattimento ravvicinato ti consigliamo di scegliere un veicolo dotato di caricatore per causare rapidamente un grande ammontare di danno.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Provoca almeno 3.000 HP di danno a veicoli nemici sparandogli da una distanza superiore a 200 metri.\n• Provoca almeno 3.000 HP di danno a veicoli nemici metri sparandogli o speronandoli ad una distanza inferiore a 150 metri.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3928,7 +3968,7 @@
         <req>• Provoca almeno 500 HP di danno con Riserve di Combattimento.</req>
       </Secondary>
     </PM>
-    <PM name="S-11: Non ci sono regole" short="T-22 medio: S-11" desc="Questa volta dovrai utilizzare tutta la tua abilità ed esperienza per emergere vittorioso. Veicoli di tipologia differente hanno qualità differenti che devono essere sfruttate a dovere durante i combattimenti." tMID="411" opID="5" mID="11" setID="2" ID="fallout_5_2_11_main" secID="fallout_5_2_11_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-11: Non ci sono regole" short="T-22 medium: S-11" desc="Questa volta dovrai utilizzare tutta la tua abilità ed esperienza per emergere vittorioso. Veicoli di tipologia differente hanno qualità differenti che devono essere sfruttate a dovere durante i combattimenti." tMID="411" opID="5" mID="11" setID="2" ID="fallout_5_2_11_main" secID="fallout_5_2_11_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Un incontro ravvicinato con certi nemici potrebbe risultare in una catastrofe per il tuo veicolo. È meglio affrontare questi avversari con bombardamenti aerei o di artiglieria. Un altro modo di sfruttare al meglio le Riserve di Combattimento, è colpire i veicoli più grossi e lenti, che non saranno in grado di allontanarsi dalla zona designata per l'attacco.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 2 veicoli nemici con Riserve di combattimento.\n• Distruggi almeno 8 veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3937,7 +3977,7 @@
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="S-12: Uno con cui fare i conti" short="T-22 medio: S-12" desc="È il momento di vedere chi darà spettacolo. Fai danno, distruggi veicoli nemici e consegna le bandiere. Queste azioni aumenteranno i tuoi punti vittoria." tMID="412" opID="5" mID="12" setID="2" ID="fallout_5_2_12_main" secID="fallout_5_2_12_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-12: Uno con cui fare i conti" short="T-22 medium: S-12" desc="È il momento di vedere chi darà spettacolo. Fai danno, distruggi veicoli nemici e consegna le bandiere. Queste azioni aumenteranno i tuoi punti vittoria." tMID="412" opID="5" mID="12" setID="2" ID="fallout_5_2_12_main" secID="fallout_5_2_12_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Ricordati: anche se il tuo obiettivo è fare meglio sia dei tuoi nemici che dei tuoi alleati, la cooperazione sul campo di battaglia è la chiave del successo.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Termina la battaglia come miglior giocatore di entrambe le squadre in ordine di punti vittoria ottenuti.\n• Guadagna almeno 350 punti vittoria.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3946,7 +3986,7 @@
         <req>• Consegna almeno 1 bandiera.</req>
       </Secondary>
     </PM>
-    <PM name="S-13: A caccia di giganti" short="T-22 medio: S-13" desc="I veicoli di livello più alto hanno caratteristiche di combattimento migliori; ciò potrebbe essere un ostacolo ai tuoi tentativi di distruggerli. Per avere successo dovrai conoscere i loro punti deboli." tMID="413" opID="5" mID="13" setID="2" ID="fallout_5_2_13_main" secID="fallout_5_2_13_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-13: A caccia di giganti" short="T-22 medium: S-13" desc="I veicoli di livello più alto hanno caratteristiche di combattimento migliori; ciò potrebbe essere un ostacolo ai tuoi tentativi di distruggerli. Per avere successo dovrai conoscere i loro punti deboli." tMID="413" opID="5" mID="13" setID="2" ID="fallout_5_2_13_main" secID="fallout_5_2_13_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Non dimenticarti di portare in battaglia qualche proiettile Premium.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 10 veicoli nemici di 2 tipi differenti, sparandogli o speronandoli.\n\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
@@ -3955,16 +3995,16 @@
         <req>• Non perdere nessuno dei tuoi veicolo durante la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="S-14: Standing ovation" short="T-22 medio: S-14" desc="Per completare questa missione, considera un veicolo con alto rateo di fuoco e una buon raggio visivo. Assicurati di conoscere la posizione dei moduli interni e dell'equipaggio. Ricorda: più tempo rimarrai in battaglia e più sarai preciso nello sparare, più alto saranno le possibilità di raggiungere il numero di colpi critici." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-14: Standing ovation" short="T-22 medium: S-14" desc="Per completare questa missione, considera un veicolo con alto rateo di fuoco e una buon raggio visivo. Assicurati di conoscere la posizione dei moduli interni e dell'equipaggio. Ricorda: più tempo rimarrai in battaglia e più sarai preciso nello sparare, più alto saranno le possibilità di raggiungere il numero di colpi critici." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>Il talento \"Letale\" aumenta le possibilità di colpi critici e potrebbe rendere le cose molto più semplici. Per aumentare il raggio di visuale, utilizza le Ottiche antiriflesso oppure il Periscopio binoculare.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di almeno 10 moduli e membri dell'equipaggio, sparandogli o speronandoli.\n• Provoca almeno 10.000 HP di danno a veicoli nemici entro il raggio visivo del tuo veicolo, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>
+        <req>• Danneggia o distruggi i moduli interni o ferisci membri dell'equipaggio di veicoli nemici, per un totale di almeno 10 moduli e membri dell'equipaggio.\n• Causa almeno 10.000 HP di danno a veicoli nemici entro il raggio visivo del tuo veicolo, sparandogli o speronandoli.\n• I risultati ottenuti in tutti i veicoli che hai selezionato per la battaglia vengono sommati.\n• I danni critici causati dal fuoco ai veicoli nemici dopo la distruzione del proprio veicolo non vengono contati.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Consegna almeno 2 bandiere.</req>
       </Secondary>
     </PM>
-    <PM name="S-15: Veni, Vidi, Vici" short="T-22 medio: S-15" desc="È il momento di far vedere di che pasta sei fatto. Dovrai selezionare il veicolo e l'equipaggiamento giusto e pianificare attentamente la strategia di battaglia." tMID="415" opID="5" mID="15" setID="2" ID="fallout_5_2_15_main" secID="fallout_5_2_15_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medio">
+    <PM name="S-15: Veni, Vidi, Vici" short="T-22 medium: S-15" desc="È il momento di far vedere di che pasta sei fatto. Dovrai selezionare il veicolo e l'equipaggiamento giusto e pianificare attentamente la strategia di battaglia." tMID="415" opID="5" mID="15" setID="2" ID="fallout_5_2_15_main" secID="fallout_5_2_15_add" minLvl="8" maxLvl="10" campID="2" camp="Tempesta di fuoco" reward="T-22 medium">
       <Hint>La fortuna è fondamentale per vincere, ma ne beneficiano solo coloro che sono in grado di mantenere il controllo e tenere a bada i nemici. Alle armi!</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>• Termina la battaglia come miglior giocatore di entrambe le squadre in ordine di esperienza e punti vittoria ottenuti.\n• Provoca almeno 15.000 HP di danno a veicoli nemici, sparandogli o speronandoli.\n• I risultati ottenuti su tutti i veicoli che hai selezionato per la battaglia vengono sommati.</req>

@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="SP Nr. VI" lName="Schwerer Panzer Nr. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Schwer" lName="Type 5 Schwer" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="LTTB" lName="LTTB" />
     <tank ID="R108_T34_85M" sName="T-34-85M" lName="T-34-85M" />
     <tank ID="R109_T54S" sName="T-54 lt." lName="T-54 lt." />
+    <tank ID="R11_MS-1" sName="MS-1" lName="MS-1" />
+    <tank ID="R11_MS-1_bot" sName="MS-1" lName="MS-1" />
     <tank ID="R110_Object_260" sName="Obj. 260" lName="Objekt 260" />
     <tank ID="R111_ISU130" sName="ISU-130" lName="ISU-130" />
     <tank ID="R112_T54_45" sName="T-54 Mod. 1" lName="T-54 Erster Prototyp" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="T-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E F-30" lName="T-28E mit F-30" />
     <tank ID="R119_Object_777" sName="Obj. 777 II" lName="Objekt 777 Version II" />
+    <tank ID="R12_A-20" sName="A-20" lName="A-20" />
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
+    <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Objekt 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="T-150" lName="T-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="T-26" lName="T-26" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Fischerbucht" />
     <item ID="37_caucasus" Name="Bergpass" />
     <item ID="38_mannerheim_line" Name="Polargebiet" />
-    <item ID="43_north_america" Name="Nordwesten" />
     <item ID="44_north_america" Name="Live Oaks" />
     <item ID="45_north_america" Name="Highway" />
     <item ID="47_canada_a" Name="Küste" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Windsturm" />
     <item ID="86_himmelsdorf_winter" Name="Winter-Himmelsdorf" />
     <item ID="92_stalingrad" Name="Stalingrad" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Geisterstadt" />
     <item ID="96_prohorovka_defense" Name="Feuriger Bogen" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Provinz" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="Südküste" />
+    <item ID="43_north_america" Name="Nordwesten" />
     <item ID="51_asia" Name="Drachenkamm" />
     <item ID="53_japan" Name="Verstecktes Dorf" />
     <item ID="60_asia_miao" Name="Perlenfluss" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Panzerrallye" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -755,6 +791,7 @@
     <item ID="escort" Name="Eskorte" />
     <item ID="assault2" Name="Angriff/Verteidigung" />
     <item ID="fallout" Name="Stählerne Jagd" />
+    <item ID="sandbox" Name="Testgelände" />
     <item ID="fallout1" Name="Stählerne Jagd" />
     <item ID="fallout2" Name="Stählerne Jagd" />
     <item ID="fallout3" Name="Stählerne Jagd" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Gefechtsübung" />
     <item ID="7" Name="Team: Nicht-Gewertete Gefechte" />
     <item ID="8" Name="Historisches Gefecht" />
-    <item ID="9" Name="Verwüstung" />
+    <item ID="9" Name="Spezieller Gefechtsmodus" />
     <item ID="10" Name="Scharmützel" />
     <item ID="11" Name="Gefechte um Festung" />
     <item ID="12" Name="Teamgefecht: gewertet" />
     <item ID="13" Name="Weltkarte" />
+    <item ID="17" Name="Testgelände" />
     <item ID="unknown" Name="Unbekannt" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Gefechtszeitlimit überschritten" />
     <item ID="4" Name="Gefecht durch Systemfehler beendet" />
     <item ID="5" Name="Technische Niederlage" />
+    <item ID="6" Name="Siegpunkte" />
+    <item ID="7" Name="Ziel nicht erfüllt" />
     <item ID="unknown" Name="Unbekannt" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -901,7 +941,7 @@
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Waffenbrüder" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Entscheidender Beitrag" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De-Langlade-Medaille" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Tamada-Yoshio-Medaille" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Yoshio-Tamada-Medaille" />
     <achv ID_Num="147" ID="bombardier" Name="Artillerist" />
     <achv ID_Num="148" ID="huntsman" Name="Najdin-Medaille" />
     <achv ID_Num="150" ID="sturdy" Name="Spartaner" />
@@ -954,7 +994,7 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Schlachtfeld: Belagerung von Tobruk" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Geschichtsstunden: Belagerung von Tobruk" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Guerilla" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Infiltrator" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Bezwinger" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Wächter" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Achillesferse" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Brachiale Gewalt" />
@@ -1112,7 +1152,7 @@
       </Secondary>
     </PM>
     <PM name="LP-13: Schlüssel zum Erfolg (Persönlich/Zug)" short="StuG IV: LP-13" desc="Sie können den Sieg schneller und leichter erzielen, wenn Sie gemeinsam als Zug spielen und sogar noch leichter, wenn Ihre taktische Einheit koordiniert vorgeht. Während Sie den Gegner ablenken und seine Position preisgeben, können Ihre Zugmitglieder die von Ihnen aufgeklärten Ziele beschädigen und Sie so einen Schritt näher zum Sieg bringen. Dieser Auftrag kann alleine oder als Zug erfüllt werden, letzteres ist schwieriger." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Voice-Chat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
+      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Sprachchat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Klären Sie Gegnerfahrzeuge auf und ermöglichen Sie Ihren Verbündeten, mindestens 1.500 Schadenspunkte an diesen Fahrzeugen zu verursachen. Aufklärungsschaden durch Zugkameraden wird zur Summe gezählt.\n• Verursachen Sie mindestens 1.000 Schadenspunkte an Gegnerfahrzeugen. Schaden durch Zugkameraden wird zur Summe gezählt.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrem leichten Panzer und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
       </Primary>
@@ -1202,7 +1242,7 @@
       </Secondary>
     </PM>
     <PM name="SP-8: Donnernde Geschütze" short="StuG IV: SP-8" desc="Die Panzerung ist Ihr wichtigster Verbündeter. Verursachen Sie so viel Schaden, wie Sie können, während der Gegner vergebens versucht, sie zu zerstören." tMID="23" opID="1" mID="8" setID="2" ID="quest_1_2_8_main" secID="quest_1_2_8_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder wenigstens zu beschädigen.</Hint>
+      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder mindestens zu beschädigen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 1.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
       </Primary>
@@ -1787,7 +1827,7 @@
       </Secondary>
     </PM>
     <PM name="LP-13: Schlüssel zum Erfolg (Persönlich/Zug)" short="T28 Heavy Tank Concept: LP-13" desc="Sie können den Sieg schneller und leichter erzielen, wenn Sie gemeinsam als Zug spielen und sogar noch leichter, wenn Ihre taktische Einheit koordiniert vorgeht. Während Sie den Gegner ablenken und seine Position preisgeben, können Ihre Zugmitglieder die von Ihnen aufgeklärten Ziele beschädigen und Sie so einen Schritt näher zum Sieg bringen. Dieser Auftrag kann alleine oder als Zug erfüllt werden, letzteres ist schwieriger." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Voice-Chat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
+      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Sprachchat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Klären Sie Gegnerfahrzeuge auf und ermöglichen Sie Ihren Verbündeten, mindestens 2.000 Schadenspunkte an diesen Fahrzeugen zu verursachen, entweder als alleine oder im Zug.\n• Verursachen Sie mindestens 1.500 Schadenspunkte an Gegnerfahrzeugen, entweder alleine oder als im Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrem leichten Panzer und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
       </Primary>
@@ -1877,7 +1917,7 @@
       </Secondary>
     </PM>
     <PM name="SP-8: Donnernde Geschütze" short="T28 Heavy Tank Concept: SP-8" desc="Die Panzerung ist Ihr wichtigster Verbündeter. Verursachen Sie so viel Schaden, wie Sie können, während der Gegner vergebens versucht, sie zu zerstören." tMID="98" opID="2" mID="8" setID="2" ID="quest_2_2_8_main" secID="quest_2_2_8_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder wenigstens zu beschädigen.</Hint>
+      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder mindestens zu beschädigen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 2.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
       </Primary>
@@ -2462,7 +2502,7 @@
       </Secondary>
     </PM>
     <PM name="LP-13: Schlüssel zum Erfolg (Persönlich/Zug)" short="T 55A: LP-13" desc="Sie können den Sieg schneller und leichter erzielen, wenn Sie gemeinsam als Zug spielen und sogar noch leichter, wenn Ihre taktische Einheit koordiniert vorgeht. Während Sie den Gegner ablenken und seine Position preisgeben, können Ihre Zugmitglieder die von Ihnen aufgeklärten Ziele beschädigen und Sie so einen Schritt näher zum Sieg bringen. Dieser Auftrag kann alleine oder als Zug erfüllt werden, letzteres ist schwieriger." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Voice-Chat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
+      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Sprachchat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Klären Sie Gegnerfahrzeuge auf und ermöglichen Sie Ihren Verbündeten, mindestens 2.500 Schadenspunkte an diesen Fahrzeugen zu verursachen, entweder als alleine oder im Zug.\n• Verursachen Sie mindestens 2.000 Schadenspunkte an Gegnerfahrzeugen, entweder alleine oder als im Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrem leichten Panzer und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
       </Primary>
@@ -2552,7 +2592,7 @@
       </Secondary>
     </PM>
     <PM name="SP-8: Donnernde Geschütze" short="T 55A: SP-8" desc="Die Panzerung ist Ihr wichtigster Verbündeter. Verursachen Sie so viel Schaden, wie Sie können, während der Gegner vergebens versucht, sie zu zerstören." tMID="173" opID="3" mID="8" setID="2" ID="quest_3_2_8_main" secID="quest_3_2_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder wenigstens zu beschädigen.</Hint>
+      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder mindestens zu beschädigen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 3.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
       </Primary>
@@ -3137,7 +3177,7 @@
       </Secondary>
     </PM>
     <PM name="LP-13: Schlüssel zum Erfolg (Persönlich/Zug)" short="Objekt 260: LP-13" desc="Sie können den Sieg schneller und leichter erzielen, wenn Sie gemeinsam als Zug spielen und sogar noch leichter, wenn Ihre taktische Einheit koordiniert vorgeht. Während Sie den Gegner ablenken und seine Position preisgeben, können Ihre Zugmitglieder die von Ihnen aufgeklärten Ziele beschädigen und Sie so einen Schritt näher zum Sieg bringen. Dieser Auftrag kann alleine oder als Zug erfüllt werden, letzteres ist schwieriger." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Voice-Chat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
+      <Hint>Gehen Sie als Teil eines Zuges ins Gefecht, sollten Sie einen guten Sprachchat mit Ihren Zugmitgliedern benutzen. Dadurch sparen Sie sich die Zeit zum Tippen der Nachrichten im Chat.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Klären Sie Gegnerfahrzeuge auf und ermöglichen Sie Ihren Verbündeten, mindestens 3.000 Schadenspunkte an diesen Fahrzeugen zu verursachen, entweder als alleine oder im Zug.\n• Verursachen Sie mindestens 2.500 Schadenspunkte an Gegnerfahrzeugen, entweder alleine oder als im Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrem leichten Panzer und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
       </Primary>
@@ -3227,7 +3267,7 @@
       </Secondary>
     </PM>
     <PM name="SP-8: Donnernde Geschütze" short="Objekt 260: SP-8" desc="Die Panzerung ist Ihr wichtigster Verbündeter. Verursachen Sie so viel Schaden, wie Sie können, während der Gegner vergebens versucht, sie zu zerstören." tMID="248" opID="4" mID="8" setID="2" ID="quest_4_2_8_main" secID="quest_4_2_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder wenigstens zu beschädigen.</Hint>
+      <Hint>Selbst ein einziger schwerer Panzer kann für das Team gefährlich werden. Versuchen Sie, gegnerische schwere Panzer so früh wie möglich zu zerstören oder mindestens zu beschädigen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 4.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
       </Primary>
@@ -3445,7 +3485,7 @@
     <PM name="JP-2: Gezieltes Feuer" short="Objekt 260: JP-2" desc="Treffen Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, verringert sich dessen Gefechtsleistung." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Ein erfolgreicher Treffer kann die Module oder die Besatzung eines Gegnerfahrzeugs beschädigen oder zerstören, bzw. verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 5.000 Schadenspunkte und zerstören Sie mindestens 3 interne Module oder verletzen Sie mindestens 3 Besatzungsmitglieder von Gegnerfahrzeugen.</req>
+        <req>• Verursachen Sie mindestens 5.000 Schadenspunkte und zerstören Sie interne Module und verletzen Sie Besatzungsmitglieder von Gegnerfahrzeugen – ingesamt mindestens 3.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Überleben Sie das Gefecht.\n• Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module und keine verletzen Besatzungsmitglieder haben.</req>
@@ -3778,7 +3818,7 @@
     <PM name="SJ-9: Sabotage" short="T-22 mittel: SJ-9" desc="Sie können gegnerischen Fahrzeugen zusetzen, indem Sie diese beschädigen oder ihre Module beschädigen und zerstören. Jeder kritische Treffer verringert die Gefechtsleistung des Gegners." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
       <Hint>Der Vorteil \"Scharfschütze\" erhöht die Wahrscheinlichkeit eines kritischen Treffers und kann einem das Leben erleichtern. Nicht vergessen: interne Fahrzeugmodule umfassen den Turmring, Motor, Treibstofftanks, Munitionslager und Funkgerät.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie Module gegnerischer Fahrzeuge oder verletzen sie deren Besatzungsmitglieder, insgesamt mindestens 12 Module und Besatzungsmitglieder.\n• Schaden durch Kampfreserven wird nicht gezählt.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
+        <req>• Beschädigen oder zerstören Sie interne Module gegnerischer Fahrzeuge oder verletzen sie deren Besatzungsmitglieder, insgesamt mindestens 12 Module und Besatzungsmitglieder.\n• Schaden durch Kampfreserven wird nicht gezählt.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.\n• Kritische Schäden durch Feuer am Gegnerfahrzeug nach Zerstörung des Spielerfahrzeugs werden nicht gewertet.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 8.000 Schadenspunkte an gegnerischen Fahrzeugen durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
@@ -3787,7 +3827,7 @@
     <PM name="SJ-10: Alle sollen fallen" short="T-22 mittel: SJ-10" desc="Das Wissen über verwundbare Stellen jedes Fahrzeugtyps ist essentiell für eine erfolgreiche Begegnung. Beachten Sie: schwere Panzer nutzen dicke Panzerung, Jagdpanzer verlassen sich auf Tarnung, wobei leichte und mittlere Panzer eine hohe Geschwindigkeit und Beweglichkeit haben. Jeder Fahrzeugtyp erfordert bestimmte Taktiken, um seiner Herr zu werden." tMID="310" opID="5" mID="10" setID="1" ID="fallout_5_1_10_main" secID="fallout_5_1_10_add" minLvl="10" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
       <Hint>Passen Sie auf, was hinter Ihnen geschieht: schnelle Gegner können Sie flankieren und so wird Ihr Fahrzeug zur leichten Beute. Passen Sie besonders auf, wenn Sie offene Flächen queren, da Sie sonst schnell im Kreuzfeuer der schweren Geschütze von Jagdpanzern stehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 10 gegnerische Fahrzeuge dreier verschiedener Typen durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
+        <req>• Zerstören Sie mindestens 10 gegnerische Fahrzeuge durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 1.500 Schadenspunkte durch Kampfreserven.</req>
@@ -3823,7 +3863,7 @@
     <PM name="SJ-14: Die Hitze des Gefechts" short="T-22 mittel: SJ-14" desc="Sie verdienen Erfahrung, indem Sie Flaggen abliefern, aufklären, Schaden verursachen und gegnerische Fahrzeuge zerstören. Stellen Sie Ihren Wert unter Beweis und sammeln Sie so viel Erfahrung, wie nur möglich." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
       <Hint>Vermeiden Sie es, sich dem Kreuzfeuer oder direkten Beschuss durch den Gegner auszusetzen. Schweben wie ein Schmetterling, zustechen wie eine Biene.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 10.000 Schadenspunkte an gegnerischen Fahrzeugen durch Beschuss oder Rammen.\n• Verlieren Sie im Gefecht keines Ihrer Fahrzeuge.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
+        <req>• Verursachen Sie mindestens 10.000 Schadenspunkte an gegnerischen Fahrzeugen durch Beschuss oder Rammen.\n• Verlieren Sie im Gefecht keines Ihrer Fahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 1.500 Schadenspunkte durch Kampfreserven.</req>
@@ -3895,7 +3935,7 @@
     <PM name="H-7: Nerven aus Stahl" short="T-22 mittel: H-7" desc="Überschätzen Sie Ihren Panzerschutz nicht: vermeiden Sie es, Seiten und Heck Ihre Fahrzeug dem gegnerischen Beschuss auszusetzen. Ziehen Sie sich nach Möglichkeit schnell aus Zonen mit Artillerieschlägen oder Luftangriffen zurück." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
       <Hint>Damit Sie diesen Auftrag abschließen können, sollten Sie ein schwer gepanzertes Fahrzeug mit hoher Haltbarkeit wählen. Je mehr Abpraller und nicht durchschlagende Treffer Sie erhalten, desto näher kommen Sie ihrem Ziel.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Erhaltener und durch Ihre Panzerung abgewehrter Schaden muss mindestens 8.000 Schadenspunkte betragen.\n• Feuern Sie mindestens 5 Granaten ab, die Schaden an gegnerischen Fahrzeugen verursachen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
+        <req>• Verursachter und durch Ihre Panzerung abgewehrter Schaden muss mindestens 8.000 Schadenspunkte betragen.\n• Schaden von oder durch Kampfreserven zählt nicht.\n• Feuern Sie mindestens 5 Granaten ab, die Schaden an gegnerischen Fahrzeugen verursachen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Verursachen Sie mindestens 3.000 Schadenspunkte an gegnerischen Fahrzeugen durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
@@ -3958,7 +3998,7 @@
     <PM name="H-14: Kritikerlob" short="T-22 mittel: H-14" desc="Für die Erfüllung dieses Auftrags sollten Sie Fahrzeuge mit einer hohen Feuerrate und einer guten Sichtweite in Betracht ziehen. Stellen Sie sicher, dass Sie die Lage interner Module und Besatzungsmitglieder kennen. Beachten Sie: je länger Sie auf dem Schlachtfeld verbleuben und je genauer Sie schießen, desto höher ist Ihre Chance, die gewünschte Anzahl kritischer Treffer zu erzielen." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
       <Hint>Der Vorteil \"Scharfschütze\" erhöht die Wahrscheinlichkeit eines kritischen Treffers und kann einem das Leben erleichtern. Vergrößern Sie die Gefechtsreichweite durch entspiegelte Optik und Scherenfernrohr.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie die Module generischer Fahrzeuge oder verletzen Sie deren Besatzungsmitglieder durch Beschuss, insgesamt mindestens 10 Module und Besatzungsmitglieder.\n• Verursachen Sie mindestens 10.000 Schadenspunkte an gegnerischen Fahrzeugen innerhalb der Sichtweite Ihres Fahrzeugs, durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
+        <req>• Beschädigen oder zerstören Sie die Module generischer Fahrzeuge oder verletzen Sie deren Besatzungsmitglieder durch Beschuss, insgesamt mindestens 10 Module und Besatzungsmitglieder.\n• Verursachen Sie mindestens 10.000 Schadenspunkte an gegnerischen Fahrzeugen innerhalb der Sichtweite Ihres Fahrzeugs, durch Beschuss oder Rammen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.\n• Kritische Schäden durch Feuer am Gegnerfahrzeug nach Zerstörung des Spielerfahrzeugs werden nicht gewertet.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Liefern Sie mindestens 2 Flaggen ab.</req>

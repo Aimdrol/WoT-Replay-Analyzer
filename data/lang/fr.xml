@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Heavy" lName="Type 5 Heavy" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="LTTB" lName="LTTB" />
     <tank ID="R108_T34_85M" sName="T-34-85M" lName="T-34-85M" />
     <tank ID="R109_T54S" sName="T-54 ltwt." lName="T-54 ltwt." />
+    <tank ID="R11_MS-1" sName="MS-1" lName="MS-1" />
+    <tank ID="R11_MS-1_bot" sName="MS-1" lName="MS-1" />
     <tank ID="R110_Object_260" sName="Obj. 260" lName="Object 260" />
     <tank ID="R111_ISU130" sName="ISU-130" lName="ISU-130" />
     <tank ID="R112_T54_45" sName="T-54 mod. 1" lName="T-54 first prototype" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="T-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E F-30" lName="T-28E with F-30" />
     <tank ID="R119_Object_777" sName="Obj. 777 II" lName="Object 777 Version II" />
+    <tank ID="R12_A-20" sName="A-20" lName="A-20" />
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
+    <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="T-150" lName="T-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="T-26" lName="T-26" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Baie du pêcheur" />
     <item ID="37_caucasus" Name="Col de montagne" />
     <item ID="38_mannerheim_line" Name="Arctique" />
-    <item ID="43_north_america" Name="Nord-Ouest" />
     <item ID="44_north_america" Name="Live Oaks" />
     <item ID="45_north_america" Name="Autoroute" />
     <item ID="47_canada_a" Name="Plage sereine" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Tempête" />
     <item ID="86_himmelsdorf_winter" Name="Himmelsdorf en hiver" />
     <item ID="92_stalingrad" Name="Stalingrad" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Ville Fantôme" />
     <item ID="96_prohorovka_defense" Name="Percée fulgurante" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="Côte Sud" />
+    <item ID="43_north_america" Name="Nord-Ouest" />
     <item ID="51_asia" Name="Crête du Dragon" />
     <item ID="53_japan" Name="Village caché" />
     <item ID="60_asia_miao" Name="Rivière des Perles" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Rallye de chars" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -755,6 +791,7 @@
     <item ID="escort" Name="Escorte" />
     <item ID="assault2" Name="Attaque/Défense" />
     <item ID="fallout" Name="Traque d'acier" />
+    <item ID="sandbox" Name="Terrain d'essai" />
     <item ID="fallout1" Name="Traque d'acier" />
     <item ID="fallout2" Name="Traque d'acier" />
     <item ID="fallout3" Name="Traque d'acier" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Entraînement au combat" />
     <item ID="7" Name="Équipe : non classées" />
     <item ID="8" Name="Bataille historique" />
-    <item ID="9" Name="Ravages" />
+    <item ID="9" Name="Mode bataille spécial" />
     <item ID="10" Name="Escarmouches" />
     <item ID="11" Name="Batailles de bastion" />
     <item ID="12" Name="Bataille en équipe classée" />
     <item ID="13" Name="Carte globale" />
+    <item ID="17" Name="Terrain d'essai" />
     <item ID="unknown" Name="Inconnu" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Temps de la bataille écoulé" />
     <item ID="4" Name="La bataille a pris fin suite à une erreur du système" />
     <item ID="5" Name="Défaite technique" />
+    <item ID="6" Name="Points de victoire" />
+    <item ID="7" Name="Objectif non atteint" />
     <item ID="unknown" Name="Inconnu" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -901,7 +941,7 @@
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Frères d'armes" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Contribution décisive" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Médaille de De Langlade" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Médaille de Tamada Yoshio" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Médaille de Yoshio Tamada" />
     <achv ID_Num="147" ID="bombardier" Name="Bombardier" />
     <achv ID_Num="148" ID="huntsman" Name="Médaille de Najdin" />
     <achv ID_Num="150" ID="sturdy" Name="Spartiate" />
@@ -954,7 +994,7 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Champ de bataille : Siège de Tobrouk" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Leçons d'histoire : Siège de Tobrouk" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Guérilla" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Infiltré" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Vainqueur" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Sentinelle" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Talon d'Achille" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Force brute" />
@@ -1030,7 +1070,7 @@
         <req>• Détruire un véhicule ennemi en lui tirant dessus ou en le percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Léger-4 : Une halte forcée" short="StuG IV: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aider ainsi que vos alliés à mieux viser." tMID="4" opID="1" mID="4" setID="1" ID="quest_1_1_4_main" secID="quest_1_1_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+    <PM name="Léger-4 : Une halte forcée" short="StuG IV: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aidera ainsi que vos alliés à mieux viser." tMID="4" opID="1" mID="4" setID="1" ID="quest_1_1_4_main" secID="quest_1_1_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Pour détruire facilement une chenille, ciblez le galet avant ou arrière de la suspension.Retenez que si un canon n'est pas capable de pénétrer le blindage d'un véhicule ennemi, il peut toujours détruire ses chenilles. Les obus explosifs sont le choix idéal dans ce cas. Vous recevrez plus de points d'expérience si vos alliés infligent des dégâts aux véhicules que vous immobilisez.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Détruire une chenille d'un véhicule ennemi.</req>
@@ -1112,7 +1152,7 @@
       </Secondary>
     </PM>
     <PM name="Léger-13 : La clé de la victoire (personnel/peloton)" short="StuG IV: Léger-13 " desc="La victoire est plus facile à remporter lorsque vous faites partie d'un peloton, et encore plus lorsque votre unité tactique est bien coordonnée. Pendant que vous distrayez les ennemis tout en révélant sa position, les membres de votre peloton peuvent infliger des dégâts aux cibles que vous repérez, rapprochant un peu plus votre équipe de la victoire. Cette mission peut être accomplie soit en faisant partie d'un peloton, soit par vous-même ; cependant, la seconde option est plus délicate." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aider à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
+      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aidera à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Repérer des véhicules ennemis en permettant à vos alliés d'infliger au moins 1 500 points de dégâts aux véhicules ennemis. Les dégâts par détection de vos coéquipiers de peloton sont pris en compte.\n• Infliger au moins 1 000 points de dégâts aux véhicules ennemis. Les dégâts infligés par vos coéquipiers de peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char léger et tous autres véhicules.</req>
       </Primary>
@@ -1157,7 +1197,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-3 : Omnivore" short="StuG IV: Lourd-3 " desc="Prouvez que votre char peut détruire un véhicule de n'importe quel type." tMID="18" opID="1" mID="3" setID="2" ID="quest_1_2_3_main" secID="quest_1_2_3_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
+      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. Par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 véhicules ennemis de 2 types différents.</req>
       </Primary>
@@ -1211,7 +1251,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-9 : Un coup écrasant" short="StuG IV: Lourd-9 " desc="Souvent, au cours des engagements rapprochés, vous n'aurez pas suffisamment de temps pour recharger. Dans cette situation, terminez la destruction de l'ennemi en le percutant ! Plus le blindage du véhicule ennemi au point d'impact est faible, plus vous infligerez de dégâts." tMID="24" opID="1" mID="9" setID="2" ID="quest_1_2_9_main" secID="quest_1_2_9_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peut vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
+      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peuvent vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi en le percutant.</req>
       </Primary>
@@ -1256,7 +1296,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-14 : Prenez cette colline ! (personnel/peloton)" short="StuG IV: Lourd-14 " desc="Détruisez tous les types de véhicules ennemis, freinez leur offensive et ne leur laissez aucun espoir de victoire. Cette mission peut être accomplie en faisant partie d'un peloton ou par vous-même ; cependant, la seconde option est plus difficile." tMID="29" opID="1" mID="14" setID="2" ID="quest_1_2_14_main" secID="quest_1_2_14_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Coordonnez vos action avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
+      <Hint>Coordonnez vos actions avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 3 véhicules ennemis de 2 types différents. Les véhicules ennemis détruits par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char lourd et tous autres véhicules.</req>
       </Primary>
@@ -1310,7 +1350,7 @@
       </Secondary>
     </PM>
     <PM name="Moyen-5 : Contre-reconnaissance" short="StuG IV: Moyen-5 " desc="L'un des objectifs des chars moyens est de détruire les chars légers." tMID="35" opID="1" mID="5" setID="3" ID="quest_1_3_5_main" secID="quest_1_3_5_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal  Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
+      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal ! Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts à un char léger ennemi en lui tirant dessus ou en le percutant.</req>
       </Primary>
@@ -1465,7 +1505,7 @@
     <PM name="C. de chars-7 : Première frappe" short="StuG IV: C. de chars-7 " desc="Ne laissez pas l'ennemi se rapprocher de vous : le blindage de votre véhicule n'est pas vraiment efficace contre les tirs de l'ennemi." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Si un véhicule ennemi vous charge et que vous ne pouvez pas pénétrer son blindage frontal, vous pouvez peut-être détruire ses chenilles et partir. Étudiez les paramètres de votre propre véhicule. Certains chasseurs de chars possèdent un bon blindage frontal qui peut faire dévier bon nombre de tirs.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire un véhicule ennemi sans avoir reçu de dégât sur votre véhicules auparavant.</req>
+        <req>• Détruire un véhicule ennemi sans avoir reçu de dégât sur votre véhicule auparavant.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
@@ -1480,7 +1520,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="C. de chars-9 : En plein dans le mille" short="StuG IV: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compense le blindage relativement faible de votre véhicule." tMID="54" opID="1" mID="9" setID="4" ID="quest_1_4_9_main" secID="quest_1_4_9_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+    <PM name="C. de chars-9 : En plein dans le mille" short="StuG IV: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compensent le blindage relativement faible de votre véhicule." tMID="54" opID="1" mID="9" setID="4" ID="quest_1_4_9_main" secID="quest_1_4_9_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Visez les points faibles d'un char ennemi, comme les flancs, l'arrière ou le glacis inférieur. Il est également utile de savoir où se trouvent les éléments clés comme le râtelier à munitions et les réservoirs. Pour jouer le plus efficacement, vous devriez emmener quelques obus premium avec vous. Ces obus peuvent pénétrer les blindages bien plus épais que les normaux.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Effectuer au moins 3 coups pénétrants consécutifs sur des véhicules ennemis.\n• Les coups pénétrants sur un comme plusieurs véhicules sont pris en compte.</req>
@@ -1553,7 +1593,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-2 : Caché et dangereux" short="StuG IV: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>L'équipement « Filet de camouflage » combinné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 500 points de dégâts aux véhicules ennemis sans vous faire repérer au cours de la bataille.\n• Survivre à la bataille.</req>
       </Primary>
@@ -1570,7 +1610,7 @@
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Passer de l'autre côté" short="StuG IV: Canon AM-3 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+    <PM name="Canon AM-4 : Passer de l'autre côté" short="StuG IV: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 3 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
@@ -1579,7 +1619,7 @@
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 :Calcul, plus de véhicule" short="StuG IV: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="StuG IV: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts au moins 4 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
@@ -1633,7 +1673,7 @@
         <req>• Infliger au moins 1 000 points de dégâts.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="StuG IV: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'important dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+    <PM name="Canon AM-11 : Zone d'effet" short="StuG IV: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
       <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi en un seul tir.\n• Seules les cibles n'ayant pas subi de dégâts auparavant dans la bataille sont prises en compte.</req>
@@ -1661,7 +1701,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="StuG IV: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Un char léger peur repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 2 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
       </Primary>
@@ -1705,10 +1745,10 @@
         <req>• Détruire au moins 2 véhicules ennemis en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Léger-4 : Une halte forcée" short="T28 heavy tank concept: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aider ainsi que vos alliés à mieux viser." tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+    <PM name="Léger-4 : Une halte forcée" short="T28 heavy tank concept: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aidera ainsi que vos alliés à mieux viser." tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Pour détruire facilement une chenille, ciblez le galet avant ou arrière de la suspension.Retenez que si un canon n'est pas capable de pénétrer le blindage d'un véhicule ennemi, il peut toujours détruire ses chenilles. Les obus explosifs sont le choix idéal dans ce cas. Vous recevrez plus de points d'expérience si vos alliés infligent des dégâts aux véhicules que vous immobilisez.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Détruire une chenille d'un véhicule ennemi.\n• Les alliés doivent infliger au moins 250 points de dégâts au véhicule ennemi immobilisé avant que ses chenilles ne soit réparées.</req>
+        <req>• Détruire une chenille d'un véhicule ennemi.\n• Les alliés doivent infliger au moins 250 points de dégâts au véhicule ennemi immobilisé avant que ses chenilles ne soient réparées.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Au moins un véhicule que vous immobilisez doit être détruit avant que ses chenilles ne soient réparées.</req>
@@ -1744,7 +1784,7 @@
     <PM name="Léger-8 : Sortez de notre base !" short="T28 heavy tank concept: Léger-8 " desc="Au cœur de la bataille, il est facile d'oublier la défense de votre base ou d'une base neutre. Une telle imprudence risque de permettre à l'ennemi de prendre l'avantage et de prendre rapidement l'objectif. Retenez que votre char possède une vitesse suffisante pour rompre le contact et partir en retraite pour défendre votre base et venir à bout des envahisseurs grâce à des tirs précis ou une attaque audacieuse par collision, sauvant ainsi votre équipe d'une défaite imminente." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Si vous n'êtes pas sûr à 100 % que vos obus vont pénétrer le blindage d'un envahisseur, chargez plutôt des obus explosifs. Les obus explosifs ont une plus grande probabilité d'infliger des dégâts aux véhicules ennemis. Retenez qu'il suffit d'un seul petit point de dégâts à un véhicule ennemi ou d'endommager l'un de ses éléments pour remettre à zéro ses points de capture de base. Lorsque vous tentez de capturer une base, essayez d'éviter les tirs ennemis autant que possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participer à la capture réussie de la base ennemie remportant au moins 20 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 20 points de défense de base.\n• Remporter la bataille.</req>
+        <req>• Participer à la capture réussie de la base ennemie en remportant au moins 20 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 20 points de défense de base.\n• Remporter la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi en lui tirant dessus ou en le percutant.</req>
@@ -1787,7 +1827,7 @@
       </Secondary>
     </PM>
     <PM name="Léger-13 : La clé de la victoire (personnel/peloton)" short="T28 heavy tank concept: Léger-13 " desc="La victoire est plus facile à remporter lorsque vous faites partie d'un peloton, et encore plus lorsque votre unité tactique est bien coordonnée. Pendant que vous distrayez les ennemis tout en révélant sa position, les membres de votre peloton peuvent infliger des dégâts aux cibles que vous repérez, rapprochant un peu plus votre équipe de la victoire. Cette mission peut être accomplie soit en faisant partie d'un peloton, soit par vous-même ; cependant, la seconde option est plus délicate." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aider à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
+      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aidera à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Repérer des véhicules ennemis en permettant à vos alliés d'infliger au moins 2 000 points de dégâts aux véhicules ennemis. Les dégâts par détection de vos coéquipiers de peloton sont pris en compte.\n• Infliger au moins 1 500 points de dégâts aux véhicules ennemis. Les dégâts infligés par vos coéquipiers de peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char léger et tous autres véhicules.</req>
       </Primary>
@@ -1832,7 +1872,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-3 : Omnivore" short="T28 heavy tank concept: Lourd-3 " desc="Prouvez que votre char peut détruire un véhicule de n'importe quel type." tMID="93" opID="2" mID="3" setID="2" ID="quest_2_2_3_main" secID="quest_2_2_3_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
+      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. Par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 3 véhicules ennemis de 2 types différents.</req>
       </Primary>
@@ -1886,7 +1926,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-9 : Un coup écrasant" short="T28 heavy tank concept: Lourd-9 " desc="Souvent, au cours des engagements rapprochés, vous n'aurez pas suffisamment de temps pour recharger. Dans cette situation, terminez la destruction de l'ennemi en le percutant ! Plus le blindage du véhicule ennemi au point d'impact est faible, plus vous infligerez de dégâts." tMID="99" opID="2" mID="9" setID="2" ID="quest_2_2_9_main" secID="quest_2_2_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peut vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
+      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peuvent vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi en le percutant.\n• Survivre à la collision avec l'ennemi.</req>
       </Primary>
@@ -1931,7 +1971,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-14 : Prenez cette colline ! (personnel/peloton)" short="T28 heavy tank concept: Lourd-14 " desc="Détruisez tous les types de véhicules ennemis, freinez leur offensive et ne leur laissez aucun espoir de victoire. Cette mission peut être accomplie en faisant partie d'un peloton ou par vous-même ; cependant, la seconde option est plus difficile." tMID="104" opID="2" mID="14" setID="2" ID="quest_2_2_14_main" secID="quest_2_2_14_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Coordonnez vos action avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
+      <Hint>Coordonnez vos actions avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 4 véhicules ennemis de 2 types différents. Les véhicules ennemis détruits par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char lourd et tous autres véhicules.</req>
       </Primary>
@@ -1985,7 +2025,7 @@
       </Secondary>
     </PM>
     <PM name="Moyen-5 : Contre-reconnaissance" short="T28 heavy tank concept: Moyen-5 " desc="L'un des objectifs des chars moyens est de détruire les chars légers." tMID="110" opID="2" mID="5" setID="3" ID="quest_2_3_5_main" secID="quest_2_3_5_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal  Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
+      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal ! Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un char léger ennemi en lui tirant dessus ou en le percutant.</req>
       </Primary>
@@ -2155,7 +2195,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="C. de chars-9 : En plein dans le mille" short="T28 heavy tank concept: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compense le blindage relativement faible de votre véhicule." tMID="129" opID="2" mID="9" setID="4" ID="quest_2_4_9_main" secID="quest_2_4_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+    <PM name="C. de chars-9 : En plein dans le mille" short="T28 heavy tank concept: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compensent le blindage relativement faible de votre véhicule." tMID="129" opID="2" mID="9" setID="4" ID="quest_2_4_9_main" secID="quest_2_4_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Visez les points faibles d'un char ennemi, comme les flancs, l'arrière ou le glacis inférieur. Il est également utile de savoir où se trouvent les éléments clés comme le râtelier à munitions et les réservoirs. Pour jouer le plus efficacement, vous devriez emmener quelques obus premium avec vous. Ces obus peuvent pénétrer les blindages bien plus épais que les normaux.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Effectuer au moins 4 coups pénétrants consécutifs sur des véhicules ennemis.\n• Les coups pénétrants sur un comme plusieurs véhicules sont pris en compte.</req>
@@ -2228,7 +2268,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-2 : Caché et dangereux" short="T28 heavy tank concept: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>L'équipement « Filet de camouflage » combinné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 1 500 points de dégâts aux véhicules ennemis. Ne pas se faire repérer au cours de la bataille.\n• Survivre à la bataille.</req>
       </Primary>
@@ -2245,7 +2285,7 @@
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Passer de l'autre côté" short="T28 heavy tank concept: Canon AM-3 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+    <PM name="Canon AM-4 : Passer de l'autre côté" short="T28 heavy tank concept: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 5 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
@@ -2254,7 +2294,7 @@
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 :Calcul, plus de véhicule" short="T28 heavy tank concept: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="T28 heavy tank concept: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts au moins 6 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
@@ -2293,7 +2333,7 @@
     <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="T28 heavy tank concept: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 2 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infilgent ou non des dégâts, sont pris en compte.</req>
+        <req>• Effectuer au moins 2 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infligent ou non des dégâts, sont pris en compte.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Remporter la bataille.</req>
@@ -2308,7 +2348,7 @@
         <req>• Infliger au moins 2 000 points de dégâts.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="T28 heavy tank concept: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'important dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+    <PM name="Canon AM-11 : Zone d'effet" short="T28 heavy tank concept: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
       <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts à au moins 2 véhicules ennemis avec un seul tir.</req>
@@ -2336,7 +2376,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="T28 heavy tank concept: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Un char léger peur repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 3 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
       </Primary>
@@ -2380,7 +2420,7 @@
         <req>• Détruire au moins 3 véhicules ennemis en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Léger-4 : Une halte forcée" short="T 55A: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aider ainsi que vos alliés à mieux viser." tMID="154" opID="3" mID="4" setID="1" ID="quest_3_1_4_main" secID="quest_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+    <PM name="Léger-4 : Une halte forcée" short="T 55A: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aidera ainsi que vos alliés à mieux viser." tMID="154" opID="3" mID="4" setID="1" ID="quest_3_1_4_main" secID="quest_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Pour détruire facilement une chenille, ciblez le galet avant ou arrière de la suspension.Retenez que si un canon n'est pas capable de pénétrer le blindage d'un véhicule ennemi, il peut toujours détruire ses chenilles. Les obus explosifs sont le choix idéal dans ce cas. Vous recevrez plus de points d'expérience si vos alliés infligent des dégâts aux véhicules que vous immobilisez.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire les chenilles d'au moins 3 véhicules ennemis.</req>
@@ -2419,7 +2459,7 @@
     <PM name="Léger-8 : Sortez de notre base !" short="T 55A: Léger-8 " desc="Au cœur de la bataille, il est facile d'oublier la défense de votre base ou d'une base neutre. Une telle imprudence risque de permettre à l'ennemi de prendre l'avantage et de prendre rapidement l'objectif. Retenez que votre char possède une vitesse suffisante pour rompre le contact et partir en retraite pour défendre votre base et venir à bout des envahisseurs grâce à des tirs précis ou une attaque audacieuse par collision, sauvant ainsi votre équipe d'une défaite imminente." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Si vous n'êtes pas sûr à 100 % que vos obus vont pénétrer le blindage d'un envahisseur, chargez plutôt des obus explosifs. Les obus explosifs ont une plus grande probabilité d'infliger des dégâts aux véhicules ennemis. Retenez qu'il suffit d'un seul petit point de dégâts à un véhicule ennemi ou d'endommager l'un de ses éléments pour remettre à zéro ses points de capture de base. Lorsque vous tentez de capturer une base, essayez d'éviter les tirs ennemis autant que possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participer à la capture réussie de la base ennemie remportant au moins 40 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 40 points de défense de base.\n• Remporter la bataille.</req>
+        <req>• Participer à la capture réussie de la base ennemie en remportant au moins 40 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 40 points de défense de base.\n• Remporter la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 véhicules ennemis en leur tirant dessus ou en les percutant.</req>
@@ -2462,7 +2502,7 @@
       </Secondary>
     </PM>
     <PM name="Léger-13 : La clé de la victoire (personnel/peloton)" short="T 55A: Léger-13 " desc="La victoire est plus facile à remporter lorsque vous faites partie d'un peloton, et encore plus lorsque votre unité tactique est bien coordonnée. Pendant que vous distrayez les ennemis tout en révélant sa position, les membres de votre peloton peuvent infliger des dégâts aux cibles que vous repérez, rapprochant un peu plus votre équipe de la victoire. Cette mission peut être accomplie soit en faisant partie d'un peloton, soit par vous-même ; cependant, la seconde option est plus délicate." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aider à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
+      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aidera à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Repérer des véhicules ennemis en permettant à vos alliés d'infliger au moins 2 500 points de dégâts aux véhicules ennemis. Les dégâts par détection de vos coéquipiers de peloton sont pris en compte.\n• Infliger au moins 2 000 points de dégâts aux véhicules ennemis. Les dégâts infligés par vos coéquipiers de peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char léger et tous autres véhicules.</req>
       </Primary>
@@ -2507,7 +2547,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-3 : Omnivore" short="T 55A: Lourd-3 " desc="Prouvez que votre char peut détruire un véhicule de n'importe quel type." tMID="168" opID="3" mID="3" setID="2" ID="quest_3_2_3_main" secID="quest_3_2_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
+      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. Par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 4 véhicules ennemis de 3 types différents.</req>
       </Primary>
@@ -2545,7 +2585,7 @@
     <PM name="Lourd-7 : Je m'en occupe" short="T 55A: Lourd-7 " desc="Les chars lourds sont excellents pour les tactiques de percée. Traversez les lignes de défense de l'ennemi et capturez leur base. Cependant, ne sous-estimez pas votre adversaire : ils peuvent user de la même tactique." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Soyez prudent à l'approche de la base ennemie : préparez-vous à recevoir un accueil « chaleureux ». Si vous préférez les tactiques de défense, profitez du terrain pour trouver le meilleur camouflage et les endroits à votre avantage, depuis lesquels vous pourrez défendre votre base (ou la base neutre en mode bataille impromptue) contre l'ennemi en approche.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participer à la capture réussie de la base ennemie remportant au moins 30 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 30 points de défense de base.\n• Remporter la bataille.\n• Infliger au moins 3 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Participer à la capture réussie de la base ennemie en remportant au moins 30 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 30 points de défense de base.\n• Remporter la bataille.\n• Infliger au moins 3 000 points de dégâts aux véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 3 véhicules ennemis.</req>
@@ -2561,7 +2601,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-9 : Un coup écrasant" short="T 55A: Lourd-9 " desc="Souvent, au cours des engagements rapprochés, vous n'aurez pas suffisamment de temps pour recharger. Dans cette situation, terminez la destruction de l'ennemi en le percutant ! Plus le blindage du véhicule ennemi au point d'impact est faible, plus vous infligerez de dégâts." tMID="174" opID="3" mID="9" setID="2" ID="quest_3_2_9_main" secID="quest_3_2_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peut vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
+      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peuvent vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi en le percutant.\n• Survivre à la collision avec l'ennemi.\n• Infliger plus de dégâts lors de la collision que votre véhicule n'en subit.</req>
       </Primary>
@@ -2606,7 +2646,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-14 : Prenez cette colline ! (personnel/peloton)" short="T 55A: Lourd-14 " desc="Détruisez tous les types de véhicules ennemis, freinez leur offensive et ne leur laissez aucun espoir de victoire. Cette mission peut être accomplie en faisant partie d'un peloton ou par vous-même ; cependant, la seconde option est plus difficile." tMID="179" opID="3" mID="14" setID="2" ID="quest_3_2_14_main" secID="quest_3_2_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Coordonnez vos action avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
+      <Hint>Coordonnez vos actions avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 6 véhicules ennemis de 3 types différents. Les véhicules ennemis détruits par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char lourd et tous autres véhicules.</req>
       </Primary>
@@ -2660,7 +2700,7 @@
       </Secondary>
     </PM>
     <PM name="Moyen-5 : Contre-reconnaissance" short="T 55A: Moyen-5 " desc="L'un des objectifs des chars moyens est de détruire les chars légers." tMID="185" opID="3" mID="5" setID="3" ID="quest_3_3_5_main" secID="quest_3_3_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal  Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
+      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal ! Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un char léger ennemi en lui tirant dessus ou en le percutant au cours des 2 premières minutes de la bataille.</req>
       </Primary>
@@ -2770,7 +2810,7 @@
     <PM name="C. de chars-2 : Tir ciblé" short="T 55A: C. de chars-2 " desc="Si vous touchez les éléments d'un véhicule ennemi ou blessez son équipage, son efficacité au combat s'en verra réduite." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Un tir réussi peut endommager ou détruire les éléments d'un véhicule ennemi ou encore blesser son équipage. Parfois, des obus hautement explosifs sont meilleurs pour ce rôle.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts et détruire des éléments internes de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 2 éléments ou membres d'équipage.</req>
+        <req>• Infliger au moins 2 000 points de dégâts et détruire des éléments internes de véhicules ennemis ou blesser leurs membres d'équipage, pour un total d'au moins 2 éléments ou membres d'équipage.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Ne pas avoir d'élément endommagé ou détruit ni de membre d'équipage blessé à la fin de la bataille.</req>
@@ -2830,7 +2870,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="C. de chars-9 : En plein dans le mille" short="T 55A: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compense le blindage relativement faible de votre véhicule." tMID="204" opID="3" mID="9" setID="4" ID="quest_3_4_9_main" secID="quest_3_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+    <PM name="C. de chars-9 : En plein dans le mille" short="T 55A: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compensent le blindage relativement faible de votre véhicule." tMID="204" opID="3" mID="9" setID="4" ID="quest_3_4_9_main" secID="quest_3_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Visez les points faibles d'un char ennemi, comme les flancs, l'arrière ou le glacis inférieur. Il est également utile de savoir où se trouvent les éléments clés comme le râtelier à munitions et les réservoirs. Pour jouer le plus efficacement, vous devriez emmener quelques obus premium avec vous. Ces obus peuvent pénétrer les blindages bien plus épais que les normaux.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Effectuer au moins 5 coups pénétrants consécutifs sur des véhicules ennemis.\n• Les coups pénétrants sur un comme plusieurs véhicules sont pris en compte.</req>
@@ -2903,7 +2943,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-2 : Caché et dangereux" short="T 55A: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>L'équipement « Filet de camouflage » combinné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Faire partie des 5 meilleurs joueurs de votre équipe en dégâts infligés. Ne pas se faire repérer au cours de la bataille.</req>
       </Primary>
@@ -2920,7 +2960,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Passer de l'autre côté" short="T 55A: Canon AM-3 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+    <PM name="Canon AM-4 : Passer de l'autre côté" short="T 55A: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 8 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
@@ -2929,7 +2969,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 :Calcul, plus de véhicule" short="T 55A: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="T 55A: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts au moins 8 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
@@ -2983,7 +3023,7 @@
         <req>• Infliger au moins 3 000 points de dégâts.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="T 55A: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'important dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+    <PM name="Canon AM-11 : Zone d'effet" short="T 55A: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
       <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi et endommager 1 autre véhicule avec un seul tir.</req>
@@ -3011,7 +3051,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="T 55A: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Un char léger peur repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 4 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
       </Primary>
@@ -3055,7 +3095,7 @@
         <req>• Détruire au moins 4 véhicules ennemis en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Léger-4 : Une halte forcée" short="Object 260: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aider ainsi que vos alliés à mieux viser." tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+    <PM name="Léger-4 : Une halte forcée" short="Object 260: Léger-4 " desc="Détruisez la chenille d'un véhicule ennemi pour l'immobiliser et l'offrir aux tirs des canons plus puissants de vos coéquipiers. Lorsque vous détruisez la chenille d'un véhicule ennemi, vous l'immobilisez temporairement. Ceci vous aidera ainsi que vos alliés à mieux viser." tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Pour détruire facilement une chenille, ciblez le galet avant ou arrière de la suspension.Retenez que si un canon n'est pas capable de pénétrer le blindage d'un véhicule ennemi, il peut toujours détruire ses chenilles. Les obus explosifs sont le choix idéal dans ce cas. Vous recevrez plus de points d'expérience si vos alliés infligent des dégâts aux véhicules que vous immobilisez.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Détruire les chenilles d'au moins 3 véhicules ennemis.\n• Les alliés doivent infliger au moins 500 points de dégâts aux véhicules immobilisés avant qu'ils ne réparent leurs chenilles.</req>
@@ -3094,7 +3134,7 @@
     <PM name="Léger-8 : Sortez de notre base !" short="Object 260: Léger-8 " desc="Au cœur de la bataille, il est facile d'oublier la défense de votre base ou d'une base neutre. Une telle imprudence risque de permettre à l'ennemi de prendre l'avantage et de prendre rapidement l'objectif. Retenez que votre char possède une vitesse suffisante pour rompre le contact et partir en retraite pour défendre votre base et venir à bout des envahisseurs grâce à des tirs précis ou une attaque audacieuse par collision, sauvant ainsi votre équipe d'une défaite imminente." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Si vous n'êtes pas sûr à 100 % que vos obus vont pénétrer le blindage d'un envahisseur, chargez plutôt des obus explosifs. Les obus explosifs ont une plus grande probabilité d'infliger des dégâts aux véhicules ennemis. Retenez qu'il suffit d'un seul petit point de dégâts à un véhicule ennemi ou d'endommager l'un de ses éléments pour remettre à zéro ses points de capture de base. Lorsque vous tentez de capturer une base, essayez d'éviter les tirs ennemis autant que possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participer à la capture réussie de la base ennemie remportant au moins 60 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 60 points de défense de base.\n• Remporter la bataille.</req>
+        <req>• Participer à la capture réussie de la base ennemie en remportant au moins 60 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 60 points de défense de base.\n• Remporter la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 véhicules ennemis en leur tirant dessus ou en les percutant.</req>
@@ -3137,7 +3177,7 @@
       </Secondary>
     </PM>
     <PM name="Léger-13 : La clé de la victoire (personnel/peloton)" short="Object 260: Léger-13 " desc="La victoire est plus facile à remporter lorsque vous faites partie d'un peloton, et encore plus lorsque votre unité tactique est bien coordonnée. Pendant que vous distrayez les ennemis tout en révélant sa position, les membres de votre peloton peuvent infliger des dégâts aux cibles que vous repérez, rapprochant un peu plus votre équipe de la victoire. Cette mission peut être accomplie soit en faisant partie d'un peloton, soit par vous-même ; cependant, la seconde option est plus délicate." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aider à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
+      <Hint>Si vous rejoignez une bataille en faisant partie d'un peloton, assurez-vous d'avoir une bonne communication orale avec les autres membres du peloton. Ceci vous aidera à gagner du temps plutôt que de saisir des messages dans la discussion.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Repérer des véhicules ennemis en permettant à vos alliés d'infliger au moins 3 000 points de dégâts aux véhicules ennemis. Les dégâts par détection de vos coéquipiers de peloton sont pris en compte.\n• Infliger au moins 2 500 points de dégâts aux véhicules ennemis. Les dégâts infligés par vos coéquipiers de peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char léger et tous autres véhicules.</req>
       </Primary>
@@ -3182,7 +3222,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-3 : Omnivore" short="Object 260: Lourd-3 " desc="Prouvez que votre char peut détruire un véhicule de n'importe quel type." tMID="243" opID="4" mID="3" setID="2" ID="quest_4_2_3_main" secID="quest_4_2_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
+      <Hint>Chaque type de véhicule emploie ses propres tactiques uniques sur le champ de bataille. Par exemple, les chars légers peuvent facilement contourner les adversaires, les chars lourds affronteront probablement les ennemis de face et les chasseurs de chars préféreront les positions en hauteur ou cachées derrière des buissons.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 6 véhicules ennemis de 3 types différents.</req>
       </Primary>
@@ -3220,7 +3260,7 @@
     <PM name="Lourd-7 : Je m'en occupe" short="Object 260: Lourd-7 " desc="Les chars lourds sont excellents pour les tactiques de percée. Traversez les lignes de défense de l'ennemi et capturez leur base. Cependant, ne sous-estimez pas votre adversaire : ils peuvent user de la même tactique." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Soyez prudent à l'approche de la base ennemie : préparez-vous à recevoir un accueil « chaleureux ». Si vous préférez les tactiques de défense, profitez du terrain pour trouver le meilleur camouflage et les endroits à votre avantage, depuis lesquels vous pourrez défendre votre base (ou la base neutre en mode bataille impromptue) contre l'ennemi en approche.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participer à la capture réussie de la base ennemie remportant au moins 50 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 50 points de défense de base.\n• Remporter la bataille.\n• Infliger au moins 4 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Participer à la capture réussie de la base ennemie en remportant au moins 50 points de capture de base ou remettre à zéro les points de capture de votre base/d'une base neutre en gagnant 50 points de défense de base.\n• Remporter la bataille.\n• Infliger au moins 4 000 points de dégâts aux véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 4 véhicules ennemis.</req>
@@ -3236,7 +3276,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-9 : Un coup écrasant" short="Object 260: Lourd-9 " desc="Souvent, au cours des engagements rapprochés, vous n'aurez pas suffisamment de temps pour recharger. Dans cette situation, terminez la destruction de l'ennemi en le percutant ! Plus le blindage du véhicule ennemi au point d'impact est faible, plus vous infligerez de dégâts." tMID="249" opID="4" mID="9" setID="2" ID="quest_4_2_9_main" secID="quest_4_2_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peut vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
+      <Hint>La compétence du pilote « Bélier » et l'équipement « Revêtement anti-éclats » peuvent vous aider significativement à réduire les dégâts qu'un ennemi peut vous infliger par collision, tout en augmentant les dégâts lorsque vous le percutez.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire un véhicule ennemi par collision d'un rang supérieur à celui de votre véhicule.</req>
       </Primary>
@@ -3281,7 +3321,7 @@
       </Secondary>
     </PM>
     <PM name="Lourd-14 : Prenez cette colline ! (personnel/peloton)" short="Object 260: Lourd-14 " desc="Détruisez tous les types de véhicules ennemis, freinez leur offensive et ne leur laissez aucun espoir de victoire. Cette mission peut être accomplie en faisant partie d'un peloton ou par vous-même ; cependant, la seconde option est plus difficile." tMID="254" opID="4" mID="14" setID="2" ID="quest_4_2_14_main" secID="quest_4_2_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Coordonnez vos action avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
+      <Hint>Coordonnez vos actions avec vos coéquipiers et tentez de couvrir le champ de bataille le plus possible avec un tir ciblé.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 8 véhicules ennemis de 3 types différents. Les véhicules ennemis détruits par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en char lourd et tous autres véhicules.</req>
       </Primary>
@@ -3335,7 +3375,7 @@
       </Secondary>
     </PM>
     <PM name="Moyen-5 : Contre-reconnaissance" short="Object 260: Moyen-5 " desc="L'un des objectifs des chars moyens est de détruire les chars légers." tMID="260" opID="4" mID="5" setID="3" ID="quest_4_3_5_main" secID="quest_4_3_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal  Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
+      <Hint>Ne laissez pas les chars légers ennemis accomplir leur objectif principal ! Empêchez-les de repérer et d'immobiliser les véhicules de vos coéquipiers.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 chars légers ennemis en leur tirant dessus ou en les percutant.</req>
       </Primary>
@@ -3445,7 +3485,7 @@
     <PM name="C. de chars-2 : Tir ciblé" short="Object 260: C. de chars-2 " desc="Si vous touchez les éléments d'un véhicule ennemi ou blessez son équipage, son efficacité au combat s'en verra réduite." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Un tir réussi peut endommager ou détruire les éléments d'un véhicule ennemi ou encore blesser son équipage. Parfois, des obus hautement explosifs sont meilleurs pour ce rôle.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 5 000 points de dégâts et détruire des éléments internes de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 3 éléments ou membres d'équipage.</req>
+        <req>• Infliger au moins 5 000 points de dégâts et détruire des éléments internes de véhicules ennemis ou blesser leurs membres d'équipage, pour un total d'au moins 3 éléments ou membres d'équipage.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Ne pas avoir d'élément endommagé ou détruit ni de membre d'équipage blessé à la fin de la bataille.</req>
@@ -3505,7 +3545,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="C. de chars-9 : En plein dans le mille" short="Object 260: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compense le blindage relativement faible de votre véhicule." tMID="279" opID="4" mID="9" setID="4" ID="quest_4_4_9_main" secID="quest_4_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+    <PM name="C. de chars-9 : En plein dans le mille" short="Object 260: C. de chars-9 " desc="Les bonnes caractéristiques de votre canon compensent le blindage relativement faible de votre véhicule." tMID="279" opID="4" mID="9" setID="4" ID="quest_4_4_9_main" secID="quest_4_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Visez les points faibles d'un char ennemi, comme les flancs, l'arrière ou le glacis inférieur. Il est également utile de savoir où se trouvent les éléments clés comme le râtelier à munitions et les réservoirs. Pour jouer le plus efficacement, vous devriez emmener quelques obus premium avec vous. Ces obus peuvent pénétrer les blindages bien plus épais que les normaux.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Effectuer au moins 7 coups pénétrants consécutifs sur des véhicules ennemis.\n• Les coups pénétrants sur un comme plusieurs véhicules sont pris en compte.</req>
@@ -3578,7 +3618,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-2 : Caché et dangereux" short="Object 260: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>L'équipement « Filet de camouflage » combinné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Faire partie des 3 meilleurs joueurs de votre équipe en dégâts infligés. Ne pas se faire repérer au cours de la bataille.</req>
       </Primary>
@@ -3595,7 +3635,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Passer de l'autre côté" short="Object 260: Canon AM-3 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+    <PM name="Canon AM-4 : Passer de l'autre côté" short="Object 260: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 10 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
@@ -3604,7 +3644,7 @@
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 :Calcul, plus de véhicule" short="Object 260: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="Object 260: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la relativement faible durabilité de votre canon automoteur." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger des dégâts au moins 10 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
@@ -3643,7 +3683,7 @@
     <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="Object 260: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 4 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infilgent ou non des dégâts, sont pris en compte.</req>
+        <req>• Effectuer au moins 4 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infligent ou non des dégâts, sont pris en compte.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Remporter la bataille.\n• Ne pas se faire repérer au cours de la bataille.</req>
@@ -3658,7 +3698,7 @@
         <req>• Infliger au moins 4 000 points de dégâts.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="Object 260: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'important dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+    <PM name="Canon AM-11 : Zone d'effet" short="Object 260: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
       <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 véhicules ennemis avec un seul tir.</req>
@@ -3686,7 +3726,7 @@
       </Secondary>
     </PM>
     <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="Object 260: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Un char léger peur repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 5 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
       </Primary>
@@ -3731,7 +3771,7 @@
       </Secondary>
     </PM>
     <PM name="TdA-4 : Premier au combat" short="T-22 medium: TdA-4 " desc="Essayez d'éviter les erreurs en première ligne, il n'y a pas beaucoup de temps pour planifier une tactique et l'ennemi doit être détruit rapidement et de façon décisive." tMID="304" opID="5" mID="4" setID="1" ID="fallout_5_1_4_main" secID="fallout_5_1_4_add" minLvl="10" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
-      <Hint>Ce peut-être une bonne idée de choisir un véhicule à barillet en premier pour accomplir cette mission. Un barillet complet dispose de suffisamment d'obus pour détruire presque n'importe quel véhicule ennemi.</Hint>
+      <Hint>Ce peut être une bonne idée de choisir un véhicule à barillet en premier pour accomplir cette mission. Un barillet complet dispose de suffisamment d'obus pour détruire presque n'importe quel véhicule ennemi.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire 1 véhicule ennemi en lui tirant dessus ou en le percutant au cours des deux premières minutes de la bataille.</req>
       </Primary>
@@ -3778,7 +3818,7 @@
     <PM name="TdA-9 : Sabotage" short="T-22 medium: TdA-9 " desc="Vous pouvez nuire aux véhicules ennemis en infligeant des dégâts ou en endommageant et en détruisant leurs éléments. Chaque coup critique réduit sensiblement les performances de combat de l'ennemi." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
       <Hint>L'aptitude Coup mortel augmente la probabilité d'effectuer un coup crique et simplifie la vie. Retenez que les éléments internes d'un véhicule sont l'anneau de la tourelle, le moteur, les réservoirs, le râtelier à munitions et la radio.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 12 éléments ou membres d'équipage.\n• Les dégâts infligés par les réserves de combat ne sont pas pris en compte.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
+        <req>• Endommager ou détruire des éléments internes de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 12 éléments ou membres d'équipage.\n• Les dégâts infligés par les réserves de combat ne sont pas pris en compte.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.\n• Les dégâts critiques infligés par incendie aux véhicules ennemis après la destruction du véhicule du joueur ne sont pas pris en compte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 8 000 points de dégâts à des véhicules ennemis en leur tirant dessus ou en les percutant.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
@@ -3823,14 +3863,14 @@
     <PM name="TdA : Dans le feu de la bataille" short="T-22 medium: TdA " desc="Vous gagnez des points d'expérience en rapportant ou en détruisant un drapeau, en repérant, en infligeant des dégâts et en détruisant des véhicules ennemis. Prouvez votre valeur et accumulez autant d'expérience que vous le pouvez." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
       <Hint>Évitez les tirs directs ennemis et de vous retrouver dans une situation de tirs croisés. Volez tel un papillon, piquez comme une abeille.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 10 000 points de dégâts à des véhicules ennemis en leur tirant dessus ou en les percutant.\n• Ne perdre aucun de vos véhicules pendant la bataille.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
+        <req>• Infliger au moins 10 000 points de dégâts à des véhicules ennemis en leur tirant dessus ou en les percutant.\n• Ne perdre aucun de vos véhicules pendant la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 1 500 points de dégâts par des réserves de combat.</req>
       </Secondary>
     </PM>
     <PM name="TdA-15 : Échec et mat" short="T-22 medium: TdA-15 " desc="Votre heure de gloire est arrivée ! Vous avez déjà exploré les cartes et appris ce qu'il faut attendre des véhicules ennemis : il est temps de mettre vos talents à l'épreuve." tMID="315" opID="5" mID="15" setID="1" ID="fallout_5_1_15_main" secID="fallout_5_1_15_add" minLvl="10" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
-      <Hint>Prenez votre temps lors de la sélection des véhicules, de l'équipement et des consommables. Songez à ajouter quelques obus premium ; assurez-vous d'entrer en bataille avec un équipage entraîné. Déployez-vous !</Hint>
+      <Hint>Prenez votre temps lors du choix des véhicules, de l'équipement et des consommables. Songez à ajouter quelques obus premium ; assurez-vous d'entrer en bataille avec un équipage entraîné. Déployez-vous !</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>• Terminer la bataille en étant le meilleur joueur en termes de points d'expérience et de victoire gagnés.\n• Infliger au moins 12 000 points de dégâts à des véhicules ennemis en leur tirant dessus ou en les percutant.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
       </Primary>
@@ -3847,7 +3887,7 @@
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="D-2 : Accélération, destruction" short="T-22 medium: D-2 " desc="Ce peut-être une bonne idée de choisir un véhicule à barillet en premier pour accomplir cette mission. Un barillet complet dispose de suffisamment d'obus pour détruire presque n'importe quel véhicule ennemi." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
+    <PM name="D-2 : Accélération, destruction" short="T-22 medium: D-2 " desc="Ce peut être une bonne idée de choisir un véhicule à barillet en premier pour accomplir cette mission. Un barillet complet dispose de suffisamment d'obus pour détruire presque n'importe quel véhicule ennemi." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
       <Hint>Pour rester dissimulé, essayez de garder une bonne distance entre vous et l'ennemi. Tirer sur des véhicules ennemis repérés par vos alliés vous aidera à ne pas vous faire repérer.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 1 véhicule ennemi en lui tirant dessus ou en le percutant au cours des deux premières minutes de la bataille.</req>
@@ -3895,7 +3935,7 @@
     <PM name="D-7 : Nerfs d'acier" short="T-22 medium: D-7 " desc="Ne sous-estimez pas la protection de votre blindage : évitez d'exposer les flancs et l'arrière de votre véhicule aux tirs ennemis. Essayez de fuir rapidement les zones de frappe d'artillerie ou de frappe aérienne." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
       <Hint>Pour accomplir cette mission, choisissez des véhicules lourdement blindés disposant d'une grande durabilité. Plus vous recevrez de tirs non pénétrants et de ricochets, plus vous rapprocherez de votre objectif.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Les dégâts reçus et ceux bloqués par le blindage doivent atteindre au moins 8 000 points de structure.\n• Effectuer au moins 5 tirs infligeant des dégâts aux véhicules ennemis.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
+        <req>• Les dégâts reçus et ceux bloqués par le blindage doivent atteindre au moins 8 000 points de structure.\n• Les dégâts infligés et reçus par des réserves de combat ne sont pas pris en compte.\n• Effectuer au moins 5 tirs infligeant des dégâts aux véhicules ennemis.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Infliger au moins 3 000 points de dégâts à des véhicules ennemis en leur tirant dessus ou en les percutant.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
@@ -3958,7 +3998,7 @@
     <PM name="D-14 : Éloge des critiques" short="T-22 medium: D-14 " desc="Pour accomplir cette mission, songez à utiliser des véhicules disposant d'une cadence de tir élevée et d'une bonne portée de vue. Assurez-vous de connaître l'emplacement des éléments internes et des membres d'équipage. Retenez que plus longtemps vous restez dans la bataille et plus vous tirez précisément, plus vos chances d'infliger le nombre de coups critiques nécessaire seront augmentées." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Tempête de feu" reward="T-22 medium">
       <Hint>L'aptitude Coup mortel augmente la probabilité d'effectuer un coup crique et simplifie grandement les choses. Pour augmente la distance de combat, utilisez les Optiques traitées ou le Télescope binoculaire.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 10 éléments ou membres d'équipage, en leur tirant dessus.\n• Infliger au moins 10 000 points de dégâts à des véhicules ennemis à portée de vue de votre véhicule, en leur tirant dessus ou en les percutant.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.</req>
+        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 10 éléments ou membres d'équipage, en leur tirant dessus.\n• Infliger au moins 10 000 points de dégâts à des véhicules ennemis à portée de vue de votre véhicule, en leur tirant dessus ou en les percutant.\n• Les résultats obtenus à bord de tous les véhicules que vous avez choisis pour la bataille se cumulent.\n• Les dégâts critiques infligés par incendie aux véhicules ennemis après la destruction du véhicule du joueur ne sont pas pris en compte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Rapporter au moins 2 drapeaux.</req>

@@ -6,6 +6,10 @@
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
+    <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
+    <tank ID="A05_M4_Sherman_IGR" sName="M4" lName="M4 Sherman" />
+    <tank ID="A07_T20" sName="T20" lName="T20" />
+    <tank ID="A09_T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="A101_M56" sName="Scorpion" lName="M56 Scorpion" />
     <tank ID="A102_T28_concept" sName="T28 HTC" lName="T28 Concept" />
     <tank ID="A103_T71E1" sName="T71" lName="T71" />
@@ -17,6 +21,7 @@
     <tank ID="A109_T56_GMC" sName="T56 GMC" lName="T56 GMC" />
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
+    <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -29,6 +34,7 @@
     <tank ID="A24_T2_med_bot" sName="T2 Medium" lName="T2 Medium Tank" />
     <tank ID="A25_M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="A27_T82" sName="T82 HMC" lName="T82 HMC" />
+    <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="Wolverine" lName="M10 Wolverine" />
     <tank ID="A-32" sName="А-32" lName="А-32" />
     <tank ID="A35_Pershing" sName="Pershing" lName="M26 Pershing" />
@@ -41,6 +47,7 @@
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
+    <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
     <tank ID="A69_T110E5" sName="T110E5" lName="T110E5" />
     <tank ID="A78_M4_Improved" sName="M4 Improved" lName="M4 Improved" />
     <tank ID="A80_T26_E4_SuperPershing" sName="T26E4" lName="T26E4 SuperPershing" />
@@ -49,6 +56,8 @@
     <tank ID="A84_M48A1_IGR" sName="M48 Patton" lName="M48A1 Patton" />
     <tank ID="A85_T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="A86_T23E3" sName="T23E3" lName="T23E3" />
+    <tank ID="A87_M44" sName="M44" lName="M44" />
+    <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
@@ -160,12 +169,15 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
+    <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
     <tank ID="F36_AMX_AC_Mle1948" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
+    <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F68_AMX_Chasseur_de_char_46" sName="AMX CDC" lName="AMX Chasseur de chars" />
     <tank ID="F69_AMX13_57_100" sName="AMX 13 57" lName="AMX 13 57" />
@@ -175,6 +187,7 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -206,6 +219,9 @@
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
+    <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
+    <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
+    <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
@@ -221,7 +237,12 @@
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
+    <tank ID="G40_Nashorn" sName="Nashorn" lName="Nashorn" />
     <tank ID="G44_JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
+    <tank ID="G45_G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
+    <tank ID="G46_T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="G48_E-25" sName="E 25" lName="E 25" />
+    <tank ID="G48_E-25_IGR" sName="E 25" lName="E 25" />
     <tank ID="G52_Pz38_NA" sName="Pz. 38 nA" lName="Pz.Kpfw. 38 (t) n.A." />
     <tank ID="G58_VK4502P" sName="VK 45.02 B7" lName="VK 45.02 (P) Ausf. B7" />
     <tank ID="G65_JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
@@ -233,6 +254,7 @@
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
     <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (П)" lName="Leopard 1 (П)" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
+    <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GAZ-74b" sName="СУ-85Б" lName="СУ-85Б" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -272,7 +294,8 @@
     <tank ID="GB30_FV3805" sName="FV3805" lName="FV3805" />
     <tank ID="GB31_Conqueror_Gun" sName="ConquerorGC" lName="Conqueror Gun Carriage" />
     <tank ID="GB32_Tortoise" sName="Tortoise" lName="Tortoise" />
-    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel I" lName="Sentinel AC I" />
+    <tank ID="GB33_Sentinel_AC_I" sName="Sentinel" lName="AC 1 Sentinel" />
+    <tank ID="GB35_Sentinel_AC_IV" sName="AC 4 Exp." lName="AC 4 Experimental" />
     <tank ID="GB39_Universal_CarrierQF2" sName="UC 2-pdr" lName="Universal Carrier 2-pdr" />
     <tank ID="GB40_Gun_Carrier_Churchill" sName="Churchill GC" lName="Churchill Gun Carrier" />
     <tank ID="GB41_Challenger" sName="Challenger" lName="Challenger" />
@@ -331,6 +354,10 @@
     <tank ID="ISU-152_IGR" sName="ИСУ-152" lName="ИСУ-152" />
     <tank ID="J03_Ha_Go" sName="Ha-Go" lName="Type 95 Ha-Go" />
     <tank ID="J04_Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
+    <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
+    <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
+    <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
     <tank ID="J20_Type_2605" sName="Type 5 Heavy" lName="Type 5 Heavy" />
@@ -474,6 +501,7 @@
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
+    <tank ID="R01_IS" sName="ИС" lName="ИС" />
     <tank ID="R02_SU-85" sName="СУ-85" lName="СУ-85" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="Т-28" lName="Т-28" />
@@ -485,6 +513,8 @@
     <tank ID="R107_LTB" sName="ЛТТБ" lName="ЛТТБ" />
     <tank ID="R108_T34_85M" sName="Т-34-85М" lName="Т-34-85М" />
     <tank ID="R109_T54S" sName="Т-54 ол." lName="Т-54 ол." />
+    <tank ID="R11_MS-1" sName="МС-1" lName="МС-1" />
+    <tank ID="R11_MS-1_bot" sName="МС-1" lName="МС-1" />
     <tank ID="R110_Object_260" sName="Об. 260" lName="Обект 260" />
     <tank ID="R111_ISU130" sName="ИСУ-130" lName="ИСУ-130" />
     <tank ID="R112_T54_45" sName="T-54 мод. 1" lName="T-54 първи прототип" />
@@ -495,10 +525,14 @@
     <tank ID="R117_T34_85_Rudy" sName="Rudy" lName="Т-34-85 Rudy" />
     <tank ID="R118_T28_F30" sName="T-28E Ф-30" lName="Т-28Э с Ф-30" />
     <tank ID="R119_Object_777" sName="Об. 777 II" lName="Обект 777 Вариант II" />
+    <tank ID="R12_A-20" sName="А-20" lName="А-20" />
     <tank ID="R120_T22SR_A22" sName="Т-22 ср." lName="Т-22 ср." />
     <tank ID="R121_KV4_KTT" sName="КВ-4 КТТС" lName="КВ-4 КТТС" />
     <tank ID="R122_T44_100" sName="Т-44-100" lName="Т-44-100" />
+    <tank ID="R123_Kirovets_1" sName="Кировец-1" lName="Кировец-1" />
+    <tank ID="R127_T44_100_P" sName="Т-44-100 (Р)" lName="Т-44-100 (Р)" />
     <tank ID="R16_SU-18" sName="СУ-18" lName="СУ-18" />
+    <tank ID="R17_SU-100" sName="СУ-100" lName="СУ-100" />
     <tank ID="R18_SU-152" sName="СУ-152" lName="СУ-152" />
     <tank ID="R18_SU-152_IGR" sName="СУ-152" lName="СУ-152" />
     <tank ID="R19_IS-3" sName="ИС-3" lName="ИС-3" />
@@ -511,6 +545,7 @@
     <tank ID="R53_Object_704" sName="Об. 704" lName="Обект 704" />
     <tank ID="R54_KV-5" sName="КВ-5" lName="КВ-5" />
     <tank ID="R54_KV-5_IGR" sName="КВ-5" lName="КВ-5" />
+    <tank ID="R61_Object252" sName="ИС-6" lName="ИС-6" />
     <tank ID="R71_IS_2B" sName="ИС-2" lName="ИС-2" />
     <tank ID="R80_KV1" sName="КВ-1" lName="КВ-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
@@ -573,7 +608,7 @@
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="Т-127" lName="Т-127" />
     <tank ID="T14" sName="T14" lName="T14" />
-    <tank ID="T-15" sName="Pz.Kpfw. T 15" lName="Pz.Kpfw. T 15" />
+    <tank ID="T-15" sName="Pz. T 15" lName="Pz.Kpfw. T 15" />
     <tank ID="T150" sName="Т-150" lName="Т-150" />
     <tank ID="T18" sName="T18" lName="T18" />
     <tank ID="T2_lt" sName="T2 Light" lName="T2 Light Tank" />
@@ -582,7 +617,7 @@
     <tank ID="T21" sName="T21" lName="T21" />
     <tank ID="T23" sName="T23" lName="T23" />
     <tank ID="T23E3" sName="T23E3" lName="T23E3" />
-    <tank ID="T-25" sName="Pz.Kpfw. T 25" lName="Pz.Kpfw. T 25" />
+    <tank ID="T-25" sName="Pz. T 25" lName="Pz.Kpfw. T 25" />
     <tank ID="T25_2" sName="T25/2" lName="T25/2" />
     <tank ID="T25_AT" sName="T25 AT" lName="T25 AT" />
     <tank ID="T-26" sName="Т-26" lName="Т-26" />
@@ -696,7 +731,6 @@
     <item ID="36_fishing_bay" Name="Рибарски залив" />
     <item ID="37_caucasus" Name="Клисура" />
     <item ID="38_mannerheim_line" Name="Арктика" />
-    <item ID="43_north_america" Name="Северозапад" />
     <item ID="44_north_america" Name="Лайв Окс" />
     <item ID="45_north_america" Name="Магистрала" />
     <item ID="47_canada_a" Name="Тих бряг" />
@@ -707,14 +741,15 @@
     <item ID="84_winter" Name="Уиндсторм" />
     <item ID="86_himmelsdorf_winter" Name="Зимен Химелсдорф" />
     <item ID="92_stalingrad" Name="Сталинград" />
-    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Призрачен град" />
     <item ID="96_prohorovka_defense" Name="Огнена дъга" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h07_newyear_2015" />
+    <item ID="h09_bday_cn_2016" />
+    <item ID="h11_wgl_grandfinal_2016" />
+    <item ID="h12_bday_eu_2015" />
     <item ID="03_campania" Name="Провинция" />
     <item ID="15_komarin" Name="Комарин" />
     <item ID="39_crimea" Name="Южен бряг" />
+    <item ID="43_north_america" Name="Северозапад" />
     <item ID="51_asia" Name="Драконов хребет" />
     <item ID="53_japan" Name="Скрито село" />
     <item ID="60_asia_miao" Name="Перлената река" />
@@ -724,6 +759,7 @@
     <item ID="102_deathtrack" Name="Танково състезание" />
     <item ID="h01_bday_2015" />
     <item ID="h02_tmday_2015" />
+    <item ID="h03_shopfest_2015" />
     <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
     <item ID="h06_vetday_2015" />
@@ -755,6 +791,7 @@
     <item ID="escort" Name="Ескорт" />
     <item ID="assault2" Name="Атака/Отбрана" />
     <item ID="fallout" Name="Стоманен лов" />
+    <item ID="sandbox" Name="Учебна битка" />
     <item ID="fallout1" Name="Стоманен лов" />
     <item ID="fallout2" Name="Стоманен лов" />
     <item ID="fallout3" Name="Стоманен лов" />
@@ -773,11 +810,12 @@
     <item ID="6" Name="Бойно обучение" />
     <item ID="7" Name="Отборна битка: извън Класацията" />
     <item ID="8" Name="Историческа битка" />
-    <item ID="9" Name="Буйство" />
+    <item ID="9" Name="Специален игрови режим" />
     <item ID="10" Name="Схватки" />
     <item ID="11" Name="Битки за Укрепление" />
     <item ID="12" Name="Отборна битка: за Класацията" />
     <item ID="13" Name="Глобална карта" />
+    <item ID="17" Name="Учебна битка" />
     <item ID="unknown" Name="Неизвестно" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -787,6 +825,8 @@
     <item ID="3" Name="Времето за битка изтече" />
     <item ID="4" Name="Битката е прекратена заради системна грешка" />
     <item ID="5" Name="Техническа загуба" />
+    <item ID="6" Name="Точки за победа" />
+    <item ID="7" Name="Целта не е изпълнена" />
     <item ID="unknown" Name="Неизвестно" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -954,7 +994,7 @@
     <achv ID_Num="493" ID="histBattle6_battlefield" Name="Бойно поле: Обсадата на Тобрук" />
     <achv ID_Num="494" ID="histBattle6_historyLessons" Name="Уроците на историята: Обсадата на Тобрук" />
     <achv ID_Num="496" ID="guerrillaMedal" Name="Партизанин" />
-    <achv ID_Num="498" ID="infiltratorMedal" Name="Инфилтратор" />
+    <achv ID_Num="498" ID="infiltratorMedal" Name="Покорител" />
     <achv ID_Num="500" ID="sentinelMedal" Name="Пазител" />
     <achv ID_Num="502" ID="prematureDetonationMedal" Name="Ахилесова пета" />
     <achv ID_Num="504" ID="bruteForceMedal" Name="Груба сила" />
@@ -3778,7 +3818,7 @@
     <PM name="СЛ-9: Саботаж" short="Т-22 среден: СЛ-9" desc="Можете да навредите на вражеските машини като им нанасяте поражения или като унищожавате модулите им. Всяко критично попадение значително намалява бойната ефективност на врага." tMID="309" opID="5" mID="9" setID="1" ID="fallout_5_1_9_main" secID="fallout_5_1_9_add" minLvl="10" maxLvl="10" campID="2" camp="Огнена дъга" reward="Т-22 среден">
       <Hint>Умението \"Снайперист\" повишава шанса за критично попадение и може да направи живота ви по-лесен. Запомнете: вътрешните модули включват механизма за въртене на купола, двигателя, горивните резервоари, боекомплекта и радиостанцията.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Повредете или унищожете вътрешни модули на вражески машини или ранете членове на екипажите им, общо поне 12 модула и члена на екипажа.\n• Пораженията, нанесени с бойни резерви, не се зачитат.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
+        <req>• Повредете или унищожете вътрешни модули на вражески машини или ранете членове на екипажа им, общо поне 12 модула и члена на екипажа.\n• Пораженията, нанесени с бойни резерви, не се зачитат.\n• Резултатите, постигнати с всички машини, което сте избрали за битката, се сумират.\n• Критичните поражения по вражеска машина, нанесени от пожар след унищожаването на машината на играча, не се зачитат.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Нанесете поне 8 000 точки поражения на вражески машини чрез стрелба или с таран.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
@@ -3823,7 +3863,7 @@
     <PM name="СЛ-14: В разгара на битката" short="Т-22 среден: СЛ-14" desc="Получавате опит за пленяване или унищожаване на знаме, нанасяне на поражения, откриване и унищожаване на вражески машини. Докажете се и спечелете колкото се може повече опит." tMID="314" opID="5" mID="14" setID="1" ID="fallout_5_1_14_main" secID="fallout_5_1_14_add" minLvl="10" maxLvl="10" campID="2" camp="Огнена дъга" reward="Т-22 среден">
       <Hint>Старайте се да не попадате под кръстосан или пряк вражески огън. Носете се като пеперуда, жилете като пчела.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанесете поне 10 000 точки поражения на вражески машини чрез стрелба или с таран.\n• Не губете нито една от машините си в битката.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
+        <req>• Нанесете поне 10 000 точки поражения на вражески машини чрез стрелба или с таран.\n• Не губете нито една от машините си в битката.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Нанесете поне 1 500 точки поражения с бойни резерви.</req>
@@ -3895,7 +3935,7 @@
     <PM name="П-7: Железни нерви" short="Т-22 среден: П-7" desc="Не надценявайте бронята си: не подлагайте машината си на обстрел отзад или отстрани. Опитвайте бързо да се изтегляте от зоните на артилерийски залп и бомбардировка." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Огнена дъга" reward="Т-22 среден">
       <Hint>За да изпълните тази мисия, изберете машина с дебела броня и много точки живот. Колкото повече рикошети и непробили попадения получите, толкова по-близо сте до изпълнението на целта си.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Нанесените поражения и пораженията, спрени от броня, трябва да бъдат общо поне 8 000 точки.\n• Произведете поне 5 изстрела, нанесли поражения на вражески машини.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
+        <req>• Нанесените поражения и пораженията, спрени от броня, трябва да бъдат общо поне 8 000 точки.\n• Пораженията, нанесени или получени с бойни резерви, не се отчитат.\n• Произведете поне 5 изстрела, нанесли поражения на вражески машини.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Нанесете поне 3 000 точки поражения на вражески машини чрез стрелба или с таран.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
@@ -3958,7 +3998,7 @@
     <PM name="П-14: Буйни овации" short="Т-22 среден: П-14" desc="За да изпълните тази мисия, може да трябва да използвате машини с висока скорострелност и добър обзор. Уверете се, че знаете местата на вътрешните модули и на членовете на екипажа. Запомнете: колкото по-дълго останете в битката и колкото по-точно стреляте, толкова по-голям шанс имате да нанесете необходимия брой критични попадения." tMID="414" opID="5" mID="14" setID="2" ID="fallout_5_2_14_main" secID="fallout_5_2_14_add" minLvl="8" maxLvl="10" campID="2" camp="Огнена дъга" reward="Т-22 среден">
       <Hint>Умението \"Снайперист\" повишава шанса за критично попадение и може да направи живота ви по-лесен. За да повишите дистанцията на обстрел, използвайте бинокъл или промазана оптика.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Повредете или унищожете вътрешни модули на вражески машини или ранете членове на екипажите им, общо поне 10 модула и члена на екипажа, чрез стрелба.\n• Нанесете поне 10 000 точки поражения на вражески машини в рамките на обзора на машината ви, чрез стрелба или с таран.\n• Резултатите, постигнати с всички машини, които сте избрали за битката, се сумират.</req>
+        <req>• Повредете или унищожете модули на вражески машини или ранете членове на екипажа им, общо поне 10 модула и члена на екипажа, чрез стрелба.\n• Нанесете поне 10 000 точки поражения на вражески машини в рамките на обзора на вашата машина, чрез стрелба или с таран.\n• Резултатите, постигнати с всички машини, което сте избрали за битката, се сумират.\n• Критичните поражения по вражеска машина, нанесени от пожар след унищожаването на машината на играча, не се зачитат.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Пленете поне 2 знамена.</req>
