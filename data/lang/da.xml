@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
+    <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -45,6 +48,8 @@
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
     <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G05_StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
+    <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
-    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G25_PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G27_VK3001P" sName="VK 30.01 P" lName="VK 30.01 (P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="Pz. V BP A" lName="Pz.Kpfw. V Berge-Panther Alpha" />
+    <tank ID="G32_PzV_PzIV_CN" sName="Pz. V BP" lName="Pz.Kpfw. V Berge-Panther" />
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J09_Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
+    <tank ID="J12_Chi_Nu_Kai" sName="Chi-Nu Kai" lName="Type 3 Chi-Nu Kai" />
     <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" sName="IS 8-ball" lName="IS 8-ball" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="Obj. 430 II" lName="Object 430 Version II" />
     <tank ID="R105_BT_7A" sName="BT-7 art." lName="BT-7 artillery" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Object 268 Version V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212A" lName="212A" />
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="Icebound" />
     <item ID="112_eiffel_tower" Name="Plyndret hovedstad" />
     <item ID="114_czech" Name="Pilsen" />
-    <item ID="119_moon_pool" Name="Krater" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfried Line" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fremskudt ildpunkt" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
@@ -813,7 +839,7 @@
     <item ID="6" Name="Kamptræning" />
     <item ID="7" Name="Hold: Urangerede kampe" />
     <item ID="8" Name="Historisk kamp" />
-    <item ID="9" Name="Særlig kamptype" />
+    <item ID="9" Name="Særlig event" />
     <item ID="10" Name="Træfninger" />
     <item ID="11" Name="Kampe om befæstning" />
     <item ID="12" Name="Holdkamp: Rangeret" />
@@ -860,6 +886,7 @@
     <item ID="3" Name="Forulykket" />
     <item ID="4" Name="Ødelagt af en dødszone" />
     <item ID="5" Name="Køretøj druknet" />
+    <item ID="7" Name="Overlagt selvdestruktion" />
     <item ID="unknown" Name="Ukendt" />
   </Lang_DeathReasons>
   <Lang_Crits>
@@ -1110,7 +1137,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Kom ud af vores base!" short="StuG IV: LT-8" desc="I kampens hede er det nemt at glemme alt om forsvaret af din egen eller den neutrale base. Sådan forglemmelse kan give fjenden mulighed for at få overtaget og indtage baserne lynhurtigt. Husk, din kampvogn har nok fart til at afbryde en kamp og falde tilbage for at forsvare basen og ryste invasionsstyrken med præcise skud eller et modigt sammenstød, hvor du derved redder dit hold fra et snarligt nederlag." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser-lad i stedet en højeksplosiv granat. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
+      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser, lad da i stedet en højeksplosiv granat i kanonen. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj eller skader et af dets moduler, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din eller en neutral base.\n• Vind kampen.</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="LT-10: Maksimalt resultat" short="StuG IV: LT-10" desc="Jo mere effektiv du er i en kamp, jo mere xp vil du optjene. Vis dem hvad en let kampvogn kan gøre!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
       <Hint>En god spejder ved hvornår han skal være forsigtig og hvornår han skal være aggressiv. Vær opmærksom og følg kampens flow.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp.</req>
+        <req>• Vær i top 3 på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
@@ -1163,7 +1190,7 @@
         <req>• Overlev selv kampen.\n• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Kampobservatør (personlig/deling)" short="StuG IV: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Se efter køretøjer som komplementerer din deling efter din spillestil: nogle gange er det bedre at gå med i en kamp som del af en deling af SPG'ere, og nogle gange—med en gruppe af lette kampvogne. Vær ikke bange for at eksperimentere med sammensætningen. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, det sidste er dog klart sværere." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+    <PM name="LT-14: Kampobservatør (personlig/deling)" short="StuG IV: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Gå med i en deling med køretøjer som supplerer din spillestil: Du vil måske gå i kamp i en deling med SPG'ere eller du foretrækker måske et bevægeligt kobbel af lette kampvogne. Vær ikke bange for at eksperimentere med forskellige opstillinger. Denne mission kan fuldføres enten som del af en deling eller alene. Det er dog langt sværere alene." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
       <Hint>Jo mere erfarne spillere der kæmper ved din side, jo højere vil kampeffektiviteten være på dit hold. Forstærk dit holds effektivitet ved at gå med i en deling. Alternativt kan du spille alene hvis du er helt sikker på du har evnerne og at dine allierede ikke vil skuffe dig.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Observer fjendtlige køretøjer og gør dine allierede i stand til at uddele mindst 2.000 hp skade til fjendtlige køretøjer, enten personligt eller totalt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din lette kampvogn og hvilke som helst andre køretøjer.</req>
@@ -1238,7 +1265,7 @@
     <PM name="HT-7: Jeg har det dækket" short="StuG IV: HT-7" desc="Gennembruds taktikker er gode for tunge kampvogne. Bryd igennem fjendens forsvarslinjer og erobr deres base. Undervurder dog ikke din fjende—det kan være de benytter den samme taktik." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
       <Hint>Vær forsigtig når du nærmer dig fjendens base—vær klar til en varm modtagelse. Hvis du foretrækker defensive strategier, gør da brug af terrænet for at finde de bedste steder at skjule dig og observere fra, hvor du vil være i stand til at forsvare din egen (eller den neutrale base i kamptypen sammenstød) når fjenden nærmer sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din eller en neutral base.\n• Vind kampen.\n• Uddel mindst 1.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din/den neutrale base.\n• Vind kampen.\n• Uddel mindst 1.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Ødelæg et fjendtligt køretøj.</req>
@@ -1263,7 +1290,7 @@
       </Secondary>
     </PM>
     <PM name="HT-10: Et tungt argument" short="StuG IV: HT-10" desc="Hold din kanon aktiv og hold dig selv i live så længe som muligt." tMID="25" opID="1" mID="10" setID="2" ID="quest_1_2_10_main" secID="quest_1_2_10_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, hvis brugt effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
+      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, når det bruges effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vær i top 3 på dit hold efter skade uddelt.</req>
       </Primary>
@@ -1328,7 +1355,7 @@
     <PM name="MT-2: God træffer!" short="StuG IV: MT-2" desc="Hver god træffer bringer dit hold tættere på sejren. Det er dog ikke så nemt at få en god træffer ind på et fjendtligt køretøj." tMID="32" opID="1" mID="2" setID="3" ID="quest_1_3_2_main" secID="quest_1_3_2_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
       <Hint>Gennembrydningsmarkøren på dit sigte viser chancen for at gennembryde det fjendtlige køretøj på et givent punkt. En rød markør indikerer ingen chance for gennembrydning, gul indikerer lav chance, mens grøn indikerer høj chance for gennembrydning. Prøv at sigt på siderne eller bagtil på et fjendtligt køretøj. Se efter deres svage punkter.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Afgiv mindst 6 skud der giver skade til fjendtlige køretøjer.</req>
+        <req>• Affyr mindst 6 skud der giver skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Ødelæg et fjendtligt køretøj.</req>
@@ -1496,13 +1523,13 @@
         <req>• Uddel mindst 1.000 hp skade.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Præcis kalkulation" short="StuG IV: TD-6" desc="Det er rigtig svært at ramme et mål i bevægelse. Endnu mere svært, når du afgiver ild fra lang afstand." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Brug snigskytte modus og sigt foran målet før du afgiver ild. Autosigte er ubrugeligt i de fleste tilfælde, når du afgiver ild mod et mål i bevægelse.</Hint>
+    <PM name="TD-6: De vil ikke passere!" short="StuG IV: TD-6" desc="Prøv at holde fjendtlige køretøjer så langt fra din position som muligt. Ødelæg dem mens de nærmer sig, siden det vil være langt sværere at stoppe angrebet på nært hold." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>Sørg for at dit køretøj er skjult bag buske eller væltede træer før du afgiver skud. Hvis dit køretøj er 15m bag en busk eller væltet træ, har du en bedre chance for at forblive skjult efter du har afgivet skud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade til et fjendtligt køretøj fra en afstand på 250m eller mere.\n• Fjendtligt køretøj skal være i bevægelse.</req>
+        <req>• Uddel skade til et fjendtligt køretøj fra en afstand på 250m eller mere.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg et fjendtligt køretøj i bevægelse.</req>
+        <req>• Ødelæg mindst 1 fjendtligt køretøj.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: Første træffer" short="StuG IV: TD-7" desc="Lad ikke fjenden komme tæt på dig: panseret på dit køretøj er ikke rigtig effektivt mod fjendens ild." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
@@ -1589,7 +1616,7 @@
     <PM name="SPG-1: Skarpskytten" short="StuG IV: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
       <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 3 træffere der uddeler skade på fjendtlige køretøjer.</req>
+        <req>• Scor mindst 3 træffere der giver skade på fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 1.000 hp skade.</req>
@@ -1673,7 +1700,7 @@
         <req>• Ødelæg mindst 1 fjendtlig SPG.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade.</req>
+        <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: Sprængradius" short="StuG IV: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
@@ -1785,7 +1812,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Kom ud af vores base!" short="T28 heavy tank concept: LT-8" desc="I kampens hede er det nemt at glemme alt om forsvaret af din egen eller den neutrale base. Sådan forglemmelse kan give fjenden mulighed for at få overtaget og indtage baserne lynhurtigt. Husk, din kampvogn har nok fart til at afbryde en kamp og falde tilbage for at forsvare basen og ryste invasionsstyrken med præcise skud eller et modigt sammenstød, hvor du derved redder dit hold fra et snarligt nederlag." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser-lad i stedet en højeksplosiv granat. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
+      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser, lad da i stedet en højeksplosiv granat i kanonen. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj eller skader et af dets moduler, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Deltag i en erobring af fjendens base mens du optjener mindst 20 erobringspoint eller nulstil fjendens erobringspoint i din eller en neutral base mens du optjener mindst 20 baseforsvarspoint.\n• Vind kampen.</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="LT-10: Maksimalt resultat" short="T28 heavy tank concept: LT-10" desc="Jo mere effektiv du er i en kamp, jo mere xp vil du optjene. Vis dem hvad en let kampvogn kan gøre!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>En god spejder ved hvornår han skal være forsigtig og hvornår han skal være aggressiv. Vær opmærksom og følg kampens flow.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp.\n• Overlev kampen.</req>
+        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
@@ -1838,7 +1865,7 @@
         <req>• Overlev selv kampen.\n• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Kampobservatør (personlig/deling)" short="T28 heavy tank concept: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Se efter køretøjer som komplementerer din deling efter din spillestil: nogle gange er det bedre at gå med i en kamp som del af en deling af SPG'ere, og nogle gange—med en gruppe af lette kampvogne. Vær ikke bange for at eksperimentere med sammensætningen. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, det sidste er dog klart sværere." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+    <PM name="LT-14: Kampobservatør (personlig/deling)" short="T28 heavy tank concept: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Gå med i en deling med køretøjer som supplerer din spillestil: Du vil måske gå i kamp i en deling med SPG'ere eller du foretrækker måske et bevægeligt kobbel af lette kampvogne. Vær ikke bange for at eksperimentere med forskellige opstillinger. Denne mission kan fuldføres enten som del af en deling eller alene. Det er dog langt sværere alene." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Jo mere erfarne spillere der kæmper ved din side, jo højere vil kampeffektiviteten være på dit hold. Forstærk dit holds effektivitet ved at gå med i en deling. Alternativt kan du spille alene hvis du er helt sikker på du har evnerne og at dine allierede ikke vil skuffe dig.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Observer fjendtlige køretøjer og gør dine allierede i stand til at uddele mindst 3.000 hp skade til fjendtlige køretøjer, enten personligt eller totalt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din lette kampvogn og hvilke som helst andre køretøjer.</req>
@@ -1913,7 +1940,7 @@
     <PM name="HT-7: Jeg har det dækket" short="T28 heavy tank concept: HT-7" desc="Gennembruds taktikker er gode for tunge kampvogne. Bryd igennem fjendens forsvarslinjer og erobr deres base. Undervurder dog ikke din fjende—det kan være de benytter den samme taktik." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Vær forsigtig når du nærmer dig fjendens base—vær klar til en varm modtagelse. Hvis du foretrækker defensive strategier, gør da brug af terrænet for at finde de bedste steder at skjule dig og observere fra, hvor du vil være i stand til at forsvare din egen (eller den neutrale base i kamptypen sammenstød) når fjenden nærmer sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din eller en neutral base.\n• Vind kampen.\n• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din/den neutrale base.\n• Vind kampen.\n• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
@@ -1938,7 +1965,7 @@
       </Secondary>
     </PM>
     <PM name="HT-10: Et tungt argument" short="T28 heavy tank concept: HT-10" desc="Hold din kanon aktiv og hold dig selv i live så længe som muligt." tMID="100" opID="2" mID="10" setID="2" ID="quest_2_2_10_main" secID="quest_2_2_10_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, hvis brugt effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
+      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, når det bruges effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vær i top 3 blandt spillerne på begge hold efter skade uddelt.</req>
       </Primary>
@@ -2003,7 +2030,7 @@
     <PM name="MT-2: God træffer!" short="T28 heavy tank concept: MT-2" desc="Hver god træffer bringer dit hold tættere på sejren. Det er dog ikke så nemt at få en god træffer ind på et fjendtligt køretøj." tMID="107" opID="2" mID="2" setID="3" ID="quest_2_3_2_main" secID="quest_2_3_2_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Gennembrydningsmarkøren på dit sigte viser chancen for at gennembryde det fjendtlige køretøj på et givent punkt. En rød markør indikerer ingen chance for gennembrydning, gul indikerer lav chance, mens grøn indikerer høj chance for gennembrydning. Prøv at sigt på siderne eller bagtil på et fjendtligt køretøj. Se efter deres svage punkter.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Afgiv mindst 9 skud der giver skade til fjendtlige køretøjer.</req>
+        <req>• Affyr mindst 9 skud der giver skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
@@ -2093,7 +2120,7 @@
     <PM name="MT-12: Ildspåsætteren" short="T28 heavy tank concept: MT-12" desc="At sætte ild til en fjende er en af de mest effektive måder at ødelægge dem på." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Gennembrydende træffere der rammer motoren eller brændstoftankene har en chance for at starte en brand. Studer diagrammer af køretøjer for at lære hvor disse livsvigtige moduler findes.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Sæt ild til et fjendtligt køretøj, der er 1 niveau højere end dit køretøj.</req>
+        <req>• Sæt ild til et fjendtligt køretøj.\n• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vær i top 3 på dit hold efter optjent xp.</req>
@@ -2171,13 +2198,13 @@
         <req>• Uddel mindst 2.000 hp skade.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Præcis kalkulation" short="T28 heavy tank concept: TD-6" desc="Det er rigtig svært at ramme et mål i bevægelse. Endnu mere svært, når du afgiver ild fra lang afstand." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Brug snigskytte modus og sigt foran målet før du afgiver ild. Autosigte er ubrugeligt i de fleste tilfælde, når du afgiver ild mod et mål i bevægelse.</Hint>
+    <PM name="TD-6: De vil ikke passere!" short="T28 heavy tank concept: TD-6" desc="Prøv at holde fjendtlige køretøjer så langt fra din position som muligt. Ødelæg dem mens de nærmer sig, siden det vil være langt sværere at stoppe angrebet på nært hold." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>Sørg for at dit køretøj er skjult bag buske eller væltede træer før du afgiver skud. Hvis dit køretøj er 15m bag en busk eller væltet træ, har du en bedre chance for at forblive skjult efter du har afgivet skud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade til fjendtlige køretøjer på en afstand af mindst 250m.\n• De fjendtlige køretøjer skal være i bevægelse.</req>
+        <req>• Uddel mindst 1.000 hp skade til fjendtlige køretøjer på en afstand af mindst 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer i bevægelse.</req>
+        <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: Første træffer" short="T28 heavy tank concept: TD-7" desc="Lad ikke fjenden komme tæt på dig: panseret på dit køretøj er ikke rigtig effektivt mod fjendens ild." tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
@@ -2264,7 +2291,7 @@
     <PM name="SPG-1: Skarpskytten" short="T28 heavy tank concept: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 4 træffere der uddeler skade på fjendtlige køretøjer.</req>
+        <req>• Scor mindst 4 træffere der giver skade på fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 2.000 hp skade.</req>
@@ -2348,7 +2375,7 @@
         <req>• Ødelæg mindst 2 fjendtlige SPG'ere.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade.</req>
+        <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: Sprængradius" short="T28 heavy tank concept: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
@@ -2390,7 +2417,7 @@
     <PM name="SPG-15: Krigsguder" short="T28 heavy tank concept: SPG-15" desc="Det er meget bedre for holdet, hvis SPG'en overlever. Prøv ikke at blive udsat for fjendtlig ild og affyr præcise skud mod fjenden." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
       <Hint>Hvis du kender de tekniske karakteristika på din SPG, kan du planlægge dine handlinger i kamp. Nogle gange er det ikke en ret god idé at blive ved basen. Hvis du fører en hurtig SPG, kan du hurtigt skifte positioner og engagere fjenden fra de retninger de mindst venter det.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Vær i top 3 af spillere på dit hold efter både optjent xp og uddelt skade.\n• Uddel mindst 2.000 hp skade.</req>
+        <req>• Vær i top 3 af spillere på begge hold efter både optjent xp og uddelt skade.\n• Uddel mindst 2.000 hp skade.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Overlev kampen.</req>
@@ -2460,7 +2487,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Kom ud af vores base!" short="T 55A: LT-8" desc="I kampens hede er det nemt at glemme alt om forsvaret af din egen eller den neutrale base. Sådan forglemmelse kan give fjenden mulighed for at få overtaget og indtage baserne lynhurtigt. Husk, din kampvogn har nok fart til at afbryde en kamp og falde tilbage for at forsvare basen og ryste invasionsstyrken med præcise skud eller et modigt sammenstød, hvor du derved redder dit hold fra et snarligt nederlag." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser-lad i stedet en højeksplosiv granat. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
+      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser, lad da i stedet en højeksplosiv granat i kanonen. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj eller skader et af dets moduler, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Deltag i en erobring af fjendens base mens du optjener mindst 40 erobringspoint eller nulstil fjendens erobringspoint i din eller en neutral base mens du optjener mindst 40 baseforsvarspoint.\n• Vind kampen.</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="LT-10: Maksimalt resultat" short="T 55A: LT-10" desc="Jo mere effektiv du er i en kamp, jo mere xp vil du optjene. Vis dem hvad en let kampvogn kan gøre!" tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>En god spejder ved hvornår han skal være forsigtig og hvornår han skal være aggressiv. Vær opmærksom og følg kampens flow.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Afslut kampen som den bedste spiller på begge hold efter optjent xp.\n• Overlev kampen.</req>
+        <req>• Afslut kampen som den bedste spiller på begge hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
@@ -2513,7 +2540,7 @@
         <req>• Overlev selv kampen.\n• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Kampobservatør (personlig/deling)" short="T 55A: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Se efter køretøjer som komplementerer din deling efter din spillestil: nogle gange er det bedre at gå med i en kamp som del af en deling af SPG'ere, og nogle gange—med en gruppe af lette kampvogne. Vær ikke bange for at eksperimentere med sammensætningen. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, det sidste er dog klart sværere." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+    <PM name="LT-14: Kampobservatør (personlig/deling)" short="T 55A: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Gå med i en deling med køretøjer som supplerer din spillestil: Du vil måske gå i kamp i en deling med SPG'ere eller du foretrækker måske et bevægeligt kobbel af lette kampvogne. Vær ikke bange for at eksperimentere med forskellige opstillinger. Denne mission kan fuldføres enten som del af en deling eller alene. Det er dog langt sværere alene." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Jo mere erfarne spillere der kæmper ved din side, jo højere vil kampeffektiviteten være på dit hold. Forstærk dit holds effektivitet ved at gå med i en deling. Alternativt kan du spille alene hvis du er helt sikker på du har evnerne og at dine allierede ikke vil skuffe dig.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Observer fjendtlige køretøjer og gør dine allierede i stand til at uddele mindst 5.000 hp skade til fjendtlige køretøjer, enten personligt eller totalt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din lette kampvogn og hvilke som helst andre køretøjer.</req>
@@ -2588,7 +2615,7 @@
     <PM name="HT-7: Jeg har det dækket" short="T 55A: HT-7" desc="Gennembruds taktikker er gode for tunge kampvogne. Bryd igennem fjendens forsvarslinjer og erobr deres base. Undervurder dog ikke din fjende—det kan være de benytter den samme taktik." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Vær forsigtig når du nærmer dig fjendens base—vær klar til en varm modtagelse. Hvis du foretrækker defensive strategier, gør da brug af terrænet for at finde de bedste steder at skjule dig og observere fra, hvor du vil være i stand til at forsvare din egen (eller den neutrale base i kamptypen sammenstød) når fjenden nærmer sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Deltag i en erobring af fjendens base mens du optjener mindst 30 baseerobringspoint eller nulstil fjendens erobringspoint i din eller en neutral base mens du optjener mindst 30 baseforsvarspoint.\n• Vind kampen.\n• Uddel mindst 3.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Deltag i en erobring af fjendens base eller nulstil fjendens erobringspoint i din/den neutrale base.\n• Vind kampen.\n• Uddel mindst 3.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
@@ -2613,7 +2640,7 @@
       </Secondary>
     </PM>
     <PM name="HT-10: Et tungt argument" short="T 55A: HT-10" desc="Hold din kanon aktiv og hold dig selv i live så længe som muligt." tMID="175" opID="3" mID="10" setID="2" ID="quest_3_2_10_main" secID="quest_3_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, hvis brugt effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
+      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, når det bruges effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Afslut kampen som den bedste spiller på dt hold efter uddelt skade.</req>
       </Primary>
@@ -2678,7 +2705,7 @@
     <PM name="MT-2: God træffer!" short="T 55A: MT-2" desc="Hver god træffer bringer dit hold tættere på sejren. Det er dog ikke så nemt at få en god træffer ind på et fjendtligt køretøj." tMID="182" opID="3" mID="2" setID="3" ID="quest_3_3_2_main" secID="quest_3_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Gennembrydningsmarkøren på dit sigte viser chancen for at gennembryde det fjendtlige køretøj på et givent punkt. En rød markør indikerer ingen chance for gennembrydning, gul indikerer lav chance, mens grøn indikerer høj chance for gennembrydning. Prøv at sigt på siderne eller bagtil på et fjendtligt køretøj. Se efter deres svage punkter.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Afgiv mindst 12 skud der giver skade til fjendtlige køretøjer.</req>
+        <req>• Affyr mindst 12 skud der giver skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
@@ -2723,7 +2750,7 @@
     <PM name="MT-7: Et overraskelsesangreb" short="T 55A: MT-7" desc="Fjendens SPG'ere er en prioritet for dig. Ved at neutralisere dem vil du føre dit hold et skridt tættere på sejren." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Ild fra SPG'ere uddeler stor skade til dine holdkammeraters køretøjer. Når du er brudt gennem en flanke, angrib fjendens base og neutraliser deres SPG'ere.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige SPG'ere.</req>
+        <req>• Ødelæg mindst 1 fjendtlig SPG efter du selv har opdaget den.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Vind kampen.</req>
@@ -2768,7 +2795,7 @@
     <PM name="MT-12: Ildspåsætteren" short="T 55A: MT-12" desc="At sætte ild til en fjende er en af de mest effektive måder at ødelægge dem på." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Gennembrydende træffere der rammer motoren eller brændstoftankene har en chance for at starte en brand. Studer diagrammer af køretøjer for at lære hvor disse livsvigtige moduler findes.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sæt ild til mindst 2 fjendtlige køretøjer eller sæt ild til 1 køretøj to gange.</req>
+        <req>• Sæt ild til et fjendtligt køretøj på samme eller højere niveau.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Vær i top 3 på dit hold efter optjent xp.</req>
@@ -2846,13 +2873,13 @@
         <req>• Uddel mindst 3.000 hp skade.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Præcis kalkulation" short="T 55A: TD-6" desc="Det er rigtig svært at ramme et mål i bevægelse. Endnu mere svært, når du afgiver ild fra lang afstand." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Brug snigskytte modus og sigt foran målet før du afgiver ild. Autosigte er ubrugeligt i de fleste tilfælde, når du afgiver ild mod et mål i bevægelse.</Hint>
+    <PM name="TD-6: De vil ikke passere!" short="T 55A: TD-6" desc="Prøv at holde fjendtlige køretøjer så langt fra din position som muligt. Ødelæg dem mens de nærmer sig, siden det vil være langt sværere at stoppe angrebet på nært hold." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>Sørg for at dit køretøj er skjult bag buske eller væltede træer før du afgiver skud. Hvis dit køretøj er 15m bag en busk eller væltet træ, har du en bedre chance for at forblive skjult efter du har afgivet skud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade til fjendtlige køretøjer fra en afstand på mindst 250m.\n• De fjendtlige køretøjer skal være i bevægelse.</req>
+        <req>• Uddel mindst 2.000 hp skade til fjendtlige køretøjer fra en afstand på over 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer i bevægelse.</req>
+        <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: Første træffer" short="T 55A: TD-7" desc="Lad ikke fjenden komme tæt på dig: panseret på dit køretøj er ikke rigtig effektivt mod fjendens ild." tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
@@ -2939,7 +2966,7 @@
     <PM name="SPG-1: Skarpskytten" short="T 55A: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 5 træffere der uddeler skade på fjendtlige køretøjer.</req>
+        <req>• Scor mindst 5 træffere der giver skade på fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 3.000 hp skade.</req>
@@ -3020,10 +3047,10 @@
     <PM name="SPG-10: Artilleriets banemænd" short="T 55A: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
       <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg en fjendtlig SPG som ikke er blevet observeret.</req>
+        <req>• Ødelæg mindst 1 fjendtlig SPG.\n• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade.</req>
+        <req>• Ødelæg mindst 4 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: Sprængradius" short="T 55A: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
@@ -3135,7 +3162,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Kom ud af vores base!" short="Object 260: LT-8" desc="I kampens hede er det nemt at glemme alt om forsvaret af din egen eller den neutrale base. Sådan forglemmelse kan give fjenden mulighed for at få overtaget og indtage baserne lynhurtigt. Husk, din kampvogn har nok fart til at afbryde en kamp og falde tilbage for at forsvare basen og ryste invasionsstyrken med præcise skud eller et modigt sammenstød, hvor du derved redder dit hold fra et snarligt nederlag." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser-lad i stedet en højeksplosiv granat. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
+      <Hint>Hvis du ikke er 100% sikker på at dine granater vil gennembryde fjendens panser, lad da i stedet en højeksplosiv granat i kanonen. HE granater har større chance for at uddele skade til det fjendtlige køretøj. Husk, hvis du bare uddeler selv 1 hp skade til det fjendtlige køretøj eller skader et af dets moduler, vil det nulstille dets erobringspoint på din base. Når du selv prøver at erobre en base, gør da alt hvad du kan for at undgå fjendens ild.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Deltag i en erobring af fjendens base mens du optjener mindst 60 erobringspoint eller nulstil fjendens erobringspoint i din eller en neutral base mens du optjener mindst 60 baseforsvarspoint.\n• Vind kampen.</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="LT-10: Maksimalt resultat" short="Object 260: LT-10" desc="Jo mere effektiv du er i en kamp, jo mere xp vil du optjene. Vis dem hvad en let kampvogn kan gøre!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>En god spejder ved hvornår han skal være forsigtig og hvornår han skal være aggressiv. Vær opmærksom og følg kampens flow.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Slut kampen som den bedste spiller på begge hold efter optjent xp.\n• Overlev kampen.\n• Slut kampen uden at have taget nogen skade.</req>
+        <req>• Afslut kampen som den bedste spiller på begge hold efter optjent xp.\n• Overlev kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
@@ -3188,7 +3215,7 @@
         <req>• Overlev selv kampen.\n• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Kampobservatør (personlig/deling)" short="Object 260: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Se efter køretøjer som komplementerer din deling efter din spillestil: nogle gange er det bedre at gå med i en kamp som del af en deling af SPG'ere, og nogle gange—med en gruppe af lette kampvogne. Vær ikke bange for at eksperimentere med sammensætningen. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, det sidste er dog klart sværere." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+    <PM name="LT-14: Kampobservatør (personlig/deling)" short="Object 260: LT-14" desc="En let kampvogn der koordinerer en deling er en virkelig katastrofe for fjendens hold. Gå med i en deling med køretøjer som supplerer din spillestil: Du vil måske gå i kamp i en deling med SPG'ere eller du foretrækker måske et bevægeligt kobbel af lette kampvogne. Vær ikke bange for at eksperimentere med forskellige opstillinger. Denne mission kan fuldføres enten som del af en deling eller alene. Det er dog langt sværere alene." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Jo mere erfarne spillere der kæmper ved din side, jo højere vil kampeffektiviteten være på dit hold. Forstærk dit holds effektivitet ved at gå med i en deling. Alternativt kan du spille alene hvis du er helt sikker på du har evnerne og at dine allierede ikke vil skuffe dig.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Observer fjendtlige køretøjer og gør dine allierede i stand til at uddele mindst 6.000 hp skade til fjendtlige køretøjer, enten personligt eller totalt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din lette kampvogn og hvilke som helst andre køretøjer.</req>
@@ -3263,7 +3290,7 @@
     <PM name="HT-7: Jeg har det dækket" short="Object 260: HT-7" desc="Gennembruds taktikker er gode for tunge kampvogne. Bryd igennem fjendens forsvarslinjer og erobr deres base. Undervurder dog ikke din fjende—det kan være de benytter den samme taktik." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Vær forsigtig når du nærmer dig fjendens base—vær klar til en varm modtagelse. Hvis du foretrækker defensive strategier, gør da brug af terrænet for at finde de bedste steder at skjule dig og observere fra, hvor du vil være i stand til at forsvare din egen (eller den neutrale base i kamptypen sammenstød) når fjenden nærmer sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Deltag i en erobring af fjendens base mens du optjener mindst 50 baseerobringspoint eller nulstil fjendens erobringspoint i din eller en neutral base mens du optjener mindst 50 baseforsvarspoint.\n• Vind kampen.\n• Uddel mindst 4.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Deltag i en baseerobring eller nulstil fjendens erobringspoint i din/den neutrale base.\n• Vind kampen.\n• Uddel mindst 4.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 4 fjendtlige køretøjer.</req>
@@ -3288,7 +3315,7 @@
       </Secondary>
     </PM>
     <PM name="HT-10: Et tungt argument" short="Object 260: HT-10" desc="Hold din kanon aktiv og hold dig selv i live så længe som muligt." tMID="250" opID="4" mID="10" setID="2" ID="quest_4_2_10_main" secID="quest_4_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, hvis brugt effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
+      <Hint>Kampens hede er præcist det tidspunkt hvor din kampvogn kan vise hvad den er værd. Dit gode panser, når det bruges effektivt, kan sikre din overlevelse selv i de mest håbløse situationer. Jo længere din kampvogn overlever i kamp, jo mere skade kan du uddele til fjenden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Afslut kampen som den bedste spiller på begge hold efter uddelt skade.</req>
       </Primary>
@@ -3353,7 +3380,7 @@
     <PM name="MT-2: God træffer!" short="Object 260: MT-2" desc="Hver god træffer bringer dit hold tættere på sejren. Det er dog ikke så nemt at få en god træffer ind på et fjendtligt køretøj." tMID="257" opID="4" mID="2" setID="3" ID="quest_4_3_2_main" secID="quest_4_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Gennembrydningsmarkøren på dit sigte viser chancen for at gennembryde det fjendtlige køretøj på et givent punkt. En rød markør indikerer ingen chance for gennembrydning, gul indikerer lav chance, mens grøn indikerer høj chance for gennembrydning. Prøv at sigt på siderne eller bagtil på et fjendtligt køretøj. Se efter deres svage punkter.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Afgiv mindst 15 skud der giver skade til fjendtlige køretøjer.</req>
+        <req>• Affyr mindst 15 skud der giver skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 5 fjendtlige køretøjer.</req>
@@ -3398,7 +3425,7 @@
     <PM name="MT-7: Et overraskelsesangreb" short="Object 260: MT-7" desc="Fjendens SPG'ere er en prioritet for dig. Ved at neutralisere dem vil du føre dit hold et skridt tættere på sejren." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Ild fra SPG'ere uddeler stor skade til dine holdkammeraters køretøjer. Når du er brudt gennem en flanke, angrib fjendens base og neutraliser deres SPG'ere.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige SPG'er uden hjælp fra dine allierede.</req>
+        <req>• Ødelæg mindst 3 fjendtlige SPG'ere.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Vind kampen.\n• SPG'ere skal være på et højere niveau end dit køretøj.</req>
@@ -3443,7 +3470,7 @@
     <PM name="MT-12: Ildspåsætteren" short="Object 260: MT-12" desc="At sætte ild til en fjende er en af de mest effektive måder at ødelægge dem på." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Gennembrydende træffere der rammer motoren eller brændstoftankene har en chance for at starte en brand. Studer diagrammer af køretøjer for at lære hvor disse livsvigtige moduler findes.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sæt ild til mindst 2 fjendtlige køretøjer, der er 1 niveau højere end dit køretøj eller sæt ild til 1 køretøj to gange.</req>
+        <req>• Sæt ild til et fjendtligt køretøj på samme eller højere niveau\n• Uddel mindst 3.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vær i top 3 på dit hold efter optjent xp.</req>
@@ -3521,13 +3548,13 @@
         <req>• Uddel mindst 4.000 hp skade.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Præcis kalkulation" short="Object 260: TD-6" desc="Det er rigtig svært at ramme et mål i bevægelse. Endnu mere svært, når du afgiver ild fra lang afstand." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Brug snigskytte modus og sigt foran målet før du afgiver ild. Autosigte er ubrugeligt i de fleste tilfælde, når du afgiver ild mod et mål i bevægelse.</Hint>
+    <PM name="TD-6: De vil ikke passere!" short="Object 260: TD-6" desc="Prøv at holde fjendtlige køretøjer så langt fra din position som muligt. Ødelæg dem mens de nærmer sig, siden det vil være langt sværere at stoppe angrebet på nært hold." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>Sørg for at dit køretøj er skjult bag buske eller væltede træer før du afgiver skud. Hvis dit køretøj er 15m bag en busk eller væltet træ, har du en bedre chance for at forblive skjult efter du har afgivet skud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade til fjendtlige køretøjer fra en afstand på mindst 250m.\n• De fjendtlige køretøjer skal være i bevægelse.</req>
+        <req>• Uddel mindst 3.000 hp skade til fjendtlige køretøjer fra en afstand på over 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 4 fjendtlige køretøjer i bevægelse.</req>
+        <req>• Ødelæg mindst 4 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: Første træffer" short="Object 260: TD-7" desc="Lad ikke fjenden komme tæt på dig: panseret på dit køretøj er ikke rigtig effektivt mod fjendens ild." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
@@ -3614,7 +3641,7 @@
     <PM name="SPG-1: Skarpskytten" short="Object 260: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 6 træffere der uddeler skade på fjendtlige køretøjer.</req>
+        <req>• Scor mindst 6 træffere der giver skade på fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Uddel mindst 4.000 hp skade.</req>
@@ -3695,10 +3722,10 @@
     <PM name="SPG-10: Artilleriets banemænd" short="Object 260: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
       <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige SPG'ere som ikke er blevet observeret.</req>
+        <req>• Ødelæg mindst 2 fjendtlige SPG'ere.\n• Uddel mindst 4.000 hp skade til fjendtlige køretøjer.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 4.000 hp skade.</req>
+        <req>• Ødelæg mindst 5 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: Sprængradius" short="Object 260: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">

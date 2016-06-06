@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="105 leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="105 leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" />
+    <tank ID="A01_T1_Cunningham" sName="T1 科宁汉姆" lName="T1 科宁汉姆" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1 科宁汉姆" lName="T1 科宁汉姆" />
     <tank ID="A02_M2_lt" sName="M2 轻型坦克" lName="M2 轻型坦克" />
     <tank ID="A03_M3_Stuart" sName="M3 \" lName="M3 \" />
     <tank ID="A05_M4_Sherman" sName="M4 \" lName="M4 \" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T-25 PN" lName="T-25 PN" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -37,14 +40,16 @@
     <tank ID="A29_T40" sName="T40" lName="T40" />
     <tank ID="A30_M10_Wolverine" sName="M10 \" lName="M10 \" />
     <tank ID="A-32" sName="A-32" lName="A-32" />
-    <tank ID="A35_Pershing" sName="M26“潘兴”" lName="M26 \" />
-    <tank ID="A35_Pershing_IGR" sName="M26“潘兴”" lName="M26 \" />
+    <tank ID="A35_Pershing" sName="M26 “潘兴”" lName="M26 \" />
+    <tank ID="A35_Pershing_IGR" sName="M26 “潘兴”" lName="M26 \" />
     <tank ID="A36_Sherman_Jumbo" sName="“小飞象”" lName="“小飞象”" />
     <tank ID="A36_Sherman_Jumbo_IGR" sName="“小飞象”" lName="“小飞象”" />
     <tank ID="A43" sName="A-43" lName="A-43" />
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 \" lName="M46 \" />
     <tank ID="A63_M46_Patton_KR" sName="M46 “猛虎”" lName="M46 “猛虎”" />
     <tank ID="A68_T28_Prototype" sName="T28 原型车" lName="T28 原型车" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 105AM" lName="AMX 105AM" />
@@ -107,7 +113,7 @@
     <tank ID="Ch07_Vickers_MkE_Type_BT26" sName="维克斯 Mk.E" lName="维克斯 Mk.E" />
     <tank ID="Ch08_Type97_Chi_Ha" sName="97式" lName="97式" />
     <tank ID="Ch09_M5" sName="M5A1" lName="M5A1" />
-    <tank ID="Ch10_IS2" sName="IS-2" lName="IS-2" />
+    <tank ID="Ch10_IS2" sName="IS-2“柏林”" lName="IS-2“柏林”" />
     <tank ID="Ch11_110" sName="110" lName="110" />
     <tank ID="Ch11_110_IGR" sName="110" lName="110" />
     <tank ID="Ch12_111_1_2_3" sName="111 I-IV" lName="111 I-IV" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R)AMX 50B" lName="(R)AMX 50B" />
     <tank ID="F11_Renault_G1R" sName="雷诺 G1" lName="雷诺 G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12t" lName="AMX 12t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="105 leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="105 leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 1946型" lName="AMX AC 1946型" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="\" lName="\" />
     <tank ID="G02_Hummel" sName="\" lName="\" />
     <tank ID="G04_PzVI_Tiger_IA" sName="“白虎”" lName="“白虎”" />
+    <tank ID="G05_StuG_40_AusfG" sName="III号突击炮G型" lName="III号突击炮G型" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="III号突击炮G型" lName="III号突击炮G型" />
     <tank ID="G06_PzII" sName="II号坦克" lName="II号坦克" />
     <tank ID="G06_PzII_bot" sName="II号坦克" lName="II号坦克" />
     <tank ID="G07_Pz35t" sName="35(t)型" lName="35(t)型" />
+    <tank ID="G08_Pz38t" sName="38(t)型" lName="38(t)型" />
     <tank ID="G100_Gtraktor_Krupp" sName="克虏伯试验车" lName="克虏伯试验车" />
     <tank ID="G101_StuG_III" sName="III号突击炮B型" lName="III号突击炮B型" />
     <tank ID="G103_RU_251" sName="Ru251" lName="Ru251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="58号试验型" lName="58号试验型" />
     <tank ID="G119_Pz58_Mutz" sName="58号M型" lName="58号M型" />
     <tank ID="G120_M41_90" sName="M4190" lName="M4190" />
-    <tank ID="G120_M41_90_GrandFinal" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M4190 GF" lName="M4190 GF" />
     <tank ID="G121_Grille_15_L63" sName="蟋蟀 15" lName="蟋蟀 15" />
     <tank ID="G13_VK3001H" sName="VK3001(H)" lName="VK3001(H)" />
     <tank ID="G15_VK3601H" sName="VK3601(H)" lName="VK3601H重型" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="\" lName="\" />
     <tank ID="G25_PzII_Luchs" sName="II型\" lName="II型\" />
     <tank ID="G26_VK1602" sName="VK1602\" lName="VK1602\" />
+    <tank ID="G27_VK3001P" sName="VK3001(P)" lName="VK3001(P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="A号黑豹" lName="A号黑豹" />
+    <tank ID="G32_PzV_PzIV_CN" sName="V号黑豹" lName="V号黑豹" />
     <tank ID="G34_S35_captured" sName="S35 739(f)" lName="S35 739(f)" />
     <tank ID="G36_PzII_J" sName="II号J型" lName="II号J型" />
     <tank ID="G39_Marder_III" sName="黄鼠狼III" lName="黄鼠狼III" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="五式轻战" lName="五式轻战" />
     <tank ID="J07_Chi_Ha" sName="九七中战" lName="九七中战" />
     <tank ID="J08_Chi_Nu" sName="三式中战" lName="三式中战" />
+    <tank ID="J09_Chi_He" sName="一式中战" lName="一式中战" />
+    <tank ID="J12_Chi_Nu_Kai" sName="三式改" lName="三式改" />
     <tank ID="J15_Chi_Ni" sName="九七原型车" lName="九七原型车" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="虎(扶桑)" lName="虎(扶桑)" />
@@ -387,7 +403,7 @@
     <tank ID="KV-1s" sName="KV-1S" lName="KV-1S" />
     <tank ID="KV2" sName="KV-2" lName="KV-2" />
     <tank ID="KV2_IGR" sName="KV-2" lName="KV-2" />
-    <tank ID="KV-220" sName="KV-220试验型" lName="KV-220-2 试验型" />
+    <tank ID="KV-220" sName="KV-220-2试验型" lName="KV-220-2 试验型" />
     <tank ID="KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="KV-3" sName="KV-3" lName="KV-3" />
     <tank ID="KV4" sName="KV-4" lName="KV-4" />
@@ -465,8 +481,8 @@
     <tank ID="Panther_II_IGR" sName="\" lName="\" />
     <tank ID="Panther_M10" sName="\" lName="\" />
     <tank ID="PanzerJager_I" sName="I型突击炮" lName="I型突击炮" />
-    <tank ID="Pershing" sName="M26“潘兴”" lName="M26 \" />
-    <tank ID="Pershing_IGR" sName="M26“潘兴”" lName="M26 \" />
+    <tank ID="Pershing" sName="M26 “潘兴”" lName="M26 \" />
+    <tank ID="Pershing_IGR" sName="M26 “潘兴”" lName="M26 \" />
     <tank ID="Pro_Ag_A" sName="\" lName="\" />
     <tank ID="Pz_II_AusfG" sName="II号G型" lName="II号G型" />
     <tank ID="Pz_IV_AusfA" sName="IV号A型" lName="IV号A型" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="\" lName="\" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="\" lName="\" />
     <tank ID="PzVIB_Tiger_II_training" sName="\" lName="\" />
-    <tank ID="R00_Sfera" />
     <tank ID="R00_T_50_2" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="430工程II型" lName="430工程II型" />
     <tank ID="R105_BT_7A" sName="BT-7A" lName="BT-7A" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="KRT-1" lName="KRT-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="268工程V型" lName="268工程V型" />
     <tank ID="R127_T44_100_P" sName="Т-44-100 (Р)" lName="Т-44-100 (Р)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 K型" lName="KV-4 K型" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
-    <tank ID="R38_KV-220" sName="KV-220试验型" lName="KV-220-2 试验型" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
+    <tank ID="R38_KV-220" sName="KV-220-2试验型" lName="KV-220-2 试验型" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212工程" lName="212工程" />
     <tank ID="R53_Object_704" sName="704工程" lName="704工程" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
-    <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R71_IS_2B" sName="IS-2“柏林”" lName="IS-2“柏林”" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="Т-10" lName="Т-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R)T-62A" lName="(R)T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="430工程" lName="430工程" />
     <tank ID="Ram-II" sName="\" lName="\" />
     <tank ID="RenaultBS" sName="雷诺 FT BS" lName="雷诺 FT BS" />
     <tank ID="RenaultFT" sName="雷诺 FT" lName="雷诺 FT" />
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="冰封" />
     <item ID="112_eiffel_tower" Name="废都" />
     <item ID="114_czech" Name="布拉格" />
-    <item ID="119_moon_pool" />
     <item ID="11_murovanka" Name="穆勒万卡" />
     <item ID="13_erlenberg" Name="埃勒斯堡" />
     <item ID="14_siegfried_line" Name="齐格菲防线" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="斯大林格勒" />
     <item ID="95_lost_city" Name="失落小镇" />
     <item ID="96_prohorovka_defense" Name="烈焰丘陵" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="坎帕尼亚" />
     <item ID="15_komarin" Name="科马林" />
     <item ID="39_crimea" Name="雅尔塔小镇" />
@@ -860,6 +886,7 @@
     <item ID="3" Name="坠毁" />
     <item ID="4" Name="因进入死区域毁坏" />
     <item ID="5" Name="坦克已溺亡" />
+    <item ID="7" Name="故意自损坦克" />
     <item ID="unknown" Name="未知" />
   </Lang_DeathReasons>
   <Lang_Crits>
@@ -1110,7 +1137,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8:滚出我们的基地!" short="IV号突击炮: LT-8" desc="战斗进行到白热化阶段，很容易忘记防守基地。一旦被敌人抓住这种漏洞，再大的优势都有可能被逆转。记住，你的速度优势可以让你迅速的从交火地带返回基地防守，积极的防守可以避免队伍受到不应该的失败。" tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
-      <Hint>如果你无法保证自己能击穿敌人，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
+      <Hint>如果你无法保证自己能击穿敌方坦克，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• 参与占领敌方/中立基地或防守我方/中立基地。\n• 获得战斗胜利。</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="LT-10:最大战果" short="IV号突击炮: LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量。" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 战斗结束时，获得的经验排名我方队伍第1。</req>
+        <req>• 战斗结束时，获得的经验排名我方队伍第三。</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• 获得战斗胜利。</req>
@@ -1238,7 +1265,7 @@
     <PM name="HT-7:胜利的基石" short="IV号突击炮: HT-7" desc="突击战术非常适合重型坦克。突破敌人的防线，并直插敌方基地。但是要小心敌人早一步占领你的基地。" tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 参与占领敌方/中立基地或防守我方/中立基地。\n• 获得战斗胜利。\n• 造成1000伤害。</req>
+        <req>• 参与占领敌方基地或者打断敌方占领我方基地/中立基地。\n• 获得战斗胜利。\n• 至少对敌方坦克造成1000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• 击毁1辆敌方坦克。</req>
@@ -1328,7 +1355,7 @@
     <PM name="MT-2:高效打击" short="IV号突击炮: MT-2" desc="每一次成功的命中都离胜利更近一步。然而原地不动可没有那么多机会。" tMID="32" opID="1" mID="2" setID="3" ID="quest_1_3_2_main" secID="quest_1_3_2_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>用瞄准器的十字线瞄准敌方坦克并依据显示的颜色判定是否可以击穿。红色表示无法击穿，黄色表示击穿率低，绿色表示击穿率高。请尽量瞄准敌方坦克的侧面或后面，寻找它们的弱点。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• 通过射击对敌方坦克造成6次伤害。</req>
+        <req>• 通过射击对敌方坦克至少造成6次伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• 击毁1辆敌方坦克。</req>
@@ -1496,13 +1523,13 @@
         <req>• 造成1000点伤害。</req>
       </Secondary>
     </PM>
-    <PM name="TD-6:精确计算" short="IV号突击炮: TD-6" desc="命中一个移动的目标很难，在远距离时更难。" tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
-      <Hint>使用狙击模式，把准星放到目标移动方向的前方。在目标移动时，自动瞄准通常是无用的。</Hint>
+    <PM name="TD-6:围追堵截" short="IV号突击炮: TD-6" desc="尽量保证敌方坦克远离您的位置。如果无法有效的阻止他妈靠近，那么近战将非常难。" tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
+      <Hint>射击之前请让坦克隐藏在灌木丛或倒下的树木中。如果您的坦克距离灌木丛或倒下的树木15米，那么射击后您可以更好的隐藏。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 对250米外且移动中的敌方坦克造成伤害。</req>
+        <req>• 对250米或更远距离的敌方坦克造成伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• 击毁1辆移动中的敌方坦克。</req>
+        <req>• 至少击毁1辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="TD-7:率先打击" short="IV号突击炮: TD-7" desc="不要让敌方坦克过于靠近您:你的装甲可能无法有效抵抗火炮攻击。" tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
@@ -1589,7 +1616,7 @@
     <PM name="SPG-1:神炮手" short="IV号突击炮: SPG-1" desc="不要浪费弹药。精确的打击将给你带来胜利。" tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>耐心等待直到你有确切的把握命中敌人。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• 3次命中敌方坦克并造成伤害。</req>
+        <req>• 至少3次命中敌方坦克并造成伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• 造成1000点伤害。</req>
@@ -1673,7 +1700,7 @@
         <req>• 击毁1辆敌方自行火炮。</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• 造成1000点伤害。</req>
+        <req>• 至少击毁2辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="SPG-11:大面积杀伤" short="IV号突击炮: SPG-11" desc="HE炮弹可以同时对距离比较近的多个敌方坦克造成溅射伤害。" tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
@@ -1785,7 +1812,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8:滚出我们的基地!" short="T28(概念车): LT-8" desc="战斗进行到白热化阶段，很容易忘记防守基地。一旦被敌人抓住这种漏洞，再大的优势都有可能被逆转。记住，你的速度优势可以让你迅速的从交火地带返回基地防守，积极的防守可以避免队伍受到不应该的失败。" tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
-      <Hint>如果你无法保证自己能击穿敌人，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
+      <Hint>如果你无法保证自己能击穿敌方坦克，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• 成功占领敌方/中立基地并获得20点占领分数，或防守我方/中立基地并获得20点护旗分数。\n• 获得战斗胜利。</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="LT-10:最大战果" short="T28(概念车): LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量。" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 战斗结束时，获得的经验排名我方队伍第1。\n• 在战斗中幸存。</req>
+        <req>• 战斗结束时，获得的经验排名我方队伍第1。</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• 获得战斗胜利。</req>
@@ -1913,7 +1940,7 @@
     <PM name="HT-7:胜利的基石" short="T28(概念车): HT-7" desc="突击战术非常适合重型坦克。突破敌人的防线，并直插敌方基地。但是要小心敌人早一步占领你的基地。" tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 参与占领敌方/中立基地或防守我方/中立基地。\n• 获得战斗胜利。\n• 造成2000伤害。</req>
+        <req>• 参与占领敌方基地或者打断敌方占领我方基地/中立基地。\n• 获得战斗胜利。\n• 至少对敌方坦克造成2000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• 击毁2辆敌方坦克。</req>
@@ -2003,7 +2030,7 @@
     <PM name="MT-2:高效打击" short="T28(概念车): MT-2" desc="每一次成功的命中都离胜利更近一步。然而原地不动可没有那么多机会。" tMID="107" opID="2" mID="2" setID="3" ID="quest_2_3_2_main" secID="quest_2_3_2_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>用瞄准器的十字线瞄准敌方坦克并依据显示的颜色判定是否可以击穿。红色表示无法击穿，黄色表示击穿率低，绿色表示击穿率高。请尽量瞄准敌方坦克的侧面或后面，寻找它们的弱点。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• 通过射击对敌方坦克造成9次伤害。</req>
+        <req>• 通过射击至少对敌方坦克造成9次伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• 击毁2辆敌方坦克。</req>
@@ -2093,7 +2120,7 @@
     <PM name="MT-12:焚化炉" short="T28(概念车): MT-12" desc="命中敌方坦克并使其起火是击毁它最有效的方式之一。" tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>击中敌方的油箱或发动机能使其起火。仔细研究坦克各装备的位置。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• 使敌方高你1级的坦克起火1次。</req>
+        <req>• 使敌方坦克起火1次。\n• 至少对敌方坦克造成2000伤害。</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• 战斗结束时，获得的经验排名我方队伍前3。</req>
@@ -2171,13 +2198,13 @@
         <req>• 造成2000伤害。</req>
       </Secondary>
     </PM>
-    <PM name="TD-6:精确计算" short="T28(概念车): TD-6" desc="命中一个移动的目标很难，在远距离时更难。" tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
-      <Hint>使用狙击模式，把准星放到目标移动方向的前方。在目标移动时，自动瞄准通常是无用的。</Hint>
+    <PM name="TD-6:围追堵截" short="T28(概念车): TD-6" desc="尽量保证敌方坦克远离您的位置。如果无法有效的阻止他妈靠近，那么近战将非常难。" tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
+      <Hint>射击之前请让坦克隐藏在灌木丛或倒下的树木中。如果您的坦克距离灌木丛或倒下的树木15米，那么射击后您可以更好的隐藏。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 对250米外且移动中的敌方坦克造成1000点伤害。</req>
+        <req>• 对250米外敌方坦克至少造成1000点伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• 击毁2辆移动中的敌方坦克。</req>
+        <req>• 至少击毁2辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="TD-7:率先打击" short="T28(概念车): TD-7" desc="不要让敌方坦克过于靠近您:你的装甲可能无法有效抵抗火炮攻击。" tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
@@ -2264,7 +2291,7 @@
     <PM name="SPG-1:神炮手" short="T28(概念车): SPG-1" desc="不要浪费弹药。精确的打击将给你带来胜利。" tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>耐心等待直到你有确切的把握命中敌人。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• 4次命中敌方坦克并造成伤害。</req>
+        <req>• 至少4次命中敌方坦克并造成伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• 造成2000伤害。</req>
@@ -2348,7 +2375,7 @@
         <req>• 击毁2辆敌方自行火炮。</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• 造成2000伤害。</req>
+        <req>• 至少击毁3辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="SPG-11:大面积杀伤" short="T28(概念车): SPG-11" desc="HE炮弹可以同时对距离比较近的多个敌方坦克造成溅射伤害。" tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
@@ -2460,7 +2487,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8:滚出我们的基地!" short="T-55A: LT-8" desc="战斗进行到白热化阶段，很容易忘记防守基地。一旦被敌人抓住这种漏洞，再大的优势都有可能被逆转。记住，你的速度优势可以让你迅速的从交火地带返回基地防守，积极的防守可以避免队伍受到不应该的失败。" tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
-      <Hint>如果你无法保证自己能击穿敌人，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
+      <Hint>如果你无法保证自己能击穿敌方坦克，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• 成功占领敌方/中立基地并获得40点占领分数，或防守我方/中立基地并获得40点护旗分数。\n• 获得战斗胜利。</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="LT-10:最大战果" short="T-55A: LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量。" tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 战斗结束时，获得的经验排名双方队伍第1。\n• 在战斗中幸存。</req>
+        <req>• 战斗结束时，获得的经验排名双方队伍第1。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• 获得战斗胜利。</req>
@@ -2588,7 +2615,7 @@
     <PM name="HT-7:胜利的基石" short="T-55A: HT-7" desc="突击战术非常适合重型坦克。突破敌人的防线，并直插敌方基地。但是要小心敌人早一步占领你的基地。" tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 成功占领敌方/中立基地并获得30点占领分数，或防守我方/中立基地并获得30点护旗分数。\n• 获得战斗胜利。\n• 造成3000伤害。</req>
+        <req>• 参与占领敌方基地或者打断敌方占领我方基地/中立基地。\n• 获得战斗胜利。\n• 至少对敌方坦克造成3000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• 击毁3辆敌方坦克。</req>
@@ -2678,7 +2705,7 @@
     <PM name="MT-2:高效打击" short="T-55A: MT-2" desc="每一次成功的命中都离胜利更近一步。然而原地不动可没有那么多机会。" tMID="182" opID="3" mID="2" setID="3" ID="quest_3_3_2_main" secID="quest_3_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>用瞄准器的十字线瞄准敌方坦克并依据显示的颜色判定是否可以击穿。红色表示无法击穿，黄色表示击穿率低，绿色表示击穿率高。请尽量瞄准敌方坦克的侧面或后面，寻找它们的弱点。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• 通过射击对敌方坦克造成12次伤害。</req>
+        <req>• 通过射击至少对敌方坦克造成12次伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• 击毁3辆敌方坦克。</req>
@@ -2723,7 +2750,7 @@
     <PM name="MT-7:奇袭" short="T-55A: MT-7" desc="敌方的火炮是你的首要打击目标，击毁它们能帮助队伍更接近胜利。" tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>敌方的火炮对队友的威胁最大。通过绕行到侧面或穿插到敌方基地击毁它们。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 击毁3辆敌方自行火炮。</req>
+        <req>• 至少击毁一辆你点亮的敌方自行火炮。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• 在战斗中幸存。\n• 获得战斗胜利。</req>
@@ -2768,7 +2795,7 @@
     <PM name="MT-12:焚化炉" short="T-55A: MT-12" desc="命中敌方坦克并使其起火是击毁它最有效的方式之一。" tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>击中敌方的油箱或发动机能使其起火。仔细研究坦克各装备的位置。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• 使敌方坦克起火2次。</req>
+        <req>• 使相同等级或更高等级的敌方坦克起火。</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• 战斗结束时，获得的经验排名我方队伍前3。</req>
@@ -2846,13 +2873,13 @@
         <req>• 造成3000点伤害。</req>
       </Secondary>
     </PM>
-    <PM name="TD-6:精确计算" short="T-55A: TD-6" desc="命中一个移动的目标很难，在远距离时更难。" tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
-      <Hint>使用狙击模式，把准星放到目标移动方向的前方。在目标移动时，自动瞄准通常是无用的。</Hint>
+    <PM name="TD-6:围追堵截" short="T-55A: TD-6" desc="尽量保证敌方坦克远离您的位置。如果无法有效的阻止他妈靠近，那么近战将非常难。" tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
+      <Hint>射击之前请让坦克隐藏在灌木丛或倒下的树木中。如果您的坦克距离灌木丛或倒下的树木15米，那么射击后您可以更好的隐藏。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 对250米外且移动中的敌方坦克造成2000点伤害。</req>
+        <req>• 对250米外的敌方坦克至少造成2000点伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• 击毁3辆移动中的敌方坦克。</req>
+        <req>• 至少击毁3辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="TD-7:率先打击" short="T-55A: TD-7" desc="不要让敌方坦克过于靠近您:你的装甲可能无法有效抵抗火炮攻击。" tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
@@ -2939,7 +2966,7 @@
     <PM name="SPG-1:神炮手" short="T-55A: SPG-1" desc="不要浪费弹药。精确的打击将给你带来胜利。" tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>耐心等待直到你有确切的把握命中敌人。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• 5次命中敌方坦克并造成伤害。</req>
+        <req>• 至少5次命中敌方坦克并造成伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• 造成3000点伤害。</req>
@@ -3020,10 +3047,10 @@
     <PM name="SPG-10:火炮之伤" short="T-55A: SPG-10" desc="猎杀敌方火炮也是一种选择。推测敌方火炮位置，然后来一发精确打击看看有没有猜中。" tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>自行火炮驾驶的越多，你就知道更多的战略位置。这将帮助你预判敌方火炮的位置并反掉敌方火炮。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 击毁1辆未被点亮的敌方自行火炮。</req>
+        <req>• 至少击毁1辆敌方的自行火炮。\n• 至少对敌方坦克造成2000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• 造成3000点伤害。</req>
+        <req>• 至少击毁4辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="SPG-11:大面积杀伤" short="T-55A: SPG-11" desc="HE炮弹可以同时对距离比较近的多个敌方坦克造成溅射伤害。" tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
@@ -3135,7 +3162,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8:滚出我们的基地!" short="260工程: LT-8" desc="战斗进行到白热化阶段，很容易忘记防守基地。一旦被敌人抓住这种漏洞，再大的优势都有可能被逆转。记住，你的速度优势可以让你迅速的从交火地带返回基地防守，积极的防守可以避免队伍受到不应该的失败。" tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
-      <Hint>如果你无法保证自己能击穿敌人，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
+      <Hint>如果你无法保证自己能击穿敌方坦克，你应该使用HE炮弹，HE炮弹使敌人掉血的可能性大大增加。记住，哪怕你只造成了一点伤害，也能打断敌人的占领。当你在占领时，记得也要尽量躲避敌人的攻击。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• 成功占领敌方/中立基地并获得60点占领分数，或防守我方/中立基地并获得60点护旗分数。\n• 获得战斗胜利。</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="LT-10:最大战果" short="260工程: LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量。" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 战斗结束后获得的经验在所有队伍中最高。\n• 在战斗中幸存。\n• 战斗结束后坦克未受到任何伤害。</req>
+        <req>• 战斗结束后获得的经验在所有队伍中最高。\n• 在战斗中幸存。</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• 获得战斗胜利。</req>
@@ -3263,7 +3290,7 @@
     <PM name="HT-7:胜利的基石" short="260工程: HT-7" desc="突击战术非常适合重型坦克。突破敌人的防线，并直插敌方基地。但是要小心敌人早一步占领你的基地。" tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 成功占领敌方/中立基地并获得50点占领分数，或防守我方/中立基地并获得50点护旗分数。\n• 获得战斗胜利。\n• 造成4000伤害。</req>
+        <req>• 参与占领敌方基地或者打断敌方占领我方基地/中立基地。\n• 获得战斗胜利。\n• 至少对敌方坦克造成4000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• 击毁4辆敌方坦克。</req>
@@ -3353,7 +3380,7 @@
     <PM name="MT-2:高效打击" short="260工程: MT-2" desc="每一次成功的命中都离胜利更近一步。然而原地不动可没有那么多机会。" tMID="257" opID="4" mID="2" setID="3" ID="quest_4_3_2_main" secID="quest_4_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>用瞄准器的十字线瞄准敌方坦克并依据显示的颜色判定是否可以击穿。红色表示无法击穿，黄色表示击穿率低，绿色表示击穿率高。请尽量瞄准敌方坦克的侧面或后面，寻找它们的弱点。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• 通过射击对敌方坦克造成15次伤害。</req>
+        <req>• 通过射击至少对敌方坦克造成15次伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• 击毁5辆敌方坦克。</req>
@@ -3398,7 +3425,7 @@
     <PM name="MT-7:奇袭" short="260工程: MT-7" desc="敌方的火炮是你的首要打击目标，击毁它们能帮助队伍更接近胜利。" tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>敌方的火炮对队友的威胁最大。通过绕行到侧面或穿插到敌方基地击毁它们。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 在盟友未支援的情况下至少击毁两辆敌方的自行火炮。</req>
+        <req>• 至少击毁3辆敌方的自行火炮。</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• 在战斗中幸存。\n• 获得战斗胜利。\n• 自行火炮的等级必须高于你的坦克。</req>
@@ -3443,7 +3470,7 @@
     <PM name="MT-12:焚化炉" short="260工程: MT-12" desc="命中敌方坦克并使其起火是击毁它最有效的方式之一。" tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>击中敌方的油箱或发动机能使其起火。仔细研究坦克各装备的位置。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• 使敌方高你1级的坦克起火两次。</req>
+        <req>• 使相同等级或更高等级的敌方坦克起火。\n• 至少对敌方坦克造成3000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• 战斗结束时，获得的经验排名我方队伍前3。</req>
@@ -3521,13 +3548,13 @@
         <req>• 造成4000点伤害。</req>
       </Secondary>
     </PM>
-    <PM name="TD-6:精确计算" short="260工程: TD-6" desc="命中一个移动的目标很难，在远距离时更难。" tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
-      <Hint>使用狙击模式，把准星放到目标移动方向的前方。在目标移动时，自动瞄准通常是无用的。</Hint>
+    <PM name="TD-6:围追堵截" short="260工程: TD-6" desc="尽量保证敌方坦克远离您的位置。如果无法有效的阻止他妈靠近，那么近战将非常难。" tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
+      <Hint>射击之前请让坦克隐藏在灌木丛或倒下的树木中。如果您的坦克距离灌木丛或倒下的树木15米，那么射击后您可以更好的隐藏。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 对250米外且移动中的敌方坦克造成3000点伤害。</req>
+        <req>• 对250米外的敌方坦克至少造成3000点伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• 击毁4辆移动中的敌方坦克。</req>
+        <req>• 至少击毁4辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="TD-7:率先打击" short="260工程: TD-7" desc="不要让敌方坦克过于靠近您:你的装甲可能无法有效抵抗火炮攻击。" tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
@@ -3614,7 +3641,7 @@
     <PM name="SPG-1:神炮手" short="260工程: SPG-1" desc="不要浪费弹药。精确的打击将给你带来胜利。" tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>耐心等待直到你有确切的把握命中敌人。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• 6次命中敌方坦克并造成伤害。</req>
+        <req>• 至少6次命中敌方坦克并造成伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• 造成4000点伤害。</req>
@@ -3695,10 +3722,10 @@
     <PM name="SPG-10:火炮之伤" short="260工程: SPG-10" desc="猎杀敌方火炮也是一种选择。推测敌方火炮位置，然后来一发精确打击看看有没有猜中。" tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>自行火炮驾驶的越多，你就知道更多的战略位置。这将帮助你预判敌方火炮的位置并反掉敌方火炮。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• 击毁2辆未被点亮的敌方自行火炮。</req>
+        <req>• 至少击毁2辆敌方的自行火炮。\n• 至少对敌方坦克造成4000伤害。</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• 造成4000点伤害。</req>
+        <req>• 至少击毁5辆敌方坦克。</req>
       </Secondary>
     </PM>
     <PM name="SPG-11:大面积杀伤" short="260工程: SPG-11" desc="HE炮弹可以同时对距离比较近的多个敌方坦克造成溅射伤害。" tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">

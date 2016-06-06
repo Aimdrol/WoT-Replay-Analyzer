@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
+    <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -45,6 +48,8 @@
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
     <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G05_StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
+    <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
-    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G25_PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G27_VK3001P" sName="VK 30.01 P" lName="VK 30.01 (P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="Pz. V BP A" lName="Pz.Kpfw. V Berge-Panther Alpha" />
+    <tank ID="G32_PzV_PzIV_CN" sName="Pz. V BP" lName="Pz.Kpfw. V Berge-Panther" />
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J09_Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
+    <tank ID="J12_Chi_Nu_Kai" sName="Chi-Nu Kai" lName="Type 3 Chi-Nu Kai" />
     <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" sName="IS 8-Ball" lName="IS 8-Ball" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="Obj. 430 II" lName="Object 430 Version II" />
     <tank ID="R105_BT_7A" sName="BT-7 art." lName="BT-7 artillery" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Object 268 Version V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (R)" lName="T-44-100 (R)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212A" lName="212A" />
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="Icebound" />
     <item ID="112_eiffel_tower" Name="Ravaged Capital" />
     <item ID="114_czech" Name="Pilsen" />
-    <item ID="119_moon_pool" Name="Crater" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfried Line" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
@@ -813,7 +839,7 @@
     <item ID="6" Name="Battle Training" />
     <item ID="7" Name="Team: Unranked Battles" />
     <item ID="8" Name="Historical Battle" />
-    <item ID="9" Name="Special battle mode" />
+    <item ID="9" Name="Special Event" />
     <item ID="10" Name="Skirmishes" />
     <item ID="11" Name="Battles for Stronghold" />
     <item ID="12" Name="Team Battle: Ranked" />
@@ -860,6 +886,7 @@
     <item ID="3" Name="Crashed" />
     <item ID="4" Name="Destroyed by a death zone" />
     <item ID="5" Name="Vehicle drowned" />
+    <item ID="7" Name="Intentional self-destruction" />
     <item ID="unknown" Name="Unknown" />
   </Lang_DeathReasons>
   <Lang_Crits>
@@ -1110,7 +1137,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="StuG IV: LT-8" desc="In the heat of battle, it is easy to forget about the defense of your own or the neutral base. Such imprudence may allow the enemy to gain the upper hand and seize the objective rapidly. Remember, your tank has enough speed to break contact and retreat to defend the base and fend off the invaders with precise shots or a daring ramming attack, thus saving your team from an imminent defeat." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. The HE shells have greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
+      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participate in a successful capture of a base or reset enemy capture points of your/neutral base.\n• Win the battle.</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="LT-10: The Maximum Result" short="StuG IV: LT-10" desc="The more effective you are in a battle, the more experience you will earn. Show them what a light tank is capable of!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
       <Hint>A good scout knows when to be cautious and when to be aggressive. Stay alert to the flow of battle.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player on your team by experience earned.</req>
+        <req>• Be among the top 3 players on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
@@ -1238,7 +1265,7 @@
     <PM name="HT-7: I've Got It Covered" short="StuG IV: HT-7" desc="Heavy tanks are great for breakthrough tactics. Break through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same tactics." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
       <Hint>Be careful when approaching the enemy base—be ready for a \"warm\" reception. If you prefer defensive tactics, make use of the terrain to find best concealment and vantage points, from which you will be able to defend your own (or the neutral base in an Encounter Battle) against the approaching enemy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participate in a successful capture of a base or reset enemy capture points of your/neutral base.\n• Win the battle.\n• Cause at least 1,000 HP of damage to enemy vehicles.</req>
+        <req>• Participate in a base capture or reset enemy capture points of your base/the neutral base.\n• Win the battle.\n• Cause at least 1,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Destroy an enemy vehicle.</req>
@@ -1496,13 +1523,13 @@
         <req>• Cause at least 1,000 HP of damage.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="StuG IV: TD-6" desc="Hitting a moving target is tricky—even more tricky when you are shooting at long range." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Use Sniper mode and lead the target before firing. Auto-Aim is useless in these situations; there is no substitute for shooting skill and experience.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="StuG IV: TD-6" desc="Try to keep enemy vehicles as far from your position as possible. Destroy them while they are approaching, as it will be much harder to blunt the attack in close combat." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>Make sure that your vehicle is hidden behind bushes or fallen trees before firing. If your vehicle is 15 m behind a bush or fallen tree, you have a better chance of remaining concealed after firing.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause damage to an enemy vehicle from a distance of 250 m or more.\n• Enemy vehicle must be on the move.</req>
+        <req>• Cause damage to an enemy vehicle from a distance of 250 m or more.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destroy a moving enemy vehicle.</req>
+        <req>• Destroy at least 1 enemy vehicle.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="StuG IV: TD-7" desc="Do not let the enemy get too close to you: most TDs are thinly armored." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
@@ -1673,7 +1700,7 @@
         <req>• Destroy at least 1 enemy SPG.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage.</req>
+        <req>• Destroy at least 2 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
@@ -1785,7 +1812,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="Т28 Heavy Tank Concept: LT-8" desc="In the heat of battle, it is easy to forget about the defense of your own or the neutral base. Such imprudence may allow the enemy to gain the upper hand and seize the objective rapidly. Remember, your tank has enough speed to break contact and retreat to defend the base and fend off the invaders with precise shots or a daring ramming attack, thus saving your team from an imminent defeat." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. The HE shells have greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
+      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participate in a successful capture of a base while earning at least 20 base capture points, or reset enemy capture points of your/neutral base while earning at least 20 base defense points.\n• Win the battle.</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="LT-10: The Maximum Result" short="Т28 Heavy Tank Concept: LT-10" desc="The more effective you are in a battle, the more experience you will earn. Show them what a light tank is capable of!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
       <Hint>A good scout knows when to be cautious and when to be aggressive. Stay alert to the flow of battle.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player on your team by experience earned.\n• Survive the battle.</req>
+        <req>• Finish the battle as the top player on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
@@ -1913,7 +1940,7 @@
     <PM name="HT-7: I've Got It Covered" short="Т28 Heavy Tank Concept: HT-7" desc="Heavy tanks are great for breakthrough tactics. Break through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same tactics." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
       <Hint>Be careful when approaching the enemy base—be ready for a \"warm\" reception. If you prefer defensive tactics, make use of the terrain to find best concealment and vantage points, from which you will be able to defend your own (or the neutral base in an Encounter Battle) against the approaching enemy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participate in a successful capture of a base or reset enemy capture points of your/neutral base.\n• Win the battle.\n• Cause at least 2,000 HP of damage to enemy vehicles.</req>
+        <req>• Participate in a base capture or reset enemy capture points of your base/the neutral base.\n• Win the battle.\n• Cause at least 2,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 2 enemy vehicles.</req>
@@ -2093,7 +2120,7 @@
     <PM name="MT-12: The Incinerator" short="Т28 Heavy Tank Concept: MT-12" desc="Setting an enemy vehicle on fire is one of the most efficient ways to destroy it." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
       <Hint>Penetrating hits that strike the engine or fuel tanks have a chance of causing a fire. Study diagrams of vehicles to learn where these crucial modules are located.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Set an enemy vehicle that is 1 tier higher than your vehicle on fire.</req>
+        <req>• Set an enemy vehicle on fire.\n• Cause at least 2,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Be among the top 3 players on your team by experience earned.</req>
@@ -2171,13 +2198,13 @@
         <req>• Cause at least 2,000 HP of damage.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="Т28 Heavy Tank Concept: TD-6" desc="Hitting a moving target is tricky—even more tricky when you are shooting at long range." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Use Sniper mode and lead the target before firing. Auto-Aim is useless in these situations; there is no substitute for shooting skill and experience.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="Т28 Heavy Tank Concept: TD-6" desc="Try to keep enemy vehicles as far from your position as possible. Destroy them while they are approaching, as it will be much harder to blunt the attack in close combat." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>Make sure that your vehicle is hidden behind bushes or fallen trees before firing. If your vehicle is 15 m behind a bush or fallen tree, you have a better chance of remaining concealed after firing.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage to enemy vehicles from a distance of 250 m or more.\n• Enemy vehicles must be on the move.</req>
+        <req>• Cause at least 1,000 HP of damage to enemy vehicles from a distance of over 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 moving enemy vehicles.</req>
+        <req>• Destroy at least 2 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="Т28 Heavy Tank Concept: TD-7" desc="Do not let the enemy get too close to you: most TDs are thinly armored." tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
@@ -2348,7 +2375,7 @@
         <req>• Destroy at least 2 enemy SPGs.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage.</req>
+        <req>• Destroy at least 3 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="Т28 Heavy Tank Concept: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
@@ -2460,7 +2487,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="T 55A: LT-8" desc="In the heat of battle, it is easy to forget about the defense of your own or the neutral base. Such imprudence may allow the enemy to gain the upper hand and seize the objective rapidly. Remember, your tank has enough speed to break contact and retreat to defend the base and fend off the invaders with precise shots or a daring ramming attack, thus saving your team from an imminent defeat." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. The HE shells have greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
+      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participate in a successful capture of a base while earning at least 40 base capture points, or reset enemy capture points of your/neutral base while earning at least 40 base defense points.\n• Win the battle.</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="LT-10: The Maximum Result" short="T 55A: LT-10" desc="The more effective you are in a battle, the more experience you will earn. Show them what a light tank is capable of!" tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>A good scout knows when to be cautious and when to be aggressive. Stay alert to the flow of battle.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player on both teams by experience earned.\n• Survive the battle.</req>
+        <req>• Finish the battle as the top player on both teams by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
@@ -2588,7 +2615,7 @@
     <PM name="HT-7: I've Got It Covered" short="T 55A: HT-7" desc="Heavy tanks are great for breakthrough tactics. Break through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same tactics." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Be careful when approaching the enemy base—be ready for a \"warm\" reception. If you prefer defensive tactics, make use of the terrain to find best concealment and vantage points, from which you will be able to defend your own (or the neutral base in an Encounter Battle) against the approaching enemy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participate in a successful capture of a base while earning at least 30 base capture points, or reset enemy capture points of your/neutral base while earning at least 30 base defense points.\n• Win the battle.\n• Cause at least 3,000 HP of damage to enemy vehicles.</req>
+        <req>• Participate in a base capture or reset enemy capture points of your base/the neutral base.\n• Win the battle.\n• Cause at least 3,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 3 enemy vehicles.</req>
@@ -2723,7 +2750,7 @@
     <PM name="MT-7: A Surprise Blow" short="T 55A: MT-7" desc="Enemy SPGs are high-priority targets for you. By neutralizing them you will get your team one step closer to victory." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Enemy artillery can cause heavy damage to your teammates. Break through a flank, rush the enemy base, and neutralize their SPGs.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy SPGs.</req>
+        <req>• Destroy at least 1 enemy SPG after spotting it yourself.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.\n• Win the battle.</req>
@@ -2768,7 +2795,7 @@
     <PM name="MT-12: The Incinerator" short="T 55A: MT-12" desc="Setting an enemy vehicle on fire is one of the most efficient ways to destroy it." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Penetrating hits that strike the engine or fuel tanks have a chance of causing a fire. Study diagrams of vehicles to learn where these crucial modules are located.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Set at least 2 enemy vehicles on fire or set 1 vehicle on fire 2 times.</req>
+        <req>• Set an enemy vehicle of the same or higher tier on fire.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Be among the top 3 players on your team by experience earned.</req>
@@ -2846,13 +2873,13 @@
         <req>• Cause at least 3,000 HP of damage.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="T 55A: TD-6" desc="Hitting a moving target is tricky—even more tricky when you are shooting at long range." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Use Sniper mode and lead the target before firing. Auto-Aim is useless in these situations; there is no substitute for shooting skill and experience.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="T 55A: TD-6" desc="Try to keep enemy vehicles as far from your position as possible. Destroy them while they are approaching, as it will be much harder to blunt the attack in close combat." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>Make sure that your vehicle is hidden behind bushes or fallen trees before firing. If your vehicle is 15 m behind a bush or fallen tree, you have a better chance of remaining concealed after firing.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage to enemy vehicles from a distance of 250 m or more.\n• Enemy vehicles must be on the move.</req>
+        <req>• Cause at least 2,000 HP of damage to enemy vehicles from a distance of over 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 moving enemy vehicles.</req>
+        <req>• Destroy at least 3 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="T 55A: TD-7" desc="Do not let the enemy get too close to you: most TDs are thinly armored." tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
@@ -3020,10 +3047,10 @@
     <PM name="SPG-10: The Bane of Artillery" short="T 55A: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy SPG that has not been spotted.</req>
+        <req>• Destroy at least 1 enemy SPG.\n• Cause at least 2,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage.</req>
+        <req>• Destroy at least 4 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
@@ -3135,7 +3162,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="Object 260: LT-8" desc="In the heat of battle, it is easy to forget about the defense of your own or the neutral base. Such imprudence may allow the enemy to gain the upper hand and seize the objective rapidly. Remember, your tank has enough speed to break contact and retreat to defend the base and fend off the invaders with precise shots or a daring ramming attack, thus saving your team from an imminent defeat." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. The HE shells have greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
+      <Hint>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participate in a successful capture of a base while earning at least 60 base capture points, or reset enemy capture points of your/neutral base while earning at least 60 base defense points.\n• Win the battle.</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="LT-10: The Maximum Result" short="Object 260: LT-10" desc="The more effective you are in a battle, the more experience you will earn. Show them what a light tank is capable of!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>A good scout knows when to be cautious and when to be aggressive. Stay alert to the flow of battle.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player of both teams by experience earned.\n• Survive the battle.\n• Finish the battle without taking any damage.</req>
+        <req>• Finish the battle as the top player of both teams by experience earned.\n• Survive the battle.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
@@ -3263,7 +3290,7 @@
     <PM name="HT-7: I've Got It Covered" short="Object 260: HT-7" desc="Heavy tanks are great for breakthrough tactics. Break through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same tactics." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Be careful when approaching the enemy base—be ready for a \"warm\" reception. If you prefer defensive tactics, make use of the terrain to find best concealment and vantage points, from which you will be able to defend your own (or the neutral base in an Encounter Battle) against the approaching enemy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Participate in a successful capture of a base while earning at least 50 base capture points, or reset enemy capture points of your/neutral base while earning at least 50 base defense points.\n• Win the battle.\n• Cause at least 4,000 HP of damage to enemy vehicles.</req>
+        <req>• Participate in base capture or reset enemy capture points of your base/the neutral base.\n• Win the battle.\n• Cause at least 4,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 4 enemy vehicles.</req>
@@ -3398,7 +3425,7 @@
     <PM name="MT-7: A Surprise Blow" short="Object 260: MT-7" desc="Enemy SPGs are high-priority targets for you. By neutralizing them you will get your team one step closer to victory." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Enemy artillery can cause heavy damage to your teammates. Break through a flank, rush the enemy base, and neutralize their SPGs.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy SPGs without any help from your allies.</req>
+        <req>• Destroy at least 3 enemy SPGs.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.\n• Win the battle.\n• SPGs must be of a higher tier than your vehicle.</req>
@@ -3443,7 +3470,7 @@
     <PM name="MT-12: The Incinerator" short="Object 260: MT-12" desc="Setting an enemy vehicle on fire is one of the most efficient ways to destroy it." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Penetrating hits that strike the engine or fuel tanks have a chance of causing a fire. Study diagrams of vehicles to learn where these crucial modules are located.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Set at least 2 enemy vehicles that are 1 tier higher than your vehicle on fire, or set 1 enemy vehicle on fire 2 times.</req>
+        <req>• Set an enemy vehicle of the same or higher tier on fire.\n• Cause at least 3,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Be among the top 3 players on your team by experience earned.</req>
@@ -3521,13 +3548,13 @@
         <req>• Cause at least 4,000 HP of damage.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="Object 260: TD-6" desc="Hitting a moving target is tricky—even more tricky when you are shooting at long range." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Use Sniper mode and lead the target before firing. Auto-Aim is useless in these situations; there is no substitute for shooting skill and experience.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="Object 260: TD-6" desc="Try to keep enemy vehicles as far from your position as possible. Destroy them while they are approaching, as it will be much harder to blunt the attack in close combat." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>Make sure that your vehicle is hidden behind bushes or fallen trees before firing. If your vehicle is 15 m behind a bush or fallen tree, you have a better chance of remaining concealed after firing.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage to enemy vehicles from a distance of 250 m or more.\n• Enemy vehicles must be on the move.</req>
+        <req>• Cause at least 3,000 HP of damage to enemy vehicles from a distance of over 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 4 moving enemy vehicles.</req>
+        <req>• Destroy at least 4 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="Object 260: TD-7" desc="Do not let the enemy get too close to you: most TDs are thinly armored." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
@@ -3695,10 +3722,10 @@
     <PM name="SPG-10: The Bane of Artillery" short="Object 260: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy SPGs that have not been spotted.</req>
+        <req>• Destroy at least 2 enemy SPGs.\n• Cause at least 4,000 HP of damage to enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 4,000 HP of damage.</req>
+        <req>• Destroy at least 5 enemy vehicles.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">

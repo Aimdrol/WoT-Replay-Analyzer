@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
+    <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -45,6 +48,8 @@
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
     <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G05_StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
+    <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
-    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G25_PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G27_VK3001P" sName="VK 30.01 P" lName="VK 30.01 (P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="Pz. V BP A" lName="Pz.Kpfw. V Berge-Panther Alpha" />
+    <tank ID="G32_PzV_PzIV_CN" sName="Pz. V BP" lName="Pz.Kpfw. V Berge-Panther" />
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J09_Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
+    <tank ID="J12_Chi_Nu_Kai" sName="Chi-Nu Kai" lName="Type 3 Chi-Nu Kai" />
     <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" sName="IS 8-boll" lName="IS 8-boll" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="Obj. 430 II" lName="Objekt 430 Version II" />
     <tank ID="R105_BT_7A" sName="BT-7 art." lName="BT-7 Artilleri" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Objekt 268 Version V" />
     <tank ID="R127_T44_100_P" sName="Т-44-100 (Р)" lName="Т-44-100 (Р)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="Kreslavskiys KV-4" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212A" lName="212A" />
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Objekt 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="Obj. 430" lName="Objekt 430" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
@@ -696,7 +724,7 @@
     <item ID="ht" Name="Tung strv" />
     <item ID="mt" Name="Medeltung strv" />
     <item ID="lt" Name="Lätt strv" />
-    <item ID="spg" Name="Bandhaubits" />
+    <item ID="spg" Name="Artillerivagn" />
     <item ID="unknown" Name="Okänd" />
   </Lang_TankClasses>
   <Lang_Maps>
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="Insnöad" />
     <item ID="112_eiffel_tower" Name="Huvudstad i ruiner" />
     <item ID="114_czech" Name="Pilsen" />
-    <item ID="119_moon_pool" Name="Krater" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfriedlinjen" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Spökstad" />
     <item ID="96_prohorovka_defense" Name="Brandgata" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="Provins" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="Sydkust" />
@@ -860,12 +886,13 @@
     <item ID="3" Name="Kraschade" />
     <item ID="4" Name="Förstörd av dödszon" />
     <item ID="5" Name="Drunknade" />
+    <item ID="7" Name="Medveten självförstörelse" />
     <item ID="unknown" Name="Okänd" />
   </Lang_DeathReasons>
   <Lang_Crits>
     <item ID="commander" Name="Befälhavare" />
     <item ID="driver" Name="Förare" />
-    <item ID="radioman" Name="Radiooperatör" />
+    <item ID="radioman" Name="Signalist" />
     <item ID="gunner" Name="Skytt" />
     <item ID="loader" Name="Laddare" />
     <item ID="engine" Name="Motor" />
@@ -1020,7 +1047,7 @@
     <achv ID_Num="538" ID="readyForBattleLT" Name="Exemplariskt uppträdande: Lätta stridsvagnar {0}" />
     <achv ID_Num="539" ID="readyForBattleMT" Name="Exemplariskt uppträdande: Medeltunga stridsvagnar {0}" />
     <achv ID_Num="540" ID="readyForBattleHT" Name="Exemplariskt uppträdande: Tunga stridsvagnar {0}" />
-    <achv ID_Num="541" ID="readyForBattleSPG" Name="Exemplariskt uppträdande: Bandhaubitser {0}" />
+    <achv ID_Num="541" ID="readyForBattleSPG" Name="Exemplariskt uppträdande: Artillerivagnar {0}" />
     <achv ID_Num="542" ID="readyForBattleATSPG" Name="Exemplariskt uppträdande: Pansarvärnskanonvagnar {0}" />
     <achv ID_Num="543" ID="readyForBattleALL" Name="Med dragna vapen {0}" />
     <achv ID_Num="588" ID="operationWinter" Name="Operation Vinter" />
@@ -1101,16 +1128,16 @@
       </Secondary>
     </PM>
     <PM name="L.Strv-7: Artillerijägare" short="StuG IV: L.Strv-7" desc="Fiendens artilleri är ett prioriterat mål för lätta stridsvagnar. Om du förstör artilleriet kommer du avsevärt öka lagets chans till seger." tMID="7" opID="1" mID="7" setID="1" ID="quest_1_1_7_main" secID="quest_1_1_7_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga bandhaubitser, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
+      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga artillerivagnar, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Observera en fientlig bandhaubits, skada den eller åsamka kritisk skada.</req>
+        <req>• Observera en fientlig artillerivagn, skada den eller åsamka kritisk skada.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-8: Ut ur basen!" short="StuG IV: L.Strv-8" desc="I stridens hetta är det lätt att glömma att försvara din egen, eller en neutral bas. Ett sånt misstag kan låta fienden få övertaget och erövra sitt mål väldigt snabbt. Kom ihåg att om din vagn har tillräcklig manöverförmåga för att kunna bryta kontakten med fiende så kan du retirera tillbaka till basen för att försvara den. Ett välriktat skott eller en ramming kan rädda laget från en snabb förlust." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att undvika fiendens eld.</Hint>
+      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att försöka undvika fiendens eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Delta i erövrandet av en bas eller nollställ erövringspoängen på din egen eller en neutral bas.\n• Vinn striden.</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="L.Strv-10: Bästa resultat" short="StuG IV: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var den spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var en av de 3 i laget som tjänar mest Erfarenhet.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -1163,7 +1190,7 @@
         <req>• Du måste överleva striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="StuG IV: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid som en pluton med bara artillerivagnar, ibland som en grupp lätta stridsvagn. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="StuG IV: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid tillsammans artillerivagnar, ibland med ett par lätta stridsvagnar. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Ju mer erfarna spelare som är med i laget, desto effektivare blir ni. Öka chanserna för seger genom att delta i laget som en pluton. Du kan även spela själv, om du är säker på din förmåga och litar på att dina allierade inte kommer svika dig.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Observera fiendevagnar och åsamka 2 000 träffpoäng skada, personligen eller totalt inom plutonen, på vagnar du observerar.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din lätta stridsvagn och vilka andra vagnar som helst.</req>
@@ -1373,7 +1400,7 @@
     <PM name="M.Strv-7: En överraskningsattack" short="StuG IV: M.Strv-7" desc="Fiendens artilleri är prioriterade mål för dig. Genom att eliminera dem kan du föra ditt lag ett steg närmare seger." tMID="37" opID="1" mID="7" setID="3" ID="quest_1_3_7_main" secID="quest_1_3_7_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Artillerield åsamkar ditt lag stor skada. När du brutit igenom på en flank, skynda dig till fiendens basområde och eliminera hotet från artilleriet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 1 fientlig bandhaubits.</req>
+        <req>• Förstör minst 1 fientlig artillerivagn.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.</req>
@@ -1496,13 +1523,13 @@
         <req>• Åsamka fienden minst 1 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="PvKv-6: Noggranna kalkyler" short="StuG IV: PvKv-6" desc="Det är väldigt svårt att träffa ett rörligt mål, men ändå svårare när målet är i rörelse." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Använd prickskyttesiktet och tänk på framförhållningen innan du skjuter. Det automatiska siktet är värdelöst i många lägen när du skjuter på långt håller eller rörliga mål.</Hint>
+    <PM name="PvKv-6: Här kommer de inte förbi!" short="StuG IV: PvKv-6" desc="Försök hålla fienden på så långt avstånd som möjligt. Förstör dem innan de kommer för nära, eftersom du kommer ha mycket svårare att värja dig i närstrid." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+      <Hint>Se till att du har skyl bakom buskar eller fallna träd innan du börjar avfyrar din kanon. Om din vagn är 15 m eller mer bakom en buske eller ett nedfallet träf har du en bättre chans att förbli dold efter du avfyrat kanonen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka skada på en fiendevagn på ett avstånd av minst 250m.\n• Fiendevagnen måste vara i rörelse.</req>
+        <req>• Åsamka skada på en fiendevagn på ett avstånd av minst 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Förstör en fiende som rör sig.</req>
+        <req>• Förstör minst 1 fiendevagn.</req>
       </Secondary>
     </PM>
     <PM name="PvKv-7: Första träffen" short="StuG IV: PvKv-7" desc="Låt inte fienden komma för nära: ditt pansar är inte helt effektivt mot fientlig eld." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
@@ -1586,16 +1613,16 @@
         <req>• Förstör en fiendevagn.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-1: Prickskytten" short="StuG IV: BHaub-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-1: Prickskytten" short="StuG IV: Art-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Ha tålamod och vänta tills du har siktat färdigt innan du avfyrar din kanon.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Skada en fiendevagn med minst 3 träffar.</req>
+        <req>• Träffa fiendevagnar med minst 3 skott som åsamkar skada.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 1 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-2: Gömd och farlig" short="StuG IV: BHaub-2" desc="Bandhaubitser kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en bandhaubits måste du lära dig att hålla dig dold under hela striden." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-2: Gömd och farlig" short="StuG IV: Art-2" desc="Artillerivagnar kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en artillerivagn måste du lära dig att hålla dig dold under hela striden." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Att utrusta vagnen med ett kamouflagenät och välja en lämplig kamouflagemålning ökar dina chanser att gömma dig för fienden avsevärt.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 500 träffpoäng skada utan att bli upptäckt under hela striden.\n• Överlev striden.</req>
@@ -1604,7 +1631,7 @@
         <req>• Förstör en fiendevagn.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-3: Artillerianfall" short="StuG IV: BHaub-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-3: Artillerianfall" short="StuG IV: Art-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Följ stridens gång och understöd laget. Stå inte still för längre. Retirera eller byt eldställning om du behöver.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 1 000 träffpoäng skada.</req>
@@ -1613,7 +1640,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="Bhaub-4: Genombrott" short="StuG IV: Bhaub-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-4: Genombrott" short="StuG IV: Art-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Bara när granaten penetrerar fiendens pansar och expoderar inne i skrovet kan en spränggranat visa vad den går för. Om dina granater har dålig penetration, försök hitta en vagn med öppet stridsutrymme eller ladda premiumgranater.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Skada eller förstör moduler, eller skada besättningsmedlemmar i fiendevagnar. Totalt 3 moduler eller besättningsmedlemmar måste skadas/förstöras.\n• Alla skadade/förstörda moduler och skadade besättningsmedlemmar på alla fiendevagnar i striden räknas samman.</req>
@@ -1622,7 +1649,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-5: Kalkylerad förstörelse" short="StuG IV: BHaub-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-5: Kalkylerad förstörelse" short="StuG IV: Art-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Försök åsamka skada på fienden vid varje tillfälle. Även om du missar med en spränggranat kan du göra skada genom explosion och splitter.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden 4 gånger mer skada än din vagn har träffpoäng\n• Skada åsamkad allierade räknas inte.</req>
@@ -1631,8 +1658,8 @@
         <req>• Förstör en fiendevagn.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-6: Den fallande hammaren" short="StuG IV: BHaub-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Bandhaubitser med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
+    <PM name="Art-6: Den fallande hammaren" short="StuG IV: Art-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Artillerivagnar med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör 2 fiendevagnar i samma klass eller högre än din egen vagn.</req>
       </Primary>
@@ -1640,16 +1667,16 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-7: Fram med de stora kanonerna" short="StuG IV: BHaub-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och bandhaubitser kan hjälpa er få övertaget på slagfältet.</Hint>
+    <PM name="Art-7: Fram med de stora kanonerna" short="StuG IV: Art-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och artillerivagnar kan hjälpa er få övertaget på slagfältet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör en fientlig pansarvärnskanonvagn eller bandhaubits.</req>
+        <req>• Förstör en fientlig pansarvärnskanonvagn eller artillerivagn.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 1 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-8: Tung eld mot tunga mål!" short="StuG IV: BHaub-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-8: Tung eld mot tunga mål!" short="StuG IV: Art-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Tunga stridsvagnar är som regel långsammare än andra vagnar. Därför kan du ofta förutse stridsvagnens position när din granat slår ned. Det är viktigt för en artillerist att veta med vilken hastighet granaten rör sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fientliga tunga stridsvagnar minst 1 000 träffpoäng skada.</req>
@@ -1658,7 +1685,7 @@
         <req>• Förstör en fientlig tung stridsvagn.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-9: Framförhållning träffar" short="StuG IV: BHaub-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-9: Framförhållning träffar" short="StuG IV: Art-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Granatens hastighet är väldigt viktig. Om du vet när granaten beräknas nå målet kan du räkna ut hur lång framförhållning du bör ha.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Skada en fiendevagn som rör sig i över 20 km/h.\n• Både sprängskada och direkt skada räknas.\n• Skada åsamkad av rammning räknas inte.</req>
@@ -1667,16 +1694,16 @@
         <req>• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-10: Artilleriets bane" short="StuG IV: BHaub-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Ju oftare du kör en bandhaubits desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
+    <PM name="Art-10: Artilleriets bane" short="StuG IV: Art-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+      <Hint>Ju oftare du kör en artillerivagn desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 1 fientlig bandhaubits.</req>
+        <req>• Förstör minst 1 fientlig artillerivagn.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fienden minst 1 000 träffpoäng skada.</req>
+        <req>• Förstör minst 2 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-11: Områdeseffekt" short="StuG IV: BHaub-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-11: Områdeseffekt" short="StuG IV: Art-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Du kan bokstavligt talat slå två flugor i en smäll om flera fiender står samlade på en punkt. Detta är vanligt på stadskartor.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Åsamka en fiendevagn skada med ett enda skott.\n• Endast mål som inte tagit skada tidigare under striden räknas.</req>
@@ -1685,7 +1712,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-12: Storsläggan" short="StuG IV: BHaub-12" desc="Hur du spelar en bandhaubits skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-12: Storsläggan" short="StuG IV: Art-12" desc="Hur du spelar en artillerivagn skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Gå inte in i artilleriläget direkt när striden börjar. Välj först ut en bra eldställning.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Var bland de 3 som åsamkat fienden mest skada i laget.\n• Förstör en fiendevagn.</req>
@@ -1694,26 +1721,26 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-13: Batterield (personlig/pluton)" short="StuG IV: BHaub-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-13: Batterield (personlig/pluton)" short="StuG IV: Art-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Genom att sprida ut er kan din pluton bekämpa mål från olika vinklar, vilket gör klippor och hus värdelösa som skydd och låter er dominera slagfältet.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Du själv eller plutonen måste stå för minst 15% av skadan som laget åsamkar fienden.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Du själv eller plutonen måste stå för minst 15% av skadan som laget åsamkar fienden.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-14: Förenad offensiv (personlig/pluton)" short="StuG IV: BHaub-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+    <PM name="Art-14: Förenad offensiv (personlig/pluton)" short="StuG IV: Art-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>En lätt stridsvagn kan upptäcka en fiendevagn och immobilisera den. Artilleriet gör processen kort med ett stillastående mål. Tilsammans går vi mot seger. En tung stridsvagn ger dig skydd med sitt tjocka pansar, de medeltunga stridsvagnarna distraherar fienden och pansarvärnskanonvagnarna ger understöd från långt håll.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fientliga tunga stridsvagnar och pansarvärnskanonvagnar minst 2 000 träffpoäng skada. Skada åsamkad av plutonskamrater räknas.\n• Uppdraget kan slutföras antingen själv eller som del i en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Åsamka fientliga tunga stridsvagnar och pansarvärnskanonvagnar minst 2 000 träffpoäng skada. Skada åsamkad av plutonskamrater räknas.\n• Uppdraget kan slutföras antingen själv eller som del i en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-15: Krigsgudar" short="StuG IV: BHaub-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
-      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb bandhaubits kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
+    <PM name="Art-15: Krigsgudar" short="StuG IV: Art-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
+      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb artillerivagn kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
         <req>• Var bland de 3 i laget som tjänat mest erfarenhet och åsamkat fienden mest skada.\n• Åsamka fienden minst 2 000 träffpoäng skada.</req>
       </Primary>
@@ -1776,16 +1803,16 @@
       </Secondary>
     </PM>
     <PM name="L.Strv-7: Artillerijägare" short="T28 heavy tank concept: L.Strv-7" desc="Fiendens artilleri är ett prioriterat mål för lätta stridsvagnar. Om du förstör artilleriet kommer du avsevärt öka lagets chans till seger." tMID="82" opID="2" mID="7" setID="1" ID="quest_2_1_7_main" secID="quest_2_1_7_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga bandhaubitser, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
+      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga artillerivagnar, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Observera 2 fientlig bandhaubitser, skada dem eller åsamka kritisk skada.</req>
+        <req>• Observera 2 fientliga artillerivagnar, skada dem eller åsamka kritisk skada.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-8: Ut ur basen!" short="T28 heavy tank concept: L.Strv-8" desc="I stridens hetta är det lätt att glömma att försvara din egen, eller en neutral bas. Ett sånt misstag kan låta fienden få övertaget och erövra sitt mål väldigt snabbt. Kom ihåg att om din vagn har tillräcklig manöverförmåga för att kunna bryta kontakten med fiende så kan du retirera tillbaka till basen för att försvara den. Ett välriktat skott eller en ramming kan rädda laget från en snabb förlust." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att undvika fiendens eld.</Hint>
+      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att försöka undvika fiendens eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Var med om att erövra fiendebasen och tjäna minst 20 baserövringspoäng, eller nollställ erövringen av din egen eller en neutral bas, samtidigt som du tjänar minst 20 basförsvarspoäng.\n• Vinn striden.</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="L.Strv-10: Bästa resultat" short="T28 heavy tank concept: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var den spelare i laget som tjänar mest erfarenhet.\n• Överlev striden.</req>
+        <req>• Var den spelare i laget som tjänat mest Erfarenhet.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -1838,7 +1865,7 @@
         <req>• Du måste överleva striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="T28 heavy tank concept: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid som en pluton med bara artillerivagnar, ibland som en grupp lätta stridsvagn. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="T28 heavy tank concept: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid tillsammans artillerivagnar, ibland med ett par lätta stridsvagnar. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Ju mer erfarna spelare som är med i laget, desto effektivare blir ni. Öka chanserna för seger genom att delta i laget som en pluton. Du kan även spela själv, om du är säker på din förmåga och litar på att dina allierade inte kommer svika dig.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Observera fiendevagnar så dina allierade kan åsamka minst 3 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din lätta stridsvagn och vilka andra vagnar som helst.</req>
@@ -2048,7 +2075,7 @@
     <PM name="M.Strv-7: En överraskningsattack" short="T28 heavy tank concept: M.Strv-7" desc="Fiendens artilleri är prioriterade mål för dig. Genom att eliminera dem kan du föra ditt lag ett steg närmare seger." tMID="112" opID="2" mID="7" setID="3" ID="quest_2_3_7_main" secID="quest_2_3_7_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Artillerield åsamkar ditt lag stor skada. När du brutit igenom på en flank, skynda dig till fiendens basområde och eliminera hotet från artilleriet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 2 fientliga bandhaubitser.</req>
+        <req>• Förstör minst 2 fientliga artillerivagnar.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.\n• Vinn striden.</req>
@@ -2093,10 +2120,10 @@
     <PM name="M.Strv-12: Brännaren" short="T28 heavy tank concept: M.Strv-12" desc="Att sätta en fiendevagn i brand är ett av de effektivaste sätten av förstöra den." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Granater som penetrerar och träffar motorn eller bränsletanken kan sätta fienden i brand. Studera ritningar över vagnar för att se var dessa viktiga moduler sitter.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Sätt en fiendevagn som är minst en klass högre än din egen vagn i brand.</req>
+        <req>• Sätt en fiendevagn i brand.\n• Åsamka fiendevagnar minst 2 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var bland de 3 spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var en av de 3 i laget som tjänar mest Erfarenhet.</req>
       </Secondary>
     </PM>
     <PM name="M.Strv-13: Aktiv handling (personlig/pluton)" short="T28 heavy tank concept: M.Strv-13" desc="En pluton medeltunga stridsvagnar kan vara stor hjälp för laget över hela slagfältet. Detta uppdrag kan slutföras antingen tillsammans med en pluton eller själv, det senare är dock mycket svårare." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
@@ -2171,13 +2198,13 @@
         <req>• Åsamka fienden minst 2 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="PvKv-6: Noggranna kalkyler" short="T28 heavy tank concept: PvKv-6" desc="Det är väldigt svårt att träffa ett rörligt mål, men ändå svårare när målet är i rörelse." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Använd prickskyttesiktet och tänk på framförhållningen innan du skjuter. Det automatiska siktet är värdelöst i många lägen när du skjuter på långt håller eller rörliga mål.</Hint>
+    <PM name="PvKv-6: Här kommer de inte förbi!" short="T28 heavy tank concept: PvKv-6" desc="Försök hålla fienden på så långt avstånd som möjligt. Förstör dem innan de kommer för nära, eftersom du kommer ha mycket svårare att värja dig i närstrid." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+      <Hint>Se till att du har skyl bakom buskar eller fallna träd innan du börjar avfyrar din kanon. Om din vagn är 15 m eller mer bakom en buske eller ett nedfallet träf har du en bättre chans att förbli dold efter du avfyrat kanonen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka fienden minst 1 000 träffpoäng skada från ett avstånd av minst 250m.\n• Fiendevagnarna måste vara i rörelse.</req>
+        <req>• Åsamka fienden minst 1 000 träffpoäng skada från ett avstånd av minst 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 2 fiendevagnar som rör sig.</req>
+        <req>• Förstör minst 2 fiendevagnar.</req>
       </Secondary>
     </PM>
     <PM name="PvKv-7: Första träffen" short="T28 heavy tank concept: PvKv-7" desc="Låt inte fienden komma för nära: ditt pansar är inte helt effektivt mot fientlig eld." tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
@@ -2261,16 +2288,16 @@
         <req>• Förstör minst 2 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-1: Prickskytten" short="T28 heavy tank concept: BHaub-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-1: Prickskytten" short="T28 heavy tank concept: Art-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Ha tålamod och vänta tills du har siktat färdigt innan du avfyrar din kanon.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Skada fiendevagnar med minst 4 skott.</req>
+        <req>• Träffa fiendevagnar med minst 4 skott som åsamkar skada.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 2 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-2: Gömd och farlig" short="T28 heavy tank concept: BHaub-2" desc="Bandhaubitser kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en bandhaubits måste du lära dig att hålla dig dold under hela striden." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-2: Gömd och farlig" short="T28 heavy tank concept: Art-2" desc="Artillerivagnar kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en artillerivagn måste du lära dig att hålla dig dold under hela striden." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Att utrusta vagnen med ett kamouflagenät och välja en lämplig kamouflagemålning ökar dina chanser att gömma dig för fienden avsevärt.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 1 500 träffpoäng skada utan att bli upptäckt under hela striden.\n• Överlev striden.</req>
@@ -2279,7 +2306,7 @@
         <req>• Förstör minst 2 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-3: Artillerianfall" short="T28 heavy tank concept: BHaub-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-3: Artillerianfall" short="T28 heavy tank concept: Art-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Följ stridens gång och understöd laget. Stå inte still för längre. Retirera eller byt eldställning om du behöver.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 2 000 träffpoäng skada.</req>
@@ -2288,7 +2315,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="Bhaub-4: Genombrott" short="T28 heavy tank concept: Bhaub-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-4: Genombrott" short="T28 heavy tank concept: Art-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Bara när granaten penetrerar fiendens pansar och expoderar inne i skrovet kan en spränggranat visa vad den går för. Om dina granater har dålig penetration, försök hitta en vagn med öppet stridsutrymme eller ladda premiumgranater.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Skada eller förstör en fiendevagns interna moduler eller skada besättningsmedlemmar. Totalt 5 moduler/besättningsmedlemmar måste skadas.\n• Antalet skadade/förstörda moduler och skadade besättningsmedlemmar på alla vagnar i striden räknas samman.</req>
@@ -2297,7 +2324,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-5: Kalkylerad förstörelse" short="T28 heavy tank concept: BHaub-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-5: Kalkylerad förstörelse" short="T28 heavy tank concept: Art-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Försök åsamka skada på fienden vid varje tillfälle. Även om du missar med en spränggranat kan du göra skada genom explosion och splitter.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden 6 gånger så mycket skada som din totala mängd träffpoäng.\n• Skada åsamkad allierade räknas inte.</req>
@@ -2306,8 +2333,8 @@
         <req>• Förstör minst 2 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-6: Den fallande hammaren" short="T28 heavy tank concept: BHaub-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Bandhaubitser med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
+    <PM name="Art-6: Den fallande hammaren" short="T28 heavy tank concept: Art-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Artillerivagnar med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör 3 fiendevagnar med samma klass som din egen vagn.</req>
       </Primary>
@@ -2315,16 +2342,16 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-7: Fram med de stora kanonerna" short="T28 heavy tank concept: BHaub-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och bandhaubitser kan hjälpa er få övertaget på slagfältet.</Hint>
+    <PM name="Art-7: Fram med de stora kanonerna" short="T28 heavy tank concept: Art-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och artillerivagnar kan hjälpa er få övertaget på slagfältet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör en fientlig pansarvärnkanonvagn eller bandhaubits som är minst 1 klass högre än din egen vagn.</req>
+        <req>• Förstör en fientlig pansarvärnkanonvagn eller artillerivagn som är minst 1 klass högre än din egen vagn.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 2 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-8: Tung eld mot tunga mål!" short="T28 heavy tank concept: BHaub-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-8: Tung eld mot tunga mål!" short="T28 heavy tank concept: Art-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Tunga stridsvagnar är som regel långsammare än andra vagnar. Därför kan du ofta förutse stridsvagnens position när din granat slår ned. Det är viktigt för en artillerist att veta med vilken hastighet granaten rör sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fientliga tunga stridsvagnar minst 1 500 träffpoäng skada.</req>
@@ -2333,7 +2360,7 @@
         <req>• Förstör minst 2 fientliga tunga stridsvagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-9: Framförhållning träffar" short="T28 heavy tank concept: BHaub-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-9: Framförhållning träffar" short="T28 heavy tank concept: Art-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Granatens hastighet är väldigt viktig. Om du vet när granaten beräknas nå målet kan du räkna ut hur lång framförhållning du bör ha.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Träffa fienden minst 2 gånger.\n• Alla direkta träffar, oavsett om de gjort skada eller inte, räknas.</req>
@@ -2342,16 +2369,16 @@
         <req>• Överlev striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-10: Artilleriets bane" short="T28 heavy tank concept: BHaub-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Ju oftare du kör en bandhaubits desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
+    <PM name="Art-10: Artilleriets bane" short="T28 heavy tank concept: Art-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+      <Hint>Ju oftare du kör en artillerivagn desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 2 fientliga bandhaubitser.</req>
+        <req>• Förstör minst 2 fientliga artillerivagnar.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fienden minst 2 000 träffpoäng skada.</req>
+        <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-11: Områdeseffekt" short="T28 heavy tank concept: BHaub-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-11: Områdeseffekt" short="T28 heavy tank concept: Art-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Du kan bokstavligt talat slå två flugor i en smäll om flera fiender står samlade på en punkt. Detta är vanligt på stadskartor.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Förstör minst 2 fiendevagnar med ett enda skott.</req>
@@ -2360,7 +2387,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-12: Storsläggan" short="T28 heavy tank concept: BHaub-12" desc="Hur du spelar en bandhaubits skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-12: Storsläggan" short="T28 heavy tank concept: Art-12" desc="Hur du spelar en artillerivagn skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Gå inte in i artilleriläget direkt när striden börjar. Välj först ut en bra eldställning.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Var en av de tre spelarna i båda lagen som åsamkat fienden mest skada.\n• Förstör minst 2 fiendevagnar.\n• Överlev striden.</req>
@@ -2369,26 +2396,26 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-13: Batterield (personlig/pluton)" short="T28 heavy tank concept: BHaub-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-13: Batterield (personlig/pluton)" short="T28 heavy tank concept: Art-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Genom att sprida ut er kan din pluton bekämpa mål från olika vinklar, vilket gör klippor och hus värdelösa som skydd och låter er dominera slagfältet.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Stå för minst 20% av den totala skadan som laget åsamkar fienden, antingen själv eller totalt inom plutonen.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Stå för minst 20% av den totala skadan som laget åsamkar fienden, antingen själv eller totalt inom plutonen.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-14: Förenad offensiv (personlig/pluton)" short="T28 heavy tank concept: BHaub-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+    <PM name="Art-14: Förenad offensiv (personlig/pluton)" short="T28 heavy tank concept: Art-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>En lätt stridsvagn kan upptäcka en fiendevagn och immobilisera den. Artilleriet gör processen kort med ett stillastående mål. Tilsammans går vi mot seger. En tung stridsvagn ger dig skydd med sitt tjocka pansar, de medeltunga stridsvagnarna distraherar fienden och pansarvärnskanonvagnarna ger understöd från långt håll.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fientliga tunga stridsvagnar och pansarvärnskanonvagnar minst 3 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Åsamka fientliga tunga stridsvagnar och pansarvärnskanonvagnar minst 3 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-15: Krigsgudar" short="T28 heavy tank concept: BHaub-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
-      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb bandhaubits kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
+    <PM name="Art-15: Krigsgudar" short="T28 heavy tank concept: Art-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
+      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb artillerivagn kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
         <req>• Var en av de tre spelare i laget som tjänat mest erfarenhet och åsamkat mest skada.\n• Åsamka fienden minst 2 000 träffpoäng skada.</req>
       </Primary>
@@ -2451,16 +2478,16 @@
       </Secondary>
     </PM>
     <PM name="L.Strv-7: Artillerijägare" short="T-55A: L.Strv-7" desc="Fiendens artilleri är ett prioriterat mål för lätta stridsvagnar. Om du förstör artilleriet kommer du avsevärt öka lagets chans till seger." tMID="157" opID="3" mID="7" setID="1" ID="quest_3_1_7_main" secID="quest_3_1_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga bandhaubitser, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
+      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga artillerivagnar, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Observera 3 fientlig bandhaubitser, skada dem eller åsamka kritisk skada.</req>
+        <req>• Observera 3 fientliga artillerivagnar, skada dem eller åsamka kritisk skada.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-8: Ut ur basen!" short="T-55A: L.Strv-8" desc="I stridens hetta är det lätt att glömma att försvara din egen, eller en neutral bas. Ett sånt misstag kan låta fienden få övertaget och erövra sitt mål väldigt snabbt. Kom ihåg att om din vagn har tillräcklig manöverförmåga för att kunna bryta kontakten med fiende så kan du retirera tillbaka till basen för att försvara den. Ett välriktat skott eller en ramming kan rädda laget från en snabb förlust." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att undvika fiendens eld.</Hint>
+      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att försöka undvika fiendens eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Delta i en baserövring och tjäna minst 40 baserövringspoäng, eller nollställ erövringen av din egen bas/en neutral bas samtidigt som du tjänar minst 40 basförsvarspoäng.\n• Vinn striden.</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="L.Strv-10: Bästa resultat" short="T-55A: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var den spelare i båda lagen som tjänat mest erfarenhet.\n• Överlev striden.</req>
+        <req>• Var den spelare båda lagen som tjänat mest Erfarenhet.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -2513,7 +2540,7 @@
         <req>• Du måste överleva striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="T-55A: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid som en pluton med bara artillerivagnar, ibland som en grupp lätta stridsvagn. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="T-55A: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid tillsammans artillerivagnar, ibland med ett par lätta stridsvagnar. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Ju mer erfarna spelare som är med i laget, desto effektivare blir ni. Öka chanserna för seger genom att delta i laget som en pluton. Du kan även spela själv, om du är säker på din förmåga och litar på att dina allierade inte kommer svika dig.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Observera fiendevagnar och låt dina allierade åsamka fienden minst 5 000 träffpoäng skada på vagnar du observerar, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din lätta stridsvagn och vilka andra vagnar som helst.</req>
@@ -2588,7 +2615,7 @@
     <PM name="T.Strv-7: Jag klarar det" short="T-55A: T.Strv-7" desc="Genombrottstaktik är perfekt för tunga stridsvagnar. Slå igenom fiendens försvarslinje och erövra basen. Underskatta dock inte din fiende då de kan tänkas använda samma taktik." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Erövra fiendebasen och tjäna minst 30 baserövringspoäng eller nollställ erövringen av den egna basen/en neutral bas samtidigt som du tjänar 30 basförsvarspoäng.\n• Vinn striden.\n• Åsamka fienden minst 3 000 träffpoäng skada.</req>
+        <req>• Delta i erövrandet av en fiendebas eller nollställ erövringen av din egen eller en neutral bas.\n• Vinn striden.\n• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Förstör minst 3 fiendevagnar.</req>
@@ -2678,7 +2705,7 @@
     <PM name="M.Strv-2: Bra träff!" short="T-55A: M.Strv-2" desc="Varje träff för ditt lag ett steg närmare seger. Det är dock inte så lätt att få en bra träff på en fiendevagn." tMID="182" opID="3" mID="2" setID="3" ID="quest_3_3_2_main" secID="quest_3_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Penetrationsmarkören på siktet visar hur stor chans du har att slå igenom fiendens pansar på ett visst ställe. En röd marker indikerar en låg chans att penetrera, grön indikerar en hög chans att penetrera. Försök sikta på fiendens sidor eller bakpansar. Försök hitta svaga punkter.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Skjut minst 12 skott som skadar fienden.</req>
+        <req>• Träffa fiendevagnar med minst 12 skott som gör skada.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Förstör minst 3 fiendevagnar.</req>
@@ -2723,7 +2750,7 @@
     <PM name="M.Strv-7: En överraskningsattack" short="T-55A: M.Strv-7" desc="Fiendens artilleri är prioriterade mål för dig. Genom att eliminera dem kan du föra ditt lag ett steg närmare seger." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Artillerield åsamkar ditt lag stor skada. När du brutit igenom på en flank, skynda dig till fiendens basområde och eliminera hotet från artilleriet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 3 fientliga bandhaubitser.</req>
+        <req>• Förstör minst 1 fientlig artillerivagn som du själv upptäckt.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.\n• Vinn striden.</req>
@@ -2768,10 +2795,10 @@
     <PM name="M.Strv-12: Brännaren" short="T-55A: M.Strv-12" desc="Att sätta en fiendevagn i brand är ett av de effektivaste sätten av förstöra den." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Granater som penetrerar och träffar motorn eller bränsletanken kan sätta fienden i brand. Studera ritningar över vagnar för att se var dessa viktiga moduler sitter.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sätt minst 2 fiendevagnar i brand, eller sätt en vagn i brand 2 gånger.</req>
+        <req>• Sätt en fiendevagn, som är en eller fler klasser högre än din egen vagn, i brand.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Var bland de 3 spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var en av de 3 i laget som tjänar mest Erfarenhet.</req>
       </Secondary>
     </PM>
     <PM name="M.Strv-13: Aktiv handling (personlig/pluton)" short="T-55A: M.Strv-13" desc="En pluton medeltunga stridsvagnar kan vara stor hjälp för laget över hela slagfältet. Detta uppdrag kan slutföras antingen tillsammans med en pluton eller själv, det senare är dock mycket svårare." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
@@ -2804,7 +2831,7 @@
     <PM name="PvKv-1: Effektivitet" short="T-55A: PvKv-1" desc="Pansarvärnskanonvagnar är ett bra val för de spelare som tycker om att förstöra fiendevagnar på långt håll." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Pansarvärnskanonvagnar har seriös eldkraft, men jämförbart dåliga överlevnadschanser. Prova att bekämpa fienden på avstånd—din träffsäkerhet gör det till en fördelaktig taktik.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Var bland de 3 spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var en av de 3 i laget som tjänar mest Erfarenhet.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.\n• Överlev striden.</req>
@@ -2846,13 +2873,13 @@
         <req>• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="PvKv-6: Noggranna kalkyler" short="T-55A: PvKv-6" desc="Det är väldigt svårt att träffa ett rörligt mål, men ändå svårare när målet är i rörelse." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Använd prickskyttesiktet och tänk på framförhållningen innan du skjuter. Det automatiska siktet är värdelöst i många lägen när du skjuter på långt håller eller rörliga mål.</Hint>
+    <PM name="PvKv-6: Här kommer de inte förbi!" short="T-55A: PvKv-6" desc="Försök hålla fienden på så långt avstånd som möjligt. Förstör dem innan de kommer för nära, eftersom du kommer ha mycket svårare att värja dig i närstrid." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+      <Hint>Se till att du har skyl bakom buskar eller fallna träd innan du börjar avfyrar din kanon. Om din vagn är 15 m eller mer bakom en buske eller ett nedfallet träf har du en bättre chans att förbli dold efter du avfyrat kanonen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka minst 2 000 träffpoäng skada på fiendevagnar på ett avstånd av minst 250m.\n• Fiendevagnarna måste vara i rörelse.</req>
+        <req>• Åsamka minst 2 000 träffpoäng skada på fiendevagnar på ett avstånd av minst 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Förstör 3 fiendevagnar som är i rörelse.</req>
+        <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
     <PM name="PvKv-7: Första träffen" short="T-55A: PvKv-7" desc="Låt inte fienden komma för nära: ditt pansar är inte helt effektivt mot fientlig eld." tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
@@ -2936,16 +2963,16 @@
         <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-1: Prickskytten" short="T-55A: BHaub-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-1: Prickskytten" short="T-55A: Art-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Ha tålamod och vänta tills du har siktat färdigt innan du avfyrar din kanon.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Träffa och skada fiendevagnar minst 5 gånger.</req>
+        <req>• Träffa fiendevagnar med minst 5 skott som åsamkar skada.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-2: Gömd och farlig" short="T-55A: BHaub-2" desc="Bandhaubitser kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en bandhaubits måste du lära dig att hålla dig dold under hela striden." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-2: Gömd och farlig" short="T-55A: Art-2" desc="Artillerivagnar kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en artillerivagn måste du lära dig att hålla dig dold under hela striden." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Att utrusta vagnen med ett kamouflagenät och välja en lämplig kamouflagemålning ökar dina chanser att gömma dig för fienden avsevärt.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Var en av de 5 spelare i laget som åsamkat fienden mest skada. förbli oupptäckt under hela striden.</req>
@@ -2954,7 +2981,7 @@
         <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-3: Artillerianfall" short="T-55A: BHaub-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-3: Artillerianfall" short="T-55A: Art-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Följ stridens gång och understöd laget. Stå inte still för längre. Retirera eller byt eldställning om du behöver.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 3 000 träffpoäng skada.</req>
@@ -2963,7 +2990,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="Bhaub-4: Genombrott" short="T-55A: Bhaub-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-4: Genombrott" short="T-55A: Art-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Bara när granaten penetrerar fiendens pansar och expoderar inne i skrovet kan en spränggranat visa vad den går för. Om dina granater har dålig penetration, försök hitta en vagn med öppet stridsutrymme eller ladda premiumgranater.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Skada eller förstör en fiendevagns interna moduler eller skada besättningsmedlemmar. Totalt 8 moduler/besättningsmedlemmar måste skadas.\n• Antalet skadade/förstörda moduler och skadade besättningsmedlemmar räknas samman.</req>
@@ -2972,7 +2999,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-5: Kalkylerad förstörelse" short="T-55A: BHaub-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-5: Kalkylerad förstörelse" short="T-55A: Art-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Försök åsamka skada på fienden vid varje tillfälle. Även om du missar med en spränggranat kan du göra skada genom explosion och splitter.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden 8 gånger mer skada än din totala mängd träffpoäng.\n• Skada åsamkad allierade räknas inte.</req>
@@ -2981,8 +3008,8 @@
         <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-6: Den fallande hammaren" short="T-55A: BHaub-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Bandhaubitser med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
+    <PM name="Art-6: Den fallande hammaren" short="T-55A: Art-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Artillerivagnar med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör 3 fiendevagnar som är en klass högre än din egen vagn.</req>
       </Primary>
@@ -2990,16 +3017,16 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-7: Fram med de stora kanonerna" short="T-55A: BHaub-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och bandhaubitser kan hjälpa er få övertaget på slagfältet.</Hint>
+    <PM name="Art-7: Fram med de stora kanonerna" short="T-55A: Art-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och artillerivagnar kan hjälpa er få övertaget på slagfältet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör 2 fientliga pansarvärnskanonvagnar och bandhaubitser.\n• Vinn striden.</req>
+        <req>• Förstör 2 fientliga pansarvärnskanonvagnar och artillerivagnar.\n• Vinn striden.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-8: Tung eld mot tunga mål!" short="T-55A: BHaub-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-8: Tung eld mot tunga mål!" short="T-55A: Art-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Tunga stridsvagnar är som regel långsammare än andra vagnar. Därför kan du ofta förutse stridsvagnens position när din granat slår ned. Det är viktigt för en artillerist att veta med vilken hastighet granaten rör sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fientliga tunga stridsvagnar minst 2 000 träffpoäng skada.</req>
@@ -3008,7 +3035,7 @@
         <req>• Förstör en fientlig tung stridsvagn.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-9: Framförhållning träffar" short="T-55A: BHaub-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-9: Framförhållning träffar" short="T-55A: Art-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Granatens hastighet är väldigt viktig. Om du vet när granaten beräknas nå målet kan du räkna ut hur lång framförhållning du bör ha.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Skada en fiendevagn som rör sig i över 30 km/h.\n• Både träffar som gör explosionsskada och direktträffar räknas.\n• Skada åsamkad av rammning räknas inte.</req>
@@ -3017,16 +3044,16 @@
         <req>• Överlev striden.\n• Vinn striden.\n• Förbli oupptäckt under hela striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-10: Artilleriets bane" short="T-55A: BHaub-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Ju oftare du kör en bandhaubits desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
+    <PM name="Art-10: Artilleriets bane" short="T-55A: Art-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+      <Hint>Ju oftare du kör en artillerivagn desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör en fientlig bandhaubits som inte upptäckts.</req>
+        <req>• Förstör minst 1 fientlig artillerivagn.\n• Åsamka fiendevagnar minst 2 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fienden minst 3 000 träffpoäng skada.</req>
+        <req>• Förstör minst 4 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-11: Områdeseffekt" short="T-55A: BHaub-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-11: Områdeseffekt" short="T-55A: Art-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Du kan bokstavligt talat slå två flugor i en smäll om flera fiender står samlade på en punkt. Detta är vanligt på stadskartor.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör en fiendevagn och skada 1 fiendevagnar till med ett enda skott.</req>
@@ -3035,7 +3062,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-12: Storsläggan" short="T-55A: BHaub-12" desc="Hur du spelar en bandhaubits skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-12: Storsläggan" short="T-55A: Art-12" desc="Hur du spelar en artillerivagn skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Gå inte in i artilleriläget direkt när striden börjar. Välj först ut en bra eldställning.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Var den spelare i laget som åsamkat fienden mest skada.\n• Förstör minst 3 fiendevagnar.</req>
@@ -3044,26 +3071,26 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-13: Batterield (personlig/pluton)" short="T-55A: BHaub-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-13: Batterield (personlig/pluton)" short="T-55A: Art-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Genom att sprida ut er kan din pluton bekämpa mål från olika vinklar, vilket gör klippor och hus värdelösa som skydd och låter er dominera slagfältet.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Stå för minst 25% av den totala skadan som laget åsamkar fienden, antingen själv eller totalt inom plutonen.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Stå för minst 25% av den totala skadan som laget åsamkar fienden, antingen själv eller totalt inom plutonen.\n• Vinn striden.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-14: Förenad offensiv (personlig/pluton)" short="T-55A: BHaub-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+    <PM name="Art-14: Förenad offensiv (personlig/pluton)" short="T-55A: Art-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>En lätt stridsvagn kan upptäcka en fiendevagn och immobilisera den. Artilleriet gör processen kort med ett stillastående mål. Tilsammans går vi mot seger. En tung stridsvagn ger dig skydd med sitt tjocka pansar, de medeltunga stridsvagnarna distraherar fienden och pansarvärnskanonvagnarna ger understöd från långt håll.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka fientliga tunga stridsvagnar 4 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Åsamka fientliga tunga stridsvagnar 4 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-15: Krigsgudar" short="T-55A: BHaub-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
-      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb bandhaubits kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
+    <PM name="Art-15: Krigsgudar" short="T-55A: Art-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
+      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb artillerivagn kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
         <req>• Var den spelare i laget som tjänat mest erfarenhet och åsamkat fienden mest skada.\n• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Primary>
@@ -3126,16 +3153,16 @@
       </Secondary>
     </PM>
     <PM name="L.Strv-7: Artillerijägare" short="Objekt 260: L.Strv-7" desc="Fiendens artilleri är ett prioriterat mål för lätta stridsvagnar. Om du förstör artilleriet kommer du avsevärt öka lagets chans till seger." tMID="232" opID="4" mID="7" setID="1" ID="quest_4_1_7_main" secID="quest_4_1_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga bandhaubitser, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
+      <Hint>Det är inte lätt att komma nära fiendens artilleri. Vänta tills fienden har stridskontakt med dina lagkamrater och rör dig då snabbt in i fiendens bas (artilleriet gömmer sig ofta där). När du upptäcker fientliga artillerivagnar, försök då hålla dig utanför deras sikte och använd din rörlighet för att flanka och förstöra dem från sidan eller bakifrån.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Upptäck minst 3 fientliga bandhaubitser och skada eller kritiskt skada dem.\n• Förstör 1 bandhaubits, 1 klass över din egen vagn.</req>
+        <req>• Upptäck minst 3 fientliga artillerivagnar och skada eller kritiskt skada dem.\n• Förstör 1 artillerivagn, 1 klass över din egen vagn.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Överlev striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-8: Ut ur basen!" short="Objekt 260: L.Strv-8" desc="I stridens hetta är det lätt att glömma att försvara din egen, eller en neutral bas. Ett sånt misstag kan låta fienden få övertaget och erövra sitt mål väldigt snabbt. Kom ihåg att om din vagn har tillräcklig manöverförmåga för att kunna bryta kontakten med fiende så kan du retirera tillbaka till basen för att försvara den. Ett välriktat skott eller en ramming kan rädda laget från en snabb förlust." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att undvika fiendens eld.</Hint>
+      <Hint>Om du inte är helt säker på att dina pansarprojektiler kan penetrera inkräktarens pansar bör du använda spränggranater istället. Spränggranaterna har högre chans att skada fienden. Kom ihåg att du bara behöver göra 1 träffpoäng skada för att nollställa baserövringen. När du försöker erövra fiendens bas är det viktigt att försöka undvika fiendens eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Erövra fiendebasen och tjäna minst 60 baserövringspoäng, eller nollställ erövringen av den egna basen/en neutral bas samtidigt som du tjänar minst 60 basförsvarspoäng.\n• Vinn striden.</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="L.Strv-10: Bästa resultat" short="Objekt 260: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var den spelare i striden som tjänar mest Erfarenhet.\n• Överlev striden.\n• Genomför striden utan att ta någon skada.</req>
+        <req>• Var den spelare i striden som tjänar mest Erfarenhet.\n• Överlev striden.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -3188,7 +3215,7 @@
         <req>• Du måste överleva striden.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="Objekt 260: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid som en pluton med bara artillerivagnar, ibland som en grupp lätta stridsvagn. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="L.Strv-14: På post (Personlig/Pluton)" short="Objekt 260: L.Strv-14" desc="En lätt stridsvagn som koordinerar en pluton kan vara en katastrof för fiendelaget. Leta efter vagnar som passar din plutons spelstil: ibland  är det bättre att gå i strid tillsammans artillerivagnar, ibland med ett par lätta stridsvagnar. Var inte rädd för att experimentera med olika kombinationer. Detta uppdrag kan du slutföra antingen som del av en pluton eller på egen hand, även om det blir mycket svårare så." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Ju mer erfarna spelare som är med i laget, desto effektivare blir ni. Öka chanserna för seger genom att delta i laget som en pluton. Du kan även spela själv, om du är säker på din förmåga och litar på att dina allierade inte kommer svika dig.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Observera fiendevagnar och låt dina allierade åsamka 6 000 träffpoäng skada på vagnar du observerar, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din lätta stridsvagn och vilka andra vagnar som helst.</req>
@@ -3263,7 +3290,7 @@
     <PM name="T.Strv-7: Jag klarar det" short="Objekt 260: T.Strv-7" desc="Genombrottstaktik är perfekt för tunga stridsvagnar. Slå igenom fiendens försvarslinje och erövra basen. Underskatta dock inte din fiende då de kan tänkas använda samma taktik." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Erövra fiendebasen och tjäna minst 50 baserövringspoäng, eller nollställ erövringen av den egna basen/en neutral bas samtidigt som du tjänar minst 50 basförsvarspoäng.\n• Vinn striden.\n• Åsamka fienden minst 4 000 träffpoäng skada.</req>
+        <req>• Delta i erövrandet av en fiendebas eller nollställ erövringen av din egen eller en neutral bas.\n• Vinn striden.\n• Åsamka fiendevagnar minst 4 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Förstör minst 4 fiendevagnar.</req>
@@ -3353,7 +3380,7 @@
     <PM name="M.Strv-2: Bra träff!" short="Objekt 260: M.Strv-2" desc="Varje träff för ditt lag ett steg närmare seger. Det är dock inte så lätt att få en bra träff på en fiendevagn." tMID="257" opID="4" mID="2" setID="3" ID="quest_4_3_2_main" secID="quest_4_3_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Penetrationsmarkören på siktet visar hur stor chans du har att slå igenom fiendens pansar på ett visst ställe. En röd marker indikerar en låg chans att penetrera, grön indikerar en hög chans att penetrera. Försök sikta på fiendens sidor eller bakpansar. Försök hitta svaga punkter.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Skjut minst 15 skott som skadar fiendevagnar.</req>
+        <req>• Träffa fiendevagnar med minst 15 skott som åsamkar skada.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Förstör minst 5 fiendevagnar.</req>
@@ -3398,10 +3425,10 @@
     <PM name="M.Strv-7: En överraskningsattack" short="Objekt 260: M.Strv-7" desc="Fiendens artilleri är prioriterade mål för dig. Genom att eliminera dem kan du föra ditt lag ett steg närmare seger." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Artillerield åsamkar ditt lag stor skada. När du brutit igenom på en flank, skynda dig till fiendens basområde och eliminera hotet från artilleriet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör minst 2 fientliga bandhaubitser utan hjälp från dina allierade.</req>
+        <req>• Förstör minst 3 fientliga artillerivagnar.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Överlev striden.\n• Vinn striden.\n• Banhaubitser måste vara av högre klass än din egen vagn.</req>
+        <req>• Överlev striden.\n• Vinn striden.\n• Artillerivagnar måste vara av högre klass än din egen vagn.</req>
       </Secondary>
     </PM>
     <PM name="M.Strv-8 Konfrontation" short="Objekt 260: M.Strv-8 Konfrontation" desc="För att vara effektiv i en medeltung stridsvagn måste man dra full nytta av rörligheten och eldkraften man har till sitt förfogande." tMID="263" opID="4" mID="8" setID="3" ID="quest_4_3_8_main" secID="quest_4_3_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
@@ -3443,10 +3470,10 @@
     <PM name="M.Strv-12: Brännaren" short="Objekt 260: M.Strv-12" desc="Att sätta en fiendevagn i brand är ett av de effektivaste sätten av förstöra den." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Granater som penetrerar och träffar motorn eller bränsletanken kan sätta fienden i brand. Studera ritningar över vagnar för att se var dessa viktiga moduler sitter.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sätt minst 2 fiendevagnar som är 1 klass högre än din egen vagn i brand, eller sätt en fiendevagn i brand två gånger.</req>
+        <req>• Sätt en fiendevagn, som är en eller fler klasser högre än din egen vagn, i brand.\n• Åsamka fiendevagnar minst 3 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Var bland de 3 spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var en av de 3 i laget som tjänar mest Erfarenhet.</req>
       </Secondary>
     </PM>
     <PM name="M.Strv-13: Aktiv handling (personlig/pluton)" short="Objekt 260: M.Strv-13" desc="En pluton medeltunga stridsvagnar kan vara stor hjälp för laget över hela slagfältet. Detta uppdrag kan slutföras antingen tillsammans med en pluton eller själv, det senare är dock mycket svårare." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
@@ -3479,7 +3506,7 @@
     <PM name="PvKv-1: Effektivitet" short="Objekt 260: PvKv-1" desc="Pansarvärnskanonvagnar är ett bra val för de spelare som tycker om att förstöra fiendevagnar på långt håll." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Pansarvärnskanonvagnar har seriös eldkraft, men jämförbart dåliga överlevnadschanser. Prova att bekämpa fienden på avstånd—din träffsäkerhet gör det till en fördelaktig taktik.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Var den spelare i laget som tjänat mest erfarenhet.</req>
+        <req>• Var den spelare i laget som tjänat mest Erfarenhet.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.\n• Överlev striden.</req>
@@ -3521,13 +3548,13 @@
         <req>• Åsamka fienden minst 4 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="PvKv-6: Noggranna kalkyler" short="Objekt 260: PvKv-6" desc="Det är väldigt svårt att träffa ett rörligt mål, men ändå svårare när målet är i rörelse." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Använd prickskyttesiktet och tänk på framförhållningen innan du skjuter. Det automatiska siktet är värdelöst i många lägen när du skjuter på långt håller eller rörliga mål.</Hint>
+    <PM name="PvKv-6: Här kommer de inte förbi!" short="Objekt 260: PvKv-6" desc="Försök hålla fienden på så långt avstånd som möjligt. Förstör dem innan de kommer för nära, eftersom du kommer ha mycket svårare att värja dig i närstrid." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+      <Hint>Se till att du har skyl bakom buskar eller fallna träd innan du börjar avfyrar din kanon. Om din vagn är 15 m eller mer bakom en buske eller ett nedfallet träf har du en bättre chans att förbli dold efter du avfyrat kanonen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka minst 3 000 träffpoäng skada på fiendevagnar på ett avstånd av minst 250m.\n• Fiendevagnarna måste vara i rörelse.</req>
+        <req>• Åsamka minst 3 000 träffpoäng skada på fiendevagnar på ett avstånd av minst 250m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Förstör 4 fiendevagnar som är i rörelse.</req>
+        <req>• Förstör minst 4 fiendevagnar.</req>
       </Secondary>
     </PM>
     <PM name="PvKv-7: Första träffen" short="Objekt 260: PvKv-7" desc="Låt inte fienden komma för nära: ditt pansar är inte helt effektivt mot fientlig eld." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
@@ -3611,16 +3638,16 @@
         <req>• Förstör minst 5 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-1: Prickskytten" short="Objekt 260: BHaub-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-1: Prickskytten" short="Objekt 260: Art-1" desc="Slösa inte med ammunition. Det är bara granater som träffar som för dig närmare seger." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Ha tålamod och vänta tills du har siktat färdigt innan du avfyrar din kanon.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Träffa och skada fiendevagnar minst 6 gånger.</req>
+        <req>• Träffa fiendevagnar med minst 6 skott som åsamkar skada.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 4 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-2: Gömd och farlig" short="Objekt 260: BHaub-2" desc="Bandhaubitser kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en bandhaubits måste du lära dig att hålla dig dold under hela striden." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-2: Gömd och farlig" short="Objekt 260: Art-2" desc="Artillerivagnar kan inte lita på sin snabbhet eller sitt pansar för att överleva i strid.Om du kör en artillerivagn måste du lära dig att hålla dig dold under hela striden." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Att utrusta vagnen med ett kamouflagenät och välja en lämplig kamouflagemålning ökar dina chanser att gömma dig för fienden avsevärt.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Var en av de tre spelare i laget som åsamkat fienden mest skada. Du får inte bli upptäckt under hela striden.</req>
@@ -3629,7 +3656,7 @@
         <req>• Förstör minst 3 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-3: Artillerianfall" short="Objekt 260: BHaub-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-3: Artillerianfall" short="Objekt 260: Art-3" desc="Om du vill vara en tillgång till laget måste du lära sig skjuta effektivt." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Följ stridens gång och understöd laget. Stå inte still för längre. Retirera eller byt eldställning om du behöver.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Åsamka fiendevagnar minst 4 000 träffpoäng skada.</req>
@@ -3638,7 +3665,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="Bhaub-4: Genombrott" short="Objekt 260: Bhaub-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-4: Genombrott" short="Objekt 260: Art-4" desc="Kraftfulla spränggranater skadar inte bara fienden utan har även en chans att förstöra moduler och skada besättningsmedlemmar med explosionsskada." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Bara när granaten penetrerar fiendens pansar och expoderar inne i skrovet kan en spränggranat visa vad den går för. Om dina granater har dålig penetration, försök hitta en vagn med öppet stridsutrymme eller ladda premiumgranater.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
         <req>• Skada eller förstör en fiendevagns interna moduler eller skada besättningsmedlemmar. Totalt 10 moduler/besättningsmedlemmar måste skadas.\n• Antalet skadade/förstörda moduler och skadade besättningsmedlemmar räknas samman.</req>
@@ -3647,7 +3674,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-5: Kalkylerad förstörelse" short="Objekt 260: BHaub-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-5: Kalkylerad förstörelse" short="Objekt 260: Art-5" desc="Din tunga eldkraft konmpenserar väl för din låga hållbarhet." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Försök åsamka skada på fienden vid varje tillfälle. Även om du missar med en spränggranat kan du göra skada genom explosion och splitter.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden 10 gånger mer skada än din egen totala träffpoäng\n• Skada åsamkad allierade vagnar räknas inte.</req>
@@ -3656,8 +3683,8 @@
         <req>• Förstör minst 4 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-6: Den fallande hammaren" short="Objekt 260: BHaub-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Bandhaubitser med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
+    <PM name="Art-6: Den fallande hammaren" short="Objekt 260: Art-6" desc="Ofta kommer du strida mot fiender i en högre klass, men det är inget problem för en erfaren artillerist." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+      <Hint>Om du inte kan slå igenom en fiendes pansar med standardgranater, prova med premiumgranater. Skjut i sidan eller bakifrån. Artillerivagnar med sin fallande eld kan effektivt träffa fienden på ovansidan av tornet, där pansaret är tunnt. Fiendevagnar med öppna torn är ännu sårbarare för indirekt eld.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör 2 fiendevagnar som är 2 klasser högre än din vagn.</req>
       </Primary>
@@ -3665,16 +3692,16 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-7: Fram med de stora kanonerna" short="Objekt 260: BHaub-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och bandhaubitser kan hjälpa er få övertaget på slagfältet.</Hint>
+    <PM name="Art-7: Fram med de stora kanonerna" short="Objekt 260: Art-7" desc="Du bör förstöra fientliga pansarvärnskanonvagnar och artillerivagnar vid första tillfälle. Om du bekämpar fiendens prickskyttar kan du vända striden till din fördel." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+      <Hint>Koordinera din taktik med de lätta stridsvagnarna. Att upptäcka och förstöra fientliga pansarvärnskanonvagnar och artillerivagnar kan hjälpa er få övertaget på slagfältet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör 3 fientliga pansarvärnskanonvagnar och bandhaubitser.\n• Vinn striden.</req>
+        <req>• Förstör 3 fientliga pansarvärnskanonvagnar och artillerivagnar.\n• Vinn striden.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Åsamka fienden minst 4 000 träffpoäng skada.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-8: Tung eld mot tunga mål!" short="Objekt 260: BHaub-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-8: Tung eld mot tunga mål!" short="Objekt 260: Art-8" desc="En tung stridsvagn är en hård nöt att knäcka, men inte för din kanon. Granater med indirekt skottbana kan träffa fienden uppe på tornet där pansaret är som tunnast." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Tunga stridsvagnar är som regel långsammare än andra vagnar. Därför kan du ofta förutse stridsvagnens position när din granat slår ned. Det är viktigt för en artillerist att veta med vilken hastighet granaten rör sig.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Åsamka fientliga tunga stridsvagnar 3 000 träffpoäng skada.</req>
@@ -3683,7 +3710,7 @@
         <req>• Förstör 2 fientliga tunga stridsvagnar.\n• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-9: Framförhållning träffar" short="Objekt 260: BHaub-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-9: Framförhållning träffar" short="Objekt 260: Art-9" desc="En erfaren artillerist kan lätt träffa rörliga mål. Öva på att förutse fiendens rörelser under beskjutning. Kom ihåg att direktträffar gör mycket mer skada en en nära explosion." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Granatens hastighet är väldigt viktig. Om du vet när granaten beräknas nå målet kan du räkna ut hur lång framförhållning du bör ha.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Träffa fiendevagnar minst 4 gånger.\n• Alla direkta träffar, oavsett om de gör skada eller ej, räknas.</req>
@@ -3692,16 +3719,16 @@
         <req>• Överlev striden.\n• Vinn striden.\n• Förbli oupptäckt under hela striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-10: Artilleriets bane" short="Objekt 260: BHaub-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Ju oftare du kör en bandhaubits desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
+    <PM name="Art-10: Artilleriets bane" short="Objekt 260: Art-10" desc="Artillerijakt är en bra idé. Försök förutse var fiendens artillerivagnar gömmer sig och kontrollera om du har rätt med en välriktad granat." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+      <Hint>Ju oftare du kör en artillerivagn desto fler strategiska positioner kommer du lära dig. Detta hjälper dig när du jagar fiendens artilleri då du redan vet var de kommer ta eldställning.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Förstör 2 fientliga bandhaubitser som inte upptäckts.</req>
+        <req>• Förstör 2 fientliga artillerivagnar.\n• Åsamka fiendevagnar minst 4 000 träffpoäng skada.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Åsamka fienden minst 4 000 träffpoäng skada.</req>
+        <req>• Förstör minst 5 fiendevagnar.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-11: Områdeseffekt" short="Objekt 260: BHaub-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-11: Områdeseffekt" short="Objekt 260: Art-11" desc="Dina spränggranater kan inte bara slå ut en fiendevagn med en enda träff, de kan även åsamka betydande skada på flera mål om de står nära varandra." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Du kan bokstavligt talat slå två flugor i en smäll om flera fiender står samlade på en punkt. Detta är vanligt på stadskartor.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Förstör 2 fiendevagnar med ett enda skott.</req>
@@ -3710,7 +3737,7 @@
         <req>• Vinn striden.\n• Överlev striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-12: Storsläggan" short="Objekt 260: BHaub-12" desc="Hur du spelar en bandhaubits skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-12: Storsläggan" short="Objekt 260: Art-12" desc="Hur du spelar en artillerivagn skiljer sig från alla andra vagnstyper. Huvudmålet är dock detsamma—gör ditt bästa i striden och bidra till lagets slutmål så mycket du kan." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Gå inte in i artilleriläget direkt när striden börjar. Välj först ut en bra eldställning.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Var den spelare i båda lagen som åsamkat fienden mest skada.\n• Förstör minst 4 fiendevagnar.\n• Överlev striden.</req>
@@ -3719,7 +3746,7 @@
         <req>• Vinn striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-13: Batterield (personlig/pluton)" short="Objekt 260: BHaub-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-13: Batterield (personlig/pluton)" short="Objekt 260: Art-13" desc="En pluton med välkoordinerade artillerivagnar bör sätta skräck i fienden. Koordinera er eldgivning och koncentrera elden på ett mål i taget. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Genom att sprida ut er kan din pluton bekämpa mål från olika vinklar, vilket gör klippor och hus värdelösa som skydd och låter er dominera slagfältet.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Du själv eller din pluton måste stå för minst 30% av den totala skadan laget åsamkat fienden.\n• Vinn striden.\n• Uppdraget kan slutföras antingen själv eller som del i en pluton bestående av din pansarvärnskanonvagn och vilka andra vagnar som helst.</req>
@@ -3728,17 +3755,17 @@
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-14: Förenad offensiv (personlig/pluton)" short="Objekt 260: BHaub-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+    <PM name="Art-14: Förenad offensiv (personlig/pluton)" short="Objekt 260: Art-14" desc="Artilleriet är beroende av resten av laget för att vara framgångsrikt. Artilleri och lätta stridsvagnar komplementerar varandra speciellt bra i en pluton. Detta uppdrag kan antingen slutföras tillsammans med en pluton eller på egen hand, dock är det senare mycket svårare." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En lätt stridsvagn kan upptäcka en fiendevagn och immobilisera den. Artilleriet gör processen kort med ett stillastående mål. Tilsammans går vi mot seger. En tung stridsvagn ger dig skydd med sitt tjocka pansar, de medeltunga stridsvagnarna distraherar fienden och pansarvärnskanonvagnarna ger understöd från långt håll.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Åsamka fiendetliga tunga stridsvagnar och pansarvärnskanonvagnarminst 5 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din bandhaubits och vilka andra vagnar som helst.</req>
+        <req>• Åsamka fientliga tunga stridsvagnar och pansarvärnskanonvagnar minst 5 000 träffpoäng skada, antingen själv eller totalt inom plutonen.\n• Detta uppdrag kan genomföras antingen själv eller som en del av en pluton bestående av din artillerivagn och vilka andra vagnar som helst.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Du måste överleva striden.</req>
       </Secondary>
     </PM>
-    <PM name="BHaub-15: Krigsgudar" short="Objekt 260: BHaub-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
-      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb bandhaubits kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
+    <PM name="Art-15: Krigsgudar" short="Objekt 260: Art-15" desc="Det är bättre för laget om artilleriet överlever. Försök att inte blotta dig för fiendens eld och se till att dina skott är välriktade." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
+      <Hint>Om du kan din vagns tekniska data kan du planera bättre i strid. Ibland är det en dålig idé att hålla dig i basen. Om du kör en snabb artillerivagn kan du snabbt byta eldställning och beskjuta fienden från oväntade håll.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
         <req>• Var den spelare i båda lag som tjänat mest erfarenhet och åsamkat fienden mest skada.\n• Åsamka fienden minst 3 000 träffpoäng skada.</req>
       </Primary>

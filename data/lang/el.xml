@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
+    <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -45,6 +48,8 @@
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
     <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G05_StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
+    <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
-    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G25_PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G27_VK3001P" sName="VK 30.01 P" lName="VK 30.01 (P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="Pz. V BP A" lName="Pz.Kpfw. V Berge-Panther Alpha" />
+    <tank ID="G32_PzV_PzIV_CN" sName="Pz. V BP" lName="Pz.Kpfw. V Berge-Panther" />
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J09_Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
+    <tank ID="J12_Chi_Nu_Kai" sName="Chi-Nu Kai" lName="Type 3 Chi-Nu Kai" />
     <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" sName="IS 8-Ball" lName="IS 8-Ball" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="Obj. 430 II" lName="Object 430 Version II" />
     <tank ID="R105_BT_7A" sName="BT-7 art." lName="BT-7 artillery" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Object 268 Version V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212A" lName="212A" />
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="Icebound" />
     <item ID="112_eiffel_tower" Name="Ravaged Capital" />
     <item ID="114_czech" Name="Pilsen" />
-    <item ID="119_moon_pool" Name="Crater" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfried Line" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
@@ -860,6 +886,7 @@
     <item ID="3" Name="Συνετρίβη" />
     <item ID="4" Name="Καταστράφηκε από μία ζώνη καταστροφής" />
     <item ID="5" Name="Το όχημα πνίγηκε" />
+    <item ID="7" Name="Εσκεμμένη αυτοκαταστροφή" />
     <item ID="unknown" Name="Άγνωστο" />
   </Lang_DeathReasons>
   <Lang_Crits>
@@ -1110,7 +1137,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="StuG IV: LT-8" desc="Πάνω στη μάχη, είναι εύκολο να ξεχάσετε την υπεράσπιση της βάσης σας ή της ουδέτερης βάσης. Κάτι τέτοιο θα επιτρέψει στον εχθρό να αποκτήσει πλεονέκτημα. Να θυμάστε ότι το άρμα σας έχει αρκετή ταχύτητα έτσι ώστε να οπισθοχωρήσει για να υπερασπιστεί τη βάση με εύστοχες βολές ή ακόμα και με εμβολισμό, σώζοντας την ομάδα σας από μία βέβαιη ήττα." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
+      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς ή 1 χαλασμένο εξάρτημα να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="LT-10: The Maximum Result" short="StuG IV: LT-10" desc="Όσο μεγαλύτερη η αποτελεσματικότητά σας στη μάχη, τόσο περισσότερα τα κερδισμένα ΧΡ. Δείξτε τους τι μπορεί να κάνει ένα ελαφρύ άρμα μάχης." tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
       <Hint>Ένας καλός ανιχνευτής γνωρίζει πότε να είναι προσεκτικός και πότε να επιτίθεται. Να ενεργείτε σύμφωνα με τη ροή της μάχης.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience.</req>
+        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
@@ -1163,7 +1190,7 @@
         <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.\n• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="StuG IV: LT-14" desc="Ένα ελαφρύ άρμα μάχης, όταν συντονίζει τις ενέργειες του Ουλαμού, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να λάβετε μέρος σε μάχη ως Ουλαμός Πυροβολικών και άλλες φορές μαζί με ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="StuG IV: LT-14" desc="Ένα ελαφρύ άρμα μάχης σε έναν καλά συντονισμένο Ουλαμό, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να σχηματίσετε Ουλαμό με Πυροβολικά και άλλες φορές με άλλα ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
       <Hint>Όσο πιο έμπειρους παίκτες έχει η ομάδα σας, τόσο πιο αποτελεσματική θα είναι. Η συμμετοχή στη μάχη ως μέλος Ουλαμού αυξάνει ακόμα περισσότερο την αποτελεσματικότητα της ομάδας. Εναλλακτικά, μπορείτε να παίζετε μόνος σας, εάν θεωρείτε ότι έχετε αρκετή επιδεξιότητα και ότι δεν θα σας απογοητεύσουν οι συμπαίκτες σας.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Να προκληθεί φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά οχήματα ή από δικό σας εντοπισμό αντιπάλων ή συνολικά από εντοπισμό αντιπάλων όλων των μελών του Ουλαμού.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας ελαφρύ άρμα και οποιοδήποτε άλλο όχημα.</req>
@@ -1238,7 +1265,7 @@
     <PM name="HT-7: I Have Got It Covered" short="StuG IV: HT-7" desc="Η τακτική των προσπελάσεων είναι σημαντική για τα βαρέα άρματα. Διασπάστε την άμυνα του εχθρού και καταλάβετε τη βάση του. Ωστόσο μην υποτιμάτε τον εχθρό. Μπορεί να κάνει και αυτός το ίδιο." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
       <Hint>Να είστε προσεκτικοί όταν πλησιάζετε στην εχθρική βάση. Να είστε έτοιμοι να αντιμετωπίσετε τους υπερασπιστές της βάσης και τα πυκνά πυρά τους. Εάν προτιμάτε να αμύνεστε, χρησιμοποιήστε τα στοιχεία του χάρτη, καλυφθείτε και υπερασπιστείτε την δική σας βάση (ή την ουδέτερη σε Μάχες Διεκδίκησης) από τον επιτιθέμενο αντίπαλο.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 1.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Να έχετε συμμετοχή σε επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 1.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε 1 εχθρικό όχημα.</req>
@@ -1496,13 +1523,13 @@
         <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="StuG IV: TD-6" desc="Δεν είναι εύκολο να πετύχετε κινούμενο στόχο. Είναι ακόμα δυσκολότερο σε μεγάλη απόσταση." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Χρησιμοποιήστε την Στόχευση σε Μακρινή Απόσταση και δώστε στη βολή σας προβάδισμα έναντι του στόχου. Η Αυτόματη Στόχευση είναι τις πιο πολλές φορές αναποτελεσματική σε κινούμενο στόχο.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="StuG IV: TD-6" desc="Προσπαθήστε να κρατήσετε τα εχθρικά οχήματα όσο πιο μακριά μπορείτε. Καταστρέψτε τα ενώ πλησιάζουν, καθώς θα είναι δύσκολο να τα αντιμετωπίσετε σε κοντινή απόσταση." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>Σιγουρευτείτε ότι το όχημά σας είναι πίσω από θάμνους ή πεσμένα δέντρα πριν πυροβολήσετε. Εάν το όχημά σας είναι 15 μέτρα πίσω από θάμνο ή πεσμένο δέντρο αυξάνεται η πιθανότητα να μην αποκαλυφθεί με τη ρίψη πυρών.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά σε εχθρικό όχημα από απόσταση μεγαλύτερη των 250 μέτρων.\n• Το εχθρικό όχημα θα πρέπει να είναι σε κίνηση.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικό όχημα από απόσταση μεγαλύτερη των 250 μέτρων.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 κινούμενο εχθρικό όχημα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 1 εχθρικό όχημα.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="StuG IV: TD-7" desc="Μην αφήνετε τον εχθρό να σας πλησιάσει. Η θωράκιση του οχήματός σας δεν είναι πολύ αποτελεσματική στα εχθρικά πυρά." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
@@ -1673,7 +1700,7 @@
         <req>• Καταστρέψτε τουλάχιστον 1 εχθρικό Α/Κ Πυροβόλο.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP.</req>
+        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
@@ -1785,7 +1812,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="T28 heavy tank concept: LT-8" desc="Πάνω στη μάχη, είναι εύκολο να ξεχάσετε την υπεράσπιση της βάσης σας ή της ουδέτερης βάσης. Κάτι τέτοιο θα επιτρέψει στον εχθρό να αποκτήσει πλεονέκτημα. Να θυμάστε ότι το άρμα σας έχει αρκετή ταχύτητα έτσι ώστε να οπισθοχωρήσει για να υπερασπιστεί τη βάση με εύστοχες βολές ή ακόμα και με εμβολισμό, σώζοντας την ομάδα σας από μία βέβαιη ήττα." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
+      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς ή 1 χαλασμένο εξάρτημα να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης με τουλάχιστον 20 πόντους ή να κερδίσετε τουλάχιστον 20 πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="LT-10: The Maximum Result" short="T28 heavy tank concept: LT-10" desc="Όσο μεγαλύτερη η αποτελεσματικότητά σας στη μάχη, τόσο περισσότερα τα κερδισμένα ΧΡ. Δείξτε τους τι μπορεί να κάνει ένα ελαφρύ άρμα μάχης." tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
       <Hint>Ένας καλός ανιχνευτής γνωρίζει πότε να είναι προσεκτικός και πότε να επιτίθεται. Να ενεργείτε σύμφωνα με τη ροή της μάχης.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience.\n• Επιβιώστε της μάχης.</req>
+        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
@@ -1838,7 +1865,7 @@
         <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.\n• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="T28 heavy tank concept: LT-14" desc="Ένα ελαφρύ άρμα μάχης, όταν συντονίζει τις ενέργειες του Ουλαμού, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να λάβετε μέρος σε μάχη ως Ουλαμός Πυροβολικών και άλλες φορές μαζί με ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="T28 heavy tank concept: LT-14" desc="Ένα ελαφρύ άρμα μάχης σε έναν καλά συντονισμένο Ουλαμό, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να σχηματίσετε Ουλαμό με Πυροβολικά και άλλες φορές με άλλα ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
       <Hint>Όσο πιο έμπειρους παίκτες έχει η ομάδα σας, τόσο πιο αποτελεσματική θα είναι. Η συμμετοχή στη μάχη ως μέλος Ουλαμού αυξάνει ακόμα περισσότερο την αποτελεσματικότητα της ομάδας. Εναλλακτικά, μπορείτε να παίζετε μόνος σας, εάν θεωρείτε ότι έχετε αρκετή επιδεξιότητα και ότι δεν θα σας απογοητεύσουν οι συμπαίκτες σας.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Να προκληθεί φθορά τουλάχιστον 3.000 ΗΡ σε εχθρικά οχήματα ή από δικό σας εντοπισμό αντιπάλων ή συνολικά από εντοπισμό αντιπάλων όλων των μελών του Ουλαμού.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας ελαφρύ άρμα και οποιοδήποτε άλλο όχημα.</req>
@@ -1913,7 +1940,7 @@
     <PM name="HT-7: I Have Got It Covered" short="T28 heavy tank concept: HT-7" desc="Η τακτική των προσπελάσεων είναι σημαντική για τα βαρέα άρματα. Διασπάστε την άμυνα του εχθρού και καταλάβετε τη βάση του. Ωστόσο μην υποτιμάτε τον εχθρό. Μπορεί να κάνει και αυτός το ίδιο." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
       <Hint>Να είστε προσεκτικοί όταν πλησιάζετε στην εχθρική βάση. Να είστε έτοιμοι να αντιμετωπίσετε τους υπερασπιστές της βάσης και τα πυκνά πυρά τους. Εάν προτιμάτε να αμύνεστε, χρησιμοποιήστε τα στοιχεία του χάρτη, καλυφθείτε και υπερασπιστείτε την δική σας βάση (ή την ουδέτερη σε Μάχες Διεκδίκησης) από τον επιτιθέμενο αντίπαλο.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 2.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Να έχετε συμμετοχή σε επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 2.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
@@ -2093,7 +2120,7 @@
     <PM name="MT-12: The Incinerator" short="T28 heavy tank concept: MT-12" desc="Προκαλώντας φωτιά σε ένα εχθρικό όχημα είναι ένας από τους πιο αποτελεσματικούς τρόπους να το καταστρέψετε." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
       <Hint>Χτυπήστε τον κινητήρα ή τις δεξαμενές καυσίμων ενός εχθρικού οχήματος για να του βάλετε φωτιά. Μελετήστε προσεκτικά την διαρρύθμιση των οχημάτων για να γνωρίζετε που βρίσκεται το κάθε εξάρτημα.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φωτιά σε 1 εχθρικό όχημα που είναι κατά 1 βαθμίδα μεγαλύτερο από το όχημά σας.</req>
+        <req>• Προκαλέστε φωτιά σε 1 εχθρικό όχημα\n• Προκαλέστε φθορά τουλάχιστον 2.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
@@ -2171,13 +2198,13 @@
         <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="T28 heavy tank concept: TD-6" desc="Δεν είναι εύκολο να πετύχετε κινούμενο στόχο. Είναι ακόμα δυσκολότερο σε μεγάλη απόσταση." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Χρησιμοποιήστε την Στόχευση σε Μακρινή Απόσταση και δώστε στη βολή σας προβάδισμα έναντι του στόχου. Η Αυτόματη Στόχευση είναι τις πιο πολλές φορές αναποτελεσματική σε κινούμενο στόχο.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="T28 heavy tank concept: TD-6" desc="Προσπαθήστε να κρατήσετε τα εχθρικά οχήματα όσο πιο μακριά μπορείτε. Καταστρέψτε τα ενώ πλησιάζουν, καθώς θα είναι δύσκολο να τα αντιμετωπίσετε σε κοντινή απόσταση." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>Σιγουρευτείτε ότι το όχημά σας είναι πίσω από θάμνους ή πεσμένα δέντρα πριν πυροβολήσετε. Εάν το όχημά σας είναι 15 μέτρα πίσω από θάμνο ή πεσμένο δέντρο αυξάνεται η πιθανότητα να μην αποκαλυφθεί με τη ρίψη πυρών.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.\n• Το εχθρικά οχήματα θα πρέπει να είναι σε κίνηση.</req>
+        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 κινούμενα εχθρικά οχήματα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="T28 heavy tank concept: TD-7" desc="Μην αφήνετε τον εχθρό να σας πλησιάσει. Η θωράκιση του οχήματός σας δεν είναι πολύ αποτελεσματική στα εχθρικά πυρά." tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
@@ -2348,7 +2375,7 @@
         <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
+        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="T28 heavy tank concept: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
@@ -2460,7 +2487,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="T 55A: LT-8" desc="Πάνω στη μάχη, είναι εύκολο να ξεχάσετε την υπεράσπιση της βάσης σας ή της ουδέτερης βάσης. Κάτι τέτοιο θα επιτρέψει στον εχθρό να αποκτήσει πλεονέκτημα. Να θυμάστε ότι το άρμα σας έχει αρκετή ταχύτητα έτσι ώστε να οπισθοχωρήσει για να υπερασπιστεί τη βάση με εύστοχες βολές ή ακόμα και με εμβολισμό, σώζοντας την ομάδα σας από μία βέβαιη ήττα." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
+      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς ή 1 χαλασμένο εξάρτημα να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης με τουλάχιστον 40 πόντους ή να κερδίσετε τουλάχιστον 40 πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="LT-10: The Maximum Result" short="T 55A: LT-10" desc="Όσο μεγαλύτερη η αποτελεσματικότητά σας στη μάχη, τόσο περισσότερα τα κερδισμένα ΧΡ. Δείξτε τους τι μπορεί να κάνει ένα ελαφρύ άρμα μάχης." tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Ένας καλός ανιχνευτής γνωρίζει πότε να είναι προσεκτικός και πότε να επιτίθεται. Να ενεργείτε σύμφωνα με τη ροή της μάχης.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience.\n• Επιβιώστε της μάχης.</req>
+        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
@@ -2513,7 +2540,7 @@
         <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.\n• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="T 55A: LT-14" desc="Ένα ελαφρύ άρμα μάχης, όταν συντονίζει τις ενέργειες του Ουλαμού, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να λάβετε μέρος σε μάχη ως Ουλαμός Πυροβολικών και άλλες φορές μαζί με ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="T 55A: LT-14" desc="Ένα ελαφρύ άρμα μάχης σε έναν καλά συντονισμένο Ουλαμό, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να σχηματίσετε Ουλαμό με Πυροβολικά και άλλες φορές με άλλα ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Όσο πιο έμπειρους παίκτες έχει η ομάδα σας, τόσο πιο αποτελεσματική θα είναι. Η συμμετοχή στη μάχη ως μέλος Ουλαμού αυξάνει ακόμα περισσότερο την αποτελεσματικότητα της ομάδας. Εναλλακτικά, μπορείτε να παίζετε μόνος σας, εάν θεωρείτε ότι έχετε αρκετή επιδεξιότητα και ότι δεν θα σας απογοητεύσουν οι συμπαίκτες σας.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Να προκληθεί φθορά τουλάχιστον 5.000 ΗΡ σε εχθρικά οχήματα ή από δικό σας εντοπισμό αντιπάλων ή συνολικά από εντοπισμό αντιπάλων όλων των μελών του Ουλαμού.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας ελαφρύ άρμα και οποιοδήποτε άλλο όχημα.</req>
@@ -2588,7 +2615,7 @@
     <PM name="HT-7: I Have Got It Covered" short="T 55A: HT-7" desc="Η τακτική των προσπελάσεων είναι σημαντική για τα βαρέα άρματα. Διασπάστε την άμυνα του εχθρού και καταλάβετε τη βάση του. Ωστόσο μην υποτιμάτε τον εχθρό. Μπορεί να κάνει και αυτός το ίδιο." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Να είστε προσεκτικοί όταν πλησιάζετε στην εχθρική βάση. Να είστε έτοιμοι να αντιμετωπίσετε τους υπερασπιστές της βάσης και τα πυκνά πυρά τους. Εάν προτιμάτε να αμύνεστε, χρησιμοποιήστε τα στοιχεία του χάρτη, καλυφθείτε και υπερασπιστείτε την δική σας βάση (ή την ουδέτερη σε Μάχες Διεκδίκησης) από τον επιτιθέμενο αντίπαλο.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης με τουλάχιστον 30 πόντους ή να κερδίσετε τουλάχιστον 30 πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 3.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Να έχετε συμμετοχή σε επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 3.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
@@ -2723,7 +2750,7 @@
     <PM name="MT-7: A Surprise Blow" short="T 55A: MT-7" desc="Το εχθρικό πυροβολικό είναι πρωταρχικός στόχος για εσάς. Εξουδετερώνοντάς το, φέρνετε την ομάδας σας πιο κοντά στη νίκη." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Το πυροβολικό μπορεί να επιφέρει σημαντικά πλήγματα σε οχήματα της ομάδας σας. Διασπάστε τις γραμμές του εχθρού σε μία πλευρά και εφορμήστε στην εχθρική βάση για να εξουδετερώσετε το πυροβολικό του εχθρού.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά Α/Κ Πυροβόλα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 1 εχθρικό Α/Κ Πυροβόλο το οποίο εντοπίσατε εσείς.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.\n• Κερδίστε τη μάχη.</req>
@@ -2768,7 +2795,7 @@
     <PM name="MT-12: The Incinerator" short="T 55A: MT-12" desc="Προκαλώντας φωτιά σε ένα εχθρικό όχημα είναι ένας από τους πιο αποτελεσματικούς τρόπους να το καταστρέψετε." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Χτυπήστε τον κινητήρα ή τις δεξαμενές καυσίμων ενός εχθρικού οχήματος για να του βάλετε φωτιά. Μελετήστε προσεκτικά την διαρρύθμιση των οχημάτων για να γνωρίζετε που βρίσκεται το κάθε εξάρτημα.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φωτιά σε τουλάχιστον 2 εχθρικά οχήματα ή στο ίδιο εχθρικό όχημα 2 φορές.</req>
+        <req>• Προκαλέστε φωτιά σε 1 εχθρικό όχημα της ίδιας ή μεγαλύτερης βαθμίδας από το δικό σας.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
@@ -2846,13 +2873,13 @@
         <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="T 55A: TD-6" desc="Δεν είναι εύκολο να πετύχετε κινούμενο στόχο. Είναι ακόμα δυσκολότερο σε μεγάλη απόσταση." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Χρησιμοποιήστε την Στόχευση σε Μακρινή Απόσταση και δώστε στη βολή σας προβάδισμα έναντι του στόχου. Η Αυτόματη Στόχευση είναι τις πιο πολλές φορές αναποτελεσματική σε κινούμενο στόχο.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="T 55A: TD-6" desc="Προσπαθήστε να κρατήσετε τα εχθρικά οχήματα όσο πιο μακριά μπορείτε. Καταστρέψτε τα ενώ πλησιάζουν, καθώς θα είναι δύσκολο να τα αντιμετωπίσετε σε κοντινή απόσταση." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>Σιγουρευτείτε ότι το όχημά σας είναι πίσω από θάμνους ή πεσμένα δέντρα πριν πυροβολήσετε. Εάν το όχημά σας είναι 15 μέτρα πίσω από θάμνο ή πεσμένο δέντρο αυξάνεται η πιθανότητα να μην αποκαλυφθεί με τη ρίψη πυρών.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.\n• Τα εχθρικά οχήματα θα πρέπει να είναι σε κίνηση.</req>
+        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 κινούμενα εχθρικά οχήματα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="T 55A: TD-7" desc="Μην αφήνετε τον εχθρό να σας πλησιάσει. Η θωράκιση του οχήματός σας δεν είναι πολύ αποτελεσματική στα εχθρικά πυρά." tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
@@ -3020,10 +3047,10 @@
     <PM name="SPG-10: The Bane of Artillery" short="T 55A: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
       <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό Α/Κ Πυροβόλο το οποίο δεν έχει εντοπιστεί.</req>
+        <req>• Καταστρέψτε 1 εχθρικό Α/Κ Πυροβόλο.\n• Προκαλέστε φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
+        <req>• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
@@ -3135,7 +3162,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Get Out of Our Base!" short="Object 260: LT-8" desc="Πάνω στη μάχη, είναι εύκολο να ξεχάσετε την υπεράσπιση της βάσης σας ή της ουδέτερης βάσης. Κάτι τέτοιο θα επιτρέψει στον εχθρό να αποκτήσει πλεονέκτημα. Να θυμάστε ότι το άρμα σας έχει αρκετή ταχύτητα έτσι ώστε να οπισθοχωρήσει για να υπερασπιστεί τη βάση με εύστοχες βολές ή ακόμα και με εμβολισμό, σώζοντας την ομάδα σας από μία βέβαιη ήττα." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
+      <Hint>Εάν δεν είστε 100% σίγουρος ότι θα διαπεράσετε τη θωράκιση του εχθρού, χρησιμοποιήστε βλήματα ΗΕ. Τα βλήματα ΗΕ είναι πιο πιθανό να προκαλέσουν φθορά στο εχθρικό όχημα. Να θυμάστε ότι ακόμα και 1 ΗΡ φθοράς ή 1 χαλασμένο εξάρτημα να προκαλέσετε στο εχθρικό όχημα, θα μηδενιστούν οι πόντοι κατάληψης βάσης που έχει. Όταν επιχειρείτε εσείς να καταλάβετε την εχθρική βάση, προσπαθήστε να αποφύγετε τα εχθρικά πυρά, όσο είναι αυτό δυνατό.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης με τουλάχιστον 60 πόντους ή να κερδίσετε τουλάχιστον 60 πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="LT-10: The Maximum Result" short="Object 260: LT-10" desc="Όσο μεγαλύτερη η αποτελεσματικότητά σας στη μάχη, τόσο περισσότερα τα κερδισμένα ΧΡ. Δείξτε τους τι μπορεί να κάνει ένα ελαφρύ άρμα μάχης." tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Ένας καλός ανιχνευτής γνωρίζει πότε να είναι προσεκτικός και πότε να επιτίθεται. Να ενεργείτε σύμφωνα με τη ροή της μάχης.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience.\n• Επιβιώστε της μάχης.\n• Με το τέλος της μάχης να μην έχει δεχθεί καθόλου φθορά το όχημά σας.</req>
+        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience.\n• Επιβιώστε της μάχης.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
@@ -3188,7 +3215,7 @@
         <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.\n• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="Object 260: LT-14" desc="Ένα ελαφρύ άρμα μάχης, όταν συντονίζει τις ενέργειες του Ουλαμού, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να λάβετε μέρος σε μάχη ως Ουλαμός Πυροβολικών και άλλες φορές μαζί με ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+    <PM name="LT-14: The Battle Watch (Ατομική/με Ουλαμό)" short="Object 260: LT-14" desc="Ένα ελαφρύ άρμα μάχης σε έναν καλά συντονισμένο Ουλαμό, μπορεί να επιφέρει την καταστροφή του εχθρού. Φροντίστε τα οχήματα του Ουλαμού σας να ταιριάζουν με τον τρόπο παιχνιδιού σας. Μερικές φορές είναι καλύτερο να σχηματίσετε Ουλαμό με Πυροβολικά και άλλες φορές με άλλα ελαφρά άρματα μάχης. Μην φοβάστε τους πειραματισμούς. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Όσο πιο έμπειρους παίκτες έχει η ομάδα σας, τόσο πιο αποτελεσματική θα είναι. Η συμμετοχή στη μάχη ως μέλος Ουλαμού αυξάνει ακόμα περισσότερο την αποτελεσματικότητα της ομάδας. Εναλλακτικά, μπορείτε να παίζετε μόνος σας, εάν θεωρείτε ότι έχετε αρκετή επιδεξιότητα και ότι δεν θα σας απογοητεύσουν οι συμπαίκτες σας.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Να προκληθεί φθορά τουλάχιστον 6.000 ΗΡ σε εχθρικά οχήματα ή από δικό σας εντοπισμό αντιπάλων ή συνολικά από εντοπισμό αντιπάλων όλων των μελών του Ουλαμού.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας ελαφρύ άρμα και οποιοδήποτε άλλο όχημα.</req>
@@ -3263,7 +3290,7 @@
     <PM name="HT-7: I Have Got It Covered" short="Object 260: HT-7" desc="Η τακτική των προσπελάσεων είναι σημαντική για τα βαρέα άρματα. Διασπάστε την άμυνα του εχθρού και καταλάβετε τη βάση του. Ωστόσο μην υποτιμάτε τον εχθρό. Μπορεί να κάνει και αυτός το ίδιο." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Να είστε προσεκτικοί όταν πλησιάζετε στην εχθρική βάση. Να είστε έτοιμοι να αντιμετωπίσετε τους υπερασπιστές της βάσης και τα πυκνά πυρά τους. Εάν προτιμάτε να αμύνεστε, χρησιμοποιήστε τα στοιχεία του χάρτη, καλυφθείτε και υπερασπιστείτε την δική σας βάση (ή την ουδέτερη σε Μάχες Διεκδίκησης) από τον επιτιθέμενο αντίπαλο.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να έχετε συμμετοχή στην επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης με τουλάχιστον 50 πόντους ή να κερδίσετε τουλάχιστον 50 πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 4.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Να έχετε συμμετοχή σε επιτυχή κατάληψη της εχθρικής/ουδέτερης βάσης ή να κερδίσετε πόντους υπεράσπισης βάσης.\n• Κερδίστε τη μάχη.\n• Προκαλέστε φθορά τουλάχιστον 4.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.</req>
@@ -3398,7 +3425,7 @@
     <PM name="MT-7: A Surprise Blow" short="Object 260: MT-7" desc="Το εχθρικό πυροβολικό είναι πρωταρχικός στόχος για εσάς. Εξουδετερώνοντάς το, φέρνετε την ομάδας σας πιο κοντά στη νίκη." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Το πυροβολικό μπορεί να επιφέρει σημαντικά πλήγματα σε οχήματα της ομάδας σας. Διασπάστε τις γραμμές του εχθρού σε μία πλευρά και εφορμήστε στην εχθρική βάση για να εξουδετερώσετε το πυροβολικό του εχθρού.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα χωρίς βοήθεια από τους συμπαίκτες σας.</req>
+        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά Α/Κ Πυροβόλα.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.\n• Κερδίστε τη μάχη.\n• Τα Α/Κ Πυροβόλα θα πρέπει να είναι μεγαλύτερης βαθμίδας από το όχημά σας.</req>
@@ -3443,7 +3470,7 @@
     <PM name="MT-12: The Incinerator" short="Object 260: MT-12" desc="Προκαλώντας φωτιά σε ένα εχθρικό όχημα είναι ένας από τους πιο αποτελεσματικούς τρόπους να το καταστρέψετε." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Χτυπήστε τον κινητήρα ή τις δεξαμενές καυσίμων ενός εχθρικού οχήματος για να του βάλετε φωτιά. Μελετήστε προσεκτικά την διαρρύθμιση των οχημάτων για να γνωρίζετε που βρίσκεται το κάθε εξάρτημα.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φωτιά σε τουλάχιστον 2 εχθρικά οχήματα που είναι κατά 1 βαθμίδα μεγαλύτερα από το όχημά σας, ή στο ίδιο εχθρικό όχημα 2 φορές.</req>
+        <req>• Προκαλέστε φωτιά σε 1 εχθρικό όχημα της ίδιας ή μεγαλύτερης βαθμίδας από το δικό σας.\n• Προκαλέστε φθορά τουλάχιστον 3.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
@@ -3521,13 +3548,13 @@
         <req>• Προκαλέστε φθορά τουλάχιστον 4.000 HP.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Precise Calculation" short="Object 260: TD-6" desc="Δεν είναι εύκολο να πετύχετε κινούμενο στόχο. Είναι ακόμα δυσκολότερο σε μεγάλη απόσταση." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Χρησιμοποιήστε την Στόχευση σε Μακρινή Απόσταση και δώστε στη βολή σας προβάδισμα έναντι του στόχου. Η Αυτόματη Στόχευση είναι τις πιο πολλές φορές αναποτελεσματική σε κινούμενο στόχο.</Hint>
+    <PM name="TD-6: They Shall Not Pass!" short="Object 260: TD-6" desc="Προσπαθήστε να κρατήσετε τα εχθρικά οχήματα όσο πιο μακριά μπορείτε. Καταστρέψτε τα ενώ πλησιάζουν, καθώς θα είναι δύσκολο να τα αντιμετωπίσετε σε κοντινή απόσταση." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>Σιγουρευτείτε ότι το όχημά σας είναι πίσω από θάμνους ή πεσμένα δέντρα πριν πυροβολήσετε. Εάν το όχημά σας είναι 15 μέτρα πίσω από θάμνο ή πεσμένο δέντρο αυξάνεται η πιθανότητα να μην αποκαλυφθεί με τη ρίψη πυρών.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.\n• Το εχθρικά οχήματα θα πρέπει να είναι σε κίνηση.</req>
+        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 ΗΡ σε εχθρικά οχήματα από απόσταση μεγαλύτερη των 250 μέτρων.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 4 κινούμενα εχθρικά οχήματα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: The First Strike" short="Object 260: TD-7" desc="Μην αφήνετε τον εχθρό να σας πλησιάσει. Η θωράκιση του οχήματός σας δεν είναι πολύ αποτελεσματική στα εχθρικά πυρά." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
@@ -3695,10 +3722,10 @@
     <PM name="SPG-10: The Bane of Artillery" short="Object 260: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
       <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα τα οποία δεν έχουν εντοπιστεί.</req>
+        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα.\n• Προκαλέστε φθορά τουλάχιστον 4.000 HP σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 4.000 HP.</req>
+        <req>• Καταστρέψτε τουλάχιστον 5 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
     <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">

@@ -4,6 +4,8 @@
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
+    <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
+    <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
     <tank ID="A03_M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="A05_M4_Sherman" sName="M4" lName="M4 Sherman" />
@@ -22,6 +24,7 @@
     <tank ID="A11_T29" sName="T29" lName="T29" />
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
+    <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
@@ -45,6 +48,8 @@
     <tank ID="A44" sName="A-44" lName="A-44" />
     <tank ID="A45_M6A2E1" sName="M6A2E1" lName="M6A2E1" />
     <tank ID="A46_T3" sName="T3 HMC" lName="T3 HMC" />
+    <tank ID="A58_T67" sName="T67" lName="T67" />
+    <tank ID="A58_T67_IGR" sName="T67" lName="T67" />
     <tank ID="A63_M46_Patton" sName="M46 Patton" lName="M46 Patton" />
     <tank ID="A63_M46_Patton_KR" sName="M46 KR" lName="M46 Patton KR" />
     <tank ID="A68_T28_Prototype" sName="T28 Prot." lName="T28 Prototype" />
@@ -59,6 +64,7 @@
     <tank ID="A87_M44" sName="M44" lName="M44" />
     <tank ID="A88_M53_55" sName="M53/M55" lName="M53/M55" />
     <tank ID="A89_T54E1" sName="T54E1" lName="T54E1" />
+    <tank ID="A92_M60" sName="M60" lName="M60" />
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
@@ -169,6 +175,8 @@
     <tank ID="F10_AMX_50B_fallout" sName="(R) AMX 50 B" lName="(R) AMX 50 B" />
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F15_AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
+    <tank ID="F17_AMX_13_90" sName="AMX 13 90" lName="AMX 13 90" />
+    <tank ID="F17_AMX_13_90_IGR" sName="AMX 13 90" lName="AMX 13 90" />
     <tank ID="F28_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F28_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="F35_AMX_AC_Mle1946" sName="AMX AC 46" lName="AMX AC mle. 46" />
@@ -197,9 +205,12 @@
     <tank ID="G_Tiger" sName="G.W. Tiger" lName="G.W. Tiger" />
     <tank ID="G02_Hummel" sName="Hummel" lName="Hummel" />
     <tank ID="G04_PzVI_Tiger_IA" sName="Tiger I L/56" lName="Tiger I L/56" />
+    <tank ID="G05_StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
+    <tank ID="G05_StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="G06_PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G06_PzII_bot" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
+    <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
@@ -220,7 +231,7 @@
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G120_M41_90" sName="M 41 90 mm" lName="leKpz M 41 90 mm" />
-    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm" />
+    <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -235,6 +246,9 @@
     <tank ID="G23_Grille" sName="Grille" lName="Grille" />
     <tank ID="G25_PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="G26_VK1602" sName="Leopard" lName="VK 16.02 Leopard" />
+    <tank ID="G27_VK3001P" sName="VK 30.01 P" lName="VK 30.01 (P)" />
+    <tank ID="G32_PzV_PzIV_ausf_Alfa_CN" sName="Pz. V BP A" lName="Pz.Kpfw. V Berge-Panther Alpha" />
+    <tank ID="G32_PzV_PzIV_CN" sName="Pz. V BP" lName="Pz.Kpfw. V Berge-Panther" />
     <tank ID="G34_S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="G36_PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="G39_Marder_III" sName="Marder 38T" lName="Marder 38T" />
@@ -358,6 +372,8 @@
     <tank ID="J06_Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="J07_Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="J08_Chi_Nu" sName="Chi-Nu" lName="Type 3 Chi-Nu" />
+    <tank ID="J09_Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
+    <tank ID="J12_Chi_Nu_Kai" sName="Chi-Nu Kai" lName="Type 3 Chi-Nu Kai" />
     <tank ID="J15_Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
     <tank ID="J18_STA_2_3" sName="STA-2" lName="STA-2" />
     <tank ID="J19_Tiger_I_Jpn" sName="HT No. VI" lName="Heavy Tank No. VI" />
@@ -501,12 +517,14 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" sName="IS 8-Ball" lName="IS 8-Ball" />
     <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
+    <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
     <tank ID="R04_T-34" sName="T-34" lName="T-34" />
     <tank ID="R06_T-28" sName="T-28" lName="T-28" />
+    <tank ID="R07_T-34-85" sName="T-34-85" lName="T-34-85" />
+    <tank ID="R07_T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="R100_SU122A" sName="SU-122A" lName="SU-122A" />
     <tank ID="R104_Object_430_II" sName="Obj. 430 II" lName="Objekt 430 Verze II" />
     <tank ID="R105_BT_7A" sName="BT-7 art." lName="BT-7 dělostřelecký" />
@@ -532,29 +550,39 @@
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
+    <tank ID="R125_T_45" sName="T-45" lName="T-45" />
+    <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Objekt 268 Verze V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
+    <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavského" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="R22_T-46" sName="T-46" lName="T-46" />
+    <tank ID="R23_T-43" sName="T-43" lName="T-43" />
     <tank ID="R24_SU-76" sName="SU-76M" lName="SU-76M" />
+    <tank ID="R25_GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
+    <tank ID="R44_T80" sName="T-80" lName="T-80" />
     <tank ID="R51_Object_212" sName="212A" lName="212A" />
     <tank ID="R53_Object_704" sName="Obj. 704" lName="Objekt 704" />
     <tank ID="R54_KV-5" sName="KV-5" lName="KV-5" />
     <tank ID="R54_KV-5_IGR" sName="KV-5" lName="KV-5" />
+    <tank ID="R56_T-127" sName="T-127" lName="T-127" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
     <tank ID="R71_IS_2B" sName="IS-2" lName="IS-2" />
+    <tank ID="R75_SU122_54" sName="SU-122-54" lName="SU-122-54" />
     <tank ID="R80_KV1" sName="KV-1" lName="KV-1" />
     <tank ID="R81_IS8" sName="T-10" lName="T-10" />
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
+    <tank ID="R96_Object_430" sName="Obj. 430" lName="Objekt 430" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
     <tank ID="RenaultFT" sName="FT" lName="Renault FT" />
@@ -716,7 +744,6 @@
     <item ID="111_paris" Name="Ledové sevření" />
     <item ID="112_eiffel_tower" Name="Zpustošená metropole" />
     <item ID="114_czech" Name="Plzeň" />
-    <item ID="119_moon_pool" Name="Kráter" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfriedova linie" />
@@ -746,9 +773,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Město duchů" />
     <item ID="96_prohorovka_defense" Name="Ohnivý výběžek" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
+    <item ID="h10_summer_holiday_2016" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" Name="Kampánie" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="Jižní pobřeží" />
@@ -860,6 +886,7 @@
     <item ID="3" Name="Rozdrceno" />
     <item ID="4" Name="Zničeno vjezdem do zakázané zóny" />
     <item ID="5" Name="Vozidlo utopeno" />
+    <item ID="7" Name="Úmyslné sebezničení" />
     <item ID="unknown" Name="Neznámo" />
   </Lang_DeathReasons>
   <Lang_Crits>
@@ -1110,7 +1137,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Zmizte z naší základny!" short="StuG IV: LT-8" desc="V zápalu boje je snadné zapomenout na obranu své vlastní nebo neutrální základny. Taková neopatrnost může vést k tomu, že nepřítel získá výhodu a cíle bleskově obsadí. Pamatujte si, že váš tank má dostatečnou rychlost k tomu, aby přerušil kontakt s nepřítelem a stáhnul se k obraně základny a útočníky odrazil přesnými výstřely, nebo odvážným útokem pomocí nárazu a zachránil tak váš tým před hrozící porážkou." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Pokud si nejste stoprocentně jistí, že vaše granáty útočníkův pancíř prostřelí—nabijte si namísto nich explozivní granát. HE granáty mají vysokou šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
+      <Hint>Pokud si nejste 100% jistí, že vaše granáty útočníkův pancíř prostřelí, nabijte si namísto nich explozivní granát. HE granáty mají vyšší šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Zúčastněte se úspěšného obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.</req>
       </Primary>
@@ -1130,7 +1157,7 @@
     <PM name="LT-10: Maximální výsledek" short="StuG IV: LT-10" desc="čím efektivnější jste v bitvě, tím více zkušeností získáte. Ukažte jim, čeho je lehký tank schopný!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>Dobrý průzkumník ví, kdy má být opatrný, a kdy agresivní. Pozorně sledujte průběh bitvy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.</req>
+        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
@@ -1163,7 +1190,7 @@
         <req>• Osobně přežijte bitvu.\n• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="StuG IV: LT-14" desc="Lehký tank, který koordinuje četu, je pro nepřátelský tým skutečnou pohromou. Pro doplnění své čety si najděte vozidla, která odpovídají vašemu hernímu stylu: někdy je lepší vstoupit do bitvy jako člen čety dělostřelectva a někdy se skupinou lehkých tanků. Neobávejte se experimentovat se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="StuG IV: LT-14" desc="Lehký tank v koordinované četě může v nepřátelském týmu způsobit skutečnou pohromu. Založte četu s vozidly, které odpovídají vašemu hernímu stylu: možná budete chtít být v četě s dělostřelectvem, nebo dáte přednost rychlé skupině lehkých tanků. Neobávejte se experimentů se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>Čím zkušenější hráči bojují v bitvě po vašem boku, tím vyšší je bojová efektivita vašeho týmu. Bojovou efektivitu týmu značně zvýšíte, když vstoupíte do bitvy v četě. Pokud jste si zcela jistí, že máte dostatečné schopnosti a vaši spojenci vás nezklamou, můžete hrát sami.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Odhalujte buď osobně, nebo celkově v četě, nepřátelská vozidla a umožněte svým spojencům, aby nepřátelským vozidlům způsobili minimálně 2 000 HP poškození.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho lehkého tanku a jakýchkoliv jiných vozidel.</req>
@@ -1238,7 +1265,7 @@
     <PM name="TT-7: Mám to kryté" short="StuG IV: TT-7" desc="Průlomová taktika je pro těžké tanky skvělá. Prorazte skrz nepřátelské obranné linie a obsaďte jejich základnu. Nicméně, své nepřátele nepodceňujte—mohou nasadit stejnou taktiku." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>Když se přibližujete k nepřátelské základně, buďte opatrní—buďte připraveni na „vřelé“ přivítání. Pokud dáváte přednost obranné taktice, využijte terénu, abyste si našli nejlepší úkryt s výhledem, odkud budete moci před přibližujícím se nepřítelem bránit svou základnu (nebo neutrální základnu při střetnutí).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zúčastněte se úspěšného obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 1 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Zúčastněte se obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 1 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Zničte nepřátelské vozidlo.</req>
@@ -1496,13 +1523,13 @@
         <req>• Způsobte minimálně 1 000 HP poškození.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Přesný výpočet" short="StuG IV: TD-6" desc="Zasáhnout cíl, který se pohybuje, je opravdu obtížné. Ještě obtížnější to je, když střílíte na velkou vzdálenost." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Používejte odstřelovací režim a před palbou na cíl si předsaďte. Když střílíte na cíl, který se pohybuje, je automatické zaměřování ve většině případů k ničemu.</Hint>
+    <PM name="TD-6: Neprojdou!" short="StuG IV: TD-6" desc="Snažte se udržet nepřátelská vozidla od své pozice tak daleko, jak to jen jde. Zničte je, když se přibližují, protože odražení náporu bude v boji zblízka mnohem těžší." tMID="51" opID="1" mID="6" setID="4" ID="quest_1_4_6_main" secID="quest_1_4_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>Před zahájením palby se ujistěte, že je vaše vozidlo ukryto za keři nebo poraženými stromy. Když je vaše vozidlo 15 m za keřem nebo poraženým stromem, máte lepší šanci, že po výstřelu zůstanete neodhaleni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození nepřátelskému vozidlu ze vzdálenosti 250 m nebo více.\n• Nepřátelské vozidlo se musí pohybovat.</req>
+        <req>• Způsobte poškození nepřátelskému vozidlu ze vzdálenosti 250 m nebo více.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské vozidlo, které se pohybuje.</req>
+        <req>• Zničte minimálně 1 nepřátelské vozidlo.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: První úder" short="StuG IV: TD-7" desc="Nenechte nepřítele, aby se k vám příliš přiblížil: pancíř vašeho vozidla není příliš účinný proti nepřátelské palbě." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
@@ -1673,7 +1700,7 @@
         <req>• Zničte minimálně 1 nepřátelské dělostřelectvo.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození.</req>
+        <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
     <PM name="ART-11: Oblast účinku" short="StuG IV: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
@@ -1785,7 +1812,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Zmizte z naší základny!" short="T28 heavy tank concept: LT-8" desc="V zápalu boje je snadné zapomenout na obranu své vlastní nebo neutrální základny. Taková neopatrnost může vést k tomu, že nepřítel získá výhodu a cíle bleskově obsadí. Pamatujte si, že váš tank má dostatečnou rychlost k tomu, aby přerušil kontakt s nepřítelem a stáhnul se k obraně základny a útočníky odrazil přesnými výstřely, nebo odvážným útokem pomocí nárazu a zachránil tak váš tým před hrozící porážkou." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Pokud si nejste stoprocentně jistí, že vaše granáty útočníkův pancíř prostřelí—nabijte si namísto nich explozivní granát. HE granáty mají vysokou šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
+      <Hint>Pokud si nejste 100% jistí, že vaše granáty útočníkův pancíř prostřelí, nabijte si namísto nich explozivní granát. HE granáty mají vyšší šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Zúčastněte se úspěšného obsazení základny, přičemž získejte minimálně 20 bodů za obsazování základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny, přičemž získejte minimálně 20 bodů za obranu základny.\n• Vyhrajte bitvu.</req>
       </Primary>
@@ -1805,7 +1832,7 @@
     <PM name="LT-10: Maximální výsledek" short="T28 heavy tank concept: LT-10" desc="čím efektivnější jste v bitvě, tím více zkušeností získáte. Ukažte jim, čeho je lehký tank schopný!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>Dobrý průzkumník ví, kdy má být opatrný, a kdy agresivní. Pozorně sledujte průběh bitvy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.\n• Přežijte bitvu.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
@@ -1838,7 +1865,7 @@
         <req>• Osobně přežijte bitvu.\n• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="T28 heavy tank concept: LT-14" desc="Lehký tank, který koordinuje četu, je pro nepřátelský tým skutečnou pohromou. Pro doplnění své čety si najděte vozidla, která odpovídají vašemu hernímu stylu: někdy je lepší vstoupit do bitvy jako člen čety dělostřelectva a někdy se skupinou lehkých tanků. Neobávejte se experimentovat se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="T28 heavy tank concept: LT-14" desc="Lehký tank v koordinované četě může v nepřátelském týmu způsobit skutečnou pohromu. Založte četu s vozidly, které odpovídají vašemu hernímu stylu: možná budete chtít být v četě s dělostřelectvem, nebo dáte přednost rychlé skupině lehkých tanků. Neobávejte se experimentů se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>Čím zkušenější hráči bojují v bitvě po vašem boku, tím vyšší je bojová efektivita vašeho týmu. Bojovou efektivitu týmu značně zvýšíte, když vstoupíte do bitvy v četě. Pokud jste si zcela jistí, že máte dostatečné schopnosti a vaši spojenci vás nezklamou, můžete hrát sami.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Odhalujte, buď osobně, nebo celkově v četě, nepřátelská vozidla a umožněte svým spojencům, aby nepřátelským vozidlům způsobili minimálně 3 000 HP poškození.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho lehkého tanku a jakýchkoliv jiných vozidel.</req>
@@ -1913,7 +1940,7 @@
     <PM name="TT-7: Mám to kryté" short="T28 heavy tank concept: TT-7" desc="Průlomová taktika je pro těžké tanky skvělá. Prorazte skrz nepřátelské obranné linie a obsaďte jejich základnu. Nicméně, své nepřátele nepodceňujte—mohou nasadit stejnou taktiku." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>Když se přibližujete k nepřátelské základně, buďte opatrní—buďte připraveni na „vřelé“ přivítání. Pokud dáváte přednost obranné taktice, využijte terénu, abyste si našli nejlepší úkryt s výhledem, odkud budete moci před přibližujícím se nepřítelem bránit svou základnu (nebo neutrální základnu při střetnutí).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zúčastněte se úspěšného obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Zúčastněte se obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
@@ -2093,7 +2120,7 @@
     <PM name="ST-12: Podpalovač" short="T28 heavy tank concept: ST-12" desc="Zapálení nepřátelského vozidla je jeden z nejúčinnějších způsobů jeho zničení." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>Průstřely, které zasáhnou motor nebo palivové nádrže, mají šancí, že způsobí požár. Nastudujte si schémata vozidel, abyste se naučili, kde se tyto klíčové moduly nachází.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Zapalte nepřátelské vozidlo, které je o 1 úroveň vyšší než vaše vozidlo.</req>
+        <req>• Zapalte nepřátelské vozidlo.\n• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.</req>
@@ -2171,13 +2198,13 @@
         <req>• Způsobte minimálně 2 000 HP poškození.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Přesný výpočet" short="T28 heavy tank concept: TD-6" desc="Zasáhnout cíl, který se pohybuje, je opravdu obtížné. Ještě obtížnější to je, když střílíte na velkou vzdálenost." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Používejte odstřelovací režim a před palbou na cíl si předsaďte. Když střílíte na cíl, který se pohybuje, je automatické zaměřování ve většině případů k ničemu.</Hint>
+    <PM name="TD-6: Neprojdou!" short="T28 heavy tank concept: TD-6" desc="Snažte se udržet nepřátelská vozidla od své pozice tak daleko, jak to jen jde. Zničte je, když se přibližují, protože odražení náporu bude v boji zblízka mnohem těžší." tMID="126" opID="2" mID="6" setID="4" ID="quest_2_4_6_main" secID="quest_2_4_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>Před zahájením palby se ujistěte, že je vaše vozidlo ukryto za keři nebo poraženými stromy. Když je vaše vozidlo 15 m za keřem nebo poraženým stromem, máte lepší šanci, že po výstřelu zůstanete neodhaleni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození nepřátelským vozidlům ze vzdálenosti minimálně 250 m.\n• Nepřátelská vozidla se musí pohybovat.</req>
+        <req>• Způsobte minimálně 1 000 HP poškození nepřátelským vozidlům ze vzdálenosti více než 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla, která se pohybují.</req>
+        <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: První úder" short="T28 heavy tank concept: TD-7" desc="Nenechte nepřítele, aby se k vám příliš přiblížil: pancíř vašeho vozidla není příliš účinný proti nepřátelské palbě." tMID="127" opID="2" mID="7" setID="4" ID="quest_2_4_7_main" secID="quest_2_4_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
@@ -2348,7 +2375,7 @@
         <req>• Zničte minimálně 2 nepřátelská dělostřelectva.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození.</req>
+        <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
     <PM name="ART-11: Oblast účinku" short="T28 heavy tank concept: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
@@ -2460,7 +2487,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Zmizte z naší základny!" short="T 55A: LT-8" desc="V zápalu boje je snadné zapomenout na obranu své vlastní nebo neutrální základny. Taková neopatrnost může vést k tomu, že nepřítel získá výhodu a cíle bleskově obsadí. Pamatujte si, že váš tank má dostatečnou rychlost k tomu, aby přerušil kontakt s nepřítelem a stáhnul se k obraně základny a útočníky odrazil přesnými výstřely, nebo odvážným útokem pomocí nárazu a zachránil tak váš tým před hrozící porážkou." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Pokud si nejste stoprocentně jistí, že vaše granáty útočníkův pancíř prostřelí—nabijte si namísto nich explozivní granát. HE granáty mají vysokou šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
+      <Hint>Pokud si nejste 100% jistí, že vaše granáty útočníkův pancíř prostřelí, nabijte si namísto nich explozivní granát. HE granáty mají vyšší šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Zúčastněte se úspěšného obsazení základny, přičemž získejte minimálně 40 bodů za obsazování základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny, přičemž získejte minimálně 40 bodů za obranu základny.\n• Vyhrajte bitvu.</req>
       </Primary>
@@ -2480,7 +2507,7 @@
     <PM name="LT-10: Maximální výsledek" short="T 55A: LT-10" desc="čím efektivnější jste v bitvě, tím více zkušeností získáte. Ukažte jim, čeho je lehký tank schopný!" tMID="160" opID="3" mID="10" setID="1" ID="quest_3_1_10_main" secID="quest_3_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Dobrý průzkumník ví, kdy má být opatrný, a kdy agresivní. Pozorně sledujte průběh bitvy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Přežijte bitvu.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
@@ -2513,7 +2540,7 @@
         <req>• Osobně přežijte bitvu.\n• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="T 55A: LT-14" desc="Lehký tank, který koordinuje četu, je pro nepřátelský tým skutečnou pohromou. Pro doplnění své čety si najděte vozidla, která odpovídají vašemu hernímu stylu: někdy je lepší vstoupit do bitvy jako člen čety dělostřelectva a někdy se skupinou lehkých tanků. Neobávejte se experimentovat se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="T 55A: LT-14" desc="Lehký tank v koordinované četě může v nepřátelském týmu způsobit skutečnou pohromu. Založte četu s vozidly, které odpovídají vašemu hernímu stylu: možná budete chtít být v četě s dělostřelectvem, nebo dáte přednost rychlé skupině lehkých tanků. Neobávejte se experimentů se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Čím zkušenější hráči bojují v bitvě po vašem boku, tím vyšší je bojová efektivita vašeho týmu. Bojovou efektivitu týmu značně zvýšíte, když vstoupíte do bitvy v četě. Pokud jste si zcela jistí, že máte dostatečné schopnosti a vaši spojenci vás nezklamou, můžete hrát sami.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Odhalujte, buď osobně, nebo celkově v četě, nepřátelská vozidla a umožněte svým spojencům, aby nepřátelským vozidlům způsobili minimálně 5 000 HP poškození.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho lehkého tanku a jakýchkoliv jiných vozidel.</req>
@@ -2588,7 +2615,7 @@
     <PM name="TT-7: Mám to kryté" short="T 55A: TT-7" desc="Průlomová taktika je pro těžké tanky skvělá. Prorazte skrz nepřátelské obranné linie a obsaďte jejich základnu. Nicméně, své nepřátele nepodceňujte—mohou nasadit stejnou taktiku." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Když se přibližujete k nepřátelské základně, buďte opatrní—buďte připraveni na „vřelé“ přivítání. Pokud dáváte přednost obranné taktice, využijte terénu, abyste si našli nejlepší úkryt s výhledem, odkud budete moci před přibližujícím se nepřítelem bránit svou základnu (nebo neutrální základnu při střetnutí).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zúčastněte se úspěšného obsazení základny, přičemž získejte minimálně 30 bodů za obsazování základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny, přičemž získejte minimálně 30 bodů za obranu základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Zúčastněte se obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
@@ -2723,7 +2750,7 @@
     <PM name="ST-7: Překvapivý úder" short="T 55A: ST-7" desc="Nepřátelské dělostřelectvo je pro vás primárním cílem. Jeho vyřazením dostanete svůj tým o krok blíže k vítězství." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Nepřátelská dělostřelecká palba působí vozidlům vašich spoluhráčů těžká poškození. Když prorazíte na křídle, vtrhněte na nepřátelskou základnu a vyřaďte jejich dělostřelectvo.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská dělostřelectva.</req>
+        <req>• Zničte minimálně 1 nepřátelské dělostřelectvo poté, co ho sami odhalíte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Přežijte bitvu.\n• Vyhrajte bitvu.</req>
@@ -2768,7 +2795,7 @@
     <PM name="ST-12: Podpalovač" short="T 55A: ST-12" desc="Zapálení nepřátelského vozidla je jeden z nejúčinnějších způsobů jeho zničení." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Průstřely, které zasáhnou motor nebo palivové nádrže, mají šancí, že způsobí požár. Nastudujte si schémata vozidel, abyste se naučili, kde se tyto klíčové moduly nachází.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zapalte 2 nepřátelská vozidla, nebo zapalte jedno vozidlo dvakrát.</req>
+        <req>• Zapalte nepřátelské vozidlo stejné nebo vyšší úrovně.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.</req>
@@ -2846,13 +2873,13 @@
         <req>• Způsobte minimálně 3 000 HP poškození.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Přesný výpočet" short="T 55A: TD-6" desc="Zasáhnout cíl, který se pohybuje, je opravdu obtížné. Ještě obtížnější to je, když střílíte na velkou vzdálenost." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Používejte odstřelovací režim a před palbou na cíl si předsaďte. Když střílíte na cíl, který se pohybuje, je automatické zaměřování ve většině případů k ničemu.</Hint>
+    <PM name="TD-6: Neprojdou!" short="T 55A: TD-6" desc="Snažte se udržet nepřátelská vozidla od své pozice tak daleko, jak to jen jde. Zničte je, když se přibližují, protože odražení náporu bude v boji zblízka mnohem těžší." tMID="201" opID="3" mID="6" setID="4" ID="quest_3_4_6_main" secID="quest_3_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>Před zahájením palby se ujistěte, že je vaše vozidlo ukryto za keři nebo poraženými stromy. Když je vaše vozidlo 15 m za keřem nebo poraženým stromem, máte lepší šanci, že po výstřelu zůstanete neodhaleni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům ze vzdálenosti minimálně 250 m.\n• Nepřátelská vozidla se musí pohybovat.</req>
+        <req>• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům ze vzdálenosti více než 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla, která se pohybují.</req>
+        <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: První úder" short="T 55A: TD-7" desc="Nenechte nepřítele, aby se k vám příliš přiblížil: pancíř vašeho vozidla není příliš účinný proti nepřátelské palbě." tMID="202" opID="3" mID="7" setID="4" ID="quest_3_4_7_main" secID="quest_3_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
@@ -3020,10 +3047,10 @@
     <PM name="ART-10: Zkáza dělostřelectva" short="T 55A: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské dělostřelectvo, které nebylo odhaleno.</req>
+        <req>• Zničte minimálně 1 nepřátelské dělostřelectvo.\n• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození.</req>
+        <req>• Zničte minimálně 4 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
     <PM name="ART-11: Oblast účinku" short="T 55A: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
@@ -3135,7 +3162,7 @@
       </Secondary>
     </PM>
     <PM name="LT-8: Zmizte z naší základny!" short="Objekt 260: LT-8" desc="V zápalu boje je snadné zapomenout na obranu své vlastní nebo neutrální základny. Taková neopatrnost může vést k tomu, že nepřítel získá výhodu a cíle bleskově obsadí. Pamatujte si, že váš tank má dostatečnou rychlost k tomu, aby přerušil kontakt s nepřítelem a stáhnul se k obraně základny a útočníky odrazil přesnými výstřely, nebo odvážným útokem pomocí nárazu a zachránil tak váš tým před hrozící porážkou." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Pokud si nejste stoprocentně jistí, že vaše granáty útočníkův pancíř prostřelí—nabijte si namísto nich explozivní granát. HE granáty mají vysokou šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
+      <Hint>Pokud si nejste 100% jistí, že vaše granáty útočníkův pancíř prostřelí, nabijte si namísto nich explozivní granát. HE granáty mají vyšší šanci na poškození nepřátelského vozidla. Pamatujte si, že když poškodíte nepřátelské vozidlo byť i jen za 1 HP poškození, body obsazování vaší základny to vynuluje. Když se pokoušíte základnu obsadit, snažte se co nejvíce, abyste se nepřátelské palbě vyhnuli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Zúčastněte se úspěšného obsazení základny, přičemž získejte minimálně 60 bodů za obsazování základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny, přičemž získejte minimálně 60 bodů za obranu základny.\n• Vyhrajte bitvu.</req>
       </Primary>
@@ -3155,7 +3182,7 @@
     <PM name="LT-10: Maximální výsledek" short="Objekt 260: LT-10" desc="čím efektivnější jste v bitvě, tím více zkušeností získáte. Ukažte jim, čeho je lehký tank schopný!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Dobrý průzkumník ví, kdy má být opatrný, a kdy agresivní. Pozorně sledujte průběh bitvy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Přežijte bitvu.\n• Dokončete bitvu bez toho, abyste dostali jakékoliv poškození.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Přežijte bitvu.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
@@ -3188,7 +3215,7 @@
         <req>• Osobně přežijte bitvu.\n• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="Objekt 260: LT-14" desc="Lehký tank, který koordinuje četu, je pro nepřátelský tým skutečnou pohromou. Pro doplnění své čety si najděte vozidla, která odpovídají vašemu hernímu stylu: někdy je lepší vstoupit do bitvy jako člen čety dělostřelectva a někdy se skupinou lehkých tanků. Neobávejte se experimentovat se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+    <PM name="LT-14: Bojová stráž (Osobní/Četa)" short="Objekt 260: LT-14" desc="Lehký tank v koordinované četě může v nepřátelském týmu způsobit skutečnou pohromu. Založte četu s vozidly, které odpovídají vašemu hernímu stylu: možná budete chtít být v četě s dělostřelectvem, nebo dáte přednost rychlé skupině lehkých tanků. Neobávejte se experimentů se složením čety. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Čím zkušenější hráči bojují v bitvě po vašem boku, tím vyšší je bojová efektivita vašeho týmu. Bojovou efektivitu týmu značně zvýšíte, když vstoupíte do bitvy v četě. Pokud jste si zcela jistí, že máte dostatečné schopnosti a vaši spojenci vás nezklamou, můžete hrát sami.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Odhalujte, buď osobně, nebo celkově v četě, nepřátelská vozidla a umožněte svým spojencům, aby nepřátelským vozidlům způsobili minimálně 6 000 HP poškození.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho lehkého tanku a jakýchkoliv jiných vozidel.</req>
@@ -3263,7 +3290,7 @@
     <PM name="TT-7: Mám to kryté" short="Objekt 260: TT-7" desc="Průlomová taktika je pro těžké tanky skvělá. Prorazte skrz nepřátelské obranné linie a obsaďte jejich základnu. Nicméně, své nepřátele nepodceňujte—mohou nasadit stejnou taktiku." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Když se přibližujete k nepřátelské základně, buďte opatrní—buďte připraveni na „vřelé“ přivítání. Pokud dáváte přednost obranné taktice, využijte terénu, abyste si našli nejlepší úkryt s výhledem, odkud budete moci před přibližujícím se nepřítelem bránit svou základnu (nebo neutrální základnu při střetnutí).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zúčastněte se úspěšného obsazení základny, přičemž získejte minimálně 50 bodů za obsazování základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny, přičemž získejte minimálně 50 bodů za obranu základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 4 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Zúčastněte se obsazení základny, nebo vynulujte nepřátelské body za obsazování vaší/neutrální základny.\n• Vyhrajte bitvu.\n• Způsobte minimálně 4 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 4 nepřátelská vozidla.</req>
@@ -3398,7 +3425,7 @@
     <PM name="ST-7: Překvapivý úder" short="Objekt 260: ST-7" desc="Nepřátelské dělostřelectvo je pro vás primárním cílem. Jeho vyřazením dostanete svůj tým o krok blíže k vítězství." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Nepřátelská dělostřelecká palba působí vozidlům vašich spoluhráčů těžká poškození. Když prorazíte na křídle, vtrhněte na nepřátelskou základnu a vyřaďte jejich dělostřelectvo.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská dělostřelectva bez jakékoliv pomoci svých spojenců.</req>
+        <req>• Zničte minimálně 3 nepřátelská dělostřelectva.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Přežijte bitvu.\n• Vyhrajte bitvu.\n• Dělostřelectvo musí mít vyšší úroveň než vaše vozidlo.</req>
@@ -3443,7 +3470,7 @@
     <PM name="ST-12: Podpalovač" short="Objekt 260: ST-12" desc="Zapálení nepřátelského vozidla je jeden z nejúčinnějších způsobů jeho zničení." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Průstřely, které zasáhnou motor nebo palivové nádrže, mají šancí, že způsobí požár. Nastudujte si schémata vozidel, abyste se naučili, kde se tyto klíčové moduly nachází.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zapalte minimálně 2 nepřátelská vozidla, která jsou o 1 úroveň vyšší než vaše vozidlo, nebo zapalte jedno nepřátelské vozidlo dvakrát.</req>
+        <req>• Zapalte nepřátelské vozidlo stejné nebo vyšší úrovně.\n• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.</req>
@@ -3521,10 +3548,10 @@
         <req>• Způsobte minimálně 4 000 HP poškození.</req>
       </Secondary>
     </PM>
-    <PM name="TD-6: Přesný výpočet" short="Objekt 260: TD-6" desc="Zasáhnout cíl, který se pohybuje, je opravdu obtížné. Ještě obtížnější to je, když střílíte na velkou vzdálenost." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Používejte odstřelovací režim a před palbou na cíl si předsaďte. Když střílíte na cíl, který se pohybuje, je automatické zaměřování ve většině případů k ničemu.</Hint>
+    <PM name="TD-6: Neprojdou!" short="Objekt 260: TD-6" desc="Snažte se udržet nepřátelská vozidla od své pozice tak daleko, jak to jen jde. Zničte je, když se přibližují, protože odražení náporu bude v boji zblízka mnohem těžší." tMID="276" opID="4" mID="6" setID="4" ID="quest_4_4_6_main" secID="quest_4_4_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>Před zahájením palby se ujistěte, že je vaše vozidlo ukryto za keři nebo poraženými stromy. Když je vaše vozidlo 15 m za keřem nebo poraženým stromem, máte lepší šanci, že po výstřelu zůstanete neodhaleni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům ze vzdálenosti minimálně 250 m.\n• Nepřátelská vozidla se musí pohybovat.</req>
+        <req>• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům ze vzdálenosti více než 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 4 nepřátelská vozidla.</req>
@@ -3695,10 +3722,10 @@
     <PM name="ART-10: Zkáza dělostřelectva" short="Objekt 260: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská dělostřelectva, která nebyla odhalena.</req>
+        <req>• Zničte minimálně 2 nepřátelská dělostřelectva.\n• Způsobte minimálně 4 000 HP poškození nepřátelským vozidlům.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 4 000 HP poškození.</req>
+        <req>• Zničte minimálně 5 nepřátelských vozidel.</req>
       </Secondary>
     </PM>
     <PM name="ART-11: Oblast účinku" short="Objekt 260: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
