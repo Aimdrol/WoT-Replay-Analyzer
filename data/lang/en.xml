@@ -103,6 +103,7 @@
     <tank ID="A94_T37" sName="T37" lName="T37" />
     <tank ID="A95_T95_E6" sName="T95E6" lName="T95E6" />
     <tank ID="A97_M41_Bulldog" sName="M41 Bulldog" lName="M41 Walker Bulldog" />
+    <tank ID="A99_T92_LT" sName="T92" lName="T92" />
     <tank ID="AMX_105AM" sName="AMX 13 AM" lName="AMX 13 105 AM mle. 50" />
     <tank ID="AMX_12t" sName="AMX 12 t" lName="AMX 12 t" />
     <tank ID="AMX_13_75" sName="AMX 13 75" lName="AMX 13 75" />
@@ -263,7 +264,9 @@
     <tank ID="F72_AMX_30" sName="AMX 30 B" lName="AMX 30 B" />
     <tank ID="F73_M4A1_Revalorise" sName="M4A1 Rev." lName="M4A1 Revalorisé" />
     <tank ID="F74_AMX_M4_1949" sName="AMX M4 49" lName="AMX M4 mle. 49" />
+    <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
+    <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -285,10 +288,11 @@
     <tank ID="G07_Pz35t" sName="Pz. 35 (t)" lName="Pz.Kpfw. 35 (t)" />
     <tank ID="G08_Pz38t" sName="Pz. 38 (t)" lName="Pz.Kpfw. 38 (t)" />
     <tank ID="G09_Hetzer" sName="Hetzer" lName="Jagdpanzer 38(t) Hetzer" />
-    <tank ID="G10_PzIII_AusfJ" sName="Pz. III" lName="Pz.Kpfw. III" />
-    <tank ID="G10_PzIII_AusfJ_training" sName="Pz. III" lName="Pz.Kpfw. III" />
+    <tank ID="G10_PzIII_AusfJ" sName="Pz. III J" lName="Pz.Kpfw. III Ausf. J" />
+    <tank ID="G10_PzIII_AusfJ_training" sName="Pz. III J" lName="Pz.Kpfw. III Ausf. J" />
     <tank ID="G100_Gtraktor_Krupp" sName="Gr.Tr." lName="Großtraktor - Krupp" />
     <tank ID="G101_StuG_III" sName="StuG III B" lName="StuG III Ausf. B" />
+    <tank ID="G102_Pz_III" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G103_RU_251" sName="Ru 251" lName="Spähpanzer Ru 251" />
     <tank ID="G104_Stug_IV" sName="StuG IV" lName="StuG IV" />
     <tank ID="G105_T-55_NVA_DDR" sName="T 55A" lName="T 55A" />
@@ -477,6 +481,8 @@
     <tank ID="GB86_Centurion_Action_X" sName="Centurion AX" lName="Centurion Action X" />
     <tank ID="GB87_Chieftain_T95_turret" sName="Chieftain/T95" lName="Chieftain/T95" />
     <tank ID="GB88_T95_Chieftain_turret" sName="T95/Chieftain" lName="T95/Chieftain" />
+    <tank ID="GB89_Mark_I_Male" sName="Mk. I" lName="Mk. I" />
+    <tank ID="GB90_Lanchester_Armored_Car" sName="Lanchester" lName="Lanchester Armoured Car" />
     <tank ID="Grille" sName="Grille" lName="Grille" />
     <tank ID="GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GW_Tiger_P" sName="G.W. Tiger P" lName="G.W. Tiger (P)" />
@@ -641,7 +647,7 @@
     <tank ID="PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
     <tank ID="PzIII" sName="Pz. III" lName="Pz.Kpfw. III" />
     <tank ID="PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
-    <tank ID="PzIII_AusfJ" sName="Pz. III" lName="Pz.Kpfw. III" />
+    <tank ID="PzIII_AusfJ" sName="Pz. III J" lName="Pz.Kpfw. III Ausf. J" />
     <tank ID="PzIII_IV" sName="Pz. III/IV" lName="Pz.Kpfw. III/IV" />
     <tank ID="PzIII_training" sName="Pz. III" lName="Pz.Kpfw. III" />
     <tank ID="PzIV" sName="Pz. IV" lName="Pz.Kpfw. IV" />
@@ -725,8 +731,9 @@
     <tank ID="R32_Matilda_II_LL" sName="Matilda IV" lName="Matilda IV" />
     <tank ID="R33_Churchill_LL" sName="Churchill III" lName="Churchill III" />
     <tank ID="R34_BT-SV" sName="BT-SV" lName="BT-SV" />
-    <tank ID="R38_KV-220" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
+    <tank ID="R38_KV-220" sName="KV-220-2" lName="KV-220-2" />
     <tank ID="R38_KV-220_action" sName="KV-220-2" lName="KV-220-2" />
+    <tank ID="R38_KV-220_beta" sName="KV-220-2 T" lName="KV-220-2 Beta Test" />
     <tank ID="R39_KV-3" sName="KV-3" lName="KV-3" />
     <tank ID="R40_T-54" sName="T-54" lName="T-54" />
     <tank ID="R41_T-50" sName="T-50" lName="T-50" />
@@ -793,6 +800,7 @@
     <tank ID="S_35CA" sName="S35 CA" lName="S35 CA" />
     <tank ID="S_35CA_IGR" sName="S35 CA" lName="S35 CA" />
     <tank ID="S01_Strv_74_A2" sName="Strv m/42-57" lName="Strv m/42-57 Alt A.2" />
+    <tank ID="S15_L_60" sName="L-60" lName="L-60" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -940,10 +948,8 @@
     <item ID="100_thepit" Name="Mittengard" />
     <item ID="101_dday" Name="Overlord" />
     <item ID="103_ruinberg_winter" Name="Winterberg" />
-    <item ID="105_germany" Name="Berlin" />
     <item ID="10_hills" Name="Mines" />
-    <item ID="111_paris" Name="Icebound" />
-    <item ID="112_eiffel_tower" Name="Paris" />
+    <item ID="112_eiffel_tower_ctf" Name="Paris" />
     <item ID="114_czech" Name="Pilsen" />
     <item ID="11_murovanka" Name="Murovanka" />
     <item ID="13_erlenberg" Name="Erlenberg" />
@@ -974,12 +980,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h02_tmday_2015" />
-    <item ID="h10_summer_holiday_2016" />
-    <item ID="h15_gamescom_2016" />
-    <item ID="h16_wg_bday_2016" />
-    <item ID="h17_thgday_kr_2016" />
-    <item ID="h19_victory_day_cn" />
+    <item ID="h04_remday_2015" />
+    <item ID="h06_vetday_2015" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
@@ -991,23 +993,32 @@
     <item ID="87_ruinberg_on_fire" Name="Ruinberg on Fire" />
     <item ID="99_himmelball" Name="Himmelsdorf Championship" />
     <item ID="102_deathtrack" Name="Tank Rally" />
+    <item ID="111_paris" Name="Icebound" />
     <item ID="h01_bday_2015" />
+    <item ID="h02_tmday_2015" />
+    <item ID="105_germany" Name="Berlin" />
+    <item ID="112_eiffel_tower" Name="Ravaged Capital" />
     <item ID="h03_shopfest_2015" />
-    <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
-    <item ID="h06_vetday_2015" />
     <item ID="94_battlecity" />
     <item ID="h07_newyear_2015" />
     <item ID="h09_bday_cn_2016" />
     <item ID="h11_wgl_grandfinal_2016" />
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" Name="Crater" />
+    <item ID="h10_summer_holiday_2016" />
     <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
     <item ID="h14_fevent_2016" />
     <item ID="servercollision" />
+    <item ID="h15_gamescom_2016" />
+    <item ID="h16_wg_bday_2016" />
+    <item ID="h17_thgday_kr_2016" />
+    <item ID="h19_victory_day_cn" />
+    <item ID="122_somme" Name="The Somme" />
+    <item ID="h18_bdtanks100_2016" />
     <item ID="unknown" Name="Unknown" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1019,6 +1030,7 @@
     <item ID="ussr" Name="U.S.S.R." />
     <item ID="japan" Name="Japan" />
     <item ID="czech" Name="Czechoslovakia" />
+    <item ID="sweden" Name="Sweden" />
     <item ID="unknown" Name="Unknown" />
   </Lang_Nations>
   <Lang_Results>
@@ -1072,6 +1084,7 @@
     <item ID="5" Name="Technical Defeat" />
     <item ID="6" Name="Victory Points" />
     <item ID="7" Name="Objective not fulfilled" />
+    <item ID="8" Name="Mk. I destroyed" />
     <item ID="unknown" Name="Unknown" />
   </Lang_FinishReasons>
   <Lang_MasteryBadges>
@@ -3654,7 +3667,7 @@
         <req>• Destroy at least 3 enemy SPGs.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Survive the battle.\n• Win the battle.\n• SPGs must be of a higher tier than your vehicle.</req>
+        <req>• Survive the battle.\n• Win the battle.</req>
       </Secondary>
     </PM>
     <PM name="MT-8: Confrontation" short="Object 260: MT-8" desc="A good medium tank driver takes full advantage of the agility and firepower of their tank." tMID="263" opID="4" mID="8" setID="3" ID="quest_4_3_8_main" secID="quest_4_3_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
