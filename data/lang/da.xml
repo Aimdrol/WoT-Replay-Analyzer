@@ -31,10 +31,12 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
+    <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
     <tank ID="A14_T30" sName="T30" lName="T30" />
     <tank ID="A15_T57" sName="T57" lName="T57" />
@@ -63,7 +65,7 @@
     <tank ID="A36_Sherman_Jumbo" sName="M4A3E2" lName="M4A3E2 Sherman Jumbo" />
     <tank ID="A36_Sherman_Jumbo_IGR" sName="M4A3E2" lName="M4A3E2 Sherman Jumbo" />
     <tank ID="A37_M40M43" sName="M40/M43" lName="M40/M43" />
-    <tank ID="A38_T92" sName="T92" lName="T92" />
+    <tank ID="A38_T92" sName="T92 HMC" lName="T92 HMC" />
     <tank ID="A39_T28" sName="T28" lName="T28" />
     <tank ID="A40_T95" sName="T95" lName="T95" />
     <tank ID="A41_M18_Hellcat" sName="Hellcat" lName="M18 Hellcat" />
@@ -143,6 +145,7 @@
     <tank ID="Ch01_Type59" sName="Type 59" lName="Type 59" />
     <tank ID="Ch01_Type59_Gold" sName="Type 59 G" lName="Type 59 G" />
     <tank ID="Ch02_Type62" sName="Type 62" lName="Type 62" />
+    <tank ID="Ch03_WZ_111_A" sName="Alpine Tiger" lName="WZ-111 Alpine Tiger" />
     <tank ID="Ch03_WZ-111" sName="WZ-111" lName="WZ-111" />
     <tank ID="Ch04_T34_1" sName="T-34-1" lName="T-34-1" />
     <tank ID="Ch04_T34_1_training" sName="T-34-1" lName="T-34-1" />
@@ -312,6 +315,7 @@
     <tank ID="G117_Toldi_III" sName="Toldi III" lName="43 M. Toldi III" />
     <tank ID="G118_VK4503" sName="VK 45.03" lName="VK 45.03" />
     <tank ID="G119_Panzer58" sName="Pz. 58" lName="Panzer 58" />
+    <tank ID="G119_Panzer58_BF" sName="Schwarzpz.58" lName="Schwarzpanzer 58" />
     <tank ID="G119_Pz58_Mutz" sName="Pz. 58 Mutz" lName="Panzer 58 Mutz" />
     <tank ID="G12_Ltraktor" sName="L.Tr." lName="Leichttraktor" />
     <tank ID="G12_Ltraktor_bot" sName="L.Tr." lName="Leichttraktor" />
@@ -708,11 +712,12 @@
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
     <tank ID="R125_T_45" sName="T-45" lName="T-45" />
     <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Object 268 Version V" />
-    <tank ID="R127_T44_100_P" sName="T-44-100 (P)" lName="T-44-100 (P)" />
+    <tank ID="R127_T44_100_P" sName="T-44-100 (R)" lName="T-44-100 (R)" />
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
-    <tank ID="R133_KV_122" />
+    <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
+    <tank ID="R134_Object_252U" sName="Об. 252У" lName="Объект 252У" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
@@ -762,6 +767,7 @@
     <tank ID="R59_A44" sName="A-44" lName="A-44" />
     <tank ID="R60_Object416" sName="Obj. 416" lName="Object 416" />
     <tank ID="R61_Object252" sName="IS-6" lName="IS-6" />
+    <tank ID="R61_Object252_BF" sName="IS-6 B" lName="IS-6 B" />
     <tank ID="R63_ST_I" sName="ST-I" lName="ST-I" />
     <tank ID="R66_SU-26" sName="SU-26" lName="SU-26" />
     <tank ID="R67_M3_LL" sName="M3 Light" lName="M3 Light" />
@@ -803,7 +809,26 @@
     <tank ID="S_35CA" sName="S35 CA" lName="S35 CA" />
     <tank ID="S_35CA_IGR" sName="S35 CA" lName="S35 CA" />
     <tank ID="S01_Strv_74_A2" sName="Strv m/42-57" lName="Strv m/42-57 Alt A.2" />
+    <tank ID="S02_Strv_M42" sName="Strv m/42" lName="Strv m/42" />
+    <tank ID="S03_Strv_M38" sName="Strv m/38" lName="Strv m/38" />
+    <tank ID="S04_Lago_I" sName="Lago" lName="Lago" />
+    <tank ID="S05_Strv_M21_29" sName="Strv fm/21" lName="Strv fm/21" />
+    <tank ID="S06_Ikv_90_Typ_B_Bofors" sName="Ikv 90 B" lName="Ikv 90 Typ B" />
+    <tank ID="S07_Strv_74" sName="Strv 74" lName="Strv 74" />
+    <tank ID="S08_Ikv_65_Alt_2" sName="Ikv 65 II" lName="Ikv 65 Alt II" />
+    <tank ID="S09_L_120_TD" sName="Pvlvv fm/42" lName="Pvlvv fm/42" />
+    <tank ID="S10_Strv_103_0_Series" sName="Strv 103-0" lName="Strv 103-0" />
+    <tank ID="S11_Strv_103B" sName="Strv 103B" lName="Strv 103B" />
+    <tank ID="S12_Strv_M40" sName="Strv m/40L" lName="Strv m/40L" />
+    <tank ID="S13_Leo" sName="Leo" lName="Leo" />
+    <tank ID="S14_Ikv_103" sName="Ikv 103" lName="Ikv 103" />
     <tank ID="S15_L_60" sName="L-60" lName="L-60" />
+    <tank ID="S16_Kranvagn" sName="Kranvagn" lName="Kranvagn" />
+    <tank ID="S17_EMIL_1952_E2" sName="Emil II" lName="Emil II" />
+    <tank ID="S18_EMIL_1951_E1" sName="Emil I" lName="Emil I" />
+    <tank ID="S19_Sav_M43" sName="Sav m/43" lName="Sav m/43" />
+    <tank ID="S20_Ikv_72" sName="Ikv 72" lName="Ikv 72" />
+    <tank ID="S21_UDES_03" sName="UDES 03" lName="UDES 03" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -905,7 +930,7 @@
     <tank ID="T71_IGR" sName="PC방 T71" lName="T71" />
     <tank ID="T80" sName="T-80" lName="T-80" />
     <tank ID="T82" sName="T82" lName="T82" />
-    <tank ID="T92" sName="T92" lName="T92" />
+    <tank ID="T92" sName="T92 HMC" lName="T92 HMC" />
     <tank ID="T95" sName="T95" lName="T95" />
     <tank ID="T95_E2" sName="T95E2" lName="T95E2" />
     <tank ID="T95_E6" sName="T95E6" lName="T95E6" />
@@ -983,8 +1008,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fremskudt ildpunkt" />
-    <item ID="h04_remday_2015" />
-    <item ID="h06_vetday_2015" />
+    <item ID="h07_newyear_2015" />
+    <item ID="h08_kr_lnewyear_2015" />
     <item ID="03_campania" Name="Province" />
     <item ID="15_komarin" Name="Komarin" />
     <item ID="39_crimea" Name="South Coast" />
@@ -1002,9 +1027,10 @@
     <item ID="105_germany" Name="Berlin" />
     <item ID="112_eiffel_tower" Name="Plyndret hovedstad" />
     <item ID="h03_shopfest_2015" />
+    <item ID="h04_remday_2015" />
     <item ID="h05_thanks_2015" />
+    <item ID="h06_vetday_2015" />
     <item ID="94_battlecity" />
-    <item ID="h07_newyear_2015" />
     <item ID="h09_bday_cn_2016" />
     <item ID="h11_wgl_grandfinal_2016" />
     <item ID="h12_bday_eu_2015" />
@@ -1308,10 +1334,17 @@
     <achv ID_Num="858" ID="unreachable" Name="Hil kongen, kammerat!" />
     <achv ID_Num="859" ID="champion" Name="Rambo" />
     <achv ID_Num="860" ID="bannerman" Name="Farvestrøg" />
-    <achv ID_Num="861" ID="sauronEye" Name="De få overlevende" />
     <achv ID_Num="862" ID="moonSphere" Name="Trickskud" />
     <achv ID_Num="875" ID="EFC2016" Name="Fodboldspiller 2016" />
     <achv ID_Num="876" ID="EFC2016Goleador" Name="Hattrick" />
+    <achv ID_Num="877" ID="markIProtector" Name="Æresgarde" />
+    <achv ID_Num="878" ID="markIBaseProtector" Name="Basebeskytter" />
+    <achv ID_Num="879" ID="markIBomberman" Name="Bombemand" />
+    <achv ID_Num="880" ID="markIRepairer" Name="Feltreparationer" />
+    <achv ID_Num="881" ID="markI100Years" Name="100 år med kampvogne {0}" />
+    <achv ID_Num="882" ID="xmasTreeBronze" Name="Grum es tanker, klasse III" />
+    <achv ID_Num="883" ID="xmasTreeSilver" Name="Grum es tanker, klasse II" />
+    <achv ID_Num="884" ID="xmasTreeGold" Name="Grum es tanker, klasse I" />
     <achv ID_Num="0" ID="unknown" Name="Ukendt" />
   </Lang_Achievements>
   <Lang_PersonalMissions>
