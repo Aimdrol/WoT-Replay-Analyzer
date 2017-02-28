@@ -88,6 +88,7 @@
     <DataTank ID="R86_LTP" numID="221" numID_Nation="0" Tier="3" Type="lt" />
     <DataTank ID="R99_T44_122" numID="222" numID_Nation="0" Tier="7" Type="mt" />
     <DataTank ID="R98_T44_85" numID="223" numID_Nation="0" Tier="7" Type="mt" />
+    <DataTank ID="R98_T44_85M" numID="224" numID_Nation="0" Tier="8" Type="mt" />
     <DataTank ID="R108_T34_85M" numID="227" numID_Nation="0" Tier="6" Type="mt" />
     <DataTank ID="R110_Object_260" numID="228" numID_Nation="0" Tier="10" Type="ht" />
     <DataTank ID="R111_ISU130" numID="229" numID_Nation="0" Tier="8" Type="td" />
@@ -114,6 +115,8 @@
     <DataTank ID="R133_KV_122" numID="195" numID_Nation="0" Tier="7" Type="ht" />
     <DataTank ID="R134_Object_252U" numID="194" numID_Nation="0" Tier="8" Type="ht" />
     <DataTank ID="R61_Object252_BF" numID="193" numID_Nation="0" Tier="8" Type="ht" />
+    <DataTank ID="R122_T44_100B" numID="191" numID_Nation="0" Tier="8" Type="mt" />
+    <DataTank ID="R134_Object_252K" numID="190" numID_Nation="0" Tier="8" Type="ht" />
     <DataTank ID="R87_T62A_fallout" numID="249" numID_Nation="0" Tier="10" Type="mt" />
     <DataTank ID="R45_IS-7_fallout" numID="251" numID_Nation="0" Tier="10" Type="ht" />
     <DataTank ID="R47_ISU-152_IGR" numID="151" numID_Nation="0" Tier="8" Type="td" />
@@ -300,8 +303,13 @@
     <DataTank ID="G101_StuG_III" numID="70" numID_Nation="1" Tier="4" Type="td" />
     <DataTank ID="G81_Pz_IV_AusfH" numID="71" numID_Nation="1" Tier="5" Type="mt" />
     <DataTank ID="G103_RU_251" numID="72" numID_Nation="1" Tier="8" Type="lt" />
+    <DataTank ID="G110_Typ_205" numID="73" numID_Nation="1" Tier="9" Type="ht" />
     <DataTank ID="G113_SP_I_C" numID="74" numID_Nation="1" Tier="7" Type="lt" />
     <DataTank ID="G121_Grille_15_L63" numID="75" numID_Nation="1" Tier="10" Type="td" />
+    <DataTank ID="G92_VK7201P" numID="76" numID_Nation="1" Tier="10" Type="ht" />
+    <DataTank ID="G115_Typ_205B" numID="77" numID_Nation="1" Tier="8" Type="ht" />
+    <DataTank ID="G44_JagdTigerH" numID="193" numID_Nation="1" Tier="8" Type="td" />
+    <DataTank ID="G16_PzVIB_Tiger_II_F" numID="194" numID_Nation="1" Tier="7" Type="ht" />
     <DataTank ID="G119_Panzer58_BF" numID="195" numID_Nation="1" Tier="8" Type="mt" />
     <DataTank ID="G114_Rheinmetall_Skorpian" numID="196" numID_Nation="1" Tier="8" Type="td" />
     <DataTank ID="G32_PzV_PzIV_CN" numID="197" numID_Nation="1" Tier="6" Type="mt" />
@@ -679,8 +687,8 @@
     <DataTank ID="Ch11_110_IGR" numID="152" numID_Nation="3" Tier="8" Type="ht" />
     <DataTank ID="Ch19_121_IGR" numID="153" numID_Nation="3" Tier="10" Type="mt" />
     <DataTank ID="Ch06_Renault_NC31_bot" numID="160" numID_Nation="3" Tier="1" Type="lt" />
-    <DataTank ID="F03_D2" numID="1" numID_Nation="4" Tier="3" Type="mt" />
     <DataTank ID="F01_RenaultFT" numID="2" numID_Nation="4" Tier="1" Type="lt" />
+    <DataTank ID="F03_D2" numID="1" numID_Nation="4" Tier="3" Type="mt" />
     <DataTank ID="F20_RenaultBS" numID="3" numID_Nation="4" Tier="2" Type="spg" />
     <DataTank ID="F04_B1" numID="4" numID_Nation="4" Tier="4" Type="ht" />
     <DataTank ID="F12_Hotchkiss_H35" numID="5" numID_Nation="4" Tier="2" Type="lt" />
@@ -951,9 +959,11 @@
     <DataTank ID="S06_Ikv_90_Typ_B_Bofors" numID="15" numID_Nation="8" Tier="7" Type="td" />
     <DataTank ID="S01_Strv_74_A2" numID="201" numID_Nation="8" Tier="6" Type="mt" />
     <DataTank ID="S15_L_60" numID="202" numID_Nation="8" Tier="2" Type="lt" />
+    <DataTank ID="S22_Strv_S1" numID="203" numID_Nation="8" Tier="8" Type="td" />
     <DataTank ID="S21_UDES_03" numID="16" numID_Nation="8" Tier="8" Type="td" />
     <DataTank ID="S10_Strv_103_0_Series" numID="17" numID_Nation="8" Tier="9" Type="td" />
     <DataTank ID="S11_Strv_103B" numID="18" numID_Nation="8" Tier="10" Type="td" />
+    <DataTank ID="S23_Strv_81" numID="204" numID_Nation="8" Tier="8" Type="mt" />
   </Tanks>
   <Maps>
     <DataItem ID="01_karelia" numID="1" />
@@ -1248,7 +1258,7 @@
     <ExpectedValueItem TnumID="34" NnumID="5" kills="1.11" spots="0.76" DMG="549.87" WR="0.5698" Def="1.58" />
     <ExpectedValueItem TnumID="35" NnumID="0" kills="0.85" spots="1.47" DMG="788.67" WR="0.5386" Def="0.91" />
     <ExpectedValueItem TnumID="35" NnumID="1" kills="1" spots="0.05" DMG="1179.13" WR="0.5168" Def="0.95" />
-    <ExpectedValueItem TnumID="35" NnumID="2" kills="0.91" spots="1.46" DMG="1486.2" WR="0.5079" Def="0.75" />
+    <ExpectedValueItem TnumID="35" NnumID="2" kills="0.91" spots="1.46" DMG="2972.4" WR="0.5079" Def="0.75" />
     <ExpectedValueItem TnumID="35" NnumID="5" kills="1.23" spots="1.27" DMG="448.8" WR="0.5718" Def="1.37" />
     <ExpectedValueItem TnumID="36" NnumID="0" kills="1.08" spots="1.15" DMG="1403.32" WR="0.5363" Def="0.82" />
     <ExpectedValueItem TnumID="36" NnumID="1" kills="0.89" spots="0.04" DMG="1701.21" WR="0.4882" Def="0.55" />
@@ -1268,7 +1278,7 @@
     <ExpectedValueItem TnumID="39" NnumID="4" kills="1.3" spots="0.79" DMG="676.29" WR="0.5503" Def="1.35" />
     <ExpectedValueItem TnumID="39" NnumID="5" kills="1.11" spots="0.67" DMG="1190.78" WR="0.5619" Def="1.3" />
     <ExpectedValueItem TnumID="40" NnumID="0" kills="1.01" spots="0.82" DMG="1027.09" WR="0.5354" Def="1.11" />
-    <ExpectedValueItem TnumID="40" NnumID="1" kills="0.91" spots="1.34" DMG="1528.52" WR="0.50479999999999992" Def="0.75" />
+    <ExpectedValueItem TnumID="40" NnumID="1" kills="0.91" spots="1.34" DMG="4585.56" WR="0.50479999999999992" Def="0.75" />
     <ExpectedValueItem TnumID="40" NnumID="2" kills="1.24" spots="1.38" DMG="473" WR="0.5791" Def="1.46" />
     <ExpectedValueItem TnumID="41" NnumID="0" kills="1.09" spots="0.73" DMG="862.17" WR="0.545" Def="0.7" />
     <ExpectedValueItem TnumID="41" NnumID="1" kills="0.86" spots="1.19" DMG="1216.9" WR="0.5133" Def="0.84" />
@@ -1320,7 +1330,7 @@
     <ExpectedValueItem TnumID="52" NnumID="5" kills="1.12" spots="0.54" DMG="621.19" WR="0.5456" Def="1.47" />
     <ExpectedValueItem TnumID="53" NnumID="0" kills="1.08" spots="0.8" DMG="2159.69" WR="0.48710000000000003" Def="0.7" />
     <ExpectedValueItem TnumID="53" NnumID="1" kills="1.11" spots="1.62" DMG="379.1" WR="0.5729" Def="1.16" />
-    <ExpectedValueItem TnumID="54" NnumID="0" kills="0.97" spots="1.5" DMG="1770.76" WR="0.48560000000000003" Def="0.75" />
+    <ExpectedValueItem TnumID="54" NnumID="0" kills="1.17" spots="1.52" DMG="1988.35" WR="0.51950000000000007" Def="0.97" />
     <ExpectedValueItem TnumID="54" NnumID="1" kills="0.83" spots="1.21" DMG="1134.78" WR="0.504" Def="0.95" />
     <ExpectedValueItem TnumID="54" NnumID="2" kills="1.07" spots="0.75" DMG="2214.02" WR="0.5104" Def="0.56" />
     <ExpectedValueItem TnumID="54" NnumID="4" kills="1.17" spots="0.86" DMG="2217.84" WR="0.4916" Def="0.7" />
@@ -1367,9 +1377,9 @@
     <ExpectedValueItem TnumID="65" NnumID="0" kills="0.54" spots="2.61" DMG="427.11" WR="0.5259" Def="0.63" />
     <ExpectedValueItem TnumID="65" NnumID="1" kills="1.19" spots="0.54" DMG="1617.19" WR="0.516" Def="1.02" />
     <ExpectedValueItem TnumID="65" NnumID="2" kills="0.71" spots="2.25" DMG="630.77" WR="0.5405" Def="0.82" />
-    <ExpectedValueItem TnumID="66" NnumID="0" kills="1.04" spots="1.54" DMG="1873.31" WR="0.4919" Def="0.84" />
+    <ExpectedValueItem TnumID="66" NnumID="0" kills="1.17" spots="1.52" DMG="1988.35" WR="0.51950000000000007" Def="0.97" />
     <ExpectedValueItem TnumID="66" NnumID="1" kills="1.33" spots="0.49" DMG="2275.67" WR="0.49090000000000006" Def="0.75" />
-    <ExpectedValueItem TnumID="67" NnumID="0" kills="1.05" spots="1.52" DMG="1817.73" WR="0.5023" Def="0.79" />
+    <ExpectedValueItem TnumID="67" NnumID="0" kills="1.17" spots="1.52" DMG="1988.35" WR="0.51950000000000007" Def="0.97" />
     <ExpectedValueItem TnumID="67" NnumID="1" kills="1.36" spots="1.31" DMG="312.16" WR="0.5851" Def="1.01" />
     <ExpectedValueItem TnumID="68" NnumID="1" kills="1.1" spots="1.35" DMG="427.76" WR="0.5678" Def="0.93" />
     <ExpectedValueItem TnumID="69" NnumID="0" kills="1.02" spots="1.45" DMG="1534.38" WR="0.5312" Def="0.83" />
@@ -1507,7 +1517,34 @@
     <ExpectedValueItem TnumID="251" NnumID="1" kills="0.93" spots="1.38" DMG="1262.45" WR="0.528" Def="1" />
     <ExpectedValueItem TnumID="252" NnumID="3" kills="0.89" spots="1.31" DMG="1219.52" WR="0.51450000000000007" Def="0.7" />
     <ExpectedValueItem TnumID="253" NnumID="3" kills="0.67" spots="2.39" DMG="584.05" WR="0.522" Def="0.76" />
+    <ExpectedValueItem TnumID="0" NnumID="8" kills="1.86" spots="1.96" DMG="252" WR="0.5911" Def="1.5" />
+    <ExpectedValueItem TnumID="1" NnumID="8" kills="1.52" spots="1.65" DMG="261.29" WR="0.5869" Def="1.69" />
+    <ExpectedValueItem TnumID="2" NnumID="8" kills="1.45" spots="1.42" DMG="350.18" WR="0.5928" Def="1.41" />
+    <ExpectedValueItem TnumID="3" NnumID="8" kills="0.99" spots="1.24" DMG="367.67" WR="0.55590000000000006" Def="1.04" />
+    <ExpectedValueItem TnumID="4" NnumID="8" kills="0.92" spots="1.21" DMG="484.73" WR="0.5375" Def="0.99" />
+    <ExpectedValueItem TnumID="5" NnumID="8" kills="0.98" spots="1.41" DMG="734.12" WR="0.54799999999999993" Def="0.93" />
+    <ExpectedValueItem TnumID="6" NnumID="8" kills="0.95" spots="1.65" DMG="971.2" WR="0.5457" Def="1.01" />
+    <ExpectedValueItem TnumID="7" NnumID="8" kills="1.07" spots="0.96" DMG="1375.67" WR="0.5114" Def="0.93" />
+    <ExpectedValueItem TnumID="8" NnumID="8" kills="0.98" spots="0.88" DMG="1610.8" WR="0.4966" Def="0.78" />
+    <ExpectedValueItem TnumID="9" NnumID="8" kills="1.07" spots="0.99" DMG="1991.45" WR="0.4808" Def="0.78" />
+    <ExpectedValueItem TnumID="10" NnumID="8" kills="1.69" spots="1.14" DMG="282.41" WR="0.5803" Def="1.42" />
+    <ExpectedValueItem TnumID="11" NnumID="8" kills="1.4" spots="0.94" DMG="398.69" WR="0.5889" Def="1.39" />
+    <ExpectedValueItem TnumID="12" NnumID="8" kills="1.38" spots="0.62" DMG="444.65" WR="0.56090000000000007" Def="1.12" />
+    <ExpectedValueItem TnumID="13" NnumID="8" kills="1.12" spots="0.58" DMG="577.37" WR="0.5446" Def="1.16" />
+    <ExpectedValueItem TnumID="14" NnumID="8" kills="1.02" spots="0.77" DMG="729.44" WR="0.5251" Def="1.11" />
+    <ExpectedValueItem TnumID="15" NnumID="8" kills="1.01" spots="0.82" DMG="1027.09" WR="0.5354" Def="1.11" />
+    <ExpectedValueItem TnumID="16" NnumID="8" kills="0.95" spots="0.87" DMG="1225.21" WR="0.5094" Def="0.94" />
+    <ExpectedValueItem TnumID="17" NnumID="8" kills="0.96" spots="0.83" DMG="1521.63" WR="0.49950000000000006" Def="0.83" />
+    <ExpectedValueItem TnumID="18" NnumID="8" kills="1.07" spots="0.95" DMG="2095.36" WR="0.5018" Def="0.74" />
+    <ExpectedValueItem TnumID="202" NnumID="8" kills="1.06" spots="2.55" DMG="191.01" WR="0.55399999999999994" Def="0.96" />
+    <ExpectedValueItem TnumID="230" NnumID="2" kills="0.89" spots="1.19" DMG="1270.33" WR="0.526" Def="0.88" />
+    <ExpectedValueItem TnumID="231" NnumID="2" kills="0.89" spots="1.19" DMG="1270.33" WR="0.526" Def="0.88" />
+    <ExpectedValueItem TnumID="242" NnumID="4" kills="0.86" spots="1.15" DMG="1133.63" WR="0.4799" Def="0.82" />
+    <ExpectedValueItem TnumID="232" NnumID="2" kills="0.82" spots="0.83" DMG="1280.24" WR="0.50950000000000006" Def="0.69" />
+    <ExpectedValueItem TnumID="195" NnumID="1" kills="0.93" spots="1.38" DMG="1262.45" WR="0.528" Def="1" />
+    <ExpectedValueItem TnumID="193" NnumID="0" kills="1.08" spots="1.15" DMG="1403.32" WR="0.5363" Def="0.82" />
+    <ExpectedValueItem TnumID="194" NnumID="0" kills="0.94" spots="1.05" DMG="1339.67" WR="0.52369999999999994" Def="0.77" />
   </ExpectedValues>
-  <ExpectedValuesVersion>28</ExpectedValuesVersion>
-  <LastUpdate_ExpectedValues>2016-12-17T02:07:55.1201956+01:00</LastUpdate_ExpectedValues>
+  <ExpectedValuesVersion>29</ExpectedValuesVersion>
+  <LastUpdate_ExpectedValues>2017-02-28T01:30:17.0799809+01:00</LastUpdate_ExpectedValues>
 </Data>
