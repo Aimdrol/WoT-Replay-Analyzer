@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="The Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Άγνωστο" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Ειδική Μάχη" />
     <item ID="5" Name="Ειδική Μάχη" />
     <item ID="6" Name="Εκπαίδευση Μάχης" />
-    <item ID="7" Name="Ομάδα: Μάχες χωρίς Κατάταξη" />
+    <item ID="7" Name="Μάχη με Ομάδα" />
     <item ID="8" Name="Ιστορική Μάχη" />
     <item ID="9" Name="Ειδικές μάχες" />
     <item ID="10" Name="Αψιμαχίες" />
@@ -1899,136 +1911,136 @@
         <req>• Καταστρέψτε 1 εχθρικό όχημα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="StuG IV: SPG-1" desc="Μην σπαταλάτε τα πυρομαχικά σας. Η ακρίβεια στις βολές θα φέρει τη νίκη." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Να έχετε υπομονή και να έχετε στοχεύσει πλήρως πριν την κάθε βολή.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="StuG IV: SPG-1" desc="Η μεγάλη ακτίνα διασποράς της έκρηξης είναι πολύ σημαντική για τα Α/Κ Πυροβόλα. Ακόμη και αν δεν πετύχετε άμεσο χτύπημα σε εχθρικό όχημα, υπάρχει πάντα η πιθανότητα να προκαλέσετε σοκ σε αυτό. Το εχθρικό όχημα τότε έχει την ειδική σήμανση του σοκ, το οποίο είναι ορατό σε όλους τους συμπαίκτες σας. Εάν προκληθεί φθορά από την ομάδα σας σε οχήματα που είναι σε σοκ εξαιτίας σας, τότε εσείς κερδίζετε επιπλέον credits και ΧΡ εξαιτίας της συνεισφοράς σας." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 3 εύστοχες βολές σε εχθρικά οχήματα που θα προκαλέσουν φθορά.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα τουλάχιστον 3 φορές.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 3 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="StuG IV: SPG-2" desc="Το πυροβολικό δεν μπορεί να στηριχθεί στη θωράκισή του ή στην ταχύτητά του. Ως χρήστης πυροβολικού θα πρέπει να μάθετε πώς να παραμένετε καλυμμένος σε όλη τη διάρκεια της μάχης." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Το Δίχτυ Καμουφλάζ σε συνδυασμό με το εξωτερικό Καμουφλάζ, όταν τοποθετούνται σε πυροβολικό, αυξάνουν σημαντικά τον συντελεστή κάλυψης.</Hint>
+    <PM name="SPG-2: Time Is Money" short="StuG IV: SPG-2" desc="Ένα εχθρικό όχημα παραμένει σε σοκ για συγκεκριμένο χρονικό διάστημα και δεν μπορεί να αποδώσει τα μέγιστα στη μάχη. Να θυμάστε: ένα όχημα σε σοκ είναι εύκολος στόχος." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 500 HP σε εχθρικά οχήματα χωρίς να εντοπιστείτε από τον εχθρό κατά τη διάρκεια της μάχης.\n• Επιβιώστε της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 50 sec συνολικά.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό όχημα.</req>
+        <req>• Καταστρέψτε τουλάχιστον 1 εχθρικό όχημα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="StuG IV: SPG-3" desc="Εάν θέλετε να αποτελείτε ένα σημαντικό κεφάλαιο για την ομάδα σας, θα πρέπει να μάθετε να πυροβολείτε αποτελεσματικά." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Προσεκτικά παρακολουθήστε τη ροή της μάχης και υποστηρίξτε την ομάδα σας. Μη μένετε στο ίδιο σημείο για πολύ ώρα. Οπισθοχωρήστε ή αναζητήστε άλλο στρατηγικό σημείο εάν χρειαστεί.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="StuG IV: SPG-3" desc="Τα καλυμμένα και πανίσχυρα εχθρικά αντιαρματικά καθώς και τα βαρέα άρματα μάχης με την καλή θωράκιση μπορούν εύκολα να κρίνουν τη μάχη. Αποτελούν τους πρωταρχικούς στόχους και η πρόκληση φθοράς σε αυτά (ή η συνεισφορά στην καταστροφή τους) θα πρέπει να είναι το κύριο μέλημα των Α/Κ πυροβόλων. Η πλειοψηφία των βαρέων αρμάτων και των αντιαρματικών είναι αργά και δυσκίνητα οχήματα, κάτι που αυξάνει την πιθανότητα εύστοχης βολής." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP σε εχθρικά οχήματα.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Κερδίστε τη μάχη.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Break On Through" short="StuG IV: SPG-4" desc="Τα βλήματα ΗΕ όχι μόνο προκαλούν φθορά στον αντίπαλο, αλλά έχουν μεγάλη πιθανότητα να καταστρέψουν εξαρτήματα ή να βγάλουν εκτός μάχης μέλη του εχθρικού πληρώματος, χάρη στη φθορά από διασπορά." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Ένα βλήμα ΗΕ, μόνο εάν διαπεράσει πλήρως την θωράκιση του εχθρικού οχήματος προκαλεί τη μέγιστη φθορά. Εάν τα βλήματά σας έχουν μέτρια δυνατότητα διάτρησης, προσπαθήστε να πλήξετε οχήματα με ανοιχτό πυργίσκο ή να χρησιμοποιήσετε Προνομιακά πυρομαχικά.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε ή προκαλέστε φθορά σε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 3 εξαρτήματα και μέλη πληρώματος.\n• Τα εξαρτήματα στα οποία προκαλέσατε φθορά ή καταστρέψατε και τα τραυματισμένα μέλη του πληρώματος προστίθενται.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 2 φορές.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="StuG IV: SPG-5" desc="Η μεγάλη δύναμη πυρός αντισταθμίζει σε μεγάλο βαθμό την ισχνή αντοχή του Α/Κ Πυροβόλου σας." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Μελετήστε τα χαρακτηριστικά των βλημάτων του πυροβολικού σας, ιδιαίτερα την ακτίνα διασποράς. Ένα βλήμα ΗΕ, ακόμα και αν αστοχήσει για λίγο, είναι πιθανό να προκαλέσει φθορά από τη διασπορά των θραυσμάτων του.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Η φθορά που προκαλέσατε σε εχθρικά οχήματα να υπερβαίνει το τετραπλάσιο των hit points του οχήματός σας.\n• Φθορά σε παίκτες της ίδιας ομάδας δεν υπολογίζεται.</req>
+    <PM name="SPG-4: I'll See You Through" short="StuG IV: SPG-4" desc="Θα πρέπει να γνωρίζετε τις κυριότερες διαδρομές των εχθρικών βαρέων αρμάτων μάχης και τις συνηθέστερες θέσεις κάλυψης των αντιαρματικών. Η στόχευση εκ των προτέρων σε μία περιοχή αυξάνει την πιθανότητα για εύστοχες βολές. Αυτών των τύπων τα οχήματα είναι συνήθως προβλέψιμα ανάλογα με τον χάρτη. Ενεργήστε με εξυπνάδα: αναλύστε τη σύνθεση της αντίπαλης ομάδας και λάβετε την καταλληλότερη θέση από το ξεκίνημα της μάχης." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 30 sec συνολικά.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό όχημα.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="StuG IV: SPG-6" desc="Συχνά θα αντιμετωπίζετε οχήματα μεγαλύτερης βαθμίδας. Αυτό όμως δεν αποτελεί πρόβλημα για έναν έμπειρο χρήστη πυροβολικού." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Εάν δεν μπορείτε να διαπεράσετε τη θωράκιση του εχθρικού οχήματος, μπορείτε να δοκιμάσετε χρησιμοποιώντας Προνομιακά βλήματα. Ρίξτε στα πλάγια και στην πίσω πλευρά του εχθρικού οχήματος. Το πυροβολικό, με την τροχιά που έχουν τα βλήματά του, μπορεί να πλήξει τα οχήματα στο πάνω μέρος του πυργίσκου, όπου η θωράκιση δεν είναι μεγάλη. Τα οχήματα με ανοικτό πυργίσκο είναι ακόμα πιο ευάλωτα σε τέτοιες βολές.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="StuG IV: SPG-5" desc="Το σοκ σε εχθρικά οχήματα από εσάς δεν φέρνει μόνο τη νίκη πιο κοντά αλλά φέρνει και περισσότερα credits και ΧΡ για εσάς εάν οι συμπαίκτες σας προκαλέσουν φορά σε αυτά τα οχήματα. Μην ξεχνάτε να δείχνετε στους συμπαίκτες σας που σημαδεύετε (με το Τ ως προκαθορισμένο πλήκτρο) για να επικεντρώνουν την προσοχή τους σε εκείνο το σημείο." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα της ίδιας ή μεγαλύτερης βαθμίδας από του οχήματός σας.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 600 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 3 φορές με βολές ή εμβολισμό.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hammer of the Gods" short="StuG IV: SPG-6" desc="Ο πρωταρχικός σκοπός των Α/Κ Πυροβόλων είναι να παρέχουν πυρά υποστήριξης στους συμπαίκτες τους. Εχθρικά οχήματα σε σοκ είναι αδύναμοι αντίπαλοι και οι συμπαίκτες σας θα εκτιμήσουν τη βοήθειά σας. Ωστόσο, θα πρέπει να προσέχετε γιατί μία βολή μπορεί να προκαλέσει σοκ σε οχήματα της ομάδας σας. Τα πυρά σε συμπαίκτες δεν συγχωρούνται." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν φθορά σε τουλάχιστον 2 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="StuG IV: SPG-7" desc="Θα πρέπει να καταστρέφετε τα εχθρικά αντιαρματικά και πυροβολικά με την πρώτη ευκαιρία. Η εξουδετέρωσή τους μπορεί να αλλάξει τη ροή της μάχης προς όφελός σας." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Συντονίστε τις ενέργειές σας με τα ελαφρά άρματα μάχης της ομάδας σας. Ο εντοπισμός και η καταστροφή των εχθρικών αντιαρματικών και πυροβολικών μπορεί να οδηγήσουν στην τελική επικράτηση στο πεδίο της μάχης.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="StuG IV: SPG-7" desc="Για την ολοκλήρωση αυτής της αποστολής, επιλέξτε προσεκτικά τους στόχους σας. Μην επικεντρώνετε τα πυρά σας σε ένα μόνο όχημα, όσο εύκολος στόχος και αν είναι. Η καλύτερη τακτική είναι να ρίχνετε πυρά σε μεγάλες ομάδες από εχθρικά οχήματα. Μελετήστε τους χάρτες και μάθετε τα σημεία που επιλέγουν τα οχήματα." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό αντιαρματικό ή Α/Κ Πυροβόλο.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 2 εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="StuG IV: SPG-8" desc="Ένα βαρύ άρμα μάχης είναι ένας δύσκολος αντίπαλος, αλλά όχι για το πυροβόλο σας. Τα βλήματα με ελλειπτική τροχιά μπορούν να πλήξουν οποιοδήποτε όχημα στην κορυφή του πυργίσκου όπου η θωράκιση είναι πιο λεπτή." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Τα βαρέα άρματα μάχης κινούνται σε γενικές γραμμές πιο αργά από οχήματα άλλων τύπων. Επομένως, μπορείτε πιο εύκολα να προβλέψετε που θα βρίσκεται το άρμα μάχης όταν το βλήμα σας φτάσει στο στόχο. Για έναν χειριστή πυροβολικού είναι χρήσιμο να γνωρίζει την ταχύτητα των βλημάτων του.</Hint>
+    <PM name="SPG-8: I Did My Best" short="StuG IV: SPG-8" desc="Κερδίζετε ΧΡ από κάθε θετική σας ενέργεια στη μάχη. Προσπαθήστε να γίνετε ο MVP: προκαλέστε φθορά, συνεισφέρετε σε καταστροφές εχθρικών οχημάτων και επιβιώστε της μάχης. Αλλάξτε θέση μετά από κάθε βολή, αλλιώς θα δεχθείτε πυρά από τα αντίπαλα Α/Κ Πυροβόλα τα οποία μπορούν να καταστρέψουν το όχημά σας." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.000 HP σε εχθρικά βαρέα άρματα μάχης.</req>
+        <req>• Καταλάβετε μία από τις 7 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό βαρύ άρμα μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Till You Hit Them" short="StuG IV: SPG-9" desc="Ένας πεπειραμένος χρήστης πυροβολικού μπορεί με ευκολία να πλήξει κινούμενους στόχους. Μάθετε πώς να προβλέπετε αποτελεσματικά την κίνηση των εχθρικών οχημάτων όταν ρίχνετε βολές σε αυτά. Να θυμάστε ότι το βλήμα με άμεση εύστοχη βολή μπορεί να προκαλέσει πολύ περισσότερη φθορά από ότι με διασπορά." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Η ταχύτητα των βλημάτων σας είναι μία σημαντική παράμετρος. Γνωρίζοντας το πότε το βλήμα θα φτάσει στο στόχο, μπορείτε να υπολογίσετε την όποια απόκλιση.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="StuG IV: SPG-9" desc="Τα βλήματα ΗΕ με την μεγάλη ισχύ πυρός μπορούν όχι μόνο να προκαλέσουν μεγάλη φθορά στα αντίπαλα οχήματα αλλά να καταστρέψουν εξαρτήματα και να τραυματίσουν μέλη του πληρώματός τους εξαιτίας της μεγάλης διασποράς." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά σε εχθρικό όχημα που κινείται με ταχύτητα τουλάχιστον 20 km/h.\n• Υπολογίζεται και η φθορά από απευθείας βολή και η φθορά από διασπορά.\n• Δεν υπολογίζεται η φθορά από εμβολισμό.</req>
+        <req>• Καταστρέψτε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 3 εξαρτήματα και μέλη πληρώματος.\n• Η άθροιση των τραυματισμένων μελών του πληρώματος και των χαλασμένων εξαρτημάτων γίνεται από όλα τα οχήματα στα οποία προκαλέσατε φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="StuG IV: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
+    <PM name="SPG-10: All Included" short="StuG IV: SPG-10" desc="Η κατάσταση στη μάχη μπορεί να αλλάξει σε μια στιγμή—πάντα να ελέγχετε τη μικρογραφία του χάρτη και να έχετε άμεση άποψη για τη θέση των εχθρικών οχημάτων. Καλύτερα να κινήστε μέσα στο πεδίο της μάχης παρά να μαίνεται στο ίδιο σημείο. Οι συμπαίκτες σας βασίζονται στη δύναμη πυρός του Α/Κ Πυροβόλου σας. Κάντε το καλύτερο δυνατόν την κατάλληλη στιγμή." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 1 εχθρικό Α/Κ Πυροβόλο.</req>
+        <req>• Η συνολική φθορά από εσάς και από τους συμπαίκτες σας θα πρέπει να είναι τουλάχιστον 1.000 ΗΡ σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 1 εχθρικό όχημα σε σοκ ή ακινητοποιημένο από εσάς.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Μπορείτε κυριολεκτικά να έχετε με ένα σμπάρο 2 τρυγόνια, εάν είναι συγκεντρωμένα μερικά εχθρικά οχήματα σε ένα σημείο. Κάτι το σύνηθες σε χάρτη με πόλη.</Hint>
+    <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="Επιπρόσθετα με την πολύ μεγάλη φθορά από μία εύστοχη βολή, ένα βλήμα ΗΕ μπορεί να προκαλέσει σοκ σε όλα τα οχήματα μέσα στην ακτίνα διασποράς της έκρηξης. Σε πολλούς χάρτες, υπάρχουν σημεία που συνωστίζονται εχθρικά οχήματα. Εκμεταλλευτείτε το και στείλτε τα «εκρηκτικά» χαιρετίσματά σας." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό όχημα με μία και μόνη βολή.\n• Υπολογίζονται μόνο οι στόχοι που δεν έχουν δεχθεί πιο πριν φθορά μέσα στη μάχη.</req>
+        <req>• Προκαλέστε σοκ σε 2 εχθρικά οχήματα με μία και μόνη βολή.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 50 sec συνολικά.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: The Evil Eye" short="StuG IV: SPG-12" desc="Οι συμπαίκτες σας κατέστρεψαν ένα όχημα σε σοκ? Καλά νέα για σας, αφού η συνεισφορά σας, φέρνει πιο κοντά τη νίκη! Ο ρόλος σας είναι να παρέχετε πυρά υποστήριξης και να βοηθάτε την ομάδα σας την κατάλληλη στιγμή στο κατάλληλο σημείο." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 50 sec συνολικά.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 1 εχθρικό όχημα σε σοκ ή ακινητοποιημένο από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="StuG IV: SPG-12" desc="Ο τρόπος που παίζεται το πυροβολικό διαφέρει δραματικά από κάθε άλλο τύπο οχήματος. Αλλά ο κύριος σκοπός παραμένει ο ίδιος: κάνε ότι καλύτερο μπορείς στη μάχη και βοήθησε όσο μπορείς την ομάδα σου να πετύχει το σκοπό της." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Μην μπαίνετε σε στόχευση πυροβολικού από την αρχή της μάχης. Πρώτα βρείτε ένα καλό σημείο.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="StuG IV: SPG-13" desc="Η καλή συνεργασία ενός Α/Κ Πυροβόλου με τα υπόλοιπα μέλη της ομάδας είναι σίγουρο ότι θα προκαλέσει μεγάλη αναστάτωση στους αντιπάλους. Συντονίστε τις ενέργειές σας και επικεντρώστε τα πυρά σε έναν στόχο κάθε φορά." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα.\n• Καταστρέψτε ένα εχθρικό όχημα.</req>
+        <req>• Να προκαλέσετε φθορά τουλάχιστον 4 φορές ή σοκ τουλάχιστον 6 φορές σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Ατομική/με Ουλαμό)" short="StuG IV: SPG-13" desc="Ένας Ουλαμός αποτελούμενος από πυροβολικά είναι πολύ επικίνδυνος για τον εχθρό. Συντονίστε τις ενέργειές σας μέσα στον Ουλαμό και εξουδετερώστε εχθρούς με συγκεντρωτικά πυρά. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Κυριαρχήστε στον χάρτη, διασκορπιστείτε, έτσι ώστε ο Ουλαμός σας να μπορεί να πλήξει στόχους από διαφορετικές γωνίες, καθιστώντας πολλούς βράχους και κτήρια άχρηστα για κάλυψη.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="StuG IV: SPG-14" desc="Η συνεργασία ανάμεσα στους παίκτες μίας ομάδας είναι το κλειδί για τη νίκη. Δείξτε τους ποιο όχημα σημαδεύετε και οι συμπαίκτες σας άμεσα θα ρίξουν πυρά στο όχημα στο οποίο θα προκαλέσετε σοκ ή ακινητοποίηση. Μπορείτε να ολοκληρώσετε την αποστολή και μόνος σας, αλλά σπάνια ένας κάνει τη διαφορά στη μάχη." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Να προκαλέσετε, είτε εσείς προσωπικά είτε συνολικά ο Ουλαμός σας, τουλάχιστον το 15% της συνολικής φθοράς που προκλήθηκε σε εχθρικά οχήματα από την ομάδα σας.\n• Κερδίστε τη μάχη.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε σοκ σε εχθρικά οχήματα για τουλάχιστον 70 sec συνολικά ή οι συμπαίκτες σας να προκαλέσουν τουλάχιστον 400 ΗΡ φθορά σε εχθρικά οχήματα ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Ατομική/με Ουλαμό)" short="StuG IV: SPG-14" desc="Το Πυροβολικό εξαρτάται από τα υπόλοιπα μέλη της ομάδας για να είναι αποτελεσματικό. Πυροβολικό και ελαφρά άρματα μάχης μπορούν να συνεργαστούν άψογα στον ίδιο Ουλαμό. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Ένα ελαφρύ άρμα μπορεί να εντοπίσει εχθρικά οχήματα και να τα ακινητοποιήσει. Το πυροβολικό μπορεί να βγάλει εκτός μάχης γρήγορα αυτούς τους άτυχους αντιπάλους. Ένα βαρύ άρμα μπορεί να σας υπερασπιστεί με την ισχυρή θωράκισή του, ένα μέσο άρμα να τραβήξει την προσοχή του εχθρού, ενώ ένα αντιαρματικό να παρέχει υποστήριξη από απόσταση.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Να προκληθεί φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά βαρέα άρματα μάχης και αντιαρματικά, είτε από εσάς είτε συνολικά από τον Ουλαμό σας.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: War Gods" short="StuG IV: SPG-15" desc="Είναι πολύ καλό για την ομάδα όταν το πυροβολικό επιβιώνει. Προσπαθήστε να μην εκτίθεστε σε εχθρικά πυρά και να ρίχνετε βολές ακριβείας στον εχθρό." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Εάν γνωρίζετε τα χαρακτηριστικά του πυροβολικού σας, μπορείτε να καταστρώσετε τα σχέδιά σας για τη μάχη. Μερικές φορές, παραμένοντας στη βάση δεν είναι πολύ καλή ιδέα. Εάν έχετε ένα γρήγορο πυροβολικό, μπορείτε να αλλάξετε θέση άμεσα και να πλήξετε τον εχθρό από θέσεις που δεν περιμένει.</Hint>
+    <PM name="SPG-15: War Gods" short="StuG IV: SPG-15" desc="Ένα Α/Κ Πυροβόλο που επιβιώνει όσο γίνεται περισσότερο είναι πολύτιμο για την ομάδα του. Ρίχνετε το ένα βλήμα μετά το άλλο ενώ αποφεύγετε τα εχθρικά πυρά. Μη βιαστείτε πριν πατήσετε τη σκανδάλη γιατί το \&quot;μία βολή-μία καταστροφή\&quot; είναι ότι καλύτερο για όποιον έχει μεγάλο χρόνο γεμίσματος." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience και τη φθορά σε εχθρικά οχήματα.\n• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
+        <req>• Καταλάβετε μία από τις 5 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.\n• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 1.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Επιβιώστε της μάχης.</req>
@@ -2574,136 +2586,136 @@
         <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="T28 heavy tank concept: SPG-1" desc="Μην σπαταλάτε τα πυρομαχικά σας. Η ακρίβεια στις βολές θα φέρει τη νίκη." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Να έχετε υπομονή και να έχετε στοχεύσει πλήρως πριν την κάθε βολή.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="T28 heavy tank concept: SPG-1" desc="Η μεγάλη ακτίνα διασποράς της έκρηξης είναι πολύ σημαντική για τα Α/Κ Πυροβόλα. Ακόμη και αν δεν πετύχετε άμεσο χτύπημα σε εχθρικό όχημα, υπάρχει πάντα η πιθανότητα να προκαλέσετε σοκ σε αυτό. Το εχθρικό όχημα τότε έχει την ειδική σήμανση του σοκ, το οποίο είναι ορατό σε όλους τους συμπαίκτες σας. Εάν προκληθεί φθορά από την ομάδα σας σε οχήματα που είναι σε σοκ εξαιτίας σας, τότε εσείς κερδίζετε επιπλέον credits και ΧΡ εξαιτίας της συνεισφοράς σας." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 4 εύστοχες βολές σε εχθρικά οχήματα που θα προκαλέσουν φθορά.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα τουλάχιστον 5 φορές.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 5 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="T28 heavy tank concept: SPG-2" desc="Το πυροβολικό δεν μπορεί να στηριχθεί στη θωράκισή του ή στην ταχύτητά του. Ως χρήστης πυροβολικού θα πρέπει να μάθετε πώς να παραμένετε καλυμμένος σε όλη τη διάρκεια της μάχης." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Το Δίχτυ Καμουφλάζ σε συνδυασμό με το εξωτερικό Καμουφλάζ, όταν τοποθετούνται σε πυροβολικό, αυξάνουν σημαντικά τον συντελεστή κάλυψης.</Hint>
+    <PM name="SPG-2: Time Is Money" short="T28 heavy tank concept: SPG-2" desc="Ένα εχθρικό όχημα παραμένει σε σοκ για συγκεκριμένο χρονικό διάστημα και δεν μπορεί να αποδώσει τα μέγιστα στη μάχη. Να θυμάστε: ένα όχημα σε σοκ είναι εύκολος στόχος." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.500 HP σε εχθρικά οχήματα χωρίς να εντοπιστείτε από τον εχθρό κατά τη διάρκεια της μάχης.\n• Επιβιώστε της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 100 sec συνολικά.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="T28 heavy tank concept: SPG-3" desc="Εάν θέλετε να αποτελείτε ένα σημαντικό κεφάλαιο για την ομάδα σας, θα πρέπει να μάθετε να πυροβολείτε αποτελεσματικά." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Προσεκτικά παρακολουθήστε τη ροή της μάχης και υποστηρίξτε την ομάδα σας. Μη μένετε στο ίδιο σημείο για πολύ ώρα. Οπισθοχωρήστε ή αναζητήστε άλλο στρατηγικό σημείο εάν χρειαστεί.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="T28 heavy tank concept: SPG-3" desc="Τα καλυμμένα και πανίσχυρα εχθρικά αντιαρματικά καθώς και τα βαρέα άρματα μάχης με την καλή θωράκιση μπορούν εύκολα να κρίνουν τη μάχη. Αποτελούν τους πρωταρχικούς στόχους και η πρόκληση φθοράς σε αυτά (ή η συνεισφορά στην καταστροφή τους) θα πρέπει να είναι το κύριο μέλημα των Α/Κ πυροβόλων. Η πλειοψηφία των βαρέων αρμάτων και των αντιαρματικών είναι αργά και δυσκίνητα οχήματα, κάτι που αυξάνει την πιθανότητα εύστοχης βολής." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 4 φορές.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Break On Through" short="T28 heavy tank concept: SPG-4" desc="Τα βλήματα ΗΕ όχι μόνο προκαλούν φθορά στον αντίπαλο, αλλά έχουν μεγάλη πιθανότητα να καταστρέψουν εξαρτήματα ή να βγάλουν εκτός μάχης μέλη του εχθρικού πληρώματος, χάρη στη φθορά από διασπορά." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Ένα βλήμα ΗΕ, μόνο εάν διαπεράσει πλήρως την θωράκιση του εχθρικού οχήματος προκαλεί τη μέγιστη φθορά. Εάν τα βλήματά σας έχουν μέτρια δυνατότητα διάτρησης, προσπαθήστε να πλήξετε οχήματα με ανοιχτό πυργίσκο ή να χρησιμοποιήσετε Προνομιακά πυρομαχικά.</Hint>
+    <PM name="SPG-4: I'll See You Through" short="T28 heavy tank concept: SPG-4" desc="Θα πρέπει να γνωρίζετε τις κυριότερες διαδρομές των εχθρικών βαρέων αρμάτων μάχης και τις συνηθέστερες θέσεις κάλυψης των αντιαρματικών. Η στόχευση εκ των προτέρων σε μία περιοχή αυξάνει την πιθανότητα για εύστοχες βολές. Αυτών των τύπων τα οχήματα είναι συνήθως προβλέψιμα ανάλογα με τον χάρτη. Ενεργήστε με εξυπνάδα: αναλύστε τη σύνθεση της αντίπαλης ομάδας και λάβετε την καταλληλότερη θέση από το ξεκίνημα της μάχης." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε ή προκαλέστε φθορά σε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 5 εξαρτήματα και μέλη πληρώματος.\n• Τα εξαρτήματα στα οποία προκαλέσατε φθορά ή καταστρέψατε και τα τραυματισμένα μέλη του πληρώματος προστίθενται.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 50 sec συνολικά.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="T28 heavy tank concept: SPG-5" desc="Η μεγάλη δύναμη πυρός αντισταθμίζει σε μεγάλο βαθμό την ισχνή αντοχή του Α/Κ Πυροβόλου σας." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Μελετήστε τα χαρακτηριστικά των βλημάτων του πυροβολικού σας, ιδιαίτερα την ακτίνα διασποράς. Ένα βλήμα ΗΕ, ακόμα και αν αστοχήσει για λίγο, είναι πιθανό να προκαλέσει φθορά από τη διασπορά των θραυσμάτων του.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="T28 heavy tank concept: SPG-5" desc="Το σοκ σε εχθρικά οχήματα από εσάς δεν φέρνει μόνο τη νίκη πιο κοντά αλλά φέρνει και περισσότερα credits και ΧΡ για εσάς εάν οι συμπαίκτες σας προκαλέσουν φορά σε αυτά τα οχήματα. Μην ξεχνάτε να δείχνετε στους συμπαίκτες σας που σημαδεύετε (με το Τ ως προκαθορισμένο πλήκτρο) για να επικεντρώνουν την προσοχή τους σε εκείνο το σημείο." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Η φθορά σε εχθρικά οχήματα να υπερβαίνει το εξαπλάσιο των hit points του οχήματός σας.\n• Φθορά σε παίκτες της ίδιας ομάδας δεν υπολογίζεται.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 1.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 5 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="T28 heavy tank concept: SPG-6" desc="Συχνά θα αντιμετωπίζετε οχήματα μεγαλύτερης βαθμίδας. Αυτό όμως δεν αποτελεί πρόβλημα για έναν έμπειρο χρήστη πυροβολικού." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Εάν δεν μπορείτε να διαπεράσετε τη θωράκιση του εχθρικού οχήματος, μπορείτε να δοκιμάσετε χρησιμοποιώντας Προνομιακά βλήματα. Ρίξτε στα πλάγια και στην πίσω πλευρά του εχθρικού οχήματος. Το πυροβολικό, με την τροχιά που έχουν τα βλήματά του, μπορεί να πλήξει τα οχήματα στο πάνω μέρος του πυργίσκου, όπου η θωράκιση δεν είναι μεγάλη. Τα οχήματα με ανοικτό πυργίσκο είναι ακόμα πιο ευάλωτα σε τέτοιες βολές.</Hint>
+    <PM name="SPG-6: Hammer of the Gods" short="T28 heavy tank concept: SPG-6" desc="Ο πρωταρχικός σκοπός των Α/Κ Πυροβόλων είναι να παρέχουν πυρά υποστήριξης στους συμπαίκτες τους. Εχθρικά οχήματα σε σοκ είναι αδύναμοι αντίπαλοι και οι συμπαίκτες σας θα εκτιμήσουν τη βοήθειά σας. Ωστόσο, θα πρέπει να προσέχετε γιατί μία βολή μπορεί να προκαλέσει σοκ σε οχήματα της ομάδας σας. Τα πυρά σε συμπαίκτες δεν συγχωρούνται." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα της ίδιας ή μεγαλύτερης βαθμίδας από του οχήματός σας.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν φθορά σε τουλάχιστον 3 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="T28 heavy tank concept: SPG-7" desc="Θα πρέπει να καταστρέφετε τα εχθρικά αντιαρματικά και πυροβολικά με την πρώτη ευκαιρία. Η εξουδετέρωσή τους μπορεί να αλλάξει τη ροή της μάχης προς όφελός σας." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Συντονίστε τις ενέργειές σας με τα ελαφρά άρματα μάχης της ομάδας σας. Ο εντοπισμός και η καταστροφή των εχθρικών αντιαρματικών και πυροβολικών μπορεί να οδηγήσουν στην τελική επικράτηση στο πεδίο της μάχης.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="T28 heavy tank concept: SPG-7" desc="Για την ολοκλήρωση αυτής της αποστολής, επιλέξτε προσεκτικά τους στόχους σας. Μην επικεντρώνετε τα πυρά σας σε ένα μόνο όχημα, όσο εύκολος στόχος και αν είναι. Η καλύτερη τακτική είναι να ρίχνετε πυρά σε μεγάλες ομάδες από εχθρικά οχήματα. Μελετήστε τους χάρτες και μάθετε τα σημεία που επιλέγουν τα οχήματα." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό Αντιαρματικό ή Α/Κ Πυροβόλο μεγαλύτερο κατά 1 βαθμίδα από το όχημά σας.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 3 εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="T28 heavy tank concept: SPG-8" desc="Ένα βαρύ άρμα μάχης είναι ένας δύσκολος αντίπαλος, αλλά όχι για το πυροβόλο σας. Τα βλήματα με ελλειπτική τροχιά μπορούν να πλήξουν οποιοδήποτε όχημα στην κορυφή του πυργίσκου όπου η θωράκιση είναι πιο λεπτή." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Τα βαρέα άρματα μάχης κινούνται σε γενικές γραμμές πιο αργά από οχήματα άλλων τύπων. Επομένως, μπορείτε πιο εύκολα να προβλέψετε που θα βρίσκεται το άρμα μάχης όταν το βλήμα σας φτάσει στο στόχο. Για έναν χειριστή πυροβολικού είναι χρήσιμο να γνωρίζει την ταχύτητα των βλημάτων του.</Hint>
+    <PM name="SPG-8: I Did My Best" short="T28 heavy tank concept: SPG-8" desc="Κερδίζετε ΧΡ από κάθε θετική σας ενέργεια στη μάχη. Προσπαθήστε να γίνετε ο MVP: προκαλέστε φθορά, συνεισφέρετε σε καταστροφές εχθρικών οχημάτων και επιβιώστε της μάχης. Αλλάξτε θέση μετά από κάθε βολή, αλλιώς θα δεχθείτε πυρά από τα αντίπαλα Α/Κ Πυροβόλα τα οποία μπορούν να καταστρέψουν το όχημά σας." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 1.500 HP σε εχθρικά βαρέα άρματα μάχης.</req>
+        <req>• Καταλάβετε μία από τις 5 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά βαρέα άρματα μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Till You Hit Them" short="T28 heavy tank concept: SPG-9" desc="Ένας πεπειραμένος χρήστης πυροβολικού μπορεί με ευκολία να πλήξει κινούμενους στόχους. Μάθετε πώς να προβλέπετε αποτελεσματικά την κίνηση των εχθρικών οχημάτων όταν ρίχνετε βολές σε αυτά. Να θυμάστε ότι το βλήμα με άμεση εύστοχη βολή μπορεί να προκαλέσει πολύ περισσότερη φθορά από ότι με διασπορά." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Η ταχύτητα των βλημάτων σας είναι μία σημαντική παράμετρος. Γνωρίζοντας το πότε το βλήμα θα φτάσει στο στόχο, μπορείτε να υπολογίσετε την όποια απόκλιση.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="T28 heavy tank concept: SPG-9" desc="Τα βλήματα ΗΕ με την μεγάλη ισχύ πυρός μπορούν όχι μόνο να προκαλέσουν μεγάλη φθορά στα αντίπαλα οχήματα αλλά να καταστρέψουν εξαρτήματα και να τραυματίσουν μέλη του πληρώματός τους εξαιτίας της μεγάλης διασποράς." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 2 άμεσες εύστοχες βολές σε εχθρικά οχήματα.\n• Υπολογίζονται όλα τα άμεσα χτυπήματα, είτε προκαλέσουν φθορά είτε όχι.</req>
+        <req>• Καταστρέψτε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 5 εξαρτήματα και μέλη πληρώματος.\n• Η άθροιση των τραυματισμένων μελών του πληρώματος και των χαλασμένων εξαρτημάτων γίνεται από όλα τα οχήματα στα οποία προκαλέσατε φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.\n• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="T28 heavy tank concept: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
+    <PM name="SPG-10: All Included" short="T28 heavy tank concept: SPG-10" desc="Η κατάσταση στη μάχη μπορεί να αλλάξει σε μια στιγμή—πάντα να ελέγχετε τη μικρογραφία του χάρτη και να έχετε άμεση άποψη για τη θέση των εχθρικών οχημάτων. Καλύτερα να κινήστε μέσα στο πεδίο της μάχης παρά να μαίνεται στο ίδιο σημείο. Οι συμπαίκτες σας βασίζονται στη δύναμη πυρός του Α/Κ Πυροβόλου σας. Κάντε το καλύτερο δυνατόν την κατάλληλη στιγμή." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα.</req>
+        <req>• Συνολικά εσείς και οι συμπαίκτες σας θα πρέπει να προκαλέσετε τουλάχιστον 2.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 1 εχθρικό όχημα σε σοκ ή ακινητοποιημένο από εσάς.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="T28 heavy tank concept: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Μπορείτε κυριολεκτικά να έχετε με ένα σμπάρο 2 τρυγόνια, εάν είναι συγκεντρωμένα μερικά εχθρικά οχήματα σε ένα σημείο. Κάτι το σύνηθες σε χάρτη με πόλη.</Hint>
+    <PM name="SPG-11: The Area of Effect" short="T28 heavy tank concept: SPG-11" desc="Επιπρόσθετα με την πολύ μεγάλη φθορά από μία εύστοχη βολή, ένα βλήμα ΗΕ μπορεί να προκαλέσει σοκ σε όλα τα οχήματα μέσα στην ακτίνα διασποράς της έκρηξης. Σε πολλούς χάρτες, υπάρχουν σημεία που συνωστίζονται εχθρικά οχήματα. Εκμεταλλευτείτε το και στείλτε τα «εκρηκτικά» χαιρετίσματά σας." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά σε τουλάχιστον 2 εχθρικά οχήματα με 1 βολή.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 2 εχθρικά οχήματα με μία βολή για 2 φορές.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 100 sec συνολικά.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: The Evil Eye" short="T28 heavy tank concept: SPG-12" desc="Οι συμπαίκτες σας κατέστρεψαν ένα όχημα σε σοκ? Καλά νέα για σας, αφού η συνεισφορά σας, φέρνει πιο κοντά τη νίκη! Ο ρόλος σας είναι να παρέχετε πυρά υποστήριξης και να βοηθάτε την ομάδα σας την κατάλληλη στιγμή στο κατάλληλο σημείο." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 100 sec συνολικά.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 1 εχθρικό όχημα σε σοκ ή ακινητοποιημένο από εσάς.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="T28 heavy tank concept: SPG-12" desc="Ο τρόπος που παίζεται το πυροβολικό διαφέρει δραματικά από κάθε άλλο τύπο οχήματος. Αλλά ο κύριος σκοπός παραμένει ο ίδιος: κάνε ότι καλύτερο μπορείς στη μάχη και βοήθησε όσο μπορείς την ομάδα σου να πετύχει το σκοπό της." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Μην μπαίνετε σε στόχευση πυροβολικού από την αρχή της μάχης. Πρώτα βρείτε ένα καλό σημείο.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="T28 heavy tank concept: SPG-13" desc="Η καλή συνεργασία ενός Α/Κ Πυροβόλου με τα υπόλοιπα μέλη της ομάδας είναι σίγουρο ότι θα προκαλέσει μεγάλη αναστάτωση στους αντιπάλους. Συντονίστε τις ενέργειές σας και επικεντρώστε τα πυρά σε έναν στόχο κάθε φορά." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις ανάμεσα στους παίκτες και των 2 ομάδων με βάση τη φθορά σε εχθρικά οχήματα.\n• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα.\n• Επιβιώστε της μάχης.</req>
+        <req>• Να προκαλέσετε φθορά τουλάχιστον 6 φορές ή σοκ τουλάχιστον 8 φορές σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Ατομική/με Ουλαμό)" short="T28 heavy tank concept: SPG-13" desc="Ένας Ουλαμός αποτελούμενος από πυροβολικά είναι πολύ επικίνδυνος για τον εχθρό. Συντονίστε τις ενέργειές σας μέσα στον Ουλαμό και εξουδετερώστε εχθρούς με συγκεντρωτικά πυρά. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Κυριαρχήστε στον χάρτη, διασκορπιστείτε, έτσι ώστε ο Ουλαμός σας να μπορεί να πλήξει στόχους από διαφορετικές γωνίες, καθιστώντας πολλούς βράχους και κτήρια άχρηστα για κάλυψη.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="T28 heavy tank concept: SPG-14" desc="Η συνεργασία ανάμεσα στους παίκτες μίας ομάδας είναι το κλειδί για τη νίκη. Δείξτε τους ποιο όχημα σημαδεύετε και οι συμπαίκτες σας άμεσα θα ρίξουν πυρά στο όχημα στο οποίο θα προκαλέσετε σοκ ή ακινητοποίηση. Μπορείτε να ολοκληρώσετε την αποστολή και μόνος σας, αλλά σπάνια ένας κάνει τη διαφορά στη μάχη." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Να προκαλέσετε, είτε εσείς προσωπικά είτε συνολικά ο Ουλαμός σας, τουλάχιστον το 20% της συνολικής φθοράς που προκλήθηκε σε εχθρικά οχήματα από την ομάδα σας.\n• Κερδίστε τη μάχη.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε σοκ σε εχθρικά οχήματα για τουλάχιστον 100 sec συνολικά ή οι συμπαίκτες σας να προκαλέσουν τουλάχιστον 600 ΗΡ φθορά σε εχθρικά οχήματα ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Ατομική/με Ουλαμό)" short="T28 heavy tank concept: SPG-14" desc="Το Πυροβολικό εξαρτάται από τα υπόλοιπα μέλη της ομάδας για να είναι αποτελεσματικό. Πυροβολικό και ελαφρά άρματα μάχης μπορούν να συνεργαστούν άψογα στον ίδιο Ουλαμό. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Ένα ελαφρύ άρμα μπορεί να εντοπίσει εχθρικά οχήματα και να τα ακινητοποιήσει. Το πυροβολικό μπορεί να βγάλει εκτός μάχης γρήγορα αυτούς τους άτυχους αντιπάλους. Ένα βαρύ άρμα μπορεί να σας υπερασπιστεί με την ισχυρή θωράκισή του, ένα μέσο άρμα να τραβήξει την προσοχή του εχθρού, ενώ ένα αντιαρματικό να παρέχει υποστήριξη από απόσταση.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Να προκληθεί φθορά τουλάχιστον 3.000 ΗΡ σε εχθρικά βαρέα άρματα μάχης και αντιαρματικά, είτε από εσάς είτε συνολικά από τον Ουλαμό σας.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: War Gods" short="T28 heavy tank concept: SPG-15" desc="Είναι πολύ καλό για την ομάδα όταν το πυροβολικό επιβιώνει. Προσπαθήστε να μην εκτίθεστε σε εχθρικά πυρά και να ρίχνετε βολές ακριβείας στον εχθρό." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
-      <Hint>Εάν γνωρίζετε τα χαρακτηριστικά του πυροβολικού σας, μπορείτε να καταστρώσετε τα σχέδιά σας για τη μάχη. Μερικές φορές, παραμένοντας στη βάση δεν είναι πολύ καλή ιδέα. Εάν έχετε ένα γρήγορο πυροβολικό, μπορείτε να αλλάξετε θέση άμεσα και να πλήξετε τον εχθρό από θέσεις που δεν περιμένει.</Hint>
+    <PM name="SPG-15: War Gods" short="T28 heavy tank concept: SPG-15" desc="Ένα Α/Κ Πυροβόλο που επιβιώνει όσο γίνεται περισσότερο είναι πολύτιμο για την ομάδα του. Ρίχνετε το ένα βλήμα μετά το άλλο ενώ αποφεύγετε τα εχθρικά πυρά. Μη βιαστείτε πριν πατήσετε τη σκανδάλη γιατί το \&quot;μία βολή-μία καταστροφή\&quot; είναι ότι καλύτερο για όποιον έχει μεγάλο χρόνο γεμίσματος." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience και τη φθορά σε εχθρικά οχήματα.\n• Προκαλέστε φθορά τουλάχιστον 2.000 HP.</req>
+        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.\n• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 1.500 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Επιβιώστε της μάχης.</req>
@@ -3249,136 +3261,136 @@
         <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="T 55A: SPG-1" desc="Μην σπαταλάτε τα πυρομαχικά σας. Η ακρίβεια στις βολές θα φέρει τη νίκη." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Να έχετε υπομονή και να έχετε στοχεύσει πλήρως πριν την κάθε βολή.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="T 55A: SPG-1" desc="Η μεγάλη ακτίνα διασποράς της έκρηξης είναι πολύ σημαντική για τα Α/Κ Πυροβόλα. Ακόμη και αν δεν πετύχετε άμεσο χτύπημα σε εχθρικό όχημα, υπάρχει πάντα η πιθανότητα να προκαλέσετε σοκ σε αυτό. Το εχθρικό όχημα τότε έχει την ειδική σήμανση του σοκ, το οποίο είναι ορατό σε όλους τους συμπαίκτες σας. Εάν προκληθεί φθορά από την ομάδα σας σε οχήματα που είναι σε σοκ εξαιτίας σας, τότε εσείς κερδίζετε επιπλέον credits και ΧΡ εξαιτίας της συνεισφοράς σας." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 5 εύστοχες βολές σε εχθρικά οχήματα που θα προκαλέσουν φθορά.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα τουλάχιστον 7 φορές.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 6 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="T 55A: SPG-2" desc="Το πυροβολικό δεν μπορεί να στηριχθεί στη θωράκισή του ή στην ταχύτητά του. Ως χρήστης πυροβολικού θα πρέπει να μάθετε πώς να παραμένετε καλυμμένος σε όλη τη διάρκεια της μάχης." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Το Δίχτυ Καμουφλάζ σε συνδυασμό με το εξωτερικό Καμουφλάζ, όταν τοποθετούνται σε πυροβολικό, αυξάνουν σημαντικά τον συντελεστή κάλυψης.</Hint>
+    <PM name="SPG-2: Time Is Money" short="T 55A: SPG-2" desc="Ένα εχθρικό όχημα παραμένει σε σοκ για συγκεκριμένο χρονικό διάστημα και δεν μπορεί να αποδώσει τα μέγιστα στη μάχη. Να θυμάστε: ένα όχημα σε σοκ είναι εύκολος στόχος." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε μία από τις 5 κορυφαίες θέσεις της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα. Μη εντοπιστείτε από τον εχθρό σε όλη τη διάρκεια της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 150 sec συνολικά.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="T 55A: SPG-3" desc="Εάν θέλετε να αποτελείτε ένα σημαντικό κεφάλαιο για την ομάδα σας, θα πρέπει να μάθετε να πυροβολείτε αποτελεσματικά." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Προσεκτικά παρακολουθήστε τη ροή της μάχης και υποστηρίξτε την ομάδα σας. Μη μένετε στο ίδιο σημείο για πολύ ώρα. Οπισθοχωρήστε ή αναζητήστε άλλο στρατηγικό σημείο εάν χρειαστεί.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="T 55A: SPG-3" desc="Τα καλυμμένα και πανίσχυρα εχθρικά αντιαρματικά καθώς και τα βαρέα άρματα μάχης με την καλή θωράκιση μπορούν εύκολα να κρίνουν τη μάχη. Αποτελούν τους πρωταρχικούς στόχους και η πρόκληση φθοράς σε αυτά (ή η συνεισφορά στην καταστροφή τους) θα πρέπει να είναι το κύριο μέλημα των Α/Κ πυροβόλων. Η πλειοψηφία των βαρέων αρμάτων και των αντιαρματικών είναι αργά και δυσκίνητα οχήματα, κάτι που αυξάνει την πιθανότητα εύστοχης βολής." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 6 φορές.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Break On Through" short="T 55A: SPG-4" desc="Τα βλήματα ΗΕ όχι μόνο προκαλούν φθορά στον αντίπαλο, αλλά έχουν μεγάλη πιθανότητα να καταστρέψουν εξαρτήματα ή να βγάλουν εκτός μάχης μέλη του εχθρικού πληρώματος, χάρη στη φθορά από διασπορά." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Ένα βλήμα ΗΕ, μόνο εάν διαπεράσει πλήρως την θωράκιση του εχθρικού οχήματος προκαλεί τη μέγιστη φθορά. Εάν τα βλήματά σας έχουν μέτρια δυνατότητα διάτρησης, προσπαθήστε να πλήξετε οχήματα με ανοιχτό πυργίσκο ή να χρησιμοποιήσετε Προνομιακά πυρομαχικά.</Hint>
+    <PM name="SPG-4: I'll See You Through" short="T 55A: SPG-4" desc="Θα πρέπει να γνωρίζετε τις κυριότερες διαδρομές των εχθρικών βαρέων αρμάτων μάχης και τις συνηθέστερες θέσεις κάλυψης των αντιαρματικών. Η στόχευση εκ των προτέρων σε μία περιοχή αυξάνει την πιθανότητα για εύστοχες βολές. Αυτών των τύπων τα οχήματα είναι συνήθως προβλέψιμα ανάλογα με τον χάρτη. Ενεργήστε με εξυπνάδα: αναλύστε τη σύνθεση της αντίπαλης ομάδας και λάβετε την καταλληλότερη θέση από το ξεκίνημα της μάχης." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε ή προκαλέστε φθορά σε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 8 εξαρτήματα και μέλη πληρώματος.\n• Τα εξαρτήματα στα οποία προκαλέσατε φθορά ή καταστρέψατε και τα τραυματισμένα μέλη του πληρώματος προστίθενται.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 80 sec συνολικά.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="T 55A: SPG-5" desc="Η μεγάλη δύναμη πυρός αντισταθμίζει σε μεγάλο βαθμό την ισχνή αντοχή του Α/Κ Πυροβόλου σας." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Μελετήστε τα χαρακτηριστικά των βλημάτων του πυροβολικού σας, ιδιαίτερα την ακτίνα διασποράς. Ένα βλήμα ΗΕ, ακόμα και αν αστοχήσει για λίγο, είναι πιθανό να προκαλέσει φθορά από τη διασπορά των θραυσμάτων του.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="T 55A: SPG-5" desc="Το σοκ σε εχθρικά οχήματα από εσάς δεν φέρνει μόνο τη νίκη πιο κοντά αλλά φέρνει και περισσότερα credits και ΧΡ για εσάς εάν οι συμπαίκτες σας προκαλέσουν φορά σε αυτά τα οχήματα. Μην ξεχνάτε να δείχνετε στους συμπαίκτες σας που σημαδεύετε (με το Τ ως προκαθορισμένο πλήκτρο) για να επικεντρώνουν την προσοχή τους σε εκείνο το σημείο." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Η φθορά σε εχθρικά οχήματα να υπερβαίνει το οκταπλάσιο των hit points του οχήματός σας.\n• Φθορά σε παίκτες της ίδιας ομάδας δεν υπολογίζεται.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 2.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 6 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="T 55A: SPG-6" desc="Συχνά θα αντιμετωπίζετε οχήματα μεγαλύτερης βαθμίδας. Αυτό όμως δεν αποτελεί πρόβλημα για έναν έμπειρο χρήστη πυροβολικού." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Εάν δεν μπορείτε να διαπεράσετε τη θωράκιση του εχθρικού οχήματος, μπορείτε να δοκιμάσετε χρησιμοποιώντας Προνομιακά βλήματα. Ρίξτε στα πλάγια και στην πίσω πλευρά του εχθρικού οχήματος. Το πυροβολικό, με την τροχιά που έχουν τα βλήματά του, μπορεί να πλήξει τα οχήματα στο πάνω μέρος του πυργίσκου, όπου η θωράκιση δεν είναι μεγάλη. Τα οχήματα με ανοικτό πυργίσκο είναι ακόμα πιο ευάλωτα σε τέτοιες βολές.</Hint>
+    <PM name="SPG-6: Hammer of the Gods" short="T 55A: SPG-6" desc="Ο πρωταρχικός σκοπός των Α/Κ Πυροβόλων είναι να παρέχουν πυρά υποστήριξης στους συμπαίκτες τους. Εχθρικά οχήματα σε σοκ είναι αδύναμοι αντίπαλοι και οι συμπαίκτες σας θα εκτιμήσουν τη βοήθειά σας. Ωστόσο, θα πρέπει να προσέχετε γιατί μία βολή μπορεί να προκαλέσει σοκ σε οχήματα της ομάδας σας. Τα πυρά σε συμπαίκτες δεν συγχωρούνται." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα μεγαλύτερα κατά 1 βαθμίδα από το όχημά σας.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν φθορά σε τουλάχιστον 5 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="T 55A: SPG-7" desc="Θα πρέπει να καταστρέφετε τα εχθρικά αντιαρματικά και πυροβολικά με την πρώτη ευκαιρία. Η εξουδετέρωσή τους μπορεί να αλλάξει τη ροή της μάχης προς όφελός σας." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Συντονίστε τις ενέργειές σας με τα ελαφρά άρματα μάχης της ομάδας σας. Ο εντοπισμός και η καταστροφή των εχθρικών αντιαρματικών και πυροβολικών μπορεί να οδηγήσουν στην τελική επικράτηση στο πεδίο της μάχης.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="T 55A: SPG-7" desc="Για την ολοκλήρωση αυτής της αποστολής, επιλέξτε προσεκτικά τους στόχους σας. Μην επικεντρώνετε τα πυρά σας σε ένα μόνο όχημα, όσο εύκολος στόχος και αν είναι. Η καλύτερη τακτική είναι να ρίχνετε πυρά σε μεγάλες ομάδες από εχθρικά οχήματα. Μελετήστε τους χάρτες και μάθετε τα σημεία που επιλέγουν τα οχήματα." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε συνολικά 2 εχθρικά αντιαρματικά και Α/Κ Πυροβόλα.\n• Κερδίστε τη μάχη.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 5 εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
+        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="T 55A: SPG-8" desc="Ένα βαρύ άρμα μάχης είναι ένας δύσκολος αντίπαλος, αλλά όχι για το πυροβόλο σας. Τα βλήματα με ελλειπτική τροχιά μπορούν να πλήξουν οποιοδήποτε όχημα στην κορυφή του πυργίσκου όπου η θωράκιση είναι πιο λεπτή." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Τα βαρέα άρματα μάχης κινούνται σε γενικές γραμμές πιο αργά από οχήματα άλλων τύπων. Επομένως, μπορείτε πιο εύκολα να προβλέψετε που θα βρίσκεται το άρμα μάχης όταν το βλήμα σας φτάσει στο στόχο. Για έναν χειριστή πυροβολικού είναι χρήσιμο να γνωρίζει την ταχύτητα των βλημάτων του.</Hint>
+    <PM name="SPG-8: I Did My Best" short="T 55A: SPG-8" desc="Κερδίζετε ΧΡ από κάθε θετική σας ενέργεια στη μάχη. Προσπαθήστε να γίνετε ο MVP: προκαλέστε φθορά, συνεισφέρετε σε καταστροφές εχθρικών οχημάτων και επιβιώστε της μάχης. Αλλάξτε θέση μετά από κάθε βολή, αλλιώς θα δεχθείτε πυρά από τα αντίπαλα Α/Κ Πυροβόλα τα οποία μπορούν να καταστρέψουν το όχημά σας." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 2.000 HP σε εχθρικά βαρέα άρματα μάχης.</req>
+        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό βαρύ άρμα μάχης.\n• Κερδίστε τη μάχη.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Till You Hit Them" short="T 55A: SPG-9" desc="Ένας πεπειραμένος χρήστης πυροβολικού μπορεί με ευκολία να πλήξει κινούμενους στόχους. Μάθετε πώς να προβλέπετε αποτελεσματικά την κίνηση των εχθρικών οχημάτων όταν ρίχνετε βολές σε αυτά. Να θυμάστε ότι το βλήμα με άμεση εύστοχη βολή μπορεί να προκαλέσει πολύ περισσότερη φθορά από ότι με διασπορά." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Η ταχύτητα των βλημάτων σας είναι μία σημαντική παράμετρος. Γνωρίζοντας το πότε το βλήμα θα φτάσει στο στόχο, μπορείτε να υπολογίσετε την όποια απόκλιση.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="T 55A: SPG-9" desc="Τα βλήματα ΗΕ με την μεγάλη ισχύ πυρός μπορούν όχι μόνο να προκαλέσουν μεγάλη φθορά στα αντίπαλα οχήματα αλλά να καταστρέψουν εξαρτήματα και να τραυματίσουν μέλη του πληρώματός τους εξαιτίας της μεγάλης διασποράς." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά σε εχθρικό όχημα που κινείται με ταχύτητα τουλάχιστον 30 km/h.\n• Υπολογίζεται και η φθορά από απευθείας βολή και η φθορά από διασπορά.\n• Δεν υπολογίζεται η φθορά από εμβολισμό.</req>
+        <req>• Καταστρέψτε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 8 εξαρτήματα και μέλη πληρώματος.\n• Η άθροιση των τραυματισμένων μελών του πληρώματος και των χαλασμένων εξαρτημάτων γίνεται από όλα τα οχήματα στα οποία προκαλέσατε φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.\n• Κερδίστε τη μάχη.\n• Μη εντοπιστείτε από τον εχθρό σε όλη τη διάρκεια της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="T 55A: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
+    <PM name="SPG-10: All Included" short="T 55A: SPG-10" desc="Η κατάσταση στη μάχη μπορεί να αλλάξει σε μια στιγμή—πάντα να ελέγχετε τη μικρογραφία του χάρτη και να έχετε άμεση άποψη για τη θέση των εχθρικών οχημάτων. Καλύτερα να κινήστε μέσα στο πεδίο της μάχης παρά να μαίνεται στο ίδιο σημείο. Οι συμπαίκτες σας βασίζονται στη δύναμη πυρός του Α/Κ Πυροβόλου σας. Κάντε το καλύτερο δυνατόν την κατάλληλη στιγμή." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό Α/Κ Πυροβόλο.\n• Προκαλέστε φθορά τουλάχιστον 2.000 ΗΡ σε εχθρικά οχήματα.</req>
+        <req>• Συνολικά εσείς και οι συμπαίκτες σας θα πρέπει να προκαλέσετε τουλάχιστον 3.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.</req>
+        <req>• Κερδίστε τη μάχη.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 2 εχθρικά οχήματα σε σοκ ή ακινητοποιημένο από εσάς.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Μπορείτε κυριολεκτικά να έχετε με ένα σμπάρο 2 τρυγόνια, εάν είναι συγκεντρωμένα μερικά εχθρικά οχήματα σε ένα σημείο. Κάτι το σύνηθες σε χάρτη με πόλη.</Hint>
+    <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="Επιπρόσθετα με την πολύ μεγάλη φθορά από μία εύστοχη βολή, ένα βλήμα ΗΕ μπορεί να προκαλέσει σοκ σε όλα τα οχήματα μέσα στην ακτίνα διασποράς της έκρηξης. Σε πολλούς χάρτες, υπάρχουν σημεία που συνωστίζονται εχθρικά οχήματα. Εκμεταλλευτείτε το και στείλτε τα «εκρηκτικά» χαιρετίσματά σας." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε 1 εχθρικό όχημα και προκαλέστε φθορά σε ακόμα 1 όχημα με 1 βολή.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 3 εχθρικά οχήματα με μία βολή.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 150 sec συνολικά.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="T 55A: SPG-12" desc="Ο τρόπος που παίζεται το πυροβολικό διαφέρει δραματικά από κάθε άλλο τύπο οχήματος. Αλλά ο κύριος σκοπός παραμένει ο ίδιος: κάνε ότι καλύτερο μπορείς στη μάχη και βοήθησε όσο μπορείς την ομάδα σου να πετύχει το σκοπό της." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Μην μπαίνετε σε στόχευση πυροβολικού από την αρχή της μάχης. Πρώτα βρείτε ένα καλό σημείο.</Hint>
+    <PM name="SPG-12: The Evil Eye" short="T 55A: SPG-12" desc="Οι συμπαίκτες σας κατέστρεψαν ένα όχημα σε σοκ? Καλά νέα για σας, αφού η συνεισφορά σας, φέρνει πιο κοντά τη νίκη! Ο ρόλος σας είναι να παρέχετε πυρά υποστήριξης και να βοηθάτε την ομάδα σας την κατάλληλη στιγμή στο κατάλληλο σημείο." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα.\n• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 150 sec συνολικά.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 2 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Ατομική/με Ουλαμό)" short="T 55A: SPG-13" desc="Ένας Ουλαμός αποτελούμενος από πυροβολικά είναι πολύ επικίνδυνος για τον εχθρό. Συντονίστε τις ενέργειές σας μέσα στον Ουλαμό και εξουδετερώστε εχθρούς με συγκεντρωτικά πυρά. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Κυριαρχήστε στον χάρτη, διασκορπιστείτε, έτσι ώστε ο Ουλαμός σας να μπορεί να πλήξει στόχους από διαφορετικές γωνίες, καθιστώντας πολλούς βράχους και κτήρια άχρηστα για κάλυψη.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="T 55A: SPG-13" desc="Η καλή συνεργασία ενός Α/Κ Πυροβόλου με τα υπόλοιπα μέλη της ομάδας είναι σίγουρο ότι θα προκαλέσει μεγάλη αναστάτωση στους αντιπάλους. Συντονίστε τις ενέργειές σας και επικεντρώστε τα πυρά σε έναν στόχο κάθε φορά." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να προκαλέσετε, είτε εσείς προσωπικά είτε συνολικά ο Ουλαμός σας, τουλάχιστον το 25% της συνολικής φθοράς που προκλήθηκε σε εχθρικά οχήματα από την ομάδα σας.\n• Κερδίστε τη μάχη.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε φθορά τουλάχιστον 8 φορές ή σοκ τουλάχιστον 10 φορές σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Ατομική/με Ουλαμό)" short="T 55A: SPG-14" desc="Το Πυροβολικό εξαρτάται από τα υπόλοιπα μέλη της ομάδας για να είναι αποτελεσματικό. Πυροβολικό και ελαφρά άρματα μάχης μπορούν να συνεργαστούν άψογα στον ίδιο Ουλαμό. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Ένα ελαφρύ άρμα μπορεί να εντοπίσει εχθρικά οχήματα και να τα ακινητοποιήσει. Το πυροβολικό μπορεί να βγάλει εκτός μάχης γρήγορα αυτούς τους άτυχους αντιπάλους. Ένα βαρύ άρμα μπορεί να σας υπερασπιστεί με την ισχυρή θωράκισή του, ένα μέσο άρμα να τραβήξει την προσοχή του εχθρού, ενώ ένα αντιαρματικό να παρέχει υποστήριξη από απόσταση.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="T 55A: SPG-14" desc="Η συνεργασία ανάμεσα στους παίκτες μίας ομάδας είναι το κλειδί για τη νίκη. Δείξτε τους ποιο όχημα σημαδεύετε και οι συμπαίκτες σας άμεσα θα ρίξουν πυρά στο όχημα στο οποίο θα προκαλέσετε σοκ ή ακινητοποίηση. Μπορείτε να ολοκληρώσετε την αποστολή και μόνος σας, αλλά σπάνια ένας κάνει τη διαφορά στη μάχη." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να προκληθεί φθορά τουλάχιστον 4.000 ΗΡ σε εχθρικά βαρέα άρματα μάχης και αντιαρματικά, είτε από εσάς είτε συνολικά από τον Ουλαμό σας.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε σοκ σε εχθρικά οχήματα για τουλάχιστον 180 sec συνολικά ή οι συμπαίκτες σας να προκαλέσουν τουλάχιστον 800 ΗΡ φθορά σε εχθρικά οχήματα ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: War Gods" short="T 55A: SPG-15" desc="Είναι πολύ καλό για την ομάδα όταν το πυροβολικό επιβιώνει. Προσπαθήστε να μην εκτίθεστε σε εχθρικά πυρά και να ρίχνετε βολές ακριβείας στον εχθρό." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Εάν γνωρίζετε τα χαρακτηριστικά του πυροβολικού σας, μπορείτε να καταστρώσετε τα σχέδιά σας για τη μάχη. Μερικές φορές, παραμένοντας στη βάση δεν είναι πολύ καλή ιδέα. Εάν έχετε ένα γρήγορο πυροβολικό, μπορείτε να αλλάξετε θέση άμεσα και να πλήξετε τον εχθρό από θέσεις που δεν περιμένει.</Hint>
+    <PM name="SPG-15: War Gods" short="T 55A: SPG-15" desc="Ένα Α/Κ Πυροβόλο που επιβιώνει όσο γίνεται περισσότερο είναι πολύτιμο για την ομάδα του. Ρίχνετε το ένα βλήμα μετά το άλλο ενώ αποφεύγετε τα εχθρικά πυρά. Μη βιαστείτε πριν πατήσετε τη σκανδάλη γιατί το \&quot;μία βολή-μία καταστροφή\&quot; είναι ότι καλύτερο για όποιον έχει μεγάλο χρόνο γεμίσματος." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience και τη φθορά σε εχθρικά οχήματα.\n• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
+        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience.\n• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 2.500 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Επιβιώστε της μάχης.</req>
@@ -3924,136 +3936,136 @@
         <req>• Καταστρέψτε τουλάχιστον 5 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="Object 260: SPG-1" desc="Μην σπαταλάτε τα πυρομαχικά σας. Η ακρίβεια στις βολές θα φέρει τη νίκη." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Να έχετε υπομονή και να έχετε στοχεύσει πλήρως πριν την κάθε βολή.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="Object 260: SPG-1" desc="Η μεγάλη ακτίνα διασποράς της έκρηξης είναι πολύ σημαντική για τα Α/Κ Πυροβόλα. Ακόμη και αν δεν πετύχετε άμεσο χτύπημα σε εχθρικό όχημα, υπάρχει πάντα η πιθανότητα να προκαλέσετε σοκ σε αυτό. Το εχθρικό όχημα τότε έχει την ειδική σήμανση του σοκ, το οποίο είναι ορατό σε όλους τους συμπαίκτες σας. Εάν προκληθεί φθορά από την ομάδα σας σε οχήματα που είναι σε σοκ εξαιτίας σας, τότε εσείς κερδίζετε επιπλέον credits και ΧΡ εξαιτίας της συνεισφοράς σας." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 6 εύστοχες βολές σε εχθρικά οχήματα που θα προκαλέσουν φθορά.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα τουλάχιστον 10 φορές.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 4.000 HP.</req>
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 8 φορές με βολές ή εμβολισμό.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="Object 260: SPG-2" desc="Το πυροβολικό δεν μπορεί να στηριχθεί στη θωράκισή του ή στην ταχύτητά του. Ως χρήστης πυροβολικού θα πρέπει να μάθετε πώς να παραμένετε καλυμμένος σε όλη τη διάρκεια της μάχης." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Το Δίχτυ Καμουφλάζ σε συνδυασμό με το εξωτερικό Καμουφλάζ, όταν τοποθετούνται σε πυροβολικό, αυξάνουν σημαντικά τον συντελεστή κάλυψης.</Hint>
+    <PM name="SPG-2: Time Is Money" short="Object 260: SPG-2" desc="Ένα εχθρικό όχημα παραμένει σε σοκ για συγκεκριμένο χρονικό διάστημα και δεν μπορεί να αποδώσει τα μέγιστα στη μάχη. Να θυμάστε: ένα όχημα σε σοκ είναι εύκολος στόχος." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε μία από τις 3 κορυφαίες θέσεις της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα. Μη εντοπιστείτε από τον εχθρό σε όλη τη διάρκεια της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 200 sec συνολικά.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 3 εχθρικά οχήματα.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Howitzer Strike" short="Object 260: SPG-3" desc="Εάν θέλετε να αποτελείτε ένα σημαντικό κεφάλαιο για την ομάδα σας, θα πρέπει να μάθετε να πυροβολείτε αποτελεσματικά." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Προσεκτικά παρακολουθήστε τη ροή της μάχης και υποστηρίξτε την ομάδα σας. Μη μένετε στο ίδιο σημείο για πολύ ώρα. Οπισθοχωρήστε ή αναζητήστε άλλο στρατηγικό σημείο εάν χρειαστεί.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 4.000 HP σε εχθρικά οχήματα.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Break On Through" short="Object 260: SPG-4" desc="Τα βλήματα ΗΕ όχι μόνο προκαλούν φθορά στον αντίπαλο, αλλά έχουν μεγάλη πιθανότητα να καταστρέψουν εξαρτήματα ή να βγάλουν εκτός μάχης μέλη του εχθρικού πληρώματος, χάρη στη φθορά από διασπορά." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Ένα βλήμα ΗΕ, μόνο εάν διαπεράσει πλήρως την θωράκιση του εχθρικού οχήματος προκαλεί τη μέγιστη φθορά. Εάν τα βλήματά σας έχουν μέτρια δυνατότητα διάτρησης, προσπαθήστε να πλήξετε οχήματα με ανοιχτό πυργίσκο ή να χρησιμοποιήσετε Προνομιακά πυρομαχικά.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε ή προκαλέστε φθορά σε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 10 εξαρτήματα και μέλη πληρώματος.\n• Τα εξαρτήματα στα οποία προκαλέσατε φθορά ή καταστρέψατε και τα τραυματισμένα μέλη του πληρώματος προστίθενται.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="Object 260: SPG-5" desc="Η μεγάλη δύναμη πυρός αντισταθμίζει σε μεγάλο βαθμό την ισχνή αντοχή του Α/Κ Πυροβόλου σας." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Μελετήστε τα χαρακτηριστικά των βλημάτων του πυροβολικού σας, ιδιαίτερα την ακτίνα διασποράς. Ένα βλήμα ΗΕ, ακόμα και αν αστοχήσει για λίγο, είναι πιθανό να προκαλέσει φθορά από τη διασπορά των θραυσμάτων του.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Η φθορά σε εχθρικά οχήματα να υπερβαίνει το δεκαπλάσιο των hit points του οχήματός σας.\n• Φθορά σε παίκτες της ίδιας ομάδας δεν υπολογίζεται.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="Object 260: SPG-6" desc="Συχνά θα αντιμετωπίζετε οχήματα μεγαλύτερης βαθμίδας. Αυτό όμως δεν αποτελεί πρόβλημα για έναν έμπειρο χρήστη πυροβολικού." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Εάν δεν μπορείτε να διαπεράσετε τη θωράκιση του εχθρικού οχήματος, μπορείτε να δοκιμάσετε χρησιμοποιώντας Προνομιακά βλήματα. Ρίξτε στα πλάγια και στην πίσω πλευρά του εχθρικού οχήματος. Το πυροβολικό, με την τροχιά που έχουν τα βλήματά του, μπορεί να πλήξει τα οχήματα στο πάνω μέρος του πυργίσκου, όπου η θωράκιση δεν είναι μεγάλη. Τα οχήματα με ανοικτό πυργίσκο είναι ακόμα πιο ευάλωτα σε τέτοιες βολές.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="Object 260: SPG-3" desc="Τα καλυμμένα και πανίσχυρα εχθρικά αντιαρματικά καθώς και τα βαρέα άρματα μάχης με την καλή θωράκιση μπορούν εύκολα να κρίνουν τη μάχη. Αποτελούν τους πρωταρχικούς στόχους και η πρόκληση φθοράς σε αυτά (ή η συνεισφορά στην καταστροφή τους) θα πρέπει να είναι το κύριο μέλημα των Α/Κ πυροβόλων. Η πλειοψηφία των βαρέων αρμάτων και των αντιαρματικών είναι αργά και δυσκίνητα οχήματα, κάτι που αυξάνει την πιθανότητα εύστοχης βολής." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 8 φορές.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: I'll See You Through" short="Object 260: SPG-4" desc="Θα πρέπει να γνωρίζετε τις κυριότερες διαδρομές των εχθρικών βαρέων αρμάτων μάχης και τις συνηθέστερες θέσεις κάλυψης των αντιαρματικών. Η στόχευση εκ των προτέρων σε μία περιοχή αυξάνει την πιθανότητα για εύστοχες βολές. Αυτών των τύπων τα οχήματα είναι συνήθως προβλέψιμα ανάλογα με τον χάρτη. Ενεργήστε με εξυπνάδα: αναλύστε τη σύνθεση της αντίπαλης ομάδας και λάβετε την καταλληλότερη θέση από το ξεκίνημα της μάχης." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε σοκ σε εχθρικό βαρύ άρμα μάχης ή αντιαρματικό για τουλάχιστον 120 sec συνολικά.\n• Οι βολές που θα προκαλέσουν σοκ θα πρέπει να προκαλέσουν και φθορά.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Sharing is Caring" short="Object 260: SPG-5" desc="Το σοκ σε εχθρικά οχήματα από εσάς δεν φέρνει μόνο τη νίκη πιο κοντά αλλά φέρνει και περισσότερα credits και ΧΡ για εσάς εάν οι συμπαίκτες σας προκαλέσουν φορά σε αυτά τα οχήματα. Μην ξεχνάτε να δείχνετε στους συμπαίκτες σας που σημαδεύετε (με το Τ ως προκαθορισμένο πλήκτρο) για να επικεντρώνουν την προσοχή τους σε εκείνο το σημείο." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα μεγαλύτερα κατά 2 βαθμίδες από το όχημά σας.</req>
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 3.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Προκαλέστε φθορά σε εχθρικά οχήματα τουλάχιστον 8 φορές με βολές ή εμβολισμό.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hammer of the Gods" short="Object 260: SPG-6" desc="Ο πρωταρχικός σκοπός των Α/Κ Πυροβόλων είναι να παρέχουν πυρά υποστήριξης στους συμπαίκτες τους. Εχθρικά οχήματα σε σοκ είναι αδύναμοι αντίπαλοι και οι συμπαίκτες σας θα εκτιμήσουν τη βοήθειά σας. Ωστόσο, θα πρέπει να προσέχετε γιατί μία βολή μπορεί να προκαλέσει σοκ σε οχήματα της ομάδας σας. Τα πυρά σε συμπαίκτες δεν συγχωρούνται." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν φθορά σε τουλάχιστον 6 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="Object 260: SPG-7" desc="Θα πρέπει να καταστρέφετε τα εχθρικά αντιαρματικά και πυροβολικά με την πρώτη ευκαιρία. Η εξουδετέρωσή τους μπορεί να αλλάξει τη ροή της μάχης προς όφελός σας." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Συντονίστε τις ενέργειές σας με τα ελαφρά άρματα μάχης της ομάδας σας. Ο εντοπισμός και η καταστροφή των εχθρικών αντιαρματικών και πυροβολικών μπορεί να οδηγήσουν στην τελική επικράτηση στο πεδίο της μάχης.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="Object 260: SPG-7" desc="Για την ολοκλήρωση αυτής της αποστολής, επιλέξτε προσεκτικά τους στόχους σας. Μην επικεντρώνετε τα πυρά σας σε ένα μόνο όχημα, όσο εύκολος στόχος και αν είναι. Η καλύτερη τακτική είναι να ρίχνετε πυρά σε μεγάλες ομάδες από εχθρικά οχήματα. Μελετήστε τους χάρτες και μάθετε τα σημεία που επιλέγουν τα οχήματα." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε συνολικά 3 εχθρικά αντιαρματικά και Α/Κ Πυροβόλα.\n• Κερδίστε τη μάχη.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 6 εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 4.000 HP.</req>
+        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="Object 260: SPG-8" desc="Ένα βαρύ άρμα μάχης είναι ένας δύσκολος αντίπαλος, αλλά όχι για το πυροβόλο σας. Τα βλήματα με ελλειπτική τροχιά μπορούν να πλήξουν οποιοδήποτε όχημα στην κορυφή του πυργίσκου όπου η θωράκιση είναι πιο λεπτή." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Τα βαρέα άρματα μάχης κινούνται σε γενικές γραμμές πιο αργά από οχήματα άλλων τύπων. Επομένως, μπορείτε πιο εύκολα να προβλέψετε που θα βρίσκεται το άρμα μάχης όταν το βλήμα σας φτάσει στο στόχο. Για έναν χειριστή πυροβολικού είναι χρήσιμο να γνωρίζει την ταχύτητα των βλημάτων του.</Hint>
+    <PM name="SPG-8: I Did My Best" short="Object 260: SPG-8" desc="Κερδίζετε ΧΡ από κάθε θετική σας ενέργεια στη μάχη. Προσπαθήστε να γίνετε ο MVP: προκαλέστε φθορά, συνεισφέρετε σε καταστροφές εχθρικών οχημάτων και επιβιώστε της μάχης. Αλλάξτε θέση μετά από κάθε βολή, αλλιώς θα δεχθείτε πυρά από τα αντίπαλα Α/Κ Πυροβόλα τα οποία μπορούν να καταστρέψουν το όχημά σας." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Προκαλέστε φθορά τουλάχιστον 3.000 HP σε εχθρικά βαρέα άρματα μάχης.</req>
+        <req>• Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά βαρέα άρματα μάχης.\n• Κερδίστε τη μάχη.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Till You Hit Them" short="Object 260: SPG-9" desc="Ένας πεπειραμένος χρήστης πυροβολικού μπορεί με ευκολία να πλήξει κινούμενους στόχους. Μάθετε πώς να προβλέπετε αποτελεσματικά την κίνηση των εχθρικών οχημάτων όταν ρίχνετε βολές σε αυτά. Να θυμάστε ότι το βλήμα με άμεση εύστοχη βολή μπορεί να προκαλέσει πολύ περισσότερη φθορά από ότι με διασπορά." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Η ταχύτητα των βλημάτων σας είναι μία σημαντική παράμετρος. Γνωρίζοντας το πότε το βλήμα θα φτάσει στο στόχο, μπορείτε να υπολογίσετε την όποια απόκλιση.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="Object 260: SPG-9" desc="Τα βλήματα ΗΕ με την μεγάλη ισχύ πυρός μπορούν όχι μόνο να προκαλέσουν μεγάλη φθορά στα αντίπαλα οχήματα αλλά να καταστρέψουν εξαρτήματα και να τραυματίσουν μέλη του πληρώματός τους εξαιτίας της μεγάλης διασποράς." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Επιτύχετε τουλάχιστον 4 άμεσες εύστοχες βολές σε εχθρικά οχήματα.\n• Υπολογίζονται όλα τα άμεσα χτυπήματα, είτε προκαλέσουν φθορά είτε όχι.</req>
+        <req>• Καταστρέψτε εξαρτήματα εχθρικών οχημάτων ή τραυματίστε μέλη του πληρώματός τους, αθροιστικά 10 εξαρτήματα και μέλη πληρώματος.\n• Η άθροιση των τραυματισμένων μελών του πληρώματος και των χαλασμένων εξαρτημάτων γίνεται από όλα τα οχήματα στα οποία προκαλέσατε φθορά.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Επιβιώστε της μάχης.\n• Κερδίστε τη μάχη.\n• Μη εντοπιστείτε από τον εχθρό σε όλη τη διάρκεια της μάχης.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="Object 260: SPG-10" desc="Το κυνήγι του εχθρικού πυροβολικού είναι μια καλή ιδέα. Προσπαθήστε να προβλέψετε που κρύβετε το πυροβολικό του εχθρού και επιβεβαιώστε το με μία βολή ακριβείας." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Όσο πιο συχνά χρησιμοποιείτε πυροβολικό, τόσο περισσότερα στρατηγικά σημεία του χάρτη θα μαθαίνετε. Αυτό θα σας βοηθήσει να αντιμετωπίζετε το πυροβολικό του εχθρού, επειδή θα ξέρετε που θα βρίσκεται κατά πάσα πιθανότητα.</Hint>
+    <PM name="SPG-10: All Included" short="Object 260: SPG-10" desc="Η κατάσταση στη μάχη μπορεί να αλλάξει σε μια στιγμή—πάντα να ελέγχετε τη μικρογραφία του χάρτη και να έχετε άμεση άποψη για τη θέση των εχθρικών οχημάτων. Καλύτερα να κινήστε μέσα στο πεδίο της μάχης παρά να μαίνεται στο ίδιο σημείο. Οι συμπαίκτες σας βασίζονται στη δύναμη πυρός του Α/Κ Πυροβόλου σας. Κάντε το καλύτερο δυνατόν την κατάλληλη στιγμή." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά Α/Κ Πυροβόλα.\n• Προκαλέστε φθορά τουλάχιστον 4.000 HP σε εχθρικά οχήματα.</req>
+        <req>• Συνολικά εσείς και οι συμπαίκτες σας θα πρέπει να προκαλέσετε τουλάχιστον 4.000 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 5 εχθρικά οχήματα.</req>
+        <req>• Κερδίστε τη μάχη.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 3 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="Με βλήματα ΗΕ μπορείτε όχι μόνο να καταστρέψετε τον εχθρικό στόχο που θα πλήξετε αλλά από τη διασπορά των θραυσμάτων τους μπορείτε να καταστρέψετε πολλούς στόχους ταυτόχρονα, εάν είναι ο ένας δίπλα στον άλλον." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Μπορείτε κυριολεκτικά να έχετε με ένα σμπάρο 2 τρυγόνια, εάν είναι συγκεντρωμένα μερικά εχθρικά οχήματα σε ένα σημείο. Κάτι το σύνηθες σε χάρτη με πόλη.</Hint>
+    <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="Επιπρόσθετα με την πολύ μεγάλη φθορά από μία εύστοχη βολή, ένα βλήμα ΗΕ μπορεί να προκαλέσει σοκ σε όλα τα οχήματα μέσα στην ακτίνα διασποράς της έκρηξης. Σε πολλούς χάρτες, υπάρχουν σημεία που συνωστίζονται εχθρικά οχήματα. Εκμεταλλευτείτε το και στείλτε τα «εκρηκτικά» χαιρετίσματά σας." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταστρέψτε τουλάχιστον 2 εχθρικά οχήματα με 1 βολή.</req>
+        <req>• Προκαλέστε σοκ σε τουλάχιστον 3 εχθρικά οχήματα με μία βολή για 2 φορές.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Κερδίστε τη μάχη.\n• Επιβιώστε της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 200 sec συνολικά.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="Object 260: SPG-12" desc="Ο τρόπος που παίζεται το πυροβολικό διαφέρει δραματικά από κάθε άλλο τύπο οχήματος. Αλλά ο κύριος σκοπός παραμένει ο ίδιος: κάνε ότι καλύτερο μπορείς στη μάχη και βοήθησε όσο μπορείς την ομάδα σου να πετύχει το σκοπό της." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Μην μπαίνετε σε στόχευση πυροβολικού από την αρχή της μάχης. Πρώτα βρείτε ένα καλό σημείο.</Hint>
+    <PM name="SPG-12: The Evil Eye" short="Object 260: SPG-12" desc="Οι συμπαίκτες σας κατέστρεψαν ένα όχημα σε σοκ? Καλά νέα για σας, αφού η συνεισφορά σας, φέρνει πιο κοντά τη νίκη! Ο ρόλος σας είναι να παρέχετε πυρά υποστήριξης και να βοηθάτε την ομάδα σας την κατάλληλη στιγμή στο κατάλληλο σημείο." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση τη φθορά σε εχθρικά οχήματα.\n• Καταστρέψτε τουλάχιστον 4 εχθρικά οχήματα.\n• Επιβιώστε της μάχης.</req>
+        <req>• Προκαλέστε σοκ σε εχθρικά οχήματα για τουλάχιστον 200 sec συνολικά.\n• Οι συμπαίκτες σας θα πρέπει να καταστρέψουν τουλάχιστον 3 εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Ατομική/με Ουλαμό)" short="Object 260: SPG-13" desc="Ένας Ουλαμός αποτελούμενος από πυροβολικά είναι πολύ επικίνδυνος για τον εχθρό. Συντονίστε τις ενέργειές σας μέσα στον Ουλαμό και εξουδετερώστε εχθρούς με συγκεντρωτικά πυρά. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Κυριαρχήστε στον χάρτη, διασκορπιστείτε, έτσι ώστε ο Ουλαμός σας να μπορεί να πλήξει στόχους από διαφορετικές γωνίες, καθιστώντας πολλούς βράχους και κτήρια άχρηστα για κάλυψη.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="Object 260: SPG-13" desc="Η καλή συνεργασία ενός Α/Κ Πυροβόλου με τα υπόλοιπα μέλη της ομάδας είναι σίγουρο ότι θα προκαλέσει μεγάλη αναστάτωση στους αντιπάλους. Συντονίστε τις ενέργειές σας και επικεντρώστε τα πυρά σε έναν στόχο κάθε φορά." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να προκαλέσετε, είτε εσείς προσωπικά είτε συνολικά ο Ουλαμός σας, τουλάχιστον το 30% της συνολικής φθοράς που προκλήθηκε σε εχθρικά οχήματα από την ομάδα σας.\n• Κερδίστε τη μάχη.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε φθορά τουλάχιστον 10 φορές ή σοκ τουλάχιστον 12 φορές σε εχθρικά οχήματα.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Ατομική/με Ουλαμό)" short="Object 260: SPG-14" desc="Το Πυροβολικό εξαρτάται από τα υπόλοιπα μέλη της ομάδας για να είναι αποτελεσματικό. Πυροβολικό και ελαφρά άρματα μάχης μπορούν να συνεργαστούν άψογα στον ίδιο Ουλαμό. Μπορείτε να ολοκληρώσετε αυτήν την αποστολή είτε ως μέλος Ουλαμού είτε ατομικά. Εάν επιλέξετε το δεύτερο, αυξάνεται η δυσκολία της σε μεγάλο βαθμό." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Ένα ελαφρύ άρμα μπορεί να εντοπίσει εχθρικά οχήματα και να τα ακινητοποιήσει. Το πυροβολικό μπορεί να βγάλει εκτός μάχης γρήγορα αυτούς τους άτυχους αντιπάλους. Ένα βαρύ άρμα μπορεί να σας υπερασπιστεί με την ισχυρή θωράκισή του, ένα μέσο άρμα να τραβήξει την προσοχή του εχθρού, ενώ ένα αντιαρματικό να παρέχει υποστήριξη από απόσταση.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="Object 260: SPG-14" desc="Η συνεργασία ανάμεσα στους παίκτες μίας ομάδας είναι το κλειδί για τη νίκη. Δείξτε τους ποιο όχημα σημαδεύετε και οι συμπαίκτες σας άμεσα θα ρίξουν πυρά στο όχημα στο οποίο θα προκαλέσετε σοκ ή ακινητοποίηση. Μπορείτε να ολοκληρώσετε την αποστολή και μόνος σας, αλλά σπάνια ένας κάνει τη διαφορά στη μάχη." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Να προκληθεί φθορά τουλάχιστον 5.000 ΗΡ σε εχθρικά βαρέα άρματα μάχης και αντιαρματικά, είτε από εσάς είτε συνολικά από τον Ουλαμό σας.\n• Η αποστολή μπορεί να ολοκληρωθεί από εσάς είτε ατομικά είτε ως μέλος Ουλαμού που αποτελείται από το δικό σας Α/Κ Πυροβόλο και οποιοδήποτε άλλο όχημα.</req>
+        <req>• Να προκαλέσετε σοκ σε εχθρικά οχήματα για τουλάχιστον 250 sec συνολικά ή οι συμπαίκτες σας να προκαλέσουν τουλάχιστον 1.000 ΗΡ φθορά σε εχθρικά οχήματα ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Εσείς θα πρέπει να επιβιώσετε της μάχης.</req>
+        <req>• Κερδίστε τη μάχη.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: War Gods" short="Object 260: SPG-15" desc="Είναι πολύ καλό για την ομάδα όταν το πυροβολικό επιβιώνει. Προσπαθήστε να μην εκτίθεστε σε εχθρικά πυρά και να ρίχνετε βολές ακριβείας στον εχθρό." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Εάν γνωρίζετε τα χαρακτηριστικά του πυροβολικού σας, μπορείτε να καταστρώσετε τα σχέδιά σας για τη μάχη. Μερικές φορές, παραμένοντας στη βάση δεν είναι πολύ καλή ιδέα. Εάν έχετε ένα γρήγορο πυροβολικό, μπορείτε να αλλάξετε θέση άμεσα και να πλήξετε τον εχθρό από θέσεις που δεν περιμένει.</Hint>
+    <PM name="SPG-15: War Gods" short="Object 260: SPG-15" desc="Ένα Α/Κ Πυροβόλο που επιβιώνει όσο γίνεται περισσότερο είναι πολύτιμο για την ομάδα του. Ρίχνετε το ένα βλήμα μετά το άλλο ενώ αποφεύγετε τα εχθρικά πυρά. Μη βιαστείτε πριν πατήσετε τη σκανδάλη γιατί το \&quot;μία βολή-μία καταστροφή\&quot; είναι ότι καλύτερο για όποιον έχει μεγάλο χρόνο γεμίσματος." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience και τη φθορά σε εχθρικά οχήματα.\n• Προκαλέστε φθορά τουλάχιστον 3.000 HP.</req>
+        <req>• Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience.\n• Οι συμπαίκτες σας θα πρέπει να προκαλέσουν τουλάχιστον 3.500 ΗΡ φθορά σε εχθρικά οχήματα σε σοκ ή ακινητοποιημένα από εσάς.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Επιβιώστε της μάχης.</req>

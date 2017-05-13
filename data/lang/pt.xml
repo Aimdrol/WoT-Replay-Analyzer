@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Arco de Fogo" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="O Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Desconhecido" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Batalha Especial" />
     <item ID="5" Name="Batalha Especial" />
     <item ID="6" Name="Batalha de Treino" />
-    <item ID="7" Name="Equipa: Batalhas Não Classificadas" />
+    <item ID="7" Name="Batalha de Equipa" />
     <item ID="8" Name="Batalha Histórica" />
     <item ID="9" Name="Evento Especial" />
     <item ID="10" Name="Escaramuças" />
@@ -1899,136 +1911,136 @@
         <req>• Destruir um veículo inimigo.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: Atirador Especial" short="StuG IV: AAP-1" desc="Não desperdice a sua munição. Os tiros precisos são aqueles que o levam à vitória." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Seja paciente e espere até a mira estar completamente fechada no alvo.</Hint>
+    <PM name="AAP-1: Uma Afirmação Ousada" short="StuG IV: AAP-1" desc="O grande raio de explosão após a munição detonar é a característica-chave dos veículos AAP. Mesmo se não conseguir acertar um tiro directo num veículo inimigo, ainda há uma hipótese de causar sérios problemas ao atordoá-lo. O veículo inimigo é marcado com o indicador de atordoamento, que é visível pelos seus aliados. Se os aliados causarem dano aos veículos atordoados por si, receberá créditos adicionais e experiência por dano causado com a sua assistência." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Acertar pelo menos 3 tiros que causem dano a veículos inimigos.</req>
+        <req>• Atordoar veículos inimigos pelo menos 3 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 1.000 PE de dano.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 3 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto e Perigoso" short="StuG IV: AAP-2" desc="As AAPs não podem depender da espessura da blindagem ou da velocidade. Se estiver aos comandos de uma AAP, aprenda a manter-se oculto durante toda a batalha." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>O equipamento Rede de Camuflagem e a Camuflagem vão aumentar a sua capacidade de se ocultar, quando montados na sua AAP.</Hint>
+    <PM name="AAP-2: Tempo é Dinheiro" short="StuG IV: AAP-2" desc="Um veículo inimigo permanece atordoado por um período de tempo e não consegue estar no seu melhor no campo de batalha. Lembre-se: um veículo atordoado é um alvo fácil." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 500 PE de danos em veículos inimigos. Mantenha-se sem ser detetado durante a batalha.\n• Sobreviva à batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 50 segundos no total.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Destrua um veículo inimigo.</req>
+        <req>• Destruir pelo menos um veículo inimigo.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Ataque de Howitzer" short="StuG IV: AAP-3" desc="Se quer ser uma mais-valia para a equipa, primeiro tem de aprender a disparar eficazmente." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Siga a corrente da batalha e apoie a sua equipa. Não fique parado num sítio por muito tempo. Retire-se ou procure outra posição para disparar, se necessário.</Hint>
+    <PM name="AAP-3: Lendo e Cuidadoso Acaba Atordoado" short="StuG IV: AAP-3" desc="Poderosos e ocultos antitanques e tanques pesados bem blindados podem facilmente virar a maré da batalha. Eles são os alvos prioritários e causar-lhes dano (ou ajudar na sua destruição) deve ser o objectivo principal para um jogador numa AAP. A maioria dos pesados e antitanques são lentos e grandes, o que aumenta as possibilidades de um tiro bem sucedido." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 1.000 PE de dano a veículos inimigos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo pelo menos 2 vezes.\n• Os tiros atordoantes devem também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Atravessar" short="StuG IV: AAP-4" desc="As munições HE mais poderosas, não só podem causar em termos de pontos de energia, como também têm a hipótese de danificar ou destruir módulos ou mesmo ferir os membros da tripulação com o dano da explosão." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Apenas penetrando a blindagem e explodir dentro do chassis do tanque inimigo, é que uma munição HE mostra o seu valor. Se a sua munição tiver uma penetração medíocre, tente encontrar veículos com torres abertas ou carregue uma munição Premium.</Hint>
+    <PM name="AAP-4: Ajudo-te a Passar" short="StuG IV: AAP-4" desc="Aprenda as principais rotas dos tanques pesados inimigos e posições onde os astutos antitanques geralmente se escondem. Apontar para uma área específica do mapa com antecedência aumenta as possibilidades para um tiro mais eficaz e devastador para posições inimigas. Estes tipos de veículos geralmente seguem tácticas bastante previsíveis em determinados mapas. Seja inteligente: analise a configuração da equipa inimiga e selecione a posição mais adequada logo desde o início da batalha." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Danificar ou destruir módulos dos veículos inimigos ou ferir os membros da sua tripulação, totalizando, pelo menos, 3 módulos e membros da tripulação.\n• O número de módulos danificados/destruídos e tripulantes feridos entre todos os veículos que danificou na batalha, são adicionados juntos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo por pelo menos 30 segundos no total. \n• O tiro atordoante deve também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcular e Obliterar" short="StuG IV: AAP-5" desc="O grande poder de fogo que possui compensa bem a baixa durabilidade relativa da sua AAP." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Tente causar dano nos veículos logo que surja essa oportunidade. Mesmo que a sua munição HE falhe o inimigo por centímetros, o seu tanque receberá dano causado pelos fragmentos da munição.</Hint>
+    <PM name="AAP-5: Partilhar é Cuidar" short="StuG IV: AAP-5" desc="Atordoar veículos inimigos não só faz coloca a sua equipa um passo mais perto de uma vitória, mas também garante que você receba experiência adicional e créditos se os seus aliados causarem dano aos veículos inimigos atordoados por si. Não se esqueça de marcar a área que para onde está a apontar (tecla T por defeito) para notificar e chamar a atenção dos seus aliados." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar dano excedendo pelo menos em 4 vezes os pontos de energia do seu veículo.\n• O dano causado a aliados não é contado.</req>
+        <req>• Permitir aos seus aliados causarem pelo menos 600 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destruir um veículo inimigo.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 3 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: O Martelo em Queda" short="StuG IV: AAP-6" desc="Muitas vezes, vai enfrentar veículos de níveis superiores. Mas isso não é problema para um comandante de AAPs experiente." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Se não conseguir penetrar um veículo inimigo com projéteis normais, tente usar projéteis Premium. Atire para as laterais e a parte traseira do veículo inimigo. As AAPs, com a sua trajetória de projétil em arco, conseguem atingir eficientemente qualquer veículo no topo da torre, onde a proteção da blindagem é mais fraca. Os veículos inimigos com torres abertas são ainda mais vulneráveis a destruição vinda de cima.</Hint>
+    <PM name="AAP-6: Martelo dos Deuses" short="StuG IV: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 veículos inimigos do mesmo nível ou superior ao seu veículo.</req>
+        <req>• Permitir aos seus aliados danificarem pelo menos 2 veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Tragam as Armas Grandes" short="StuG IV: AAP-7" desc="Deve destruir os antitanques e artilharia assim que tiver oportunidade. Ao acabar com eles, pode mudar a maré da batalha a seu favor." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Coordene as suas acções com os tanques ligeiros aliados. Detectar os antitanques e artilharias inimigas e destrui-los pode ajudar a atingir a superioridade no campo de batalha.</Hint>
+    <PM name="AAP-7: Consideração Cuidadosa" short="StuG IV: AAP-7" desc="Para completar esta missão, utilize uma abordagem selectiva para escolher os seus alvos. Não concentre o fogo num veículo inimigo, mesmo que seja um alvo fácil. A melhor estratégia é acertar em grandes grupos de veículos inimigos com um tiro. Estude os mapas e aprenda as rotas básicas dos veículos." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir um antitanque inimigo ou AAP.</req>
+        <req>• Atordoar pelo menos 2 veículos inimigos.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 1000 PE de danos.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: Fogo Pesado em Tanques Pesados!" short="StuG IV: AAP-8" desc="Um tanque pesado é um alvo difícil, mas não para o seu canhão. Projéteis com trajetória arquejante podem atingir qualquer veículo no topo da torre, onde a blindagem é mais fraca." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Normalmente, os tanques pesados deslocam-se mais lentamente do que outros tipos de veículos. Portanto, muitas vezes, pode prever onde o tanque vai estar quando o seu projétil chegar. Para um piloto de AAPs, é útil saber qual é a velocidade dos seus projéteis.</Hint>
+    <PM name="AAP-8: Fiz o Meu Melhor!" short="StuG IV: AAP-8" desc="Você recebe experiência por todas as acções eficazes. Tente ser o MVP: cause dano, auxilie na destruição de veículos inimigos e sobreviva à batalha. Mude a sua posição após cada tiro; Caso contrário, o contra ataque das AAPs inimigas podem destruir o seu veículo." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 1000 PE de danos em tanques pesados inimigos.</req>
+        <req>• Ficar entre os 7 melhores jogadores da sua equipa por experiência recebida.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destrua um tanque pesado inimigo.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Adiante-se e Atinja-os" short="StuG IV: AAP-9" desc="Um condutor de artilharia experiente consegue, facilmente, atingir veículos em movimento. Aprenda a prever eficazmente o movimento do veículo inimigo quando disparar. Lembre-se que um tiro directo pode causar mais dano do que o dano causado por explosão de uma HE." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>A velocidade dos seus projéteis é um parâmetro muito importante. Se souber quando é que o projétil alcança o alvo, pode calcular corretamente a deflexão.</Hint>
+    <PM name="AAP-9: Dano Colateral" short="StuG IV: AAP-9" desc="Poderosas munições HE conseguem não só reduzir os pontos de energia dos veículos inimigos, mas têm também uma grande hipótese de destruir módulos ou ferir os membros da tripulação com dano por explosão." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danificar um veículo inimigo que se move a uma velocidade de pelo menos 20 km/h.\n• Tanto o dano causado por explosões como o dano causado por tiros directos são contados.\n• Dano causado por abalroamento não é contado.</req>
+        <req>• Destruir quaisquer módulos de veículos inimigos ou ferir membros da sua tripulação, totalizando pelo menos 3 módulos ou tripulantes.\n• O número de módulos destruídos e membros da sua tripulação feridos é totalizado, tendo em conta todos os veículos que danificou ou na batalha.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Sobreviva à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: A Ruína da Artilharia" short="StuG IV: AAP-10" desc="Caça à artilharia é uma excelente ideia. Tente prever onde é que as AAPs inimigas podem estar escondidas, e veja se acertou disparando um tiro preciso." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Quanto mais frequentemente conduzir uma AAP, mais pontos estratégicos dos mapas vai ficar a conhecer. Isto vai ajudá-lo a lutar contra AAPs inimigas, porque já sabe onde estas podem estar posicionadas.</Hint>
+    <PM name="AAP-10: Tudo Incluído" short="StuG IV: AAP-10" desc="A situação de batalha pode mudar rapidamente—mantenha sempre um olho no minimapa e certifique-se que tem uma visão desobstruída dos veículos inimigos. Terá de se mover pelo mapa o tempo todo em vez de ficar numa só posição. Os seus aliados dependem do seu poder de fogo de AAP, por isso faça o seu melhor no momento e local certos." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 1 AAP inimiga.</req>
+        <req>• O dano total causado por si e pelos seus aliados a veículos inimigos atordoados ou imobilizados por si tem de ser de pelo menos 1.000 PE.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 veículos inimigos.</req>
+        <req>• Os aliados têm de destruir pelo menos 1 veículo inimigo atordoado ou imobilizado por si.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: Área de Efeito" short="StuG IV: AAP-11" desc="As suas munições HE podem, não só destruir um veículo inimigo com o primeiro tiro, como podem também causar um dano significativo em diversos alvos de uma vez, se eles estiverem muito próximos entre si." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Pode matar, literalmente, dois coelhos de uma cajadada só, se vários inimigos ficarem parados no mesmo sítio. Isto é comum em mapas urbanos.</Hint>
+    <PM name="AAP-11: Área de Efeito" short="StuG IV: AAP-11" desc="Além de uma quantidade considerável de dano causado com um tiro bem colocado, uma munição Explosiva pode também atordoar todos os veículos fora de posição dentro do raio de explosão depois da munição detonar. Muitos mapas apresentam alguns pontos onde os veículos inimigos se estão a agrupar. Tente a sorte e envie os seus cumprimentos \&quot;explosivos\&quot; na direção deles." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruir um veículo inimigo com um único tiro.\n• Alvos que não tenham recebido qualquer dano anteriormente na batalha são contados.</req>
+        <req>• Atordoar pelo menos 2 veículos inimigos com um único tiro.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Atordoar veículos inimigos por pelo menos 50 segundos no total.</req>
+      </Secondary>
+    </PM>
+    <PM name="AAP-12: O Olho Maléfico" short="StuG IV: AAP-12" desc="Os seus aliados destruíram o veículo inimigo atordoado? Boa notícia para o seu, uma vez que é a sua contribuição que torna a vitória desejada um passo mais perto! O seu objetivo é providenciar apoio de fogo e ajudar seus aliados no lugar e momento certo." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Atordoar veículos inimigos por pelo menos 50 segundos no total.\n• Os aliados têm de destruir pelo menos 1 veículo inimigo atordoado ou imobilizado por si.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: O Atacante" short="StuG IV: AAP-12" desc="O estilo de jogo numa AAP é totalmente diferente de todos os outros tipos de veículos. Mas o objetivo principal é o mesmo - dar o seu melhor na batalha e contribuir ao máximo para o bom desempenho da equipa." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Não mude para modo Artilharia logo no início da batalha. Primeiro, escolha um bom ponto estratégico.</Hint>
+    <PM name="AAP-13: C de Cooperação" short="StuG IV: AAP-13" desc="Uma cooperação bem feita entre AAPs e aliados deverá deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e foque o seu ataque num único alvo inimigo de cada vez." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Fique no top 3 de jogadores da sua equipa por danos causados.\n• Destrua um veículo inimigo.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 4 vezes ou atordoá-los pelo menos 6 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Ganhe a batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: A Bateria de Artilharia (Pessoal/Pelotão)" short="StuG IV: AAP-13" desc="Um Pelotão de de AAPs bem manuseadas, deveria deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e centre o seu ataque num único alvo inimigo de cada vez. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Ao espalharem-se, o seu Pelotão pode atingir alvos de ângulos diferentes, tornando inúteis, como protecção, muitas rochas e edifícios e dominando o mapa.</Hint>
+    <PM name="AAP-14: Parte da Tripulação, Parte do Navio!" short="StuG IV: AAP-14" desc="Cooperação é a chave para a vitória de toda a equipa. Destaque o veículo inimigo para o qual está a apontar para que os seus aliados façam cair fogo imediatamente sobre ele assim que tenha sido atordoado ou imobilizado. Lembre-se: um soldado sozinho dificilmente pode fazer uma batalha." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 15% do dano total causado a veículos inimigos pela sua equipa, pessoalmente ou no total do Pelotão.\n• Vencer a batalha.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua AAP e quaisquer outros veículos.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 70 segundos no total ou permitir aos seus aliados causarem pelo menos 400 de dano a veículos inimigos imobilizando-os.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva Conjunta (Pessoal/Pelotão)" short="StuG IV: AAP-14" desc="A artilharia está dependente do resto da equipa para ter sucesso. As artilharias e os tanques ligeiros complementam-se uns aos outros especialmente bem em Pelotão. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Um tanque ligeiro pode detectar os veículos inimigos e imobilizá-los. As AAPs podem aproveitarem-se da vítima infeliz. Juntos, vamos vencer! Um tanque pesado pode protegê-lo com a sua blindagem, um tanque médio distrai o inimigo, enquanto um antitanque providencia fogo de apoio a longas distâncias.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 2.000 PE de dano a tanques pesados e a antitanques inimigos, pessoalmente ou no total do Pelotão.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua AAP e quaisquer outros veículos.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
-      </Secondary>
-    </PM>
-    <PM name="AAP-15: Deus da Guerra" short="StuG IV: AAP-15" desc="É muito melhor par a equipa se a AAP sobreviver. Tente não se expor a fogo inimigo e dispare tiros precisos contra os adversários." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
-      <Hint>Se conhecer as características técnicas da sua AAP, pode planear as suas ações em batalha. Por vezes, ficar na base não é boa ideia. Se estiver a conduzir uma AAP veloz, pode mudar de posição rapidamente e enfrentar o inimigo a partir de direções que este não espera.</Hint>
+    <PM name="AAP-15: Deus da Guerra" short="StuG IV: AAP-15" desc="Uma AAP que sobreviva durante o maior tempo possível é um verdadeiro trunfo para a equipa. Continue a disparar um tiro atrás do outro enquanto tenta não ser apanhado pelo fogo inimigo. Leve o seu tempo e pense duas vezes antes de \&quot;puxar o gatilho\&quot;, uma vez que \&quot;um tiro uma morte\&quot; é a melhor estratégia para um veículo com um longo tempo de recarregamento." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Fique no top 3 de jogadores da sua equipa por experiência recebida e danos causados.\n• Cause pelo menos 2000 PE de danos.</req>
+        <req>• Ficar entre os 5 melhores jogadores da sua equipa por experiência recebida.\n• Permitir aos seus aliados causarem pelo menos 1.000 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Sobreviva à batalha.</req>
@@ -2574,136 +2586,136 @@
         <req>• Destruir pelo menos 2 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: Atirador Especial" short="T28 heavy tank concept: AAP-1" desc="Não desperdice a sua munição. Os tiros precisos são aqueles que o levam à vitória." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Seja paciente e espere até a mira estar completamente fechada no alvo.</Hint>
+    <PM name="AAP-1: Uma Afirmação Ousada" short="T28 heavy tank concept: AAP-1" desc="O grande raio de explosão após a munição detonar é a característica-chave dos veículos AAP. Mesmo se não conseguir acertar um tiro directo num veículo inimigo, ainda há uma hipótese de causar sérios problemas ao atordoá-lo. O veículo inimigo é marcado com o indicador de atordoamento, que é visível pelos seus aliados. Se os aliados causarem dano aos veículos atordoados por si, receberá créditos adicionais e experiência por dano causado com a sua assistência." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Acertar pelo menos 4 tiros que causem dano a veículos inimigos.</req>
+        <req>• Atordoar veículos inimigos pelo meno 5 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 2.000 PE de dano.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 5 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto e Perigoso" short="T28 heavy tank concept: AAP-2" desc="As AAPs não podem depender da espessura da blindagem ou da velocidade. Se estiver aos comandos de uma AAP, aprenda a manter-se oculto durante toda a batalha." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>O equipamento Rede de Camuflagem e a Camuflagem vão aumentar a sua capacidade de se ocultar, quando montados na sua AAP.</Hint>
+    <PM name="AAP-2: Tempo é Dinheiro" short="T28 heavy tank concept: AAP-2" desc="Um veículo inimigo permanece atordoado por um período de tempo e não consegue estar no seu melhor no campo de batalha. Lembre-se: um veículo atordoado é um alvo fácil." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 1500 PE de danos em veículos inimigos. Mantenha-se sem ser detetado durante a batalha.\n• Sobreviva à batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 100 segundos no total.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Destruir pelo menos 2 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Ataque de Howitzer" short="T28 heavy tank concept: AAP-3" desc="Se quer ser uma mais-valia para a equipa, primeiro tem de aprender a disparar eficazmente." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Siga a corrente da batalha e apoie a sua equipa. Não fique parado num sítio por muito tempo. Retire-se ou procure outra posição para disparar, se necessário.</Hint>
+    <PM name="AAP-3: Lendo e Cuidadoso Acaba Atordoado" short="T28 heavy tank concept: AAP-3" desc="Poderosos e ocultos antitanques e tanques pesados bem blindados podem facilmente virar a maré da batalha. Eles são os alvos prioritários e causar-lhes dano (ou ajudar na sua destruição) deve ser o objectivo principal para um jogador numa AAP. A maioria dos pesados e antitanques são lentos e grandes, o que aumenta as possibilidades de um tiro bem sucedido." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 2.000 PE de dano a veículos inimigos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo pelo menos 4 vezes.\n• Os tiros atordoantes devem também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Atravessar" short="T28 heavy tank concept: AAP-4" desc="As munições HE mais poderosas, não só podem causar em termos de pontos de energia, como também têm a hipótese de danificar ou destruir módulos ou mesmo ferir os membros da tripulação com o dano da explosão." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Apenas penetrando a blindagem e explodir dentro do chassis do tanque inimigo, é que uma munição HE mostra o seu valor. Se a sua munição tiver uma penetração medíocre, tente encontrar veículos com torres abertas ou carregue uma munição Premium.</Hint>
+    <PM name="AAP-4: Ajudo-te a Passar" short="T28 heavy tank concept: AAP-4" desc="Aprenda as principais rotas dos tanques pesados inimigos e posições onde os astutos antitanques geralmente se escondem. Apontar para uma área específica do mapa com antecedência aumenta as possibilidades para um tiro mais eficaz e devastador para posições inimigas. Estes tipos de veículos geralmente seguem tácticas bastante previsíveis em determinados mapas. Seja inteligente: analise a configuração da equipa inimiga e selecione a posição mais adequada logo desde o início da batalha." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Danificar ou destruir módulos dos veículos inimigos ou fira os membros da sua tripulação, totalizando, pelo menos, 5 módulos e membros da tripulação.\n• O número de módulos danificados/destruídos e tripulantes feridos entre todos os veículos que danificou na batalha, são adicionados juntos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo por pelo menos 50 segundos no total. \n• O tiro atordoante deve também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcular e Obliterar" short="T28 heavy tank concept: AAP-5" desc="O grande poder de fogo que possui compensa bem a baixa durabilidade relativa da sua AAP." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Tente causar dano nos veículos logo que surja essa oportunidade. Mesmo que a sua munição HE falhe o inimigo por centímetros, o seu tanque receberá dano causado pelos fragmentos da munição.</Hint>
+    <PM name="AAP-5: Partilhar é Cuidar" short="T28 heavy tank concept: AAP-5" desc="Atordoar veículos inimigos não só faz coloca a sua equipa um passo mais perto de uma vitória, mas também garante que você receba experiência adicional e créditos se os seus aliados causarem dano aos veículos inimigos atordoados por si. Não se esqueça de marcar a área que para onde está a apontar (tecla T por defeito) para notificar e chamar a atenção dos seus aliados." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar dano que exceda 6 vezes o valor dos pontos de energia do seu veículo.\n• Dano causado a aliados não é contado.</req>
+        <req>• Permitir aos seus aliados causarem pelo menos 1.000 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 veículos inimigos.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 5 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: O Martelo em Queda" short="T28 heavy tank concept: AAP-6" desc="Muitas vezes, vai enfrentar veículos de níveis superiores. Mas isso não é problema para um comandante de AAPs experiente." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Se não conseguir penetrar um veículo inimigo com projéteis normais, tente usar projéteis Premium. Atire para as laterais e a parte traseira do veículo inimigo. As AAPs, com a sua trajetória de projétil em arco, conseguem atingir eficientemente qualquer veículo no topo da torre, onde a proteção da blindagem é mais fraca. Os veículos inimigos com torres abertas são ainda mais vulneráveis a destruição vinda de cima.</Hint>
+    <PM name="AAP-6: Martelo dos Deuses" short="T28 heavy tank concept: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 3 veículos inimigos que sejam do mesmo nível do seu veículo ou superior.</req>
+        <req>• Permitir aos seus aliados danificarem pelo menos 3 veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Tragam as Armas Grandes" short="T28 heavy tank concept: AAP-7" desc="Deve destruir os antitanques e artilharia assim que tiver oportunidade. Ao acabar com eles, pode mudar a maré da batalha a seu favor." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Coordene as suas acções com os tanques ligeiros aliados. Detectar os antitanques e artilharias inimigas e destrui-los pode ajudar a atingir a superioridade no campo de batalha.</Hint>
+    <PM name="AAP-7: Consideração Cuidadosa" short="T28 heavy tank concept: AAP-7" desc="Para completar esta missão, utilize uma abordagem selectiva para escolher os seus alvos. Não concentre o fogo num veículo inimigo, mesmo que seja um alvo fácil. A melhor estratégia é acertar em grandes grupos de veículos inimigos com um tiro. Estude os mapas e aprenda as rotas básicas dos veículos." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos um antitanque ou uma AAP que seja 1 nível superior ao seu veículo.</req>
+        <req>• Atordoar pelo menos 3 veículos inimigos.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 2000 PE de danos.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: Fogo Pesado em Tanques Pesados!" short="T28 heavy tank concept: AAP-8" desc="Um tanque pesado é um alvo difícil, mas não para o seu canhão. Projéteis com trajetória arquejante podem atingir qualquer veículo no topo da torre, onde a blindagem é mais fraca." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Normalmente, os tanques pesados deslocam-se mais lentamente do que outros tipos de veículos. Portanto, muitas vezes, pode prever onde o tanque vai estar quando o seu projétil chegar. Para um piloto de AAPs, é útil saber qual é a velocidade dos seus projéteis.</Hint>
+    <PM name="AAP-8: Fiz o Meu Melhor!" short="T28 heavy tank concept: AAP-8" desc="Você recebe experiência por todas as acções eficazes. Tente ser o MVP: cause dano, auxilie na destruição de veículos inimigos e sobreviva à batalha. Mude a sua posição após cada tiro; Caso contrário, o contra ataque das AAPs inimigas podem destruir o seu veículo." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 1500 PE de danos em tanques pesados inimigos.</req>
+        <req>• Ficar entre os 5 melhores jogadores da sua equipa por experiência recebida.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 tanques pesados inimigos.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Adiante-se e Atinja-os" short="T28 heavy tank concept: AAP-9" desc="Um condutor de artilharia experiente consegue, facilmente, atingir veículos em movimento. Aprenda a prever eficazmente o movimento do veículo inimigo quando disparar. Lembre-se que um tiro directo pode causar mais dano do que o dano causado por explosão de uma HE." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>A velocidade dos seus projéteis é um parâmetro muito importante. Se souber quando é que o projétil alcança o alvo, pode calcular corretamente a deflexão.</Hint>
+    <PM name="AAP-9: Dano Colateral" short="T28 heavy tank concept: AAP-9" desc="Poderosas munições HE conseguem não só reduzir os pontos de energia dos veículos inimigos, mas têm também uma grande hipótese de destruir módulos ou ferir os membros da tripulação com dano por explosão." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Conseguir pelo menos 2 tiros directos a veículos inimigos.\n• Todos os tiros certeiros, quer causem dano ou não, são contabilizados.</req>
+        <req>• Destruir quaisquer módulos de veículos inimigos ou ferir membros da sua tripulação, totalizando pelo menos 5 módulos ou tripulantes.\n• O número de módulos destruídos e membros da sua tripulação feridos é totalizado, tendo em conta todos os veículos que danificou ou na batalha.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Sobreviva à batalha.\n• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: A Ruína da Artilharia" short="T28 heavy tank concept: AAP-10" desc="Caça à artilharia é uma excelente ideia. Tente prever onde é que as AAPs inimigas podem estar escondidas, e veja se acertou disparando um tiro preciso." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Quanto mais frequentemente conduzir uma AAP, mais pontos estratégicos dos mapas vai ficar a conhecer. Isto vai ajudá-lo a lutar contra AAPs inimigas, porque já sabe onde estas podem estar posicionadas.</Hint>
+    <PM name="AAP-10: Tudo Incluído" short="T28 heavy tank concept: AAP-10" desc="A situação de batalha pode mudar rapidamente—mantenha sempre um olho no minimapa e certifique-se que tem uma visão desobstruída dos veículos inimigos. Terá de se mover pelo mapa o tempo todo em vez de ficar numa só posição. Os seus aliados dependem do seu poder de fogo de AAP, por isso faça o seu melhor no momento e local certos." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 AAPs inimigas.</req>
+        <req>• O dano total causado por si e pelos seus aliados a veículos inimigos atordoados ou imobilizados por si tem de ser de pelo menos 2.000 PE.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 3 veículos inimigos.</req>
+        <req>• Os aliados têm de destruir pelo menos 1 veículo inimigo atordoado ou imobilizado por si.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: Área de Efeito" short="T28 heavy tank concept: AAP-11" desc="As suas munições HE podem, não só destruir um veículo inimigo com o primeiro tiro, como podem também causar um dano significativo em diversos alvos de uma vez, se eles estiverem muito próximos entre si." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Pode matar, literalmente, dois coelhos de uma cajadada só, se vários inimigos ficarem parados no mesmo sítio. Isto é comum em mapas urbanos.</Hint>
+    <PM name="AAP-11: Área de Efeito" short="T28 heavy tank concept: AAP-11" desc="Além de uma quantidade considerável de dano causado com um tiro bem colocado, uma munição Explosiva pode também atordoar todos os veículos fora de posição dentro do raio de explosão depois da munição detonar. Muitos mapas apresentam alguns pontos onde os veículos inimigos se estão a agrupar. Tente a sorte e envie os seus cumprimentos \&quot;explosivos\&quot; na direção deles." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causar dano a pelo menos 2 veículos inimigos com um único tiro.</req>
+        <req>• Atordoar pelo menos 2 veículos inimigos com um único tiro, duas vezes.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Atordoar veículos inimigos por pelo menos 100 segundos no total.</req>
+      </Secondary>
+    </PM>
+    <PM name="AAP-12: O Olho Maléfico" short="T28 heavy tank concept: AAP-12" desc="Os seus aliados destruíram o veículo inimigo atordoado? Boa notícia para o seu, uma vez que é a sua contribuição que torna a vitória desejada um passo mais perto! O seu objetivo é providenciar apoio de fogo e ajudar seus aliados no lugar e momento certo." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Atordoar veículos inimigos por pelo menos 100 segundos no total.\n• Os aliados têm de destruir pelo menos 1 veículo inimigo atordoado ou imobilizado por si.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: O Atacante" short="T28 heavy tank concept: AAP-12" desc="O estilo de jogo numa AAP é totalmente diferente de todos os outros tipos de veículos. Mas o objetivo principal é o mesmo - dar o seu melhor na batalha e contribuir ao máximo para o bom desempenho da equipa." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Não mude para modo Artilharia logo no início da batalha. Primeiro, escolha um bom ponto estratégico.</Hint>
+    <PM name="AAP-13: C de Cooperação" short="T28 heavy tank concept: AAP-13" desc="Uma cooperação bem feita entre AAPs e aliados deverá deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e foque o seu ataque num único alvo inimigo de cada vez." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ficar no top 3 dos jogadores de ambas as equipas por dano causado.\n• Destruir pelo menos 2 veículos inimigos\n• Sobreviver à batalha.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 6 vezes ou atordoá-los pelo menos 8 vezes.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ganhe a batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: A Bateria de Artilharia (Pessoal/Pelotão)" short="T28 heavy tank concept: AAP-13" desc="Um Pelotão de de AAPs bem manuseadas, deveria deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e centre o seu ataque num único alvo inimigo de cada vez. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Ao espalharem-se, o seu Pelotão pode atingir alvos de ângulos diferentes, tornando inúteis, como protecção, muitas rochas e edifícios e dominando o mapa.</Hint>
+    <PM name="AAP-14: Parte da Tripulação, Parte do Navio!" short="T28 heavy tank concept: AAP-14" desc="Cooperação é a chave para a vitória de toda a equipa. Destaque o veículo inimigo para o qual está a apontar para que os seus aliados façam cair fogo imediatamente sobre ele assim que tenha sido atordoado ou imobilizado. Lembre-se: um soldado sozinho dificilmente pode fazer uma batalha." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 20% do dano total causado a veículos inimigos pela sua equipa, pessoalmente ou no total do Pelotão.\n• Vencer a batalha.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua artilharia e quaisquer outros veículos.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 100 segundos no total ou permitir aos seus aliados causarem pelo menos 600 de dano a veículos inimigos imobilizando-os.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva Conjunta (Pessoal/Pelotão)" short="T28 heavy tank concept: AAP-14" desc="A artilharia está dependente do resto da equipa para ter sucesso. As artilharias e os tanques ligeiros complementam-se uns aos outros especialmente bem em Pelotão. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Um tanque ligeiro pode detectar os veículos inimigos e imobilizá-los. As AAPs podem aproveitarem-se da vítima infeliz. Juntos, vamos vencer! Um tanque pesado pode protegê-lo com a sua blindagem, um tanque médio distrai o inimigo, enquanto um antitanque providencia fogo de apoio a longas distâncias.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causar, pelo menos, 3.000 PE de dano a tanques pesados e a antitanques inimigos, pessoalmente ou no total do Pelotão.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua artilharia e quaisquer outros veículos.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
-      </Secondary>
-    </PM>
-    <PM name="AAP-15: Deus da Guerra" short="T28 heavy tank concept: AAP-15" desc="É muito melhor par a equipa se a AAP sobreviver. Tente não se expor a fogo inimigo e dispare tiros precisos contra os adversários." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
-      <Hint>Se conhecer as características técnicas da sua AAP, pode planear as suas ações em batalha. Por vezes, ficar na base não é boa ideia. Se estiver a conduzir uma AAP veloz, pode mudar de posição rapidamente e enfrentar o inimigo a partir de direções que este não espera.</Hint>
+    <PM name="AAP-15: Deus da Guerra" short="T28 heavy tank concept: AAP-15" desc="Uma AAP que sobreviva durante o maior tempo possível é um verdadeiro trunfo para a equipa. Continue a disparar um tiro atrás do outro enquanto tenta não ser apanhado pelo fogo inimigo. Leve o seu tempo e pense duas vezes antes de \&quot;puxar o gatilho\&quot;, uma vez que \&quot;um tiro uma morte\&quot; é a melhor estratégia para um veículo com um longo tempo de recarregamento." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Fique no top 3 de jogadores de ambas as equipas por experiência recebida e danos causados.\n• Cause pelo menos 2000 PE de danos.</req>
+        <req>• Ficar entre os 3 melhores jogadores de ambas as equipas por experiência recebida.\n• Permitir aos seus aliados causarem pelo menos 1.500 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Sobreviva à batalha.</req>
@@ -3249,136 +3261,136 @@
         <req>• Destruir pelo menos 3 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: Atirador Especial" short="T 55A: AAP-1" desc="Não desperdice a sua munição. Os tiros precisos são aqueles que o levam à vitória." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Seja paciente e espere até a mira estar completamente fechada no alvo.</Hint>
+    <PM name="AAP-1: Uma Afirmação Ousada" short="T 55A: AAP-1" desc="O grande raio de explosão após a munição detonar é a característica-chave dos veículos AAP. Mesmo se não conseguir acertar um tiro directo num veículo inimigo, ainda há uma hipótese de causar sérios problemas ao atordoá-lo. O veículo inimigo é marcado com o indicador de atordoamento, que é visível pelos seus aliados. Se os aliados causarem dano aos veículos atordoados por si, receberá créditos adicionais e experiência por dano causado com a sua assistência." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Acertar pelo menos 5 tiros que causem dano a veículos inimigos.</req>
+        <req>• Atordoar veículos inimigos pelo menos 7 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 3.000 PE de dano.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 6 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto e Perigoso" short="T 55A: AAP-2" desc="As AAPs não podem depender da espessura da blindagem ou da velocidade. Se estiver aos comandos de uma AAP, aprenda a manter-se oculto durante toda a batalha." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>O equipamento Rede de Camuflagem e a Camuflagem vão aumentar a sua capacidade de se ocultar, quando montados na sua AAP.</Hint>
+    <PM name="AAP-2: Tempo é Dinheiro" short="T 55A: AAP-2" desc="Um veículo inimigo permanece atordoado por um período de tempo e não consegue estar no seu melhor no campo de batalha. Lembre-se: um veículo atordoado é um alvo fácil." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Fique no top 5 de jogadores da sua equipa por danos causados. Mantenha-se sem ser detetado durante a batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 150 segundos no total.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Destruir pelo menos 3 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Ataque de Howitzer" short="T 55A: AAP-3" desc="Se quer ser uma mais-valia para a equipa, primeiro tem de aprender a disparar eficazmente." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Siga a corrente da batalha e apoie a sua equipa. Não fique parado num sítio por muito tempo. Retire-se ou procure outra posição para disparar, se necessário.</Hint>
+    <PM name="AAP-3: Lendo e Cuidadoso Acaba Atordoado" short="T 55A: AAP-3" desc="Poderosos e ocultos antitanques e tanques pesados bem blindados podem facilmente virar a maré da batalha. Eles são os alvos prioritários e causar-lhes dano (ou ajudar na sua destruição) deve ser o objectivo principal para um jogador numa AAP. A maioria dos pesados e antitanques são lentos e grandes, o que aumenta as possibilidades de um tiro bem sucedido." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 3.000 PE de dano a veículos inimigos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo pelo menos 6 vezes.\n• Os tiros atordoantes devem também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vencer a batalha.\n• Sobreviver à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Atravessar" short="T 55A: AAP-4" desc="As munições HE mais poderosas, não só podem causar em termos de pontos de energia, como também têm a hipótese de danificar ou destruir módulos ou mesmo ferir os membros da tripulação com o dano da explosão." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Apenas penetrando a blindagem e explodir dentro do chassis do tanque inimigo, é que uma munição HE mostra o seu valor. Se a sua munição tiver uma penetração medíocre, tente encontrar veículos com torres abertas ou carregue uma munição Premium.</Hint>
+    <PM name="AAP-4: Ajudo-te a Passar" short="T 55A: AAP-4" desc="Aprenda as principais rotas dos tanques pesados inimigos e posições onde os astutos antitanques geralmente se escondem. Apontar para uma área específica do mapa com antecedência aumenta as possibilidades para um tiro mais eficaz e devastador para posições inimigas. Estes tipos de veículos geralmente seguem tácticas bastante previsíveis em determinados mapas. Seja inteligente: analise a configuração da equipa inimiga e selecione a posição mais adequada logo desde o início da batalha." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Danificar ou destruir módulos dos veículos inimigos ou fira os membros da sua tripulação, totalizando, pelo menos, 8 módulos e membros da tripulação.\n• O número de módulos danificados/destruídos e tripulantes feridos entre todos os veículos que danificou na batalha, são adicionados juntos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo por pelo menos 80 segundos no total. \n• O tiro atordoante deve também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcular e Obliterar" short="T 55A: AAP-5" desc="O grande poder de fogo que possui compensa bem a baixa durabilidade relativa da sua AAP." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Tente causar dano nos veículos logo que surja essa oportunidade. Mesmo que a sua munição HE falhe o inimigo por centímetros, o seu tanque receberá dano causado pelos fragmentos da munição.</Hint>
+    <PM name="AAP-5: Partilhar é Cuidar" short="T 55A: AAP-5" desc="Atordoar veículos inimigos não só faz coloca a sua equipa um passo mais perto de uma vitória, mas também garante que você receba experiência adicional e créditos se os seus aliados causarem dano aos veículos inimigos atordoados por si. Não se esqueça de marcar a área que para onde está a apontar (tecla T por defeito) para notificar e chamar a atenção dos seus aliados." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar dano que exceda 8 vezes o valor dos pontos de energia do seu veículo.\n• Dano causado a aliados não é contado.</req>
+        <req>• Permitir aos seus aliados causarem pelo menos 2.000 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 3 veículos inimigos.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 6 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: O Martelo em Queda" short="T 55A: AAP-6" desc="Muitas vezes, vai enfrentar veículos de níveis superiores. Mas isso não é problema para um comandante de AAPs experiente." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Se não conseguir penetrar um veículo inimigo com projéteis normais, tente usar projéteis Premium. Atire para as laterais e a parte traseira do veículo inimigo. As AAPs, com a sua trajetória de projétil em arco, conseguem atingir eficientemente qualquer veículo no topo da torre, onde a proteção da blindagem é mais fraca. Os veículos inimigos com torres abertas são ainda mais vulneráveis a destruição vinda de cima.</Hint>
+    <PM name="AAP-6: Martelo dos Deuses" short="T 55A: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 3 veículos inimigos que sejam 1 nível superior ao seu veículo.</req>
+        <req>• Permitir aos seus aliados danificarem pelo menos 5 veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Tragam as Armas Grandes" short="T 55A: AAP-7" desc="Deve destruir os antitanques e artilharia assim que tiver oportunidade. Ao acabar com eles, pode mudar a maré da batalha a seu favor." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Coordene as suas acções com os tanques ligeiros aliados. Detectar os antitanques e artilharias inimigas e destrui-los pode ajudar a atingir a superioridade no campo de batalha.</Hint>
+    <PM name="AAP-7: Consideração Cuidadosa" short="T 55A: AAP-7" desc="Para completar esta missão, utilize uma abordagem selectiva para escolher os seus alvos. Não concentre o fogo num veículo inimigo, mesmo que seja um alvo fácil. A melhor estratégia é acertar em grandes grupos de veículos inimigos com um tiro. Estude os mapas e aprenda as rotas básicas dos veículos." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir um total de pelo menos 2 antitanques e AAPs inimigos.\n• Vencer a batalha.</req>
+        <req>• Atordoar pelo menos 5 veículos inimigos.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 3000 PE de danos.</req>
+        <req>• Vencer a batalha.\n• Sobreviver à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: Fogo Pesado em Tanques Pesados!" short="T 55A: AAP-8" desc="Um tanque pesado é um alvo difícil, mas não para o seu canhão. Projéteis com trajetória arquejante podem atingir qualquer veículo no topo da torre, onde a blindagem é mais fraca." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Normalmente, os tanques pesados deslocam-se mais lentamente do que outros tipos de veículos. Portanto, muitas vezes, pode prever onde o tanque vai estar quando o seu projétil chegar. Para um piloto de AAPs, é útil saber qual é a velocidade dos seus projéteis.</Hint>
+    <PM name="AAP-8: Fiz o Meu Melhor!" short="T 55A: AAP-8" desc="Você recebe experiência por todas as acções eficazes. Tente ser o MVP: cause dano, auxilie na destruição de veículos inimigos e sobreviva à batalha. Mude a sua posição após cada tiro; Caso contrário, o contra ataque das AAPs inimigas podem destruir o seu veículo." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 2000 PE de danos em tanques pesados inimigos.</req>
+        <req>• Ficar entre os 3 melhores jogadores da sua equipa por experiência recebida.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destrua um tanque pesado inimigo.\n• Ganhe a batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Adiante-se e Atinja-os" short="T 55A: AAP-9" desc="Um condutor de artilharia experiente consegue, facilmente, atingir veículos em movimento. Aprenda a prever eficazmente o movimento do veículo inimigo quando disparar. Lembre-se que um tiro directo pode causar mais dano do que o dano causado por explosão de uma HE." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>A velocidade dos seus projéteis é um parâmetro muito importante. Se souber quando é que o projétil alcança o alvo, pode calcular corretamente a deflexão.</Hint>
+    <PM name="AAP-9: Dano Colateral" short="T 55A: AAP-9" desc="Poderosas munições HE conseguem não só reduzir os pontos de energia dos veículos inimigos, mas têm também uma grande hipótese de destruir módulos ou ferir os membros da tripulação com dano por explosão." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danificar um veículo inimigo que se move a uma velocidade de pelo menos 30 km/h.\n• Tanto o dano causado por explosão e o dano causado por tiros directos são contados.\n• Dano causado por abalroamento não é contado.</req>
+        <req>• Destruir quaisquer módulos de veículos inimigos ou ferir membros da sua tripulação, totalizando pelo menos 8 módulos ou tripulantes.\n• O número de módulos destruídos e membros da sua tripulação feridos é totalizado, tendo em conta todos os veículos que danificou ou na batalha.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Sobreviva à batalha.\n• Ganhe a batalha.\n• Mantenha-se sem ser detetado durante a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: A Ruína da Artilharia" short="T 55A: AAP-10" desc="Caça à artilharia é uma excelente ideia. Tente prever onde é que as AAPs inimigas podem estar escondidas, e veja se acertou disparando um tiro preciso." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Quanto mais frequentemente conduzir uma AAP, mais pontos estratégicos dos mapas vai ficar a conhecer. Isto vai ajudá-lo a lutar contra AAPs inimigas, porque já sabe onde estas podem estar posicionadas.</Hint>
+    <PM name="AAP-10: Tudo Incluído" short="T 55A: AAP-10" desc="A situação de batalha pode mudar rapidamente—mantenha sempre um olho no minimapa e certifique-se que tem uma visão desobstruída dos veículos inimigos. Terá de se mover pelo mapa o tempo todo em vez de ficar numa só posição. Os seus aliados dependem do seu poder de fogo de AAP, por isso faça o seu melhor no momento e local certos." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 1 AAP.\n• Causar pelo menos 2.000 PE de dano em veículos inimigos.</req>
+        <req>• O dano total causado por si e pelos seus aliados a veículos inimigos atordoados ou imobilizados por si tem de ser de pelo menos 3.000 PE.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 4 veículos inimigos.</req>
+        <req>• Vencer a batalha.\n• Os aliados têm de destruir pelo menos 2 veículos inimigos atordoados ou imobilizados por si.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: Área de Efeito" short="T 55A: AAP-11" desc="As suas munições HE podem, não só destruir um veículo inimigo com o primeiro tiro, como podem também causar um dano significativo em diversos alvos de uma vez, se eles estiverem muito próximos entre si." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Pode matar, literalmente, dois coelhos de uma cajadada só, se vários inimigos ficarem parados no mesmo sítio. Isto é comum em mapas urbanos.</Hint>
+    <PM name="AAP-11: Área de Efeito" short="T 55A: AAP-11" desc="Além de uma quantidade considerável de dano causado com um tiro bem colocado, uma munição Explosiva pode também atordoar todos os veículos fora de posição dentro do raio de explosão depois da munição detonar. Muitos mapas apresentam alguns pontos onde os veículos inimigos se estão a agrupar. Tente a sorte e envie os seus cumprimentos \&quot;explosivos\&quot; na direção deles." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir um veículo inimigo e causar dano a 1 ou mais veículos com um só tiro.</req>
+        <req>• Atordoar pelo menos 3 veículos inimigos com um único tiro.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 150 segundos no total.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: O Atacante" short="T 55A: AAP-12" desc="O estilo de jogo numa AAP é totalmente diferente de todos os outros tipos de veículos. Mas o objetivo principal é o mesmo - dar o seu melhor na batalha e contribuir ao máximo para o bom desempenho da equipa." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Não mude para modo Artilharia logo no início da batalha. Primeiro, escolha um bom ponto estratégico.</Hint>
+    <PM name="AAP-12: O Olho Maléfico" short="T 55A: AAP-12" desc="Os seus aliados destruíram o veículo inimigo atordoado? Boa notícia para o seu, uma vez que é a sua contribuição que torna a vitória desejada um passo mais perto! O seu objetivo é providenciar apoio de fogo e ajudar seus aliados no lugar e momento certo." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Terminar a batalha como o melhor jogador da sua equipa por dano causado.\n• Destruir pelo menos 3 veículos inimigos.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 150 segundos no total.\n• Os aliados têm de destruir pelo menos 2 veículos inimigos atordoados ou imobilizados por si.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: A Bateria de Artilharia (Pessoal/Pelotão)" short="T 55A: AAP-13" desc="Um Pelotão de de AAPs bem manuseadas, deveria deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e centre o seu ataque num único alvo inimigo de cada vez. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Ao espalharem-se, o seu Pelotão pode atingir alvos de ângulos diferentes, tornando inúteis, como protecção, muitas rochas e edifícios e dominando o mapa.</Hint>
+    <PM name="AAP-13: C de Cooperação" short="T 55A: AAP-13" desc="Uma cooperação bem feita entre AAPs e aliados deverá deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e foque o seu ataque num único alvo inimigo de cada vez." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 25% do dano total causado a veículos inimigos pela sua equipa, pessoalmente ou no total do Pelotão.\n• Vencer a batalha.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua AAP e quaisquer outros veículos.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 8 vezes ou atordoá-los pelo menos 10 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva Conjunta (Pessoal/Pelotão)" short="T 55A: AAP-14" desc="A artilharia está dependente do resto da equipa para ter sucesso. As artilharias e os tanques ligeiros complementam-se uns aos outros especialmente bem em Pelotão. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Um tanque ligeiro pode detectar os veículos inimigos e imobilizá-los. As AAPs podem aproveitarem-se da vítima infeliz. Juntos, vamos vencer! Um tanque pesado pode protegê-lo com a sua blindagem, um tanque médio distrai o inimigo, enquanto um antitanque providencia fogo de apoio a longas distâncias.</Hint>
+    <PM name="AAP-14: Parte da Tripulação, Parte do Navio!" short="T 55A: AAP-14" desc="Cooperação é a chave para a vitória de toda a equipa. Destaque o veículo inimigo para o qual está a apontar para que os seus aliados façam cair fogo imediatamente sobre ele assim que tenha sido atordoado ou imobilizado. Lembre-se: um soldado sozinho dificilmente pode fazer uma batalha." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar, pelo menos, 4.000 PE de dano a tanques pesados e a antitanques inimigos, pessoalmente ou no total do Pelotão.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, consistindo da sua AAP e quaisquer outros veículos.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 180 segundos no total ou permitir aos seus aliados causarem pelo menos 800 de dano a veículos inimigos imobilizando-os.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Deus da Guerra" short="T 55A: AAP-15" desc="É muito melhor par a equipa se a AAP sobreviver. Tente não se expor a fogo inimigo e dispare tiros precisos contra os adversários." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
-      <Hint>Se conhecer as características técnicas da sua AAP, pode planear as suas ações em batalha. Por vezes, ficar na base não é boa ideia. Se estiver a conduzir uma AAP veloz, pode mudar de posição rapidamente e enfrentar o inimigo a partir de direções que este não espera.</Hint>
+    <PM name="AAP-15: Deus da Guerra" short="T 55A: AAP-15" desc="Uma AAP que sobreviva durante o maior tempo possível é um verdadeiro trunfo para a equipa. Continue a disparar um tiro atrás do outro enquanto tenta não ser apanhado pelo fogo inimigo. Leve o seu tempo e pense duas vezes antes de \&quot;puxar o gatilho\&quot;, uma vez que \&quot;um tiro uma morte\&quot; é a melhor estratégia para um veículo com um longo tempo de recarregamento." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Termine a batalha como o melhor jogador da sua equipa por experiência recebida e danos causados.\n• Cause pelo menos 3000 PE de danos.</req>
+        <req>• Termine a batalha como o melhor jogador de ambas as equipas por experiência recebida.\n• Permitir aos seus aliados causarem pelo menos 2.500 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Sobreviva à batalha.</req>
@@ -3924,136 +3936,136 @@
         <req>• Destruir pelo menos 5 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: Atirador Especial" short="Object 260: AAP-1" desc="Não desperdice a sua munição. Os tiros precisos são aqueles que o levam à vitória." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Seja paciente e espere até a mira estar completamente fechada no alvo.</Hint>
+    <PM name="AAP-1: Uma Afirmação Ousada" short="Object 260: AAP-1" desc="O grande raio de explosão após a munição detonar é a característica-chave dos veículos AAP. Mesmo se não conseguir acertar um tiro directo num veículo inimigo, ainda há uma hipótese de causar sérios problemas ao atordoá-lo. O veículo inimigo é marcado com o indicador de atordoamento, que é visível pelos seus aliados. Se os aliados causarem dano aos veículos atordoados por si, receberá créditos adicionais e experiência por dano causado com a sua assistência." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Acertar pelo menos 6 tiros que causem dano a veículos inimigos.</req>
+        <req>• Atordoar veículos inimigos pelo menos 10 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 4.000 PE de dano.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 8 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto e Perigoso" short="Object 260: AAP-2" desc="As AAPs não podem depender da espessura da blindagem ou da velocidade. Se estiver aos comandos de uma AAP, aprenda a manter-se oculto durante toda a batalha." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>O equipamento Rede de Camuflagem e a Camuflagem vão aumentar a sua capacidade de se ocultar, quando montados na sua AAP.</Hint>
+    <PM name="AAP-2: Tempo é Dinheiro" short="Object 260: AAP-2" desc="Um veículo inimigo permanece atordoado por um período de tempo e não consegue estar no seu melhor no campo de batalha. Lembre-se: um veículo atordoado é um alvo fácil." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Fique no top 3 de jogadores da sua equipa por danos causados. Mantenha-se sem ser detetado durante a batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 200 segundos no total.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 3 veículos inimigos.</req>
+        <req>• Destruir pelo menos 4 veículos inimigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Ataque de Howitzer" short="Object 260: AAP-3" desc="Se quer ser uma mais-valia para a equipa, primeiro tem de aprender a disparar eficazmente." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Siga a corrente da batalha e apoie a sua equipa. Não fique parado num sítio por muito tempo. Retire-se ou procure outra posição para disparar, se necessário.</Hint>
+    <PM name="AAP-3: Lendo e Cuidadoso Acaba Atordoado" short="Object 260: AAP-3" desc="Poderosos e ocultos antitanques e tanques pesados bem blindados podem facilmente virar a maré da batalha. Eles são os alvos prioritários e causar-lhes dano (ou ajudar na sua destruição) deve ser o objectivo principal para um jogador numa AAP. A maioria dos pesados e antitanques são lentos e grandes, o que aumenta as possibilidades de um tiro bem sucedido." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 4.000 PE de dano a veículos inimigos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo pelo menos 8 vezes.\n• Os tiros atordoantes devem também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vencer a batalha.\n• Sobreviver à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Atravessar" short="Object 260: AAP-4" desc="As munições HE mais poderosas, não só podem causar em termos de pontos de energia, como também têm a hipótese de danificar ou destruir módulos ou mesmo ferir os membros da tripulação com o dano da explosão." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Apenas penetrando a blindagem e explodir dentro do chassis do tanque inimigo, é que uma munição HE mostra o seu valor. Se a sua munição tiver uma penetração medíocre, tente encontrar veículos com torres abertas ou carregue uma munição Premium.</Hint>
+    <PM name="AAP-4: Ajudo-te a Passar" short="Object 260: AAP-4" desc="Aprenda as principais rotas dos tanques pesados inimigos e posições onde os astutos antitanques geralmente se escondem. Apontar para uma área específica do mapa com antecedência aumenta as possibilidades para um tiro mais eficaz e devastador para posições inimigas. Estes tipos de veículos geralmente seguem tácticas bastante previsíveis em determinados mapas. Seja inteligente: analise a configuração da equipa inimiga e selecione a posição mais adequada logo desde o início da batalha." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Danificar ou destruir módulos dos veículos inimigos ou fira os membros da sua tripulação, totalizando, pelo menos, 10 módulos e membros da tripulação.\n• O número de módulos danificados/destruídos e tripulantes feridos entre todos os veículos que danificou na batalha, são adicionados juntos.</req>
+        <req>• Atordoar um tanque pesado ou antitanque inimigo por pelo menos 120 segundos no total. \n• O tiro atordoante deve também causar dano.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcular e Obliterar" short="Object 260: AAP-5" desc="O grande poder de fogo que possui compensa bem a baixa durabilidade relativa da sua AAP." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Tente causar dano nos veículos logo que surja essa oportunidade. Mesmo que a sua munição HE falhe o inimigo por centímetros, o seu tanque receberá dano causado pelos fragmentos da munição.</Hint>
+    <PM name="AAP-5: Partilhar é Cuidar" short="Object 260: AAP-5" desc="Atordoar veículos inimigos não só faz coloca a sua equipa um passo mais perto de uma vitória, mas também garante que você receba experiência adicional e créditos se os seus aliados causarem dano aos veículos inimigos atordoados por si. Não se esqueça de marcar a área que para onde está a apontar (tecla T por defeito) para notificar e chamar a atenção dos seus aliados." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar dano excedendo 10 vezes os pontos de energia do seu veículo.\n• O dano causado a veículos aliados não é contado.</req>
+        <req>• Permitir aos seus aliados causarem pelo menos 3.000 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 4 veículos inimigos.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 8 vezes disparando sobre eles ou abalroando-os.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: O Martelo em Queda" short="Object 260: AAP-6" desc="Muitas vezes, vai enfrentar veículos de níveis superiores. Mas isso não é problema para um comandante de AAPs experiente." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Se não conseguir penetrar um veículo inimigo com projéteis normais, tente usar projéteis Premium. Atire para as laterais e a parte traseira do veículo inimigo. As AAPs, com a sua trajetória de projétil em arco, conseguem atingir eficientemente qualquer veículo no topo da torre, onde a proteção da blindagem é mais fraca. Os veículos inimigos com torres abertas são ainda mais vulneráveis a destruição vinda de cima.</Hint>
+    <PM name="AAP-6: Martelo dos Deuses" short="Object 260: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 veículos inimigos que sejam 2 níveis superiores ao seu veículo.</req>
+        <req>• Permitir aos seus aliados danificarem pelo menos 6 veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Tragam as Armas Grandes" short="Object 260: AAP-7" desc="Deve destruir os antitanques e artilharia assim que tiver oportunidade. Ao acabar com eles, pode mudar a maré da batalha a seu favor." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Coordene as suas acções com os tanques ligeiros aliados. Detectar os antitanques e artilharias inimigas e destrui-los pode ajudar a atingir a superioridade no campo de batalha.</Hint>
+    <PM name="AAP-7: Consideração Cuidadosa" short="Object 260: AAP-7" desc="Para completar esta missão, utilize uma abordagem selectiva para escolher os seus alvos. Não concentre o fogo num veículo inimigo, mesmo que seja um alvo fácil. A melhor estratégia é acertar em grandes grupos de veículos inimigos com um tiro. Estude os mapas e aprenda as rotas básicas dos veículos." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir um total de pelo menos 3 antitanques e AAPs inimigas.\n• Ganhe a batalha.</req>
+        <req>• Atordoar pelo menos 6 veículos inimigos.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 4000 PE de danos.</req>
+        <req>• Vencer a batalha.\n• Sobreviver à batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: Fogo Pesado em Tanques Pesados!" short="Object 260: AAP-8" desc="Um tanque pesado é um alvo difícil, mas não para o seu canhão. Projéteis com trajetória arquejante podem atingir qualquer veículo no topo da torre, onde a blindagem é mais fraca." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Normalmente, os tanques pesados deslocam-se mais lentamente do que outros tipos de veículos. Portanto, muitas vezes, pode prever onde o tanque vai estar quando o seu projétil chegar. Para um piloto de AAPs, é útil saber qual é a velocidade dos seus projéteis.</Hint>
+    <PM name="AAP-8: Fiz o Meu Melhor!" short="Object 260: AAP-8" desc="Você recebe experiência por todas as acções eficazes. Tente ser o MVP: cause dano, auxilie na destruição de veículos inimigos e sobreviva à batalha. Mude a sua posição após cada tiro; Caso contrário, o contra ataque das AAPs inimigas podem destruir o seu veículo." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause pelo menos 3000 PE de danos em tanques pesados inimigos.</req>
+        <req>• Termine a batalha como o melhor jogador de ambas as equipas por experiência recebida.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 tanques pesados inimigos.\n• Vencer a batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Adiante-se e Atinja-os" short="Object 260: AAP-9" desc="Um condutor de artilharia experiente consegue, facilmente, atingir veículos em movimento. Aprenda a prever eficazmente o movimento do veículo inimigo quando disparar. Lembre-se que um tiro directo pode causar mais dano do que o dano causado por explosão de uma HE." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>A velocidade dos seus projéteis é um parâmetro muito importante. Se souber quando é que o projétil alcança o alvo, pode calcular corretamente a deflexão.</Hint>
+    <PM name="AAP-9: Dano Colateral" short="Object 260: AAP-9" desc="Poderosas munições HE conseguem não só reduzir os pontos de energia dos veículos inimigos, mas têm também uma grande hipótese de destruir módulos ou ferir os membros da tripulação com dano por explosão." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Conseguir pelo menos 4 tiros directos a veículos inimigos.\n• Todos os tiros certeiros, quer causem dano ou não, são contabilizados.</req>
+        <req>• Destruir quaisquer módulos de veículos inimigos ou ferir membros da sua tripulação, totalizando pelo menos 10 módulos ou tripulantes.\n• O número de módulos destruídos e membros da sua tripulação feridos é totalizado, tendo em conta todos os veículos que danificou ou na batalha.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Sobreviva à batalha.\n• Ganhe a batalha.\n• Mantenha-se sem ser detetado durante a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: A Ruína da Artilharia" short="Object 260: AAP-10" desc="Caça à artilharia é uma excelente ideia. Tente prever onde é que as AAPs inimigas podem estar escondidas, e veja se acertou disparando um tiro preciso." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Quanto mais frequentemente conduzir uma AAP, mais pontos estratégicos dos mapas vai ficar a conhecer. Isto vai ajudá-lo a lutar contra AAPs inimigas, porque já sabe onde estas podem estar posicionadas.</Hint>
+    <PM name="AAP-10: Tudo Incluído" short="Object 260: AAP-10" desc="A situação de batalha pode mudar rapidamente—mantenha sempre um olho no minimapa e certifique-se que tem uma visão desobstruída dos veículos inimigos. Terá de se mover pelo mapa o tempo todo em vez de ficar numa só posição. Os seus aliados dependem do seu poder de fogo de AAP, por isso faça o seu melhor no momento e local certos." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 AAPs inimigas.\n• Causar pelo menos 4.000 PE de dano em veículos inimigos.</req>
+        <req>• O dano total causado por si e pelos seus aliados a veículos inimigos atordoados ou imobilizados por si tem de ser de pelo menos 4.000 PE.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 5 veículos inimigos.</req>
+        <req>• Vencer a batalha.\n• Os aliados têm de destruir pelo menos 3 veículos inimigos atordoados ou imobilizados por si.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: Área de Efeito" short="Object 260: AAP-11" desc="As suas munições HE podem, não só destruir um veículo inimigo com o primeiro tiro, como podem também causar um dano significativo em diversos alvos de uma vez, se eles estiverem muito próximos entre si." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Pode matar, literalmente, dois coelhos de uma cajadada só, se vários inimigos ficarem parados no mesmo sítio. Isto é comum em mapas urbanos.</Hint>
+    <PM name="AAP-11: Área de Efeito" short="Object 260: AAP-11" desc="Além de uma quantidade considerável de dano causado com um tiro bem colocado, uma munição Explosiva pode também atordoar todos os veículos fora de posição dentro do raio de explosão depois da munição detonar. Muitos mapas apresentam alguns pontos onde os veículos inimigos se estão a agrupar. Tente a sorte e envie os seus cumprimentos \&quot;explosivos\&quot; na direção deles." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruir pelo menos 2 veículos inimigos com um único tiro.</req>
+        <req>• Atordoar pelo menos 3 veículos inimigos com um único tiro, duas vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ganhe a batalha.\n• Sobreviva à batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 200 segundos no total.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: O Atacante" short="Object 260: AAP-12" desc="O estilo de jogo numa AAP é totalmente diferente de todos os outros tipos de veículos. Mas o objetivo principal é o mesmo - dar o seu melhor na batalha e contribuir ao máximo para o bom desempenho da equipa." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Não mude para modo Artilharia logo no início da batalha. Primeiro, escolha um bom ponto estratégico.</Hint>
+    <PM name="AAP-12: O Olho Maléfico" short="Object 260: AAP-12" desc="Os seus aliados destruíram o veículo inimigo atordoado? Boa notícia para o seu, uma vez que é a sua contribuição que torna a vitória desejada um passo mais perto! O seu objetivo é providenciar apoio de fogo e ajudar seus aliados no lugar e momento certo." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Terminar a batalha como o melhor jogador de ambas as equipas por dano causado.\n• Destruir pelo menos 4 veículos inimigos.\n• Sobreviver à batalha.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 200 segundos no total.\n• Os aliados têm de destruir pelo menos 3 veículos inimigos atordoados ou imobilizados por si.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Ganhe a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: A Bateria de Artilharia (Pessoal/Pelotão)" short="Object 260: AAP-13" desc="Um Pelotão de de AAPs bem manuseadas, deveria deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e centre o seu ataque num único alvo inimigo de cada vez. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Ao espalharem-se, o seu Pelotão pode atingir alvos de ângulos diferentes, tornando inúteis, como protecção, muitas rochas e edifícios e dominando o mapa.</Hint>
+    <PM name="AAP-13: C de Cooperação" short="Object 260: AAP-13" desc="Uma cooperação bem feita entre AAPs e aliados deverá deixar a equipa inimiga extremamente preocupada. Coordene as suas acções e foque o seu ataque num único alvo inimigo de cada vez." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar pelo menos 30% do dano total causado a veículos inimigos pela sua equipa, pessoalmente ou no total do Pelotão.\n• Vencer a batalha.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, constituído pela sua AAP e quaisquer outros veículos.</req>
+        <req>• Causar dano a veículos inimigos pelo menos 10 vezes ou atordoá-los pelo menos 12 vezes.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva Conjunta (Pessoal/Pelotão)" short="Object 260: AAP-14" desc="A artilharia está dependente do resto da equipa para ter sucesso. As artilharias e os tanques ligeiros complementam-se uns aos outros especialmente bem em Pelotão. Esta missão pode ser completada seja como parte de um Pelotão ou sozinho, no entanto, esta última será mais difícil." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Um tanque ligeiro pode detectar os veículos inimigos e imobilizá-los. As AAPs podem aproveitarem-se da vítima infeliz. Juntos, vamos vencer! Um tanque pesado pode protegê-lo com a sua blindagem, um tanque médio distrai o inimigo, enquanto um antitanque providencia fogo de apoio a longas distâncias.</Hint>
+    <PM name="AAP-14: Parte da Tripulação, Parte do Navio!" short="Object 260: AAP-14" desc="Cooperação é a chave para a vitória de toda a equipa. Destaque o veículo inimigo para o qual está a apontar para que os seus aliados façam cair fogo imediatamente sobre ele assim que tenha sido atordoado ou imobilizado. Lembre-se: um soldado sozinho dificilmente pode fazer uma batalha." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causar, pelo menos, 5.000 PE de dano a tanques pesados e a antitanques inimigos, pessoalmente ou no total do Pelotão.\n• Pode ser completada pessoalmente ou como parte de um Pelotão, constituído pela sua AAP e quaisquer outros veículos.</req>
+        <req>• Atordoar veículos inimigos por pelo menos 250 segundos no total ou permitir aos seus aliados causarem pelo menos 1.000 de dano a veículos inimigos imobilizando-os.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pessoalmente sobreviver à batalha.</req>
+        <req>• Vencer a batalha.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Deus da Guerra" short="Object 260: AAP-15" desc="É muito melhor par a equipa se a AAP sobreviver. Tente não se expor a fogo inimigo e dispare tiros precisos contra os adversários." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
-      <Hint>Se conhecer as características técnicas da sua AAP, pode planear as suas ações em batalha. Por vezes, ficar na base não é boa ideia. Se estiver a conduzir uma AAP veloz, pode mudar de posição rapidamente e enfrentar o inimigo a partir de direções que este não espera.</Hint>
+    <PM name="AAP-15: Deus da Guerra" short="Object 260: AAP-15" desc="Uma AAP que sobreviva durante o maior tempo possível é um verdadeiro trunfo para a equipa. Continue a disparar um tiro atrás do outro enquanto tenta não ser apanhado pelo fogo inimigo. Leve o seu tempo e pense duas vezes antes de \&quot;puxar o gatilho\&quot;, uma vez que \&quot;um tiro uma morte\&quot; é a melhor estratégia para um veículo com um longo tempo de recarregamento." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Termine a batalha como o melhor jogador de ambas as equipas por experiência recebida e danos causados.\n• Cause pelo menos 3000 PE de danos.</req>
+        <req>• Termine a batalha como o melhor jogador de ambas as equipas por experiência recebida.\n• Permitir aos seus aliados causarem pelo menos 3.500 de dano a veículos inimigos ao atordoá-los ou imobilizá-los.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Sobreviva à batalha.</req>

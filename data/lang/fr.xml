@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ville Fantôme" />
     <item ID="96_prohorovka_defense" Name="Percée fulgurante" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="La Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Inconnu" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Bataille spéciale" />
     <item ID="5" Name="Bataille spéciale" />
     <item ID="6" Name="Entraînement au combat" />
-    <item ID="7" Name="Équipe : non classées" />
+    <item ID="7" Name="Bataille en équipe" />
     <item ID="8" Name="Bataille historique" />
     <item ID="9" Name="Événement spécial" />
     <item ID="10" Name="Escarmouches" />
@@ -1899,136 +1911,136 @@
         <req>• Détruire un véhicule ennemi.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-1 : Le tireur d'élite" short="StuG IV: Canon AM-1 " desc="Ne gaspillez pas vos munitions. Ce sont les tirs précis qui apportent la victoire." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Soyez patient et attendez d'avoir visé la cible en plein.</Hint>
+    <PM name="Canon AM-1 : Une déclaration audacieuse" short="StuG IV: Canon AM-1 " desc="La grande zone d'explosion après l'impact est la principale fonctionnalité des canons automoteurs. Même si vous manquez un tir direct sur un véhicule ennemi, il existe tout de même une probabilité de le mettre grandement en difficulté en l'étourdissant. Le véhicule ennemi est alors marqué d'un indicateur d'étourdissement visible par tous vos alliés. Si vos alliés infligent des dégâts aux véhicules que vous avez étourdis, vous recevrez des crédits et des points d'expérience supplémentaires pour les dégâts infligés grâce à votre aide." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 3 coups au but infligeant des dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir des véhicules ennemis à au moins 3 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 000 points de dégâts.</req>
+        <req>• Infliger des dégâts à des véhicules ennemis à au moins 3 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-2 : Caché et dangereux" short="StuG IV: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+    <PM name="Canon AM-2 : Le temps, c'est de l'argent" short="StuG IV: Canon AM-2 " desc="Un véhicule ennemi reste étourdi pour une durée précise et ne dispose pas de ses pleines capacités sur le champ de bataille. Retenez qu'un véhicule étourdi devient une cible facile." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 500 points de dégâts aux véhicules ennemis sans vous faire repérer au cours de la bataille.\n• Survivre à la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 50 secondes.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Détruire un véhicule ennemi.</req>
+        <req>• Détruire au moins un véhicule ennemi.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Frappe de l'obusier" short="StuG IV: Canon AM-3 " desc="Si vous voulez devenir un atout pour votre équipe, vous devez d'abord apprendre comment tirer efficacement." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Suivez le cours de la bataille et soutenez votre équipe. Ne restez pas trop longtemps au même endroit. Retirez-vous ou cherchez une autre position de tir si nécessaire.</Hint>
+    <PM name="Canon AM-3 : Subir le poids de la lenteur" short="StuG IV: Canon AM-3 " desc="Les puissants chasseurs de chars dissimulés et les chars lourds ennemis bien blindés peuvent facilement changer le cours de la bataille. Il s'agit de cibles hautement prioritaires et leur infliger des dégâts (ou participer à leur destruction) devrait être le principal objectif pour tout joueur à bord d'un canon automoteur. La majorité des chars lourds et des chasseurs de chars sont lents et massifs, ce qui augmente vos chances de réussir vos tirs." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 000 points de dégâts aux véhicules ennemis.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Remporter la bataille.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-4 : Passer de l'autre côté" short="StuG IV: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais ils auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 3 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars à au moins 2 reprises.\n• Les tirs étourdissants doivent également infliger des dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="StuG IV: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la durabilité relativement faible de votre canon automoteur." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger des dégâts au moins 4 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
+    <PM name="Canon AM-4 : Je vous ouvre la voie" short="StuG IV: Canon AM-4 " desc="Apprenez les routes principales empruntées par les chars lourds ennemis et les positions généralement occupées par les chasseurs de chars. Visez à l'avance sur une zone particulière de la carte pour augmenter vos chances d'être le plus efficace et d'infliger des tirs dévastateurs sur les positions ennemies. Ces types de véhicules suivent généralement des tactiques plutôt prévisibles sur certaines cartes. Jouez intelligemment : analysez la composition de l'équipe adverse et choisissez les positions les mieux adaptées dès le début de la bataille." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars pendant au moins 30 secondes au total.\n• Le tir étourdissant doit également infliger des dégâts.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Détruire un véhicule ennemi.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-6 : Un marteau venu du ciel" short="StuG IV: Canon AM-6 " desc="Vous aurez souvent à combattez des véhicules de rang supérieur. Mais ce n'est pas vraiment un problème pour un pilote de canon automoteur expérimenté." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Si vous ne pouvez pas pénétrer un véhicule ennemi avec des obus standards, essayez d'utiliser des obus premium. Tirez sur les flancs et l'arrière d'un véhicule ennemi. Les canons automoteurs, avec leur trajectoire d'obus en cloche, peuvent facilement toucher n'importe quel véhicule sur le toit de tourelle, un endroit où le blindage est faible. Les véhicules ennemis avec tourelle ouverte sont encore plus vulnérables de cette manière.</Hint>
+    <PM name="Canon AM-5 : Partager c'est se soucier des autres" short="StuG IV: Canon AM-5 " desc="Étourdir des véhicules ennemis rapproche nom seulement votre équipe de la victoire, mais cela vous permet également de recevoir des crédits et points d'expérience supplémentaires si vos alliés infligent des dégâts aux véhicules que vous étourdissez. N'oubliez pas d'indiquer la zone que vous visez (touche T par défaut) pour prévenir vos alliés." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 véhicules ennemis d'un rang égal ou supérieur à celui de votre véhicule.</req>
+        <req>• Permettre à vos alliés d'infliger au moins 600 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Infliger des dégâts à des véhicules ennemis à au moins 3 reprises en leur tirant dessus ou en les percutant.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-6 : Le marteau des dieux" short="StuG IV: Canon AM-6 " desc="Le principal objectif des canons automoteurs consiste à fournir des tirs d'appui aux véhicules alliés. Les véhicules ennemis étourdis deviennent de piètres combattants, vos coéquipiers apprécieront probablement votre aide. Toutefois, prenez garde avant de tirer : un tir imprudent peut également étourdir un véhicule allié. Les tirs fratricides ne sont pas tolérés !" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Permettre à vos alliés d'infliger des dégâts à au moins 2 véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-7 : Sortez les gros canons" short="StuG IV: Canon AM-7 " desc="Vous devriez détruire les chasseurs de chars et les canons automoteurs ennemis dès que vous en avez l'opportunité. En vous en débarrassant, vous pouvez changer le cours de la bataille en votre faveur." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Coordonnez vos actions avec les chars légers alliés. Repérer et détruire les chasseurs de chars ennemis peut les aider à obtenir l'avantage sur le champ de bataille.</Hint>
+    <PM name="Canon AM-7 : Étude attentive" short="StuG IV: Canon AM-7 " desc="Pour accomplir cette mission, employez une approche sélective pour choisir vos cibles. Ne concentrez pas vos tirs sur un seul et même véhicule, même s'il s'agit d'une proie facile. La meilleure stratégie consiste à frapper un grand groupe de blindés ennemis d'un seul tir. Étudiez la carte et apprenez les trajets communément parcourus par les véhicules." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire un chasseur de chars ou un canon automoteur ennemi.</req>
+        <req>• Étourdir au moins 2 véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 000 points de dégâts.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-8 : Feu nourri sur chars lourds !" short="StuG IV: Canon AM-8 " desc="Un char lourd est une cible difficile, mais pas pour votre canon. Les obus à trajectoire arquée peuvent frapper n'importe quel véhicule sur le toit de sa tourelle, endroit où le blindage est faible." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Les chars lourds se déplacent généralement plus lentement que les autres types de véhicules. Ainsi, vous pouvez souvent prédire l'endroit où le char se trouvera lorsque votre obus arrivera. En tant que pilote de canon automoteur, il est utile de connaître la vitesse de vos obus.</Hint>
+    <PM name="Canon AM-8 : J'ai fait de mon mieux" short="StuG IV: Canon AM-8 " desc="Vous recevez de l'expérience pour toute action efficace. Essayez d'être le meilleur joueur : infligez des dégâts, aidez à détruire des véhicules ennemis et restez opérationnel. Changez de position après chaque tir ou la contre-artillerie ennemie pourrait détruire votre véhicule." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 000 points de dégâts aux chars lourds ennemis.</req>
+        <req>• Faire partie des 7 meilleurs joueurs de votre équipe en expérience gagnée.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Détruire un char lourd ennemi.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="StuG IV: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
+    <PM name="Canon AM-9 : Dégâts collatéraux" short="StuG IV: Canon AM-9 " desc="Les puissants obus explosifs peuvent non seulement réduire les points de structure des véhicules ennemis, mais ils ont également une plus grande chance de détruire les éléments et blesser les membres d'équipage grâce aux dégâts par zone d'explosion." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Endommager un véhicule ennemi qui est en mouvement à une vitesse d'au moins 20 km/h.\n• Les dégâts par zone d'explosion et les dégâts directs sont pris en compte.\n• Les dégâts infligés par collision ne sont pas pris en compte.</req>
+        <req>• Détruire n'importe quels éléments de véhicules ennemis ou blesser leurs membres d'équipage pour un total de 3 éléments et membres d'équipage.\n• Le nombre d'éléments détruits et de membres d'équipage blessés est cumulé pour tous les véhicules ennemis que vous avez endommagés lors de la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-10 : Le fléau de l'artillerie" short="StuG IV: Canon AM-10 " desc="La chasse à l'artillerie est une bonne idée. Tentez de prédire où le canon automoteur ennemi est caché et vérifiez si vous avez bien deviné avec un tir précis." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Plus vous pilotez souvent un canon automoteur, plus vous découvrez les placements stratégiques sur les cartes. Ceci vous aidera lors des combats contre des canons automoteurs ennemis, car vous saurez ainsi où ils pourraient être positionnés.</Hint>
+    <PM name="Canon AM-10 : Tout compris" short="StuG IV: Canon AM-10 " desc="La situation d'une bataille peut rapidement changer. Gardez toujours un œil sur la minicarte pour vous assurer de bien connaître la position des véhicules ennemis. Vous devrez vous déplacer continuellement sur la carte au lieu de rester à une seule et même position. Vos alliés comptent sur la puissance de feu de votre artillerie, faites de votre mieux pour être au bon endroit au bon moment." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 1 canon automoteur ennemi.</req>
+        <req>• Le total des dégâts infligés par vous et vos alliés aux véhicules ennemis que vous avez étourdis ou immobilisés doit être d'au moins 1 000 points de dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 véhicules ennemis.</req>
+        <req>• Les alliés doivent détruire au moins 1 véhicule ennemi étourdi ou immobilisé par vous.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="StuG IV: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
+    <PM name="Canon AM-11 : Zone d'effet" short="StuG IV: Canon AM-11 " desc="En plus de l'incroyable quantité de dégâts infligés par un tir bien placé, les obus explosifs peuvent également étourdir tout véhicule mal placé par zone d'explosion. De nombreuses cartes comportent des endroits où les chars se collent les uns aux autres. Tentez votre chance et jetez-leur un regard « explosif »." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Détruire un véhicule ennemi en un seul tir.\n• Seules les cibles n'ayant pas subi de dégâts auparavant dans la bataille sont prises en compte.</req>
+        <req>• Étourdir au moins 2 véhicules ennemis avec un seul tir.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 50 secondes.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-12 : Le mauvais œil" short="StuG IV: Canon AM-12 " desc="Vos alliés ont détruit un véhicule ennemi étourdi ? Voilà une bonne nouvelle pour vous, puisque c'est un de vos moyens de rapprocher l'équipe de la victoire ! Votre objectif consiste à fournir des tirs d'appui et d'aider vos alliés au bon endroit et au bon moment." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 50 secondes.\n• Les alliés doivent détruire au moins 1 véhicule étourdi ou immobilisé par vous.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-12 : Le frappeur" short="StuG IV: Canon AM-12 " desc="Le style de jeu à bord d'un canon automoteur est drastiquement différent de celui des autres types de véhicules. L'objectif principal reste cependant le même : faire de votre mieux au cours de la bataille et contribuer autant que possible à la cause de l'équipe." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Ne passez pas en mode artillerie dès le tout début de la bataille. Décidez d'abord d'un bon emplacement stratégique.</Hint>
+    <PM name="Canon AM-13 : C comme coopération" short="StuG IV: Canon AM-13 " desc="Une bonne coopération entre les canons automoteurs et leurs alliés a de quoi rendre l'équipe adverse extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Faire partie des 3 meilleurs joueurs de votre équipe en dégâts infligés.\n• Détruire un véhicule ennemi.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 4 reprises ou les étourdir à au moins 6 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-13 : Batterie d'artillerie (personnel/peloton)" short="StuG IV: Canon AM-13 " desc="Un peloton de canons automoteurs bien pris en main devrait rendre l'équipe ennemie extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>En vous séparant, votre peloton peut frapper des cibles depuis des angles différents, rendant de nombreux rochers et bâtiments complètement inutiles en tant que couverture, et ainsi dominer sur la carte.</Hint>
+    <PM name="Canon AM-14 : Il n'y a pas de char sans équipage !" short="StuG IV: Canon AM-14 " desc="La coopération est la clé pour la victoire de l'équipe entière. Indiquez le véhicule ennemi que vous visez pour que vos alliés puissent immédiatement lui tirer dessus une fois étourdi ou immobilisé. Retenez qu'un soldat seul peut difficilement influencer une bataille." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 15 % du total des dégâts infligés aux véhicules ennemis par votre équipe. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• Remporter la bataille.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 70 secondes ou permettre à vos alliés d'infliger au moins 400 points de dégâts aux véhicules ennemis en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="StuG IV: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-15 : Dieux de la guerre" short="StuG IV: Canon AM-15 " desc="Il est mieux pour l'équipe qu'un canon automoteur survive. Essayez de ne pas vous exposer aux tirs de l'ennemi et effectuez des tirs précis sur ce dernier." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
-      <Hint>Si vous connaissez les caractéristiques techniques de votre canon automoteur, vous pouvez prévoir vos actions en bataille. Parfois, rester en base n'est pas une très bonne idée. Si vous pilotez un canon automoteur rapide, vous pouvez rapidement changer de position et engager l'ennemi depuis des directions où il s'y attend le moins.</Hint>
+    <PM name="Canon AM-15 : Dieux de la guerre" short="StuG IV: Canon AM-15 " desc="Un canon automoteur restant opérationnel suffisamment longtemps est un véritable atout pour l'équipe. Continuez de tirer obus après obus tout en tentant de ne pas vous faire avoir par les tirs ennemis. Prenez votre temps et réfléchissez bien avant de « presser la détente », car la destruction en un seul tir est la meilleure stratégie pour un véhicule avec un long temps de rechargement." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Faire partie des 3 meilleurs joueurs de votre équipe en expérience gagnée et dégâts infligés.\n• Infliger au moins 2 000 points de dégâts.</req>
+        <req>• Faire partie des 5 meilleurs joueurs de votre équipe en expérience gagnée.\n• Permettre à vos alliés d'infliger au moins 1 000 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Survivre à la bataille.</req>
@@ -2574,136 +2586,136 @@
         <req>• Détruire au moins 2 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-1 : Le tireur d'élite" short="T28 heavy tank concept: Canon AM-1 " desc="Ne gaspillez pas vos munitions. Ce sont les tirs précis qui apportent la victoire." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Soyez patient et attendez d'avoir visé la cible en plein.</Hint>
+    <PM name="Canon AM-1 : Une déclaration audacieuse" short="T28 heavy tank concept: Canon AM-1 " desc="La grande zone d'explosion après l'impact est la principale fonctionnalité des canons automoteurs. Même si vous manquez un tir direct sur un véhicule ennemi, il existe tout de même une probabilité de le mettre grandement en difficulté en l'étourdissant. Le véhicule ennemi est alors marqué d'un indicateur d'étourdissement visible par tous vos alliés. Si vos alliés infligent des dégâts aux véhicules que vous avez étourdis, vous recevrez des crédits et des points d'expérience supplémentaires pour les dégâts infligés grâce à votre aide." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 4 coups au but infligeant des dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir des véhicules ennemis à au moins 5 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 5 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-2 : Caché et dangereux" short="T28 heavy tank concept: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+    <PM name="Canon AM-2 : Le temps, c'est de l'argent" short="T28 heavy tank concept: Canon AM-2 " desc="Un véhicule ennemi reste étourdi pour une durée précise et ne dispose pas de ses pleines capacités sur le champ de bataille. Retenez qu'un véhicule étourdi devient une cible facile." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 500 points de dégâts aux véhicules ennemis. Ne pas se faire repérer au cours de la bataille.\n• Survivre à la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 100 secondes.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 2 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Frappe de l'obusier" short="T28 heavy tank concept: Canon AM-3 " desc="Si vous voulez devenir un atout pour votre équipe, vous devez d'abord apprendre comment tirer efficacement." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Suivez le cours de la bataille et soutenez votre équipe. Ne restez pas trop longtemps au même endroit. Retirez-vous ou cherchez une autre position de tir si nécessaire.</Hint>
+    <PM name="Canon AM-3 : Subir le poids de la lenteur" short="T28 heavy tank concept: Canon AM-3 " desc="Les puissants chasseurs de chars dissimulés et les chars lourds ennemis bien blindés peuvent facilement changer le cours de la bataille. Il s'agit de cibles hautement prioritaires et leur infliger des dégâts (ou participer à leur destruction) devrait être le principal objectif pour tout joueur à bord d'un canon automoteur. La majorité des chars lourds et des chasseurs de chars sont lents et massifs, ce qui augmente vos chances de réussir vos tirs." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars à au moins 4 reprises.\n• Les tirs étourdissants doivent également infliger des dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-4 : Passer de l'autre côté" short="T28 heavy tank concept: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais ils auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
+    <PM name="Canon AM-4 : Je vous ouvre la voie" short="T28 heavy tank concept: Canon AM-4 " desc="Apprenez les routes principales empruntées par les chars lourds ennemis et les positions généralement occupées par les chasseurs de chars. Visez à l'avance sur une zone particulière de la carte pour augmenter vos chances d'être le plus efficace et d'infliger des tirs dévastateurs sur les positions ennemies. Ces types de véhicules suivent généralement des tactiques plutôt prévisibles sur certaines cartes. Jouez intelligemment : analysez la composition de l'équipe adverse et choisissez les positions les mieux adaptées dès le début de la bataille." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 5 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars pendant au moins 50 secondes au total.\n• Le tir étourdissant doit également infliger des dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="T28 heavy tank concept: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la durabilité relativement faible de votre canon automoteur." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
+    <PM name="Canon AM-5 : Partager c'est se soucier des autres" short="T28 heavy tank concept: Canon AM-5 " desc="Étourdir des véhicules ennemis rapproche nom seulement votre équipe de la victoire, mais cela vous permet également de recevoir des crédits et points d'expérience supplémentaires si vos alliés infligent des dégâts aux véhicules que vous étourdissez. N'oubliez pas d'indiquer la zone que vous visez (touche T par défaut) pour prévenir vos alliés." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger des dégâts au moins 6 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
+        <req>• Permettre à vos alliés d'infliger au moins 1 000 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 véhicules ennemis.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 5 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-6 : Un marteau venu du ciel" short="T28 heavy tank concept: Canon AM-6 " desc="Vous aurez souvent à combattez des véhicules de rang supérieur. Mais ce n'est pas vraiment un problème pour un pilote de canon automoteur expérimenté." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Si vous ne pouvez pas pénétrer un véhicule ennemi avec des obus standards, essayez d'utiliser des obus premium. Tirez sur les flancs et l'arrière d'un véhicule ennemi. Les canons automoteurs, avec leur trajectoire d'obus en cloche, peuvent facilement toucher n'importe quel véhicule sur le toit de tourelle, un endroit où le blindage est faible. Les véhicules ennemis avec tourelle ouverte sont encore plus vulnérables de cette manière.</Hint>
+    <PM name="Canon AM-6 : Le marteau des dieux" short="T28 heavy tank concept: Canon AM-6 " desc="Le principal objectif des canons automoteurs consiste à fournir des tirs d'appui aux véhicules alliés. Les véhicules ennemis étourdis deviennent de piètres combattants, vos coéquipiers apprécieront probablement votre aide. Toutefois, prenez garde avant de tirer : un tir imprudent peut également étourdir un véhicule allié. Les tirs fratricides ne sont pas tolérés !" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 véhicules ennemis d'un rang égal ou supérieur à celui de votre véhicule.</req>
+        <req>• Permettre à vos alliés d'infliger des dégâts à au moins 3 véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-7 : Sortez les gros canons" short="T28 heavy tank concept: Canon AM-7 " desc="Vous devriez détruire les chasseurs de chars et les canons automoteurs ennemis dès que vous en avez l'opportunité. En vous en débarrassant, vous pouvez changer le cours de la bataille en votre faveur." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Coordonnez vos actions avec les chars légers alliés. Repérer et détruire les chasseurs de chars ennemis peut les aider à obtenir l'avantage sur le champ de bataille.</Hint>
+    <PM name="Canon AM-7 : Étude attentive" short="T28 heavy tank concept: Canon AM-7 " desc="Pour accomplir cette mission, employez une approche sélective pour choisir vos cibles. Ne concentrez pas vos tirs sur un seul et même véhicule, même s'il s'agit d'une proie facile. La meilleure stratégie consiste à frapper un grand groupe de blindés ennemis d'un seul tir. Étudiez la carte et apprenez les trajets communément parcourus par les véhicules." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire un chasseur de chars ou un canon automoteur ennemi d'un rang supérieur à celui de votre véhicule.</req>
+        <req>• Étourdir au moins 3 véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-8 : Feu nourri sur chars lourds !" short="T28 heavy tank concept: Canon AM-8 " desc="Un char lourd est une cible difficile, mais pas pour votre canon. Les obus à trajectoire arquée peuvent frapper n'importe quel véhicule sur le toit de sa tourelle, endroit où le blindage est faible." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Les chars lourds se déplacent généralement plus lentement que les autres types de véhicules. Ainsi, vous pouvez souvent prédire l'endroit où le char se trouvera lorsque votre obus arrivera. En tant que pilote de canon automoteur, il est utile de connaître la vitesse de vos obus.</Hint>
+    <PM name="Canon AM-8 : J'ai fait de mon mieux" short="T28 heavy tank concept: Canon AM-8 " desc="Vous recevez de l'expérience pour toute action efficace. Essayez d'être le meilleur joueur : infligez des dégâts, aidez à détruire des véhicules ennemis et restez opérationnel. Changez de position après chaque tir ou la contre-artillerie ennemie pourrait détruire votre véhicule." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 1 500 points de dégâts aux chars lourds ennemis.</req>
+        <req>• Faire partie des 5 meilleurs joueurs de votre équipe en expérience gagnée.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 chars lourds ennemis.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="T28 heavy tank concept: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
+    <PM name="Canon AM-9 : Dégâts collatéraux" short="T28 heavy tank concept: Canon AM-9 " desc="Les puissants obus explosifs peuvent non seulement réduire les points de structure des véhicules ennemis, mais ils ont également une plus grande chance de détruire les éléments et blesser les membres d'équipage grâce aux dégâts par zone d'explosion." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 2 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infligent ou non des dégâts, sont pris en compte.</req>
+        <req>• Détruire n'importe quels éléments de véhicules ennemis ou blesser leurs membres d'équipage pour un total de 5 éléments et membres d'équipage.\n• Le nombre d'éléments détruits et de membres d'équipage blessés est cumulé pour tous les véhicules ennemis que vous avez endommagés lors de la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-10 : Le fléau de l'artillerie" short="T28 heavy tank concept: Canon AM-10 " desc="La chasse à l'artillerie est une bonne idée. Tentez de prédire où le canon automoteur ennemi est caché et vérifiez si vous avez bien deviné avec un tir précis." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Plus vous pilotez souvent un canon automoteur, plus vous découvrez les placements stratégiques sur les cartes. Ceci vous aidera lors des combats contre des canons automoteurs ennemis, car vous saurez ainsi où ils pourraient être positionnés.</Hint>
+    <PM name="Canon AM-10 : Tout compris" short="T28 heavy tank concept: Canon AM-10 " desc="La situation d'une bataille peut rapidement changer. Gardez toujours un œil sur la minicarte pour vous assurer de bien connaître la position des véhicules ennemis. Vous devrez vous déplacer continuellement sur la carte au lieu de rester à une seule et même position. Vos alliés comptent sur la puissance de feu de votre artillerie, faites de votre mieux pour être au bon endroit au bon moment." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 canons automoteurs ennemis.</req>
+        <req>• Le total des dégâts infligés par vous et vos alliés en étourdissant ou immobilisant un véhicule ennemi doit être d'au moins 2 000 points de dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 véhicules ennemis.</req>
+        <req>• Les alliés doivent détruire au moins 1 véhicule ennemi étourdi ou immobilisé par vous.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="T28 heavy tank concept: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
+    <PM name="Canon AM-11 : Zone d'effet" short="T28 heavy tank concept: Canon AM-11 " desc="En plus de l'incroyable quantité de dégâts infligés par un tir bien placé, les obus explosifs peuvent également étourdir tout véhicule mal placé par zone d'explosion. De nombreuses cartes comportent des endroits où les chars se collent les uns aux autres. Tentez votre chance et jetez-leur un regard « explosif »." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger des dégâts à au moins 2 véhicules ennemis avec un seul tir.</req>
+        <req>• Étourdir au moins 2 véhicules ennemis avec un seul tir à deux reprises.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 100 secondes.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-12 : Le mauvais œil" short="T28 heavy tank concept: Canon AM-12 " desc="Vos alliés ont détruit un véhicule ennemi étourdi ? Voilà une bonne nouvelle pour vous, puisque c'est un de vos moyens de rapprocher l'équipe de la victoire ! Votre objectif consiste à fournir des tirs d'appui et d'aider vos alliés au bon endroit et au bon moment." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 100 secondes.\n• Les alliés doivent détruire au moins 1 véhicule étourdi ou immobilisé par vous.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-12 : Le frappeur" short="T28 heavy tank concept: Canon AM-12 " desc="Le style de jeu à bord d'un canon automoteur est drastiquement différent de celui des autres types de véhicules. L'objectif principal reste cependant le même : faire de votre mieux au cours de la bataille et contribuer autant que possible à la cause de l'équipe." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Ne passez pas en mode artillerie dès le tout début de la bataille. Décidez d'abord d'un bon emplacement stratégique.</Hint>
+    <PM name="Canon AM-13 : C comme coopération" short="T28 heavy tank concept: Canon AM-13 " desc="Une bonne coopération entre les canons automoteurs et leurs alliés a de quoi rendre l'équipe adverse extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Faire partie des 3 meilleurs joueurs des deux équipes en dégâts infligés.\n• Détruire au moins 2 véhicules ennemis.\n• Survivre à la bataille.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 6 reprises ou les étourdir à au moins 8 reprises.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-13 : Batterie d'artillerie (personnel/peloton)" short="T28 heavy tank concept: Canon AM-13 " desc="Un peloton de canons automoteurs bien pris en main devrait rendre l'équipe ennemie extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>En vous séparant, votre peloton peut frapper des cibles depuis des angles différents, rendant de nombreux rochers et bâtiments complètement inutiles en tant que couverture, et ainsi dominer sur la carte.</Hint>
+    <PM name="Canon AM-14 : Il n'y a pas de char sans équipage !" short="T28 heavy tank concept: Canon AM-14 " desc="La coopération est la clé pour la victoire de l'équipe entière. Indiquez le véhicule ennemi que vous visez pour que vos alliés puissent immédiatement lui tirer dessus une fois étourdi ou immobilisé. Retenez qu'un soldat seul peut difficilement influencer une bataille." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 20 % du total des dégâts infligés aux véhicules ennemis par votre équipe. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• Remporter la bataille.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 100 secondes ou permettre à vos alliés d'infliger au moins 600 points de dégâts aux véhicules ennemis en les immobilisant.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="T28 heavy tank concept: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 3 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-15 : Dieux de la guerre" short="T28 heavy tank concept: Canon AM-15 " desc="Il est mieux pour l'équipe qu'un canon automoteur survive. Essayez de ne pas vous exposer aux tirs de l'ennemi et effectuez des tirs précis sur ce dernier." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
-      <Hint>Si vous connaissez les caractéristiques techniques de votre canon automoteur, vous pouvez prévoir vos actions en bataille. Parfois, rester en base n'est pas une très bonne idée. Si vous pilotez un canon automoteur rapide, vous pouvez rapidement changer de position et engager l'ennemi depuis des directions où il s'y attend le moins.</Hint>
+    <PM name="Canon AM-15 : Dieux de la guerre" short="T28 heavy tank concept: Canon AM-15 " desc="Un canon automoteur restant opérationnel suffisamment longtemps est un véritable atout pour l'équipe. Continuez de tirer obus après obus tout en tentant de ne pas vous faire avoir par les tirs ennemis. Prenez votre temps et réfléchissez bien avant de « presser la détente », car la destruction en un seul tir est la meilleure stratégie pour un véhicule avec un long temps de rechargement." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Faire partie des 3 meilleurs joueurs des deux équipes en expérience gagnée et dégâts infligés.\n• Infliger au moins 2 000 points de dégâts.</req>
+        <req>• Faire partie des 3 meilleurs joueurs de votre équipe en expérience gagnée.\n• Permettre à vos alliés d'infliger au moins 1 500 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Survivre à la bataille.</req>
@@ -3249,136 +3261,136 @@
         <req>• Détruire au moins 3 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-1 : Le tireur d'élite" short="T 55A: Canon AM-1 " desc="Ne gaspillez pas vos munitions. Ce sont les tirs précis qui apportent la victoire." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Soyez patient et attendez d'avoir visé la cible en plein.</Hint>
+    <PM name="Canon AM-1 : Une déclaration audacieuse" short="T 55A: Canon AM-1 " desc="La grande zone d'explosion après l'impact est la principale fonctionnalité des canons automoteurs. Même si vous manquez un tir direct sur un véhicule ennemi, il existe tout de même une probabilité de le mettre grandement en difficulté en l'étourdissant. Le véhicule ennemi est alors marqué d'un indicateur d'étourdissement visible par tous vos alliés. Si vos alliés infligent des dégâts aux véhicules que vous avez étourdis, vous recevrez des crédits et des points d'expérience supplémentaires pour les dégâts infligés grâce à votre aide." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 5 coups au but infligeant des dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir des véhicules ennemis à au moins 7 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 3 000 points de dégâts.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 6 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-2 : Caché et dangereux" short="T 55A: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+    <PM name="Canon AM-2 : Le temps, c'est de l'argent" short="T 55A: Canon AM-2 " desc="Un véhicule ennemi reste étourdi pour une durée précise et ne dispose pas de ses pleines capacités sur le champ de bataille. Retenez qu'un véhicule étourdi devient une cible facile." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Faire partie des 5 meilleurs joueurs de votre équipe en dégâts infligés. Ne pas se faire repérer au cours de la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 150 secondes.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 3 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-3 : Frappe de l'obusier" short="T 55A: Canon AM-3 " desc="Si vous voulez devenir un atout pour votre équipe, vous devez d'abord apprendre comment tirer efficacement." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Suivez le cours de la bataille et soutenez votre équipe. Ne restez pas trop longtemps au même endroit. Retirez-vous ou cherchez une autre position de tir si nécessaire.</Hint>
+    <PM name="Canon AM-3 : Subir le poids de la lenteur" short="T 55A: Canon AM-3 " desc="Les puissants chasseurs de chars dissimulés et les chars lourds ennemis bien blindés peuvent facilement changer le cours de la bataille. Il s'agit de cibles hautement prioritaires et leur infliger des dégâts (ou participer à leur destruction) devrait être le principal objectif pour tout joueur à bord d'un canon automoteur. La majorité des chars lourds et des chasseurs de chars sont lents et massifs, ce qui augmente vos chances de réussir vos tirs." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 3 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars à au moins 6 reprises.\n• Les tirs étourdissants doivent également infliger des dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-4 : Passer de l'autre côté" short="T 55A: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais ils auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
+    <PM name="Canon AM-4 : Je vous ouvre la voie" short="T 55A: Canon AM-4 " desc="Apprenez les routes principales empruntées par les chars lourds ennemis et les positions généralement occupées par les chasseurs de chars. Visez à l'avance sur une zone particulière de la carte pour augmenter vos chances d'être le plus efficace et d'infliger des tirs dévastateurs sur les positions ennemies. Ces types de véhicules suivent généralement des tactiques plutôt prévisibles sur certaines cartes. Jouez intelligemment : analysez la composition de l'équipe adverse et choisissez les positions les mieux adaptées dès le début de la bataille." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 8 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars pendant au moins 80 secondes au total.\n• Le tir étourdissant doit également infliger des dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="T 55A: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la durabilité relativement faible de votre canon automoteur." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
+    <PM name="Canon AM-5 : Partager c'est se soucier des autres" short="T 55A: Canon AM-5 " desc="Étourdir des véhicules ennemis rapproche nom seulement votre équipe de la victoire, mais cela vous permet également de recevoir des crédits et points d'expérience supplémentaires si vos alliés infligent des dégâts aux véhicules que vous étourdissez. N'oubliez pas d'indiquer la zone que vous visez (touche T par défaut) pour prévenir vos alliés." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger des dégâts au moins 8 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
+        <req>• Permettre à vos alliés d'infliger au moins 2 000 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 véhicules ennemis.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 6 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-6 : Un marteau venu du ciel" short="T 55A: Canon AM-6 " desc="Vous aurez souvent à combattez des véhicules de rang supérieur. Mais ce n'est pas vraiment un problème pour un pilote de canon automoteur expérimenté." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Si vous ne pouvez pas pénétrer un véhicule ennemi avec des obus standards, essayez d'utiliser des obus premium. Tirez sur les flancs et l'arrière d'un véhicule ennemi. Les canons automoteurs, avec leur trajectoire d'obus en cloche, peuvent facilement toucher n'importe quel véhicule sur le toit de tourelle, un endroit où le blindage est faible. Les véhicules ennemis avec tourelle ouverte sont encore plus vulnérables de cette manière.</Hint>
+    <PM name="Canon AM-6 : Le marteau des dieux" short="T 55A: Canon AM-6 " desc="Le principal objectif des canons automoteurs consiste à fournir des tirs d'appui aux véhicules alliés. Les véhicules ennemis étourdis deviennent de piètres combattants, vos coéquipiers apprécieront probablement votre aide. Toutefois, prenez garde avant de tirer : un tir imprudent peut également étourdir un véhicule allié. Les tirs fratricides ne sont pas tolérés !" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 véhicules ennemis d'un rang supérieur à celui de votre véhicule.</req>
+        <req>• Permettre à vos alliés d'infliger des dégâts à au moins 5 véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-7 : Sortez les gros canons" short="T 55A: Canon AM-7 " desc="Vous devriez détruire les chasseurs de chars et les canons automoteurs ennemis dès que vous en avez l'opportunité. En vous en débarrassant, vous pouvez changer le cours de la bataille en votre faveur." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Coordonnez vos actions avec les chars légers alliés. Repérer et détruire les chasseurs de chars ennemis peut les aider à obtenir l'avantage sur le champ de bataille.</Hint>
+    <PM name="Canon AM-7 : Étude attentive" short="T 55A: Canon AM-7 " desc="Pour accomplir cette mission, employez une approche sélective pour choisir vos cibles. Ne concentrez pas vos tirs sur un seul et même véhicule, même s'il s'agit d'une proie facile. La meilleure stratégie consiste à frapper un grand groupe de blindés ennemis d'un seul tir. Étudiez la carte et apprenez les trajets communément parcourus par les véhicules." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 chasseurs de chars ou canons automoteurs ennemis.\n• Remporter la bataille.</req>
+        <req>• Étourdir au moins 5 véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 3 000 points de dégâts.</req>
+        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-8 : Feu nourri sur chars lourds !" short="T 55A: Canon AM-8 " desc="Un char lourd est une cible difficile, mais pas pour votre canon. Les obus à trajectoire arquée peuvent frapper n'importe quel véhicule sur le toit de sa tourelle, endroit où le blindage est faible." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Les chars lourds se déplacent généralement plus lentement que les autres types de véhicules. Ainsi, vous pouvez souvent prédire l'endroit où le char se trouvera lorsque votre obus arrivera. En tant que pilote de canon automoteur, il est utile de connaître la vitesse de vos obus.</Hint>
+    <PM name="Canon AM-8 : J'ai fait de mon mieux" short="T 55A: Canon AM-8 " desc="Vous recevez de l'expérience pour toute action efficace. Essayez d'être le meilleur joueur : infligez des dégâts, aidez à détruire des véhicules ennemis et restez opérationnel. Changez de position après chaque tir ou la contre-artillerie ennemie pourrait détruire votre véhicule." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 2 000 points de dégâts aux chars lourds ennemis.</req>
+        <req>• Faire partie des 3 meilleurs joueurs de votre équipe en expérience gagnée.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Détruire un char lourd ennemi.\n• Remporter la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="T 55A: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
+    <PM name="Canon AM-9 : Dégâts collatéraux" short="T 55A: Canon AM-9 " desc="Les puissants obus explosifs peuvent non seulement réduire les points de structure des véhicules ennemis, mais ils ont également une plus grande chance de détruire les éléments et blesser les membres d'équipage grâce aux dégâts par zone d'explosion." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Endommager un véhicule ennemi qui est en mouvement à une vitesse d'au moins 30 km/h.\n• Les dégâts par zone d'explosion et les dégâts directs sont pris en compte.\n• Les dégâts infligés par collision ne sont pas pris en compte.</req>
+        <req>• Détruire n'importe quels éléments de véhicules ennemis ou blesser leurs membres d'équipage pour un total de 8 éléments et membres d'équipage.\n• Le nombre d'éléments détruits et de membres d'équipage blessés est cumulé pour tous les véhicules ennemis que vous avez endommagés lors de la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Remporter la bataille.\n• Ne pas se faire repérer au cours de la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-10 : Le fléau de l'artillerie" short="T 55A: Canon AM-10 " desc="La chasse à l'artillerie est une bonne idée. Tentez de prédire où le canon automoteur ennemi est caché et vérifiez si vous avez bien deviné avec un tir précis." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Plus vous pilotez souvent un canon automoteur, plus vous découvrez les placements stratégiques sur les cartes. Ceci vous aidera lors des combats contre des canons automoteurs ennemis, car vous saurez ainsi où ils pourraient être positionnés.</Hint>
+    <PM name="Canon AM-10 : Tout compris" short="T 55A: Canon AM-10 " desc="La situation d'une bataille peut rapidement changer. Gardez toujours un œil sur la minicarte pour vous assurer de bien connaître la position des véhicules ennemis. Vous devrez vous déplacer continuellement sur la carte au lieu de rester à une seule et même position. Vos alliés comptent sur la puissance de feu de votre artillerie, faites de votre mieux pour être au bon endroit au bon moment." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire un canon automoteur.\n• Infliger au moins 2 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Le total des dégâts infligés par vous et vos alliés en étourdissant ou immobilisant un véhicule ennemi doit être d'au moins 3 000 points de dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 4 véhicules ennemis.</req>
+        <req>• Remporter la bataille.\n• Les alliés doivent détruire au moins 2 véhicules ennemis étourdis ou immobilisés par vous.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="T 55A: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
+    <PM name="Canon AM-11 : Zone d'effet" short="T 55A: Canon AM-11 " desc="En plus de l'incroyable quantité de dégâts infligés par un tir bien placé, les obus explosifs peuvent également étourdir tout véhicule mal placé par zone d'explosion. De nombreuses cartes comportent des endroits où les chars se collent les uns aux autres. Tentez votre chance et jetez-leur un regard « explosif »." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire un véhicule ennemi et endommager 1 autre véhicule avec un seul tir.</req>
+        <req>• Étourdir au moins 3 véhicules ennemis avec un seul tir.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 150 secondes.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-12 : Le frappeur" short="T 55A: Canon AM-12 " desc="Le style de jeu à bord d'un canon automoteur est drastiquement différent de celui des autres types de véhicules. L'objectif principal reste cependant le même : faire de votre mieux au cours de la bataille et contribuer autant que possible à la cause de l'équipe." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Ne passez pas en mode artillerie dès le tout début de la bataille. Décidez d'abord d'un bon emplacement stratégique.</Hint>
+    <PM name="Canon AM-12 : Le mauvais œil" short="T 55A: Canon AM-12 " desc="Vos alliés ont détruit un véhicule ennemi étourdi ? Voilà une bonne nouvelle pour vous, puisque c'est un de vos moyens de rapprocher l'équipe de la victoire ! Votre objectif consiste à fournir des tirs d'appui et d'aider vos alliés au bon endroit et au bon moment." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Terminer la bataille en étant le meilleur joueur de votre équipe en termes de dégâts infligés.\n• Détruire au moins 3 véhicules ennemis.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 150 secondes.\n• Les alliés doivent détruire au moins 2 véhicules étourdis ou immobilisés par vous.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-13 : Batterie d'artillerie (personnel/peloton)" short="T 55A: Canon AM-13 " desc="Un peloton de canons automoteurs bien pris en main devrait rendre l'équipe ennemie extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>En vous séparant, votre peloton peut frapper des cibles depuis des angles différents, rendant de nombreux rochers et bâtiments complètement inutiles en tant que couverture, et ainsi dominer sur la carte.</Hint>
+    <PM name="Canon AM-13 : C comme coopération" short="T 55A: Canon AM-13 " desc="Une bonne coopération entre les canons automoteurs et leurs alliés a de quoi rendre l'équipe adverse extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 25 % du total des dégâts infligés aux véhicules ennemis par votre équipe. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• Remporter la bataille.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 8 reprises ou les étourdir à au moins 10 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="T 55A: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+    <PM name="Canon AM-14 : Il n'y a pas de char sans équipage !" short="T 55A: Canon AM-14 " desc="La coopération est la clé pour la victoire de l'équipe entière. Indiquez le véhicule ennemi que vous visez pour que vos alliés puissent immédiatement lui tirer dessus une fois étourdi ou immobilisé. Retenez qu'un soldat seul peut difficilement influencer une bataille." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 4 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 180 secondes ou permettre à vos alliés d'infliger au moins 800 points de dégâts aux véhicules ennemis en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-15 : Dieux de la guerre" short="T 55A: Canon AM-15 " desc="Il est mieux pour l'équipe qu'un canon automoteur survive. Essayez de ne pas vous exposer aux tirs de l'ennemi et effectuez des tirs précis sur ce dernier." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
-      <Hint>Si vous connaissez les caractéristiques techniques de votre canon automoteur, vous pouvez prévoir vos actions en bataille. Parfois, rester en base n'est pas une très bonne idée. Si vous pilotez un canon automoteur rapide, vous pouvez rapidement changer de position et engager l'ennemi depuis des directions où il s'y attend le moins.</Hint>
+    <PM name="Canon AM-15 : Dieux de la guerre" short="T 55A: Canon AM-15 " desc="Un canon automoteur restant opérationnel suffisamment longtemps est un véritable atout pour l'équipe. Continuez de tirer obus après obus tout en tentant de ne pas vous faire avoir par les tirs ennemis. Prenez votre temps et réfléchissez bien avant de « presser la détente », car la destruction en un seul tir est la meilleure stratégie pour un véhicule avec un long temps de rechargement." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Terminer la bataille en étant le meilleur joueur de votre équipe en termes d'expérience gagnée et de dégâts infligés.\n• Infliger au moins 3 000 points de dégâts.</req>
+        <req>• Terminer la bataille en étant le meilleur joueur de votre équipe en termes d'expérience gagnée.\n• Permettre à vos alliés d'infliger au moins 2 500 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Survivre à la bataille.</req>
@@ -3924,136 +3936,136 @@
         <req>• Détruire au moins 5 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-1 : Le tireur d'élite" short="Object 260: Canon AM-1 " desc="Ne gaspillez pas vos munitions. Ce sont les tirs précis qui apportent la victoire." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Soyez patient et attendez d'avoir visé la cible en plein.</Hint>
+    <PM name="Canon AM-1 : Une déclaration audacieuse" short="Object 260: Canon AM-1 " desc="La grande zone d'explosion après l'impact est la principale fonctionnalité des canons automoteurs. Même si vous manquez un tir direct sur un véhicule ennemi, il existe tout de même une probabilité de le mettre grandement en difficulté en l'étourdissant. Le véhicule ennemi est alors marqué d'un indicateur d'étourdissement visible par tous vos alliés. Si vos alliés infligent des dégâts aux véhicules que vous avez étourdis, vous recevrez des crédits et des points d'expérience supplémentaires pour les dégâts infligés grâce à votre aide." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 6 coups au but infligeant des dégâts aux véhicules ennemis.</req>
+        <req>• Étourdir des véhicules ennemis à au moins 10 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 4 000 points de dégâts.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 8 reprises en leur tirant dessus ou en les percutant.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-2 : Caché et dangereux" short="Object 260: Canon AM-2 " desc="Les canons automoteurs ne peuvent pas compter sur l'épaisseur du blindage ni la vitesse. Si vous pilotez un canon automoteur, apprenez à bien rester camouflé au cours de toute la bataille." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>L'équipement « Filet de camouflage » combiné à un Camouflage vous aidera à grandement augmenter votre dissimulation une fois installé sur votre canon automoteur.</Hint>
+    <PM name="Canon AM-2 : Le temps, c'est de l'argent" short="Object 260: Canon AM-2 " desc="Un véhicule ennemi reste étourdi pour une durée précise et ne dispose pas de ses pleines capacités sur le champ de bataille. Retenez qu'un véhicule étourdi devient une cible facile." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Faire partie des 3 meilleurs joueurs de votre équipe en dégâts infligés. Ne pas se faire repérer au cours de la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 200 secondes.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 véhicules ennemis.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-3 : Frappe de l'obusier" short="Object 260: Canon AM-3 " desc="Si vous voulez devenir un atout pour votre équipe, vous devez d'abord apprendre comment tirer efficacement." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Suivez le cours de la bataille et soutenez votre équipe. Ne restez pas trop longtemps au même endroit. Retirez-vous ou cherchez une autre position de tir si nécessaire.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 4 000 points de dégâts aux véhicules ennemis.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-4 : Passer de l'autre côté" short="Object 260: Canon AM-4 " desc="Les puissants obus explosifs peuvent non seulement infliger des dégâts en termes de points de structure, mais ils auront également une forte probabilité d'endommager ou de détruire des éléments, ou encore de blesser les membres d'équipage, par zone d'explosion." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Un obus explosif est plus dévastateur lorsqu'il pénètre entièrement le blindage et qu'il explose à l'intérieur du châssis d'un véhicule ennemi. Si vos obus possèdent une faible valeur de pénétration, essayez de trouver un véhicule ennemi à casemate ouverte, ou chargez un obus premium.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Endommager ou détruire des éléments de véhicules ennemis ou blesser leurs membres d'équipage, pour un total de 10 éléments ou membres d'équipage.\n• Le nombre d'éléments endommagés/détruits et de membres d'équipage blessés de tous les véhicules ennemis que vous avez endommagés est cumulé.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
-      </Secondary>
-    </PM>
-    <PM name="Canon AM-5 : Calcul, plus de véhicule" short="Object 260: Canon AM-5 " desc="La grande puissance de feu que vous possédez compense largement la durabilité relativement faible de votre canon automoteur." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Essayez d'infliger des dégâts aux véhicules ennemis dès la première occasion. Même si vos obus explosifs ratent l'ennemi, un tir raté de peu peut toujours endommager la cible.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger des dégâts au moins 10 fois équivalents aux points de structure de votre véhicule.\n• Les dégâts infligés aux alliés ne sont pas pris en compte.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Détruire au moins 4 véhicules ennemis.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-6 : Un marteau venu du ciel" short="Object 260: Canon AM-6 " desc="Vous aurez souvent à combattez des véhicules de rang supérieur. Mais ce n'est pas vraiment un problème pour un pilote de canon automoteur expérimenté." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Si vous ne pouvez pas pénétrer un véhicule ennemi avec des obus standards, essayez d'utiliser des obus premium. Tirez sur les flancs et l'arrière d'un véhicule ennemi. Les canons automoteurs, avec leur trajectoire d'obus en cloche, peuvent facilement toucher n'importe quel véhicule sur le toit de tourelle, un endroit où le blindage est faible. Les véhicules ennemis avec tourelle ouverte sont encore plus vulnérables de cette manière.</Hint>
+    <PM name="Canon AM-3 : Subir le poids de la lenteur" short="Object 260: Canon AM-3 " desc="Les puissants chasseurs de chars dissimulés et les chars lourds ennemis bien blindés peuvent facilement changer le cours de la bataille. Il s'agit de cibles hautement prioritaires et leur infliger des dégâts (ou participer à leur destruction) devrait être le principal objectif pour tout joueur à bord d'un canon automoteur. La majorité des chars lourds et des chasseurs de chars sont lents et massifs, ce qui augmente vos chances de réussir vos tirs." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars à au moins 8 reprises.\n• Les tirs étourdissants doivent également infliger des dégâts.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-4 : Je vous ouvre la voie" short="Object 260: Canon AM-4 " desc="Apprenez les routes principales empruntées par les chars lourds ennemis et les positions généralement occupées par les chasseurs de chars. Visez à l'avance sur une zone particulière de la carte pour augmenter vos chances d'être le plus efficace et d'infliger des tirs dévastateurs sur les positions ennemies. Ces types de véhicules suivent généralement des tactiques plutôt prévisibles sur certaines cartes. Jouez intelligemment : analysez la composition de l'équipe adverse et choisissez les positions les mieux adaptées dès le début de la bataille." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Étourdir un char lourd ennemi ou un chasseur de chars pendant au moins 120 secondes au total.\n• Le tir étourdissant doit également infliger des dégâts.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-5 : Partager c'est se soucier des autres" short="Object 260: Canon AM-5 " desc="Étourdir des véhicules ennemis rapproche nom seulement votre équipe de la victoire, mais cela vous permet également de recevoir des crédits et points d'expérience supplémentaires si vos alliés infligent des dégâts aux véhicules que vous étourdissez. N'oubliez pas d'indiquer la zone que vous visez (touche T par défaut) pour prévenir vos alliés." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 véhicules ennemis de deux rangs supérieurs à celui de votre véhicule.</req>
+        <req>• Permettre à vos alliés d'infliger au moins 3 000 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 8 reprises en leur tirant dessus ou en les percutant.</req>
+      </Secondary>
+    </PM>
+    <PM name="Canon AM-6 : Le marteau des dieux" short="Object 260: Canon AM-6 " desc="Le principal objectif des canons automoteurs consiste à fournir des tirs d'appui aux véhicules alliés. Les véhicules ennemis étourdis deviennent de piètres combattants, vos coéquipiers apprécieront probablement votre aide. Toutefois, prenez garde avant de tirer : un tir imprudent peut également étourdir un véhicule allié. Les tirs fratricides ne sont pas tolérés !" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Permettre à vos alliés d'infliger des dégâts à au moins 6 véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-7 : Sortez les gros canons" short="Object 260: Canon AM-7 " desc="Vous devriez détruire les chasseurs de chars et les canons automoteurs ennemis dès que vous en avez l'opportunité. En vous en débarrassant, vous pouvez changer le cours de la bataille en votre faveur." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Coordonnez vos actions avec les chars légers alliés. Repérer et détruire les chasseurs de chars ennemis peut les aider à obtenir l'avantage sur le champ de bataille.</Hint>
+    <PM name="Canon AM-7 : Étude attentive" short="Object 260: Canon AM-7 " desc="Pour accomplir cette mission, employez une approche sélective pour choisir vos cibles. Ne concentrez pas vos tirs sur un seul et même véhicule, même s'il s'agit d'une proie facile. La meilleure stratégie consiste à frapper un grand groupe de blindés ennemis d'un seul tir. Étudiez la carte et apprenez les trajets communément parcourus par les véhicules." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 3 chasseurs de chars ou canons automoteurs ennemis.\n• Remporter la bataille.</req>
+        <req>• Étourdir au moins 6 véhicules ennemis.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 4 000 points de dégâts.</req>
+        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-8 : Feu nourri sur chars lourds !" short="Object 260: Canon AM-8 " desc="Un char lourd est une cible difficile, mais pas pour votre canon. Les obus à trajectoire arquée peuvent frapper n'importe quel véhicule sur le toit de sa tourelle, endroit où le blindage est faible." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Les chars lourds se déplacent généralement plus lentement que les autres types de véhicules. Ainsi, vous pouvez souvent prédire l'endroit où le char se trouvera lorsque votre obus arrivera. En tant que pilote de canon automoteur, il est utile de connaître la vitesse de vos obus.</Hint>
+    <PM name="Canon AM-8 : J'ai fait de mon mieux" short="Object 260: Canon AM-8 " desc="Vous recevez de l'expérience pour toute action efficace. Essayez d'être le meilleur joueur : infligez des dégâts, aidez à détruire des véhicules ennemis et restez opérationnel. Changez de position après chaque tir ou la contre-artillerie ennemie pourrait détruire votre véhicule." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 3 000 points de dégâts aux chars lourds ennemis.</req>
+        <req>• Terminer la bataille en étant le meilleur joueur de votre équipe en expérience gagnée.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 chars lourds ennemis.\n• Remporter la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-9 : Visez jusqu'à les toucher" short="Object 260: Canon AM-9 " desc="Un pilote de canon automoteur expérimenté peut facilement toucher des cibles en mouvement. Apprenez à prédire efficacement le mouvement des véhicules ennemis lors de vos tirs. Retenez qu'un tir direct peut infliger bien plus de dégâts à un véhicule ennemi que par zone d'explosion." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>La vitesse de vos obus est un paramètre très important. En sachant à quel moment l'obus atteint la cible, vous pouvez correctement calculer la déviation.</Hint>
+    <PM name="Canon AM-9 : Dégâts collatéraux" short="Object 260: Canon AM-9 " desc="Les puissants obus explosifs peuvent non seulement réduire les points de structure des véhicules ennemis, mais ils ont également une plus grande chance de détruire les éléments et blesser les membres d'équipage grâce aux dégâts par zone d'explosion." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Effectuer au moins 4 coups directs sur des véhicules ennemis.\n• Tous les tirs directs, qu'ils infligent ou non des dégâts, sont pris en compte.</req>
+        <req>• Détruire n'importe quels éléments de véhicules ennemis ou blesser leurs membres d'équipage pour un total de 10 éléments et membres d'équipage.\n• Le nombre d'éléments détruits et de membres d'équipage blessés est cumulé pour tous les véhicules ennemis que vous avez endommagés lors de la bataille.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Survivre à la bataille.\n• Remporter la bataille.\n• Ne pas se faire repérer au cours de la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-10 : Le fléau de l'artillerie" short="Object 260: Canon AM-10 " desc="La chasse à l'artillerie est une bonne idée. Tentez de prédire où le canon automoteur ennemi est caché et vérifiez si vous avez bien deviné avec un tir précis." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Plus vous pilotez souvent un canon automoteur, plus vous découvrez les placements stratégiques sur les cartes. Ceci vous aidera lors des combats contre des canons automoteurs ennemis, car vous saurez ainsi où ils pourraient être positionnés.</Hint>
+    <PM name="Canon AM-10 : Tout compris" short="Object 260: Canon AM-10 " desc="La situation d'une bataille peut rapidement changer. Gardez toujours un œil sur la minicarte pour vous assurer de bien connaître la position des véhicules ennemis. Vous devrez vous déplacer continuellement sur la carte au lieu de rester à une seule et même position. Vos alliés comptent sur la puissance de feu de votre artillerie, faites de votre mieux pour être au bon endroit au bon moment." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 canons automoteurs ennemis.\n• Infliger au moins 4 000 points de dégâts aux véhicules ennemis.</req>
+        <req>• Le total des dégâts infligés par vous et vos alliés aux véhicules ennemis que vous avez étourdis ou immobilisés doit être d'au moins 4 000 points de dégâts.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 5 véhicules ennemis.</req>
+        <req>• Remporter la bataille.\n• Les alliés doivent détruire au moins 3 véhicules ennemis étourdis ou immobilisés par vous.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-11 : Zone d'effet" short="Object 260: Canon AM-11 " desc="Vos obus explosifs peuvent non seulement détruire un véhicule ennemi en un seul tir, mais ils peuvent également infliger d'importants dégâts à plusieurs cibles d'un coup si elles sont proches les unes des autres." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Vous pouvez littéralement faire d'une pierre deux coups, si plusieurs véhicules ennemis sont suffisamment proches à un moment donné. Ce cas est typique des cartes urbaines.</Hint>
+    <PM name="Canon AM-11 : Zone d'effet" short="Object 260: Canon AM-11 " desc="En plus de l'incroyable quantité de dégâts infligés par un tir bien placé, les obus explosifs peuvent également étourdir tout véhicule mal placé par zone d'explosion. De nombreuses cartes comportent des endroits où les chars se collent les uns aux autres. Tentez votre chance et jetez-leur un regard « explosif »." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Détruire au moins 2 véhicules ennemis avec un seul tir.</req>
+        <req>• Étourdir au moins 3 véhicules ennemis avec un seul tir à deux reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Remporter la bataille.\n• Survivre à la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 200 secondes.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-12 : Le frappeur" short="Object 260: Canon AM-12 " desc="Le style de jeu à bord d'un canon automoteur est drastiquement différent de celui des autres types de véhicules. L'objectif principal reste cependant le même : faire de votre mieux au cours de la bataille et contribuer autant que possible à la cause de l'équipe." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Ne passez pas en mode artillerie dès le tout début de la bataille. Décidez d'abord d'un bon emplacement stratégique.</Hint>
+    <PM name="Canon AM-12 : Le mauvais œil" short="Object 260: Canon AM-12 " desc="Vos alliés ont détruit un véhicule ennemi étourdi ? Voilà une bonne nouvelle pour vous, puisque c'est un de vos moyens de rapprocher l'équipe de la victoire ! Votre objectif consiste à fournir des tirs d'appui et d'aider vos alliés au bon endroit et au bon moment." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Terminer la bataille en étant le meilleur joueur des deux équipes en termes de dégâts infligés.\n• Détruire au moins 4 véhicules ennemis.\n• Survivre à la bataille.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 200 secondes.\n• Les alliés doivent détruire au moins 3 véhicules étourdis ou immobilisés par vous.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-13 : Batterie d'artillerie (personnel/peloton)" short="Object 260: Canon AM-13 " desc="Un peloton de canons automoteurs bien pris en main devrait rendre l'équipe ennemie extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>En vous séparant, votre peloton peut frapper des cibles depuis des angles différents, rendant de nombreux rochers et bâtiments complètement inutiles en tant que couverture, et ainsi dominer sur la carte.</Hint>
+    <PM name="Canon AM-13 : C comme coopération" short="Object 260: Canon AM-13 " desc="Une bonne coopération entre les canons automoteurs et leurs alliés a de quoi rendre l'équipe adverse extrêmement inquiète. Coordonnez vos actions et concentrez votre tir sur une seule cible ennemie à la fois." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 30 % du total des dégâts infligés aux véhicules ennemis par votre équipe. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• Remporter la bataille.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Infliger des dégâts aux véhicules ennemis à au moins 10 reprises ou les étourdir à au moins 12 reprises.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-14 : Offensive unie (personnel/peloton)" short="Object 260: Canon AM-14 " desc="L'artillerie est dépendante de la réussite du reste de l'équipe. L'artillerie et les chars légers se complètent mutuellement, plus particulièrement au sein d'un peloton. Cette mission peut être accomplie en faisant partie d'un peloton ou par soi-même, cependant la seconde option est bien plus difficile." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Un char léger peut repérer et immobiliser des véhicules ennemis, permettant aux canons automoteurs d'effectuer un travail rapide sur la pauvre cible. Un char lourd peut protéger ses alliés grâce à son blindage épais, un char moyen peut distraire l'ennemi, alors qu'un chasseur de chars peut apporter des tirs d'appui à longue distance. Ensemble, nous allons gagner !</Hint>
+    <PM name="Canon AM-14 : Il n'y a pas de char sans équipage !" short="Object 260: Canon AM-14 " desc="La coopération est la clé pour la victoire de l'équipe entière. Indiquez le véhicule ennemi que vous visez pour que vos alliés puissent immédiatement lui tirer dessus une fois étourdi ou immobilisé. Retenez qu'un soldat seul peut difficilement influencer une bataille." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Infliger au moins 5 000 points de dégâts aux chars lourds et chasseurs de chars ennemis. Les dégâts infligés par les coéquipiers du peloton sont pris en compte.\n• La mission peut être accomplie soit par vous-même, soit en faisant partie d'un peloton composé de vous en canon automoteur et tous autres véhicules.</req>
+        <req>• Étourdir des véhicules ennemis pour une durée totale d'au moins 250 secondes ou permettre à vos alliés d'infliger au moins 1 000 points de dégâts aux véhicules ennemis en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Survivre personnellement à la bataille.</req>
+        <req>• Remporter la bataille.</req>
       </Secondary>
     </PM>
-    <PM name="Canon AM-15 : Dieux de la guerre" short="Object 260: Canon AM-15 " desc="Il est mieux pour l'équipe qu'un canon automoteur survive. Essayez de ne pas vous exposer aux tirs de l'ennemi et effectuez des tirs précis sur ce dernier." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
-      <Hint>Si vous connaissez les caractéristiques techniques de votre canon automoteur, vous pouvez prévoir vos actions en bataille. Parfois, rester en base n'est pas une très bonne idée. Si vous pilotez un canon automoteur rapide, vous pouvez rapidement changer de position et engager l'ennemi depuis des directions où il s'y attend le moins.</Hint>
+    <PM name="Canon AM-15 : Dieux de la guerre" short="Object 260: Canon AM-15 " desc="Un canon automoteur restant opérationnel suffisamment longtemps est un véritable atout pour l'équipe. Continuez de tirer obus après obus tout en tentant de ne pas vous faire avoir par les tirs ennemis. Prenez votre temps et réfléchissez bien avant de « presser la détente », car la destruction en un seul tir est la meilleure stratégie pour un véhicule avec un long temps de rechargement." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Les renforts tant attendus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Terminer la bataille en étant le meilleur joueur des deux équipes en termes d'expérience gagnée et de dégâts infligés.\n• Infliger au moins 3 000 points de dégâts.</req>
+        <req>• Terminer la bataille en étant le meilleur joueur des deux équipes en termes d'expérience gagnée.\n• Permettre à vos alliés d'infliger au moins 3 500 points de dégâts aux véhicules ennemis en les étourdissant ou en les immobilisant.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Survivre à la bataille.</req>

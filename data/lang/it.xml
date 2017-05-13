@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrado" />
     <item ID="95_lost_city" Name="Città Fantasma" />
     <item ID="96_prohorovka_defense" Name="Difesa infuocata" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Sconosciuto" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Battaglia Speciale" />
     <item ID="5" Name="Battaglia Speciale" />
     <item ID="6" Name="Battaglia di Addestramento" />
-    <item ID="7" Name="Squadra: Battaglie Non Classificate" />
+    <item ID="7" Name="Battaglia di Squadra" />
     <item ID="8" Name="Battaglia Storica" />
     <item ID="9" Name="Modalità di battaglia speciale" />
     <item ID="10" Name="Schermaglie" />
@@ -1443,7 +1455,7 @@
     <PM name="L-10: Il massimo risultato" short="StuG IV: L-10" desc="Più efficiente sei in battaglia, maggiore sarà l'esperienza che guadagnerai. Mostra cosa è in grado di fare un carro leggero!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
       <Hint>Un buon esploratore sa quando agire con cautela e quando essere aggressivo. Stai attento a cosa succede in battaglia.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Risulta tra i migliori tre per esperienza guadagnata nella tua squadra.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
@@ -1767,7 +1779,7 @@
     <PM name="C-1: Performance efficace" short="StuG IV: C-1" desc="I cacciacarri sono un ottima scelta per quei giocatori che amano distruggere i veicoli nemici da lontano." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
       <Hint>I cacciacarri hanno una notevole potenza di fuoco, ma contemporaneamente un basso tasso di sopravvivenza. Prova a sparare da lontano, la precisione del tuo cannone ti consente di farlo.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Posizionati tra i primi 7 della squadra per esperienza guadagnata.</req>
+        <req>• Posizionati nei primi 7 per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
@@ -1899,136 +1911,136 @@
         <req>• Distruggi un veicolo nemico.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-1: Tiratore scelto" short="StuG IV: A-SMV-1" desc="Non sprecare munizioni. Sono i colpi precisi che ti porteranno alla vittoria." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Sii paziente e aspetta finché il puntamento non è completo.</Hint>
+    <PM name="A-SMV-1: Un'affermazione audace" short="StuG IV: A-SMV-1" desc="L'ampio raggio di esplosione è una delle caratteristiche principali di un'artiglieria. Anche se non sei riuscito a mettere a segno un colpo diretto sul veicolo nemico bersagliato, è comunque possibile averlo messo in serio pericolo a causa dello stordimento. Il veicolo nemico viene così evidenziato dall'indicatore dello stordimento, visibile ai tuoi alleati. Se gli alleati causano danni ai veicoli che stordisci, riceverai crediti ed esperienza aggiuntivi per il danno causato con la tua assistenza." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 3 colpi che causano danni a veicoli nemici.</req>
+        <req>• Stordisci veicoli nemici almeno 3 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 1.000 HP di danno.</req>
+        <req>• Danneggia veicoli nemici almeno 3 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-2: Nascosto e pericoloso" short="StuG IV: A-SMV-2" desc="Le A-SMV non possono fare affidamento sullo spessore della corazza o sulla velocità. Se guidi una A-SMV, impara a rimanere nascosto durante tutta la battaglia." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>La Rete mimetica combinata con l'abilità Mimetizzazione potrà aiutarti a non venire avvistato.</Hint>
+    <PM name="A-SMV-2: Il tempo è denaro" short="StuG IV: A-SMV-2" desc="Un veicolo nemico che rimane stordito per un certo periodo di tempo non può dare il massimo sul campo di battaglia. Ricorda: un veicolo stordito diventa un bersaglio facile." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 500 HP di danno a veicoli nemici. Non devi essere avvistato durante la battaglia.\n• Sopravvivi alla battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 50 secondi.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un veicolo nemico.</req>
+        <req>• Distruggi almeno un veicolo nemico.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-3: Colpo d'obice" short="StuG IV: A-SMV-3" desc="Se vuoi guidare la tua squadra, devi prima imparare come sparare in modo efficace." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Segui attentamente il corso della battaglia e supporta la tua squadra. Non restare nello stesso posto troppo a lungo. Ritirati o cerca un altro punto da cui fare fuoco se necessario.</Hint>
+    <PM name="A-SMV-3: Il lento e inesorabile viene stordito" short="StuG IV: A-SMV-3" desc="I cacciacarri nemici, nascosti e potenti, insieme ai carri armati pesanti ben corazzati, possono cambiare le sorti della battaglia. Essi sono i bersagli prioritari e causare loro danni (o contribuire alla loro distruzione) dovrebbe essere l'obiettivo principale per ogni giocatore su un'artiglieria. La maggior parte dei pesanti e dei cacciacarri sono lenti e mastodontici, cosa che aumenta le probabilità di un colpo a segno." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 1.000 HP di danno a veicoli nemici.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Vinci la battaglia.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-4: Sfondamento" short="StuG IV: A-SMV-4" desc="I proiettili esplosivi più potenti non solo causano molti danni all'integrità, ma hanno anche alte possibilità di danneggiare e distruggere moduli o di ferire membri dell'equipaggio grazie al danno ad area." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Un proiettile esplosivo può mostrare la sua efficacia solo penetrando la corazza di un carro nemico ed esplodendo all'interno dello scafo. Se i tuoi proiettili hanno una penetrazione mediocre, cerca nemici con torrette dal tetto aperto o carica proiettili Premium.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di 3 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli danneggiati/distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
+        <req>• Stordisci un corazzato pesante o un cacciacarri almeno 2 volte.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-5: Calcola e oblitera" short="StuG IV: A-SMV-5" desc="La grande potenza di fuoco che possiedi compensa bene la relativamente bassa durabilità della tua A-SMV." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Cerca di causare danni a veicoli nemici il prima possibile. Anche se il tuo proiettile esplosivo manca il bersaglio di poco, il veicolo potrebbe comunque aver ricevuto danni dall'esplosione.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia superando di almeno 4 volte i punti integrità del tuo veicolo.\n• I danni causati agli alleati non vengono conteggiati.</req>
+    <PM name="A-SMV-4: Ci vediamo" short="StuG IV: A-SMV-4" desc="Impara i percorsi principali dei carri armati pesanti nemici e le posizioni dove solitamente si nascondono i cacciacarri. Puntare in anticipo ad una determinata area della mappa, aumenta le possibilità di mettere a segno un colpo efficacie e di sfoderare una devastante copertura di fuoco sulle posizioni nemiche. Questi tipi di veicoli di solito seguono tattiche abbastanza prevedibili su certe mappe. Sii furbo: analizza lo schieramento nemico e guarda le posizioni più adatte già dall'inizio della battaglia." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Stordisci un corazzato pesante o un cacciacarri per almeno un totale di 30 secondi.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un veicolo nemico.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-6: Cala il martello" short="StuG IV: A-SMV-6" desc="A volte combatterai contro veicoli di livello più alto. Tuttavia questo non è un problema per piloti esperti di A-SMV." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Se non sei in grado penetrare un veicolo nemico con un proiettili standard, prova ad usare le munizioni Premium. Spara ai lati al retro del veicolo nemico. Un'artiglieria, con la sua traiettoria di tiro curva, può eventualmente colpire la parte superiore della torretta, dove la protezione della corazza è scarsa. I veicoli nemici con le torrette aperte sono più vulnerabili ad attacchi dall'alto.</Hint>
+    <PM name="A-SMV-5: Condividere è amare" short="StuG IV: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 veicoli nemici del tuo stesso livello o superiore.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 600 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Danneggia veicoli nemici almeno 3 volte sparandogli o speronandoli.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-6: Martello degli dei" short="StuG IV: A-SMV-6" desc="L'obiettivo principale di una artiglieria è di fornire fuoco di supporto ai veicoli alleati. I veicoli nemici storditi sono combattenti poco efficaci e i tuoi alleati saranno ben lieti di ricevere la tua assistenza. Nonostante ciò, stai attento a quando spari: un colpo sparato a cuor leggero potrebbe stordire anche un veicolo alleato. Il fuoco amico non sarà tollerato!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Consenti ai tuoi alleati di danneggiare almeno 2 a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-7: Grossi calibri pronti al fuoco" short="StuG IV: A-SMV-7" desc="Dovresti distruggere artiglierie e cacciacarri nemici alla prima occasione. Eliminarli potrebbe cambiare le sorti della battaglia a tuo favore." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Coordina le tue azioni con i carri leggeri alleati. Avvistare artiglierie e cacciacarri nemici per poi distruggerli potrebbe aiutare ad ottenere la superiorità sul campo di battaglia.</Hint>
+    <PM name="A-SMV-7: Attenta valutazione" short="StuG IV: A-SMV-7" desc="Per completare questa missione, usa un approccio selettivo per scegliere i tuoi bersagli. Non concentrare il fuoco su un solo veicolo nemico, anche se è un bersaglio facile. La migliore strategia è quella di colpire grossi gruppi di corazzati nemici con un sol colpo. Studia la mappa e impara i principali percorsi dei carri." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi una artiglieria nemica o un cacciacarri nemico.</req>
+        <req>• Stordisci almeno 2 veicoli nemici.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 1.000 HP di danno.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-8: Fuoco pesante sui carri pesanti!" short="StuG IV: A-SMV-8" desc="Un carro pesante è un bersaglio tosto, ma non per il tuo cannone. I proiettili con traiettoria a parabola possono colpire la parte alta del corazzato, dove la corazzatura è sottile." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>I carri pesanti sono generalmente più lenti a muoversi rispetto ad altre categorie di veicoli. Inoltre, puoi spesso prevedere dove sarà il carro quando il tuo proiettile arriverà a destinazione. Per un pilota di A-SMV è utile sapere la velocità dei propri proiettili.</Hint>
+    <PM name="A-SMV-8: Ho fatto del mio meglio" short="StuG IV: A-SMV-8" desc="Ricevi esperienza per tutte le azioni che hanno avuto efficacia. Prova ad essere MVP: causa danno, aiuta a distruggere veicoli nemici e sopravvivi. Cambia la tua posizione dopo ogni colpo: altrimenti il fuoco di contrartiglieria potrebbe colpirti." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa almeno 1.000 HP di danno ai carri pesanti nemici.</req>
+        <req>• Posizionati nei primi 7 per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un carro pesante nemico.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-9: Tiro d'anticipo" short="StuG IV: A-SMV-9" desc="Un esperto pilota di A-SMV può facilmente colpire veicoli in movimento. Impara a predire efficacemente i movimenti dei veicoli nemici. Ricorda che un colpo diretto può causare molto più danno a un veicolo nemico rispetto all'esplosione di un proiettile HE." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>La velocità dei tuoi proiettili è un parametro molto importante. Sapendo quando il colpo raggiunge il bersaglio, puoi correttamente calcolare la deviazione.</Hint>
+    <PM name="A-SMV-9: Danni collaterali" short="StuG IV: A-SMV-9" desc="I potenti proiettili HE non solo possono danneggiare i veicoli nemici, ma hanno anche un'elevata possibilità di distruggere moduli o ferire membri dell'equipaggio grazie all'onda d'urto." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia un veicolo nemico che si sta muovendo a una velocità di almeno 20 km/h.\n• Vengono conteggiati i danni da esplosione e da colpo diretto.\n• Non vengono conteggiati i danni da speronamento.</req>
+        <req>• Distruggi qualsiasi modulo di veicoli nemici o ferisci i loro carristi, per un totale di 3 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-10: La nemesi dell'artiglieria" short="StuG IV: A-SMV-10" desc="Cacciare le artiglierie è un'ottima idea. Prova a prevedere dove le A-SMV nemiche si nascondono e controlla di aver indovinato correttamente con un colpo accurato." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Più frequentemente piloti una A-SMV, più punti strategici nella mappa conoscerai. Questo ti aiuterà a combattere le A-SMV nemiche in quanto saprai dove si potranno posizionare.</Hint>
+    <PM name="A-SMV-10: Tutto incluso" short="StuG IV: A-SMV-10" desc="La battaglia può cambiare velocemente: tieni sempre un occhio sulla minimappa e assicurati di avere linea visiva sui veicoli nemici. Dovrai spostarti sulla mappa tutto il tempo invece che stare in un unico punto. I tuoi alleati si affidano alla potenza della tua artiglieria, quindi fai del tuo meglio al momento e nel posto giusto." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 1 artiglieria nemica.</req>
+        <req>• Il danno totale provocato da te e dai tuoi alleati a veicoli nemici storditi o immobilizzato da te deve essere di almeno 1.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 veicoli nemici.</req>
+        <req>• Gli alleati devono distruggere almeno 1 veicolo nemico stordito o immobilizzato da te.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-11: Area d'effetto" short="StuG IV: A-SMV-11" desc="I tuoi proiettili esplosivi non solo possono distruggere un veicolo nemico con un solo colpo, ma possono causare grossi danni a diversi obiettivi contemporaneamente, se abbastanza vicini." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Puoi letteralmente prendere due piccioni con una fava se più veicoli nemici si trovano vicini l'uno all'altro. Questo caso è tipico nelle mappe urbane.</Hint>
+    <PM name="A-SMV-11: Area d'effetto" short="StuG IV: A-SMV-11" desc="In aggiunta al considerevole danno causato con un colpo ben piazzato, un proiettile esplosivo può anche stordire tutti i veicoli nel posto sbagliato all'interno del suo raggio di esplosione. Molte mappe hanno punti in cui i veicoli nemici dovranno stare vicini. Prendi al volo l'opportunità di mandare saluti \&quot;altamente esplosivi\&quot;." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un veicolo nemico con un solo colpo.\n• Vengono conteggiati i veicoli che precedentemente non hanno ricevuto danni durante il corso della battaglia.</req>
+        <req>• Stordisci almeno 2 veicoli nemici con un colpo singolo.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Stordisci veicoli nemici per un totale di almeno 50 secondi.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-12: Il malocchio" short="StuG IV: A-SMV-12" desc="I tuoi alleati hanno distrutto il veicolo nemico stordito? È ottimo per te, dato che è stato il tuo contributo a rendere la vittoria più vicina! Il tuo obiettivo è di fornire fuoco di supporto e di assistere i tuoi alleati nel posto e nel momento giusto." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Stordisci veicoli nemici per un totale di almeno 50 secondi.\n• Gli alleati devono distruggere almeno 1 veicolo nemico stordito o immobilizzato da te.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-12: L'attaccante" short="StuG IV: A-SMV-12" desc="Lo stile di gioco in una A-SMV è totalmente differente da tutti gli altri tipi di veicoli. Tuttavia l'obiettivo principale è lo stesso: fai del tuo meglio in battaglia e contribuisci il più possibile alla causa della tua squadra." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Non passare alla modalità Artiglieria subito all'inizio della battaglia. Prima decidi un punto strategico in cui posizionarti.</Hint>
+    <PM name="A-SMV-13: C come cooperazione" short="StuG IV: A-SMV-13" desc="Una buona coordinazione tra le A-SMV e i gli altri veicoli alleati può essere terrificante per la squadra nemica. Coordina le tue azioni e concentra il fuoco su un obiettivo nemico alla volta." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Posizionati tra i primi 3 della tua squadra per danno causato.\n• Distruggi un veicolo nemico.</req>
+        <req>• Danneggia veicoli nemici almeno 4 volte oppure stordiscili 6 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-13: Batteria di artiglieria (Personale/Plotone)" short="StuG IV: A-SMV-13" desc="Un Plotone ben coordinato di A-SMV può far estremamente paura alla squadra nemica. Coordina le vostre azioni e concentrate il fuoco su un obiettivo nemico per volta. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Dividendosi, il tuo Plotone può colpire bersagli da angoli differenti, rendendo molte rocce ed edifici inutili coperture e dominando la mappa.</Hint>
+    <PM name="A-SMV-14: Parte dell'equipaggio, parte della nave!" short="StuG IV: A-SMV-14" desc="Cooperare è la chiave per la vittoria dell'intera squadra. Indica ai tuoi alleati i veicoli nemici a cui stai mirando, assicurandoti che gli sparino appena verranno storditi o immobilizzati. Ricorda: un soldato solitario difficilmente riuscirà a fare la differenza in battaglia." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno il 15% del danno totale causato ai veicoli nemici dalla tua squadra, sia personalmente sia come totale complessivo del tuo Plotone.\n• Vinci la battaglia.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 70 secondi oppure consenti ai tuoi alleati di provocare almeno 400 HP di danno a veicoli nemici immobilizzandoli.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-14: Assalto compatto (Personale/Plotone)" short="StuG IV: A-SMV-14" desc="L'artiglieria dipende dal resto della squadra per essere utile. Artiglieria e corazzati leggeri sono complementari, in special modo se sono in Plotone. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Un corazzato leggero può avvistare veicoli nemici e immobilizzarli. Le artiglierie faranno il resto in breve tempo. Insieme vinceremo! Un corazzato pesante ti farà da scudo con la sua spessa corazza, un corazzato medio distrarrà il nemico e intanto un cacciacarri farà fuoco di supporto da lunga distanza.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 2.000 HP di danno a corazzati pesanti e cacciacarri nemici sia personalmente sia come totale complessivo del tuo Plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-15: Dei della guerra" short="StuG IV: A-SMV-15" desc="È molto meglio per la squadra se le A-SMV sopravvivono. Prova a non esporti al fuoco nemico e spara colpi precisi al nemico." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
-      <Hint>Se conosci le caratteristiche tecniche della tua A-SMV, puoi pianificare le tue azioni in battaglia. A volte rimanere in base non è una buona idea. Se stai guidando una A-SMV veloce, puoi rapidamente cambiare posizione e ingaggiare il nemico da direzioni inaspettate.</Hint>
+    <PM name="A-SMV-15: Dei della guerra" short="StuG IV: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.\n• Provoca almeno 2.000 HP di danno.</req>
+        <req>• Posizionati nei primi 5 per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 1.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -2409,7 +2421,7 @@
         <req>• Incendia un veicolo.\n• Provoca almeno 2.000 HP di danno a veicoli nemici.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Posizionati fra i primi 3 giocatori della tua squadra in ordine di esperienza guadagnata.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Secondary>
     </PM>
     <PM name="M-13: Atteggiamento attivo (Personale/Plotone)" short="T28 heavy tank concept: M-13" desc="Un Plotone di carri medi può risultare di grande aiuto alla squadra sull'intero campo di battaglia. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
@@ -2442,7 +2454,7 @@
     <PM name="C-1: Performance efficace" short="T28 heavy tank concept: C-1" desc="I cacciacarri sono un ottima scelta per quei giocatori che amano distruggere i veicoli nemici da lontano." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
       <Hint>I cacciacarri hanno una notevole potenza di fuoco, ma contemporaneamente un basso tasso di sopravvivenza. Prova a sparare da lontano, la precisione del tuo cannone ti consente di farlo.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Posizionati tra i primi 5 della squadra per esperienza guadagnata.</req>
+        <req>• Posizionati tra i primi 5 della tua squadra per esperienza guadagnata.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
@@ -2574,136 +2586,136 @@
         <req>• Distruggi almeno 2 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-1: Tiratore scelto" short="T28 heavy tank concept: A-SMV-1" desc="Non sprecare munizioni. Sono i colpi precisi che ti porteranno alla vittoria." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Sii paziente e aspetta finché il puntamento non è completo.</Hint>
+    <PM name="A-SMV-1: Un'affermazione audace" short="T28 heavy tank concept: A-SMV-1" desc="L'ampio raggio di esplosione è una delle caratteristiche principali di un'artiglieria. Anche se non sei riuscito a mettere a segno un colpo diretto sul veicolo nemico bersagliato, è comunque possibile averlo messo in serio pericolo a causa dello stordimento. Il veicolo nemico viene così evidenziato dall'indicatore dello stordimento, visibile ai tuoi alleati. Se gli alleati causano danni ai veicoli che stordisci, riceverai crediti ed esperienza aggiuntivi per il danno causato con la tua assistenza." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 4 colpi che causano danni a veicoli nemici.</req>
+        <req>• Stordisci veicoli nemici almeno 5 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 2.000 HP di danno.</req>
+        <req>• Danneggia veicoli nemici almeno 5 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-2: Nascosto e pericoloso" short="T28 heavy tank concept: A-SMV-2" desc="Le A-SMV non possono fare affidamento sullo spessore della corazza o sulla velocità. Se guidi una A-SMV, impara a rimanere nascosto durante tutta la battaglia." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>La Rete mimetica combinata con l'abilità Mimetizzazione potrà aiutarti a non venire avvistato.</Hint>
+    <PM name="A-SMV-2: Il tempo è denaro" short="T28 heavy tank concept: A-SMV-2" desc="Un veicolo nemico che rimane stordito per un certo periodo di tempo non può dare il massimo sul campo di battaglia. Ricorda: un veicolo stordito diventa un bersaglio facile." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 1.500 HP di danno a veicoli nemici. Non devi essere avvistato durante la battaglia.\n• Sopravvivi alla battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 100 secondi.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 2 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-3: Colpo d'obice" short="T28 heavy tank concept: A-SMV-3" desc="Se vuoi guidare la tua squadra, devi prima imparare come sparare in modo efficace." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Segui attentamente il corso della battaglia e supporta la tua squadra. Non restare nello stesso posto troppo a lungo. Ritirati o cerca un altro punto da cui fare fuoco se necessario.</Hint>
+    <PM name="A-SMV-3: Il lento e inesorabile viene stordito" short="T28 heavy tank concept: A-SMV-3" desc="I cacciacarri nemici, nascosti e potenti, insieme ai carri armati pesanti ben corazzati, possono cambiare le sorti della battaglia. Essi sono i bersagli prioritari e causare loro danni (o contribuire alla loro distruzione) dovrebbe essere l'obiettivo principale per ogni giocatore su un'artiglieria. La maggior parte dei pesanti e dei cacciacarri sono lenti e mastodontici, cosa che aumenta le probabilità di un colpo a segno." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 2.000 HP di danno a veicoli nemici.</req>
+        <req>• Stordisci un corazzato pesante o un cacciacarri almeno 4 volte.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-4: Sfondamento" short="T28 heavy tank concept: A-SMV-4" desc="I proiettili esplosivi più potenti non solo causano molti danni all'integrità, ma hanno anche alte possibilità di danneggiare e distruggere moduli o di ferire membri dell'equipaggio grazie al danno ad area." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Un proiettile esplosivo può mostrare la sua efficacia solo penetrando la corazza di un carro nemico ed esplodendo all'interno dello scafo. Se i tuoi proiettili hanno una penetrazione mediocre, cerca nemici con torrette dal tetto aperto o carica proiettili Premium.</Hint>
+    <PM name="A-SMV-4: Ci vediamo" short="T28 heavy tank concept: A-SMV-4" desc="Impara i percorsi principali dei carri armati pesanti nemici e le posizioni dove solitamente si nascondono i cacciacarri. Puntare in anticipo ad una determinata area della mappa, aumenta le possibilità di mettere a segno un colpo efficacie e di sfoderare una devastante copertura di fuoco sulle posizioni nemiche. Questi tipi di veicoli di solito seguono tattiche abbastanza prevedibili su certe mappe. Sii furbo: analizza lo schieramento nemico e guarda le posizioni più adatte già dall'inizio della battaglia." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di 5 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli danneggiati/distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
+        <req>• Stordisci un corazzato pesante o un cacciacarri per almeno un totale di 50 secondi.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-5: Calcola e oblitera" short="T28 heavy tank concept: A-SMV-5" desc="La grande potenza di fuoco che possiedi compensa bene la relativamente bassa durabilità della tua A-SMV." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Cerca di causare danni a veicoli nemici il prima possibile. Anche se il tuo proiettile esplosivo manca il bersaglio di poco, il veicolo potrebbe comunque aver ricevuto danni dall'esplosione.</Hint>
+    <PM name="A-SMV-5: Condividere è amare" short="T28 heavy tank concept: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia superando di almeno 6 volte i punti integrità del tuo veicolo.\n• I danni causati agli alleati non vengono conteggiati.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 1.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 veicoli nemici.</req>
+        <req>• Danneggia veicoli nemici almeno 5 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-6: Cala il martello" short="T28 heavy tank concept: A-SMV-6" desc="A volte combatterai contro veicoli di livello più alto. Tuttavia questo non è un problema per piloti esperti di A-SMV." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Se non sei in grado penetrare un veicolo nemico con un proiettili standard, prova ad usare le munizioni Premium. Spara ai lati al retro del veicolo nemico. Un'artiglieria, con la sua traiettoria di tiro curva, può eventualmente colpire la parte superiore della torretta, dove la protezione della corazza è scarsa. I veicoli nemici con le torrette aperte sono più vulnerabili ad attacchi dall'alto.</Hint>
+    <PM name="A-SMV-6: Martello degli dei" short="T28 heavy tank concept: A-SMV-6" desc="L'obiettivo principale di una artiglieria è di fornire fuoco di supporto ai veicoli alleati. I veicoli nemici storditi sono combattenti poco efficaci e i tuoi alleati saranno ben lieti di ricevere la tua assistenza. Nonostante ciò, stai attento a quando spari: un colpo sparato a cuor leggero potrebbe stordire anche un veicolo alleato. Il fuoco amico non sarà tollerato!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 veicoli nemici del tuo stesso livello o superiore.</req>
+        <req>• Consenti ai tuoi alleati di danneggiare almeno 3 a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-7: Grossi calibri pronti al fuoco" short="T28 heavy tank concept: A-SMV-7" desc="Dovresti distruggere artiglierie e cacciacarri nemici alla prima occasione. Eliminarli potrebbe cambiare le sorti della battaglia a tuo favore." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Coordina le tue azioni con i carri leggeri alleati. Avvistare artiglierie e cacciacarri nemici per poi distruggerli potrebbe aiutare ad ottenere la superiorità sul campo di battaglia.</Hint>
+    <PM name="A-SMV-7: Attenta valutazione" short="T28 heavy tank concept: A-SMV-7" desc="Per completare questa missione, usa un approccio selettivo per scegliere i tuoi bersagli. Non concentrare il fuoco su un solo veicolo nemico, anche se è un bersaglio facile. La migliore strategia è quella di colpire grossi gruppi di corazzati nemici con un sol colpo. Studia la mappa e impara i principali percorsi dei carri." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi un cacciacarri nemico o un artiglieria nemica di 1 livello superiore al tuo veicolo.</req>
+        <req>• Stordisci almeno 3 veicoli nemici.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 2.000 HP di danno.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-8: Fuoco pesante sui carri pesanti!" short="T28 heavy tank concept: A-SMV-8" desc="Un carro pesante è un bersaglio tosto, ma non per il tuo cannone. I proiettili con traiettoria a parabola possono colpire la parte alta del corazzato, dove la corazzatura è sottile." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>I carri pesanti sono generalmente più lenti a muoversi rispetto ad altre categorie di veicoli. Inoltre, puoi spesso prevedere dove sarà il carro quando il tuo proiettile arriverà a destinazione. Per un pilota di A-SMV è utile sapere la velocità dei propri proiettili.</Hint>
+    <PM name="A-SMV-8: Ho fatto del mio meglio" short="T28 heavy tank concept: A-SMV-8" desc="Ricevi esperienza per tutte le azioni che hanno avuto efficacia. Prova ad essere MVP: causa danno, aiuta a distruggere veicoli nemici e sopravvivi. Cambia la tua posizione dopo ogni colpo: altrimenti il fuoco di contrartiglieria potrebbe colpirti." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa almeno 1.500 HP di danno ai carri pesanti nemici.</req>
+        <req>• Posizionati tra i primi 5 della tua squadra per esperienza guadagnata.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 carri pesanti nemici.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-9: Tiro d'anticipo" short="T28 heavy tank concept: A-SMV-9" desc="Un esperto pilota di A-SMV può facilmente colpire veicoli in movimento. Impara a predire efficacemente i movimenti dei veicoli nemici. Ricorda che un colpo diretto può causare molto più danno a un veicolo nemico rispetto all'esplosione di un proiettile HE." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>La velocità dei tuoi proiettili è un parametro molto importante. Sapendo quando il colpo raggiunge il bersaglio, puoi correttamente calcolare la deviazione.</Hint>
+    <PM name="A-SMV-9: Danni collaterali" short="T28 heavy tank concept: A-SMV-9" desc="I potenti proiettili HE non solo possono danneggiare i veicoli nemici, ma hanno anche un'elevata possibilità di distruggere moduli o ferire membri dell'equipaggio grazie all'onda d'urto." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 2 colpi diretti su un veicolo nemico.\n• Vengono considerati tutti i colpi diretti, che abbiano causato danno o meno.</req>
+        <req>• Distruggi qualsiasi modulo di veicoli nemici o ferisci i loro carristi, per un totale di 5 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi alla battaglia.\n• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-10: La nemesi dell'artiglieria" short="T28 heavy tank concept: A-SMV-10" desc="Cacciare le artiglierie è un'ottima idea. Prova a prevedere dove le A-SMV nemiche si nascondono e controlla di aver indovinato correttamente con un colpo accurato." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Più frequentemente piloti una A-SMV, più punti strategici nella mappa conoscerai. Questo ti aiuterà a combattere le A-SMV nemiche in quanto saprai dove si potranno posizionare.</Hint>
+    <PM name="A-SMV-10: Tutto incluso" short="T28 heavy tank concept: A-SMV-10" desc="La battaglia può cambiare velocemente: tieni sempre un occhio sulla minimappa e assicurati di avere linea visiva sui veicoli nemici. Dovrai spostarti sulla mappa tutto il tempo invece che stare in un unico punto. I tuoi alleati si affidano alla potenza della tua artiglieria, quindi fai del tuo meglio al momento e nel posto giusto." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 artiglierie nemiche.</req>
+        <req>• Il danno totale provocato da te e dai tuoi alleati a veicoli nemici storditi o immobilizzato da te deve essere di almeno 2.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 veicoli nemici.</req>
+        <req>• Gli alleati devono distruggere almeno 1 veicolo nemico stordito o immobilizzato da te.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-11: Area d'effetto" short="T28 heavy tank concept: A-SMV-11" desc="I tuoi proiettili esplosivi non solo possono distruggere un veicolo nemico con un solo colpo, ma possono causare grossi danni a diversi obiettivi contemporaneamente, se abbastanza vicini." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Puoi letteralmente prendere due piccioni con una fava se più veicoli nemici si trovano vicini l'uno all'altro. Questo caso è tipico nelle mappe urbane.</Hint>
+    <PM name="A-SMV-11: Area d'effetto" short="T28 heavy tank concept: A-SMV-11" desc="In aggiunta al considerevole danno causato con un colpo ben piazzato, un proiettile esplosivo può anche stordire tutti i veicoli nel posto sbagliato all'interno del suo raggio di esplosione. Molte mappe hanno punti in cui i veicoli nemici dovranno stare vicini. Prendi al volo l'opportunità di mandare saluti \&quot;altamente esplosivi\&quot;." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Danneggia almeno 2 veicoli nemici con un solo colpo.</req>
+        <req>• Stordisci almeno 2 veicoli nemici con un colpo singolo due volte.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Stordisci veicoli nemici per un totale di almeno 100 secondi.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-12: Il malocchio" short="T28 heavy tank concept: A-SMV-12" desc="I tuoi alleati hanno distrutto il veicolo nemico stordito? È ottimo per te, dato che è stato il tuo contributo a rendere la vittoria più vicina! Il tuo obiettivo è di fornire fuoco di supporto e di assistere i tuoi alleati nel posto e nel momento giusto." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Stordisci veicoli nemici per un totale di almeno 100 secondi.\n• Gli alleati devono distruggere almeno 1 veicolo nemico stordito o immobilizzato da te.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-12: L'attaccante" short="T28 heavy tank concept: A-SMV-12" desc="Lo stile di gioco in una A-SMV è totalmente differente da tutti gli altri tipi di veicoli. Tuttavia l'obiettivo principale è lo stesso: fai del tuo meglio in battaglia e contribuisci il più possibile alla causa della tua squadra." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Non passare alla modalità Artiglieria subito all'inizio della battaglia. Prima decidi un punto strategico in cui posizionarti.</Hint>
+    <PM name="A-SMV-13: C come cooperazione" short="T28 heavy tank concept: A-SMV-13" desc="Una buona coordinazione tra le A-SMV e i gli altri veicoli alleati può essere terrificante per la squadra nemica. Coordina le tue azioni e concentra il fuoco su un obiettivo nemico alla volta." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Posizionati nei i primi 3 di entrambe le squadre per danno causato.\n• Distruggi almeno 2 veicoli nemici.\n• Sopravvivi alla battaglia.</req>
+        <req>• Danneggia veicoli nemici almeno 6 volte oppure stordiscili 8 volte.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-13: Batteria di artiglieria (Personale/Plotone)" short="T28 heavy tank concept: A-SMV-13" desc="Un Plotone ben coordinato di A-SMV può far estremamente paura alla squadra nemica. Coordina le vostre azioni e concentrate il fuoco su un obiettivo nemico per volta. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Dividendosi, il tuo Plotone può colpire bersagli da angoli differenti, rendendo molte rocce ed edifici inutili coperture e dominando la mappa.</Hint>
+    <PM name="A-SMV-14: Parte dell'equipaggio, parte della nave!" short="T28 heavy tank concept: A-SMV-14" desc="Cooperare è la chiave per la vittoria dell'intera squadra. Indica ai tuoi alleati i veicoli nemici a cui stai mirando, assicurandoti che gli sparino appena verranno storditi o immobilizzati. Ricorda: un soldato solitario difficilmente riuscirà a fare la differenza in battaglia." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno il 20% del danno totale causato ai veicoli nemici dalla tua squadra, sia personalmente sia come totale complessivo del tuo Plotone.\n• Vinci la battaglia.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 100 secondi oppure consenti ai tuoi alleati di provocare almeno 600 HP di danno a veicoli nemici immobilizzandoli.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-14: Assalto compatto (Personale/Plotone)" short="T28 heavy tank concept: A-SMV-14" desc="L'artiglieria dipende dal resto della squadra per essere utile. Artiglieria e corazzati leggeri sono complementari, in special modo se sono in Plotone. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Un corazzato leggero può avvistare veicoli nemici e immobilizzarli. Le artiglierie faranno il resto in breve tempo. Insieme vinceremo! Un corazzato pesante ti farà da scudo con la sua spessa corazza, un corazzato medio distrarrà il nemico e intanto un cacciacarri farà fuoco di supporto da lunga distanza.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 3.000 HP di danno a corazzati pesanti e cacciacarri nemici sia personalmente sia come totale complessivo del tuo Plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-15: Dei della guerra" short="T28 heavy tank concept: A-SMV-15" desc="È molto meglio per la squadra se le A-SMV sopravvivono. Prova a non esporti al fuoco nemico e spara colpi precisi al nemico." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
-      <Hint>Se conosci le caratteristiche tecniche della tua A-SMV, puoi pianificare le tue azioni in battaglia. A volte rimanere in base non è una buona idea. Se stai guidando una A-SMV veloce, puoi rapidamente cambiare posizione e ingaggiare il nemico da direzioni inaspettate.</Hint>
+    <PM name="A-SMV-15: Dei della guerra" short="T28 heavy tank concept: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati nei primi 3 posti di entrambe le squadre per esperienza guadagnata e danni provocati.\n• Provoca almeno 2.000 HP di danno a veicoli nemici.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 1.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -3084,7 +3096,7 @@
         <req>• Incendia un veicolo nemico del tuo stesso livello o superiore.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Posizionati fra i primi 3 giocatori della tua squadra in ordine di esperienza guadagnata.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Secondary>
     </PM>
     <PM name="M-13: Atteggiamento attivo (Personale/Plotone)" short="T 55A: M-13" desc="Un Plotone di carri medi può risultare di grande aiuto alla squadra sull'intero campo di battaglia. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
@@ -3117,7 +3129,7 @@
     <PM name="C-1: Performance efficace" short="T 55A: C-1" desc="I cacciacarri sono un ottima scelta per quei giocatori che amano distruggere i veicoli nemici da lontano." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
       <Hint>I cacciacarri hanno una notevole potenza di fuoco, ma contemporaneamente un basso tasso di sopravvivenza. Prova a sparare da lontano, la precisione del tuo cannone ti consente di farlo.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Posizionati fra i primi 3 giocatori della tua squadra in ordine di esperienza guadagnata.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
@@ -3249,136 +3261,136 @@
         <req>• Distruggi almeno 3 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-1: Tiratore scelto" short="T 55A: A-SMV-1" desc="Non sprecare munizioni. Sono i colpi precisi che ti porteranno alla vittoria." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Sii paziente e aspetta finché il puntamento non è completo.</Hint>
+    <PM name="A-SMV-1: Un'affermazione audace" short="T 55A: A-SMV-1" desc="L'ampio raggio di esplosione è una delle caratteristiche principali di un'artiglieria. Anche se non sei riuscito a mettere a segno un colpo diretto sul veicolo nemico bersagliato, è comunque possibile averlo messo in serio pericolo a causa dello stordimento. Il veicolo nemico viene così evidenziato dall'indicatore dello stordimento, visibile ai tuoi alleati. Se gli alleati causano danni ai veicoli che stordisci, riceverai crediti ed esperienza aggiuntivi per il danno causato con la tua assistenza." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 5 colpi che causano danni a veicoli nemici.</req>
+        <req>• Stordisci veicoli nemici almeno 7 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 3.000 HP di danno.</req>
+        <req>• Danneggia veicoli nemici almeno 6 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-2: Nascosto e pericoloso" short="T 55A: A-SMV-2" desc="Le A-SMV non possono fare affidamento sullo spessore della corazza o sulla velocità. Se guidi una A-SMV, impara a rimanere nascosto durante tutta la battaglia." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>La Rete mimetica combinata con l'abilità Mimetizzazione potrà aiutarti a non venire avvistato.</Hint>
+    <PM name="A-SMV-2: Il tempo è denaro" short="T 55A: A-SMV-2" desc="Un veicolo nemico che rimane stordito per un certo periodo di tempo non può dare il massimo sul campo di battaglia. Ricorda: un veicolo stordito diventa un bersaglio facile." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Posizionati tra i primi 5 giocatori della tua squadra per danno provocato. Non devi essere avvistato.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 150 secondi.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 3 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-3: Colpo d'obice" short="T 55A: A-SMV-3" desc="Se vuoi guidare la tua squadra, devi prima imparare come sparare in modo efficace." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Segui attentamente il corso della battaglia e supporta la tua squadra. Non restare nello stesso posto troppo a lungo. Ritirati o cerca un altro punto da cui fare fuoco se necessario.</Hint>
+    <PM name="A-SMV-3: Il lento e inesorabile viene stordito" short="T 55A: A-SMV-3" desc="I cacciacarri nemici, nascosti e potenti, insieme ai carri armati pesanti ben corazzati, possono cambiare le sorti della battaglia. Essi sono i bersagli prioritari e causare loro danni (o contribuire alla loro distruzione) dovrebbe essere l'obiettivo principale per ogni giocatore su un'artiglieria. La maggior parte dei pesanti e dei cacciacarri sono lenti e mastodontici, cosa che aumenta le probabilità di un colpo a segno." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 3.000 HP di danno a veicoli nemici.</req>
+        <req>• Stordisci un corazzato pesante o un cacciacarri almeno 6 volte. \n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-4: Sfondamento" short="T 55A: A-SMV-4" desc="I proiettili esplosivi più potenti non solo causano molti danni all'integrità, ma hanno anche alte possibilità di danneggiare e distruggere moduli o di ferire membri dell'equipaggio grazie al danno ad area." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Un proiettile esplosivo può mostrare la sua efficacia solo penetrando la corazza di un carro nemico ed esplodendo all'interno dello scafo. Se i tuoi proiettili hanno una penetrazione mediocre, cerca nemici con torrette dal tetto aperto o carica proiettili Premium.</Hint>
+    <PM name="A-SMV-4: Ci vediamo" short="T 55A: A-SMV-4" desc="Impara i percorsi principali dei carri armati pesanti nemici e le posizioni dove solitamente si nascondono i cacciacarri. Puntare in anticipo ad una determinata area della mappa, aumenta le possibilità di mettere a segno un colpo efficacie e di sfoderare una devastante copertura di fuoco sulle posizioni nemiche. Questi tipi di veicoli di solito seguono tattiche abbastanza prevedibili su certe mappe. Sii furbo: analizza lo schieramento nemico e guarda le posizioni più adatte già dall'inizio della battaglia." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di 8 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli danneggiati/distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
+        <req>• Stordisci un corazzato pesante o un cacciacarri per almeno un totale di 80 secondi.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-5: Calcola e oblitera" short="T 55A: A-SMV-5" desc="La grande potenza di fuoco che possiedi compensa bene la relativamente bassa durabilità della tua A-SMV." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Cerca di causare danni a veicoli nemici il prima possibile. Anche se il tuo proiettile esplosivo manca il bersaglio di poco, il veicolo potrebbe comunque aver ricevuto danni dall'esplosione.</Hint>
+    <PM name="A-SMV-5: Condividere è amare" short="T 55A: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia superando di almeno 8 volte i punti integrità del tuo veicolo.\n• I danni causati agli alleati non vengono conteggiati.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 2.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 veicoli nemici.</req>
+        <req>• Danneggia veicoli nemici almeno 6 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-6: Cala il martello" short="T 55A: A-SMV-6" desc="A volte combatterai contro veicoli di livello più alto. Tuttavia questo non è un problema per piloti esperti di A-SMV." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Se non sei in grado penetrare un veicolo nemico con un proiettili standard, prova ad usare le munizioni Premium. Spara ai lati al retro del veicolo nemico. Un'artiglieria, con la sua traiettoria di tiro curva, può eventualmente colpire la parte superiore della torretta, dove la protezione della corazza è scarsa. I veicoli nemici con le torrette aperte sono più vulnerabili ad attacchi dall'alto.</Hint>
+    <PM name="A-SMV-6: Martello degli dei" short="T 55A: A-SMV-6" desc="L'obiettivo principale di una artiglieria è di fornire fuoco di supporto ai veicoli alleati. I veicoli nemici storditi sono combattenti poco efficaci e i tuoi alleati saranno ben lieti di ricevere la tua assistenza. Nonostante ciò, stai attento a quando spari: un colpo sparato a cuor leggero potrebbe stordire anche un veicolo alleato. Il fuoco amico non sarà tollerato!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 veicoli nemici di 1 livello superiore al tuo veicolo.</req>
+        <req>• Consenti ai tuoi alleati di danneggiare almeno 5 a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-7: Grossi calibri pronti al fuoco" short="T 55A: A-SMV-7" desc="Dovresti distruggere artiglierie e cacciacarri nemici alla prima occasione. Eliminarli potrebbe cambiare le sorti della battaglia a tuo favore." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Coordina le tue azioni con i carri leggeri alleati. Avvistare artiglierie e cacciacarri nemici per poi distruggerli potrebbe aiutare ad ottenere la superiorità sul campo di battaglia.</Hint>
+    <PM name="A-SMV-7: Attenta valutazione" short="T 55A: A-SMV-7" desc="Per completare questa missione, usa un approccio selettivo per scegliere i tuoi bersagli. Non concentrare il fuoco su un solo veicolo nemico, anche se è un bersaglio facile. La migliore strategia è quella di colpire grossi gruppi di corazzati nemici con un sol colpo. Studia la mappa e impara i principali percorsi dei carri." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi in totale almeno 2 cacciacarri nemici e artiglierie nemiche.\n• Vinci la battaglia.</req>
+        <req>• Stordisci almeno 5 veicoli nemici.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 3.000 HP di danno.</req>
+        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-8: Fuoco pesante sui carri pesanti!" short="T 55A: A-SMV-8" desc="Un carro pesante è un bersaglio tosto, ma non per il tuo cannone. I proiettili con traiettoria a parabola possono colpire la parte alta del corazzato, dove la corazzatura è sottile." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>I carri pesanti sono generalmente più lenti a muoversi rispetto ad altre categorie di veicoli. Inoltre, puoi spesso prevedere dove sarà il carro quando il tuo proiettile arriverà a destinazione. Per un pilota di A-SMV è utile sapere la velocità dei propri proiettili.</Hint>
+    <PM name="A-SMV-8: Ho fatto del mio meglio" short="T 55A: A-SMV-8" desc="Ricevi esperienza per tutte le azioni che hanno avuto efficacia. Prova ad essere MVP: causa danno, aiuta a distruggere veicoli nemici e sopravvivi. Cambia la tua posizione dopo ogni colpo: altrimenti il fuoco di contrartiglieria potrebbe colpirti." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa almeno 2.000 HP di danno ai carri pesanti nemici.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruggi un carro pesante nemico.\n• Vinci la battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-9: Tiro d'anticipo" short="T 55A: A-SMV-9" desc="Un esperto pilota di A-SMV può facilmente colpire veicoli in movimento. Impara a predire efficacemente i movimenti dei veicoli nemici. Ricorda che un colpo diretto può causare molto più danno a un veicolo nemico rispetto all'esplosione di un proiettile HE." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>La velocità dei tuoi proiettili è un parametro molto importante. Sapendo quando il colpo raggiunge il bersaglio, puoi correttamente calcolare la deviazione.</Hint>
+    <PM name="A-SMV-9: Danni collaterali" short="T 55A: A-SMV-9" desc="I potenti proiettili HE non solo possono danneggiare i veicoli nemici, ma hanno anche un'elevata possibilità di distruggere moduli o ferire membri dell'equipaggio grazie all'onda d'urto." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia un veicolo nemico che si sta muovendo a una velocità di almeno 30 km/h.\n• Vengono conteggiati i danni da esplosione e da colpo diretto.\n• Non vengono conteggiati i danni da speronamento.</req>
+        <req>• Distruggi qualsiasi modulo di veicoli nemici o ferisci i loro carristi, per un totale di 8 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi alla battaglia.\n• Vinci la Battaglia.\n• Rimani non individuato per tutta la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-10: La nemesi dell'artiglieria" short="T 55A: A-SMV-10" desc="Cacciare le artiglierie è un'ottima idea. Prova a prevedere dove le A-SMV nemiche si nascondono e controlla di aver indovinato correttamente con un colpo accurato." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Più frequentemente piloti una A-SMV, più punti strategici nella mappa conoscerai. Questo ti aiuterà a combattere le A-SMV nemiche in quanto saprai dove si potranno posizionare.</Hint>
+    <PM name="A-SMV-10: Tutto incluso" short="T 55A: A-SMV-10" desc="La battaglia può cambiare velocemente: tieni sempre un occhio sulla minimappa e assicurati di avere linea visiva sui veicoli nemici. Dovrai spostarti sulla mappa tutto il tempo invece che stare in un unico punto. I tuoi alleati si affidano alla potenza della tua artiglieria, quindi fai del tuo meglio al momento e nel posto giusto." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 1 artiglieria nemica.\n• Provoca almeno 2.000 HP di danno a veicoli nemici.</req>
+        <req>• Il danno totale provocato da te e dai tuoi alleati a veicoli nemici storditi o immobilizzato da te deve essere di almeno 3.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 4 veicoli nemici.</req>
+        <req>• Vinci la battaglia.\n• Gli alleati devono distruggere almeno 2 veicolo nemico stordito o immobilizzato da te.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-11: Area d'effetto" short="T 55A: A-SMV-11" desc="I tuoi proiettili esplosivi non solo possono distruggere un veicolo nemico con un solo colpo, ma possono causare grossi danni a diversi obiettivi contemporaneamente, se abbastanza vicini." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Puoi letteralmente prendere due piccioni con una fava se più veicoli nemici si trovano vicini l'uno all'altro. Questo caso è tipico nelle mappe urbane.</Hint>
+    <PM name="A-SMV-11: Area d'effetto" short="T 55A: A-SMV-11" desc="In aggiunta al considerevole danno causato con un colpo ben piazzato, un proiettile esplosivo può anche stordire tutti i veicoli nel posto sbagliato all'interno del suo raggio di esplosione. Molte mappe hanno punti in cui i veicoli nemici dovranno stare vicini. Prendi al volo l'opportunità di mandare saluti \&quot;altamente esplosivi\&quot;." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi un veicolo nemico e danneggia almeno 1 veicolo con un solo colpo.</req>
+        <req>• Stordisci almeno 3 veicoli nemici con un colpo singolo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 150 secondi.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-12: L'attaccante" short="T 55A: A-SMV-12" desc="Lo stile di gioco in una A-SMV è totalmente differente da tutti gli altri tipi di veicoli. Tuttavia l'obiettivo principale è lo stesso: fai del tuo meglio in battaglia e contribuisci il più possibile alla causa della tua squadra." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Non passare alla modalità Artiglieria subito all'inizio della battaglia. Prima decidi un punto strategico in cui posizionarti.</Hint>
+    <PM name="A-SMV-12: Il malocchio" short="T 55A: A-SMV-12" desc="I tuoi alleati hanno distrutto il veicolo nemico stordito? È ottimo per te, dato che è stato il tuo contributo a rendere la vittoria più vicina! Il tuo obiettivo è di fornire fuoco di supporto e di assistere i tuoi alleati nel posto e nel momento giusto." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Termina la battaglia al primo posto fra i giocatori della tua squadra, in ordine di danno causato.\n• Distruggi almeno 3 veicoli nemici.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 150 secondi.\n• Gli alleati devono distruggere almeno 2 veicolo nemico stordito o immobilizzato da te.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-13: Batteria di artiglieria (Personale/Plotone)" short="T 55A: A-SMV-13" desc="Un Plotone ben coordinato di A-SMV può far estremamente paura alla squadra nemica. Coordina le vostre azioni e concentrate il fuoco su un obiettivo nemico per volta. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Dividendosi, il tuo Plotone può colpire bersagli da angoli differenti, rendendo molte rocce ed edifici inutili coperture e dominando la mappa.</Hint>
+    <PM name="A-SMV-13: C come cooperazione" short="T 55A: A-SMV-13" desc="Una buona coordinazione tra le A-SMV e i gli altri veicoli alleati può essere terrificante per la squadra nemica. Coordina le tue azioni e concentra il fuoco su un obiettivo nemico alla volta." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno il 25% del danno totale causato ai veicoli nemici dalla tua squadra, sia personalmente sia come totale complessivo del tuo Plotone.\n• Vinci la battaglia.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Danneggia veicoli nemici almeno 8 volte oppure stordiscili 10 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-14: Assalto compatto (Personale/Plotone)" short="T 55A: A-SMV-14" desc="L'artiglieria dipende dal resto della squadra per essere utile. Artiglieria e corazzati leggeri sono complementari, in special modo se sono in Plotone. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Un corazzato leggero può avvistare veicoli nemici e immobilizzarli. Le artiglierie faranno il resto in breve tempo. Insieme vinceremo! Un corazzato pesante ti farà da scudo con la sua spessa corazza, un corazzato medio distrarrà il nemico e intanto un cacciacarri farà fuoco di supporto da lunga distanza.</Hint>
+    <PM name="A-SMV-14: Parte dell'equipaggio, parte della nave!" short="T 55A: A-SMV-14" desc="Cooperare è la chiave per la vittoria dell'intera squadra. Indica ai tuoi alleati i veicoli nemici a cui stai mirando, assicurandoti che gli sparino appena verranno storditi o immobilizzati. Ricorda: un soldato solitario difficilmente riuscirà a fare la differenza in battaglia." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 4.000 HP di danno a corazzati pesanti e cacciacarri nemici sia personalmente sia come totale complessivo del tuo Plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 180 secondi oppure consenti ai tuoi alleati di provocare almeno 800 HP di danno a veicoli nemici immobilizzandoli.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-15: Dei della guerra" short="T 55A: A-SMV-15" desc="È molto meglio per la squadra se le A-SMV sopravvivono. Prova a non esporti al fuoco nemico e spara colpi precisi al nemico." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
-      <Hint>Se conosci le caratteristiche tecniche della tua A-SMV, puoi pianificare le tue azioni in battaglia. A volte rimanere in base non è una buona idea. Se stai guidando una A-SMV veloce, puoi rapidamente cambiare posizione e ingaggiare il nemico da direzioni inaspettate.</Hint>
+    <PM name="A-SMV-15: Dei della guerra" short="T 55A: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati al primo posto per esperienza guadagnata e danni provocati.\n• Provoca almeno 3.000 HP di danno a veicoli nemici.</req>
+        <req>• Posizionati al primo posto per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 2.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -3759,7 +3771,7 @@
         <req>• Incendia un veicolo nemico del tuo stesso livello o superiore.\n• Provoca almeno 3.000 HP di danno a veicoli nemici.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Posizionati fra i primi 3 giocatori della tua squadra in ordine di esperienza guadagnata.</req>
+        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.</req>
       </Secondary>
     </PM>
     <PM name="M-13: Atteggiamento attivo (Personale/Plotone)" short="Object 260: M-13" desc="Un Plotone di carri medi può risultare di grande aiuto alla squadra sull'intero campo di battaglia. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
@@ -3924,136 +3936,136 @@
         <req>• Distruggi almeno 5 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-1: Tiratore scelto" short="Object 260: A-SMV-1" desc="Non sprecare munizioni. Sono i colpi precisi che ti porteranno alla vittoria." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Sii paziente e aspetta finché il puntamento non è completo.</Hint>
+    <PM name="A-SMV-1: Un'affermazione audace" short="Object 260: A-SMV-1" desc="L'ampio raggio di esplosione è una delle caratteristiche principali di un'artiglieria. Anche se non sei riuscito a mettere a segno un colpo diretto sul veicolo nemico bersagliato, è comunque possibile averlo messo in serio pericolo a causa dello stordimento. Il veicolo nemico viene così evidenziato dall'indicatore dello stordimento, visibile ai tuoi alleati. Se gli alleati causano danni ai veicoli che stordisci, riceverai crediti ed esperienza aggiuntivi per il danno causato con la tua assistenza." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 6 colpi che causano danni a veicoli nemici.</req>
+        <req>• Stordisci veicoli nemici almeno 10 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 4.000 HP di danno.</req>
+        <req>• Danneggia veicoli nemici almeno 8 volte sparandogli o speronandoli.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-2: Nascosto e pericoloso" short="Object 260: A-SMV-2" desc="Le A-SMV non possono fare affidamento sullo spessore della corazza o sulla velocità. Se guidi una A-SMV, impara a rimanere nascosto durante tutta la battaglia." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>La Rete mimetica combinata con l'abilità Mimetizzazione potrà aiutarti a non venire avvistato.</Hint>
+    <PM name="A-SMV-2: Il tempo è denaro" short="Object 260: A-SMV-2" desc="Un veicolo nemico che rimane stordito per un certo periodo di tempo non può dare il massimo sul campo di battaglia. Ricorda: un veicolo stordito diventa un bersaglio facile." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Posizionati tra i primi 3 della tua squadra per danno causato. Non devi essere avvistato durante l'intera battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 200 secondi.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 veicoli nemici.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-3: Colpo d'obice" short="Object 260: A-SMV-3" desc="Se vuoi guidare la tua squadra, devi prima imparare come sparare in modo efficace." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Segui attentamente il corso della battaglia e supporta la tua squadra. Non restare nello stesso posto troppo a lungo. Ritirati o cerca un altro punto da cui fare fuoco se necessario.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 4.000 HP di danno a veicoli nemici.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-4: Sfondamento" short="Object 260: A-SMV-4" desc="I proiettili esplosivi più potenti non solo causano molti danni all'integrità, ma hanno anche alte possibilità di danneggiare e distruggere moduli o di ferire membri dell'equipaggio grazie al danno ad area." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Un proiettile esplosivo può mostrare la sua efficacia solo penetrando la corazza di un carro nemico ed esplodendo all'interno dello scafo. Se i tuoi proiettili hanno una penetrazione mediocre, cerca nemici con torrette dal tetto aperto o carica proiettili Premium.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Danneggia o distruggi i moduli di veicoli nemici o ferisci i loro carristi, per un totale di 10 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli danneggiati/distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
-      </Secondary>
-    </PM>
-    <PM name="A-SMV-5: Calcola e oblitera" short="Object 260: A-SMV-5" desc="La grande potenza di fuoco che possiedi compensa bene la relativamente bassa durabilità della tua A-SMV." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Cerca di causare danni a veicoli nemici il prima possibile. Anche se il tuo proiettile esplosivo manca il bersaglio di poco, il veicolo potrebbe comunque aver ricevuto danni dall'esplosione.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Danneggia superando di almeno 10 volte i punti integrità del tuo veicolo.\n• I danni causati agli alleati non vengono conteggiati.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Distruggi almeno 4 veicoli nemici.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-6: Cala il martello" short="Object 260: A-SMV-6" desc="A volte combatterai contro veicoli di livello più alto. Tuttavia questo non è un problema per piloti esperti di A-SMV." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Se non sei in grado penetrare un veicolo nemico con un proiettili standard, prova ad usare le munizioni Premium. Spara ai lati al retro del veicolo nemico. Un'artiglieria, con la sua traiettoria di tiro curva, può eventualmente colpire la parte superiore della torretta, dove la protezione della corazza è scarsa. I veicoli nemici con le torrette aperte sono più vulnerabili ad attacchi dall'alto.</Hint>
+    <PM name="A-SMV-3: Il lento e inesorabile viene stordito" short="Object 260: A-SMV-3" desc="I cacciacarri nemici, nascosti e potenti, insieme ai carri armati pesanti ben corazzati, possono cambiare le sorti della battaglia. Essi sono i bersagli prioritari e causare loro danni (o contribuire alla loro distruzione) dovrebbe essere l'obiettivo principale per ogni giocatore su un'artiglieria. La maggior parte dei pesanti e dei cacciacarri sono lenti e mastodontici, cosa che aumenta le probabilità di un colpo a segno." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Stordisci un corazzato pesante o un cacciacarri almeno 8 volte. \n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-4: Ci vediamo" short="Object 260: A-SMV-4" desc="Impara i percorsi principali dei carri armati pesanti nemici e le posizioni dove solitamente si nascondono i cacciacarri. Puntare in anticipo ad una determinata area della mappa, aumenta le possibilità di mettere a segno un colpo efficacie e di sfoderare una devastante copertura di fuoco sulle posizioni nemiche. Questi tipi di veicoli di solito seguono tattiche abbastanza prevedibili su certe mappe. Sii furbo: analizza lo schieramento nemico e guarda le posizioni più adatte già dall'inizio della battaglia." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Stordisci un corazzato pesante o un cacciacarri per almeno un totale di 120 secondi.\n• Il colpo che causa lo stordimento deve provocare anche danni.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-5: Condividere è amare" short="Object 260: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 veicoli nemici di 2 livelli superiori al tuo veicolo.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 3.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Danneggia veicoli nemici almeno 8 volte sparandogli o speronandoli.</req>
+      </Secondary>
+    </PM>
+    <PM name="A-SMV-6: Martello degli dei" short="Object 260: A-SMV-6" desc="L'obiettivo principale di una artiglieria è di fornire fuoco di supporto ai veicoli alleati. I veicoli nemici storditi sono combattenti poco efficaci e i tuoi alleati saranno ben lieti di ricevere la tua assistenza. Nonostante ciò, stai attento a quando spari: un colpo sparato a cuor leggero potrebbe stordire anche un veicolo alleato. Il fuoco amico non sarà tollerato!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Consenti ai tuoi alleati di danneggiare almeno 6 a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-7: Grossi calibri pronti al fuoco" short="Object 260: A-SMV-7" desc="Dovresti distruggere artiglierie e cacciacarri nemici alla prima occasione. Eliminarli potrebbe cambiare le sorti della battaglia a tuo favore." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Coordina le tue azioni con i carri leggeri alleati. Avvistare artiglierie e cacciacarri nemici per poi distruggerli potrebbe aiutare ad ottenere la superiorità sul campo di battaglia.</Hint>
+    <PM name="A-SMV-7: Attenta valutazione" short="Object 260: A-SMV-7" desc="Per completare questa missione, usa un approccio selettivo per scegliere i tuoi bersagli. Non concentrare il fuoco su un solo veicolo nemico, anche se è un bersaglio facile. La migliore strategia è quella di colpire grossi gruppi di corazzati nemici con un sol colpo. Studia la mappa e impara i principali percorsi dei carri." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 3 cacciacarri nemici e artiglieria nemiche.\n• Vinci la battaglia.</req>
+        <req>• Stordisci almeno 6 veicoli nemici.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 4.000 HP di danno.</req>
+        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-8: Fuoco pesante sui carri pesanti!" short="Object 260: A-SMV-8" desc="Un carro pesante è un bersaglio tosto, ma non per il tuo cannone. I proiettili con traiettoria a parabola possono colpire la parte alta del corazzato, dove la corazzatura è sottile." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>I carri pesanti sono generalmente più lenti a muoversi rispetto ad altre categorie di veicoli. Inoltre, puoi spesso prevedere dove sarà il carro quando il tuo proiettile arriverà a destinazione. Per un pilota di A-SMV è utile sapere la velocità dei propri proiettili.</Hint>
+    <PM name="A-SMV-8: Ho fatto del mio meglio" short="Object 260: A-SMV-8" desc="Ricevi esperienza per tutte le azioni che hanno avuto efficacia. Prova ad essere MVP: causa danno, aiuta a distruggere veicoli nemici e sopravvivi. Cambia la tua posizione dopo ogni colpo: altrimenti il fuoco di contrartiglieria potrebbe colpirti." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa almeno 3.000 HP di danno a carri pesanti nemici.</req>
+        <req>• Posizionati al primo posto per esperienza guadagnata nella tua squadra.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 corazzati pesanti nemici.\n• Vinci la battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-9: Tiro d'anticipo" short="Object 260: A-SMV-9" desc="Un esperto pilota di A-SMV può facilmente colpire veicoli in movimento. Impara a predire efficacemente i movimenti dei veicoli nemici. Ricorda che un colpo diretto può causare molto più danno a un veicolo nemico rispetto all'esplosione di un proiettile HE." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>La velocità dei tuoi proiettili è un parametro molto importante. Sapendo quando il colpo raggiunge il bersaglio, puoi correttamente calcolare la deviazione.</Hint>
+    <PM name="A-SMV-9: Danni collaterali" short="Object 260: A-SMV-9" desc="I potenti proiettili HE non solo possono danneggiare i veicoli nemici, ma hanno anche un'elevata possibilità di distruggere moduli o ferire membri dell'equipaggio grazie all'onda d'urto." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Metti a segno almeno 4 colpi diretti su un veicolo nemico.\n• Vengono considerati tutti i colpi diretti, che abbiano causato danno o meno.</req>
+        <req>• Distruggi qualsiasi modulo di veicoli nemici o ferisci i loro carristi, per un totale di 10 moduli e membri dell'equipaggio.\n• Nel corso della battaglia, il numero di moduli distrutti e di carristi feriti di diversi veicoli nemici vengono sommati.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Sopravvivi alla battaglia.\n• Vinci la Battaglia.\n• Rimani non individuato per tutta la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-10: La nemesi dell'artiglieria" short="Object 260: A-SMV-10" desc="Cacciare le artiglierie è un'ottima idea. Prova a prevedere dove le A-SMV nemiche si nascondono e controlla di aver indovinato correttamente con un colpo accurato." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Più frequentemente piloti una A-SMV, più punti strategici nella mappa conoscerai. Questo ti aiuterà a combattere le A-SMV nemiche in quanto saprai dove si potranno posizionare.</Hint>
+    <PM name="A-SMV-10: Tutto incluso" short="Object 260: A-SMV-10" desc="La battaglia può cambiare velocemente: tieni sempre un occhio sulla minimappa e assicurati di avere linea visiva sui veicoli nemici. Dovrai spostarti sulla mappa tutto il tempo invece che stare in un unico punto. I tuoi alleati si affidano alla potenza della tua artiglieria, quindi fai del tuo meglio al momento e nel posto giusto." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 artiglierie nemiche.\n• Provoca almeno 4.000 HP di danno a veicoli nemici.</req>
+        <req>• Il danno totale provocato da te e dai tuoi alleati a veicoli nemici storditi o immobilizzato da te deve essere di almeno 4.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 5 veicoli nemici.</req>
+        <req>• Vinci la battaglia.\n• Gli alleati devono distruggere almeno 3 veicolo nemico stordito o immobilizzato da te.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-11: Area d'effetto" short="Object 260: A-SMV-11" desc="I tuoi proiettili esplosivi non solo possono distruggere un veicolo nemico con un solo colpo, ma possono causare grossi danni a diversi obiettivi contemporaneamente, se abbastanza vicini." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Puoi letteralmente prendere due piccioni con una fava se più veicoli nemici si trovano vicini l'uno all'altro. Questo caso è tipico nelle mappe urbane.</Hint>
+    <PM name="A-SMV-11: Area d'effetto" short="Object 260: A-SMV-11" desc="In aggiunta al considerevole danno causato con un colpo ben piazzato, un proiettile esplosivo può anche stordire tutti i veicoli nel posto sbagliato all'interno del suo raggio di esplosione. Molte mappe hanno punti in cui i veicoli nemici dovranno stare vicini. Prendi al volo l'opportunità di mandare saluti \&quot;altamente esplosivi\&quot;." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruggi almeno 2 veicoli nemici con un solo colpo.</req>
+        <req>• Stordisci almeno 3 veicoli nemici con un colpo singolo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vinci la battaglia.\n• Sopravvivi alla battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 200 secondi.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-12: L'attaccante" short="Object 260: A-SMV-12" desc="Lo stile di gioco in una A-SMV è totalmente differente da tutti gli altri tipi di veicoli. Tuttavia l'obiettivo principale è lo stesso: fai del tuo meglio in battaglia e contribuisci il più possibile alla causa della tua squadra." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Non passare alla modalità Artiglieria subito all'inizio della battaglia. Prima decidi un punto strategico in cui posizionarti.</Hint>
+    <PM name="A-SMV-12: Il malocchio" short="Object 260: A-SMV-12" desc="I tuoi alleati hanno distrutto il veicolo nemico stordito? È ottimo per te, dato che è stato il tuo contributo a rendere la vittoria più vicina! Il tuo obiettivo è di fornire fuoco di supporto e di assistere i tuoi alleati nel posto e nel momento giusto." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finisci la battaglia come miglior giocatore di entrambe le squadre per danni causati.\n• Distruggi almeno 4 veicoli nemici.\n• Sopravvivi alla battaglia.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 200 secondi.\n• Gli alleati devono distruggere almeno 3 veicolo nemico stordito o immobilizzato da te.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-13: Batteria di artiglieria (Personale/Plotone)" short="Object 260: A-SMV-13" desc="Un Plotone ben coordinato di A-SMV può far estremamente paura alla squadra nemica. Coordina le vostre azioni e concentrate il fuoco su un obiettivo nemico per volta. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Dividendosi, il tuo Plotone può colpire bersagli da angoli differenti, rendendo molte rocce ed edifici inutili coperture e dominando la mappa.</Hint>
+    <PM name="A-SMV-13: C come cooperazione" short="Object 260: A-SMV-13" desc="Una buona coordinazione tra le A-SMV e i gli altri veicoli alleati può essere terrificante per la squadra nemica. Coordina le tue azioni e concentra il fuoco su un obiettivo nemico alla volta." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno il 30% del danno totale causato ai veicoli nemici dalla tua squadra, sia personalmente sia come totale complessivo del tuo Plotone.\n• Vinci la battaglia.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Danneggia veicoli nemici almeno 10 volte oppure stordiscili 12 volte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-14: Assalto compatto (Personale/Plotone)" short="Object 260: A-SMV-14" desc="L'artiglieria dipende dal resto della squadra per essere utile. Artiglieria e corazzati leggeri sono complementari, in special modo se sono in Plotone. Questa missione può essere completata sia come parte di un Plotone che da soli, anche se nel secondo modo è molto più difficile." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Un corazzato leggero può avvistare veicoli nemici e immobilizzarli. Le artiglierie faranno il resto in breve tempo. Insieme vinceremo! Un corazzato pesante ti farà da scudo con la sua spessa corazza, un corazzato medio distrarrà il nemico e intanto un cacciacarri farà fuoco di supporto da lunga distanza.</Hint>
+    <PM name="A-SMV-14: Parte dell'equipaggio, parte della nave!" short="Object 260: A-SMV-14" desc="Cooperare è la chiave per la vittoria dell'intera squadra. Indica ai tuoi alleati i veicoli nemici a cui stai mirando, assicurandoti che gli sparino appena verranno storditi o immobilizzati. Ricorda: un soldato solitario difficilmente riuscirà a fare la differenza in battaglia." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoca almeno 5.000 HP di danno a corazzati pesanti e cacciacarri nemici sia personalmente sia come totale complessivo del tuo Plotone.\n• Può essere completata sia personalmente sia come membro di un Plotone, composto dalla tua artiglieria e qualsiasi altro veicolo.</req>
+        <req>• Stordisci veicoli nemici per un totale di almeno 250 secondi oppure consenti ai tuoi alleati di provocare almeno 1.000 HP di danno a veicoli nemici immobilizzandoli.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sopravvivi personalmente alla battaglia.</req>
+        <req>• Vinci la battaglia.</req>
       </Secondary>
     </PM>
-    <PM name="A-SMV-15: Dei della guerra" short="Object 260: A-SMV-15" desc="È molto meglio per la squadra se le A-SMV sopravvivono. Prova a non esporti al fuoco nemico e spara colpi precisi al nemico." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
-      <Hint>Se conosci le caratteristiche tecniche della tua A-SMV, puoi pianificare le tue azioni in battaglia. A volte rimanere in base non è una buona idea. Se stai guidando una A-SMV veloce, puoi rapidamente cambiare posizione e ingaggiare il nemico da direzioni inaspettate.</Hint>
+    <PM name="A-SMV-15: Dei della guerra" short="Object 260: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finisci la battaglia come miglior giocatore di entrambe le squadre in ordine di esperienza ottenuta e danni causati.\n• Provoca almeno 3.000 HP di danno.</req>
+        <req>• Finisci la battaglia come miglior giocatore di entrambe le squadre in ordine di esperienza ottenuta\n• Consenti ai tuoi alleati di provocare almeno 3.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>

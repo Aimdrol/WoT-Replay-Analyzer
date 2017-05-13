@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Orașul fantomă" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="The Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Necunoscut" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Luptă specială" />
     <item ID="5" Name="Luptă specială" />
     <item ID="6" Name="Curs de luptă" />
-    <item ID="7" Name="Echipă: lupte fără clasament" />
+    <item ID="7" Name="Luptă pe echipe" />
     <item ID="8" Name="Luptă istorică" />
     <item ID="9" Name="Mod de luptă special" />
     <item ID="10" Name="Raiduri" />
@@ -1443,10 +1455,10 @@
     <PM name="LT-10: Rezultat maxim" short="StuG IV: LT-10" desc="Cu cât mai eficient eşti în luptă, cu atât mai multă experienţă vei primi. Arată-le de ce e capabil un tanc uşor!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
       <Hint>Un bun cercetaş ştie când să fie grijuliu şi când să fie agresiv. Fii atent la cursul luptei.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Clasează-te între primii 3, ca experienţă câştigată, din echipa ta.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-11: O luptă dreaptă" short="StuG IV: LT-11" desc="Cu cât mai mare e generaţia tancului tău uşor, cu atât mai multă putere de foc vei avea, pe lângă viteza, raza vizuală şi dificultatea de a fi detectat." tMID="11" opID="1" mID="11" setID="1" ID="quest_1_1_11_main" secID="quest_1_1_11_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1572,7 +1584,7 @@
         <req>• Distruge un vehicul inamic prin coliziune.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="HT-10: Un argument cu greutate" short="StuG IV: HT-10" desc="Ţine-ţi tunul activ şi menţine-te în viaţă cât mai mult posibil." tMID="25" opID="1" mID="10" setID="2" ID="quest_1_2_10_main" secID="quest_1_2_10_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1599,7 +1611,7 @@
         <req>• Blochează cu armura daune totalizând sau mai mari decât HP-ul vehiculului tău.\n• Produ daune de cel puţin 1000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-13: Străpunge apărarea! (personal/pluton)" short="StuG IV: HT-13" desc="Un pluton de tancuri grele bine coordonat poate întoarce soarta oricăi lupte. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="28" opID="1" mID="13" setID="2" ID="quest_1_2_13_main" secID="quest_1_2_13_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1626,7 +1638,7 @@
         <req>• Daunele totale provocate, daunele primite și daunele absorbite de blindaj trebuie să fie de cel puțin 6.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-1: Primii paşi" short="StuG IV: MT-1" desc="La nivelele inferioare, tancul tău mediu poate neutraliza cu uşurinţă orice alt tip de vehicul." tMID="31" opID="1" mID="1" setID="3" ID="quest_1_3_1_main" secID="quest_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1725,7 +1737,7 @@
         <req>• Provoacă daune unui vehicul inamic prin coliziune.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-12: Piromanul" short="StuG IV: MT-12" desc="Dând foc unui vehicul inamic este una dintre cele mai eficiente moduri de a-l distruge." tMID="42" opID="1" mID="12" setID="3" ID="quest_1_3_12_main" secID="quest_1_3_12_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1734,7 +1746,7 @@
         <req>• Dă foc unui vehicul inamic.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Fii între primii 5 jucători din echipa ta ca experienţă câştigată.</req>
+        <req>• Clasează-te între primii 5 jucători din echipa ta la experiență câștigată.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Acţiune activă (personal/pluton)" short="StuG IV: MT-13" desc="Un Pluton de tancuri medii poate fi de mare ajutor echipei oriunde pe câmpul de luptă. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1770,7 +1782,7 @@
         <req>• Clasează-te între primii 7 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-2: Foc Precis" short="StuG IV: TD-2" desc="Dacă nimereşti modulele vehiculului inamic sau îi răneşti echipajul, vei reduce eficienţa de luptă a inamicului." tMID="47" opID="1" mID="2" setID="4" ID="quest_1_4_2_main" secID="quest_1_4_2_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1824,7 +1836,7 @@
         <req>• Distruge un vehicul inamic înainte ca vehiculul tău să fi suferit daune.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-8: Calibru imens" short="StuG IV: TD-8" desc="Fiecare conducător de antitancuri ar trebui să ştie cum să provoace mai multe daune tancurilor inamice decât punctele integritate ale vehiculului propriu." tMID="53" opID="1" mID="8" setID="4" ID="quest_1_4_8_main" secID="quest_1_4_8_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1833,7 +1845,7 @@
         <req>• Provoacă de cel puţin două ori mai multe daune vehiculelor inamice decât punctele de integritate ale vehiculului tău.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-9: Exact la țintă!" short="StuG IV: TD-9" desc="Performanțele excelente ale tunului tău compensează pentru protecția relativ redusă a blindajului vehiculului tău." tMID="54" opID="1" mID="9" setID="4" ID="quest_1_4_9_main" secID="quest_1_4_9_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1851,7 +1863,7 @@
         <req>• Provoacă daune de minim 1000 HP vehiculelor inamice. Rămâi nedescoperit atunci când daunele sunt produse.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-11: Rol cheie" short="StuG IV: TD-11" desc="Tunul tău puternic este o forță de temut. Desigur, dacă știi să îl folosești." tMID="56" opID="1" mID="11" setID="4" ID="quest_1_4_11_main" secID="quest_1_4_11_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1869,7 +1881,7 @@
         <req>• Distruge un tanc greu inamic.\n• Produ daune de cel puţin 1000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-13: Vânători de tancuri (personal/pluton)" short="StuG IV: TD-13" desc="Ca pluton, puteți concentra focul și elimina rapid tancurile inamice. Această misiune poate fi finalizată fie ca partea a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="58" opID="1" mID="13" setID="4" ID="quest_1_4_13_main" secID="quest_1_4_13_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
@@ -1899,136 +1911,136 @@
         <req>• Distruge un vehicul inamic.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Țintașul de elită" short="StuG IV: SPG-1" desc="Nu risipi muniţia. Loviturile precise sunt cele care aduc victoria." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Ai răbdare şi aşteaptă până ce ai ochit complet ţinta.</Hint>
+    <PM name="SPG-1: Pretenții mari" short="StuG IV: SPG-1" desc="Raza mare a exploziei, după impactul obuzului, este o trăsătură principală a vehiculelor de artilerie. Chiar dacă nu ai reușit o lovitură directă asupra vehiculului inamic țintă, ai șanse să provoci probleme serioase, prin efectul de șoc. Vehiculul inamic este marcat cu un indicator de șoc, care va fi vizibil aliaților. Dacă aliații provoacă daune la vehiculului căruia i-ai provocat șocul, vei primi credite și experiență adiționale, pentru daune provocate cu asistența ta." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nimerește cel puțin 3 lovituri care să provoace daune vehiculelor inamice.</req>
+        <req>• Provoacă șoc vehiculelor inamice de cel puțin 3 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de minim 1.000 HP.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 3 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Ascuns şi periculos" short="StuG IV: SPG-2" desc="Artileria nu se poate baza pe grosimea blindajului sau pe viteză. Dacă joci cu artileria, învaţă să rămâi nedetectat toată lupta." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Plasa de camuflaj, combinată va ascunde mult mai bine vehiculul combinată cu vopseau de camuflaj când este montată pe artilerie.</Hint>
+    <PM name="SPG-2: Timpul înseamnă bani" short="StuG IV: SPG-2" desc="Un vehicul inamic rămâne în stare de șoc pentru o perioadă anume de timp și nu va mai performa la maxim în luptă. Ține minte: un vehicul în stare de șoc este o țintă ușoară." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 500 HP vehiculelor inamice. Rămâi nedetectat pe parcursul luptei.\n• Supraviețuiește luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 50 de secunde în total.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Distruge un vehicul inamic.</req>
+        <req>• Distruge cel puțin un vehicul inamic.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Lovitură de Howitzer" short="StuG IV: SPG-3" desc="Dacă vrei să devii valoros pentru echipă, mai întâi trebuie să înveţi cum să tragi bine." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Urmăreşte atent cursul luptei şi ajută-ţi echipa. Nu sta prea mult într-un singur loc. Retrage-te sau caută un alt loc strategic dacă este necesar.</Hint>
+    <PM name="SPG-3: Încet și sigur vei fi șocat" short="StuG IV: SPG-3" desc="Ascunse și puternice, antitancurile inamice, împreună cu tancurile grele inamice, cu blindajul lor solid, pot să întoarcă soarta unei lupte. Acestea sunt țintă de primă prioritate și provocarea de daune la ele (sau asistarea în distrugerea lor) ar trebui să fie primul obiectiv pentru un jucător într-o artilerie. Majoritatea tancurilor grele și a antitancurilor sunt încete și greoaie, ceea ce sporește șansele unei lovituri reușite." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de minim 1000 HP vehiculelor inamice..</req>
+        <req>• Provoacă șoc unui tanc greu sau unui antitanc inamic de cel puțin 2 ori.\n• Loviturile cauzatoare de șoc trebuie să producă și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Sparge-le capul" short="StuG IV: SPG-4" desc="Obuzele HE puternice nu numai că vor provoca daune inamicului, dar au șanse mari să avarieze sau să distrugă module sau să rănească membri de echipaj cu schijele exploziei." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Un obuz exploziv HE își arată întregul potențial doar când penetrează complet blindajul și explodează în interiorul șasiului unui vehicul inamic. Dacă obuzele tale au o penetrare mediocră, încearcă să tragi după vehicule cu cabina deschisă sau încarcă un obuz premium.</Hint>
+    <PM name="SPG-4: Te acopăr eu" short="StuG IV: SPG-4" desc="Învață rutele principale ale tancurilor grele inamice și pozițiile unde se ascund de obicei viclenele antitancuri. Ochirea din timp într-o anumită zonă a hărții sporește șansele de a lovi pozițiile inamice cu eficiență și efecte devastatoare. Aceste tipuri de vehicule de obicei urmează rute predictibile pe anumite hărți. Fii inteligent: analizează alcătuirea echipei inamice și alege cea mai bună poziție de la începutul luptei." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Avariază sau distruge module sau răneşte membri ai echipajului tancurilor inamice, totalizând cel puţin 3 module şi membri de echipaj.\n• Se însumează numărul modulelor avariate/distruse şi membri răniţi ai tuturor vehiculelor lovite în cursul luptei.</req>
+        <req>• Provoacă șoc unui tanc greu sau unui antitanc inamic pentru cel puțin 30 de secunde în total.\n• Lovitura cauzatoare de șoc trebuie să producă și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculează şi distruge" short="StuG IV: SPG-5" desc="Marea putere de foc pe care o posezi compensează fragilitatea relativă a artileriei tale." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Încearcă să provoci daune vehiculelor inamice cu prima ocazie. Chiar dacă obuzul tău HE ratează inamicul de aproape, vehiculul lor poate fi totuși avariat de schijele obuzului.</Hint>
+    <PM name="SPG-5: Împarte generos" short="StuG IV: SPG-5" desc="Provocarea șocurilor la vehiculele inamice nu doar că îți aduce echipa un pas mai aproape spre victorie, dar îți garantează și faptul că vei primi experiență și credite adiționale, dacă aliații tăi produc daune vehiculelor la care ai produs șoc. Nu uita să marchezi zona în care vei trage (cu tasta implicită T) pentru a notifica și a atrage atenția aliaților tăi." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puţin 4 ori mai mari decât punctele de integritate ale vehiculului tău.\n• Daunele provocate aliaţilor nu sunt luate în considerare.</req>
+        <req>• Ajută-ți aliații să provoace daune de cel puțin 600 puncte vehiculelor inamice, fie prin provocarea unui șoc, fie prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruge un vehicul inamic.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 3 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Ciocanul care lovește" short="StuG IV: SPG-6" desc="Deseori vei lupta împotriva vehiculelor de generație mai mare. Dar asta nu este o problemă pentru un artilerist experimentat." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Dacă nu poți penetra un vehicul inamic cu obuze standard, încearcă să folosești obuze Premium. Trage în laterale și în spatele vehicului inamic. SPG-urile, cu traiectoria obuzului sub formă de arc, pot lovi eficient orice vehicul în partea de sus a turelei, unde protecția blindajului este slabă. Vehiculele inamice cu turela deschisă sunt chiar și mai vulnerabile la distrugere.</Hint>
+    <PM name="SPG-6: Ciocanul zeilor" short="StuG IV: SPG-6" desc="Obiectivul principal al unei artilerii este de a oferi foc de sprijin vehiculelor aliate. Vehiculele inamice în stare de șoc au capacitatea de luptă redusă, așa că colegii tăi de echipă vor aprecia în mod sigur ajutorul tău. Totuși, fii atent când tragi: o lovitură neglijentă poate produce șoc și unui vehicul aliat. Focul asupra aliaților nu va fi tolerat!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge minim 2 vehicule inamice de aceeași generație sau mai mare decât vehiculul tău.</req>
+        <req>• Ajută-ți aliații să provoace daune la cel puțin 2 vehicule inamice, fie prin provocarea unui șoc, fie prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Hai cu tunurile mari" short="StuG IV: SPG-7" desc="Ar trebui să distrugi antitancurile şi artileriile inamice cu prima ocazie. Eliminarea lor poate schimba sorţii luptei în avantajul tău." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Coordonează-ţi acţiunile cu tancurile uşoare aliate. Descoperind şi distrugând antitancurile şi artileriile inamice poate ajuta la obţinerea superiorităţii pe câmpul de luptă.</Hint>
+    <PM name="SPG-7: Cu mare atenție" short="StuG IV: SPG-7" desc="Pentru a finaliza această misiune, folosește o abordare selectivă când îți alegi țintele. Nu concentra tirul asupra unui singur vehicul inamic, chiar dacă este o țintă ușoară. Cea mai bună strategie este să lovești grupuri de vehicule inamice dintr-o singură lovitură. Studiază hărțile și învață rutele de bază ale vehiculelor." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge un antitanc sau artilerie inamice.</req>
+        <req>• Provoacă șoc la cel puțin 2 vehicule inamice.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de minim 1.000 HP.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Foc greu pe tancuri grele!" short="StuG IV: SPG-8" desc="Un tanc greu e o ţintă dificilă, dar nu pentru tunul tău. Proiectilele cu traiectorie arcuită pot lovi orice vehicul în partea de sus a turelei, unde armura e subţire." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Tancurile grele se mişcă de obicei mai greu decât alte tipuri de vehicule. Astfel, poţi prezice unde se va afla tancul atunci când proiectilul tău loveşte. Ca jucător de artilerie, e bine să cunoşti viteza proiectilelor proprii.</Hint>
+    <PM name="SPG-8: Tot ce am putut" short="StuG IV: SPG-8" desc="Primești experiență pentru toate acțiunile eficiente. Încearcă să fii cel mai bun: provoacă daune, ajută la distrugerea vehiculelor inamice și supraviețuiește luptei. Schimbă poziția după fiecare tragere; altfel artileriile inamice te vor contra și îți pot distruge vehiculul." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 1000 HP tancurilor grele inamice.</req>
+        <req>• Clasează-te între primii 7 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruge un tanc greu inamic.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Trage la întâlnire până îi nimereşti" short="StuG IV: SPG-9" desc="Un jucător de artilerie experimentat poate lovi cu uşurinţă vehicule în mişcare. Învaţă să estimezi mişcările vehiculelor inamice când tragi. Aminteşte-ţi că o lovitură directă va provoca mai multe daune unui vehicul inamic decât o împroşcare HE." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Viteza proiectilului este un parametru foarte important. Dacă şti când ajunge la ţintă, poţi să calculezi corect avansul.</Hint>
+    <PM name="SPG-9: Victime colaterale" short="StuG IV: SPG-9" desc="Obuzele puternice HE nu doar reduc punctele de viață ale vehiculelor inamice, dar au și o șansă mare de a distruge module sau de a răni membrii de echipaj prin daunele provocate de explozie." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Avariază un vehicul inamic care se mișcă cu o viteză de cel puțin 20 de km/h.\n• Se contorizează atât daunele provocate direct, cât şi cele prin împroşcare.\n• Daunele provocate prin impact nu sunt considerate.</req>
+        <req>• Distruge orice modul de pe vehiculele inamice sau rănește membri ai echipajului lor, totalizând cel puțin 3 module sau membrii de echipaj.\n• Numărul de module distruse și membrii de echipaj răniți este însumat de la toate vehiculele inamice pe care le-ai avariat în luptă.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Supravieţuieşte luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Blestemul artileriei" short="StuG IV: SPG-10" desc="Vânarea artileriei este o idee bună. Încearcă să prezici unde artileria inamică se poate ascunde şi verifică dacă ai ghicit corect cu un foc." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Cu cât joci mai des cu artileria, cu atât mai multe puncte strategice de pe hartă vei cunoaşte. Asta te va ajuta când lupţi împotriva artileriei inamice deoarece o să ştii deja unde se pot poziţiona.</Hint>
+    <PM name="SPG-10: Totul inclus" short="StuG IV: SPG-10" desc="Situația în luptă se poate schimba rapid - întotdeauna stai cu un ochi pe minihartă și asigură-te că ai o vedere clară asupra vehiculelor inamice. Va trebui să te muți pe hartă mereu, nu să stai într-o singură poziție. Aliații tăi se bazează pe puterea de foc a artileriei, așa că fă tot ce poți să fii la timpul și locul potrivit." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puţin o artilerie inamică.</req>
+        <req>• Daunele totale provocate de tine și aliații tăi la vehiculele inamice la care ai provocat șoc sau pe care le-ai imobilizat trebuie să fie de cel puțin 1000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 vehicule inamice.</req>
+        <req>• Aliații trebuie să distrugă cel puțin 1 vehicul inamic la care ai provocat șoc sau pe care l-ai imobilizat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona de impact" short="StuG IV: SPG-11" desc="Obuzele tale HE nu doar pot distruge un vehicul inamic dintr-o lovitură, ci pot provoca daune semnificative la multiple ținte deodată, dacă stau suficient de aproape una de alta." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Poţi efectiv să omori două păsări cu o singură piatră, dacă mai multe vehicule inamice stau grupate într-un singur loc. Asta se întimplă des pe hărţile urbane.</Hint>
+    <PM name="SPG-11: Zona de impact" short="StuG IV: SPG-11" desc="Pe lângă daunele considerabile provocate de o lovitură bine plasată, un obuz exploziv (HE) poate avea și un efect de șoc asupra vehiculelor care se regăsesc în raza exploziei, după impact. Multe hărți prezintă locuri unde vehiculele inamice se aglomerează. Nu rata șansa de a le trimite salutul tău ”exploziv”." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruge un vehicul inamic dintr-o singură lovitură.\n• Sunt considerate ţintele care anterior nu au primit daune.</req>
+        <req>• Provoacă șoc la cel puțin 2 vehicule inamice cu o singură lovitură.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 50 de secunde în total.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Percutorul" short="StuG IV: SPG-12" desc="Stilul de joc în artilerie este complet diferit faţă de restul vehiculelor. Dar obiectivul principal rămâne acelaşi - fă tot ce poţi în luptă şi contribuie cât de mult la şansele echipei." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Nu trece în modul de vedere artilerie de la începutul luptei. Mai întâi gândește-te la o poziționare strategică bună.</Hint>
+    <PM name="SPG-12: Ochiul rău" short="StuG IV: SPG-12" desc="Aliații tăi au distrus vehiculul căruia i-ai provocat un șoc? Asta e bine pentru tine, deoarece contribuția ta va aduce victoria un pas mai aproape! Obiectivul tău este de a oferi foc de sprijin și de a asista aliații la locul și timpul potrivit." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Clasează-te între primii 3 jucători din echipa ta la daune provocate.\n• Distruge un vehicul inamic.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 50 de secunde în total.\n• Aliații trebuie să distrugă cel puțin 1 vehicul inamic la care ai provocat șoc sau pe care l-ai imobilizat.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Bateria de artilerie (Personal/Pluton)" short="StuG IV: SPG-13" desc="Un pluton de artilerii mânuite bine este un mare pericol pentru inamici. Coordonaţi-vă acţiunile şi concentraţi-vă tirul asupra unei singure ţinte. Această misiune poate fi finalizată în pluton sau singur, dar opţiunea a doua este mult mai dificilă." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Desfășurându-se pe hartă, plutonul tău poate lovi țintele din unghiuri diferite, făcând multe stânci și clădiri inutile ca protecție și astfel dominând harta.</Hint>
+    <PM name="SPG-13: C de la cooperare" short="StuG IV: SPG-13" desc="Colaborarea eficientă între artilerii şi aliaţi vor îngrijora puternic echipa inamică. Focalizaţi-vă ţintele şi coordonaţi-vă acţiunile asupra unui singur inamic la un moment dat." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoacă cel puţin 15% din daunele totale provocate echipei inamice de către echipa ta, personal sau ca total în pluton.\n• Câştigă lupta.\n• Poate fi finalizată personal sau într-un pluton alcătuit din tancul tău uşor şi orice alte vehicule.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 4 ori sau cauzează-le șoc de cel puțin 6 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ofensiva unită (personal/pluton)" short="StuG IV: SPG-14" desc="Artileria este dependentă de restul echipei pentru a avea succes. Artileria și tancurile ușoare se completează foarte bine în pluton. Această misiune poate fi finalizată fie ca parte a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Un tanc ușor poate descoperi vehiculele inamice și le poate imobiliza. Artileriile se vor ocupa apoi rapid de nefericita victimă. Împreună spre victorie! Un tanc greu te poate proteja cu blindajul său gros, un tanc mediu poate distrage inamicul, iar un antitanc poate să îți ofere foc de sprijin de la distanță.</Hint>
+    <PM name="SPG-14: Una cu echipajul, una cu nava!" short="StuG IV: SPG-14" desc="Cooperarea este cheia pentru victoria întregii echipe. Marchează vehiculele inamice pe care le țintești pentru ca aliaţii să le atace imediat ce au fost afectate de șoc sau imobilizate. Aminteşte-ţi un soldat nu poate să câştige singur lupta." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 2.000 HP tancurilor grele şi antitancurilor inamice, personal sau ca total în pluton.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 70 de secunde în total sau ajută-ți aliații să provoace daune de cel puțin 400 de puncte vehiculelor inamice, imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Zeii războiului" short="StuG IV: SPG-15" desc="Este mult mai bine pentru echipă dacă artileria supravieţuieşte. Încearcă să nu te expui tirului inamic şi execută la rândul tău, tir precis asupra inamicului." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
-      <Hint>Dacă şti detaliile tehnice ale artileriei poţi să-ţi plănuieşti acţiunile din luptă. Uneori, să rămâi în bază nu este cea mai bună idee. Dacă joci cu o artilerie rapidă, poţi schimba repede poziţia şi să ataci inamicul din direcţii de unde nu se aşteaptă.</Hint>
+    <PM name="SPG-15: Zeii războiului" short="StuG IV: SPG-15" desc="O artilerie care supraviețuiește cât mai mult este un ajutor prețios pentru echipă. Continuă să tragi obuz după obuz, dar încearcă să nu intri sub tirul inamic. Gândește-te bine înainte să ”apeși pe trăgaci”, deoarece pentru un vehicul cu un timp de reîncărcare lung strategia cea mai bună este să nimerească toate focurile." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Clasează-te între primii 3 jucători din echipa ta ca experiență câștigată și daune provocate.\n• Provoacă daune de cel puțin 2.000 HP.</req>
+        <req>• Clasează-te între primii 5 jucători din echipa ta ca experiență câștigată.\n• Ajută-ți aliații să provoace daune de cel puțin 1000 puncte vehiculelor inamice, fie prin provocarea unui șoc, fie prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Supravieţuieşte luptei.</req>
@@ -2118,10 +2130,10 @@
     <PM name="LT-10: Rezultat maxim" short="T28 heavy tank concept: LT-10" desc="Cu cât mai eficient eşti în luptă, cu atât mai multă experienţă vei primi. Arată-le de ce e capabil un tanc uşor!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
       <Hint>Un bun cercetaş ştie când să fie grijuliu şi când să fie agresiv. Fii atent la cursul luptei.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Termină lupta ca cel mai bun jucător din echipa ta, după experiența câștigată.</req>
+        <req>• Termină lupta ca cel mai bun jucător din echipa ta, la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-11: O luptă dreaptă" short="T28 heavy tank concept: LT-11" desc="Cu cât mai mare e generaţia tancului tău uşor, cu atât mai multă putere de foc vei avea, pe lângă viteza, raza vizuală şi dificultatea de a fi detectat." tMID="86" opID="2" mID="11" setID="1" ID="quest_2_1_11_main" secID="quest_2_1_11_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2247,7 +2259,7 @@
         <req>• Distruge un vehicul inamic prin coliziune.\n• Supraviețuiește atacului prin coliziune.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="HT-10: Un argument cu greutate" short="T28 heavy tank concept: HT-10" desc="Ţine-ţi tunul activ şi menţine-te în viaţă cât mai mult posibil." tMID="100" opID="2" mID="10" setID="2" ID="quest_2_2_10_main" secID="quest_2_2_10_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2274,7 +2286,7 @@
         <req>• Blochează cu armura daune totalizând cel puţin dublul HP-ul vehiculului tău.\n• Produ daune de cel puţin 1500 HP.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-13: Străpunge apărarea! (personal/pluton)" short="T28 heavy tank concept: HT-13" desc="Un pluton de tancuri grele bine coordonat poate întoarce soarta oricăi lupte. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="103" opID="2" mID="13" setID="2" ID="quest_2_2_13_main" secID="quest_2_2_13_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2301,7 +2313,7 @@
         <req>• Daunele provocate, daunele primite și daunele blocate de blindaj trebuie să fie cel puțin 8.000 HP în total.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-1: Primii paşi" short="T28 heavy tank concept: MT-1" desc="La nivelele inferioare, tancul tău mediu poate neutraliza cu uşurinţă orice alt tip de vehicul." tMID="106" opID="2" mID="1" setID="3" ID="quest_2_3_1_main" secID="quest_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2400,7 +2412,7 @@
         <req>• Distruge un vehicul inamic prin coliziune.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-12: Piromanul" short="T28 heavy tank concept: MT-12" desc="Dând foc unui vehicul inamic este una dintre cele mai eficiente moduri de a-l distruge." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2409,7 +2421,7 @@
         <req>• Provoacă indendierea unui vehicul inamic.\n• Provoacă daune de cel puțin 2000 HP vehiculelor inamice.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Clasează-te între primii 3, ca experienţă câştigată, din echipa ta.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Acţiune activă (personal/pluton)" short="T28 heavy tank concept: MT-13" desc="Un Pluton de tancuri medii poate fi de mare ajutor echipei oriunde pe câmpul de luptă. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2442,10 +2454,10 @@
     <PM name="TD-1: Execuție eficientă" short="T28 heavy tank concept: TD-1" desc="Antitancurile sunt o alegere bună pentru acei jucători care preferă să distrugă vehiculele inamice de la distanţă." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
       <Hint>Antitancurile au o mare putere de foc, dar rată de supravieţuire mică. Încearcă să tragi de la distanţă – acurateţea tunului îţi permite.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Fii între primii 5 jucători din echipa ta ca experienţă câştigată.</req>
+        <req>• Clasează-te între primii 5 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-2: Foc Precis" short="T28 heavy tank concept: TD-2" desc="Dacă nimereşti modulele vehiculului inamic sau îi răneşti echipajul, vei reduce eficienţa de luptă a inamicului." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2472,7 +2484,7 @@
         <req>• Distruge cel puțin 2 vehicule inamice. Rămâi nedescoperit de acestea la momentul distrugerii lor.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-5: Un tun cu rază mare" short="T28 heavy tank concept: TD-5" desc="Când joci cu un antitanc este important să ştii să tragi precis la distanţă mare." tMID="125" opID="2" mID="5" setID="4" ID="quest_2_4_5_main" secID="quest_2_4_5_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2499,7 +2511,7 @@
         <req>• Distruge cel puțin 2 vehicule inamice, înainte ca vehiculul tău să fi suferit daune.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-8: Calibru imens" short="T28 heavy tank concept: TD-8" desc="Fiecare conducător de antitancuri ar trebui să ştie cum să provoace mai multe daune tancurilor inamice decât punctele integritate ale vehiculului propriu." tMID="128" opID="2" mID="8" setID="4" ID="quest_2_4_8_main" secID="quest_2_4_8_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2508,7 +2520,7 @@
         <req>• Provoacă de 3 ori mai multe pagube vehiculelor inamice decât HP-ul propriului vehicul.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-9: Exact la țintă!" short="T28 heavy tank concept: TD-9" desc="Performanțele excelente ale tunului tău compensează pentru protecția relativ redusă a blindajului vehiculului tău." tMID="129" opID="2" mID="9" setID="4" ID="quest_2_4_9_main" secID="quest_2_4_9_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2526,7 +2538,7 @@
         <req>• Provoacă daune de minim 2000 HP vehiculelor inamice. Rămâi nedescoperit atunci când daunele sunt produse.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-11: Rol cheie" short="T28 heavy tank concept: TD-11" desc="Tunul tău puternic este o forță de temut. Desigur, dacă știi să îl folosești." tMID="131" opID="2" mID="11" setID="4" ID="quest_2_4_11_main" secID="quest_2_4_11_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2544,7 +2556,7 @@
         <req>• Distruge un tanc greu inamic cu o generaţie deasupra celei ale propriului vehicul.\n• Produ daune de cel puţin 2000 HP.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="TD-13: Vânători de tancuri (personal/pluton)" short="T28 heavy tank concept: TD-13" desc="Ca pluton, puteți concentra focul și elimina rapid tancurile inamice. Această misiune poate fi finalizată fie ca partea a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="133" opID="2" mID="13" setID="4" ID="quest_2_4_13_main" secID="quest_2_4_13_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
@@ -2574,136 +2586,136 @@
         <req>• Distruge cel puțin 2 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Țintașul de elită" short="T28 heavy tank concept: SPG-1" desc="Nu risipi muniţia. Loviturile precise sunt cele care aduc victoria." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Ai răbdare şi aşteaptă până ce ai ochit complet ţinta.</Hint>
+    <PM name="SPG-1: Pretenții mari" short="T28 heavy tank concept: SPG-1" desc="Raza mare a exploziei, după impactul obuzului, este o trăsătură principală a vehiculelor de artilerie. Chiar dacă nu ai reușit o lovitură directă asupra vehiculului inamic țintă, ai șanse să provoci probleme serioase, prin efectul de șoc. Vehiculul inamic este marcat cu un indicator de șoc, care va fi vizibil aliaților. Dacă aliații provoacă daune la vehiculului căruia i-ai provocat șocul, vei primi credite și experiență adiționale, pentru daune provocate cu asistența ta." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nimereşte cel puțin 4 lovituri care să provoace daune vehiculelor inamice.</req>
+        <req>• Provoacă șoc vehiculelor inamice de cel puțin 5 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 2.000 HP.</req>
+        <req>• Provoacă daune de cel puțin 5 ori vehiculelor inamice, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Ascuns şi periculos" short="T28 heavy tank concept: SPG-2" desc="Artileria nu se poate baza pe grosimea blindajului sau pe viteză. Dacă joci cu artileria, învaţă să rămâi nedetectat toată lupta." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Plasa de camuflaj, combinată va ascunde mult mai bine vehiculul combinată cu vopseau de camuflaj când este montată pe artilerie.</Hint>
+    <PM name="SPG-2: Timpul înseamnă bani" short="T28 heavy tank concept: SPG-2" desc="Un vehicul inamic rămâne în stare de șoc pentru o perioadă anume de timp și nu va mai performa la maxim în luptă. Ține minte: un vehicul în stare de șoc este o țintă ușoară." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Produ pagube de cel puţin 1.500 HP vehiculelor inamice. Rămâi nedetectat pe durata luptei.\n• Supraviețuiește luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 100 de secunde.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Distruge cel puțin 2 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Lovitură de Howitzer" short="T28 heavy tank concept: SPG-3" desc="Dacă vrei să devii valoros pentru echipă, mai întâi trebuie să înveţi cum să tragi bine." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Urmăreşte atent cursul luptei şi ajută-ţi echipa. Nu sta prea mult într-un singur loc. Retrage-te sau caută un alt loc strategic dacă este necesar.</Hint>
+    <PM name="SPG-3: Încet și sigur vei fi șocat" short="T28 heavy tank concept: SPG-3" desc="Ascunse și puternice, antitancurile inamice, împreună cu tancurile grele inamice, cu blindajul lor solid, pot să întoarcă soarta unei lupte. Acestea sunt țintă de primă prioritate și provocarea de daune la ele (sau asistarea în distrugerea lor) ar trebui să fie primul obiectiv pentru un jucător într-o artilerie. Majoritatea tancurilor grele și a antitancurilor sunt încete și greoaie, ceea ce sporește șansele unei lovituri reușite." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 2.000 HP vehiculelor inamice.</req>
+        <req>• Provoacă șoc unui tanc greu sau un antitanc inamic de cel puțin 4 ori.\n• Loviturile cauzatoare de șoc trebuie să provoace și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Sparge-le capul" short="T28 heavy tank concept: SPG-4" desc="Obuzele HE puternice nu numai că vor provoca daune inamicului, dar au șanse mari să avarieze sau să distrugă module sau să rănească membri de echipaj cu schijele exploziei." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Un obuz exploziv HE își arată întregul potențial doar când penetrează complet blindajul și explodează în interiorul șasiului unui vehicul inamic. Dacă obuzele tale au o penetrare mediocră, încearcă să tragi după vehicule cu cabina deschisă sau încarcă un obuz premium.</Hint>
+    <PM name="SPG-4: Te acopăr eu" short="T28 heavy tank concept: SPG-4" desc="Învață rutele principale ale tancurilor grele inamice și pozițiile unde se ascund de obicei viclenele antitancuri. Ochirea din timp într-o anumită zonă a hărții sporește șansele de a lovi pozițiile inamice cu eficiență și efecte devastatoare. Aceste tipuri de vehicule de obicei urmează rute predictibile pe anumite hărți. Fii inteligent: analizează alcătuirea echipei inamice și alege cea mai bună poziție de la începutul luptei." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Avariază sau distruge module interne ale unui vehicul inamic sau rănește membri de echipaj, totalizând cel puțin 5 module sau membri de echipaj.\n• Numărul de module avariate/distruse și de membrii de echipaj răniți de pe toate vehiculele lovite în luptă se însumează.</req>
+        <req>• Provoacă șoc unui tanc greu sau un antitanc inamic pentru cel puțin 50 de secunde în total.\n• Lovitura cauzatoare de șoc trebuie să provoace și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculează şi distruge" short="T28 heavy tank concept: SPG-5" desc="Marea putere de foc pe care o posezi compensează fragilitatea relativă a artileriei tale." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Încearcă să provoci daune vehiculelor inamice cu prima ocazie. Chiar dacă obuzul tău HE ratează inamicul de aproape, vehiculul lor poate fi totuși avariat de schijele obuzului.</Hint>
+    <PM name="SPG-5: Împarte generos" short="T28 heavy tank concept: SPG-5" desc="Provocarea șocurilor la vehiculele inamice nu doar că îți aduce echipa un pas mai aproape spre victorie, dar îți garantează și faptul că vei primi experiență și credite adiționale, dacă aliații tăi produc daune vehiculelor la care ai produs șoc. Nu uita să marchezi zona în care vei trage (cu tasta implicită T) pentru a notifica și a atrage atenția aliaților tăi." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă de 6 ori mai multe pagube vehiculelor inamice decât HP-ul propriului vehicul.\n• Daunele provocate aliaților nu sunt luate în considerare.</req>
+        <req>• Ajută-ți aliații să provoace daune de cel puțin 1000 puncte vehiculelor inamice, provocându-le șoc sau prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 vehicule inamice.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 5 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Ciocanul care lovește" short="T28 heavy tank concept: SPG-6" desc="Deseori vei lupta împotriva vehiculelor de generație mai mare. Dar asta nu este o problemă pentru un artilerist experimentat." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Dacă nu poți penetra un vehicul inamic cu obuze standard, încearcă să folosești obuze Premium. Trage în laterale și în spatele vehicului inamic. SPG-urile, cu traiectoria obuzului sub formă de arc, pot lovi eficient orice vehicul în partea de sus a turelei, unde protecția blindajului este slabă. Vehiculele inamice cu turela deschisă sunt chiar și mai vulnerabile la distrugere.</Hint>
+    <PM name="SPG-6: Ciocanul zeilor" short="T28 heavy tank concept: SPG-6" desc="Obiectivul principal al unei artilerii este de a oferi foc de sprijin vehiculelor aliate. Vehiculele inamice în stare de șoc au capacitatea de luptă redusă, așa că colegii tăi de echipă vor aprecia în mod sigur ajutorul tău. Totuși, fii atent când tragi: o lovitură neglijentă poate produce șoc și unui vehicul aliat. Focul asupra aliaților nu va fi tolerat!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 vehicule inamice de aceeaşi generaţie sau mai mare ca vehiculului tău.</req>
+        <req>• Ajută-ți aliații să provoace daune la cel puțin 3 vehicule inamice, provocându-le șoc sau prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Hai cu tunurile mari" short="T28 heavy tank concept: SPG-7" desc="Ar trebui să distrugi antitancurile şi artileriile inamice cu prima ocazie. Eliminarea lor poate schimba sorţii luptei în avantajul tău." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Coordonează-ţi acţiunile cu tancurile uşoare aliate. Descoperind şi distrugând antitancurile şi artileriile inamice poate ajuta la obţinerea superiorităţii pe câmpul de luptă.</Hint>
+    <PM name="SPG-7: Cu mare atenție" short="T28 heavy tank concept: SPG-7" desc="Pentru a finaliza această misiune, folosește o abordare selectivă când îți alegi țintele. Nu concentra tirul asupra unui singur vehicul inamic, chiar dacă este o țintă ușoară. Cea mai bună strategie este să lovești grupuri de vehicule inamice dintr-o singură lovitură. Studiază hărțile și învață rutele de bază ale vehiculelor." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge un antitanc sau o artilerie inamică cu 1 generaţie mai mare ca propriului vehicul.</req>
+        <req>• Provoacă șoc la cel puțin 3 vehicule inamice.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 2.000 HP.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Foc greu pe tancuri grele!" short="T28 heavy tank concept: SPG-8" desc="Un tanc greu e o ţintă dificilă, dar nu pentru tunul tău. Proiectilele cu traiectorie arcuită pot lovi orice vehicul în partea de sus a turelei, unde armura e subţire." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Tancurile grele se mişcă de obicei mai greu decât alte tipuri de vehicule. Astfel, poţi prezice unde se va afla tancul atunci când proiectilul tău loveşte. Ca jucător de artilerie, e bine să cunoşti viteza proiectilelor proprii.</Hint>
+    <PM name="SPG-8: Tot ce am putut" short="T28 heavy tank concept: SPG-8" desc="Primești experiență pentru toate acțiunile eficiente. Încearcă să fii cel mai bun: provoacă daune, ajută la distrugerea vehiculelor inamice și supraviețuiește luptei. Schimbă poziția după fiecare tragere; altfel artileriile inamice te vor contra și îți pot distruge vehiculul." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 1500 HP tancurilor grele inamice.</req>
+        <req>• Clasează-te între primii 5 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puţin 2 tancuri grele inamice.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Trage la întâlnire până îi nimereşti" short="T28 heavy tank concept: SPG-9" desc="Un jucător de artilerie experimentat poate lovi cu uşurinţă vehicule în mişcare. Învaţă să estimezi mişcările vehiculelor inamice când tragi. Aminteşte-ţi că o lovitură directă va provoca mai multe daune unui vehicul inamic decât o împroşcare HE." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Viteza proiectilului este un parametru foarte important. Dacă şti când ajunge la ţintă, poţi să calculezi corect avansul.</Hint>
+    <PM name="SPG-9: Victime colaterale" short="T28 heavy tank concept: SPG-9" desc="Obuzele puternice HE nu doar reduc punctele de viață ale vehiculelor inamice, dar au și o șansă mare de a distruge module sau de a răni membrii de echipaj prin daunele provocate de explozie." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nimereşte 2 lovituri asupra vehiculelor inamice.\n• Toate loviturile directe, fie dacă provoacă daune sau nu, sunt luate în considerație.</req>
+        <req>• Distruge orice modul de pe vehiculele inamice sau rănește membri ai echipajului lor, totalizând cel puțin 5 module sau membrii de echipaj.\n• Numărul de module distruse și membrii de echipaj răniți este însumat de la toate vehiculele inamice pe care le-ai avariat în luptă.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Supraviețuiește luptei.\n• Câştigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Blestemul artileriei" short="T28 heavy tank concept: SPG-10" desc="Vânarea artileriei este o idee bună. Încearcă să prezici unde artileria inamică se poate ascunde şi verifică dacă ai ghicit corect cu un foc." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Cu cât joci mai des cu artileria, cu atât mai multe puncte strategice de pe hartă vei cunoaşte. Asta te va ajuta când lupţi împotriva artileriei inamice deoarece o să ştii deja unde se pot poziţiona.</Hint>
+    <PM name="SPG-10: Totul inclus" short="T28 heavy tank concept: SPG-10" desc="Situația în luptă se poate schimba rapid - întotdeauna stai cu un ochi pe minihartă și asigură-te că ai o vedere clară asupra vehiculelor inamice. Va trebui să te muți pe hartă mereu, nu să stai într-o singură poziție. Aliații tăi se bazează pe puterea de foc a artileriei, așa că fă tot ce poți să fii la timpul și locul potrivit." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge minim 2 artilerii inamice.</req>
+        <req>• Daunele totale provocate de tine și de aliații tăi la vehiculele inamice la care ai provocat șoc sau pe care l-ai imobilizat trebuie să fie de minim 2000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 vehicule inamice.</req>
+        <req>• Aliații trebuie să distrugă cel puțin 1 vehicul inamic la care ai provocat șoc sau pe care l-ai imobilizat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona de impact" short="T28 heavy tank concept: SPG-11" desc="Obuzele tale HE nu doar pot distruge un vehicul inamic dintr-o lovitură, ci pot provoca daune semnificative la multiple ținte deodată, dacă stau suficient de aproape una de alta." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Poţi efectiv să omori două păsări cu o singură piatră, dacă mai multe vehicule inamice stau grupate într-un singur loc. Asta se întimplă des pe hărţile urbane.</Hint>
+    <PM name="SPG-11: Zona de impact" short="T28 heavy tank concept: SPG-11" desc="Pe lângă daunele considerabile provocate de o lovitură bine plasată, un obuz exploziv (HE) poate avea și un efect de șoc asupra vehiculelor care se regăsesc în raza exploziei, după impact. Multe hărți prezintă locuri unde vehiculele inamice se aglomerează. Nu rata șansa de a le trimite salutul tău ”exploziv”." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune la minim 2 vehicule inamice cu un singur proiectil.</req>
+        <req>• Provoacă șoc la cel puțin 2 vehicule inamice cu un singur foc, de două ori.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 100 de secunde.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Percutorul" short="T28 heavy tank concept: SPG-12" desc="Stilul de joc în artilerie este complet diferit faţă de restul vehiculelor. Dar obiectivul principal rămâne acelaşi - fă tot ce poţi în luptă şi contribuie cât de mult la şansele echipei." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Nu trece în modul de vedere artilerie de la începutul luptei. Mai întâi gândește-te la o poziționare strategică bună.</Hint>
+    <PM name="SPG-12: Ochiul rău" short="T28 heavy tank concept: SPG-12" desc="Aliații tăi au distrus vehiculul căruia i-ai provocat un șoc? Asta e bine pentru tine, deoarece contribuția ta va aduce victoria un pas mai aproape! Obiectivul tău este de a oferi foc de sprijin și de a asista aliații la locul și timpul potrivit." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Clasează-te în top 3 jucători din ambele echipe, ca daune provocate.\n• Distruge cel puțin 2 vehicule inamice.\n• Supravieţuieşte luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 100 de secunde.\n• Aliații trebuie să distrugă cel puțin 1 vehicul inamic la care ai provocat șoc sau pe care l-ai imobilizat.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Bateria de artilerie (Personal/Pluton)" short="T28 heavy tank concept: SPG-13" desc="Un pluton de artilerii mânuite bine este un mare pericol pentru inamici. Coordonaţi-vă acţiunile şi concentraţi-vă tirul asupra unei singure ţinte. Această misiune poate fi finalizată în pluton sau singur, dar opţiunea a doua este mult mai dificilă." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Desfășurându-se pe hartă, plutonul tău poate lovi țintele din unghiuri diferite, făcând multe stânci și clădiri inutile ca protecție și astfel dominând harta.</Hint>
+    <PM name="SPG-13: C de la cooperare" short="T28 heavy tank concept: SPG-13" desc="Colaborarea eficientă între artilerii şi aliaţi vor îngrijora puternic echipa inamică. Focalizaţi-vă ţintele şi coordonaţi-vă acţiunile asupra unui singur inamic la un moment dat." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă cel puțin 20% din totalul daunelor cauzate vehiculelor inamice de echipa ta, fie personal, fie cu ajutorul plutonului tău.\n• Câştigă lupta.\n• Poate fi finalizată fie personal, fie ca parte a unui pluton, consistând din artileria ta și orice alt vehicul.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 6 ori sau cauzează-le șoc de cel puțin 8 ori.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ofensiva unită (personal/pluton)" short="T28 heavy tank concept: SPG-14" desc="Artileria este dependentă de restul echipei pentru a avea succes. Artileria și tancurile ușoare se completează foarte bine în pluton. Această misiune poate fi finalizată fie ca parte a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Un tanc ușor poate descoperi vehiculele inamice și le poate imobiliza. Artileriile se vor ocupa apoi rapid de nefericita victimă. Împreună spre victorie! Un tanc greu te poate proteja cu blindajul său gros, un tanc mediu poate distrage inamicul, iar un antitanc poate să îți ofere foc de sprijin de la distanță.</Hint>
+    <PM name="SPG-14: Una cu echipajul, una cu nava!" short="T28 heavy tank concept: SPG-14" desc="Cooperarea este cheia pentru victoria întregii echipe. Marchează vehiculele inamice pe care le țintești pentru ca aliaţii să le atace imediat ce au fost afectate de șoc sau imobilizate. Aminteşte-ţi un soldat nu poate să câştige singur lupta." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puţin 3000 HP tancurilor grele şi antitancurilor inamice. Daunele provocate de membrii plutonului sunt luate în considerare.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 100 de secunde sau ajută-ți aliații să provoace daune de cel puțin 600 puncte, imobilizând vehiculele inamice.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Zeii războiului" short="T28 heavy tank concept: SPG-15" desc="Este mult mai bine pentru echipă dacă artileria supravieţuieşte. Încearcă să nu te expui tirului inamic şi execută la rândul tău, tir precis asupra inamicului." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
-      <Hint>Dacă şti detaliile tehnice ale artileriei poţi să-ţi plănuieşti acţiunile din luptă. Uneori, să rămâi în bază nu este cea mai bună idee. Dacă joci cu o artilerie rapidă, poţi schimba repede poziţia şi să ataci inamicul din direcţii de unde nu se aşteaptă.</Hint>
+    <PM name="SPG-15: Zeii războiului" short="T28 heavy tank concept: SPG-15" desc="O artilerie care supraviețuiește cât mai mult este un ajutor prețios pentru echipă. Continuă să tragi obuz după obuz, dar încearcă să nu intri sub tirul inamic. Gândește-te bine înainte să ”apeși pe trăgaci”, deoarece pentru un vehicul cu un timp de reîncărcare lung strategia cea mai bună este să nimerească toate focurile." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Clasează-te în top 3 jucători din ambele echipe ca experienţă câştigată şi pagube produse.\n• Provoacă daune de cel puțin 2.000 HP.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta ca experienţă câştigată.\n• Ajută-ți aliații să provoace daune de cel puțin 1500 puncte vehiculelor inamice, provocându-le șoc sau imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Supravieţuieşte luptei.</req>
@@ -2724,7 +2736,7 @@
         <req>• Descoperă personal cel puțin 6 vehicule inamice.\n• Supravieţuieşte luptei.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-3: Urmărirea" short="T 55A: LT-3" desc="Tancul tău uşor are suficientă viteză pentru a traversa rapid harta şi a oferi suport aliaţilor acolo unde este nevoie." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -2796,7 +2808,7 @@
         <req>• Termină lupta pe primul loc în ambele echipe, ca experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-11: O luptă dreaptă" short="T 55A: LT-11" desc="Cu cât mai mare e generaţia tancului tău uşor, cu atât mai multă putere de foc vei avea, pe lângă viteza, raza vizuală şi dificultatea de a fi detectat." tMID="161" opID="3" mID="11" setID="1" ID="quest_3_1_11_main" secID="quest_3_1_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -2922,7 +2934,7 @@
         <req>• Distruge un vehicul inamic prin coliziune.\n• Supravieţuieşte atacului prin coliziune.\n• Produ mai multe pagube prin coliziune decât a suferit vehiculul tău în urma atacului.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-10: Un argument cu greutate" short="T 55A: HT-10" desc="Ţine-ţi tunul activ şi menţine-te în viaţă cât mai mult posibil." tMID="175" opID="3" mID="10" setID="2" ID="quest_3_2_10_main" secID="quest_3_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -2949,7 +2961,7 @@
         <req>• Blochează cu armura daune totalizând cel puţin triplul HP-ul vehiculului tău.\n• Produ daune de cel puţin 2000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-13: Străpunge apărarea! (personal/pluton)" short="T 55A: HT-13" desc="Un pluton de tancuri grele bine coordonat poate întoarce soarta oricăi lupte. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="178" opID="3" mID="13" setID="2" ID="quest_3_2_13_main" secID="quest_3_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -2976,7 +2988,7 @@
         <req>• Totalul de daune produse, daune suferite sau daune blocate de blindaj trebuie să fie de cel puţin 12.000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-1: Primii paşi" short="T 55A: MT-1" desc="La nivelele inferioare, tancul tău mediu poate neutraliza cu uşurinţă orice alt tip de vehicul." tMID="181" opID="3" mID="1" setID="3" ID="quest_3_3_1_main" secID="quest_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3075,7 +3087,7 @@
         <req>• Distruge un vehicul inamic prin coliziune.\n• Supravieţuieşte atacului prin coliziune.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="MT-12: Piromanul" short="T 55A: MT-12" desc="Dând foc unui vehicul inamic este una dintre cele mai eficiente moduri de a-l distruge." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3084,7 +3096,7 @@
         <req>• Provoacă incendierea unui vehicul inamic de aceeași generație sau mai mare.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Clasează-te între primii 3, ca experienţă câştigată, din echipa ta.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Acţiune activă (personal/pluton)" short="T 55A: MT-13" desc="Un Pluton de tancuri medii poate fi de mare ajutor echipei oriunde pe câmpul de luptă. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3117,10 +3129,10 @@
     <PM name="TD-1: Execuție eficientă" short="T 55A: TD-1" desc="Antitancurile sunt o alegere bună pentru acei jucători care preferă să distrugă vehiculele inamice de la distanţă." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
       <Hint>Antitancurile au o mare putere de foc, dar rată de supravieţuire mică. Încearcă să tragi de la distanţă – acurateţea tunului îţi permite.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Clasează-te între primii 3, ca experienţă câştigată, din echipa ta.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-2: Foc Precis" short="T 55A: TD-2" desc="Dacă nimereşti modulele vehiculului inamic sau îi răneşti echipajul, vei reduce eficienţa de luptă a inamicului." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3147,7 +3159,7 @@
         <req>• Distruge cel puțin 3 vehicule inamice. Rămâi nedescoperit de acestea la momentul distrugerii lor.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-5: Un tun cu rază mare" short="T 55A: TD-5" desc="Când joci cu un antitanc este important să ştii să tragi precis la distanţă mare." tMID="200" opID="3" mID="5" setID="4" ID="quest_3_4_5_main" secID="quest_3_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3174,7 +3186,7 @@
         <req>• Distruge cel puțin 3 vehicule inamice înainte ca vehiculul tău să fi suferit daune.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-8: Calibru imens" short="T 55A: TD-8" desc="Fiecare conducător de antitancuri ar trebui să ştie cum să provoace mai multe daune tancurilor inamice decât punctele integritate ale vehiculului propriu." tMID="203" opID="3" mID="8" setID="4" ID="quest_3_4_8_main" secID="quest_3_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3183,7 +3195,7 @@
         <req>• Provoacă cel puțin de 4 ori mai multe pagube vehiculelor inamice decât HP-ul tancului tău.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-9: Exact la țintă!" short="T 55A: TD-9" desc="Performanțele excelente ale tunului tău compensează pentru protecția relativ redusă a blindajului vehiculului tău." tMID="204" opID="3" mID="9" setID="4" ID="quest_3_4_9_main" secID="quest_3_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3201,7 +3213,7 @@
         <req>• Provoacă daune de minim 3000 HP vehiculelor inamice. Rămâi nedescoperit atunci când daunele sunt produse.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-11: Rol cheie" short="T 55A: TD-11" desc="Tunul tău puternic este o forță de temut. Desigur, dacă știi să îl folosești." tMID="206" opID="3" mID="11" setID="4" ID="quest_3_4_11_main" secID="quest_3_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3219,7 +3231,7 @@
         <req>• Distruge minim 2 tancuri grele inamice.\n• Produ daune de cel puţin 3000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-13: Vânători de tancuri (personal/pluton)" short="T 55A: TD-13" desc="Ca pluton, puteți concentra focul și elimina rapid tancurile inamice. Această misiune poate fi finalizată fie ca partea a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="208" opID="3" mID="13" setID="4" ID="quest_3_4_13_main" secID="quest_3_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
@@ -3249,136 +3261,136 @@
         <req>• Distruge cel puțin 3 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Țintașul de elită" short="T 55A: SPG-1" desc="Nu risipi muniţia. Loviturile precise sunt cele care aduc victoria." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Ai răbdare şi aşteaptă până ce ai ochit complet ţinta.</Hint>
+    <PM name="SPG-1: Pretenții mari" short="T 55A: SPG-1" desc="Raza mare a exploziei, după impactul obuzului, este o trăsătură principală a vehiculelor de artilerie. Chiar dacă nu ai reușit o lovitură directă asupra vehiculului inamic țintă, ai șanse să provoci probleme serioase, prin efectul de șoc. Vehiculul inamic este marcat cu un indicator de șoc, care va fi vizibil aliaților. Dacă aliații provoacă daune la vehiculului căruia i-ai provocat șocul, vei primi credite și experiență adiționale, pentru daune provocate cu asistența ta." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Nimereşte cel puțin 5 lovituri care să provoace daune vehiculelor inamice.</req>
+        <req>• Provoacă șoc vehiculelor inamice de cel puțin 7 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 3000 HP vehiculelor inamice, cu obuze sau prin coliziune.</req>
+        <req>• Produ daune de cel puțin 6 ori vehiculelor inamice, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Ascuns şi periculos" short="T 55A: SPG-2" desc="Artileria nu se poate baza pe grosimea blindajului sau pe viteză. Dacă joci cu artileria, învaţă să rămâi nedetectat toată lupta." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Plasa de camuflaj, combinată va ascunde mult mai bine vehiculul combinată cu vopseau de camuflaj când este montată pe artilerie.</Hint>
+    <PM name="SPG-2: Timpul înseamnă bani" short="T 55A: SPG-2" desc="Un vehicul inamic rămâne în stare de șoc pentru o perioadă anume de timp și nu va mai performa la maxim în luptă. Ține minte: un vehicul în stare de șoc este o țintă ușoară." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Fii între primii 5 jucători din echipa ta ca pagube produse. Rămâi nedetectat pe durata luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 150 de secunde.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Distruge cel puțin 3 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Lovitură de Howitzer" short="T 55A: SPG-3" desc="Dacă vrei să devii valoros pentru echipă, mai întâi trebuie să înveţi cum să tragi bine." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Urmăreşte atent cursul luptei şi ajută-ţi echipa. Nu sta prea mult într-un singur loc. Retrage-te sau caută un alt loc strategic dacă este necesar.</Hint>
+    <PM name="SPG-3: Încet și sigur vei fi șocat" short="T 55A: SPG-3" desc="Ascunse și puternice, antitancurile inamice, împreună cu tancurile grele inamice, cu blindajul lor solid, pot să întoarcă soarta unei lupte. Acestea sunt țintă de primă prioritate și provocarea de daune la ele (sau asistarea în distrugerea lor) ar trebui să fie primul obiectiv pentru un jucător într-o artilerie. Majoritatea tancurilor grele și a antitancurilor sunt încete și greoaie, ceea ce sporește șansele unei lovituri reușite." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 3000 HP vehiculelor inamice, cu obuze sau prin coliziune.</req>
+        <req>• Provoacă șoc unui tanc greu sau unui antitanc inamic de cel puțin 6 ori.\n• Loviturile cauzatoare de șoc trebuie să producă și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Sparge-le capul" short="T 55A: SPG-4" desc="Obuzele HE puternice nu numai că vor provoca daune inamicului, dar au șanse mari să avarieze sau să distrugă module sau să rănească membri de echipaj cu schijele exploziei." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Un obuz exploziv HE își arată întregul potențial doar când penetrează complet blindajul și explodează în interiorul șasiului unui vehicul inamic. Dacă obuzele tale au o penetrare mediocră, încearcă să tragi după vehicule cu cabina deschisă sau încarcă un obuz premium.</Hint>
+    <PM name="SPG-4: Te acopăr eu" short="T 55A: SPG-4" desc="Învață rutele principale ale tancurilor grele inamice și pozițiile unde se ascund de obicei viclenele antitancuri. Ochirea din timp într-o anumită zonă a hărții sporește șansele de a lovi pozițiile inamice cu eficiență și efecte devastatoare. Aceste tipuri de vehicule de obicei urmează rute predictibile pe anumite hărți. Fii inteligent: analizează alcătuirea echipei inamice și alege cea mai bună poziție de la începutul luptei." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Avariază sau distruge module interne ale unui vehicul inamic sau rănește membri de echipaj, totalizând cel puțin 8 module sau membri de echipaj.\n• Numărul de module avariate/distruse și de membrii de echipaj răniți de pe toate vehiculele lovite în luptă se însumează.</req>
+        <req>• Provoacă șoc unui tanc greu sau unui antitanc inamic pentru cel puțin 80 de secunde în total.\n• Loviturile cauzatoare de șoc trebuie să producă și daune.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculează şi distruge" short="T 55A: SPG-5" desc="Marea putere de foc pe care o posezi compensează fragilitatea relativă a artileriei tale." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Încearcă să provoci daune vehiculelor inamice cu prima ocazie. Chiar dacă obuzul tău HE ratează inamicul de aproape, vehiculul lor poate fi totuși avariat de schijele obuzului.</Hint>
+    <PM name="SPG-5: Împarte generos" short="T 55A: SPG-5" desc="Provocarea șocurilor la vehiculele inamice nu doar că îți aduce echipa un pas mai aproape spre victorie, dar îți garantează și faptul că vei primi experiență și credite adiționale, dacă aliații tăi produc daune vehiculelor la care ai produs șoc. Nu uita să marchezi zona în care vei trage (cu tasta implicită T) pentru a notifica și a atrage atenția aliaților tăi." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 8 ori mai mult decât punctele de viață ale tancului tău.\n• Daunele provocate aliaților nu sunt luate în considerare.</req>
+        <req>• Ajută-ți aliații să provoace daune de cel puțin 2000 puncte vehiculelor inamice, provocându-le șoc sau prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 vehicule inamice.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 6 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Ciocanul care lovește" short="T 55A: SPG-6" desc="Deseori vei lupta împotriva vehiculelor de generație mai mare. Dar asta nu este o problemă pentru un artilerist experimentat." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Dacă nu poți penetra un vehicul inamic cu obuze standard, încearcă să folosești obuze Premium. Trage în laterale și în spatele vehicului inamic. SPG-urile, cu traiectoria obuzului sub formă de arc, pot lovi eficient orice vehicul în partea de sus a turelei, unde protecția blindajului este slabă. Vehiculele inamice cu turela deschisă sunt chiar și mai vulnerabile la distrugere.</Hint>
+    <PM name="SPG-6: Ciocanul zeilor" short="T 55A: SPG-6" desc="Obiectivul principal al unei artilerii este de a oferi foc de sprijin vehiculelor aliate. Vehiculele inamice în stare de șoc au capacitatea de luptă redusă, așa că colegii tăi de echipă vor aprecia în mod sigur ajutorul tău. Totuși, fii atent când tragi: o lovitură neglijentă poate produce șoc și unui vehicul aliat. Focul asupra aliaților nu va fi tolerat!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 vehicule inamice cu 1 generaţie mai mare ca propriul vehicul.</req>
+        <req>• Ajută-ți aliații să provoace daune la cel puțin 5 vehicule inamice, provocându-le șoc sau prin imobilizare.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Hai cu tunurile mari" short="T 55A: SPG-7" desc="Ar trebui să distrugi antitancurile şi artileriile inamice cu prima ocazie. Eliminarea lor poate schimba sorţii luptei în avantajul tău." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Coordonează-ţi acţiunile cu tancurile uşoare aliate. Descoperind şi distrugând antitancurile şi artileriile inamice poate ajuta la obţinerea superiorităţii pe câmpul de luptă.</Hint>
+    <PM name="SPG-7: Cu mare atenție" short="T 55A: SPG-7" desc="Pentru a finaliza această misiune, folosește o abordare selectivă când îți alegi țintele. Nu concentra tirul asupra unui singur vehicul inamic, chiar dacă este o țintă ușoară. Cea mai bună strategie este să lovești grupuri de vehicule inamice dintr-o singură lovitură. Studiază hărțile și învață rutele de bază ale vehiculelor." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 antitancuri sau artilerii inamice.\n• Câştigă lupta.</req>
+        <req>• Provoacă șoc la cel puțin 5 vehicule inamice.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 3000 HP vehiculelor inamice, cu obuze sau prin coliziune.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Foc greu pe tancuri grele!" short="T 55A: SPG-8" desc="Un tanc greu e o ţintă dificilă, dar nu pentru tunul tău. Proiectilele cu traiectorie arcuită pot lovi orice vehicul în partea de sus a turelei, unde armura e subţire." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Tancurile grele se mişcă de obicei mai greu decât alte tipuri de vehicule. Astfel, poţi prezice unde se va afla tancul atunci când proiectilul tău loveşte. Ca jucător de artilerie, e bine să cunoşti viteza proiectilelor proprii.</Hint>
+    <PM name="SPG-8: Tot ce am putut" short="T 55A: SPG-8" desc="Primești experiență pentru toate acțiunile eficiente. Încearcă să fii cel mai bun: provoacă daune, ajută la distrugerea vehiculelor inamice și supraviețuiește luptei. Schimbă poziția după fiecare tragere; altfel artileriile inamice te vor contra și îți pot distruge vehiculul." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Produ daune de cel puţin 2000 HP tancurilor grele inamice.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruge un tanc greu inamic.\n• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Trage la întâlnire până îi nimereşti" short="T 55A: SPG-9" desc="Un jucător de artilerie experimentat poate lovi cu uşurinţă vehicule în mişcare. Învaţă să estimezi mişcările vehiculelor inamice când tragi. Aminteşte-ţi că o lovitură directă va provoca mai multe daune unui vehicul inamic decât o împroşcare HE." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Viteza proiectilului este un parametru foarte important. Dacă şti când ajunge la ţintă, poţi să calculezi corect avansul.</Hint>
+    <PM name="SPG-9: Victime colaterale" short="T 55A: SPG-9" desc="Obuzele puternice HE nu doar reduc punctele de viață ale vehiculelor inamice, dar au și o șansă mare de a distruge module sau de a răni membrii de echipaj prin daunele provocate de explozie." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Avariază un vehicul inamic ce se deplasează cu cel puţin 30 km/h.\n• Se contorizează atât daunele provoacte de exploziile în proximitate cât și loviturile directe.\n• Daunele provocate prin impact nu sunt luate în considerare.</req>
+        <req>• Distruge orice modul de pe vehiculele inamice sau rănește membri ai echipajului lor, totalizând cel puțin 8 module sau membrii de echipaj.\n• Numărul de module distruse și membrii de echipaj răniți este însumat de la toate vehiculele inamice pe care le-ai avariat în luptă.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Supravieţuieşte luptei.\n• Câştigă lupta.\n• Rămâi nedetectat în luptă.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Blestemul artileriei" short="T 55A: SPG-10" desc="Vânarea artileriei este o idee bună. Încearcă să prezici unde artileria inamică se poate ascunde şi verifică dacă ai ghicit corect cu un foc." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Cu cât joci mai des cu artileria, cu atât mai multe puncte strategice de pe hartă vei cunoaşte. Asta te va ajuta când lupţi împotriva artileriei inamice deoarece o să ştii deja unde se pot poziţiona.</Hint>
+    <PM name="SPG-10: Totul inclus" short="T 55A: SPG-10" desc="Situația în luptă se poate schimba rapid - întotdeauna stai cu un ochi pe minihartă și asigură-te că ai o vedere clară asupra vehiculelor inamice. Va trebui să te muți pe hartă mereu, nu să stai într-o singură poziție. Aliații tăi se bazează pe puterea de foc a artileriei, așa că fă tot ce poți să fii la timpul și locul potrivit." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 1 artilerie inamică.\n• Provoacă pagube de cel puţin 2000 HP vehiculelor inamice.</req>
+        <req>• Daunele totale provocate de tine și de aliații tăi, după ce ai provocat șoc sau ai imobilizat un vehicul inamic, trebuie să fie de cel puțin 3000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 4 vehicule inamice.</req>
+        <req>• Câștigă lupta.\n• Aliații tăi trebuie să distrugă cel puțin 2 vehicule inamice la care provocat șoc sau pe care le-ai imobilizat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona de impact" short="T 55A: SPG-11" desc="Obuzele tale HE nu doar pot distruge un vehicul inamic dintr-o lovitură, ci pot provoca daune semnificative la multiple ținte deodată, dacă stau suficient de aproape una de alta." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Poţi efectiv să omori două păsări cu o singură piatră, dacă mai multe vehicule inamice stau grupate într-un singur loc. Asta se întimplă des pe hărţile urbane.</Hint>
+    <PM name="SPG-11: Zona de impact" short="T 55A: SPG-11" desc="Pe lângă daunele considerabile provocate de o lovitură bine plasată, un obuz exploziv (HE) poate avea și un efect de șoc asupra vehiculelor care se regăsesc în raza exploziei, după impact. Multe hărți prezintă locuri unde vehiculele inamice se aglomerează. Nu rata șansa de a le trimite salutul tău ”exploziv”." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge un vehicul inamic şi produ pagube la încă 1 vehicul cu un singur proiectil.</req>
+        <req>• Provoacă șoc la cel puțin 3 vehicule inamice cu un singur foc.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 150 de secunde.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Percutorul" short="T 55A: SPG-12" desc="Stilul de joc în artilerie este complet diferit faţă de restul vehiculelor. Dar obiectivul principal rămâne acelaşi - fă tot ce poţi în luptă şi contribuie cât de mult la şansele echipei." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Nu trece în modul de vedere artilerie de la începutul luptei. Mai întâi gândește-te la o poziționare strategică bună.</Hint>
+    <PM name="SPG-12: Ochiul rău" short="T 55A: SPG-12" desc="Aliații tăi au distrus vehiculul căruia i-ai provocat un șoc? Asta e bine pentru tine, deoarece contribuția ta va aduce victoria un pas mai aproape! Obiectivul tău este de a oferi foc de sprijin și de a asista aliații la locul și timpul potrivit." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Termină lupta pe primul loc în echipa ta, ca daune provocate.\n• Distruge cel puţin 3 vehicule inamice.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru un total de cel puțin 150 de secunde.\n• Aliații trebuie să distrugă cel puțin 2 vehicule la care ai provocat șoc sau pe care le-ai imobilizat.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Bateria de artilerie (Personal/Pluton)" short="T 55A: SPG-13" desc="Un pluton de artilerii mânuite bine este un mare pericol pentru inamici. Coordonaţi-vă acţiunile şi concentraţi-vă tirul asupra unei singure ţinte. Această misiune poate fi finalizată în pluton sau singur, dar opţiunea a doua este mult mai dificilă." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Desfășurându-se pe hartă, plutonul tău poate lovi țintele din unghiuri diferite, făcând multe stânci și clădiri inutile ca protecție și astfel dominând harta.</Hint>
+    <PM name="SPG-13: C de la cooperare" short="T 55A: SPG-13" desc="Colaborarea eficientă între artilerii şi aliaţi vor îngrijora puternic echipa inamică. Focalizaţi-vă ţintele şi coordonaţi-vă acţiunile asupra unui singur inamic la un moment dat." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă cel puțin 25% din totalul daunelor cauzate vehiculelor inamice de echipa ta, personal sau ca total pentru tot plutonul tău.\n• Câştigă lupta.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 8 ori sau cauzează-le șoc de cel puțin 10 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ofensiva unită (personal/pluton)" short="T 55A: SPG-14" desc="Artileria este dependentă de restul echipei pentru a avea succes. Artileria și tancurile ușoare se completează foarte bine în pluton. Această misiune poate fi finalizată fie ca parte a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Un tanc ușor poate descoperi vehiculele inamice și le poate imobiliza. Artileriile se vor ocupa apoi rapid de nefericita victimă. Împreună spre victorie! Un tanc greu te poate proteja cu blindajul său gros, un tanc mediu poate distrage inamicul, iar un antitanc poate să îți ofere foc de sprijin de la distanță.</Hint>
+    <PM name="SPG-14: Una cu echipajul, una cu nava!" short="T 55A: SPG-14" desc="Cooperarea este cheia pentru victoria întregii echipe. Marchează vehiculele inamice pe care le țintești pentru ca aliaţii să le atace imediat ce au fost afectate de șoc sau imobilizate. Aminteşte-ţi un soldat nu poate să câştige singur lupta." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de minim 4000 HP tancurilor grele și antitancurilor inamice, personal sau ca total pentru tot plutonul tău.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 180 de secunde în total sau ajută-ți aliații să provoace daune de cel puțin 800 puncte vehiculelor inamice, imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Zeii războiului" short="T 55A: SPG-15" desc="Este mult mai bine pentru echipă dacă artileria supravieţuieşte. Încearcă să nu te expui tirului inamic şi execută la rândul tău, tir precis asupra inamicului." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
-      <Hint>Dacă şti detaliile tehnice ale artileriei poţi să-ţi plănuieşti acţiunile din luptă. Uneori, să rămâi în bază nu este cea mai bună idee. Dacă joci cu o artilerie rapidă, poţi schimba repede poziţia şi să ataci inamicul din direcţii de unde nu se aşteaptă.</Hint>
+    <PM name="SPG-15: Zeii războiului" short="T 55A: SPG-15" desc="O artilerie care supraviețuiește cât mai mult este un ajutor prețios pentru echipă. Continuă să tragi obuz după obuz, dar încearcă să nu intri sub tirul inamic. Gândește-te bine înainte să ”apeși pe trăgaci”, deoarece pentru un vehicul cu un timp de reîncărcare lung strategia cea mai bună este să nimerească toate focurile." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Termină lupta pe primul loc din echipa ta ca experiență câștigată și daune cauzate.\n• Provoacă cel puțin 3000 HP daune.</req>
+        <req>• Termină lupta pe primul loc din echipa ta ca experiență câștigată.\n• Ajută-ți aliații să provoace daune de cel puțin 2500 puncte vehiculelor inamice, provocându-le șoc sau imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Supravieţuieşte luptei.</req>
@@ -3399,7 +3411,7 @@
         <req>• Descoperă personal cel puțin 8 vehicule inamice.\n• Supravieţuieşte luptei.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-3: Urmărirea" short="Object 260: LT-3" desc="Tancul tău uşor are suficientă viteză pentru a traversa rapid harta şi a oferi suport aliaţilor acolo unde este nevoie." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3471,7 +3483,7 @@
         <req>• Termină lupta pe primul loc din ambele echipe ca experienţă obţinută.\n• Supravieţuieşte luptei.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="LT-11: O luptă dreaptă" short="Object 260: LT-11" desc="Cu cât mai mare e generaţia tancului tău uşor, cu atât mai multă putere de foc vei avea, pe lângă viteza, raza vizuală şi dificultatea de a fi detectat." tMID="236" opID="4" mID="11" setID="1" ID="quest_4_1_11_main" secID="quest_4_1_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3597,7 +3609,7 @@
         <req>• Distruge prin lovire un vehicul inamic cu o generaţie peste cea a propriului vehicul.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-10: Un argument cu greutate" short="Object 260: HT-10" desc="Ţine-ţi tunul activ şi menţine-te în viaţă cât mai mult posibil." tMID="250" opID="4" mID="10" setID="2" ID="quest_4_2_10_main" secID="quest_4_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3624,7 +3636,7 @@
         <req>• Blochează cu armura daune totalizând cel puţin triplul HP-ul vehiculului tău.\n• Produ daune de cel puţin 3000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="HT-13: Străpunge apărarea! (personal/pluton)" short="Object 260: HT-13" desc="Un pluton de tancuri grele bine coordonat poate întoarce soarta oricăi lupte. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="253" opID="4" mID="13" setID="2" ID="quest_4_2_13_main" secID="quest_4_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3651,7 +3663,7 @@
         <req>• Daunele provocate, daunele primite și daunele blocate de blindaj trebuie să fie de 14.000 HP în total.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="MT-1: Primii paşi" short="Object 260: MT-1" desc="La nivelele inferioare, tancul tău mediu poate neutraliza cu uşurinţă orice alt tip de vehicul." tMID="256" opID="4" mID="1" setID="3" ID="quest_4_3_1_main" secID="quest_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3750,7 +3762,7 @@
         <req>• Distruge prin lovire un vehicul inamic cu o generaţie peste cea a propriului vehicul.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="MT-12: Piromanul" short="Object 260: MT-12" desc="Dând foc unui vehicul inamic este una dintre cele mai eficiente moduri de a-l distruge." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3759,7 +3771,7 @@
         <req>• Provoacă incendierea unui vehicul inamic de aceeași generație sau mai mare.\n• Provoacă pagube de cel puţin 3000 HP vehiculelor inamice.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Clasează-te între primii 3, ca experienţă câştigată, din echipa ta.</req>
+        <req>• Clasează-te între primii 3 jucători din echipa ta la experiență câștigată.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Acţiune activă (personal/pluton)" short="Object 260: MT-13" desc="Un Pluton de tancuri medii poate fi de mare ajutor echipei oriunde pe câmpul de luptă. Această misiune poate fi finalizată în pluton sau singur, totuşi opţiunea a doua este mult mai dificilă." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3792,10 +3804,10 @@
     <PM name="TD-1: Execuție eficientă" short="Object 260: TD-1" desc="Antitancurile sunt o alegere bună pentru acei jucători care preferă să distrugă vehiculele inamice de la distanţă." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
       <Hint>Antitancurile au o mare putere de foc, dar rată de supravieţuire mică. Încearcă să tragi de la distanţă – acurateţea tunului îţi permite.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Termină lupta ca cel mai bun jucător din echipa ta, după experiența câștigată.</req>
+        <req>• Termină lupta ca cel mai bun jucător din echipa ta, la experiență câștigată.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-2: Foc Precis" short="Object 260: TD-2" desc="Dacă nimereşti modulele vehiculului inamic sau îi răneşti echipajul, vei reduce eficienţa de luptă a inamicului." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3822,7 +3834,7 @@
         <req>• Distruge cel puțin 4 vehicule inamice. Rămâi nedescoperit de acestea la momentul distrugerii lor.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-5: Un tun cu rază mare" short="Object 260: TD-5" desc="Când joci cu un antitanc este important să ştii să tragi precis la distanţă mare." tMID="275" opID="4" mID="5" setID="4" ID="quest_4_4_5_main" secID="quest_4_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3849,7 +3861,7 @@
         <req>• Distruge cel puțin 4 vehicule inamice înainte ca vehiculul tău să fi suferit daune.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-8: Calibru imens" short="Object 260: TD-8" desc="Fiecare conducător de antitancuri ar trebui să ştie cum să provoace mai multe daune tancurilor inamice decât punctele integritate ale vehiculului propriu." tMID="278" opID="4" mID="8" setID="4" ID="quest_4_4_8_main" secID="quest_4_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3858,7 +3870,7 @@
         <req>• Provoacă daune inamicilor de cel puțin 5 ori mai mari decât punctele de integritate ale vehiculului tău.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-9: Exact la țintă!" short="Object 260: TD-9" desc="Performanțele excelente ale tunului tău compensează pentru protecția relativ redusă a blindajului vehiculului tău." tMID="279" opID="4" mID="9" setID="4" ID="quest_4_4_9_main" secID="quest_4_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3876,7 +3888,7 @@
         <req>• Provoacă daune de minim 4000 HP vehiculelor inamice. Rămâi nedescoperit atunci când daunele sunt produse.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-11: Rol cheie" short="Object 260: TD-11" desc="Tunul tău puternic este o forță de temut. Desigur, dacă știi să îl folosești." tMID="281" opID="4" mID="11" setID="4" ID="quest_4_4_11_main" secID="quest_4_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3894,7 +3906,7 @@
         <req>• Distruge cel puțin 3 tancuri grele inamice.\n• Produ daune de cel puţin 4000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
     <PM name="TD-13: Vânători de tancuri (personal/pluton)" short="Object 260: TD-13" desc="Ca pluton, puteți concentra focul și elimina rapid tancurile inamice. Această misiune poate fi finalizată fie ca partea a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="283" opID="4" mID="13" setID="4" ID="quest_4_4_13_main" secID="quest_4_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
@@ -3924,136 +3936,136 @@
         <req>• Distruge cel puțin 5 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Țintașul de elită" short="Object 260: SPG-1" desc="Nu risipi muniţia. Loviturile precise sunt cele care aduc victoria." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Ai răbdare şi aşteaptă până ce ai ochit complet ţinta.</Hint>
+    <PM name="SPG-1: Pretenții mari" short="Object 260: SPG-1" desc="Raza mare a exploziei, după impactul obuzului, este o trăsătură principală a vehiculelor de artilerie. Chiar dacă nu ai reușit o lovitură directă asupra vehiculului inamic țintă, ai șanse să provoci probleme serioase, prin efectul de șoc. Vehiculul inamic este marcat cu un indicator de șoc, care va fi vizibil aliaților. Dacă aliații provoacă daune la vehiculului căruia i-ai provocat șocul, vei primi credite și experiență adiționale, pentru daune provocate cu asistența ta." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Nimereşte cel puțin 6 lovituri care să provoace daune vehiculelor inamice.</req>
+        <req>• Provoacă șoc vehiculelor inamice de cel puțin 10 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 4.000 HP.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 8 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Ascuns şi periculos" short="Object 260: SPG-2" desc="Artileria nu se poate baza pe grosimea blindajului sau pe viteză. Dacă joci cu artileria, învaţă să rămâi nedetectat toată lupta." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Plasa de camuflaj, combinată va ascunde mult mai bine vehiculul combinată cu vopseau de camuflaj când este montată pe artilerie.</Hint>
+    <PM name="SPG-2: Timpul înseamnă bani" short="Object 260: SPG-2" desc="Un vehicul inamic rămâne în stare de șoc pentru o perioadă anume de timp și nu va mai performa la maxim în luptă. Ține minte: un vehicul în stare de șoc este o țintă ușoară." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Clasează-te în top 3 din echipa ta în funcţie de daunele produse. Rămâi nedetectat pe durata luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 200 de secunde în total.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 vehicule inamice.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Lovitură de Howitzer" short="Object 260: SPG-3" desc="Dacă vrei să devii valoros pentru echipă, mai întâi trebuie să înveţi cum să tragi bine." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Urmăreşte atent cursul luptei şi ajută-ţi echipa. Nu sta prea mult într-un singur loc. Retrage-te sau caută un alt loc strategic dacă este necesar.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puţin 4.000 HP vehiculelor inamice.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Sparge-le capul" short="Object 260: SPG-4" desc="Obuzele HE puternice nu numai că vor provoca daune inamicului, dar au șanse mari să avarieze sau să distrugă module sau să rănească membri de echipaj cu schijele exploziei." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Un obuz exploziv HE își arată întregul potențial doar când penetrează complet blindajul și explodează în interiorul șasiului unui vehicul inamic. Dacă obuzele tale au o penetrare mediocră, încearcă să tragi după vehicule cu cabina deschisă sau încarcă un obuz premium.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Avariază sau distruge module interne ale unui vehicul inamic sau rănește membri de echipaj, totalizând cel puțin 10 module sau membri de echipaj.\n• Numărul de module avariate/distruse și de membrii de echipaj răniți de pe toate vehiculele lovite în luptă se însumează.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Calculează şi distruge" short="Object 260: SPG-5" desc="Marea putere de foc pe care o posezi compensează fragilitatea relativă a artileriei tale." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Încearcă să provoci daune vehiculelor inamice cu prima ocazie. Chiar dacă obuzul tău HE ratează inamicul de aproape, vehiculul lor poate fi totuși avariat de schijele obuzului.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune inamicilor de cel puțin 10 ori mai mari decât punctele de integritate ale vehiculului tău.\n• Daunele provocate aliaților nu sunt luate în considerare.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Distruge cel puțin 4 vehicule inamice.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Ciocanul care lovește" short="Object 260: SPG-6" desc="Deseori vei lupta împotriva vehiculelor de generație mai mare. Dar asta nu este o problemă pentru un artilerist experimentat." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Dacă nu poți penetra un vehicul inamic cu obuze standard, încearcă să folosești obuze Premium. Trage în laterale și în spatele vehicului inamic. SPG-urile, cu traiectoria obuzului sub formă de arc, pot lovi eficient orice vehicul în partea de sus a turelei, unde protecția blindajului este slabă. Vehiculele inamice cu turela deschisă sunt chiar și mai vulnerabile la distrugere.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 vehicule inamice cu 2 generații peste vehiculul tău.</req>
+    <PM name="SPG-3: Încet și sigur vei fi șocat" short="Object 260: SPG-3" desc="Ascunse și puternice, antitancurile inamice, împreună cu tancurile grele inamice, cu blindajul lor solid, pot să întoarcă soarta unei lupte. Acestea sunt țintă de primă prioritate și provocarea de daune la ele (sau asistarea în distrugerea lor) ar trebui să fie primul obiectiv pentru un jucător într-o artilerie. Majoritatea tancurilor grele și a antitancurilor sunt încete și greoaie, ceea ce sporește șansele unei lovituri reușite." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Provoacă șoc unui tanc greu sau unui antitanc inamic de cel puțin 8 ori.\n• Loviturile cauzatoare de șoc trebuie să producă și daune.</req>
       </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Hai cu tunurile mari" short="Object 260: SPG-7" desc="Ar trebui să distrugi antitancurile şi artileriile inamice cu prima ocazie. Eliminarea lor poate schimba sorţii luptei în avantajul tău." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Coordonează-ţi acţiunile cu tancurile uşoare aliate. Descoperind şi distrugând antitancurile şi artileriile inamice poate ajuta la obţinerea superiorităţii pe câmpul de luptă.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 3 antitancuri sau artilerii inamice.\n• Câştigă lupta.</req>
+    <PM name="SPG-4: Te acopăr eu" short="Object 260: SPG-4" desc="Învață rutele principale ale tancurilor grele inamice și pozițiile unde se ascund de obicei viclenele antitancuri. Ochirea din timp într-o anumită zonă a hărții sporește șansele de a lovi pozițiile inamice cu eficiență și efecte devastatoare. Aceste tipuri de vehicule de obicei urmează rute predictibile pe anumite hărți. Fii inteligent: analizează alcătuirea echipei inamice și alege cea mai bună poziție de la începutul luptei." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Provoacă șoc unui tanc greu sau un antitanc inamic pentru cel puțin 120 de secunde în total.\n• Loviturile cauzatoare de șoc trebuie să provoace și daune.</req>
       </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 4.000 HP.</req>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Foc greu pe tancuri grele!" short="Object 260: SPG-8" desc="Un tanc greu e o ţintă dificilă, dar nu pentru tunul tău. Proiectilele cu traiectorie arcuită pot lovi orice vehicul în partea de sus a turelei, unde armura e subţire." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Tancurile grele se mişcă de obicei mai greu decât alte tipuri de vehicule. Astfel, poţi prezice unde se va afla tancul atunci când proiectilul tău loveşte. Ca jucător de artilerie, e bine să cunoşti viteza proiectilelor proprii.</Hint>
+    <PM name="SPG-5: Împarte generos" short="Object 260: SPG-5" desc="Provocarea șocurilor la vehiculele inamice nu doar că îți aduce echipa un pas mai aproape spre victorie, dar îți garantează și faptul că vei primi experiență și credite adiționale, dacă aliații tăi produc daune vehiculelor la care ai produs șoc. Nu uita să marchezi zona în care vei trage (cu tasta implicită T) pentru a notifica și a atrage atenția aliaților tăi." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Produ daune de minim 3000 HP tancurilor grele inamice.</req>
+        <req>• Ajută-ți aliații să provoace daune de cel puțin 3000 puncte vehiculelor inamice, provocându-le șoc sau imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 tancuri grele inamice.\n• Câştigă lupta.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 8 ori, cu obuze sau prin coliziune.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Trage la întâlnire până îi nimereşti" short="Object 260: SPG-9" desc="Un jucător de artilerie experimentat poate lovi cu uşurinţă vehicule în mişcare. Învaţă să estimezi mişcările vehiculelor inamice când tragi. Aminteşte-ţi că o lovitură directă va provoca mai multe daune unui vehicul inamic decât o împroşcare HE." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Viteza proiectilului este un parametru foarte important. Dacă şti când ajunge la ţintă, poţi să calculezi corect avansul.</Hint>
+    <PM name="SPG-6: Ciocanul zeilor" short="Object 260: SPG-6" desc="Obiectivul principal al unei artilerii este de a oferi foc de sprijin vehiculelor aliate. Vehiculele inamice în stare de șoc au capacitatea de luptă redusă, așa că colegii tăi de echipă vor aprecia în mod sigur ajutorul tău. Totuși, fii atent când tragi: o lovitură neglijentă poate produce șoc și unui vehicul aliat. Focul asupra aliaților nu va fi tolerat!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nimerește cel puțin 4 lovituri cauzatoare de daune asupra vehiculelor inamice.\n• Toate loviturile directe, fie că produc daune sau nu, sunt luate în considerație.</req>
+        <req>• Ajută-ți aliații să provoace daune la cel puțin 6 vehicule inamice, provocându-le șoc sau imobilizându-le.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-7: Cu mare atenție" short="Object 260: SPG-7" desc="Pentru a finaliza această misiune, folosește o abordare selectivă când îți alegi țintele. Nu concentra tirul asupra unui singur vehicul inamic, chiar dacă este o țintă ușoară. Cea mai bună strategie este să lovești grupuri de vehicule inamice dintr-o singură lovitură. Studiază hărțile și învață rutele de bază ale vehiculelor." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Provoacă șoc la cel puțin 6 vehicule inamice.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Câștigă lupta.\n• Supraviețuiește luptei.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-8: Tot ce am putut" short="Object 260: SPG-8" desc="Primești experiență pentru toate acțiunile eficiente. Încearcă să fii cel mai bun: provoacă daune, ajută la distrugerea vehiculelor inamice și supraviețuiește luptei. Schimbă poziția după fiecare tragere; altfel artileriile inamice te vor contra și îți pot distruge vehiculul." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Termină lupta ca cel mai bun jucător din echipa ta, la experiență câștigată.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Câștigă lupta.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-9: Victime colaterale" short="Object 260: SPG-9" desc="Obuzele puternice HE nu doar reduc punctele de viață ale vehiculelor inamice, dar au și o șansă mare de a distruge module sau de a răni membrii de echipaj prin daunele provocate de explozie." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Distruge orice modul de pe vehiculele inamice sau rănește membri ai echipajului lor, totalizând cel puțin 10 module sau membrii de echipaj.\n• Numărul de module distruse și membrii de echipaj răniți este însumat de la toate vehiculele inamice pe care le-ai avariat în luptă.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Supravieţuieşte luptei.\n• Câştigă lupta.\n• Rămâi nedetectat în luptă.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Blestemul artileriei" short="Object 260: SPG-10" desc="Vânarea artileriei este o idee bună. Încearcă să prezici unde artileria inamică se poate ascunde şi verifică dacă ai ghicit corect cu un foc." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Cu cât joci mai des cu artileria, cu atât mai multe puncte strategice de pe hartă vei cunoaşte. Asta te va ajuta când lupţi împotriva artileriei inamice deoarece o să ştii deja unde se pot poziţiona.</Hint>
+    <PM name="SPG-10: Totul inclus" short="Object 260: SPG-10" desc="Situația în luptă se poate schimba rapid - întotdeauna stai cu un ochi pe minihartă și asigură-te că ai o vedere clară asupra vehiculelor inamice. Va trebui să te muți pe hartă mereu, nu să stai într-o singură poziție. Aliații tăi se bazează pe puterea de foc a artileriei, așa că fă tot ce poți să fii la timpul și locul potrivit." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 artilerii inamice.\n• Provoacă pagube de cel puţin 4000 HP vehiculelor inamice.</req>
+        <req>• Daunele totale provocate de tine și aliații tăi la vehiculele inamice la care ai provocat șoc sau pe care le-ai imobilizat trebuie să fie de cel puțin 4000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 5 vehicule inamice.</req>
+        <req>• Câștigă lupta.\n• Aliații trebuie să distrugă cel puțin 3 vehicule inamice la care ai provocat șoc sau pe care le-ai imobilizat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona de impact" short="Object 260: SPG-11" desc="Obuzele tale HE nu doar pot distruge un vehicul inamic dintr-o lovitură, ci pot provoca daune semnificative la multiple ținte deodată, dacă stau suficient de aproape una de alta." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Poţi efectiv să omori două păsări cu o singură piatră, dacă mai multe vehicule inamice stau grupate într-un singur loc. Asta se întimplă des pe hărţile urbane.</Hint>
+    <PM name="SPG-11: Zona de impact" short="Object 260: SPG-11" desc="Pe lângă daunele considerabile provocate de o lovitură bine plasată, un obuz exploziv (HE) poate avea și un efect de șoc asupra vehiculelor care se regăsesc în raza exploziei, după impact. Multe hărți prezintă locuri unde vehiculele inamice se aglomerează. Nu rata șansa de a le trimite salutul tău ”exploziv”." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Distruge cel puțin 2 inamici cu un singur proiectil.</req>
+        <req>• Provoacă șoc la cel puțin 3 vehicule inamice, cu un singur foc, de două ori.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.\n• Supraviețuiește luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 200 de secunde în total.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Percutorul" short="Object 260: SPG-12" desc="Stilul de joc în artilerie este complet diferit faţă de restul vehiculelor. Dar obiectivul principal rămâne acelaşi - fă tot ce poţi în luptă şi contribuie cât de mult la şansele echipei." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Nu trece în modul de vedere artilerie de la începutul luptei. Mai întâi gândește-te la o poziționare strategică bună.</Hint>
+    <PM name="SPG-12: Ochiul rău" short="Object 260: SPG-12" desc="Aliații tăi au distrus vehiculul căruia i-ai provocat un șoc? Asta e bine pentru tine, deoarece contribuția ta va aduce victoria un pas mai aproape! Obiectivul tău este de a oferi foc de sprijin și de a asista aliații la locul și timpul potrivit." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Termină lupta pe primul loc din ambele echipe, ca daune provocate.\n• Distruge cel puţin 4 vehicule inamice.\n• Supravieţuieşte luptei.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 200 de secunde în total.\n• Aliații trebuie să distrugă cel puțin 3 vehicule inamice la care ai provocat șoc sau pe care le-ai imobilizat.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Bateria de artilerie (Personal/Pluton)" short="Object 260: SPG-13" desc="Un pluton de artilerii mânuite bine este un mare pericol pentru inamici. Coordonaţi-vă acţiunile şi concentraţi-vă tirul asupra unei singure ţinte. Această misiune poate fi finalizată în pluton sau singur, dar opţiunea a doua este mult mai dificilă." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Desfășurându-se pe hartă, plutonul tău poate lovi țintele din unghiuri diferite, făcând multe stânci și clădiri inutile ca protecție și astfel dominând harta.</Hint>
+    <PM name="SPG-13: C de la cooperare" short="Object 260: SPG-13" desc="Colaborarea eficientă între artilerii şi aliaţi vor îngrijora puternic echipa inamică. Focalizaţi-vă ţintele şi coordonaţi-vă acţiunile asupra unui singur inamic la un moment dat." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă cel puțin 30% din totalul daunelor cauzate vehiculelor inamice de echipa ta, personal sau ca total pentru tot plutonul tău.\n• Câştigă lupta.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă daune vehiculelor inamice de cel puțin 10 ori sau cauzează-le șoc de cel puțin 12 ori.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ofensiva unită (personal/pluton)" short="Object 260: SPG-14" desc="Artileria este dependentă de restul echipei pentru a avea succes. Artileria și tancurile ușoare se completează foarte bine în pluton. Această misiune poate fi finalizată fie ca parte a unui pluton, fie singur, dar a doua opțiune este mult mai dificilă." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Un tanc ușor poate descoperi vehiculele inamice și le poate imobiliza. Artileriile se vor ocupa apoi rapid de nefericita victimă. Împreună spre victorie! Un tanc greu te poate proteja cu blindajul său gros, un tanc mediu poate distrage inamicul, iar un antitanc poate să îți ofere foc de sprijin de la distanță.</Hint>
+    <PM name="SPG-14: Una cu echipajul, una cu nava!" short="Object 260: SPG-14" desc="Cooperarea este cheia pentru victoria întregii echipe. Marchează vehiculele inamice pe care le țintești pentru ca aliaţii să le atace imediat ce au fost afectate de șoc sau imobilizate. Aminteşte-ţi un soldat nu poate să câştige singur lupta." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Provoacă daune de cel puțin 5.000 HP tancurilor grele și antitancurilor inamice, personal sau ca total pentru tot plutonul tău.\n• Poate fi finalizată personal sau într-un pluton alcătuit din artileria ta şi orice alte vehicule.</req>
+        <req>• Provoacă șoc vehiculelor inamice pentru cel puțin 250 de secunde în total sau ajută-ți aliații să provoace daune de 1000 puncte vehiculelor inamice, imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Supravieţuieşte personal luptei.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Zeii războiului" short="Object 260: SPG-15" desc="Este mult mai bine pentru echipă dacă artileria supravieţuieşte. Încearcă să nu te expui tirului inamic şi execută la rândul tău, tir precis asupra inamicului." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
-      <Hint>Dacă şti detaliile tehnice ale artileriei poţi să-ţi plănuieşti acţiunile din luptă. Uneori, să rămâi în bază nu este cea mai bună idee. Dacă joci cu o artilerie rapidă, poţi schimba repede poziţia şi să ataci inamicul din direcţii de unde nu se aşteaptă.</Hint>
+    <PM name="SPG-15: Zeii războiului" short="Object 260: SPG-15" desc="O artilerie care supraviețuiește cât mai mult este un ajutor prețios pentru echipă. Continuă să tragi obuz după obuz, dar încearcă să nu intri sub tirul inamic. Gândește-te bine înainte să ”apeși pe trăgaci”, deoarece pentru un vehicul cu un timp de reîncărcare lung strategia cea mai bună este să nimerească toate focurile." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Sprijinul mult așteptat" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Termină lupta ca cel mai bun jucător din ambele echipe după experienţa câştigată şi daune produse.\n• Provoacă daune de cel puțin 3000 HP.</req>
+        <req>• Termină lupta ca cel mai bun jucător din echipa ta, la experiență câștigată.\n• Ajută-ți aliații să provoace daune de cel puțin 3500 puncte vehiculelor inamice, provocându-le șoc sau imobilizându-le.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Supravieţuieşte luptei.</req>
@@ -4200,7 +4212,7 @@
         <req>• Adună cel puțin 50 de puncte de victorie.\n• Provoacă daune de cel puțin 2000 HP vehiculelor inamice, cu obuze sau prin coliziune.\n• Rezultatele obținute pe toate vehiculele selectate pentru luptă sunt cumulate.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="D-2: Accelerate &amp; Eliminate" short="T-22 medium: D-2" desc="Ar fi indicat să alegi mai întâi vehiculele cu încărcător automat pentru finalizarea acestei misiuni. Un încărcător întreg are destulă muniţie pentru a distruge aproape orice inamic." tMID="402" opID="5" mID="2" setID="2" ID="fallout_5_2_2_main" secID="fallout_5_2_2_add" minLvl="8" maxLvl="10" campID="2" camp="Firestorm" reward="T-22 medium">
@@ -4236,7 +4248,7 @@
         <req>• Distruge șenilele a cel puţin 4 vehicule inamice, cu obuze sau prin coliziune.\n• Trage asupra unui vehicul inamic și distruge-l, fără să fi suferit anterior vreo daună la vehiculul tău.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="D-6: Just a Shot Away" short="T-22 medium: D-6" desc="Obţii puncte de victorie producând daune vehiculelor inamice. Foloseşte-ţi eficient abilităţile de luptă: ţinteşte cu atenţie şi fereşte-te de focul inamic." tMID="406" opID="5" mID="6" setID="2" ID="fallout_5_2_6_main" secID="fallout_5_2_6_add" minLvl="8" maxLvl="10" campID="2" camp="Firestorm" reward="T-22 medium">
@@ -4290,7 +4302,7 @@
         <req>• Distruge cel puțin 2 vehicule inamice cu Rezervele de luptă.\n• Distruge cel puțin 8 vehicule inamice, cu obuze sau prin coliziune.\n• Rezultatele obținute pe toate vehiculele selectate pentru luptă sunt cumulate.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Câştigă lupta.</req>
+        <req>• Câștigă lupta.</req>
       </Secondary>
     </PM>
     <PM name="D-12: Force to Be Reckoned With" short="T-22 medium: D-12" desc="Este timpul să le arăți cine este șeful. Provoacă daune, distruge vehicule inamice și capturează steaguri. Aceste acțiuni îți vor spori numărul de puncte de victorie." tMID="412" opID="5" mID="12" setID="2" ID="fallout_5_2_12_main" secID="fallout_5_2_12_add" minLvl="8" maxLvl="10" campID="2" camp="Firestorm" reward="T-22 medium">

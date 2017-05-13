@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Objekt 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Staljingrad" />
     <item ID="95_lost_city" Name="Grad duhova" />
     <item ID="96_prohorovka_defense" Name="Ognjeni luk" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Soma" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Nepoznato" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Specijalna borba" />
     <item ID="5" Name="Specijalna borba" />
     <item ID="6" Name="Borbena obuka" />
-    <item ID="7" Name="Tim: Nerangirane borbe" />
+    <item ID="7" Name="Timska borba" />
     <item ID="8" Name="Istorijska bitka" />
     <item ID="9" Name="Specijalni događaj" />
     <item ID="10" Name="Čarke" />
@@ -1443,7 +1455,7 @@
     <PM name="LT-10: Maksimalni rezultat" short="StuG IV: LT-10" desc="Čto si efektivniji u borbi, više iskustva ćeš zaraditi. Pokaži im šta tvoj laki tenk može da uradi!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
       <Hint>Dobar skaut zna kada da bude oprezan a kada agresivan. Dobro pazi na tok borbe.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao jedan od 3 najbolja igrača u svom timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
@@ -1734,7 +1746,7 @@
         <req>• Zapali neprijateljsko vozilo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Budi medju najbolja pet igrača u timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 5 najboljih igrača po sakupljenom iskustvu u svom timu.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Aktivno dejstvo (Lično/Vod)" short="StuG IV: MT-13" desc="Vod srednjih tenkova može biti od velike pomoći na celom bojištu. Ova misija može biti završena kao vod ili lično, mada druga opcija je dosta teža." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
@@ -1767,7 +1779,7 @@
     <PM name="TD-1: Efektivno dejstvo" short="StuG IV: TD-1" desc="Lovci tenkova su idealna vozila za one igrače koji vole da uništavaju protivnike sa udaljenosti." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
       <Hint>Lovci tenkova imaju pozamašnu vatrenu moć ali relativno male šanse da prežive. Gađaj sa udaljenosti - preciznost tvog topa to dozvoljava.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Budi među 7 najboljih igrača u svom timu po zarađenom iskustvu.</req>
+        <req>• Budi među 7 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
@@ -1815,7 +1827,7 @@
         <req>• Nanesi štetu neprijateljskom vozilu sa razdaljine od najmanje 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 1 neprijateljsko vozilo.</req>
+        <req>• Uništi najmanje jedno neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
     <PM name="TD-7: Prvi udar" short="StuG IV: TD-7" desc="Ne dozvoli neprijatelju da ti se približi. Oklop tvog vozila nije toliko efikasan protiv neprijateljske vatre." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
@@ -1899,136 +1911,136 @@
         <req>• Uništi neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Strelac" short="StuG IV: SPG-1" desc="Ne troši municiju uzalud. Precizni hici donose pobedu." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Budi strpljiv i sačekaj dok se nišan ne smanji na metu.</Hint>
+    <PM name="SPG-1: Smela tvrdnja" short="StuG IV: SPG-1" desc="Veliki radijus eksplozije nakon udara granate je glavna karakteristika artiljerijskih vozila. Čak i ako ne uspeš da ostvariš direktan pogodak i dalje postoje šanse da izazoveš nevolju tako što ćeš ošamutiti vozilo. Ošamućeno neprijateljsko vozilo je ozmačeno markerom koji je vidljiv tvojim saveznicima. Ako saveznici nanesu štetu vozilu koje si ti ošamutio dobićeš dodatne kredite i iskustvo za štetu nanetu uz tvoju asistenciju." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Postigni najmanje 3 pogotka koji su naneli štetu neprijatlejskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 3 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 poena štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 3 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skriven i opasan" short="StuG IV: SPG-2" desc="Artiljerija se ne može oslanjati na debljinu oklopa ili brzinu. Ako voziš artiljeriju, nauči kako da se sakriješ tokom borbe." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Oprema kamuflažna mreža kombinovana sa kamuflažom će veoma pomoći u efektivnom skrivanju kada je montirana na artiljeriju.</Hint>
+    <PM name="SPG-2: Vreme je novac" short="StuG IV: SPG-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni vremenski period i ne može da funkcioniše punim kapacitetom na bojištu. Zapamti: ošamućeno vozilo postaje laka meta." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 500 poena štete neprijateljskim vozilima. Ostani skriven tokom borbe.\n• Preživi borbu.</req>
+        <req>• Ošamuti neprijateljka vozila u trajanju od najmanje 50 sekundi ukupno.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo.</req>
+        <req>• Uništi najmanje jedno neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Vatra Haubice" short="StuG IV: SPG-3" desc="Ako želiš da budeš od koristi timu, moraš prvo naučiti da precizno gadjaš." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Prati tok borbe i podržavaj tim. emoj se zadržavati na jednom mestu predugo. Povuci se i traži drugo mesto za paljbu ako je potrebno.</Hint>
+    <PM name="SPG-3: Gubitak prednosti" short="StuG IV: SPG-3" desc="Sakriveni i moćni neprijateljski lovci tenkova i teški tenkovi mogu lako da okrenu tok borbe. Oni su mete prvog prioriteta, i nanošenje štete njima ( ili pomaganje u njihovom uništenju) bi trebalo da budu primarni ciljevi za igrače koji voze artiljeriju. Većina teškaša i lovaca tenkova su spori i nezgrapni što povećava šanse za uspešan hitac." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 poena štete neprijateljskim vozilima.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Pobedi u borbi.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Proboj" short="StuG IV: SPG-4" desc="Snažne fugasne granate ne samo da mogu da oštete neprijatelja, već takodje imaju veliku šansu da oštete ili unište module ili povrede članove posade." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Fugasna grana pokazuje šta vredi samo ako potpuno probije oklop i eksplodira unutar trupa vozila. Ako granata ima osrednju penetraciju, potraži neprijateljsko vozilo sa otvorenom kupolom, ili ubaci premium granatu.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uništi ili ošteti module na neprijateljskim vozilima ili povredi njihove članove posada, sa ukupno 3 modula ili člana posade.\n• Ukupan broj uništenih/oštećenih modula/članova posade u svim neprijateljskim vozilima koja si oštetio tokom borbe se sabiraju.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova najmanje 2 puta.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Račun Uništenja" short="StuG IV: SPG-5" desc="Velika vatrena moć koju poseduješ je kompenzovana relativno slabom izdržljivošću tvoje artiljerije." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Pokušaj da oštetiš neprijateljska vozila prvom prilikom. Čak i ako fugasna granata promaši cilj za par milimetara, vozilo će ipak biti oštećeno fragmentima.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi 4 puta više štete nego broj poena zdravlja tvojeg vozila.\n•Šteta naneta saveznicima se ne računa.</req>
+    <PM name="SPG-4: Ne stoj pod vatrom!" short="StuG IV: SPG-4" desc="Nauči glavne puteve kretanja neprijateljskih teških tenkova i gde se lukavi lovci tenkova uglavnom kriju. Nišanjenje na određeni deo mape u napred povećava šanse za što efikasniju i razorniju vatru po neprijateljskim pozicijama. Ovi tipovi vozila uglavnom koriste predvidljivu taktiku na određenim mapama. Budi pametan: analiziraj sastav neprijateljskog tima i izaberi najbolju poziciju od samog početka bitke." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova u trajanju od najmanje 30 sekundi ukupno.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Udar čekića" short="StuG IV: SPG-6" desc="Često ćeš se boriti protiv vozila većeg nivoa,  ali ovo nije prepreka za iskusnog vozača artiljerije." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Ako ne možeš da probiješ oklop neprijateljskog vozila standardnim granatama, pokušaj sa premijum municijom. Gađaj stranice i pozadinu neprijateljskih vozila. Artiljerije sa svojim lukom leta granata, mogu lako da pogode svako vozilo sa gornje strane kupole, gde je oklop slab. Neprijateljska vozila sa otvorenim kupolama su još više osetljiva na ovu destrukciju do gore.</Hint>
+    <PM name="SPG-5: Horizontalna podrška" short="StuG IV: SPG-5" desc="Ošamućivanje neprijateljskog vozila ne samo da dovodi tvoj tim jedan korak bliže ka pobedi, nego takođe ti obezbeđuje dodatno iskustvo i kredite ako tvoji saveznici nanesu štetu neprijateljskom vozilu koje si ti ošamutio. Nemoj da zaboraviš da označiš oblast ka kojoj nišaniš (taster T po poletnim podešavanjim) da bi privukao pažnju svojih saboraca." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljska vozila koja su istog ili višeg nivoa od tvog vozila.</req>
+        <req>• Omogući svojim saveznicima da nanesu najmanje 600 poena štete neprijateljskim vozilima ošamućivajući ih ili imobilizujući ih.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 3 puta pucanjem ili udaranjem.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Torov čekić" short="StuG IV: SPG-6" desc="Primarni cilj artiljerije je da obezbedi vatrenu podršku savezničkim vozilima. Ošamućena neprijateljska vozila su slabi borci, tako da će ti saborci biti zahvalni. Budi oprezan kada pucaš: loše naciljan nesmotren hitac može ta ošamuti i savezničko vozilo. Prijateljska vatra neće biti tolerisana!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Omogući svojim saveznicima da nanesu štetu na najmanje 2 neprijateljska vozila ošamućivajući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Izvedite Krupne Topove" short="StuG IV: SPG-7" desc="Uništi neprijateljske lovce tenkova i artiljeriju prvom prilikom. Njihovo uništenje može promeniti tok bitke u tvoju korist." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Koordinirajte svoje akcije sa savezničkim lakim tenkovima. Uočavanje neprijateljskih lovaca tenkova i artiljerije kao i njihovo uništenje može pomoći u dobijanju nadmoći nad borbenim poljem.</Hint>
+    <PM name="SPG-7: Kontrola populacije" short="StuG IV: SPG-7" desc="Da bi završio ovu misiju upotrebi selektivan pristup prilikom izbora svojih meta. Nemoj koncentrisati vatru na jedno neprijateljsko ozila, čak i ako je laka meta. Najbolja strategija je da se pogodi velika grupa neprijatelja jednim hicem. Proučavaj mape i nauči osnovne putanje vozila." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski lovac tenkova ili artiljeriju.</req>
+        <req>• Ošamuti najmanje 2 neprijateljska vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 poena štete.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Teška vatra na Teške tenkove!" short="StuG IV: SPG-8" desc="Teški tenk je teška meta, ali ne i za vaš top. Granate sa lučnom trajektorijom mogu pogoditi vozilo sa gornje strane kupole, gde je oklop najtanji." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Teški tenkovi se uglavnom kreću sporije od ostalih tipova vozila. Zbog toga, često možete predpostaviti gde će tenk biti kada granata doleti. Za vozača artiljerije, korisno je znati brzinu granata.</Hint>
+    <PM name="SPG-8: Dao sam sve od sebe" short="StuG IV: SPG-8" desc="Dobijaš iskustvo za sve efektivne akcije. Nanosi štetu, pomaži u  uništenju neprijateljskih vozila o šreživi borbu. Menjaj svoju poziciju nakon svakog hica, u suprotnom , vatra iz neprijateljske artiljerije može da uništi tvoje vozilo." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 1000 poena štete neprijateljskim tepkim tenkovima.</req>
+        <req>• Budi među 7 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski teški tenk.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Vodi ih do udara" short="StuG IV: SPG-9" desc="Iskusan vozač artiljerije lako može gadjati vozila u pokretu. Nauči kako da efektivno predvidiš njihovo kretanje kada pucaš. Zapamti da direktan pogodak nanosi više štete neprijateljskom vozilu nego fugasno rasprskavanje." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Brzina granata je veoma važan parametar. Znajući kada granata stiže do mete, možeš odrediti tačan položaj.</Hint>
+    <PM name="SPG-9: Kolateralna šteta" short="StuG IV: SPG-9" desc="Moćne fugasne granate mogu ne samo da smanje poene izdržljivosti neprijateljskih vozila već imaju i visoke panse da unište module ili povrede posadu svojom eksplozijom." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ošteti vozilo koje se kreće brzinom od najmanje 20 km/h.\n• Štete bljeska i diretna šteta se računaju.\n•Šteta izazvana sudarom se ne računa.</req>
+        <req>• Uništi bilo koji modul na neprijateljskom vozilu ili povredi bilo kog člana posade, za ukupan zbir od najmanje 3 modula i članova posade.\n• Broj uništenih modula i povređenih članova posade se sabira za sva neprijateljska vozila koja si oštetio tokom borbe.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Prokletstvo artiljerije" short="StuG IV: SPG-10" desc="Lov na artiljeriju je dobra ideja. Pokušaj da pogodiš gde se neprijateljska artiljerija krije, i proveri da li si  u pravu jednim preciznim pogotkom." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Što češće voziš artiljeriju, to više strateških mesta na mapi znaš. Ovo će pomoći u borbi protiv neprijateljskih artiljerija, jer već znaš gde bi one mogli biti pozicionirane.</Hint>
+    <PM name="SPG-10: Kompletna usluga" short="StuG IV: SPG-10" desc="Borbena situacija može da se promeni rapidno - uvek drži oko na mini mapi i postaraj se da imaš jasan pregled neprijateljskih vozila. Moraćeš da se pomeraš po mapi svo vreme umesto da stojiš na jednoj poziciji. Tvoji saveznici računaju na vatrenu moć tvoje artiljerije, daj sve od sebe na ključnom mestu i momentu." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje jednu neprijateljsku artiljeriju.</req>
+        <req>• Ukupna šteta naneta od strane tebe i tvojih saveznika vozilima koja si ti ošamutio ili imobilizovao mora da pređe najmanje 1000 poena štete.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljska vozila.</req>
+        <req>• Saveznici moraju da unište bar 1 neprijateljsko vozilo koje si ti ošamutio ili imobilizovao.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona efektivnosti" short="StuG IV: SPG-11" desc="Tvoje fugasne granate mogu uništiti neprijatelja prvom granatom, ali takodje mogu oštetiti više meta odjednom, ako su dovoljno blizu." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Možete bukvalno ubiti dve ptice jednim kamenom, ako je više neprijateljskih vozila na jednom mestu. Ovo je čest slučaj na urbanim mapama.</Hint>
+    <PM name="SPG-11: Zona efektivnosti" short="StuG IV: SPG-11" desc="Pored poprilične štete nanesene dobro plasiranim hicem, fugasna granata može takođe i da ošamuti sva loše postavljena vozila u eksplozivnom radijusu granate. Mnoge mape imaju mesta gde se neprijateljska vozila sabijaju u gomilu. Okušaj svoju sreću i pošalji im eksplozvan \&quot;pozdrav\&quot;." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo jednim pogotkom.\n• Ciljevi koji nisu primili prethodnu štetu u borbi se računaju.</req>
+        <req>• Ošamuti najmanje 2 neprijateljska vozila jednim hicem.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljka vozila u trajanju od najmanje 50 sekundi ukupno.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Urokljivi pogled" short="StuG IV: SPG-12" desc="Tvoji saveznici su uništili ošamućeno neprijateljsko vozilo? Dobre vesti za tebe, jer je to tvoj doprinos koji donosi željenu pobedu jedan korak bliže! Tvoj cilj je da obezbediš vatrenu podršku i pomogneš svojim saborcima na pravom mestu u pravo vreme." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 50 sekundi ukupno\n• Saveznici moraju da unište najmanje 1 neprijateljsko vozilo koje si ti ošamutio ili imobilizovao.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Udarnik" short="StuG IV: SPG-12" desc="Stil igranja artiljerije se veoma razlikuje od ostalih tipova vozila, ali je glavni cilj isti - uradi najbolje što znaš u borbi i doprinesi timskom cilju." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Nemoj prebacivati na artiljeriski nišan odmah po početku borbe. Prvo se odluči za dobro strateško mesto.</Hint>
+    <PM name="SPG-13: S za saradnju" short="StuG IV: SPG-13" desc="Dobro uigrana kooperacija artiljerije i saveznika predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Budi među 3 najbolja igrača u svom timu po nanetoj šteti.\n• Uništi neprijateljsko vozilo.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 4 puta ili ih ošamuti najmanje 6 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artiljeriska Baterija (Lično/Vod)" short="StuG IV: SPG-13" desc="Vod dobro uigrane artiljerije predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom. Ova misija može biti završena kao deo voda ili samostalno, ali ipak druga opcija je dosta teža." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Širenjem po mapi, vod može napadati sa drugih strana, što će učiniti mnoge stene i zgrade beskorisnim kao zaklon i što će dovesti do vaše dominacije.</Hint>
+    <PM name="SPG-14: Deo posade, deo broda!" short="StuG IV: SPG-14" desc="Saradnja u okviru voda je ključ za pobedu celog tima. Označi neprijateljska vozila u koja nišaniš za svoje drugove iz tima da odmah otvore vatru po njemu kada je jednom ošamućeno ili imobilizovano. Zapamti: jedan vojnik teško dobija borbu." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 15% ukupne štete izazvane neprijateljskom timu od strane vašeg tima lično ili ukupno kao vod.\n• Pobedi u borbi.\n • Može biti završeno lično ili kao deo voda, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje 70 sekundi ukupno ili omogući svojim saveznicima da nanesu najmanje 400 poena štete neprijateljskim vozilima imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ujedinjena Ofanziva (Lično/Vod)" short="StuG IV: SPG-14" desc="Uspeh artiljerije zavisi od ostatka tima. Artiljerija i laki tenkovi dopunjuju jedno drugo, naročito u vodu. Ova misija može biti završena kao deo voda ili lično, mada je druga opcija dosta teža." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Laki tenk može uočiti i imobilisati neprijateljsko vozilo. Artiljerija može lako srediti nesrećnu žrtvu. Zajedno pobedjujemo! Teški tenk će pružiti zaštitu svojim debelim oklopom, srednji tenk će odvući pažnju neprijatelja, dok će lovac tenkova pružati podršku sa udaljenosti.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 poena štete neprijateljskim teškim tenkovima i lovcima tenkova lično ili ukupno kao vod.\n • Može biti završeno lično ili kao deo voda, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Bogovi rata" short="StuG IV: SPG-15" desc="Veoma je korisno za tim ako artiljerija preživi. Nemoj biti izložen neprijateljskoj vatri, i pucaj precizne hice na neprijatelja." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
-      <Hint>Ako poznaješ tehničke karakteristike svoje artiljerije, možeš unapred da planiraš akcije u borbi. Ponekad, ostajanje u bazi nije dobra ideja. Ako voziš brzu artiljeriju, možeš brzo menjati pozicije i napasti neprijatelja sa strane sa koje najmanje očekuju.</Hint>
+    <PM name="SPG-15: Bogovi rata" short="StuG IV: SPG-15" desc="Samohodna artiljerija koja preživljava koliko god je moguće je značajna pomoć timu. Ispaljuj granatu za granatom i pokušaj da te ne zahvati neprijateljska vatra. Ne brzaj i razmisli dva puta pre nego što zapucaš jer je strategija \&quot;jedan hitaac - jedan pogodak\&quot; najbolja za vozilo koje ima veliko vreme punjenja topa." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Budi među 3 najbolja igrača u svom timu po šteti nanesenoj neprijatelju i zarađenom iskustvu.\n• Nanesi najmanje 2000 poena štete.</req>
+        <req>• Budi među 5 najbolja igrača u svom timu po zarađenom iskustvu.\n• Omogući svojim saveznicima da nanesu najmanje 1000 poena štete neprijateljskim vozilima ošamućujući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Preživi borbu.</req>
@@ -2118,7 +2130,7 @@
     <PM name="LT-10: Maksimalni rezultat" short="T28 heavy tank concept: LT-10" desc="Čto si efektivniji u borbi, više iskustva ćeš zaraditi. Pokaži im šta tvoj laki tenk može da uradi!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
       <Hint>Dobar skaut zna kada da bude oprezan a kada agresivan. Dobro pazi na tok borbe.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao najbolji igrač u svom timu po zaradjenom iskustvu.</req>
+        <req>• Završi borbu kao najbolji igrač po sakupljenom iskustvu u svom timu.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
@@ -2409,7 +2421,7 @@
         <req>• Zapali neprijateljsko vozilo.\n• Nanesi najmanje 2.000 poena štete neprijateljskim vozilima.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao jedan od 3 najbolja igrača u svom timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Aktivno dejstvo (Lično/Vod)" short="T28 heavy tank concept: MT-13" desc="Vod srednjih tenkova može biti od velike pomoći na celom bojištu. Ova misija može biti završena kao vod ili lično, mada druga opcija je dosta teža." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
@@ -2442,7 +2454,7 @@
     <PM name="TD-1: Efektivno dejstvo" short="T28 heavy tank concept: TD-1" desc="Lovci tenkova su idealna vozila za one igrače koji vole da uništavaju protivnike sa udaljenosti." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
       <Hint>Lovci tenkova imaju pozamašnu vatrenu moć ali relativno male šanse da prežive. Gađaj sa udaljenosti - preciznost tvog topa to dozvoljava.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Budi medju najbolja pet igrača u timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 5 najboljih igrača po sakupljenom iskustvu u svom timu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
@@ -2574,136 +2586,136 @@
         <req>• Uništi najmanje 2 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Strelac" short="T28 heavy tank concept: SPG-1" desc="Ne troši municiju uzalud. Precizni hici donose pobedu." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Budi strpljiv i sačekaj dok se nišan ne smanji na metu.</Hint>
+    <PM name="SPG-1: Smela tvrdnja" short="T28 heavy tank concept: SPG-1" desc="Veliki radijus eksplozije nakon udara granate je glavna karakteristika artiljerijskih vozila. Čak i ako ne uspeš da ostvariš direktan pogodak i dalje postoje šanse da izazoveš nevolju tako što ćeš ošamutiti vozilo. Ošamućeno neprijateljsko vozilo je ozmačeno markerom koji je vidljiv tvojim saveznicima. Ako saveznici nanesu štetu vozilu koje si ti ošamutio dobićeš dodatne kredite i iskustvo za štetu nanetu uz tvoju asistenciju." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Postigni najmanje 4 pogotka koji su naneli štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 5 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 poena štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 5 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skriven i opasan" short="T28 heavy tank concept: SPG-2" desc="Artiljerija se ne može oslanjati na debljinu oklopa ili brzinu. Ako voziš artiljeriju, nauči kako da se sakriješ tokom borbe." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Oprema kamuflažna mreža kombinovana sa kamuflažom će veoma pomoći u efektivnom skrivanju kada je montirana na artiljeriju.</Hint>
+    <PM name="SPG-2: Vreme je novac" short="T28 heavy tank concept: SPG-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni vremenski period i ne može da funkcioniše punim kapacitetom na bojištu. Zapamti: ošamućeno vozilo postaje laka meta." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1500 poena štete neprijateljskim vozilima. Ostani skriven tokom borbe.\n• Preživi borbu.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje 100 sekundi ukupno.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Uništi najmanje 2 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Vatra Haubice" short="T28 heavy tank concept: SPG-3" desc="Ako želiš da budeš od koristi timu, moraš prvo naučiti da precizno gadjaš." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Prati tok borbe i podržavaj tim. emoj se zadržavati na jednom mestu predugo. Povuci se i traži drugo mesto za paljbu ako je potrebno.</Hint>
+    <PM name="SPG-3: Gubitak prednosti" short="T28 heavy tank concept: SPG-3" desc="Sakriveni i moćni neprijateljski lovci tenkova i teški tenkovi mogu lako da okrenu tok borbe. Oni su mete prvog prioriteta, i nanošenje štete njima ( ili pomaganje u njihovom uništenju) bi trebalo da budu primarni ciljevi za igrače koji voze artiljeriju. Većina teškaša i lovaca tenkova su spori i nezgrapni što povećava šanse za uspešan hitac." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 2000 poena štete neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova najmanje 4 puta.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Proboj" short="T28 heavy tank concept: SPG-4" desc="Snažne fugasne granate ne samo da mogu da oštete neprijatelja, već takodje imaju veliku šansu da oštete ili unište module ili povrede članove posade." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Fugasna grana pokazuje šta vredi samo ako potpuno probije oklop i eksplodira unutar trupa vozila. Ako granata ima osrednju penetraciju, potraži neprijateljsko vozilo sa otvorenom kupolom, ili ubaci premium granatu.</Hint>
+    <PM name="SPG-4: Ne stoj pod vatrom!" short="T28 heavy tank concept: SPG-4" desc="Nauči glavne puteve kretanja neprijateljskih teških tenkova i gde se lukavi lovci tenkova uglavnom kriju. Nišanjenje na određeni deo mape u napred povećava šanse za što efikasniju i razorniju vatru po neprijateljskim pozicijama. Ovi tipovi vozila uglavnom koriste predvidljivu taktiku na određenim mapama. Budi pametan: analiziraj sastav neprijateljskog tima i izaberi najbolju poziciju od samog početka bitke." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module na neprijateljskim vozilima ili im povredi članove posade sa ukupno 5 modula ili članova posade.\n• Broj oštećenih/uništenih modula i članova posade na svim neprijateljskim vozilima se sabira do kraja borbe.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova u trajanju od najmanje 50 sekundi ukupno.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Račun Uništenja" short="T28 heavy tank concept: SPG-5" desc="Velika vatrena moć koju poseduješ je kompenzovana relativno slabom izdržljivošću tvoje artiljerije." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Pokušaj da oštetiš neprijateljska vozila prvom prilikom. Čak i ako fugasna granata promaši cilj za par milimetara, vozilo će ipak biti oštećeno fragmentima.</Hint>
+    <PM name="SPG-5: Horizontalna podrška" short="T28 heavy tank concept: SPG-5" desc="Ošamućivanje neprijateljskog vozila ne samo da dovodi tvoj tim jedan korak bliže ka pobedi, nego takođe ti obezbeđuje dodatno iskustvo i kredite ako tvoji saveznici nanesu štetu neprijateljskom vozilu koje si ti ošamutio. Nemoj da zaboraviš da označiš oblast ka kojoj nišaniš (taster T po poletnim podešavanjim) da bi privukao pažnju svojih saboraca." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Naneta šteta mora biti 6 puta viša od poena zdravlja tvog vozila.\n• Šteta naneta saveznicima se ne računa.</req>
+        <req>• Omogući svojim saveznicima da nanesu štetu od najmanje 1000 poena štet neprijateljskim vozilima imobilizujući ih ili ošamućujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljska vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 5 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Udar čekića" short="T28 heavy tank concept: SPG-6" desc="Često ćeš se boriti protiv vozila većeg nivoa,  ali ovo nije prepreka za iskusnog vozača artiljerije." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Ako ne možeš da probiješ oklop neprijateljskog vozila standardnim granatama, pokušaj sa premijum municijom. Gađaj stranice i pozadinu neprijateljskih vozila. Artiljerije sa svojim lukom leta granata, mogu lako da pogode svako vozilo sa gornje strane kupole, gde je oklop slab. Neprijateljska vozila sa otvorenim kupolama su još više osetljiva na ovu destrukciju do gore.</Hint>
+    <PM name="SPG-6: Torov čekić" short="T28 heavy tank concept: SPG-6" desc="Primarni cilj artiljerije je da obezbedi vatrenu podršku savezničkim vozilima. Ošamućena neprijateljska vozila su slabi borci, tako da će ti saborci biti zahvalni. Budi oprezan kada pucaš: loše naciljan nesmotren hitac može ta ošamuti i savezničko vozilo. Prijateljska vatra neće biti tolerisana!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 3 neprijateljska vozila istog ili višeg nivoa od tvog vozila.</req>
+        <req>• Omogući svojim saveznicima da nanesu štetu na najmanje 3 neprijateljska vozila imobilizujući ih ili ošamućujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Izvedite Krupne Topove" short="T28 heavy tank concept: SPG-7" desc="Uništi neprijateljske lovce tenkova i artiljeriju prvom prilikom. Njihovo uništenje može promeniti tok bitke u tvoju korist." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Koordinirajte svoje akcije sa savezničkim lakim tenkovima. Uočavanje neprijateljskih lovaca tenkova i artiljerije kao i njihovo uništenje može pomoći u dobijanju nadmoći nad borbenim poljem.</Hint>
+    <PM name="SPG-7: Kontrola populacije" short="T28 heavy tank concept: SPG-7" desc="Da bi završio ovu misiju upotrebi selektivan pristup prilikom izbora svojih meta. Nemoj koncentrisati vatru na jedno neprijateljsko ozila, čak i ako je laka meta. Najbolja strategija je da se pogodi velika grupa neprijatelja jednim hicem. Proučavaj mape i nauči osnovne putanje vozila." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski lovac tenkova ili artiljeriju koji su 1 nivo iznad tvog vozila.</req>
+        <req>• Ošamuti najmanje 3 neprijateljska vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 poena štete.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Teška vatra na Teške tenkove!" short="T28 heavy tank concept: SPG-8" desc="Teški tenk je teška meta, ali ne i za vaš top. Granate sa lučnom trajektorijom mogu pogoditi vozilo sa gornje strane kupole, gde je oklop najtanji." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Teški tenkovi se uglavnom kreću sporije od ostalih tipova vozila. Zbog toga, često možete predpostaviti gde će tenk biti kada granata doleti. Za vozača artiljerije, korisno je znati brzinu granata.</Hint>
+    <PM name="SPG-8: Dao sam sve od sebe" short="T28 heavy tank concept: SPG-8" desc="Dobijaš iskustvo za sve efektivne akcije. Nanosi štetu, pomaži u  uništenju neprijateljskih vozila o šreživi borbu. Menjaj svoju poziciju nakon svakog hica, u suprotnom , vatra iz neprijateljske artiljerije može da uništi tvoje vozilo." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 1500 poena štete neprijateljskim teškim tenkovima.</req>
+        <req>• Budi među 5 najboljih igrača po sakupljenom iskustvu u svom timu.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska teška tenka.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Vodi ih do udara" short="T28 heavy tank concept: SPG-9" desc="Iskusan vozač artiljerije lako može gadjati vozila u pokretu. Nauči kako da efektivno predvidiš njihovo kretanje kada pucaš. Zapamti da direktan pogodak nanosi više štete neprijateljskom vozilu nego fugasno rasprskavanje." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Brzina granata je veoma važan parametar. Znajući kada granata stiže do mete, možeš odrediti tačan položaj.</Hint>
+    <PM name="SPG-9: Kolateralna šteta" short="T28 heavy tank concept: SPG-9" desc="Moćne fugasne granate mogu ne samo da smanje poene izdržljivosti neprijateljskih vozila već imaju i visoke panse da unište module ili povrede posadu svojom eksplozijom." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pogodi najmanje dva precizna pogotka na neprijateljsko vozilo.\n• Svi direktni pogotci, bilo da su izazvali štetu ili ne, se računaju.</req>
+        <req>• Uništi bilo koji modul na neprijateljskom vozilu ili povredi bilo kog člana posade, za ukupan zbir od najmanje 5 modula i članova posade.\n• Broj uništenih modula i povređenih članova posade se sabira za sva neprijateljska vozila koja si oštetio tokom borbe.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Preživi borbu.\n• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Prokletstvo artiljerije" short="T28 heavy tank concept: SPG-10" desc="Lov na artiljeriju je dobra ideja. Pokušaj da pogodiš gde se neprijateljska artiljerija krije, i proveri da li si  u pravu jednim preciznim pogotkom." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Što češće voziš artiljeriju, to više strateških mesta na mapi znaš. Ovo će pomoći u borbi protiv neprijateljskih artiljerija, jer već znaš gde bi one mogli biti pozicionirane.</Hint>
+    <PM name="SPG-10: Kompletna usluga" short="T28 heavy tank concept: SPG-10" desc="Borbena situacija može da se promeni rapidno - uvek drži oko na mini mapi i postaraj se da imaš jasan pregled neprijateljskih vozila. Moraćeš da se pomeraš po mapi svo vreme umesto da stojiš na jednoj poziciji. Tvoji saveznici računaju na vatrenu moć tvoje artiljerije, daj sve od sebe na ključnom mestu i momentu." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dve neprijateljske artiljerije.</req>
+        <req>• Totalna šteta naneta neprijatlejskim vozilima koja si ti ošamutio ili imobillizovao od strane saveznika i tebe mora da bude najmanje 2000 poena štete.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 3 neprijateljska vozila.</req>
+        <req>• Saveznici moraju da unište bar 1 neprijateljsko vozilo koje si ti ošamutio ili imobilizovao.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona efektivnosti" short="T28 heavy tank concept: SPG-11" desc="Tvoje fugasne granate mogu uništiti neprijatelja prvom granatom, ali takodje mogu oštetiti više meta odjednom, ako su dovoljno blizu." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Možete bukvalno ubiti dve ptice jednim kamenom, ako je više neprijateljskih vozila na jednom mestu. Ovo je čest slučaj na urbanim mapama.</Hint>
+    <PM name="SPG-11: Zona efektivnosti" short="T28 heavy tank concept: SPG-11" desc="Pored poprilične štete nanesene dobro plasiranim hicem, fugasna granata može takođe i da ošamuti sva loše postavljena vozila u eksplozivnom radijusu granate. Mnoge mape imaju mesta gde se neprijateljska vozila sabijaju u gomilu. Okušaj svoju sreću i pošalji im eksplozvan \&quot;pozdrav\&quot;." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi štetu na 2 neprijateljska vozila jednom granatom.</req>
+        <req>• Ošamuti najmanje 2 neprijateljska vozila jednim hicem dva puta.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila na najmanje 100 sekundi ukupno.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Urokljivi pogled" short="T28 heavy tank concept: SPG-12" desc="Tvoji saveznici su uništili ošamućeno neprijateljsko vozilo? Dobre vesti za tebe, jer je to tvoj doprinos koji donosi željenu pobedu jedan korak bliže! Tvoj cilj je da obezbediš vatrenu podršku i pomogneš svojim saborcima na pravom mestu u pravo vreme." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 100 sekundi.\n• Saveznici moraju da unište najmanje 1 neprijateljsko vozilo koje si ti ošamutio ili imobilisao.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Udarnik" short="T28 heavy tank concept: SPG-12" desc="Stil igranja artiljerije se veoma razlikuje od ostalih tipova vozila, ali je glavni cilj isti - uradi najbolje što znaš u borbi i doprinesi timskom cilju." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Nemoj prebacivati na artiljeriski nišan odmah po početku borbe. Prvo se odluči za dobro strateško mesto.</Hint>
+    <PM name="SPG-13: S za saradnju" short="T28 heavy tank concept: SPG-13" desc="Dobro uigrana kooperacija artiljerije i saveznika predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Budi među 3 najbolja igrača u oba tima po nanetoj šteti.\n• Uništi najmanje 2 neprijatlejska vozila.\n• Preživi borbu.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta ili ih ošamuti najmanje 8 puta.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artiljeriska Baterija (Lično/Vod)" short="T28 heavy tank concept: SPG-13" desc="Vod dobro uigrane artiljerije predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom. Ova misija može biti završena kao deo voda ili samostalno, ali ipak druga opcija je dosta teža." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Širenjem po mapi, vod može napadati sa drugih strana, što će učiniti mnoge stene i zgrade beskorisnim kao zaklon i što će dovesti do vaše dominacije.</Hint>
+    <PM name="SPG-14: Deo posade, deo broda!" short="T28 heavy tank concept: SPG-14" desc="Saradnja u okviru voda je ključ za pobedu celog tima. Označi neprijateljska vozila u koja nišaniš za svoje drugove iz tima da odmah otvore vatru po njemu kada je jednom ošamućeno ili imobilizovano. Zapamti: jedan vojnik teško dobija borbu." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 20% ukupne nanete štete od strane tima neprijateljskim vozilima lično ili kao vod.\n• Pobedi u borbi.\n• Može biti završena kao deo voda ili lično koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje 100 sekundi ukupna ili omogući svojim saveznicima da nanesu najmanje 600 poena štete neprijateljskim vozilima imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ujedinjena Ofanziva (Lično/Vod)" short="T28 heavy tank concept: SPG-14" desc="Uspeh artiljerije zavisi od ostatka tima. Artiljerija i laki tenkovi dopunjuju jedno drugo, naročito u vodu. Ova misija može biti završena kao deo voda ili lično, mada je druga opcija dosta teža." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Laki tenk može uočiti i imobilisati neprijateljsko vozilo. Artiljerija može lako srediti nesrećnu žrtvu. Zajedno pobedjujemo! Teški tenk će pružiti zaštitu svojim debelim oklopom, srednji tenk će odvući pažnju neprijatelja, dok će lovac tenkova pružati podršku sa udaljenosti.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 poena štete neprijateljskim teškim tenkovima i lovcima tenkova lično ili kao vod.\n• Može biti završena kao deo voda ili lično koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Bogovi rata" short="T28 heavy tank concept: SPG-15" desc="Veoma je korisno za tim ako artiljerija preživi. Nemoj biti izložen neprijateljskoj vatri, i pucaj precizne hice na neprijatelja." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
-      <Hint>Ako poznaješ tehničke karakteristike svoje artiljerije, možeš unapred da planiraš akcije u borbi. Ponekad, ostajanje u bazi nije dobra ideja. Ako voziš brzu artiljeriju, možeš brzo menjati pozicije i napasti neprijatelja sa strane sa koje najmanje očekuju.</Hint>
+    <PM name="SPG-15: Bogovi rata" short="T28 heavy tank concept: SPG-15" desc="Samohodna artiljerija koja preživljava koliko god je moguće je značajna pomoć timu. Ispaljuj granatu za granatom i pokušaj da te ne zahvati neprijateljska vatra. Ne brzaj i razmisli dva puta pre nego što zapucaš jer je strategija \&quot;jedan hitaac - jedan pogodak\&quot; najbolja za vozilo koje ima veliko vreme punjenja topa." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Pridruži se tri najbolja igrača u oba tima po iskustvu i nanetoj šteti.\n• Nanesi najmanje 2000 poena štete.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.\n• Omogući svojim saveznicima da nanesu najmanje 1500 poena štete neprijateljskim vozilima ošamućujući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Preživi borbu.</req>
@@ -3084,7 +3096,7 @@
         <req>• Zapali neprijateljsko vozilo istog ili višeg nivoa od tvog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Završi borbu kao jedan od 3 najbolja igrača u svom timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Aktivno dejstvo (Lično/Vod)" short="T 55A: MT-13" desc="Vod srednjih tenkova može biti od velike pomoći na celom bojištu. Ova misija može biti završena kao vod ili lično, mada druga opcija je dosta teža." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
@@ -3117,7 +3129,7 @@
     <PM name="TD-1: Efektivno dejstvo" short="T 55A: TD-1" desc="Lovci tenkova su idealna vozila za one igrače koji vole da uništavaju protivnike sa udaljenosti." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
       <Hint>Lovci tenkova imaju pozamašnu vatrenu moć ali relativno male šanse da prežive. Gađaj sa udaljenosti - preciznost tvog topa to dozvoljava.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao jedan od 3 najbolja igrača u svom timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
@@ -3249,136 +3261,136 @@
         <req>• Uništi najmanje 3 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Strelac" short="T 55A: SPG-1" desc="Ne troši municiju uzalud. Precizni hici donose pobedu." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Budi strpljiv i sačekaj dok se nišan ne smanji na metu.</Hint>
+    <PM name="SPG-1: Smela tvrdnja" short="T 55A: SPG-1" desc="Veliki radijus eksplozije nakon udara granate je glavna karakteristika artiljerijskih vozila. Čak i ako ne uspeš da ostvariš direktan pogodak i dalje postoje šanse da izazoveš nevolju tako što ćeš ošamutiti vozilo. Ošamućeno neprijateljsko vozilo je ozmačeno markerom koji je vidljiv tvojim saveznicima. Ako saveznici nanesu štetu vozilu koje si ti ošamutio dobićeš dodatne kredite i iskustvo za štetu nanetu uz tvoju asistenciju." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Postigni najmanje 5 pogodaka koji su naneli štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 7 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 poena štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skriven i opasan" short="T 55A: SPG-2" desc="Artiljerija se ne može oslanjati na debljinu oklopa ili brzinu. Ako voziš artiljeriju, nauči kako da se sakriješ tokom borbe." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Oprema kamuflažna mreža kombinovana sa kamuflažom će veoma pomoći u efektivnom skrivanju kada je montirana na artiljeriju.</Hint>
+    <PM name="SPG-2: Vreme je novac" short="T 55A: SPG-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni vremenski period i ne može da funkcioniše punim kapacitetom na bojištu. Zapamti: ošamućeno vozilo postaje laka meta." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Budi među 5 najboljih igrača u svom timu po nanetoj šteti. Ostani skriven tokom borbe.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 150 sekundi ukupno.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Uništi najmanje 3 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Vatra Haubice" short="T 55A: SPG-3" desc="Ako želiš da budeš od koristi timu, moraš prvo naučiti da precizno gadjaš." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Prati tok borbe i podržavaj tim. emoj se zadržavati na jednom mestu predugo. Povuci se i traži drugo mesto za paljbu ako je potrebno.</Hint>
+    <PM name="SPG-3: Gubitak prednosti" short="T 55A: SPG-3" desc="Sakriveni i moćni neprijateljski lovci tenkova i teški tenkovi mogu lako da okrenu tok borbe. Oni su mete prvog prioriteta, i nanošenje štete njima ( ili pomaganje u njihovom uništenju) bi trebalo da budu primarni ciljevi za igrače koji voze artiljeriju. Većina teškaša i lovaca tenkova su spori i nezgrapni što povećava šanse za uspešan hitac." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 poena štete neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova najmanje 6 puta.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Proboj" short="T 55A: SPG-4" desc="Snažne fugasne granate ne samo da mogu da oštete neprijatelja, već takodje imaju veliku šansu da oštete ili unište module ili povrede članove posade." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Fugasna grana pokazuje šta vredi samo ako potpuno probije oklop i eksplodira unutar trupa vozila. Ako granata ima osrednju penetraciju, potraži neprijateljsko vozilo sa otvorenom kupolom, ili ubaci premium granatu.</Hint>
+    <PM name="SPG-4: Ne stoj pod vatrom!" short="T 55A: SPG-4" desc="Nauči glavne puteve kretanja neprijateljskih teških tenkova i gde se lukavi lovci tenkova uglavnom kriju. Nišanjenje na određeni deo mape u napred povećava šanse za što efikasniju i razorniju vatru po neprijateljskim pozicijama. Ovi tipovi vozila uglavnom koriste predvidljivu taktiku na određenim mapama. Budi pametan: analiziraj sastav neprijateljskog tima i izaberi najbolju poziciju od samog početka bitke." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module na vozilu ili povredi članove posade, za ukupan zbir od 8 modula i članova posade.\n• Broj oštećenih/uništenih modula i povređenih članova posade se dopunjuju.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova najmanje na 80 sekundi ukupno.\n• Hitac koji je izazvao šok takođe mora da nanese i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Račun Uništenja" short="T 55A: SPG-5" desc="Velika vatrena moć koju poseduješ je kompenzovana relativno slabom izdržljivošću tvoje artiljerije." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Pokušaj da oštetiš neprijateljska vozila prvom prilikom. Čak i ako fugasna granata promaši cilj za par milimetara, vozilo će ipak biti oštećeno fragmentima.</Hint>
+    <PM name="SPG-5: Horizontalna podrška" short="T 55A: SPG-5" desc="Ošamućivanje neprijateljskog vozila ne samo da dovodi tvoj tim jedan korak bliže ka pobedi, nego takođe ti obezbeđuje dodatno iskustvo i kredite ako tvoji saveznici nanesu štetu neprijateljskom vozilu koje si ti ošamutio. Nemoj da zaboraviš da označiš oblast ka kojoj nišaniš (taster T po poletnim podešavanjim) da bi privukao pažnju svojih saboraca." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi 8 puta više štete neprijateljskim vozilima od poena zdravlja tvog vozila.\n• Šteta naneta saveznicima se ne računa.</req>
+        <req>• Omogući svojim saveznicima da nanesu najmanje 2000 poena štete neprijateljskim vozilima ošamućujući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 3 neprijateljska vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Udar čekića" short="T 55A: SPG-6" desc="Često ćeš se boriti protiv vozila većeg nivoa,  ali ovo nije prepreka za iskusnog vozača artiljerije." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Ako ne možeš da probiješ oklop neprijateljskog vozila standardnim granatama, pokušaj sa premijum municijom. Gađaj stranice i pozadinu neprijateljskih vozila. Artiljerije sa svojim lukom leta granata, mogu lako da pogode svako vozilo sa gornje strane kupole, gde je oklop slab. Neprijateljska vozila sa otvorenim kupolama su još više osetljiva na ovu destrukciju do gore.</Hint>
+    <PM name="SPG-6: Torov čekić" short="T 55A: SPG-6" desc="Primarni cilj artiljerije je da obezbedi vatrenu podršku savezničkim vozilima. Ošamućena neprijateljska vozila su slabi borci, tako da će ti saborci biti zahvalni. Budi oprezan kada pucaš: loše naciljan nesmotren hitac može ta ošamuti i savezničko vozilo. Prijateljska vatra neće biti tolerisana!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 3 neprijateljska vozila koja su 1 nivo iznad tvog vozila.</req>
+        <req>• Omogući svojim saveznicima da nanesu štetu na najmanje 5 neprijateljskih vozila ošamućujući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Izvedite Krupne Topove" short="T 55A: SPG-7" desc="Uništi neprijateljske lovce tenkova i artiljeriju prvom prilikom. Njihovo uništenje može promeniti tok bitke u tvoju korist." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Koordinirajte svoje akcije sa savezničkim lakim tenkovima. Uočavanje neprijateljskih lovaca tenkova i artiljerije kao i njihovo uništenje može pomoći u dobijanju nadmoći nad borbenim poljem.</Hint>
+    <PM name="SPG-7: Kontrola populacije" short="T 55A: SPG-7" desc="Da bi završio ovu misiju upotrebi selektivan pristup prilikom izbora svojih meta. Nemoj koncentrisati vatru na jedno neprijateljsko ozila, čak i ako je laka meta. Najbolja strategija je da se pogodi velika grupa neprijatelja jednim hicem. Proučavaj mape i nauči osnovne putanje vozila." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi ukupno najmanje dva neprijateljska lovca tenkova i artiljerije.\n• Pobedi u borbi.</req>
+        <req>• Ošamuti najmanje 5 neprijateljskih vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 poena štete.</req>
+        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Teška vatra na Teške tenkove!" short="T 55A: SPG-8" desc="Teški tenk je teška meta, ali ne i za vaš top. Granate sa lučnom trajektorijom mogu pogoditi vozilo sa gornje strane kupole, gde je oklop najtanji." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Teški tenkovi se uglavnom kreću sporije od ostalih tipova vozila. Zbog toga, često možete predpostaviti gde će tenk biti kada granata doleti. Za vozača artiljerije, korisno je znati brzinu granata.</Hint>
+    <PM name="SPG-8: Dao sam sve od sebe" short="T 55A: SPG-8" desc="Dobijaš iskustvo za sve efektivne akcije. Nanosi štetu, pomaži u  uništenju neprijateljskih vozila o šreživi borbu. Menjaj svoju poziciju nakon svakog hica, u suprotnom , vatra iz neprijateljske artiljerije može da uništi tvoje vozilo." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 2000 poena štete neprijateljskim teškim tenkovima.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski teški tenk.\n• Pobedi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Vodi ih do udara" short="T 55A: SPG-9" desc="Iskusan vozač artiljerije lako može gadjati vozila u pokretu. Nauči kako da efektivno predvidiš njihovo kretanje kada pucaš. Zapamti da direktan pogodak nanosi više štete neprijateljskom vozilu nego fugasno rasprskavanje." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Brzina granata je veoma važan parametar. Znajući kada granata stiže do mete, možeš odrediti tačan položaj.</Hint>
+    <PM name="SPG-9: Kolateralna šteta" short="T 55A: SPG-9" desc="Moćne fugasne granate mogu ne samo da smanje poene izdržljivosti neprijateljskih vozila već imaju i visoke panse da unište module ili povrede posadu svojom eksplozijom." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ošteti vozilo koje se kreće brzinom od najmanje 30 km/h.\n• Šteta praska i direktna štetea se računaju.\n• Šteta izazvana sudaranjem se ne računa.</req>
+        <req>• Uništi bilo koji modul na neprijateljskom vozilu ili povredi bilo kog člana posade, za ukupan zbir od najmanje 8 modula i članova posade.\n• Broj uništenih modula i povređenih članova posade se sabira za sva neprijateljska vozila koja si oštetio tokom borbe.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Preživi borbu.\n• Pobedi.\n• Ostani skriven tokom borbe.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Prokletstvo artiljerije" short="T 55A: SPG-10" desc="Lov na artiljeriju je dobra ideja. Pokušaj da pogodiš gde se neprijateljska artiljerija krije, i proveri da li si  u pravu jednim preciznim pogotkom." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Što češće voziš artiljeriju, to više strateških mesta na mapi znaš. Ovo će pomoći u borbi protiv neprijateljskih artiljerija, jer već znaš gde bi one mogli biti pozicionirane.</Hint>
+    <PM name="SPG-10: Kompletna usluga" short="T 55A: SPG-10" desc="Borbena situacija može da se promeni rapidno - uvek drži oko na mini mapi i postaraj se da imaš jasan pregled neprijateljskih vozila. Moraćeš da se pomeraš po mapi svo vreme umesto da stojiš na jednoj poziciji. Tvoji saveznici računaju na vatrenu moć tvoje artiljerije, daj sve od sebe na ključnom mestu i momentu." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 1 neprijateljsku artiljeriju.\n• Nanesi najmanje 2.000 poena štete neprijateljskim vozilima.</req>
+        <req>• Totalna šteta naneta neprijatlejskim vozilima koja si ti ošamutio ili imobillizovao od strane saveznika i tebe mora da bude najmanje 3000 poena štete.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
+        <req>• Pobedi u borbi.\n• Saveznici moraju da unište najmanje 2 neprijateljska vozila koja si ti ošamutio ili imobilisao.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona efektivnosti" short="T 55A: SPG-11" desc="Tvoje fugasne granate mogu uništiti neprijatelja prvom granatom, ali takodje mogu oštetiti više meta odjednom, ako su dovoljno blizu." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Možete bukvalno ubiti dve ptice jednim kamenom, ako je više neprijateljskih vozila na jednom mestu. Ovo je čest slučaj na urbanim mapama.</Hint>
+    <PM name="SPG-11: Zona efektivnosti" short="T 55A: SPG-11" desc="Pored poprilične štete nanesene dobro plasiranim hicem, fugasna granata može takođe i da ošamuti sva loše postavljena vozila u eksplozivnom radijusu granate. Mnoge mape imaju mesta gde se neprijateljska vozila sabijaju u gomilu. Okušaj svoju sreću i pošalji im eksplozvan \&quot;pozdrav\&quot;." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo i nanesi štetu na još jenom vozilu jednom granatom.</req>
+        <req>• Ošamuti najmanje 3 neprijateljska vozila jednim hicem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 150 sekundi ukupno.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Udarnik" short="T 55A: SPG-12" desc="Stil igranja artiljerije se veoma razlikuje od ostalih tipova vozila, ali je glavni cilj isti - uradi najbolje što znaš u borbi i doprinesi timskom cilju." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Nemoj prebacivati na artiljeriski nišan odmah po početku borbe. Prvo se odluči za dobro strateško mesto.</Hint>
+    <PM name="SPG-12: Urokljivi pogled" short="T 55A: SPG-12" desc="Tvoji saveznici su uništili ošamućeno neprijateljsko vozilo? Dobre vesti za tebe, jer je to tvoj doprinos koji donosi željenu pobedu jedan korak bliže! Tvoj cilj je da obezbediš vatrenu podršku i pomogneš svojim saborcima na pravom mestu u pravo vreme." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao najbolji igrač u svom timu po nanetoj šteti.\n• Uništi najmanje 3 neprijateljska vozila.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 150 sekundi.\n• Saveznici moraju da unište najmanje 2 neprijateljska vozila koja si ti ošamutio ili imobilisao.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artiljeriska Baterija (Lično/Vod)" short="T 55A: SPG-13" desc="Vod dobro uigrane artiljerije predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom. Ova misija može biti završena kao deo voda ili samostalno, ali ipak druga opcija je dosta teža." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Širenjem po mapi, vod može napadati sa drugih strana, što će učiniti mnoge stene i zgrade beskorisnim kao zaklon i što će dovesti do vaše dominacije.</Hint>
+    <PM name="SPG-13: S za saradnju" short="T 55A: SPG-13" desc="Dobro uigrana kooperacija artiljerije i saveznika predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 25% ukupne štete izazvane neprijateljskom timu od strane vašeg tima lično ili kao vod.\n• Pobedi u borbi.\n• Može biti završeno lično ili kao deo voda, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta ili ih ošamuti najmanje 10 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ujedinjena Ofanziva (Lično/Vod)" short="T 55A: SPG-14" desc="Uspeh artiljerije zavisi od ostatka tima. Artiljerija i laki tenkovi dopunjuju jedno drugo, naročito u vodu. Ova misija može biti završena kao deo voda ili lično, mada je druga opcija dosta teža." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Laki tenk može uočiti i imobilisati neprijateljsko vozilo. Artiljerija može lako srediti nesrećnu žrtvu. Zajedno pobedjujemo! Teški tenk će pružiti zaštitu svojim debelim oklopom, srednji tenk će odvući pažnju neprijatelja, dok će lovac tenkova pružati podršku sa udaljenosti.</Hint>
+    <PM name="SPG-14: Deo posade, deo broda!" short="T 55A: SPG-14" desc="Saradnja u okviru voda je ključ za pobedu celog tima. Označi neprijateljska vozila u koja nišaniš za svoje drugove iz tima da odmah otvore vatru po njemu kada je jednom ošamućeno ili imobilizovano. Zapamti: jedan vojnik teško dobija borbu." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 poena štete neprijateljskim teškim tenkovima i lovcima tenkova lično ili kao vod.\n• Može biti završeno lično ili kao deo voda, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje 180 sekundi ukupno ili omogući svojim saveznicima da nanesu najmanje 800 poena štete neprijateljskim vozilima imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Bogovi rata" short="T 55A: SPG-15" desc="Veoma je korisno za tim ako artiljerija preživi. Nemoj biti izložen neprijateljskoj vatri, i pucaj precizne hice na neprijatelja." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
-      <Hint>Ako poznaješ tehničke karakteristike svoje artiljerije, možeš unapred da planiraš akcije u borbi. Ponekad, ostajanje u bazi nije dobra ideja. Ako voziš brzu artiljeriju, možeš brzo menjati pozicije i napasti neprijatelja sa strane sa koje najmanje očekuju.</Hint>
+    <PM name="SPG-15: Bogovi rata" short="T 55A: SPG-15" desc="Samohodna artiljerija koja preživljava koliko god je moguće je značajna pomoć timu. Ispaljuj granatu za granatom i pokušaj da te ne zahvati neprijateljska vatra. Ne brzaj i razmisli dva puta pre nego što zapucaš jer je strategija \&quot;jedan hitaac - jedan pogodak\&quot; najbolja za vozilo koje ima veliko vreme punjenja topa." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Završi borbu kao najbolji igrač u timu po zarađenom iskustvu i po nanetoj šteti.\n• Nanesi najmanje 3000 poena štete.</req>
+        <req>• Završi borbu kao najbolji igrač u timu po zarađenom iskustvu.\n• Omogući svojim saveznicima da nanesu najmanje 2500 poena štete neprijateljskim vozilima ošamućujući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Preživi borbu.</req>
@@ -3759,7 +3771,7 @@
         <req>• Zapali neprijateljsko vozilo istog ili višeg nivoa od tvog vozila\n• Nanesi najmanje 3.000 poena štete neprijateljskim vozilima.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao jedan od 3 najbolja igrača u svom timu po zaradjenom iskustvu.</req>
+        <req>• Budi među 3 najbolja igrača u svom timu po sakupljenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Aktivno dejstvo (Lično/Vod)" short="Object 260: MT-13" desc="Vod srednjih tenkova može biti od velike pomoći na celom bojištu. Ova misija može biti završena kao vod ili lično, mada druga opcija je dosta teža." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
@@ -3792,7 +3804,7 @@
     <PM name="TD-1: Efektivno dejstvo" short="Object 260: TD-1" desc="Lovci tenkova su idealna vozila za one igrače koji vole da uništavaju protivnike sa udaljenosti." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
       <Hint>Lovci tenkova imaju pozamašnu vatrenu moć ali relativno male šanse da prežive. Gađaj sa udaljenosti - preciznost tvog topa to dozvoljava.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao najbolji igrač u svom timu po zaradjenom iskustvu.</req>
+        <req>• Završi borbu kao najbolji igrač po sakupljenom iskustvu u svom timu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
@@ -3924,136 +3936,136 @@
         <req>• Uništi najmanje 5 neprijateljskih vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Strelac" short="Object 260: SPG-1" desc="Ne troši municiju uzalud. Precizni hici donose pobedu." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Budi strpljiv i sačekaj dok se nišan ne smanji na metu.</Hint>
+    <PM name="SPG-1: Smela tvrdnja" short="Object 260: SPG-1" desc="Veliki radijus eksplozije nakon udara granate je glavna karakteristika artiljerijskih vozila. Čak i ako ne uspeš da ostvariš direktan pogodak i dalje postoje šanse da izazoveš nevolju tako što ćeš ošamutiti vozilo. Ošamućeno neprijateljsko vozilo je ozmačeno markerom koji je vidljiv tvojim saveznicima. Ako saveznici nanesu štetu vozilu koje si ti ošamutio dobićeš dodatne kredite i iskustvo za štetu nanetu uz tvoju asistenciju." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Postigni najmanje 6 hitaca koji su naneli štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 10 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 poena štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta pucanjem ili udaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skriven i opasan" short="Object 260: SPG-2" desc="Artiljerija se ne može oslanjati na debljinu oklopa ili brzinu. Ako voziš artiljeriju, nauči kako da se sakriješ tokom borbe." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Oprema kamuflažna mreža kombinovana sa kamuflažom će veoma pomoći u efektivnom skrivanju kada je montirana na artiljeriju.</Hint>
+    <PM name="SPG-2: Vreme je novac" short="Object 260: SPG-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni vremenski period i ne može da funkcioniše punim kapacitetom na bojištu. Zapamti: ošamućeno vozilo postaje laka meta." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Budi među najbolja 3 igrača u timu po nanetoj šteti. Ostani skriven tokom borbe.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 200 sekundi ukupno.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 3 neprijateljska vozila.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Vatra Haubice" short="Object 260: SPG-3" desc="Ako želiš da budeš od koristi timu, moraš prvo naučiti da precizno gadjaš." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Prati tok borbe i podržavaj tim. emoj se zadržavati na jednom mestu predugo. Povuci se i traži drugo mesto za paljbu ako je potrebno.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 poena štete neprijateljskim vozilima.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Proboj" short="Object 260: SPG-4" desc="Snažne fugasne granate ne samo da mogu da oštete neprijatelja, već takodje imaju veliku šansu da oštete ili unište module ili povrede članove posade." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Fugasna grana pokazuje šta vredi samo ako potpuno probije oklop i eksplodira unutar trupa vozila. Ako granata ima osrednju penetraciju, potraži neprijateljsko vozilo sa otvorenom kupolom, ili ubaci premium granatu.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module ili članove posada neprijateljskih vozila, sa najmanje 10 modula i članova posada.\n• Broj uništenih/oštećenih modula i povredjenih članova posade poreko svih neprijateljskih vozila koje si oštetio se sabiraju.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Račun Uništenja" short="Object 260: SPG-5" desc="Velika vatrena moć koju poseduješ je kompenzovana relativno slabom izdržljivošću tvoje artiljerije." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Pokušaj da oštetiš neprijateljska vozila prvom prilikom. Čak i ako fugasna granata promaši cilj za par milimetara, vozilo će ipak biti oštećeno fragmentima.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi 10 puta više štete nego što tvoje vozilo ima poena zdravlja.\n• Šteta naneta saveznicima se ne računa.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Udar čekića" short="Object 260: SPG-6" desc="Često ćeš se boriti protiv vozila većeg nivoa,  ali ovo nije prepreka za iskusnog vozača artiljerije." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Ako ne možeš da probiješ oklop neprijateljskog vozila standardnim granatama, pokušaj sa premijum municijom. Gađaj stranice i pozadinu neprijateljskih vozila. Artiljerije sa svojim lukom leta granata, mogu lako da pogode svako vozilo sa gornje strane kupole, gde je oklop slab. Neprijateljska vozila sa otvorenim kupolama su još više osetljiva na ovu destrukciju do gore.</Hint>
+    <PM name="SPG-3: Gubitak prednosti" short="Object 260: SPG-3" desc="Sakriveni i moćni neprijateljski lovci tenkova i teški tenkovi mogu lako da okrenu tok borbe. Oni su mete prvog prioriteta, i nanošenje štete njima ( ili pomaganje u njihovom uništenju) bi trebalo da budu primarni ciljevi za igrače koji voze artiljeriju. Većina teškaša i lovaca tenkova su spori i nezgrapni što povećava šanse za uspešan hitac." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova najmanje 8 puta.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: Ne stoj pod vatrom!" short="Object 260: SPG-4" desc="Nauči glavne puteve kretanja neprijateljskih teških tenkova i gde se lukavi lovci tenkova uglavnom kriju. Nišanjenje na određeni deo mape u napred povećava šanse za što efikasniju i razorniju vatru po neprijateljskim pozicijama. Ovi tipovi vozila uglavnom koriste predvidljivu taktiku na određenim mapama. Budi pametan: analiziraj sastav neprijateljskog tima i izaberi najbolju poziciju od samog početka bitke." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljski teški tenk ili lovac tenkova u trajanju od najmanje 120 sekundi ukupno.\n• Hici koji su izazvali šok takođe moraju da nanesu i štetu.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Horizontalna podrška" short="Object 260: SPG-5" desc="Ošamućivanje neprijateljskog vozila ne samo da dovodi tvoj tim jedan korak bliže ka pobedi, nego takođe ti obezbeđuje dodatno iskustvo i kredite ako tvoji saveznici nanesu štetu neprijateljskom vozilu koje si ti ošamutio. Nemoj da zaboraviš da označiš oblast ka kojoj nišaniš (taster T po poletnim podešavanjim) da bi privukao pažnju svojih saboraca." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljska vozila koja su 2 nivoa iznad tvog vozila.</req>
+        <req>• Omogući svojim saveznicima da nanesu najmanje 3000 poena štete neprijateljskim vozilima ošamućivajući ih ili imobilizujući ih.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta pucanjem ili udaranjem.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Torov čekić" short="Object 260: SPG-6" desc="Primarni cilj artiljerije je da obezbedi vatrenu podršku savezničkim vozilima. Ošamućena neprijateljska vozila su slabi borci, tako da će ti saborci biti zahvalni. Budi oprezan kada pucaš: loše naciljan nesmotren hitac može ta ošamuti i savezničko vozilo. Prijateljska vatra neće biti tolerisana!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Omogući svojim saveznicima da nanesu štetu na najmanje 6 neprijateljskih vozila ošamućivajući ih ili imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Izvedite Krupne Topove" short="Object 260: SPG-7" desc="Uništi neprijateljske lovce tenkova i artiljeriju prvom prilikom. Njihovo uništenje može promeniti tok bitke u tvoju korist." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Koordinirajte svoje akcije sa savezničkim lakim tenkovima. Uočavanje neprijateljskih lovaca tenkova i artiljerije kao i njihovo uništenje može pomoći u dobijanju nadmoći nad borbenim poljem.</Hint>
+    <PM name="SPG-7: Kontrola populacije" short="Object 260: SPG-7" desc="Da bi završio ovu misiju upotrebi selektivan pristup prilikom izbora svojih meta. Nemoj koncentrisati vatru na jedno neprijateljsko ozila, čak i ako je laka meta. Najbolja strategija je da se pogodi velika grupa neprijatelja jednim hicem. Proučavaj mape i nauči osnovne putanje vozila." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi ukupno najmanje 3 neprijateljska lovca tenkova i artiljerije.\n• Pobedi u borbi.</req>
+        <req>• Ošamuti najmanje 6 neprijateljskih vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 poena štete.</req>
+        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Teška vatra na Teške tenkove!" short="Object 260: SPG-8" desc="Teški tenk je teška meta, ali ne i za vaš top. Granate sa lučnom trajektorijom mogu pogoditi vozilo sa gornje strane kupole, gde je oklop najtanji." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Teški tenkovi se uglavnom kreću sporije od ostalih tipova vozila. Zbog toga, često možete predpostaviti gde će tenk biti kada granata doleti. Za vozača artiljerije, korisno je znati brzinu granata.</Hint>
+    <PM name="SPG-8: Dao sam sve od sebe" short="Object 260: SPG-8" desc="Dobijaš iskustvo za sve efektivne akcije. Nanosi štetu, pomaži u  uništenju neprijateljskih vozila o šreživi borbu. Menjaj svoju poziciju nakon svakog hica, u suprotnom , vatra iz neprijateljske artiljerije može da uništi tvoje vozilo." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Izazovi najmanje 3000 poena štete neprijateljskim teškim tenkovima.</req>
+        <req>• Završi borbu kao najbolji igrač po sakupljenom iskustvu u svom timu.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska teška tenka.\n• Pobedi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Vodi ih do udara" short="Object 260: SPG-9" desc="Iskusan vozač artiljerije lako može gadjati vozila u pokretu. Nauči kako da efektivno predvidiš njihovo kretanje kada pucaš. Zapamti da direktan pogodak nanosi više štete neprijateljskom vozilu nego fugasno rasprskavanje." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Brzina granata je veoma važan parametar. Znajući kada granata stiže do mete, možeš odrediti tačan položaj.</Hint>
+    <PM name="SPG-9: Kolateralna šteta" short="Object 260: SPG-9" desc="Moćne fugasne granate mogu ne samo da smanje poene izdržljivosti neprijateljskih vozila već imaju i visoke panse da unište module ili povrede posadu svojom eksplozijom." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pogodi najmanje 4 direktna pogotka na neprijateljska vozila.\n• Svi direktni pogotci, bilo da su naneli štetu ili ne, se računaju.</req>
+        <req>• Uništi bilo koji modul na neprijateljskom vozilu ili povredi bilo kog člana posade, za ukupan zbir od najmanje 10 modula i članova posade.\n• Broj uništenih modula i povređenih članova posade se sabira za sva neprijateljska vozila koja si oštetio tokom borbe.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Preživi borbu.\n• Pobedi.\n• Ostani skriven tokom borbe.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Prokletstvo artiljerije" short="Object 260: SPG-10" desc="Lov na artiljeriju je dobra ideja. Pokušaj da pogodiš gde se neprijateljska artiljerija krije, i proveri da li si  u pravu jednim preciznim pogotkom." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Što češće voziš artiljeriju, to više strateških mesta na mapi znaš. Ovo će pomoći u borbi protiv neprijateljskih artiljerija, jer već znaš gde bi one mogli biti pozicionirane.</Hint>
+    <PM name="SPG-10: Kompletna usluga" short="Object 260: SPG-10" desc="Borbena situacija može da se promeni rapidno - uvek drži oko na mini mapi i postaraj se da imaš jasan pregled neprijateljskih vozila. Moraćeš da se pomeraš po mapi svo vreme umesto da stojiš na jednoj poziciji. Tvoji saveznici računaju na vatrenu moć tvoje artiljerije, daj sve od sebe na ključnom mestu i momentu." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljske artiljerije.\n• Nanesi najmanje 4000 poena štete neprijateljskim vozilima.</req>
+        <req>• Totalna šteta naneta neprijatlejskim vozilima koja si ti ošamutio ili imobillizovao od strane saveznika i tebe mora da bude najmanje 4000 poena štete.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 5 neprijateljskih vozila.</req>
+        <req>• Pobedi u borbi.\n• Saveznici moraju da unište najmanje 3 neprijateljska vozila koja si ti ošamutio ili imobilisao.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Zona efektivnosti" short="Object 260: SPG-11" desc="Tvoje fugasne granate mogu uništiti neprijatelja prvom granatom, ali takodje mogu oštetiti više meta odjednom, ako su dovoljno blizu." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Možete bukvalno ubiti dve ptice jednim kamenom, ako je više neprijateljskih vozila na jednom mestu. Ovo je čest slučaj na urbanim mapama.</Hint>
+    <PM name="SPG-11: Zona efektivnosti" short="Object 260: SPG-11" desc="Pored poprilične štete nanesene dobro plasiranim hicem, fugasna granata može takođe i da ošamuti sva loše postavljena vozila u eksplozivnom radijusu granate. Mnoge mape imaju mesta gde se neprijateljska vozila sabijaju u gomilu. Okušaj svoju sreću i pošalji im eksplozvan \&quot;pozdrav\&quot;." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje 2 neprijateljska vozila jednom granatom.</req>
+        <req>• Ošamuti najmanje 3 neprijatlejska vozila jednim hicem dva puta.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobedi u borbi.\n• Preživi borbu.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 200 sekundi ukupno.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Udarnik" short="Object 260: SPG-12" desc="Stil igranja artiljerije se veoma razlikuje od ostalih tipova vozila, ali je glavni cilj isti - uradi najbolje što znaš u borbi i doprinesi timskom cilju." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Nemoj prebacivati na artiljeriski nišan odmah po početku borbe. Prvo se odluči za dobro strateško mesto.</Hint>
+    <PM name="SPG-12: Urokljivi pogled" short="Object 260: SPG-12" desc="Tvoji saveznici su uništili ošamućeno neprijateljsko vozilo? Dobre vesti za tebe, jer je to tvoj doprinos koji donosi željenu pobedu jedan korak bliže! Tvoj cilj je da obezbediš vatrenu podršku i pomogneš svojim saborcima na pravom mestu u pravo vreme." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi borbu kao najbolji igrač u oba tima po nanetoj šteti.\n• Uništi najmanje 4 neprijateljska vozila.\n• Preživi borbu.</req>
+        <req>• Ošamuti neprijateljska vozila u trajanju od najmanje 200 sekundi.\n• Saveznici moraju da unište najmanje 3 neprijateljska vozila koja si ti ošamutio ili imobilisao.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artiljeriska Baterija (Lično/Vod)" short="Object 260: SPG-13" desc="Vod dobro uigrane artiljerije predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom. Ova misija može biti završena kao deo voda ili samostalno, ali ipak druga opcija je dosta teža." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Širenjem po mapi, vod može napadati sa drugih strana, što će učiniti mnoge stene i zgrade beskorisnim kao zaklon i što će dovesti do vaše dominacije.</Hint>
+    <PM name="SPG-13: S za saradnju" short="Object 260: SPG-13" desc="Dobro uigrana kooperacija artiljerije i saveznika predstavlja veliku opasnost za neprijatelja. Koordinirajte vašu igru unutar voda, i uklonite neprijatelje fokusiranom vatrom." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesite najmanje 30% ukupne štete koju je tvoj tim naneo neprijatelju lično ili kao vod.\n• Pobedi u borbi.\n• Može biti završeno lično ili kao vod, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 10 puta ili ih ošamuti najmanje 12 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ujedinjena Ofanziva (Lično/Vod)" short="Object 260: SPG-14" desc="Uspeh artiljerije zavisi od ostatka tima. Artiljerija i laki tenkovi dopunjuju jedno drugo, naročito u vodu. Ova misija može biti završena kao deo voda ili lično, mada je druga opcija dosta teža." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Laki tenk može uočiti i imobilisati neprijateljsko vozilo. Artiljerija može lako srediti nesrećnu žrtvu. Zajedno pobedjujemo! Teški tenk će pružiti zaštitu svojim debelim oklopom, srednji tenk će odvući pažnju neprijatelja, dok će lovac tenkova pružati podršku sa udaljenosti.</Hint>
+    <PM name="SPG-14: Deo posade, deo broda!" short="Object 260: SPG-14" desc="Saradnja u okviru voda je ključ za pobedu celog tima. Označi neprijateljska vozila u koja nišaniš za svoje drugove iz tima da odmah otvore vatru po njemu kada je jednom ošamućeno ili imobilizovano. Zapamti: jedan vojnik teško dobija borbu." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 5000 poena štete neprijateljskim teškim tenkovima i lovcima tenkova lično ili kao vod.\n• Može biti završeno lično ili kao vod, koji se sastoji od tvoje artiljerije i bilo kojih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje 250 sekundi ukupno ili omogući svojim saveznicima da nanesu najmanje 1000 poena štete neprijateljskim vozilima imobilizujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lično preživi u borbi.</req>
+        <req>• Pobedi u borbi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Bogovi rata" short="Object 260: SPG-15" desc="Veoma je korisno za tim ako artiljerija preživi. Nemoj biti izložen neprijateljskoj vatri, i pucaj precizne hice na neprijatelja." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
-      <Hint>Ako poznaješ tehničke karakteristike svoje artiljerije, možeš unapred da planiraš akcije u borbi. Ponekad, ostajanje u bazi nije dobra ideja. Ako voziš brzu artiljeriju, možeš brzo menjati pozicije i napasti neprijatelja sa strane sa koje najmanje očekuju.</Hint>
+    <PM name="SPG-15: Bogovi rata" short="Object 260: SPG-15" desc="Samohodna artiljerija koja preživljava koliko god je moguće je značajna pomoć timu. Ispaljuj granatu za granatom i pokušaj da te ne zahvati neprijateljska vatra. Ne brzaj i razmisli dva puta pre nego što zapucaš jer je strategija \&quot;jedan hitaac - jedan pogodak\&quot; najbolja za vozilo koje ima veliko vreme punjenja topa." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugo očekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Završi borbu kao najbolji igrač u oba tima po zarađenom iskustvu i nanetoj šteti.\n• Nanesi najmanje 3000 poena štete.</req>
+        <req>• Završi borbu kao najbolji igrač u oba tima po zarađenom iskustvu.\n• Omogući svojim saveznicima da  nanesu najmanje 3500 poena štete neprijateljskim vozilima imobilizujući ih ili ošamućujući ih.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Preživi borbu.</req>

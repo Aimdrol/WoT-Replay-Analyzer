@@ -32,8 +32,10 @@
     <tank ID="A111_T25_Pilot" sName="T-25 PN" lName="T-25 PN" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
     <tank ID="A115_Chrysler_K" sName="克莱斯勒 K" lName="克莱斯勒 K" />
+    <tank ID="A116_XM551" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 P" />
+    <tank ID="A118_M4_Thunderbolt" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="64式" lName="64式" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-巴顿" lName="59-巴顿" />
+    <tank ID="Ch28_WZ_132A" />
+    <tank ID="Ch29_Type_62C_prot" />
     <tank ID="Chi_Ha" sName="九七中战" lName="九七中战" />
     <tank ID="Chi_He" sName="一式中战" lName="一式中战" />
     <tank ID="Chi_Ni" sName="九七原型车" lName="九七原型车" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M449L" lName="AMX M449L" />
     <tank ID="F75_Char_de_25t" sName="查狄伦 25a" lName="查狄伦 25a" />
     <tank ID="F84_Somua_SM" sName="索玛 SM" lName="索玛 SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" />
+    <tank ID="F88_AMX_13_105" />
     <tank ID="FCM_36Pak40" sName="FCM36 Pak40" lName="FCM 36 Pak40" />
     <tank ID="FCM_50t" sName="FCM 50t" lName="FCM 50t" />
     <tank ID="Ferdinand" sName="\" lName="\" />
@@ -306,13 +312,13 @@
     <tank ID="G108_PzKpfwII_AusfD" sName="II号坦克D型" lName="II号坦克D型" />
     <tank ID="G109_Steyr_WT" sName="斯太尔 WT" lName="斯太尔 WT" />
     <tank ID="G11_Bison_I" sName="\" lName="\" />
-    <tank ID="G110_Typ_205" />
+    <tank ID="G110_Typ_205" sName="\" lName="\" />
     <tank ID="G112_KanonenJagdPanzer" sName="JPZ4-5" lName="JPZ4-5" />
     <tank ID="G113_SP_I_C" sName="SPIC" lName="SPIC" />
     <tank ID="G114_Rheinmetall_Skorpian" sName="天蝎 G" lName="天蝎 G" />
     <tank ID="G114_Skorpian" sName="天蝎" lName="天蝎" />
     <tank ID="G115_Typ_205_4_Jun" sName="VK 10001(P)" lName="VK 10001(P)" />
-    <tank ID="G115_Typ_205B" />
+    <tank ID="G115_Typ_205B" sName="VK 10001(P)\" lName="VK 10001(P)\" />
     <tank ID="G116_Turan_III_prot" sName="突朗III型" lName="突朗III型" />
     <tank ID="G117_Toldi_III" sName="托蒂III型" lName="托蒂III型" />
     <tank ID="G118_VK4503" sName="VK 4503" lName="VK 4503" />
@@ -325,11 +331,13 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M4190 GF" lName="M4190 GF" />
     <tank ID="G121_Grille_15_L63" sName="蟋蟀 15" lName="蟋蟀 15" />
     <tank ID="G122_VK6501H" sName="VK6501(H)" lName="VK6501(H)" />
+    <tank ID="G125_Spz_57_Rh" />
+    <tank ID="G126_HWK_12" />
     <tank ID="G13_VK3001H" sName="VK3001(H)" lName="VK3001(H)" />
     <tank ID="G14_PzIII_A" sName="III号坦克E型" lName="III号坦克E型" />
     <tank ID="G15_VK3601H" sName="VK3601(H)" lName="VK3601(H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="\" lName="\" />
-    <tank ID="G16_PzVIB_Tiger_II_F" />
+    <tank ID="G16_PzVIB_Tiger_II_F" sName="\" lName="\" />
     <tank ID="G16_PzVIB_Tiger_II_IGR" sName="\" lName="\" />
     <tank ID="G16_PzVIB_Tiger_II_training" sName="\" lName="\" />
     <tank ID="G17_JagdPzIV" sName="IV号坦克歼击车" lName="IV号坦克歼击车" />
@@ -361,14 +369,14 @@
     <tank ID="G42_Maus_IGR" sName="\" lName="\" />
     <tank ID="G43_Sturer_Emil" sName="埃米尔" lName="埃米尔" />
     <tank ID="G44_JagdTiger" sName="\" lName="\" />
-    <tank ID="G44_JagdTigerH" />
+    <tank ID="G44_JagdTigerH" sName="\" lName="\" />
     <tank ID="G45_G_Tiger" sName="\" lName="\" />
     <tank ID="G46_T-25" sName="T-25" lName="T-25" />
     <tank ID="G48_E-25" sName="E-25" lName="E-25" />
     <tank ID="G48_E-25_IGR" sName="E-25" lName="E-25" />
     <tank ID="G49_G_Panther" sName="\" lName="\" />
     <tank ID="G50_T-15" sName="T-15" lName="T-15" />
-    <tank ID="G51_Lowe" sName="\" lName="\" />
+    <tank ID="G51_Lowe" sName="“狮”式" lName="“狮”式" />
     <tank ID="G52_Pz38_NA" sName="38 nA" lName="38 nA" />
     <tank ID="G53_PzI" sName="I号" lName="I号" />
     <tank ID="G54_E-50" sName="E-50" lName="E-50" />
@@ -406,7 +414,7 @@
     <tank ID="G90_DW_II" sName="DW2" lName="DW2" />
     <tank ID="G91_Pro_Ag_A" sName="\" lName="\" />
     <tank ID="G92_VK7201" sName="VK7201" lName="VK7201" />
-    <tank ID="G92_VK7201P" />
+    <tank ID="G92_VK7201P" sName="VK7201(K)" lName="VK7201(K)" />
     <tank ID="G93_GW_Mk_VIe" sName="G.Pz.Mk.VI" lName="G.Pz.Mk.VI" />
     <tank ID="G94_GW_Tiger_P" sName="Gw 虎(P)" lName="Gw 虎(P)" />
     <tank ID="G95_Pz_Sfl_IVb" sName="10.5 cm Sfi IVB" lName="10.5 cm Sfi IVB" />
@@ -472,7 +480,7 @@
     <tank ID="GB68_Matilda_Black_Prince" sName="玛蒂尔达-黑亲王" lName="玛蒂尔达-黑亲王" />
     <tank ID="GB69_Cruiser_Mk_II" sName="Mk.II巡洋坦克" lName="Mk.II巡洋坦克" />
     <tank ID="GB70_FV4202_105" sName="FV4202" lName="FV4202" />
-    <tank ID="GB70_N_FV4202_105" sName="FV4202(P)" lName="FV4202(P)" />
+    <tank ID="GB70_N_FV4202_105" sName="FV4202" lName="FV4202" />
     <tank ID="GB71_AT_15A" sName="AT 15A" lName="AT 15A" />
     <tank ID="GB72_AT15" sName="AT 15" lName="AT 15" />
     <tank ID="GB72_AT15_IGR" sName="AT 15" lName="AT 15" />
@@ -572,7 +580,7 @@
     <tank ID="Lorraine155_51" sName="洛林155 51" lName="洛林155 51" />
     <tank ID="Lorraine39_L_AM" sName="洛林39 LAM" lName="洛林39 LAM" />
     <tank ID="Lorraine40t" sName="洛林 40t" lName="洛林 40t" />
-    <tank ID="Lowe" sName="\" lName="\" />
+    <tank ID="Lowe" sName="“狮”式" lName="“狮”式" />
     <tank ID="LTP" sName="LTP" lName="LTP" />
     <tank ID="Ltraktor" sName="\" lName="\" />
     <tank ID="Ltraktor_bot" sName="\" lName="\" />
@@ -714,7 +722,7 @@
     <tank ID="R120_T22SR_A22" sName="T-22" lName="T-22" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
-    <tank ID="R122_T44_100B" />
+    <tank ID="R122_T44_100B" sName="T-44-100M" lName="T-44-100M" />
     <tank ID="R123_Kirovets_1" sName="KRT-1" lName="KRT-1" />
     <tank ID="R125_T_45" sName="T-45" lName="T-45" />
     <tank ID="R126_Object_730_5" sName="268工程V型" lName="268工程V型" />
@@ -722,9 +730,11 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 K型" lName="KV-4 K型" />
     <tank ID="R129_Object_257" sName="257工程" lName="257工程" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" />
+    <tank ID="R132_VNII_100LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
-    <tank ID="R134_Object_252K" />
-    <tank ID="R134_Object_252U" sName="Об. 252У" lName="Объект 252У" />
+    <tank ID="R134_Object_252K" sName="252工程" lName="252工程" />
+    <tank ID="R134_Object_252U" sName="252工程" lName="252工程" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
@@ -805,7 +815,7 @@
     <tank ID="R96_Object_430" sName="430工程" lName="430工程" />
     <tank ID="R97_Object_140" sName="140工程" lName="140工程" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
-    <tank ID="R98_T44_85M" />
+    <tank ID="R98_T44_85M" sName="T-44-85M" lName="T-44-85M" />
     <tank ID="R99_T44_122" sName="T-44-122" lName="T-44-122" />
     <tank ID="Ram-II" sName="\" lName="\" />
     <tank ID="RenaultBS" sName="雷诺 FT BS" lName="雷诺 FT BS" />
@@ -837,8 +847,8 @@
     <tank ID="S19_Sav_M43" sName="SM-43" lName="SM-43" />
     <tank ID="S20_Ikv_72" sName="Ikv 72" lName="Ikv 72" />
     <tank ID="S21_UDES_03" sName="UDES 03" lName="UDES 03" />
-    <tank ID="S22_Strv_S1" />
-    <tank ID="S23_Strv_81" />
+    <tank ID="S22_Strv_S1" sName="Strv S1" lName="Strv S1" />
+    <tank ID="S23_Strv_81" sName="Strv 81" lName="Strv 81" />
     <tank ID="S35_captured" sName="S35 739(f)" lName="S35 739(f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="斯大林格勒" />
     <item ID="95_lost_city" Name="失落小镇" />
     <item ID="96_prohorovka_defense" Name="烈焰丘陵" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="索姆河" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="未知" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1109,7 +1121,7 @@
     <item ID="8" Name="历史战" />
     <item ID="9" Name="特殊模式" />
     <item ID="10" Name="冲突战" />
-    <item ID="11" Name="要塞战" />
+    <item ID="11" Name="歼灭战" />
     <item ID="12" Name="天梯战" />
     <item ID="13" Name="领土战" />
     <item ID="17" Name="PVE" />
@@ -1342,7 +1354,7 @@
     <achv ID_Num="855" ID="stormLord" Name="瓦尔基里 {0}" />
     <achv ID_Num="856" ID="winnerLaurels" Name="第五胜利 {0}" />
     <achv ID_Num="857" ID="predator" Name="掠夺者" />
-    <achv ID_Num="858" ID="unreachable" Name="各位，请向国王致敬！" />
+    <achv ID_Num="858" ID="unreachable" Name="各位，请向王者致敬！" />
     <achv ID_Num="859" ID="champion" Name="第一滴血" />
     <achv ID_Num="860" ID="bannerman" Name="协同者" />
     <achv ID_Num="862" ID="moonSphere" Name="漫步者" />

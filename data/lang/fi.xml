@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="The Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Tuntematon" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Erikoistaistelu" />
     <item ID="5" Name="Erikoistaistelu" />
     <item ID="6" Name="Taistelukoulutus" />
-    <item ID="7" Name="Joukkue: Joukkuetaistelut" />
+    <item ID="7" Name="Joukkuetaistelu" />
     <item ID="8" Name="Historiallinen taistelu" />
     <item ID="9" Name="Spesiaalitapahtuma" />
     <item ID="10" Name="Kahakat" />
@@ -1899,136 +1911,136 @@
         <req>• Tuhoa vihollisvaunu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Tarkka-ampuja" short="StuG IV: SPG-1" desc="Älä tuhlaa ammuksiasi. Tarkat laukaukset tuovat voiton joukkueellesi." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Ole kärsivällinen ja odota kunnes olet täysin kohdistanut tähtäimen kohteeseen.</Hint>
+    <PM name="SPG-1: Rohkea väite" short="StuG IV: SPG-1" desc="Valtava sirpaleammuksen räjähdysalue on telatykkien tärkeimpiä ominaisuuksia. Vaikka et saisikaan suoraa osumaa vihollisvaunuun, sinulla on silti hyvä mahdollisuus aiheuttaa sille suurta harmia lamauttamalla se. Vihollisvaunu merkitään joukkutovereidesi näytöillä lamautetuksi. Jos liittolaiset aiheuttavat vahinkoa vaunuihin, jotka olet lamauttanut, saat ylimääräistä kokemusta ja krediittejä avustasi vahingon aiheuttamiseen." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään 3 laukausta, jotka aiheuttavat vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisvaunuja vähintään 3 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 000 osumapistettä vahinkoa.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 3 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Piilotettu ja vaarallinen" short="StuG IV: SPG-2" desc="Telatykit eivät voi luottaa panssarin paksuuteen tai nopeuteen. Jos ajat telatykkiä, opettele kuinka voit pysyä piilossa koko taistelun ajan." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>\"Naamioverkko\" varuste yhdistettynä maastokuvioon auttavat huomattavasti piiloutumisessa, kun ne ovat asennettuna telatykissäsi.</Hint>
+    <PM name="SPG-2: Aika on rahaa" short="StuG IV: SPG-2" desc="Vihollisvaunu pysyy lamautuneena tietyn ajan, eikä ole parhaimmillaan taistelukentällä. Muista, että lamautettu vihollinen on helppo kohde." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 500 osumapistettä vahinkoa vihollisvaunuihin. Pysy havaitsemattomana koko taistelun ajan.\n• Selviydy taistelusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 50 sekunnin ajaksi.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisvaunu.</req>
+        <req>• Tuhoa vähintään yksi vihollisvaunu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Tykistöisku" short="StuG IV: SPG-3" desc="Jos haluat olla korvaamaton tuki joukkueellesi, sinun täytyy ensin oppia ampumaan tehokkaasti." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Seuraa taistelun kulkua ja tue joukkuettasi. Älä pysy yhdessä kohtaa liian kauan. Vetäydy tai etsi toinen tuliasema, jos sille on tarvetta.</Hint>
+    <PM name="SPG-3: Hitaasti hyvä lamautus tulee" short="StuG IV: SPG-3" desc="Piiloutuneet ja voimakkaat vihollisen PST-vaunut ja hyvin panssaroidut raskaat vaunut voivat helposti kääntää taistelun kulun edukseen. Ne ovat tärkeimpiä kohteita ja niiden vahingoittamisen (tai niiden tuhoamisessa avustamisen) tulisi olla telatykin komentajan ensisijainen kohde. Suurin osa raskaista ja PST-vaunuista ovat hitaita ja valtavia, mikä nostaa todennäköisyyksiä osua niihin." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Voita taistelu.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Murtaudu läpi" short="StuG IV: SPG-4" desc="Tulivoimaiset HE-ammukset eivät vain aiheuta vahinkoa vihollisen kestopisteisiin, vaan niillä on myös hyvä todennäköisyys vaurioittaa tai tuhota moduuleja tai haavoittaa miehistön jäseniä aluevahingolla." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Sirpalekranaatti on tuhoisin, kun se läpäisee panssaroinnin täysin ja räjähtää vihollisvaunun rungon sisällä. Jos ammuksillasi on heikko läpäisykyky, yritä löytää vihollisvaunu, jolla on avoin tykkitorni tai lataa premium-ammus.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Vaurioita tai tuhoa vihollisvaunujen moduuleja tai haavoita niiden miehistön jäseniä, kaikkiaan kolmea moduulia ja miehistön jäsentä.\n• Vaurioittamiesi/tuhoamiesi moduulien ja haavoittamiesi miehistön jäsenten määrä kaikissa vihollisvaunuissa joihin olet aiheuttanut vahinkoa taistelussa lasketaan yhteen.</req>
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu vähintään 2 kertaa\n•Lamauttavien laukausten tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Laske &amp; tuhoa" short="StuG IV: SPG-5" desc="Loistava tulivoimasi kompensoi telatykkisi muuten suhteellisen alhaista kestävyyttä." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Yritä aiheuttaa vahinkoa vihollisvaunuihin heti ensimmäisen tilaisuuden tullen. Vaikka HE-ammuksesi lentäisivät ohi vihollisesta tuumalla, niiden vaunu ottaa silti vahinkoa ammuksen sirpaleista.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta neljä kertaa oman vaunusi osumapisteiden verran vahinkoa vihollisvaunuihin.\n• Vahinkoa liittolaisiin ei lasketa.</req>
+    <PM name="SPG-4: Näen lävitsesi" short="StuG IV: SPG-4" desc="Opiskele huolella tavallisimmat raskaiden vaunujen reitit ja ovelien PST-vaunujen yleisimmät piilopaikat. Jos saat tähdättyä jo valmiiksi tietylle kartan alueelle, mahdollisuutesi pommittaa tehokkaasti ja murskaavasti vihollisen asemia kasvavat huomattavasti. Tämän tyyppiset vaunut turvautuvat usein sangen ennalta-arvattaviin taktiikoihin tietyillä kartoilla. Ole nokkela: analysoi vihollisjoukkueen kokoonpano ja valitse paras mahdollinen asema itsellesi jo heti taistelun alussa." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu yhteensä vähintään 30 sekunnin ajaksi.\n• Lamauttavan laukauksen tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisvaunu.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Putoava moukari" short="StuG IV: SPG-6" desc="Tulet taistelemaan usein korkeamman tason vaunuja vastaan, mutta se ei ole ongelma kokeneelle telatykin ajajalle." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Jos et pysty läpäisemään vihollista normaaliammuksilla, kokeile käyttää premium-ammuksia. Ammu vihollisvaunun sivuihin ja takaosaan. Telatykit, niiden ammusten kaarevalla lentoradalla, voivat tehokkaasti osua minkä tahansa vaunun tykkitornin kattoon, missä panssarointi on heikko. Vihollisvaunut, joissa on avoin tykkitorni, ovat haavoittuvaisempia ylhäältä tulevaan tuhoon.</Hint>
+    <PM name="SPG-5: Jakaminen on välittämistä" short="StuG IV: SPG-5" desc="Vihollisen lamauttaminen ei ainoastaan auta joukkuettasi askeleen lähemmäs voittoa, mutta pitää myös huolen siitä, että saat ylimääräisiä kokemuspisteitä ja krediittejä, jos liittolaisesi vahingoittavat lamauttamiasi vihollisvaunuja. Älä unohda merkitä aluetta, johon tähtäät (oletusarvoisesti T-näppäin), jotta liittolaisesi ovat ajan tasalla ja osaavat keskittää tulensa alueelle." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisvaunua, jotka ovat samalla tai korkeammalla tasolla kuin vaunusi.</req>
+        <req>• Auta liittolaisiasi aiheuttamaan vähintään 600 pistettä vahinkoa vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 3 kertaa ampumalla tai törmäämällä.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Jumalten vasara" short="StuG IV: SPG-6" desc="Telatykin ensisijainen tehtävä on tarjota tulitukea liittolaisvaunuille. Lamautuneet vihollisvaunut taistelevat tehottomasti, joten joukkuetoverisi arvostavat taatusti apuasi. Ole kuitenkin varovainen ampuessasi: huolimaton laukaus voi lamauttaa myös liittolaisvaunun. Omien ampumista ei suvaita!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Auta liittolaisiasi aiheuttamaan vahinkoa vähintään 2 vihollisvaunuun, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tuokaa isot tykit" short="StuG IV: SPG-7" desc="Sinun täytyy tuhota vihollisen PST-vaunut ja telatykit heti ensimmäisen mahdollisuuden ilmaantuessa. Niiden tuhoaminen voi kääntää taistelun suunnan eduksesi." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Koordinoi toimesi joukkueesi kevyiden vaunujen kanssa. Vihollisen PST-vaunujen ja telatykkien havaitseminen ja tuhoaminen voi auttaa niitä taistelukentän haltuunotossa.</Hint>
+    <PM name="SPG-7: Huolellinen harkinta" short="StuG IV: SPG-7" desc="Suorittaaksesi tämän tehtävän, sinun täytyy valikoida kohteesi huolella. Älä keskitä tultasi vain yhteen vihollisvaunuun, vaikka se olisikin helppo kohde. Paras strategia on osua isoihin vihollisryhmiin yhdellä laukauksella. Opiskele karttoja huolella ja opi vaunujen tavallisimmat reitit." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisen PST-vaunu tai telatykki.</req>
+        <req>• Lamauta vähintään 2 vihollisvaunua.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 000 osumapistettä vahinkoa.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Raskasta tulitusta raskaisiin vaunuihin!" short="StuG IV: SPG-8" desc="Raskas vaunu on vaikea kohde, mutta ei sinun tykillesi. Korkean lentokaaren omaavat ammukset pystyvät osumaan minkä tahansa vaunun tykkitornin katolle, missä panssarointi on erittäin heikko." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Raskaat vaunut pääasiallisesti liikkuvat hitaammin, kuin muut vaunutyypit. Tämän takia, voit usein ennakoida missä vihollisvaunu sijaitsee, kun ammuksesi saapuu määrän päähänsä. Telatykeillä pelaaville, ammusten lentonopeus on hyödyllinen tieto.</Hint>
+    <PM name="SPG-8: Tein parhaani" short="StuG IV: SPG-8" desc="Saat kokemusta kaikista tehokkaista toimista. Yritä olla joukkueen tärkein pelaaja: aiheuta vahinkoa, avusta vihollisvaunujen tuhoamisessa ja selviydy taistelusta. Vaihda asemaasi joka laukauksen jälkeen. Muuten vihollisen telatykkien vastatykistötuli saattaa tuhota vaunusi." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 000 osumapistettä vahinkoa vihollisen raskaisiin vaunuihin.</req>
+        <req>• Ole joukkueesi top-7 pelaajien joukossa ansaitun kokemuksen mukaan.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisen raskas vaunu.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Ota ennakkoa, kunnes osut niihin" short="StuG IV: SPG-9" desc="Kokenut telatykin ajaja pystyy helposti osumaan liikkuviin kohteisiin. Opi ennustamaan vihollisvaunun liikkeet tehokkaasti, kun ammut. Muista, että suora osuma voi aiheuttaa paljon enemmän vahinkoa vihollisvaunuun kuin HE-ammuksen aluevahinko." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Ammukseksi nopeus on todella tärkeä muuttuja. Kun tiedät milloin ammus saapuu kohteeseen, voit onnistuneesti laskea poikkeaman.</Hint>
+    <PM name="SPG-9: Ylimääräistä vahinkoa" short="StuG IV: SPG-9" desc="Voimakkaat sirpalekranaatit eivät ainoastaan vie vihollisvaunuilta kestopisteitä, vaan niiden räjähdysalueella on myös suuri mahdollisuus tuhota vihollisvaunujen moduuleja tai haavoittaa miehistönjäseniä." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vahinkoa vihollisvaunuun, joka liikkuu vähintään 20km/h nopeutta.\n• Aluevahinko ja suorien osumien aiheuttama vahinko lasketaan.\n• Törmäämisellä aiheutettua vahinkoa ei lasketa.</req>
+        <req>• Tuhoa mikä hyvänsä vihollisvaunujen moduuli tai haavoita heidän miehistönsä jäsentä, yhteensä vähintään 3 moduulin ja miehistönjäsenen verran.\n• Tuhottujen moduulien ja haavoitettujen miehistönjäsenten määrä lasketaan yhteen kaikkien vihollisvaunujen joukosta, joita olet vaurioittanut taistelussa.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Tykistön kirous" short="StuG IV: SPG-10" desc="Tykistön metsästäminen on mahtava idea. Yritä ennustaa missä vihollisen telatykit saattavat piileksiä ja tarkista tarkalla laukauksella arvasitko oikein." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Mitä useammin ajat telatykkiä, sitä useamman strategisen pisteen opit tuntemaan eri kartoilla. Tämä auttaa sinua taistelussa vihollisen telatykkejä vastaan, koska tiedät jo missä ne saattavat sijaita.</Hint>
+    <PM name="SPG-10: Täyshoito" short="StuG IV: SPG-10" desc="Taistelussa tilanteet vaihtelevat nopeasti. Pidä aina silmällä karttaa ja pidä huoli, että sinulla on avoin linja vihollisvaunuihin. Sinun täytyy liikkua kartan halki jatkuvasti sen sijaan, että pysyttelisit vain yhdessä asemassa. Liittolaisesi luottavat telatykkisi tulivoimaan, joten tee parhaasi oikeaan aikaan oikeassa paikassa." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään yksi vihollisen telatykki.</req>
+        <req>• Sinun ja liittolaistesi aiheuttaman vahingon vihollisvaunuihin, jotka olet lamauttanut tai joiden telat olet tuhonnut, täytyy olla yhteensä vähintään 1000 kestopistettä.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisvaunua.</req>
+        <req>• Liittolaisten tulee tuhota vähintään yksi vihollisvaunu, joka on lamauttamasi tai jonka telat ovat tuhoamiasi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Vaikutusalue" short="StuG IV: SPG-11" desc="HE-ammukset eivät pysty vain tuhoamaan vihollisvaunua ensimmäisellä osumalla vaan ne voivat aiheuttaa vahinkoa useisiin kohteisiin kerralla, jos ne ovat tarpeeksi lähekkäin." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Voit kirjaimellisesti tappaa kaksi kärpästä yhdellä iskulla, jos useampi vihollisvaunu seisoo paikoillaan samassa pisteessä. Tämä tilanne on tyypillinen kaupunkikentissä.</Hint>
+    <PM name="SPG-11: Vaikutusalue" short="StuG IV: SPG-11" desc="Sen lisäksi, että hyvin sijoitettu laukaus aiheuttaa merkittävästi vahinkoa, sirpalekraanaatti voi räjähdyksen jälkeen myös lamauttaa kaikki räjähdysalueelle jääneet epäonniset vastustajat. Monissa kartoissa on alueita, joilla viholliset usein päätyvät lähekkäin. Käytä mahdollisuutesi ja lähetä heille räjähtävät terveisesi." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisvaunu yhdellä laukauksella.\n• Kohteet, jotka eivät ole ottaneet aiemmin vahinkoa lasketaan.</req>
+        <req>• Lamauta vähintään 2 vihollisvaunua yhdellä laukauksella.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 50 sekunnin ajaksi.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Paha Silmä" short="StuG IV: SPG-12" desc="Tuhosivatko liittolaisesi lamautetun vihollisvaunun? Hyviä uutisia siis sinulle, sillä sinun osallistumisesi tuhoamiseen oli tärkeä askel lähemmäs voittoa! Tavoitteesi on tarjota tulitukea ja auttaa liittolaisiasi oikealla hetkellä oikeassa paikassa." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 50 sekunnin ajaksi.\n• Liittolaisten tulee tuhota vähintään 1 vihollisvaunu, joka on lamauttamasi tai jonka telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Iskijä" short="StuG IV: SPG-12" desc="Telatykkien pelityyli on radikaalisti erilaisempi verrattuna kaikkiin muihin vaunutyyppeihin. Mutta päätehtävä on sama—tee parhaasi taistelussa, ja osallistu niin paljon kuin mahdollista joukkueesi tukemiseen." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Älä vaihda \"tykistö\" -tilaan heti taistelun alussa. Ensin, päätä hyvästä strategisesta pisteestä.</Hint>
+    <PM name="SPG-13: Y niin kuin yhteistyö" short="StuG IV: SPG-13" desc="Hyvin hoidettu yhteistyö telatykkien ja muiden liittolaisten välillä aiheuttaa vihollisjoukkueelle harmaita hiuksia. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ole joukkueesi top-3 pelaajien joukossa aiheutetun vahingon mukaan.\n• Tuhoa vihollisvaunu.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 4 kertaa tai lamauta heidät vähintään 6 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Tykistöpatteri (itsenäinen/osasto)" short="StuG IV: SPG-13" desc="Osastollinen hyvin hallittuja telatykkejä aiheuttaa vihollisjoukkueelle tuskaa. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Levittäytymällä osastosi voi osua kohteisiin monesta eri kulmasta tehden monet kivet ja rakennukset hyödyttömäksi suojana sekä hallita karttaa.</Hint>
+    <PM name="SPG-14: Osa miehistöä, osa laivaa!" short="StuG IV: SPG-14" desc="Yhteistyö on avain koko joukkueen voittoon. Merkitse vihollisvaunu, johon tähtäät, jotta liittolaisesi osaavat tulittaa sitä välittömästi, kun olet pysäyttänyt tai lamauttanut sen. Muista, että yksin toimiva sotilas harvoin ratkaisee taistelua." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 15% joukkueesi vihollisvaunuihin aiheuttamasta vahingosta. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voita taistelu.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 70 sekunnin ajaksi tai auta liittolaisiasi tekemään vähintään 400 pistettä vahinkoa vihollisvaunuihin tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Yhdistetty hyökkäys (itsenäinen/osasto)" short="StuG IV: SPG-14" desc="Tykistön onnistuminen on riippuvainen muusta joukkueesta. Tykistö ja kevyet vaunut täydentävät toisiaan eritoten osastossa. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Kevyt vaunu voi havaita vihollisvaunuja ja tehdä ne myös liikuntakyvyttömäksi. Telatykit jauhavat onnetonta uhria. Yhdessä me voitamme! Raskas vaunu suojaa sinua paksulla panssarillaan, keskiraskas vaunu häiritsee vihollista, kun taas PST-vaunu antaa pitkänmatkan tulitukea.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 2 000 osumapistettä vahinkoa vihollisen raskaisiin ja PST-vaunuihin. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Sotajumalat" short="StuG IV: SPG-15" desc="On paljon parempi joukkueelle, jos telatykki selviytyy. Yritä olla olematta esillä vihollistulelle ja ammu tarkkoja laukauksia vihollisiin." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
-      <Hint>Jos tiedät telatykkisi tekniset ominaisuudet, voit suunnitella liikkeesi taistelussa. Joskus tukikohdassa pysyminen ei ole kovin hyvä idea. Jos ajat nopeaa telatykkiä, voit nopeasti vaihtaa asemia ja hyökätä vihollisen kimppuun suunnasta, josta he odottavat sinua kaikista vähiten.</Hint>
+    <PM name="SPG-15: Sotajumalat" short="StuG IV: SPG-15" desc="Telatykki, joka pysyy mahdollisimman pitkään hengissä, on todellinen voimavara joukkueelleen. Jatka ampumista ammus toisensa jälkeen samalla, kun yrität välttää vihollistulen kohteeksi jäämistä. Ota aikasi ja mieti kahdesti ennen kuin \&quot;vedät liipaisimesta\&quot;, sillä \&quot;yksi laukaus-yksi osuma\&quot; on paras strategia vaunulle, joka kärsii pitkästä latausajasta." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole joukkueesi top-3 pelaajien joukossa ansaitun kokemuksen ja aiheutetun vahingon mukaan.\n• Aiheuta vähintään 2 000 osumapistettä vahinkoa.</req>
+        <req>• Ole joukkueesi top-5 pelaajien joukossa ansaitun kokemuksen mukaan.\n• Auta liittolaisiasi aiheuttamaan vähintään 1000 pistettä vahinkoa vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Selviydy taistelusta.</req>
@@ -2574,136 +2586,136 @@
         <req>• Tuhoa vähintään kaksi vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Tarkka-ampuja" short="T28 Heavy Tank Concept: SPG-1" desc="Älä tuhlaa ammuksiasi. Tarkat laukaukset tuovat voiton joukkueellesi." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Ole kärsivällinen ja odota kunnes olet täysin kohdistanut tähtäimen kohteeseen.</Hint>
+    <PM name="SPG-1: Rohkea väite" short="T28 Heavy Tank Concept: SPG-1" desc="Valtava sirpaleammuksen räjähdysalue on telatykkien tärkeimpiä ominaisuuksia. Vaikka et saisikaan suoraa osumaa vihollisvaunuun, sinulla on silti hyvä mahdollisuus aiheuttaa sille suurta harmia lamauttamalla se. Vihollisvaunu merkitään joukkutovereidesi näytöillä lamautetuksi. Jos liittolaiset aiheuttavat vahinkoa vaunuihin, jotka olet lamauttanut, saat ylimääräistä kokemusta ja krediittejä avustasi vahingon aiheuttamiseen." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään 4 laukausta, jotka aiheuttavat vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisvaunuja vähintään 5 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 2 000 osumapistettä vahinkoa.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 5 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Piilotettu ja vaarallinen" short="T28 Heavy Tank Concept: SPG-2" desc="Telatykit eivät voi luottaa panssarin paksuuteen tai nopeuteen. Jos ajat telatykkiä, opettele kuinka voit pysyä piilossa koko taistelun ajan." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>\"Naamioverkko\" varuste yhdistettynä maastokuvioon auttavat huomattavasti piiloutumisessa, kun ne ovat asennettuna telatykissäsi.</Hint>
+    <PM name="SPG-2: Aika on rahaa" short="T28 Heavy Tank Concept: SPG-2" desc="Vihollisvaunu pysyy lamautuneena tietyn ajan, eikä ole parhaimmillaan taistelukentällä. Muista, että lamautettu vihollinen on helppo kohde." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 500 osumapistettä vahinkoa vihollisvaunuihin. Pysy havaitsemattomana koko taistelun ajan.\n• Selviydy taistelusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 100 sekunnin ajaksi.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Tuhoa vähintään kaksi vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Tykistöisku" short="T28 Heavy Tank Concept: SPG-3" desc="Jos haluat olla korvaamaton tuki joukkueellesi, sinun täytyy ensin oppia ampumaan tehokkaasti." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Seuraa taistelun kulkua ja tue joukkuettasi. Älä pysy yhdessä kohtaa liian kauan. Vetäydy tai etsi toinen tuliasema, jos sille on tarvetta.</Hint>
+    <PM name="SPG-3: Hitaasti hyvä lamautus tulee" short="T28 Heavy Tank Concept: SPG-3" desc="Piiloutuneet ja voimakkaat vihollisen PST-vaunut ja hyvin panssaroidut raskaat vaunut voivat helposti kääntää taistelun kulun edukseen. Ne ovat tärkeimpiä kohteita ja niiden vahingoittamisen (tai niiden tuhoamisessa avustamisen) tulisi olla telatykin komentajan ensisijainen kohde. Suurin osa raskaista ja PST-vaunuista ovat hitaita ja valtavia, mikä nostaa todennäköisyyksiä osua niihin." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 2 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu vähintään 4 kertaa\n•Lamauttavien laukausten tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Murtaudu läpi" short="T28 Heavy Tank Concept: SPG-4" desc="Tulivoimaiset HE-ammukset eivät vain aiheuta vahinkoa vihollisen kestopisteisiin, vaan niillä on myös hyvä todennäköisyys vaurioittaa tai tuhota moduuleja tai haavoittaa miehistön jäseniä aluevahingolla." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Sirpalekranaatti on tuhoisin, kun se läpäisee panssaroinnin täysin ja räjähtää vihollisvaunun rungon sisällä. Jos ammuksillasi on heikko läpäisykyky, yritä löytää vihollisvaunu, jolla on avoin tykkitorni tai lataa premium-ammus.</Hint>
+    <PM name="SPG-4: Näen lävitsesi" short="T28 Heavy Tank Concept: SPG-4" desc="Opiskele huolella tavallisimmat raskaiden vaunujen reitit ja ovelien PST-vaunujen yleisimmät piilopaikat. Jos saat tähdättyä jo valmiiksi tietylle kartan alueelle, mahdollisuutesi pommittaa tehokkaasti ja murskaavasti vihollisen asemia kasvavat huomattavasti. Tämän tyyppiset vaunut turvautuvat usein sangen ennalta-arvattaviin taktiikoihin tietyillä kartoilla. Ole nokkela: analysoi vihollisjoukkueen kokoonpano ja valitse paras mahdollinen asema itsellesi jo heti taistelun alussa." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Vaurioita tai tuhoa vihollisvaunujen moduuleja tai haavoita niiden miehistön jäseniä, kaikkiaan viittä moduulia ja miehistön jäsentä.\n• Vaurioittamiesi/tuhoamiesi moduulien ja haavoittamiesi miehistön jäsenten määrä kaikissa vihollisvaunuissa joihin olet aiheuttanut vahinkoa taistelussa lasketaan yhteen.</req>
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu yhteensä vähintään 50 sekunniksi.\n• Lamauttavan laukauksen tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Laske &amp; tuhoa" short="T28 Heavy Tank Concept: SPG-5" desc="Loistava tulivoimasi kompensoi telatykkisi muuten suhteellisen alhaista kestävyyttä." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Yritä aiheuttaa vahinkoa vihollisvaunuihin heti ensimmäisen tilaisuuden tullen. Vaikka HE-ammuksesi lentäisivät ohi vihollisesta tuumalla, niiden vaunu ottaa silti vahinkoa ammuksen sirpaleista.</Hint>
+    <PM name="SPG-5: Jakaminen on välittämistä" short="T28 Heavy Tank Concept: SPG-5" desc="Vihollisen lamauttaminen ei ainoastaan auta joukkuettasi askeleen lähemmäs voittoa, mutta pitää myös huolen siitä, että saat ylimääräisiä kokemuspisteitä ja krediittejä, jos liittolaisesi vahingoittavat lamauttamiasi vihollisvaunuja. Älä unohda merkitä aluetta, johon tähtäät (oletusarvoisesti T-näppäin), jotta liittolaisesi ovat ajan tasalla ja osaavat keskittää tulensa alueelle." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta kuusi kertaa oman vaunusi osumapisteiden verran vahinkoa vihollisvaunuihin.\n• Vahinkoa liittolaisiin ei lasketa.</req>
+        <req>• Auta liittolaisiasi aiheuttamaan vähintään 1 000 pistettä vahinkoa vihollisvaunuihin, lamauttamalla tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisvaunua.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 5 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Putoava moukari" short="T28 Heavy Tank Concept: SPG-6" desc="Tulet taistelemaan usein korkeamman tason vaunuja vastaan, mutta se ei ole ongelma kokeneelle telatykin ajajalle." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Jos et pysty läpäisemään vihollista normaaliammuksilla, kokeile käyttää premium-ammuksia. Ammu vihollisvaunun sivuihin ja takaosaan. Telatykit, niiden ammusten kaarevalla lentoradalla, voivat tehokkaasti osua minkä tahansa vaunun tykkitornin kattoon, missä panssarointi on heikko. Vihollisvaunut, joissa on avoin tykkitorni, ovat haavoittuvaisempia ylhäältä tulevaan tuhoon.</Hint>
+    <PM name="SPG-6: Jumalten vasara" short="T28 Heavy Tank Concept: SPG-6" desc="Telatykin ensisijainen tehtävä on tarjota tulitukea liittolaisvaunuille. Lamautuneet vihollisvaunut taistelevat tehottomasti, joten joukkuetoverisi arvostavat taatusti apuasi. Ole kuitenkin varovainen ampuessasi: huolimaton laukaus voi lamauttaa myös liittolaisvaunun. Omien ampumista ei suvaita!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisvaunua, jotka ovat samalla tai korkeammalla tasolla kuin vaunusi.</req>
+        <req>• Auta liittolaisiasi vahingoittamaan vähintään 3 vihollisvaunua lamauttamalla tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tuokaa isot tykit" short="T28 Heavy Tank Concept: SPG-7" desc="Sinun täytyy tuhota vihollisen PST-vaunut ja telatykit heti ensimmäisen mahdollisuuden ilmaantuessa. Niiden tuhoaminen voi kääntää taistelun suunnan eduksesi." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Koordinoi toimesi joukkueesi kevyiden vaunujen kanssa. Vihollisen PST-vaunujen ja telatykkien havaitseminen ja tuhoaminen voi auttaa niitä taistelukentän haltuunotossa.</Hint>
+    <PM name="SPG-7: Huolellinen harkinta" short="T28 Heavy Tank Concept: SPG-7" desc="Suorittaaksesi tämän tehtävän, sinun täytyy valikoida kohteesi huolella. Älä keskitä tultasi vain yhteen vihollisvaunuun, vaikka se olisikin helppo kohde. Paras strategia on osua isoihin vihollisryhmiin yhdellä laukauksella. Opiskele karttoja huolella ja opi vaunujen tavallisimmat reitit." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisen PST-vaunu tai telatykki, joka on yhtä tasoa korkeampi kuin vaunusi.</req>
+        <req>• Lamauta vähintään 3 vihollisvaunua.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 2 000 osumapistettä vahinkoa.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Raskasta tulitusta raskaisiin vaunuihin!" short="T28 Heavy Tank Concept: SPG-8" desc="Raskas vaunu on vaikea kohde, mutta ei sinun tykillesi. Korkean lentokaaren omaavat ammukset pystyvät osumaan minkä tahansa vaunun tykkitornin katolle, missä panssarointi on erittäin heikko." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Raskaat vaunut pääasiallisesti liikkuvat hitaammin, kuin muut vaunutyypit. Tämän takia, voit usein ennakoida missä vihollisvaunu sijaitsee, kun ammuksesi saapuu määrän päähänsä. Telatykeillä pelaaville, ammusten lentonopeus on hyödyllinen tieto.</Hint>
+    <PM name="SPG-8: Tein parhaani" short="T28 Heavy Tank Concept: SPG-8" desc="Saat kokemusta kaikista tehokkaista toimista. Yritä olla joukkueen tärkein pelaaja: aiheuta vahinkoa, avusta vihollisvaunujen tuhoamisessa ja selviydy taistelusta. Vaihda asemaasi joka laukauksen jälkeen. Muuten vihollisen telatykkien vastatykistötuli saattaa tuhota vaunusi." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 1 500 osumapistettä vahinkoa vihollisen raskaisiin vaunuihin.</req>
+        <req>• Ole joukkueesi top-5 pelaajien joukossa ansaitun kokemuksen mukaan.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi raskasta vihollisvaunua.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Ota ennakkoa, kunnes osut niihin" short="T28 Heavy Tank Concept: SPG-9" desc="Kokenut telatykin ajaja pystyy helposti osumaan liikkuviin kohteisiin. Opi ennustamaan vihollisvaunun liikkeet tehokkaasti, kun ammut. Muista, että suora osuma voi aiheuttaa paljon enemmän vahinkoa vihollisvaunuun kuin HE-ammuksen aluevahinko." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Ammukseksi nopeus on todella tärkeä muuttuja. Kun tiedät milloin ammus saapuu kohteeseen, voit onnistuneesti laskea poikkeaman.</Hint>
+    <PM name="SPG-9: Ylimääräistä vahinkoa" short="T28 Heavy Tank Concept: SPG-9" desc="Voimakkaat sirpalekranaatit eivät ainoastaan vie vihollisvaunuilta kestopisteitä, vaan niiden räjähdysalueella on myös suuri mahdollisuus tuhota vihollisvaunujen moduuleja tai haavoittaa miehistönjäseniä." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään kaksi suoraa osumaa vihollisvaunuihin.\n• Kaikki suorat osumat huolimatta siitä, että aiheuttavatko ne vahinkoa lasketaan.</req>
+        <req>• Tuhoa mikä hyvänsä vihollisvaunujen moduuli tai haavoita heidän miehistönsä jäsentä, yhteensä vähintään 5 moduulin ja miehistönjäsenen verran.\n• Tuhottujen moduulien ja haavoitettujen miehistönjäsenten määrä lasketaan yhteen kaikkien vihollisvaunujen joukosta, joita olet vaurioittanut taistelussa.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Selviydy taistelusta.\n• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Tykistön kirous" short="T28 Heavy Tank Concept: SPG-10" desc="Tykistön metsästäminen on mahtava idea. Yritä ennustaa missä vihollisen telatykit saattavat piileksiä ja tarkista tarkalla laukauksella arvasitko oikein." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Mitä useammin ajat telatykkiä, sitä useamman strategisen pisteen opit tuntemaan eri kartoilla. Tämä auttaa sinua taistelussa vihollisen telatykkejä vastaan, koska tiedät jo missä ne saattavat sijaita.</Hint>
+    <PM name="SPG-10: Täyshoito" short="T28 Heavy Tank Concept: SPG-10" desc="Taistelussa tilanteet vaihtelevat nopeasti. Pidä aina silmällä karttaa ja pidä huoli, että sinulla on avoin linja vihollisvaunuihin. Sinun täytyy liikkua kartan halki jatkuvasti sen sijaan, että pysyttelisit vain yhdessä asemassa. Liittolaisesi luottavat telatykkisi tulivoimaan, joten tee parhaasi oikeaan aikaan oikeassa paikassa." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisen telatykkiä.</req>
+        <req>• Sinun ja liittolaistesi tulee aiheuttaa yhteensä vähintään 2 000 kestopistettä vauriota vaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisvaunua.</req>
+        <req>• Liittolaisten tulee tuhota vähintään yksi vihollisvaunu, joka on lamauttamasi tai jonka telat ovat tuhoamiasi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Vaikutusalue" short="T28 Heavy Tank Concept: SPG-11" desc="HE-ammukset eivät pysty vain tuhoamaan vihollisvaunua ensimmäisellä osumalla vaan ne voivat aiheuttaa vahinkoa useisiin kohteisiin kerralla, jos ne ovat tarpeeksi lähekkäin." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Voit kirjaimellisesti tappaa kaksi kärpästä yhdellä iskulla, jos useampi vihollisvaunu seisoo paikoillaan samassa pisteessä. Tämä tilanne on tyypillinen kaupunkikentissä.</Hint>
+    <PM name="SPG-11: Vaikutusalue" short="T28 Heavy Tank Concept: SPG-11" desc="Sen lisäksi, että hyvin sijoitettu laukaus aiheuttaa merkittävästi vahinkoa, sirpalekraanaatti voi räjähdyksen jälkeen myös lamauttaa kaikki räjähdysalueelle jääneet epäonniset vastustajat. Monissa kartoissa on alueita, joilla viholliset usein päätyvät lähekkäin. Käytä mahdollisuutesi ja lähetä heille räjähtävät terveisesi." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vahinkoa vähintään kahteen vihollisvaunuun yhdellä laukauksella.</req>
+        <req>• Lamauta kahdesti vähintään 2 vihollisvaunua yhdellä laukauksella.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 100 sekunnin ajaksi.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Paha Silmä" short="T28 Heavy Tank Concept: SPG-12" desc="Tuhosivatko liittolaisesi lamautetun vihollisvaunun? Hyviä uutisia siis sinulle, sillä sinun osallistumisesi tuhoamiseen oli tärkeä askel lähemmäs voittoa! Tavoitteesi on tarjota tulitukea ja auttaa liittolaisiasi oikealla hetkellä oikeassa paikassa." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 100 sekunnin ajaksi.\n• Liittolaistesi tulee tuhota vähintään yksi vihollisvaunu, joka on lamauttamasi tai jonka telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Iskijä" short="T28 Heavy Tank Concept: SPG-12" desc="Telatykkien pelityyli on radikaalisti erilaisempi verrattuna kaikkiin muihin vaunutyyppeihin. Mutta päätehtävä on sama—tee parhaasi taistelussa, ja osallistu niin paljon kuin mahdollista joukkueesi tukemiseen." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Älä vaihda \"tykistö\" -tilaan heti taistelun alussa. Ensin, päätä hyvästä strategisesta pisteestä.</Hint>
+    <PM name="SPG-13: Y niin kuin yhteistyö" short="T28 Heavy Tank Concept: SPG-13" desc="Hyvin hoidettu yhteistyö telatykkien ja muiden liittolaisten välillä aiheuttaa vihollisjoukkueelle harmaita hiuksia. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ole kummankin joukkueen top-3 pelaajien joukossa aiheutetun vahingon mukaan.\n• Tuhoa vähintään kaksi vihollisvaunua.\n• Selviydy taistelusta.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 6 kertaa tai lamauta heidät vähintään 8 kertaa.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Tykistöpatteri (itsenäinen/osasto)" short="T28 Heavy Tank Concept: SPG-13" desc="Osastollinen hyvin hallittuja telatykkejä aiheuttaa vihollisjoukkueelle tuskaa. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Levittäytymällä osastosi voi osua kohteisiin monesta eri kulmasta tehden monet kivet ja rakennukset hyödyttömäksi suojana sekä hallita karttaa.</Hint>
+    <PM name="SPG-14: Osa miehistöä, osa laivaa!" short="T28 Heavy Tank Concept: SPG-14" desc="Yhteistyö on avain koko joukkueen voittoon. Merkitse vihollisvaunu, johon tähtäät, jotta liittolaisesi osaavat tulittaa sitä välittömästi, kun olet pysäyttänyt tai lamauttanut sen. Muista, että yksin toimiva sotilas harvoin ratkaisee taistelua." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 20% joukkueesi vihollisvaunuihin aiheuttamasta vahingosta. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voita taistelu.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 100 sekunnin ajaksi tai auta liittolaisiasi aiheuttamaan vähintään 600 pistettä vahinkoa vihollisvaunuihin, joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Yhdistetty hyökkäys (itsenäinen/osasto)" short="T28 Heavy Tank Concept: SPG-14" desc="Tykistön onnistuminen on riippuvainen muusta joukkueesta. Tykistö ja kevyet vaunut täydentävät toisiaan eritoten osastossa. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Kevyt vaunu voi havaita vihollisvaunuja ja tehdä ne myös liikuntakyvyttömäksi. Telatykit jauhavat onnetonta uhria. Yhdessä me voitamme! Raskas vaunu suojaa sinua paksulla panssarillaan, keskiraskas vaunu häiritsee vihollista, kun taas PST-vaunu antaa pitkänmatkan tulitukea.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 3 000 osumapistettä vahinkoa vihollisen raskaisiin ja PST-vaunuihin. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Sotajumalat" short="T28 Heavy Tank Concept: SPG-15" desc="On paljon parempi joukkueelle, jos telatykki selviytyy. Yritä olla olematta esillä vihollistulelle ja ammu tarkkoja laukauksia vihollisiin." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
-      <Hint>Jos tiedät telatykkisi tekniset ominaisuudet, voit suunnitella liikkeesi taistelussa. Joskus tukikohdassa pysyminen ei ole kovin hyvä idea. Jos ajat nopeaa telatykkiä, voit nopeasti vaihtaa asemia ja hyökätä vihollisen kimppuun suunnasta, josta he odottavat sinua kaikista vähiten.</Hint>
+    <PM name="SPG-15: Sotajumalat" short="T28 Heavy Tank Concept: SPG-15" desc="Telatykki, joka pysyy mahdollisimman pitkään hengissä, on todellinen voimavara joukkueelleen. Jatka ampumista ammus toisensa jälkeen samalla, kun yrität välttää vihollistulen kohteeksi jäämistä. Ota aikasi ja mieti kahdesti ennen kuin \&quot;vedät liipaisimesta\&quot;, sillä \&quot;yksi laukaus-yksi osuma\&quot; on paras strategia vaunulle, joka kärsii pitkästä latausajasta." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole kummankin joukkueen top-3 pelaajien joukossa ansaitun kokemuksen ja aiheutetun vahingon mukaan.\n• Aiheuta vähintään 2 000 osumapistettä vahinkoa.</req>
+        <req>• Ole joukkueesi top-3 pelaajien joukossa ansaitun kokemuksen mukaan.\n• Auta liittolaisiasi aiheuttamaan vähintään 1 500 pistettä vahinkoa vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Selviydy taistelusta.</req>
@@ -3249,136 +3261,136 @@
         <req>• Tuhoa vähintään kolme vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Tarkka-ampuja" short="T 55A: SPG-1" desc="Älä tuhlaa ammuksiasi. Tarkat laukaukset tuovat voiton joukkueellesi." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Ole kärsivällinen ja odota kunnes olet täysin kohdistanut tähtäimen kohteeseen.</Hint>
+    <PM name="SPG-1: Rohkea väite" short="T 55A: SPG-1" desc="Valtava sirpaleammuksen räjähdysalue on telatykkien tärkeimpiä ominaisuuksia. Vaikka et saisikaan suoraa osumaa vihollisvaunuun, sinulla on silti hyvä mahdollisuus aiheuttaa sille suurta harmia lamauttamalla se. Vihollisvaunu merkitään joukkutovereidesi näytöillä lamautetuksi. Jos liittolaiset aiheuttavat vahinkoa vaunuihin, jotka olet lamauttanut, saat ylimääräistä kokemusta ja krediittejä avustasi vahingon aiheuttamiseen." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään 5 laukausta, jotka aiheuttavat vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisvaunuja vähintään 7 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 3 000 osumapistettä vahinkoa.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 6 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Piilotettu ja vaarallinen" short="T 55A: SPG-2" desc="Telatykit eivät voi luottaa panssarin paksuuteen tai nopeuteen. Jos ajat telatykkiä, opettele kuinka voit pysyä piilossa koko taistelun ajan." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>\"Naamioverkko\" varuste yhdistettynä maastokuvioon auttavat huomattavasti piiloutumisessa, kun ne ovat asennettuna telatykissäsi.</Hint>
+    <PM name="SPG-2: Aika on rahaa" short="T 55A: SPG-2" desc="Vihollisvaunu pysyy lamautuneena tietyn ajan, eikä ole parhaimmillaan taistelukentällä. Muista, että lamautettu vihollinen on helppo kohde." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ole joukkueesi top-5 pelaajien joukossa aiheutetun vahingon mukaan. Pysy havaitsemattomana koko taistelun ajan.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 150 sekunnin ajaksi.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Tuhoa vähintään kolme vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Tykistöisku" short="T 55A: SPG-3" desc="Jos haluat olla korvaamaton tuki joukkueellesi, sinun täytyy ensin oppia ampumaan tehokkaasti." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Seuraa taistelun kulkua ja tue joukkuettasi. Älä pysy yhdessä kohtaa liian kauan. Vetäydy tai etsi toinen tuliasema, jos sille on tarvetta.</Hint>
+    <PM name="SPG-3: Hitaasti hyvä lamautus tulee" short="T 55A: SPG-3" desc="Piiloutuneet ja voimakkaat vihollisen PST-vaunut ja hyvin panssaroidut raskaat vaunut voivat helposti kääntää taistelun kulun edukseen. Ne ovat tärkeimpiä kohteita ja niiden vahingoittamisen (tai niiden tuhoamisessa avustamisen) tulisi olla telatykin komentajan ensisijainen kohde. Suurin osa raskaista ja PST-vaunuista ovat hitaita ja valtavia, mikä nostaa todennäköisyyksiä osua niihin." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 3 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu vähintään 6 kertaa\n•Lamauttavien laukausten tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Murtaudu läpi" short="T 55A: SPG-4" desc="Tulivoimaiset HE-ammukset eivät vain aiheuta vahinkoa vihollisen kestopisteisiin, vaan niillä on myös hyvä todennäköisyys vaurioittaa tai tuhota moduuleja tai haavoittaa miehistön jäseniä aluevahingolla." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Sirpalekranaatti on tuhoisin, kun se läpäisee panssaroinnin täysin ja räjähtää vihollisvaunun rungon sisällä. Jos ammuksillasi on heikko läpäisykyky, yritä löytää vihollisvaunu, jolla on avoin tykkitorni tai lataa premium-ammus.</Hint>
+    <PM name="SPG-4: Näen lävitsesi" short="T 55A: SPG-4" desc="Opiskele huolella tavallisimmat raskaiden vaunujen reitit ja ovelien PST-vaunujen yleisimmät piilopaikat. Jos saat tähdättyä jo valmiiksi tietylle kartan alueelle, mahdollisuutesi pommittaa tehokkaasti ja murskaavasti vihollisen asemia kasvavat huomattavasti. Tämän tyyppiset vaunut turvautuvat usein sangen ennalta-arvattaviin taktiikoihin tietyillä kartoilla. Ole nokkela: analysoi vihollisjoukkueen kokoonpano ja valitse paras mahdollinen asema itsellesi jo heti taistelun alussa." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Vaurioita tai tuhoa vihollisvaunujen moduuleja tai haavoita niiden miehistön jäseniä, kaikkiaan kahdeksaa moduulia ja miehistön jäsentä.\n• Vaurioittamiesi/tuhoamiesi moduulien ja haavoittamiesi miehistön jäsenten määrä kaikissa vihollisvaunuissa joihin olet aiheuttanut vahinkoa taistelussa lasketaan yhteen.</req>
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu yhteensä vähintään 80 sekunniksi.\n• Lamauttavan laukauksen tulisi myös aiheuttaa vahinkoa.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Laske &amp; tuhoa" short="T 55A: SPG-5" desc="Loistava tulivoimasi kompensoi telatykkisi muuten suhteellisen alhaista kestävyyttä." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Yritä aiheuttaa vahinkoa vihollisvaunuihin heti ensimmäisen tilaisuuden tullen. Vaikka HE-ammuksesi lentäisivät ohi vihollisesta tuumalla, niiden vaunu ottaa silti vahinkoa ammuksen sirpaleista.</Hint>
+    <PM name="SPG-5: Jakaminen on välittämistä" short="T 55A: SPG-5" desc="Vihollisen lamauttaminen ei ainoastaan auta joukkuettasi askeleen lähemmäs voittoa, mutta pitää myös huolen siitä, että saat ylimääräisiä kokemuspisteitä ja krediittejä, jos liittolaisesi vahingoittavat lamauttamiasi vihollisvaunuja. Älä unohda merkitä aluetta, johon tähtäät (oletusarvoisesti T-näppäin), jotta liittolaisesi ovat ajan tasalla ja osaavat keskittää tulensa alueelle." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta kahdeksan kertaa oman vaunusi osumapisteiden verran vahinkoa vihollisvaunuihin.\n• Vahinkoa liittolaisiin ei lasketa.</req>
+        <req>• Auta liittolaisiasi aiheuttamaan vähintään 2 000 pistettä vahinkoa vihollisvaunuihin lamauttamalla tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisvaunua.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 6 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Putoava moukari" short="T 55A: SPG-6" desc="Tulet taistelemaan usein korkeamman tason vaunuja vastaan, mutta se ei ole ongelma kokeneelle telatykin ajajalle." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Jos et pysty läpäisemään vihollista normaaliammuksilla, kokeile käyttää premium-ammuksia. Ammu vihollisvaunun sivuihin ja takaosaan. Telatykit, niiden ammusten kaarevalla lentoradalla, voivat tehokkaasti osua minkä tahansa vaunun tykkitornin kattoon, missä panssarointi on heikko. Vihollisvaunut, joissa on avoin tykkitorni, ovat haavoittuvaisempia ylhäältä tulevaan tuhoon.</Hint>
+    <PM name="SPG-6: Jumalten vasara" short="T 55A: SPG-6" desc="Telatykin ensisijainen tehtävä on tarjota tulitukea liittolaisvaunuille. Lamautuneet vihollisvaunut taistelevat tehottomasti, joten joukkuetoverisi arvostavat taatusti apuasi. Ole kuitenkin varovainen ampuessasi: huolimaton laukaus voi lamauttaa myös liittolaisvaunun. Omien ampumista ei suvaita!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisvaunua, jotka ovat yhtä tasoa korkeampia kuin vaunusi.</req>
+        <req>• Auta liittolaisiasi vahingoittamaan vähintään 5 vihollisvaunua lamauttamalla tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tuokaa isot tykit" short="T 55A: SPG-7" desc="Sinun täytyy tuhota vihollisen PST-vaunut ja telatykit heti ensimmäisen mahdollisuuden ilmaantuessa. Niiden tuhoaminen voi kääntää taistelun suunnan eduksesi." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Koordinoi toimesi joukkueesi kevyiden vaunujen kanssa. Vihollisen PST-vaunujen ja telatykkien havaitseminen ja tuhoaminen voi auttaa niitä taistelukentän haltuunotossa.</Hint>
+    <PM name="SPG-7: Huolellinen harkinta" short="T 55A: SPG-7" desc="Suorittaaksesi tämän tehtävän, sinun täytyy valikoida kohteesi huolella. Älä keskitä tultasi vain yhteen vihollisvaunuun, vaikka se olisikin helppo kohde. Paras strategia on osua isoihin vihollisryhmiin yhdellä laukauksella. Opiskele karttoja huolella ja opi vaunujen tavallisimmat reitit." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisen PST-vaunua ja telatykkiä.\n• Voita taistelu.</req>
+        <req>• Lamauta vähintään 5 vihollisvaunua.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 3 000 osumapistettä vahinkoa.</req>
+        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Raskasta tulitusta raskaisiin vaunuihin!" short="T 55A: SPG-8" desc="Raskas vaunu on vaikea kohde, mutta ei sinun tykillesi. Korkean lentokaaren omaavat ammukset pystyvät osumaan minkä tahansa vaunun tykkitornin katolle, missä panssarointi on erittäin heikko." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Raskaat vaunut pääasiallisesti liikkuvat hitaammin, kuin muut vaunutyypit. Tämän takia, voit usein ennakoida missä vihollisvaunu sijaitsee, kun ammuksesi saapuu määrän päähänsä. Telatykeillä pelaaville, ammusten lentonopeus on hyödyllinen tieto.</Hint>
+    <PM name="SPG-8: Tein parhaani" short="T 55A: SPG-8" desc="Saat kokemusta kaikista tehokkaista toimista. Yritä olla joukkueen tärkein pelaaja: aiheuta vahinkoa, avusta vihollisvaunujen tuhoamisessa ja selviydy taistelusta. Vaihda asemaasi joka laukauksen jälkeen. Muuten vihollisen telatykkien vastatykistötuli saattaa tuhota vaunusi." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 2 000 osumapistettä vahinkoa vihollisen raskaisiin vaunuihin.</req>
+        <req>• Ole joukkueesi top-3 pelaajien joukossa ansaitun kokemuksen mukaan.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vihollisen raskas vaunu.\n• Voita taistelu.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Ota ennakkoa, kunnes osut niihin" short="T 55A: SPG-9" desc="Kokenut telatykin ajaja pystyy helposti osumaan liikkuviin kohteisiin. Opi ennustamaan vihollisvaunun liikkeet tehokkaasti, kun ammut. Muista, että suora osuma voi aiheuttaa paljon enemmän vahinkoa vihollisvaunuun kuin HE-ammuksen aluevahinko." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Ammukseksi nopeus on todella tärkeä muuttuja. Kun tiedät milloin ammus saapuu kohteeseen, voit onnistuneesti laskea poikkeaman.</Hint>
+    <PM name="SPG-9: Ylimääräistä vahinkoa" short="T 55A: SPG-9" desc="Voimakkaat sirpalekranaatit eivät ainoastaan vie vihollisvaunuilta kestopisteitä, vaan niiden räjähdysalueella on myös suuri mahdollisuus tuhota vihollisvaunujen moduuleja tai haavoittaa miehistönjäseniä." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vahinkoa vihollisvaunuun, joka liikkuu vähintään 30km/h nopeutta.\n• Aluevahinko ja suorien osumien aiheuttama vahinko lasketaan.\n• Törmäämisellä aiheutettua vahinkoa ei lasketa.</req>
+        <req>• Tuhoa mikä hyvänsä vihollisvaunujen moduuli tai haavoita heidän miehistönsä jäsentä, yhteensä vähintään 8 moduulin ja miehistönjäsenen verran.\n• Tuhottujen moduulien ja haavoitettujen miehistönjäsenten määrä lasketaan yhteen kaikkien vihollisvaunujen joukosta, joita olet vaurioittanut taistelussa.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Selviydy taistelusta.\n• Voita taistelu.\n• Pysy havaitsemattomana koko taistelun ajan.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Tykistön kirous" short="T 55A: SPG-10" desc="Tykistön metsästäminen on mahtava idea. Yritä ennustaa missä vihollisen telatykit saattavat piileksiä ja tarkista tarkalla laukauksella arvasitko oikein." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Mitä useammin ajat telatykkiä, sitä useamman strategisen pisteen opit tuntemaan eri kartoilla. Tämä auttaa sinua taistelussa vihollisen telatykkejä vastaan, koska tiedät jo missä ne saattavat sijaita.</Hint>
+    <PM name="SPG-10: Täyshoito" short="T 55A: SPG-10" desc="Taistelussa tilanteet vaihtelevat nopeasti. Pidä aina silmällä karttaa ja pidä huoli, että sinulla on avoin linja vihollisvaunuihin. Sinun täytyy liikkua kartan halki jatkuvasti sen sijaan, että pysyttelisit vain yhdessä asemassa. Liittolaisesi luottavat telatykkisi tulivoimaan, joten tee parhaasi oikeaan aikaan oikeassa paikassa." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään yksi vihollisen telatykki.\n• Aiheuta vähintään 2 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
+        <req>• Sinun ja liittolaistesi tulee aiheuttaa yhteensä vähintään 3 000 kestopistettä vauriota vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään neljä vihollisvaunua.</req>
+        <req>• Voita taistelu.\n• Liittolaistesi tulee tuhota vähintään 2 vihollisvaunua, jotka olet lamauttanut tai joiden telat olet tuhonnut.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Vaikutusalue" short="T 55A: SPG-11" desc="HE-ammukset eivät pysty vain tuhoamaan vihollisvaunua ensimmäisellä osumalla vaan ne voivat aiheuttaa vahinkoa useisiin kohteisiin kerralla, jos ne ovat tarpeeksi lähekkäin." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Voit kirjaimellisesti tappaa kaksi kärpästä yhdellä iskulla, jos useampi vihollisvaunu seisoo paikoillaan samassa pisteessä. Tämä tilanne on tyypillinen kaupunkikentissä.</Hint>
+    <PM name="SPG-11: Vaikutusalue" short="T 55A: SPG-11" desc="Sen lisäksi, että hyvin sijoitettu laukaus aiheuttaa merkittävästi vahinkoa, sirpalekraanaatti voi räjähdyksen jälkeen myös lamauttaa kaikki räjähdysalueelle jääneet epäonniset vastustajat. Monissa kartoissa on alueita, joilla viholliset usein päätyvät lähekkäin. Käytä mahdollisuutesi ja lähetä heille räjähtävät terveisesi." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa yhdellä laukauksella vihollisvaunu ja aiheuta vahinkoa yhteen muuhun vaunuun.</req>
+        <req>• Lamauta vähintään 3 vihollisvaunua yhdellä laukauksella.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 150 sekunnin ajaksi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Iskijä" short="T 55A: SPG-12" desc="Telatykkien pelityyli on radikaalisti erilaisempi verrattuna kaikkiin muihin vaunutyyppeihin. Mutta päätehtävä on sama—tee parhaasi taistelussa, ja osallistu niin paljon kuin mahdollista joukkueesi tukemiseen." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Älä vaihda \"tykistö\" -tilaan heti taistelun alussa. Ensin, päätä hyvästä strategisesta pisteestä.</Hint>
+    <PM name="SPG-12: Paha Silmä" short="T 55A: SPG-12" desc="Tuhosivatko liittolaisesi lamautetun vihollisvaunun? Hyviä uutisia siis sinulle, sillä sinun osallistumisesi tuhoamiseen oli tärkeä askel lähemmäs voittoa! Tavoitteesi on tarjota tulitukea ja auttaa liittolaisiasi oikealla hetkellä oikeassa paikassa." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Päätä taistelu joukkueesi parhaana pelaajana aiheutetun vahingon mukaan.\n• Tuhoa vähintään kolme vihollisvaunua.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 150 sekunnin ajaksi.\n• Liittolaistesi tulee tuhota vähintään 2 vihollisvaunua, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Tykistöpatteri (itsenäinen/osasto)" short="T 55A: SPG-13" desc="Osastollinen hyvin hallittuja telatykkejä aiheuttaa vihollisjoukkueelle tuskaa. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Levittäytymällä osastosi voi osua kohteisiin monesta eri kulmasta tehden monet kivet ja rakennukset hyödyttömäksi suojana sekä hallita karttaa.</Hint>
+    <PM name="SPG-13: Y niin kuin yhteistyö" short="T 55A: SPG-13" desc="Hyvin hoidettu yhteistyö telatykkien ja muiden liittolaisten välillä aiheuttaa vihollisjoukkueelle harmaita hiuksia. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 25% joukkueesi vihollisvaunuihin aiheuttamasta vahingosta. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voita taistelu.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 8 kertaa tai lamauta heidät vähintään 10 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Yhdistetty hyökkäys (itsenäinen/osasto)" short="T 55A: SPG-14" desc="Tykistön onnistuminen on riippuvainen muusta joukkueesta. Tykistö ja kevyet vaunut täydentävät toisiaan eritoten osastossa. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Kevyt vaunu voi havaita vihollisvaunuja ja tehdä ne myös liikuntakyvyttömäksi. Telatykit jauhavat onnetonta uhria. Yhdessä me voitamme! Raskas vaunu suojaa sinua paksulla panssarillaan, keskiraskas vaunu häiritsee vihollista, kun taas PST-vaunu antaa pitkänmatkan tulitukea.</Hint>
+    <PM name="SPG-14: Osa miehistöä, osa laivaa!" short="T 55A: SPG-14" desc="Yhteistyö on avain koko joukkueen voittoon. Merkitse vihollisvaunu, johon tähtäät, jotta liittolaisesi osaavat tulittaa sitä välittömästi, kun olet pysäyttänyt tai lamauttanut sen. Muista, että yksin toimiva sotilas harvoin ratkaisee taistelua." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 4 000 osumapistettä vahinkoa vihollisen raskaisiin ja PST-vaunuihin. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 180 sekunnin ajaksi tai auta liittolaisiasi aiheuttamaan vähintään 800 pistettä vahinkoa vihollisvaunuihin, joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Sotajumalat" short="T 55A: SPG-15" desc="On paljon parempi joukkueelle, jos telatykki selviytyy. Yritä olla olematta esillä vihollistulelle ja ammu tarkkoja laukauksia vihollisiin." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
-      <Hint>Jos tiedät telatykkisi tekniset ominaisuudet, voit suunnitella liikkeesi taistelussa. Joskus tukikohdassa pysyminen ei ole kovin hyvä idea. Jos ajat nopeaa telatykkiä, voit nopeasti vaihtaa asemia ja hyökätä vihollisen kimppuun suunnasta, josta he odottavat sinua kaikista vähiten.</Hint>
+    <PM name="SPG-15: Sotajumalat" short="T 55A: SPG-15" desc="Telatykki, joka pysyy mahdollisimman pitkään hengissä, on todellinen voimavara joukkueelleen. Jatka ampumista ammus toisensa jälkeen samalla, kun yrität välttää vihollistulen kohteeksi jäämistä. Ota aikasi ja mieti kahdesti ennen kuin \&quot;vedät liipaisimesta\&quot;, sillä \&quot;yksi laukaus-yksi osuma\&quot; on paras strategia vaunulle, joka kärsii pitkästä latausajasta." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Päätä taistelu joukkueesi parhaana pelaajana ansaitun kokemuksen ja aiheutetun vahingon mukaan.\n• Aiheuta vähintään 3 000 osumapistettä vahinkoa.</req>
+        <req>• Päätä taistelu joukkueesi parhaana pelaajana ansaitun kokemuksen mukaan.\n• Auta liittolaisiasi aiheuttamaan vähintään 2 500 pistettä vahinkoa vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Selviydy taistelusta.</req>
@@ -3924,136 +3936,136 @@
         <req>• Tuhoa vähintään viisi vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Tarkka-ampuja" short="Object 260: SPG-1" desc="Älä tuhlaa ammuksiasi. Tarkat laukaukset tuovat voiton joukkueellesi." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Ole kärsivällinen ja odota kunnes olet täysin kohdistanut tähtäimen kohteeseen.</Hint>
+    <PM name="SPG-1: Rohkea väite" short="Object 260: SPG-1" desc="Valtava sirpaleammuksen räjähdysalue on telatykkien tärkeimpiä ominaisuuksia. Vaikka et saisikaan suoraa osumaa vihollisvaunuun, sinulla on silti hyvä mahdollisuus aiheuttaa sille suurta harmia lamauttamalla se. Vihollisvaunu merkitään joukkutovereidesi näytöillä lamautetuksi. Jos liittolaiset aiheuttavat vahinkoa vaunuihin, jotka olet lamauttanut, saat ylimääräistä kokemusta ja krediittejä avustasi vahingon aiheuttamiseen." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään 6 laukausta, jotka aiheuttavat vahinkoa vihollisvaunuihin.</req>
+        <req>• Lamauta vihollisvaunuja vähintään 10 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 4 000 osumapistettä vahinkoa.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 8 kertaa ampumalla tai törmäämällä.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Piilotettu ja vaarallinen" short="Object 260: SPG-2" desc="Telatykit eivät voi luottaa panssarin paksuuteen tai nopeuteen. Jos ajat telatykkiä, opettele kuinka voit pysyä piilossa koko taistelun ajan." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>\"Naamioverkko\" varuste yhdistettynä maastokuvioon auttavat huomattavasti piiloutumisessa, kun ne ovat asennettuna telatykissäsi.</Hint>
+    <PM name="SPG-2: Aika on rahaa" short="Object 260: SPG-2" desc="Vihollisvaunu pysyy lamautuneena tietyn ajan, eikä ole parhaimmillaan taistelukentällä. Muista, että lamautettu vihollinen on helppo kohde." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Ole joukkueesi top-3 pelaajien joukossa aiheutetun vahingon mukaan. Pysy havaitsemattomana koko taistelun ajan.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 200 sekunnin ajaksi.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisvaunua.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Tykistöisku" short="Object 260: SPG-3" desc="Jos haluat olla korvaamaton tuki joukkueellesi, sinun täytyy ensin oppia ampumaan tehokkaasti." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Seuraa taistelun kulkua ja tue joukkuettasi. Älä pysy yhdessä kohtaa liian kauan. Vetäydy tai etsi toinen tuliasema, jos sille on tarvetta.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 4 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Murtaudu läpi" short="Object 260: SPG-4" desc="Tulivoimaiset HE-ammukset eivät vain aiheuta vahinkoa vihollisen kestopisteisiin, vaan niillä on myös hyvä todennäköisyys vaurioittaa tai tuhota moduuleja tai haavoittaa miehistön jäseniä aluevahingolla." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Sirpalekranaatti on tuhoisin, kun se läpäisee panssaroinnin täysin ja räjähtää vihollisvaunun rungon sisällä. Jos ammuksillasi on heikko läpäisykyky, yritä löytää vihollisvaunu, jolla on avoin tykkitorni tai lataa premium-ammus.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Vaurioita tai tuhoa vihollisvaunujen moduuleja tai haavoita niiden miehistön jäseniä, kaikkiaan kymmentä moduulia ja miehistön jäsentä.\n• Vaurioittamiesi/tuhoamiesi moduulien ja haavoittamiesi miehistön jäsenten määrä kaikissa vihollisvaunuissa joihin olet aiheuttanut vahinkoa taistelussa lasketaan yhteen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Laske &amp; tuhoa" short="Object 260: SPG-5" desc="Loistava tulivoimasi kompensoi telatykkisi muuten suhteellisen alhaista kestävyyttä." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Yritä aiheuttaa vahinkoa vihollisvaunuihin heti ensimmäisen tilaisuuden tullen. Vaikka HE-ammuksesi lentäisivät ohi vihollisesta tuumalla, niiden vaunu ottaa silti vahinkoa ammuksen sirpaleista.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta kymmenen kertaa oman vaunusi osumapisteiden verran vahinkoa vihollisvaunuihin.\n• Vahinkoa liittolaisiin ei lasketa.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Tuhoa vähintään neljä vihollisvaunua.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Putoava moukari" short="Object 260: SPG-6" desc="Tulet taistelemaan usein korkeamman tason vaunuja vastaan, mutta se ei ole ongelma kokeneelle telatykin ajajalle." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Jos et pysty läpäisemään vihollista normaaliammuksilla, kokeile käyttää premium-ammuksia. Ammu vihollisvaunun sivuihin ja takaosaan. Telatykit, niiden ammusten kaarevalla lentoradalla, voivat tehokkaasti osua minkä tahansa vaunun tykkitornin kattoon, missä panssarointi on heikko. Vihollisvaunut, joissa on avoin tykkitorni, ovat haavoittuvaisempia ylhäältä tulevaan tuhoon.</Hint>
+    <PM name="SPG-3: Hitaasti hyvä lamautus tulee" short="Object 260: SPG-3" desc="Piiloutuneet ja voimakkaat vihollisen PST-vaunut ja hyvin panssaroidut raskaat vaunut voivat helposti kääntää taistelun kulun edukseen. Ne ovat tärkeimpiä kohteita ja niiden vahingoittamisen (tai niiden tuhoamisessa avustamisen) tulisi olla telatykin komentajan ensisijainen kohde. Suurin osa raskaista ja PST-vaunuista ovat hitaita ja valtavia, mikä nostaa todennäköisyyksiä osua niihin." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu vähintään 8 kertaa\n•Lamauttavien laukausten tulisi myös aiheuttaa vahinkoa.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: Näen lävitsesi" short="Object 260: SPG-4" desc="Opiskele huolella tavallisimmat raskaiden vaunujen reitit ja ovelien PST-vaunujen yleisimmät piilopaikat. Jos saat tähdättyä jo valmiiksi tietylle kartan alueelle, mahdollisuutesi pommittaa tehokkaasti ja murskaavasti vihollisen asemia kasvavat huomattavasti. Tämän tyyppiset vaunut turvautuvat usein sangen ennalta-arvattaviin taktiikoihin tietyillä kartoilla. Ole nokkela: analysoi vihollisjoukkueen kokoonpano ja valitse paras mahdollinen asema itsellesi jo heti taistelun alussa." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Lamauta vihollisen raskas vaunu tai PST-vaunu yhteensä vähintään 120 sekunniksi.\n• Lamauttavan laukauksen tulisi myös aiheuttaa vahinkoa.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Jakaminen on välittämistä" short="Object 260: SPG-5" desc="Vihollisen lamauttaminen ei ainoastaan auta joukkuettasi askeleen lähemmäs voittoa, mutta pitää myös huolen siitä, että saat ylimääräisiä kokemuspisteitä ja krediittejä, jos liittolaisesi vahingoittavat lamauttamiasi vihollisvaunuja. Älä unohda merkitä aluetta, johon tähtäät (oletusarvoisesti T-näppäin), jotta liittolaisesi ovat ajan tasalla ja osaavat keskittää tulensa alueelle." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisvaunua, jotka ovat kahta tasoa korkeampia kuin vaunusi.</req>
+        <req>• Auta liittolaisiasi aiheuttamaan vähintään 3 000 pistettä vahinkoa vihollisvaunuihin lamauttamalla tai tuhoamalla niiden telat.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 8 kertaa ampumalla tai törmäämällä.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Jumalten vasara" short="Object 260: SPG-6" desc="Telatykin ensisijainen tehtävä on tarjota tulitukea liittolaisvaunuille. Lamautuneet vihollisvaunut taistelevat tehottomasti, joten joukkuetoverisi arvostavat taatusti apuasi. Ole kuitenkin varovainen ampuessasi: huolimaton laukaus voi lamauttaa myös liittolaisvaunun. Omien ampumista ei suvaita!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Auta liittolaisiasi vahingoittamaan vähintään 6 vihollisvaunua lamauttamalla tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tuokaa isot tykit" short="Object 260: SPG-7" desc="Sinun täytyy tuhota vihollisen PST-vaunut ja telatykit heti ensimmäisen mahdollisuuden ilmaantuessa. Niiden tuhoaminen voi kääntää taistelun suunnan eduksesi." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Koordinoi toimesi joukkueesi kevyiden vaunujen kanssa. Vihollisen PST-vaunujen ja telatykkien havaitseminen ja tuhoaminen voi auttaa niitä taistelukentän haltuunotossa.</Hint>
+    <PM name="SPG-7: Huolellinen harkinta" short="Object 260: SPG-7" desc="Suorittaaksesi tämän tehtävän, sinun täytyy valikoida kohteesi huolella. Älä keskitä tultasi vain yhteen vihollisvaunuun, vaikka se olisikin helppo kohde. Paras strategia on osua isoihin vihollisryhmiin yhdellä laukauksella. Opiskele karttoja huolella ja opi vaunujen tavallisimmat reitit." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kolme vihollisen PST-vaunua ja telatykkiä.\n• Voita taistelu.</req>
+        <req>• Lamauta vähintään 6 vihollisvaunua.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 4 000 osumapistettä vahinkoa.</req>
+        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Raskasta tulitusta raskaisiin vaunuihin!" short="Object 260: SPG-8" desc="Raskas vaunu on vaikea kohde, mutta ei sinun tykillesi. Korkean lentokaaren omaavat ammukset pystyvät osumaan minkä tahansa vaunun tykkitornin katolle, missä panssarointi on erittäin heikko." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Raskaat vaunut pääasiallisesti liikkuvat hitaammin, kuin muut vaunutyypit. Tämän takia, voit usein ennakoida missä vihollisvaunu sijaitsee, kun ammuksesi saapuu määrän päähänsä. Telatykeillä pelaaville, ammusten lentonopeus on hyödyllinen tieto.</Hint>
+    <PM name="SPG-8: Tein parhaani" short="Object 260: SPG-8" desc="Saat kokemusta kaikista tehokkaista toimista. Yritä olla joukkueen tärkein pelaaja: aiheuta vahinkoa, avusta vihollisvaunujen tuhoamisessa ja selviydy taistelusta. Vaihda asemaasi joka laukauksen jälkeen. Muuten vihollisen telatykkien vastatykistötuli saattaa tuhota vaunusi." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 3 000 osumapistettä vahinkoa vihollisen raskaisiin vaunuihin.</req>
+        <req>• Päätä taistelu joukkueesi parhaana pelaajana ansaitun kokemuksen mukaan.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi raskasta vihollisvaunua.\n• Voita taistelu.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Ota ennakkoa, kunnes osut niihin" short="Object 260: SPG-9" desc="Kokenut telatykin ajaja pystyy helposti osumaan liikkuviin kohteisiin. Opi ennustamaan vihollisvaunun liikkeet tehokkaasti, kun ammut. Muista, että suora osuma voi aiheuttaa paljon enemmän vahinkoa vihollisvaunuun kuin HE-ammuksen aluevahinko." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Ammukseksi nopeus on todella tärkeä muuttuja. Kun tiedät milloin ammus saapuu kohteeseen, voit onnistuneesti laskea poikkeaman.</Hint>
+    <PM name="SPG-9: Ylimääräistä vahinkoa" short="Object 260: SPG-9" desc="Voimakkaat sirpalekranaatit eivät ainoastaan vie vihollisvaunuilta kestopisteitä, vaan niiden räjähdysalueella on myös suuri mahdollisuus tuhota vihollisvaunujen moduuleja tai haavoittaa miehistönjäseniä." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ammu vähintään neljä suoraa osumaa vihollisvaunuihin.\n• Kaikki suorat osumat huolimatta siitä, että aiheuttavatko ne vahinkoa lasketaan.</req>
+        <req>• Tuhoa mikä hyvänsä vihollisvaunujen moduuli tai haavoita heidän miehistönsä jäsentä, yhteensä vähintään 10 moduulin ja miehistönjäsenen verran.\n• Tuhottujen moduulien ja haavoitettujen miehistönjäsenten määrä lasketaan yhteen kaikkien vihollisvaunujen joukosta, joita olet vaurioittanut taistelussa.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Selviydy taistelusta.\n• Voita taistelu.\n• Pysy havaitsemattomana koko taistelun ajan.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Tykistön kirous" short="Object 260: SPG-10" desc="Tykistön metsästäminen on mahtava idea. Yritä ennustaa missä vihollisen telatykit saattavat piileksiä ja tarkista tarkalla laukauksella arvasitko oikein." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Mitä useammin ajat telatykkiä, sitä useamman strategisen pisteen opit tuntemaan eri kartoilla. Tämä auttaa sinua taistelussa vihollisen telatykkejä vastaan, koska tiedät jo missä ne saattavat sijaita.</Hint>
+    <PM name="SPG-10: Täyshoito" short="Object 260: SPG-10" desc="Taistelussa tilanteet vaihtelevat nopeasti. Pidä aina silmällä karttaa ja pidä huoli, että sinulla on avoin linja vihollisvaunuihin. Sinun täytyy liikkua kartan halki jatkuvasti sen sijaan, että pysyttelisit vain yhdessä asemassa. Liittolaisesi luottavat telatykkisi tulivoimaan, joten tee parhaasi oikeaan aikaan oikeassa paikassa." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisen telatykkiä.\n• Aiheuta vähintään 4 000 osumapistettä vahinkoa vihollisvaunuihin.</req>
+        <req>• Sinun ja liittolaistesi tulee aiheuttaa yhteensä vähintään 4 000 kestopistettä vauriota vihollisvaunuihin, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään viisi vihollisvaunua.</req>
+        <req>• Voita taistelu.\n• Liittolaisten täytyy tuhota vähintään 3 vihollisvaunua, jotka olet lamauttanut tai joiden telat olet tuhonnut.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Vaikutusalue" short="Object 260: SPG-11" desc="HE-ammukset eivät pysty vain tuhoamaan vihollisvaunua ensimmäisellä osumalla vaan ne voivat aiheuttaa vahinkoa useisiin kohteisiin kerralla, jos ne ovat tarpeeksi lähekkäin." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Voit kirjaimellisesti tappaa kaksi kärpästä yhdellä iskulla, jos useampi vihollisvaunu seisoo paikoillaan samassa pisteessä. Tämä tilanne on tyypillinen kaupunkikentissä.</Hint>
+    <PM name="SPG-11: Vaikutusalue" short="Object 260: SPG-11" desc="Sen lisäksi, että hyvin sijoitettu laukaus aiheuttaa merkittävästi vahinkoa, sirpalekraanaatti voi räjähdyksen jälkeen myös lamauttaa kaikki räjähdysalueelle jääneet epäonniset vastustajat. Monissa kartoissa on alueita, joilla viholliset usein päätyvät lähekkäin. Käytä mahdollisuutesi ja lähetä heille räjähtävät terveisesi." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tuhoa vähintään kaksi vihollisvaunua yhdellä laukauksella.</req>
+        <req>• Lamauta kahdesti vähintään 3 vihollisvaunua yhdellä laukauksella.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Voita taistelu.\n• Selviydy taistelusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 200 sekunnin ajaksi.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Iskijä" short="Object 260: SPG-12" desc="Telatykkien pelityyli on radikaalisti erilaisempi verrattuna kaikkiin muihin vaunutyyppeihin. Mutta päätehtävä on sama—tee parhaasi taistelussa, ja osallistu niin paljon kuin mahdollista joukkueesi tukemiseen." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Älä vaihda \"tykistö\" -tilaan heti taistelun alussa. Ensin, päätä hyvästä strategisesta pisteestä.</Hint>
+    <PM name="SPG-12: Paha Silmä" short="Object 260: SPG-12" desc="Tuhosivatko liittolaisesi lamautetun vihollisvaunun? Hyviä uutisia siis sinulle, sillä sinun osallistumisesi tuhoamiseen oli tärkeä askel lähemmäs voittoa! Tavoitteesi on tarjota tulitukea ja auttaa liittolaisiasi oikealla hetkellä oikeassa paikassa." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Päätä taistelu kummankin joukkueen parhaana pelaajana aiheutetun vahingon mukaan.\n• Tuhoa vähintään neljä vihollisvaunua.\n• Selviydy taistelusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 200 sekunnin ajaksi.\n• Liittolaistesi tulee tuhota vähintään 3 vihollisvaunua, jotka ovat lamauttamiasi tai joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Tykistöpatteri (itsenäinen/osasto)" short="Object 260: SPG-13" desc="Osastollinen hyvin hallittuja telatykkejä aiheuttaa vihollisjoukkueelle tuskaa. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Levittäytymällä osastosi voi osua kohteisiin monesta eri kulmasta tehden monet kivet ja rakennukset hyödyttömäksi suojana sekä hallita karttaa.</Hint>
+    <PM name="SPG-13: Y niin kuin yhteistyö" short="Object 260: SPG-13" desc="Hyvin hoidettu yhteistyö telatykkien ja muiden liittolaisten välillä aiheuttaa vihollisjoukkueelle harmaita hiuksia. Koordinoikaa toimenne ja kohdistakaa tulitukseen yhteen viholliseen kerralla." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 30% joukkueesi vihollisvaunuihin aiheuttamasta vahingosta. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voita taistelu.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Aiheuta vahinkoa vihollisvaunuihin vähintään 10 kertaa tai lamauta heidät vähintään 12 kertaa.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Yhdistetty hyökkäys (itsenäinen/osasto)" short="Object 260: SPG-14" desc="Tykistön onnistuminen on riippuvainen muusta joukkueesta. Tykistö ja kevyet vaunut täydentävät toisiaan eritoten osastossa. Tämä tehtävä voidaan suorittaa osana osastoa tai itsenäisesti, mutta jälkimmäinen vaihtoehto on huomattavasti vaikeampi." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Kevyt vaunu voi havaita vihollisvaunuja ja tehdä ne myös liikuntakyvyttömäksi. Telatykit jauhavat onnetonta uhria. Yhdessä me voitamme! Raskas vaunu suojaa sinua paksulla panssarillaan, keskiraskas vaunu häiritsee vihollista, kun taas PST-vaunu antaa pitkänmatkan tulitukea.</Hint>
+    <PM name="SPG-14: Osa miehistöä, osa laivaa!" short="Object 260: SPG-14" desc="Yhteistyö on avain koko joukkueen voittoon. Merkitse vihollisvaunu, johon tähtäät, jotta liittolaisesi osaavat tulittaa sitä välittömästi, kun olet pysäyttänyt tai lamauttanut sen. Muista, että yksin toimiva sotilas harvoin ratkaisee taistelua." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aiheuta vähintään 5 000 osumapistettä vahinkoa vihollisen raskaisiin ja PST-vaunuihin. Osastokavereiden aiheuttama vahinko lasketaan kokonaismäärään.\n• Voidaan suorittaa joko itsenäisesti tai osana osastoa, joka koostuu telatykistäsi ja mistä tahansa muusta vaunusta.</req>
+        <req>• Lamauta vihollisvaunuja yhteensä vähintään 250 sekunnin ajaksi tai auta liittolaisiasi aiheuttamaan vähintään 1 000 pistettä vahinkoa vihollisvaunuihin, joiden telat ovat tuhoamiasi.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Selviydy itse taistelusta.</req>
+        <req>• Voita taistelu.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Sotajumalat" short="Object 260: SPG-15" desc="On paljon parempi joukkueelle, jos telatykki selviytyy. Yritä olla olematta esillä vihollistulelle ja ammu tarkkoja laukauksia vihollisiin." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
-      <Hint>Jos tiedät telatykkisi tekniset ominaisuudet, voit suunnitella liikkeesi taistelussa. Joskus tukikohdassa pysyminen ei ole kovin hyvä idea. Jos ajat nopeaa telatykkiä, voit nopeasti vaihtaa asemia ja hyökätä vihollisen kimppuun suunnasta, josta he odottavat sinua kaikista vähiten.</Hint>
+    <PM name="SPG-15: Sotajumalat" short="Object 260: SPG-15" desc="Telatykki, joka pysyy mahdollisimman pitkään hengissä, on todellinen voimavara joukkueelleen. Jatka ampumista ammus toisensa jälkeen samalla, kun yrität välttää vihollistulen kohteeksi jäämistä. Ota aikasi ja mieti kahdesti ennen kuin \&quot;vedät liipaisimesta\&quot;, sillä \&quot;yksi laukaus-yksi osuma\&quot; on paras strategia vaunulle, joka kärsii pitkästä latausajasta." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauan odotettu vahvistus" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Päätä taistelu kummankin joukkueen parhaana pelaajana ansaitun kokemuksen ja aiheutetun vahingon mukaan.\n• Aiheuta vähintään 3 000 osumapistettä vahinkoa.</req>
+        <req>• Päätä taistelu kummankin joukkueen parhaana pelaajana ansaitun kokemuksen mukaan.\n• Auta liittolaisiasi aiheuttamaan vähintään 3 500 pistettä vahinkoa vihollisvaunuihin, lamauttamalla ne tai tuhoamalla niiden telat.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Selviydy taistelusta.</req>

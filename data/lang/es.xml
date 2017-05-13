@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrado" />
     <item ID="95_lost_city" Name="Pueblo fantasma" />
     <item ID="96_prohorovka_defense" Name="Saliente de fuego" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="El Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Desconocido" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Batalla especial" />
     <item ID="5" Name="Batalla especial" />
     <item ID="6" Name="Batalla de entrenamiento" />
-    <item ID="7" Name="Equipo: Batallas no clasificatorias" />
+    <item ID="7" Name="Batalla en equipo" />
     <item ID="8" Name="Batalla histórica" />
     <item ID="9" Name="Evento especial" />
     <item ID="10" Name="Escaramuzas" />
@@ -1443,10 +1455,10 @@
     <PM name="CL-10: El máximo resultado" short="StuG IV: CL-10" desc="Cuanto más efectivo seas en una batalla, más experiencia obtendrás. ¡Muéstrales de qué es capaz un carro ligero!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
       <Hint>Un buen explorador sabe cuándo ser cauto y cuándo ser agresivo. Permanece alerta sobre el desarrollo de la batalla.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-11: Una lucha justa" short="StuG IV: CL-11" desc="Cuanto más alto sea el nivel de tu carro ligero, más potencia de fuego tendrá, en adición a tu velocidad, alcance de visión y sigilo." tMID="11" opID="1" mID="11" setID="1" ID="quest_1_1_11_main" secID="quest_1_1_11_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1572,7 +1584,7 @@
         <req>• Destruye un vehículo enemigo tras embestirle.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-10: Un argumento de peso" short="StuG IV: CP-10" desc="Haz que tu cañón esté activo y mantente con vida el mayor tiempo posible." tMID="25" opID="1" mID="10" setID="2" ID="quest_1_2_10_main" secID="quest_1_2_10_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1599,7 +1611,7 @@
         <req>• El total del daño bloqueado por el blindaje debe ser igual o mayor que los puntos de vida de tu vehículo.\n• Causa al menos 1.000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-13: ¡Asalta la defensa! (personal/pelotón)" short="StuG IV: CP-13" desc="Un pelotón de carros pesados bien coordinados puede cambiar el signo de la batalla más desesperada. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, aunque lo último es mucho más difícil." tMID="28" opID="1" mID="13" setID="2" ID="quest_1_2_13_main" secID="quest_1_2_13_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1626,7 +1638,7 @@
         <req>• El daño causado, recibido y bloqueado por el blindaje debe ser de al menos 6000 PV en total.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-1: Primeros pasos" short="StuG IV: CM-1" desc="En los niveles menores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="31" opID="1" mID="1" setID="3" ID="quest_1_3_1_main" secID="quest_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1725,7 +1737,7 @@
         <req>• Causa daño en un vehículo enemigo mediante una embestida.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-12: El incinerador" short="StuG IV: CM-12" desc="Incendiar un vehículo enemigo es una de las maneras más eficientes de destruirlo." tMID="42" opID="1" mID="12" setID="3" ID="quest_1_3_12_main" secID="quest_1_3_12_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1734,7 +1746,7 @@
         <req>• Incendia un vehículo enemigo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 5 primeros jugadores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los cinco mejores jugadores por experiencia conseguida.</req>
       </Secondary>
     </PM>
     <PM name="CM-13: Una acción activa (personal/pelotón)" short="StuG IV: CM-13" desc="Un Pelotón de carros medios puede ser de gran ayuda para el equipo en todo el campo de batalla. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1767,10 +1779,10 @@
     <PM name="CC-1: Rendimiento efectivo" short="StuG IV: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a gran distancia." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
       <Hint>Los cazacarros poseen una seria potencia de fuego, pero una menor tasa de supervivencia comparativamente. Trata de disparar a distancia—la precisión de tu cañón te lo permite.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Sé uno de los 7 mejores jugadores de tu equipo por experiencia conseguida.</req>
+        <req>• Ser uno de los siete mejores jugadores de tu equipo por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-2: Fuego preciso" short="StuG IV: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="47" opID="1" mID="2" setID="4" ID="quest_1_4_2_main" secID="quest_1_4_2_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1824,7 +1836,7 @@
         <req>• Destruye un vehículo enemigo sin haber recibido previamente daño en tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-8: Un calibre gigantesco" short="StuG IV: CC-8" desc="Cada comandante de cazacarros debería saber cómo causar más daño al enemigo que la cantidad de los PV de su vehículo." tMID="53" opID="1" mID="8" setID="4" ID="quest_1_4_8_main" secID="quest_1_4_8_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1833,7 +1845,7 @@
         <req>• Causa al menos 2 veces el daño de los PV de tu vehículo en vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-9: ¡En el clavo!" short="StuG IV: CC-9" desc="Las grandes características de tu cañón compensan la relativamente baja protección que proporciona tu blindaje." tMID="54" opID="1" mID="9" setID="4" ID="quest_1_4_9_main" secID="quest_1_4_9_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1851,7 +1863,7 @@
         <req>• Causa al menos 1000 PV de daño en vehículos enemigos. Permanece sin ser detectado en el momento en el que el daño es causado.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-11: El papel clave" short="StuG IV: CC-11" desc="Tu potente cañón es una fuerza a tener en cuenta. Si, por supuesto, sabes cómo dispararlo." tMID="56" opID="1" mID="11" setID="4" ID="quest_1_4_11_main" secID="quest_1_4_11_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1869,7 +1881,7 @@
         <req>• Destruye un carro pesado enemigo.\n• Causa al menos 1000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-13: Cazadores de carros (personal/pelotón)" short="StuG IV: CC-13" desc="El pelotón debe concentrar su fuego y deshacerse con rapidez de los carros enemigos. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="58" opID="1" mID="13" setID="4" ID="quest_1_4_13_main" secID="quest_1_4_13_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
@@ -1899,136 +1911,136 @@
         <req>• Destruye un vehículo enemigo.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: El francotirador" short="StuG IV: AAP-1" desc="No desperdicies tu munición. Serán los disparos precisos los que te acercarán a la victoria." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Sé paciente y espera hasta apuntar completamente al enemigo.</Hint>
+    <PM name="AAP-1: Afirmación atrevida" short="StuG IV: AAP-1" desc="El gran dario de explosión tras la detonación del proyectil es la característica clave de los vehículos de AAP. Incluso si yerras en realizar un impacto directo al vehículo enemigo objetivo, sigue habiendo una posibilidad de causar serios problemas al aturdirlos. El vehículo enemigo queda marcado con un indicador de aturdimiento, que es visible para tus aliados. Si los aliados causan daño a los vehículos que hayas aturdido, recibirás créditos y experiencia adicionales por el daño causado con tu asistencia." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 3 impactos que causen daño en vehículos enemigos.</req>
+        <req>• Aturdir vehículos enemigos al menos tres veces.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1000 PV de daño.</req>
+        <req>• Causar daños a vehículos enemigos al menos tres veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto y peligroso" short="StuG IV: AAP-2" desc="Las AAP no pueden confiar en el espesor de su blindaje o la velocidad. Si manejas una AAP, aprende cómo permanecer oculto durante toda la batalla." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>La red de camuflaje combinada con camuflaje te ayudarán a mejorar en gran cantidad tu capacidad para ocultarte al estar montadas en una AAP.</Hint>
+    <PM name="AAP-2: El tiempo es dinero" short="StuG IV: AAP-2" desc="Un vehículo enemigo se mantiene aturdido durante un periodo de tiempo concreto y no puede dar lo máximo de sí en el campo de batalla. Recuerda: un vehículo aturdido se convierte en un objetivo fácil." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 500 PV de daño en vehículos enemigos. Permanece sin ser detectado durante la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 50 segundos.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Destruye un vehículo enemigo.</req>
+        <req>• Destruye al menos un vehículo enemigo.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Golpe de howitzer" short="StuG IV: AAP-3" desc="Si quieres ser un activo para tu equipo, tendrás que aprender primero a disparar con eficiencia." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Sigue el desarrollo de la batalla y apoya a tu equipo. No te quedes en un punto demasiado tiempo. Retírate o busca otra posición de fuego si es necesario.</Hint>
+    <PM name="AAP-3: El que no corre, resulta aturdido" short="StuG IV: AAP-3" desc="Los cazacarros potentes y ocultos del enemigo y los carros de blindaje pesado pueden cambiar con facilidad el curso de la batalla. Son objetivos prioritarios, y causarles daño (o ayudar en su destrucción) debería ser el objetivo principal para un jugador en una AAP. La mayoría de los carros pesados y cazacarros son lentos y abultados, lo que aumenta las posibilidades de un disparo exitoso." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1000 PV de daño en vehículos enemigos.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo al menos dos veces.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Penetración" short="StuG IV: AAP-4" desc="Los proyectiles AE potentes no solo causarán daño al enemigo, sino que también tendrán una gran probabilidad de dañar o destruir módulos o herir tripulantes con daño por fragmentos." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Solo si penetra completamente el blindaje y explota en el interior de un vehículo enemigo, es cuando un proyectil de alto explosivo muestre su valía. Si tus proyectiles poseen una penetración mediocre, trata de encontrar un vehículo enemigo de torreta abierta, o carga un proyectil premium.</Hint>
+    <PM name="AAP-4: Te veo" short="StuG IV: AAP-4" desc="Apréndete las rutas principales de los carros pesados enemigos y las posiciones donde los astutos cazacarros se suelen ocultar. Apuntar a una zona en particular del mapa con antelación incrementa las posibilidades de un disparo efectivo y devastador. Estos tipos de vehículos suelen seguir tácticas bastante previsibles en ciertos mapas. Sé listo: analiza la alineación del equipo enemigo y elige la posición más adecuada desde el mismo comienzo de la batalla." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Daña o destruye módulos de vehículos enemigos o hiere a sus tripulantes, totalizando al menos 3 módulos y tripulantes.\n• El número de módulos dañados/destruidos y tripulantes heridos de todos los vehículos dañados en batalla se añaden de manera conjunta.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo durante al menos 30 segundos en total.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcula y elimina" short="StuG IV: AAP-5" desc="La mayor potencia de fuego que posees compensa la relativamente baja durabilidad de tu AAP." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Trata de dañar vehículos enemigos a la primera oportunidad. Incluso si tus proyectiles AE no dan al enemigo por milímetros, los vehículos todavía podrían recibir daño por fragmentos de proyectil.</Hint>
+    <PM name="AAP-5: Compartir es querer" short="StuG IV: AAP-5" desc="El aturdimiento de los vehículos enemigos no sólo acerca a tu equipo un poco a la victoria, sino que también asegura que recibas experiencia y créditos adicionales si tus aliados causan daño a los vehículos enemigos aturdidos por ti. No te olvides de marcar la zona a la que estás apuntando (la tecla T por defecto) para notificar y llamar la atención de tus aliados." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa daño que supere en 4 veces los puntos de vida de tu vehículo.\n• No cuenta el daño causado en aliados.</req>
+        <req>• Tus aliados deben causar al menos 600 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destruye un vehículo enemigo.</req>
+        <req>• Causar daños a vehículos enemigos al menos tres veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: El martillo en descenso" short="StuG IV: AAP-6" desc="A menudo lucharás contra vehículos de mayor nivel. Pero eso no es problema para el comandante experimentado de una AAP." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Si no puedes penetrar un vehículo enemigo con proyectiles estándar, trata de usar proyectiles Premium. Dispara a los laterales y retaguardia del vehículo enemigo. Las AAP, con la trayectoria en arco de sus proyectiles, pueden alcanzar con eficiencia a cualquier vehículo en la parte superior de la torreta, en donde la protección del blindaje es débil. Los vehículos enemigos con torretas abiertas son incluso más vulnerables a la destrucción desde arriba.</Hint>
+    <PM name="AAP-6: El martillo de los dioses" short="StuG IV: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos de un nivel igual o mayor al tuyo.</req>
+        <req>• Tus aliados deben causar daños a al menos dos vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Despliega sobre los grandes cañones" short="StuG IV: AAP-7" desc="Deberías destruir los cazacarros y AAP enemigos a la primera oportunidad. Deshacerse de ellos puede cambiar el signo de la batalla a tu favor." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Coordina tus acciones con las de los carros ligeros aliados. Detectar los cazacarros y AAP enemigos y destruirlos puede ayudar a conseguir la superioridad en el campo de batalla.</Hint>
+    <PM name="AAP-7: Consideración cuidadosa" short="StuG IV: AAP-7" desc="Para completar esta misión, utiliza una aproximación selectiva al escoger tus objetivos. No concentres el fuego en un vehículo enemigo, incluso aunque sea un objetivo fácil. La mejor estrategia es impactar a grandes grupos de vehículos enemigos con un solo disparo. Estudia los mapas y aprende las rutas principales de los vehículos." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye un cazacarros o AAP enemiga.</req>
+        <req>• Aturdir al menos dos vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1000 PV de daño.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: ¡Fuego pesado sobre los carros pesados!" short="StuG IV: AAP-8" desc="Un carro pesado es un objetivo duro, pero no para tu cañón. Los proyectiles con trayectoria en arco pueden dañar a cualquier vehículo en la parte superior de la torreta, en donde el blindaje es más débil." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Los carros pesados generalmente se mueven más despacio que los demás tipos de vehículos. Por lo tanto, a menudo puedes predecir dónde estará el carro cuando caiga el proyectil. Para el comandante de una AAP, es útil conocer la velocidad de tus proyectiles.</Hint>
+    <PM name="AAP-8: Un gran esfuerzo" short="StuG IV: AAP-8" desc="Recibes experiencia por todas las acciones efectivas. Intenta ser el JMV: causa daño, asiste en destruir vehículos enemigos y sobrevive a la batalla. Cambia tu posición tras cada disparo; en caso contrario el fuego contrabatería de la AAP enemiga podría destruir tu vehículo." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1000 PV de daño en carros pesados enemigos.</req>
+        <req>• Ser uno de los siete mejores jugadores de tu equipo por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destruye un carro pesado enemigo.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Guíalos hasta dañarlos" short="StuG IV: AAP-9" desc="Un comandante experimentado de AAP puede hacer blanco fácilmente en vehículos en movimiento. Aprende a predecir con efectividad el movimiento de los vehículos enemigos cuando dispares. Recuerda que un impacto directo puede causar mucho más daño en un vehículo que los fragmentos AE." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>La velocidad de tus proyectiles es un parámetro muy importante. Sabiendo cuándo el proyectil alcanza el objetivo, puedes calcular correctamente la desviación.</Hint>
+    <PM name="AAP-9: Daño colateral" short="StuG IV: AAP-9" desc="Los potentes proyectiles de Alto Explosivo no sólo reducen los puntos de vida de los vehículos enemigos, sino que también tienen una alta probabilidad de destruir módulos o herir a tripulantes con el daño explosivo." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Daña un vehículo enemigo que se mueva a una velocidad de al menos 20 km/h.\n• Cuenta tanto el daño por fragmentos como el causado por impactos directos.\n• No cuenta el daño causado por una embestida.</req>
+        <req>• Daña cualquier módulo de vehículos enemigos o hiere a miembros de su tripulación, por un total de al menos tres módulos y tripulantes.\n• El número de módulos destruidos y miembros de tripulación heridos se suma entre todos los vehículos enemigos que hayas dañado en la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Sobrevive a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: La perdición de la artillería" short="StuG IV: AAP-10" desc="La caza de la artillería es una gran idea. Trata de predecir dónde podría ocultarse una AAP y comprueba si has calculado correctamente con un disparo preciso." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Con cuanta más frecuencia manejes una AAP, más puntos estratégicos conocerás de los mapas. Esto te ayudará a luchar contra las AAP enemigas, porque ya sabrás dónde podrían estar posicionadas.</Hint>
+    <PM name="AAP-10: Todo incluido" short="StuG IV: AAP-10" desc="La situación del campo de batalla puede cambiar rápidamente: mantén siempre un ojo en el minimapa y asegúrate de tener una visión clara de los vehículos enemigos. Tendrás que moverte por el mapa todo el tiempo en lugar de mantenerte en una posición. Tus aliados confían en tu potencia artillera, así que haz todo lo posible en el momento y lugar adecuados." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 1 AAP enemiga.</req>
+        <req>• El daño total causado por ti y tus aliados a vehículos enemigos que hayas aturdido o inmovilizado debe ser al menos de 1000 PdV.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos.</req>
+        <req>• Los aliados deben destruir al menos un vehículo que hayas aturdido o inmovilizado.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: El área de efecto" short="StuG IV: AAP-11" desc="Tus proyectiles AE no solo pueden destruir un vehículo enemigo al primer disparo, sino que también pueden causar un gran daño en varios objetivos a la vez, si están lo suficientemente cerca." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Literalmente puedes matar dos pájaros de un tiro si varios vehículos se encuentran juntos en un punto. Este caso es típico de los mapas urbanos.</Hint>
+    <PM name="AAP-11: El área de efecto" short="StuG IV: AAP-11" desc="Además de una considerable cantidad de daño causada con un disparo bien emplazado, un proyectil de Alto Explosivo puede también aturdir todos los vehículos situados dentro del radio de explosión tras la detonación del proyectil. Muchos mapas presentan lugares donde los vehículos enemigos se agolpan. Prueba suerte y envíales tus felicitaciones explosivas." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruye un vehículo enemigo con un solo disparo.\n• Cuentan los objetivos que no recibieron daño previo en la batalla.</req>
+        <req>• Aturdir al menos dos vehículos enemigos con un solo disparo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 50 segundos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: El golpeador" short="StuG IV: AAP-12" desc="El estilo de juego en una AAP es drásticamente diferente al de cualquier otro tipo de vehículo. Pero el objetivo principal es el mismo—hacerlo lo mejor posible en batalla y contribuir en todo lo que puedas a la causa del equipo." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>No cambies a modo de artillería al inicio de la batalla. Primero, decide un buen punto estratégico.</Hint>
+    <PM name="AAP-12: El ojo malvado" short="StuG IV: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Sé uno de los 3 mejores jugadores de tu equipo por daño causado.\n• Destruye un vehículo enemigo.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 50 segundos.\n• Los aliados deben destruir al menos un vehículo que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: La batería de artillería (personal/pelotón)" short="StuG IV: AAP-13" desc="Un Pelotón de AAP bien usadas debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Si se dispersa, tu pelotón puede hacer blanco en objetivos desde ángulos diferentes, haciendo inútil la cobertura de muchas rocas y edificios que cubren y dominan el mapa.</Hint>
+    <PM name="AAP-13: La C es de cooperación" short="StuG IV: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos un 15 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu AAP y en cualquier otro vehículo.</req>
+        <req>• Causar daños a vehículos enemigos al menos cuatro veces o aturdirlos al menos seis veces.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva conjunta (personal/pelotón)" short="StuG IV: AAP-14" desc="La artillería depende del resto del equipo para tener éxito. La artillería y los carros ligeros se complementan el uno al otro bastante bien en un pelotón. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Un carro ligero puede detectar vehículos enemigos e inmovilizarlos. Las AAP harán que la desafortunada víctima desaparezca con rapidez. ¡Juntos ganaremos! Un carro pesado te protegerá con su grueso blindaje, un carro medio distraerá al enemigo y un cazacarros proporcionará apoyo de fuego a larga distancia.</Hint>
+    <PM name="AAP-14: Parte de la tripulación, ¡parte del barco!" short="StuG IV: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 2000 PV de daño en carros pesados enemigos y cazacarros, bien en persona o en el total del pelotón.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu AAP y en cualquier otro vehículo.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 70 segundos o permitir a tus aliados causar al menos 400 PdV de daño a vehículos enemigos al inmovilizarlos.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Dioses de la guerra" short="StuG IV: AAP-15" desc="Es mucho mejor para tu equipo si la AAP sobrevive. Trata de no exponerte al fuego enemigo y lanza disparos precisos al enemigo." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Si conoces las características técnicas de tu AAP, puedes planear tus acciones en batalla. A veces permanecer en la base no es una buena idea. Si manejas una AAP rápida, puedes cambiar de posición con rapidez y enfrentarte al enemigo desde las direcciones en donde menos te esperan.</Hint>
+    <PM name="AAP-15: Dioses de la guerra" short="StuG IV: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Sé uno de los 3 mejores jugadores de tu equipo por experiencia conseguida y daño causado.\n• Causa al menos 2000 PV de daño.</req>
+        <req>• Ser uno de los 5 mejores jugadores de tu equipo por experiencia conseguida.\n• Permitir a tus aliados causar al menos 1000 PdV de daño a vehículos enemigos al aturdirlos o inmovilizarlos.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>
@@ -2118,10 +2130,10 @@
     <PM name="CL-10: El máximo resultado" short="Concepto del carro pesado T28: CL-10" desc="Cuanto más efectivo seas en una batalla, más experiencia obtendrás. ¡Muéstrales de qué es capaz un carro ligero!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
       <Hint>Un buen explorador sabe cuándo ser cauto y cuándo ser agresivo. Permanece alerta sobre el desarrollo de la batalla.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finaliza la batalla siendo el mejor jugador de tu equipo por experiencia obtenida.</req>
+        <req>• Finalizar la batalla siendo el mejor jugador de tu equipo por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-11: Una lucha justa" short="Concepto del carro pesado T28: CL-11" desc="Cuanto más alto sea el nivel de tu carro ligero, más potencia de fuego tendrá, en adición a tu velocidad, alcance de visión y sigilo." tMID="86" opID="2" mID="11" setID="1" ID="quest_2_1_11_main" secID="quest_2_1_11_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2247,7 +2259,7 @@
         <req>• Destruye un vehículo enemigo tras embestirle.\n• Sobrevive al ataque por embestida del enemigo.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-10: Un argumento de peso" short="Concepto del carro pesado T28: CP-10" desc="Haz que tu cañón esté activo y mantente con vida el mayor tiempo posible." tMID="100" opID="2" mID="10" setID="2" ID="quest_2_2_10_main" secID="quest_2_2_10_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2274,7 +2286,7 @@
         <req>• El total del daño bloqueado por el blindaje debe ser dos veces mayor que los puntos de vida de tu vehículo.\n• Causa al menos 1.500 PV de daño.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-13: ¡Asalta la defensa! (personal/pelotón)" short="Concepto del carro pesado T28: CP-13" desc="Un pelotón de carros pesados bien coordinados puede cambiar el signo de la batalla más desesperada. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, aunque lo último es mucho más difícil." tMID="103" opID="2" mID="13" setID="2" ID="quest_2_2_13_main" secID="quest_2_2_13_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2301,7 +2313,7 @@
         <req>• El daño causado, recibido y bloqueado por el blindaje debe ser de al menos 8000 PV en total.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-1: Primeros pasos" short="Concepto del carro pesado T28: CM-1" desc="En los niveles menores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="106" opID="2" mID="1" setID="3" ID="quest_2_3_1_main" secID="quest_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2400,7 +2412,7 @@
         <req>• Destruye un vehículo enemigo mediante una embestida.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-12: El incinerador" short="Concepto del carro pesado T28: CM-12" desc="Incendiar un vehículo enemigo es una de las maneras más eficientes de destruirlo." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2409,7 +2421,7 @@
         <req>• Incendia un vehículo enemigo\n• Causa al menos 2000 PV de daño en vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Secondary>
     </PM>
     <PM name="CM-13: Una acción activa (personal/pelotón)" short="Concepto del carro pesado T28: CM-13" desc="Un Pelotón de carros medios puede ser de gran ayuda para el equipo en todo el campo de batalla. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2442,10 +2454,10 @@
     <PM name="CC-1: Rendimiento efectivo" short="Concepto del carro pesado T28: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a gran distancia." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
       <Hint>Los cazacarros poseen una seria potencia de fuego, pero una menor tasa de supervivencia comparativamente. Trata de disparar a distancia—la precisión de tu cañón te lo permite.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 5 primeros jugadores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los cinco mejores jugadores por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-2: Fuego preciso" short="Concepto del carro pesado T28: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2472,7 +2484,7 @@
         <req>• Destruye al menos 2 vehículos enemigos. Permanece sin ser detectado por ellos en el momento de su destrucción.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-5: Un cañón de larga distancia" short="Concepto del carro pesado T28: CC-5" desc="Cuando manejas un cazacarros, es importante saber cómo disparar con efectividad a grandes distancias." tMID="125" opID="2" mID="5" setID="4" ID="quest_2_4_5_main" secID="quest_2_4_5_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2499,7 +2511,7 @@
         <req>• Destruye al menos 2 vehículos enemigos sin haber recibido daño previamente en tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-8: Un calibre gigantesco" short="Concepto del carro pesado T28: CC-8" desc="Cada comandante de cazacarros debería saber cómo causar más daño al enemigo que la cantidad de los PV de su vehículo." tMID="128" opID="2" mID="8" setID="4" ID="quest_2_4_8_main" secID="quest_2_4_8_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2508,7 +2520,7 @@
         <req>• Causa al menos 3 veces los puntos de vida de tu vehículo en daño sobre vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-9: ¡En el clavo!" short="Concepto del carro pesado T28: CC-9" desc="Las grandes características de tu cañón compensan la relativamente baja protección que proporciona tu blindaje." tMID="129" opID="2" mID="9" setID="4" ID="quest_2_4_9_main" secID="quest_2_4_9_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2526,7 +2538,7 @@
         <req>• Causa al menos 2000 PV de daño en vehículos enemigos. Permanece sin ser detectado en el momento en el que el daño es causado.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-11: El papel clave" short="Concepto del carro pesado T28: CC-11" desc="Tu potente cañón es una fuerza a tener en cuenta. Si, por supuesto, sabes cómo dispararlo." tMID="131" opID="2" mID="11" setID="4" ID="quest_2_4_11_main" secID="quest_2_4_11_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2544,7 +2556,7 @@
         <req>• Destruye un carro pesado enemigo que sea un nivel más alto que el de tu vehículo.\n• Causa al menos 2000 PV de daño.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-13: Cazadores de carros (personal/pelotón)" short="Concepto del carro pesado T28: CC-13" desc="El pelotón debe concentrar su fuego y deshacerse con rapidez de los carros enemigos. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="133" opID="2" mID="13" setID="4" ID="quest_2_4_13_main" secID="quest_2_4_13_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
@@ -2574,136 +2586,136 @@
         <req>• Destruye al menos 2 vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: El francotirador" short="Concepto del carro pesado T28: AAP-1" desc="No desperdicies tu munición. Serán los disparos precisos los que te acercarán a la victoria." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Sé paciente y espera hasta apuntar completamente al enemigo.</Hint>
+    <PM name="AAP-1: Afirmación atrevida" short="Concepto del carro pesado T28: AAP-1" desc="El gran dario de explosión tras la detonación del proyectil es la característica clave de los vehículos de AAP. Incluso si yerras en realizar un impacto directo al vehículo enemigo objetivo, sigue habiendo una posibilidad de causar serios problemas al aturdirlos. El vehículo enemigo queda marcado con un indicador de aturdimiento, que es visible para tus aliados. Si los aliados causan daño a los vehículos que hayas aturdido, recibirás créditos y experiencia adicionales por el daño causado con tu asistencia." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 4 impactos que causen daño en vehículos enemigos.</req>
+        <req>• Aturdir vehículos enemigos al menos cinco veces.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 2000 PV de daño.</req>
+        <req>• Causar daños a vehículos enemigos al menos cinco veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto y peligroso" short="Concepto del carro pesado T28: AAP-2" desc="Las AAP no pueden confiar en el espesor de su blindaje o la velocidad. Si manejas una AAP, aprende cómo permanecer oculto durante toda la batalla." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>La red de camuflaje combinada con camuflaje te ayudarán a mejorar en gran cantidad tu capacidad para ocultarte al estar montadas en una AAP.</Hint>
+    <PM name="AAP-2: El tiempo es dinero" short="Concepto del carro pesado T28: AAP-2" desc="Un vehículo enemigo se mantiene aturdido durante un periodo de tiempo concreto y no puede dar lo máximo de sí en el campo de batalla. Recuerda: un vehículo aturdido se convierte en un objetivo fácil." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1 500 PV de daño en vehículos enemigos. Permanece sin ser detectado durante la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 100 segundos.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos.</req>
+        <req>• Destruir al menos 2 vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Golpe de howitzer" short="Concepto del carro pesado T28: AAP-3" desc="Si quieres ser un activo para tu equipo, tendrás que aprender primero a disparar con eficiencia." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Sigue el desarrollo de la batalla y apoya a tu equipo. No te quedes en un punto demasiado tiempo. Retírate o busca otra posición de fuego si es necesario.</Hint>
+    <PM name="AAP-3: El que no corre, resulta aturdido" short="Concepto del carro pesado T28: AAP-3" desc="Los cazacarros potentes y ocultos del enemigo y los carros de blindaje pesado pueden cambiar con facilidad el curso de la batalla. Son objetivos prioritarios, y causarles daño (o ayudar en su destrucción) debería ser el objetivo principal para un jugador en una AAP. La mayoría de los carros pesados y cazacarros son lentos y abultados, lo que aumenta las posibilidades de un disparo exitoso." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 2000 PV de daño en vehículos enemigos.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo al menos cuatro veces.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Penetración" short="Concepto del carro pesado T28: AAP-4" desc="Los proyectiles AE potentes no solo causarán daño al enemigo, sino que también tendrán una gran probabilidad de dañar o destruir módulos o herir tripulantes con daño por fragmentos." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Solo si penetra completamente el blindaje y explota en el interior de un vehículo enemigo, es cuando un proyectil de alto explosivo muestre su valía. Si tus proyectiles poseen una penetración mediocre, trata de encontrar un vehículo enemigo de torreta abierta, o carga un proyectil premium.</Hint>
+    <PM name="AAP-4: Te veo" short="Concepto del carro pesado T28: AAP-4" desc="Apréndete las rutas principales de los carros pesados enemigos y las posiciones donde los astutos cazacarros se suelen ocultar. Apuntar a una zona en particular del mapa con antelación incrementa las posibilidades de un disparo efectivo y devastador. Estos tipos de vehículos suelen seguir tácticas bastante previsibles en ciertos mapas. Sé listo: analiza la alineación del equipo enemigo y elige la posición más adecuada desde el mismo comienzo de la batalla." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Daña o destruye módulos de vehículos enemigos o hiere a sus tripulantes, totalizando al menos 5 módulos y tripulantes.\n• Se añaden de manera conjunta el número de módulos dañados/destruidos y tripulantes heridos de todos los vehículos dañados en batalla.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo durante al menos 50 segundos en total.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcula y elimina" short="Concepto del carro pesado T28: AAP-5" desc="La mayor potencia de fuego que posees compensa la relativamente baja durabilidad de tu AAP." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Trata de dañar vehículos enemigos a la primera oportunidad. Incluso si tus proyectiles AE no dan al enemigo por milímetros, los vehículos todavía podrían recibir daño por fragmentos de proyectil.</Hint>
+    <PM name="AAP-5: Compartir es querer" short="Concepto del carro pesado T28: AAP-5" desc="El aturdimiento de los vehículos enemigos no sólo acerca a tu equipo un poco a la victoria, sino que también asegura que recibas experiencia y créditos adicionales si tus aliados causan daño a los vehículos enemigos aturdidos por ti. No te olvides de marcar la zona a la que estás apuntando (la tecla T por defecto) para notificar y llamar la atención de tus aliados." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa daño que supere en 6 veces los puntos de vida de tu vehículo.\n• No cuenta el daño causado en aliados.</req>
+        <req>• Tus aliados deben causar al menos 1000 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos.</req>
+        <req>• Causar daños a vehículos enemigos al menos cinco veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: El martillo en descenso" short="Concepto del carro pesado T28: AAP-6" desc="A menudo lucharás contra vehículos de mayor nivel. Pero eso no es problema para el comandante experimentado de una AAP." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Si no puedes penetrar un vehículo enemigo con proyectiles estándar, trata de usar proyectiles Premium. Dispara a los laterales y retaguardia del vehículo enemigo. Las AAP, con la trayectoria en arco de sus proyectiles, pueden alcanzar con eficiencia a cualquier vehículo en la parte superior de la torreta, en donde la protección del blindaje es débil. Los vehículos enemigos con torretas abiertas son incluso más vulnerables a la destrucción desde arriba.</Hint>
+    <PM name="AAP-6: El martillo de los dioses" short="Concepto del carro pesado T28: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 3 vehículos enemigos de un nivel igual o superior al de tu vehículo.</req>
+        <req>• Tus aliados deben causar daños a al menos tres vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Despliega sobre los grandes cañones" short="Concepto del carro pesado T28: AAP-7" desc="Deberías destruir los cazacarros y AAP enemigos a la primera oportunidad. Deshacerse de ellos puede cambiar el signo de la batalla a tu favor." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Coordina tus acciones con las de los carros ligeros aliados. Detectar los cazacarros y AAP enemigos y destruirlos puede ayudar a conseguir la superioridad en el campo de batalla.</Hint>
+    <PM name="AAP-7: Consideración cuidadosa" short="Concepto del carro pesado T28: AAP-7" desc="Para completar esta misión, utiliza una aproximación selectiva al escoger tus objetivos. No concentres el fuego en un vehículo enemigo, incluso aunque sea un objetivo fácil. La mejor estrategia es impactar a grandes grupos de vehículos enemigos con un solo disparo. Estudia los mapas y aprende las rutas principales de los vehículos." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye un cazacarros o AAP enemiga que sea 1 nivel más alto que el de tu vehículo.</req>
+        <req>• Aturdir al menos tres vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 2000 PV de daño.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: ¡Fuego pesado sobre los carros pesados!" short="Concepto del carro pesado T28: AAP-8" desc="Un carro pesado es un objetivo duro, pero no para tu cañón. Los proyectiles con trayectoria en arco pueden dañar a cualquier vehículo en la parte superior de la torreta, en donde el blindaje es más débil." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Los carros pesados generalmente se mueven más despacio que los demás tipos de vehículos. Por lo tanto, a menudo puedes predecir dónde estará el carro cuando caiga el proyectil. Para el comandante de una AAP, es útil conocer la velocidad de tus proyectiles.</Hint>
+    <PM name="AAP-8: Un gran esfuerzo" short="Concepto del carro pesado T28: AAP-8" desc="Recibes experiencia por todas las acciones efectivas. Intenta ser el JMV: causa daño, asiste en destruir vehículos enemigos y sobrevive a la batalla. Cambia tu posición tras cada disparo; en caso contrario el fuego contrabatería de la AAP enemiga podría destruir tu vehículo." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 1500 PV de daño en carros pesados enemigos.</req>
+        <req>• Ser uno de los cinco mejores jugadores por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 carros pesados enemigos.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Guíalos hasta dañarlos" short="Concepto del carro pesado T28: AAP-9" desc="Un comandante experimentado de AAP puede hacer blanco fácilmente en vehículos en movimiento. Aprende a predecir con efectividad el movimiento de los vehículos enemigos cuando dispares. Recuerda que un impacto directo puede causar mucho más daño en un vehículo que los fragmentos AE." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>La velocidad de tus proyectiles es un parámetro muy importante. Sabiendo cuándo el proyectil alcanza el objetivo, puedes calcular correctamente la desviación.</Hint>
+    <PM name="AAP-9: Daño colateral" short="Concepto del carro pesado T28: AAP-9" desc="Los potentes proyectiles de Alto Explosivo no sólo reducen los puntos de vida de los vehículos enemigos, sino que también tienen una alta probabilidad de destruir módulos o herir a tripulantes con el daño explosivo." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 2 impactos directos en vehículos enemigos.\n• Cuentan todos los impactos directos, tanto si causan daño como si no.</req>
+        <req>• Daña cualquier módulo de vehículos enemigos o hiere a miembros de su tripulación, por un total de al menos cinco módulos y tripulantes.\n• El número de módulos destruidos y miembros de tripulación heridos se suma entre todos los vehículos enemigos que hayas dañado en la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Sobrevive a la batalla.\n• Gana la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: La perdición de la artillería" short="Concepto del carro pesado T28: AAP-10" desc="La caza de la artillería es una gran idea. Trata de predecir dónde podría ocultarse una AAP y comprueba si has calculado correctamente con un disparo preciso." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Con cuanta más frecuencia manejes una AAP, más puntos estratégicos conocerás de los mapas. Esto te ayudará a luchar contra las AAP enemigas, porque ya sabrás dónde podrían estar posicionadas.</Hint>
+    <PM name="AAP-10: Todo incluido" short="Concepto del carro pesado T28: AAP-10" desc="La situación del campo de batalla puede cambiar rápidamente: mantén siempre un ojo en el minimapa y asegúrate de tener una visión clara de los vehículos enemigos. Tendrás que moverte por el mapa todo el tiempo en lugar de mantenerte en una posición. Tus aliados confían en tu potencia artillera, así que haz todo lo posible en el momento y lugar adecuados." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 AAP enemigas.</req>
+        <req>• El daño total causado por ti y tus aliados sobre los vehículos enemigos que hayas aturdido o inmovilizado debe ser al menos de 2000 PdV.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 3 vehículos enemigos.</req>
+        <req>• Los aliados deben destruir al menos un vehículo que hayas aturdido o inmovilizado.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: El área de efecto" short="Concepto del carro pesado T28: AAP-11" desc="Tus proyectiles AE no solo pueden destruir un vehículo enemigo al primer disparo, sino que también pueden causar un gran daño en varios objetivos a la vez, si están lo suficientemente cerca." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Literalmente puedes matar dos pájaros de un tiro si varios vehículos se encuentran juntos en un punto. Este caso es típico de los mapas urbanos.</Hint>
+    <PM name="AAP-11: El área de efecto" short="Concepto del carro pesado T28: AAP-11" desc="Además de una considerable cantidad de daño causada con un disparo bien emplazado, un proyectil de Alto Explosivo puede también aturdir todos los vehículos situados dentro del radio de explosión tras la detonación del proyectil. Muchos mapas presentan lugares donde los vehículos enemigos se agolpan. Prueba suerte y envíales tus felicitaciones explosivas." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa daño en al menos 2 vehículos enemigos con un solo disparo.</req>
+        <req>• Aturdir al menos dos vehículos enemigos con un solo disparo dos veces.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 100 segundos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: El golpeador" short="Concepto del carro pesado T28: AAP-12" desc="El estilo de juego en una AAP es drásticamente diferente al de cualquier otro tipo de vehículo. Pero el objetivo principal es el mismo—hacerlo lo mejor posible en batalla y contribuir en todo lo que puedas a la causa del equipo." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>No cambies a modo de artillería al inicio de la batalla. Primero, decide un buen punto estratégico.</Hint>
+    <PM name="AAP-12: El ojo malvado" short="Concepto del carro pesado T28: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores jugadores de ambos equipos por daño causado.\n• Destruye al menos 2 vehículos enemigos.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 100 segundos.\n• Los aliados deben destruir al menos un vehículo enemigo que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: La batería de artillería (personal/pelotón)" short="Concepto del carro pesado T28: AAP-13" desc="Un Pelotón de AAP bien usadas debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Si se dispersa, tu pelotón puede hacer blanco en objetivos desde ángulos diferentes, haciendo inútil la cobertura de muchas rocas y edificios que cubren y dominan el mapa.</Hint>
+    <PM name="AAP-13: La C es de cooperación" short="Concepto del carro pesado T28: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos el 20 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu AAP y en cualquier otro vehículo.</req>
+        <req>• Causar daño a vehículos enemigos al menos seis veces o aturdirlos al menos ocho veces.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva conjunta (personal/pelotón)" short="Concepto del carro pesado T28: AAP-14" desc="La artillería depende del resto del equipo para tener éxito. La artillería y los carros ligeros se complementan el uno al otro bastante bien en un pelotón. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Un carro ligero puede detectar vehículos enemigos e inmovilizarlos. Las AAP harán que la desafortunada víctima desaparezca con rapidez. ¡Juntos ganaremos! Un carro pesado te protegerá con su grueso blindaje, un carro medio distraerá al enemigo y un cazacarros proporcionará apoyo de fuego a larga distancia.</Hint>
+    <PM name="AAP-14: Parte de la tripulación, ¡parte del barco!" short="Concepto del carro pesado T28: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 3000 PV de daño en carros pesados y cazacarros enemigos, bien en persona o en el total del pelotón.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu AAP y en cualquier otro vehículo.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 100 segundos o ayudar a tus aliados: deben causar al menos 600 puntos de daño a los vehículos enemigos que hayas inmovilizado.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Dioses de la guerra" short="Concepto del carro pesado T28: AAP-15" desc="Es mucho mejor para tu equipo si la AAP sobrevive. Trata de no exponerte al fuego enemigo y lanza disparos precisos al enemigo." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Si conoces las características técnicas de tu AAP, puedes planear tus acciones en batalla. A veces permanecer en la base no es una buena idea. Si manejas una AAP rápida, puedes cambiar de posición con rapidez y enfrentarte al enemigo desde las direcciones en donde menos te esperan.</Hint>
+    <PM name="AAP-15: Dioses de la guerra" short="Concepto del carro pesado T28: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Sé uno de los 3 mejores jugadores por experiencia conseguida y daño causado de ambos equipos.\n• Causa al menos 2000 PV de daño.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida de tu equipo.\n• Permitir a tus aliados causar al menos 1500 PdV de daño a vehículos enemigos al aturdirlos o inmovilizarlos.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>
@@ -2724,7 +2736,7 @@
         <req>• Detecta en persona al menos 6 vehículos enemigos.\n• Sobrevive a la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-3: La persecución" short="T 55A: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2796,7 +2808,7 @@
         <req>• Finaliza la batalla siendo el mejor jugador en ambos equipos por experiencia obtenida.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-11: Una lucha justa" short="T 55A: CL-11" desc="Cuanto más alto sea el nivel de tu carro ligero, más potencia de fuego tendrá, en adición a tu velocidad, alcance de visión y sigilo." tMID="161" opID="3" mID="11" setID="1" ID="quest_3_1_11_main" secID="quest_3_1_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2886,7 +2898,7 @@
         <req>• Causa al menos 3000 PV de daño en vehículos enemigos de cerca (hasta el alcance de visión de tu vehículo).</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
     <PM name="CP-6: Un objetivo pesado" short="T 55A: CP-6" desc="Un carro pesado es un objetivo de alta prioridad. Destruye los carros pesados para ayudar a tu equipo a obtener ventaja en la batalla." tMID="171" opID="3" mID="6" setID="2" ID="quest_3_2_6_main" secID="quest_3_2_6_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2913,7 +2925,7 @@
         <req>• Causa al menos 3000 PV de daño en carros pesados enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
     <PM name="CP-9: Un golpe aplastante" short="T 55A: CP-9" desc="A menudo, durante los combates cercanos, no tendrás tiempo suficiente para recargar. En esta situación, ¡acaba con el enemigo con una embestida! Cuanto más débil sea el blindaje enemigo en el punto de impacto, más daño causarás." tMID="174" opID="3" mID="9" setID="2" ID="quest_3_2_9_main" secID="quest_3_2_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2922,7 +2934,7 @@
         <req>• Destruye un vehículo enemigo tras embestirle.\n• Sobrevive a la embestida de un enemigo.\n• En el ataque por embestida, causa más daño al enemigo del que tu vehículo recibe.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-10: Un argumento de peso" short="T 55A: CP-10" desc="Haz que tu cañón esté activo y mantente con vida el mayor tiempo posible." tMID="175" opID="3" mID="10" setID="2" ID="quest_3_2_10_main" secID="quest_3_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2940,7 +2952,7 @@
         <req>• Causa al menos 3000 PV de daño al final de una batalla.\n• No tengas ningún módulo interno dañado/destruido o tripulantes heridos en tu vehículo.\n• Sobrevive a la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
     <PM name="CP-12: Blindaje robusto" short="T 55A: CP-12" desc="Tu blindaje puede absorber una gran cantidad de daño si lo usas con efectividad." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2949,7 +2961,7 @@
         <req>• El total del daño bloqueado por el blindaje debe ser tres veces mayor que los puntos de vida de tu vehículo.\n• Causa al menos 2000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-13: ¡Asalta la defensa! (personal/pelotón)" short="T 55A: CP-13" desc="Un pelotón de carros pesados bien coordinados puede cambiar el signo de la batalla más desesperada. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, aunque lo último es mucho más difícil." tMID="178" opID="3" mID="13" setID="2" ID="quest_3_2_13_main" secID="quest_3_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -2976,7 +2988,7 @@
         <req>• El daño causado, recibido y bloqueado por el blindaje debe ser de al menos 12 000 PV en total.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-1: Primeros pasos" short="T 55A: CM-1" desc="En los niveles menores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="181" opID="3" mID="1" setID="3" ID="quest_3_3_1_main" secID="quest_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3075,7 +3087,7 @@
         <req>• Destruye un vehículo enemigo con una embestida.\n• Sobrevive a la embestida de un enemigo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-12: El incinerador" short="T 55A: CM-12" desc="Incendiar un vehículo enemigo es una de las maneras más eficientes de destruirlo." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3084,7 +3096,7 @@
         <req>• Incendia 1 vehículo enemigo del mismo o mayor nivel que el tuyo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Secondary>
     </PM>
     <PM name="CM-13: Una acción activa (personal/pelotón)" short="T 55A: CM-13" desc="Un Pelotón de carros medios puede ser de gran ayuda para el equipo en todo el campo de batalla. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3117,10 +3129,10 @@
     <PM name="CC-1: Rendimiento efectivo" short="T 55A: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a gran distancia." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
       <Hint>Los cazacarros poseen una seria potencia de fuego, pero una menor tasa de supervivencia comparativamente. Trata de disparar a distancia—la precisión de tu cañón te lo permite.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-2: Fuego preciso" short="T 55A: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3147,7 +3159,7 @@
         <req>• Destruye al menos 3 vehículos enemigos. Permanece sin ser detectado por ellos en el momento de su destrucción.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-5: Un cañón de larga distancia" short="T 55A: CC-5" desc="Cuando manejas un cazacarros, es importante saber cómo disparar con efectividad a grandes distancias." tMID="200" opID="3" mID="5" setID="4" ID="quest_3_4_5_main" secID="quest_3_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3174,7 +3186,7 @@
         <req>• Destruye al menos 3 vehículos enemigos sin haber recibido previamente daño en tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-8: Un calibre gigantesco" short="T 55A: CC-8" desc="Cada comandante de cazacarros debería saber cómo causar más daño al enemigo que la cantidad de los PV de su vehículo." tMID="203" opID="3" mID="8" setID="4" ID="quest_3_4_8_main" secID="quest_3_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3183,7 +3195,7 @@
         <req>• Causa un daño que supere en al menos 4 veces los puntos de vida de tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-9: ¡En el clavo!" short="T 55A: CC-9" desc="Las grandes características de tu cañón compensan la relativamente baja protección que proporciona tu blindaje." tMID="204" opID="3" mID="9" setID="4" ID="quest_3_4_9_main" secID="quest_3_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3201,7 +3213,7 @@
         <req>• Causa al menos 3000 PV de daño en vehículos enemigos. Permanece sin ser detectado en el momento en el que el daño es causado.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-11: El papel clave" short="T 55A: CC-11" desc="Tu potente cañón es una fuerza a tener en cuenta. Si, por supuesto, sabes cómo dispararlo." tMID="206" opID="3" mID="11" setID="4" ID="quest_3_4_11_main" secID="quest_3_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3219,7 +3231,7 @@
         <req>• Destruye al menos 2 carros pesados enemigos.\n• Causa al menos 3000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-13: Cazadores de carros (personal/pelotón)" short="T 55A: CC-13" desc="El pelotón debe concentrar su fuego y deshacerse con rapidez de los carros enemigos. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="208" opID="3" mID="13" setID="4" ID="quest_3_4_13_main" secID="quest_3_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
@@ -3249,136 +3261,136 @@
         <req>• Destruye al menos 3 vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: El francotirador" short="T 55A: AAP-1" desc="No desperdicies tu munición. Serán los disparos precisos los que te acercarán a la victoria." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Sé paciente y espera hasta apuntar completamente al enemigo.</Hint>
+    <PM name="AAP-1: Afirmación atrevida" short="T 55A: AAP-1" desc="El gran dario de explosión tras la detonación del proyectil es la característica clave de los vehículos de AAP. Incluso si yerras en realizar un impacto directo al vehículo enemigo objetivo, sigue habiendo una posibilidad de causar serios problemas al aturdirlos. El vehículo enemigo queda marcado con un indicador de aturdimiento, que es visible para tus aliados. Si los aliados causan daño a los vehículos que hayas aturdido, recibirás créditos y experiencia adicionales por el daño causado con tu asistencia." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 5 impactos que causen daño en vehículos enemigos.</req>
+        <req>• Aturdir vehículos enemigos al menos siete veces.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 3000 PV de daño.</req>
+        <req>• Causar daños a vehículos enemigos al menos seis veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto y peligroso" short="T 55A: AAP-2" desc="Las AAP no pueden confiar en el espesor de su blindaje o la velocidad. Si manejas una AAP, aprende cómo permanecer oculto durante toda la batalla." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>La red de camuflaje combinada con camuflaje te ayudarán a mejorar en gran cantidad tu capacidad para ocultarte al estar montadas en una AAP.</Hint>
+    <PM name="AAP-2: El tiempo es dinero" short="T 55A: AAP-2" desc="Un vehículo enemigo se mantiene aturdido durante un periodo de tiempo concreto y no puede dar lo máximo de sí en el campo de batalla. Recuerda: un vehículo aturdido se convierte en un objetivo fácil." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Sé uno de los 5 mejores jugadores de tu equipo por daño causado. Permanece sin ser detectado durante la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 150 segundos.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Destruye al menos 3 vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Golpe de howitzer" short="T 55A: AAP-3" desc="Si quieres ser un activo para tu equipo, tendrás que aprender primero a disparar con eficiencia." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Sigue el desarrollo de la batalla y apoya a tu equipo. No te quedes en un punto demasiado tiempo. Retírate o busca otra posición de fuego si es necesario.</Hint>
+    <PM name="AAP-3: El que no corre, resulta aturdido" short="T 55A: AAP-3" desc="Los cazacarros potentes y ocultos del enemigo y los carros de blindaje pesado pueden cambiar con facilidad el curso de la batalla. Son objetivos prioritarios, y causarles daño (o ayudar en su destrucción) debería ser el objetivo principal para un jugador en una AAP. La mayoría de los carros pesados y cazacarros son lentos y abultados, lo que aumenta las posibilidades de un disparo exitoso." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 3000 PV de daño en vehículos enemigos.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo al menos seis veces.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Penetración" short="T 55A: AAP-4" desc="Los proyectiles AE potentes no solo causarán daño al enemigo, sino que también tendrán una gran probabilidad de dañar o destruir módulos o herir tripulantes con daño por fragmentos." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Solo si penetra completamente el blindaje y explota en el interior de un vehículo enemigo, es cuando un proyectil de alto explosivo muestre su valía. Si tus proyectiles poseen una penetración mediocre, trata de encontrar un vehículo enemigo de torreta abierta, o carga un proyectil premium.</Hint>
+    <PM name="AAP-4: Te veo" short="T 55A: AAP-4" desc="Apréndete las rutas principales de los carros pesados enemigos y las posiciones donde los astutos cazacarros se suelen ocultar. Apuntar a una zona en particular del mapa con antelación incrementa las posibilidades de un disparo efectivo y devastador. Estos tipos de vehículos suelen seguir tácticas bastante previsibles en ciertos mapas. Sé listo: analiza la alineación del equipo enemigo y elige la posición más adecuada desde el mismo comienzo de la batalla." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Daña o destruye módulos internos de vehículos enemigos o hiere a sus tripulantes, totalizando al menos 8 módulos y tripulantes.\n• Se añaden de manera conjunta el número de módulos dañados/destruidos y tripulantes heridos de todos los vehículos enemigos dañados en batalla.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo durante al menos 80 segundos en total.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcula y elimina" short="T 55A: AAP-5" desc="La mayor potencia de fuego que posees compensa la relativamente baja durabilidad de tu AAP." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Trata de dañar vehículos enemigos a la primera oportunidad. Incluso si tus proyectiles AE no dan al enemigo por milímetros, los vehículos todavía podrían recibir daño por fragmentos de proyectil.</Hint>
+    <PM name="AAP-5: Compartir es querer" short="T 55A: AAP-5" desc="El aturdimiento de los vehículos enemigos no sólo acerca a tu equipo un poco a la victoria, sino que también asegura que recibas experiencia y créditos adicionales si tus aliados causan daño a los vehículos enemigos aturdidos por ti. No te olvides de marcar la zona a la que estás apuntando (la tecla T por defecto) para notificar y llamar la atención de tus aliados." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa un daño que supere en 8 veces los puntos de vida de tu vehículo.\n• No cuenta el daño causado en aliados.</req>
+        <req>• Tus aliados deben causar al menos 2000 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 3 vehículos enemigos.</req>
+        <req>• Causar daños a vehículos enemigos al menos seis veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: El martillo en descenso" short="T 55A: AAP-6" desc="A menudo lucharás contra vehículos de mayor nivel. Pero eso no es problema para el comandante experimentado de una AAP." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Si no puedes penetrar un vehículo enemigo con proyectiles estándar, trata de usar proyectiles Premium. Dispara a los laterales y retaguardia del vehículo enemigo. Las AAP, con la trayectoria en arco de sus proyectiles, pueden alcanzar con eficiencia a cualquier vehículo en la parte superior de la torreta, en donde la protección del blindaje es débil. Los vehículos enemigos con torretas abiertas son incluso más vulnerables a la destrucción desde arriba.</Hint>
+    <PM name="AAP-6: El martillo de los dioses" short="T 55A: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 3 vehículos enemigos que sean un nivel más alto que tu vehículo.</req>
+        <req>• Tus aliados deben dañar al menos cinco vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Despliega sobre los grandes cañones" short="T 55A: AAP-7" desc="Deberías destruir los cazacarros y AAP enemigos a la primera oportunidad. Deshacerse de ellos puede cambiar el signo de la batalla a tu favor." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Coordina tus acciones con las de los carros ligeros aliados. Detectar los cazacarros y AAP enemigos y destruirlos puede ayudar a conseguir la superioridad en el campo de batalla.</Hint>
+    <PM name="AAP-7: Consideración cuidadosa" short="T 55A: AAP-7" desc="Para completar esta misión, utiliza una aproximación selectiva al escoger tus objetivos. No concentres el fuego en un vehículo enemigo, incluso aunque sea un objetivo fácil. La mejor estrategia es impactar a grandes grupos de vehículos enemigos con un solo disparo. Estudia los mapas y aprende las rutas principales de los vehículos." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye un total de al menos 2 AAP y cazacarros enemigos.\n• Gana la batalla.</req>
+        <req>• Aturdir al menos cinco vehículos enemigos con un solo disparo.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 3000 PV de daño.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: ¡Fuego pesado sobre los carros pesados!" short="T 55A: AAP-8" desc="Un carro pesado es un objetivo duro, pero no para tu cañón. Los proyectiles con trayectoria en arco pueden dañar a cualquier vehículo en la parte superior de la torreta, en donde el blindaje es más débil." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Los carros pesados generalmente se mueven más despacio que los demás tipos de vehículos. Por lo tanto, a menudo puedes predecir dónde estará el carro cuando caiga el proyectil. Para el comandante de una AAP, es útil conocer la velocidad de tus proyectiles.</Hint>
+    <PM name="AAP-8: Un gran esfuerzo" short="T 55A: AAP-8" desc="Recibes experiencia por todas las acciones efectivas. Intenta ser el JMV: causa daño, asiste en destruir vehículos enemigos y sobrevive a la batalla. Cambia tu posición tras cada disparo; en caso contrario el fuego contrabatería de la AAP enemiga podría destruir tu vehículo." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 2000 PV de daño en carros pesados enemigos.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye 1 carro pesado enemigo.\n• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Guíalos hasta dañarlos" short="T 55A: AAP-9" desc="Un comandante experimentado de AAP puede hacer blanco fácilmente en vehículos en movimiento. Aprende a predecir con efectividad el movimiento de los vehículos enemigos cuando dispares. Recuerda que un impacto directo puede causar mucho más daño en un vehículo que los fragmentos AE." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>La velocidad de tus proyectiles es un parámetro muy importante. Sabiendo cuándo el proyectil alcanza el objetivo, puedes calcular correctamente la desviación.</Hint>
+    <PM name="AAP-9: Daño colateral" short="T 55A: AAP-9" desc="Los potentes proyectiles de Alto Explosivo no sólo reducen los puntos de vida de los vehículos enemigos, sino que también tienen una alta probabilidad de destruir módulos o herir a tripulantes con el daño explosivo." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Daña un vehículo enemigo que se mueva a una velocidad de al menos 30 km/h.\n• Cuenta tanto el daño por fragmentos como el causado por impactos directos.\n• No cuenta el daño causado por embestidas.</req>
+        <req>• Daña cualquier módulo de vehículos enemigos o hiere a miembros de su tripulación, por un total de al menos ocho módulos y tripulantes.\n• El número de módulos destruidos y miembros de tripulación heridos se suma entre todos los vehículos enemigos que hayas dañado en la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Sobrevive a la batalla.\n• Gana la batalla.\n• Permanece sin ser detectado en la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: La perdición de la artillería" short="T 55A: AAP-10" desc="La caza de la artillería es una gran idea. Trata de predecir dónde podría ocultarse una AAP y comprueba si has calculado correctamente con un disparo preciso." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Con cuanta más frecuencia manejes una AAP, más puntos estratégicos conocerás de los mapas. Esto te ayudará a luchar contra las AAP enemigas, porque ya sabrás dónde podrían estar posicionadas.</Hint>
+    <PM name="AAP-10: Todo incluido" short="T 55A: AAP-10" desc="La situación del campo de batalla puede cambiar rápidamente: mantén siempre un ojo en el minimapa y asegúrate de tener una visión clara de los vehículos enemigos. Tendrás que moverte por el mapa todo el tiempo en lugar de mantenerte en una posición. Tus aliados confían en tu potencia artillera, así que haz todo lo posible en el momento y lugar adecuados." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos una AAP\n• Causa al menos 2000 PV de daño en vehículos enemigos.</req>
+        <req>• El daño total causado por ti y tus aliados sobre los vehículos enemigos que hayas aturdido o inmovilizado debe ser al menos de 3000 PdV.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Ganar la batalla.\n• Los aliados deben destruir al menos dos vehículos que hayas aturdido o inmovilizado.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: El área de efecto" short="T 55A: AAP-11" desc="Tus proyectiles AE no solo pueden destruir un vehículo enemigo al primer disparo, sino que también pueden causar un gran daño en varios objetivos a la vez, si están lo suficientemente cerca." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Literalmente puedes matar dos pájaros de un tiro si varios vehículos se encuentran juntos en un punto. Este caso es típico de los mapas urbanos.</Hint>
+    <PM name="AAP-11: El área de efecto" short="T 55A: AAP-11" desc="Además de una considerable cantidad de daño causada con un disparo bien emplazado, un proyectil de Alto Explosivo puede también aturdir todos los vehículos situados dentro del radio de explosión tras la detonación del proyectil. Muchos mapas presentan lugares donde los vehículos enemigos se agolpan. Prueba suerte y envíales tus felicitaciones explosivas." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye un vehículo enemigo y causa daño en 1 más con un solo disparo.</req>
+        <req>• Aturdir al menos tres vehículos enemigos con un solo disparo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 150 segundos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: El golpeador" short="T 55A: AAP-12" desc="El estilo de juego en una AAP es drásticamente diferente al de cualquier otro tipo de vehículo. Pero el objetivo principal es el mismo—hacerlo lo mejor posible en batalla y contribuir en todo lo que puedas a la causa del equipo." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>No cambies a modo de artillería al inicio de la batalla. Primero, decide un buen punto estratégico.</Hint>
+    <PM name="AAP-12: El ojo malvado" short="T 55A: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finaliza la batalla siendo el mejor jugador de tu equipo por daño causado.\n• Destruye al menos 3 vehículos enemigos.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 150 segundos.\n• Los aliados deben destruir al menos 2 vehículos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: La batería de artillería (personal/pelotón)" short="T 55A: AAP-13" desc="Un Pelotón de AAP bien usadas debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Si se dispersa, tu pelotón puede hacer blanco en objetivos desde ángulos diferentes, haciendo inútil la cobertura de muchas rocas y edificios que cubren y dominan el mapa.</Hint>
+    <PM name="AAP-13: La C es de cooperación" short="T 55A: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos un 25 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propia AAP y en cualquier otro vehículo.</req>
+        <req>• Causar daños a vehículos enemigos al menos ocho veces o aturdirlos al menos diez veces.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva conjunta (personal/pelotón)" short="T 55A: AAP-14" desc="La artillería depende del resto del equipo para tener éxito. La artillería y los carros ligeros se complementan el uno al otro bastante bien en un pelotón. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Un carro ligero puede detectar vehículos enemigos e inmovilizarlos. Las AAP harán que la desafortunada víctima desaparezca con rapidez. ¡Juntos ganaremos! Un carro pesado te protegerá con su grueso blindaje, un carro medio distraerá al enemigo y un cazacarros proporcionará apoyo de fuego a larga distancia.</Hint>
+    <PM name="AAP-14: Parte de la tripulación, ¡parte del barco!" short="T 55A: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 4000 PV de daño en carros pesados o cazacarros enemigos, bien en persona o siendo parte del total del pelotón.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propia AAP y en cualquier otro vehículo.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 180 segundos o ayudar a tus aliados: deben causar al menos 800 puntos de daño a los vehículos enemigos que hayas inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Dioses de la guerra" short="T 55A: AAP-15" desc="Es mucho mejor para tu equipo si la AAP sobrevive. Trata de no exponerte al fuego enemigo y lanza disparos precisos al enemigo." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Si conoces las características técnicas de tu AAP, puedes planear tus acciones en batalla. A veces permanecer en la base no es una buena idea. Si manejas una AAP rápida, puedes cambiar de posición con rapidez y enfrentarte al enemigo desde las direcciones en donde menos te esperan.</Hint>
+    <PM name="AAP-15: Dioses de la guerra" short="T 55A: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finaliza la batalla como el mejor jugador de tu equipo por experiencia conseguida y daño causado.\n• Causa al menos 3.000 PV de daño.</req>
+        <req>• Finalizar la batalla como el mejor jugador de tu equipo por experiencia conseguida.\n• Tus aliados deben causar al menos 2500 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>
@@ -3399,7 +3411,7 @@
         <req>• Detecta en persona al menos 8 vehículos enemigos.\n• Sobrevive a la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-3: La persecución" short="Object 260: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3471,7 +3483,7 @@
         <req>• Finaliza la batalla siendo el mejor jugador en ambos equipos por la experiencia obtenida.\n• Sobrevive a la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CL-11: Una lucha justa" short="Object 260: CL-11" desc="Cuanto más alto sea el nivel de tu carro ligero, más potencia de fuego tendrá, en adición a tu velocidad, alcance de visión y sigilo." tMID="236" opID="4" mID="11" setID="1" ID="quest_4_1_11_main" secID="quest_4_1_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3579,7 +3591,7 @@
         <req>• Participa en la captura con éxito de una base o reinicia los puntos de captura enemigos de tu base/una base neutral.\n• Gana la batalla.\n• Causa al menos 4000 PV de daño en vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
     <PM name="CP-8: Con los cañones flameantes" short="Object 260: CP-8" desc="El blindaje es tu mayor aliado. Causa tanto daño como puedas mientras el enemigo trata de destruirte infructuosamente." tMID="248" opID="4" mID="8" setID="2" ID="quest_4_2_8_main" secID="quest_4_2_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3597,7 +3609,7 @@
         <req>• Destruye un vehículo enemigo que sea un nivel más alto que el de tu vehículo tras embestirle.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-10: Un argumento de peso" short="Object 260: CP-10" desc="Haz que tu cañón esté activo y mantente con vida el mayor tiempo posible." tMID="250" opID="4" mID="10" setID="2" ID="quest_4_2_10_main" secID="quest_4_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3624,7 +3636,7 @@
         <req>• El total del daño bloqueado por el blindaje debe ser tres veces mayor que los puntos de vida de tu vehículo.\n• Causa al menos 3000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CP-13: ¡Asalta la defensa! (personal/pelotón)" short="Object 260: CP-13" desc="Un pelotón de carros pesados bien coordinados puede cambiar el signo de la batalla más desesperada. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, aunque lo último es mucho más difícil." tMID="253" opID="4" mID="13" setID="2" ID="quest_4_2_13_main" secID="quest_4_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3651,7 +3663,7 @@
         <req>• El daño causado, recibido y bloqueado por el blindaje debe ser de al menos 14 000 PV en total.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-1: Primeros pasos" short="Object 260: CM-1" desc="En los niveles menores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="256" opID="4" mID="1" setID="3" ID="quest_4_3_1_main" secID="quest_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3750,7 +3762,7 @@
         <req>• Destruye un vehículo enemigo que sea un nivel más alto que el de tu vehículo tras embestirle.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CM-12: El incinerador" short="Object 260: CM-12" desc="Incendiar un vehículo enemigo es una de las maneras más eficientes de destruirlo." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3759,7 +3771,7 @@
         <req>• Incendia 1 vehículo enemigo del mismo o mayor nivel que el tuyo.\n• Causa al menos 3000 PV de daño en vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Queda entre los 3 mejores de tu equipo por experiencia obtenida.</req>
+        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida.</req>
       </Secondary>
     </PM>
     <PM name="CM-13: Una acción activa (personal/pelotón)" short="Object 260: CM-13" desc="Un Pelotón de carros medios puede ser de gran ayuda para el equipo en todo el campo de batalla. Esta misión se puede completar bien siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3792,10 +3804,10 @@
     <PM name="CC-1: Rendimiento efectivo" short="Object 260: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a gran distancia." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
       <Hint>Los cazacarros poseen una seria potencia de fuego, pero una menor tasa de supervivencia comparativamente. Trata de disparar a distancia—la precisión de tu cañón te lo permite.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Finaliza la batalla como el mejor jugador de tu equipo por experiencia conseguida.</req>
+        <req>• Finalizar la batalla siendo el mejor jugador de tu equipo por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-2: Fuego preciso" short="Object 260: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3822,7 +3834,7 @@
         <req>• Destruye al menos 4 vehículos enemigos. Permanece sin ser detectado por ellos en el momento de su destrucción.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-5: Un cañón de larga distancia" short="Object 260: CC-5" desc="Cuando manejas un cazacarros, es importante saber cómo disparar con efectividad a grandes distancias." tMID="275" opID="4" mID="5" setID="4" ID="quest_4_4_5_main" secID="quest_4_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3840,7 +3852,7 @@
         <req>• Causa al menos 3000 PV de daño en vehículos enemigos a una distancia de más de 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
     <PM name="CC-7: El primer golpe" short="Object 260: CC-7" desc="No dejes que el enemigo se acerque demasiado a ti: el blindaje de tu vehículo no es realmente eficiente ante el fuego enemigo." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3849,7 +3861,7 @@
         <req>• Destruye al menos 4 vehículos enemigos sin haber recibido previamente daño en tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-8: Un calibre gigantesco" short="Object 260: CC-8" desc="Cada comandante de cazacarros debería saber cómo causar más daño al enemigo que la cantidad de los PV de su vehículo." tMID="278" opID="4" mID="8" setID="4" ID="quest_4_4_8_main" secID="quest_4_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3858,7 +3870,7 @@
         <req>• Causa un daño que supere en al menos 5 veces los puntos de vida de tu vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-9: ¡En el clavo!" short="Object 260: CC-9" desc="Las grandes características de tu cañón compensan la relativamente baja protección que proporciona tu blindaje." tMID="279" opID="4" mID="9" setID="4" ID="quest_4_4_9_main" secID="quest_4_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3876,7 +3888,7 @@
         <req>• Causa al menos 4000 PV de daño en vehículos enemigos. Permanece sin ser detectado en el momento en el que el daño es causado.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-11: El papel clave" short="Object 260: CC-11" desc="Tu potente cañón es una fuerza a tener en cuenta. Si, por supuesto, sabes cómo dispararlo." tMID="281" opID="4" mID="11" setID="4" ID="quest_4_4_11_main" secID="quest_4_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3894,7 +3906,7 @@
         <req>• Destruye al menos 3 carros pesados enemigos.\n• Causa al menos 4000 PV de daño.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
     <PM name="CC-13: Cazadores de carros (personal/pelotón)" short="Object 260: CC-13" desc="El pelotón debe concentrar su fuego y deshacerse con rapidez de los carros enemigos. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="283" opID="4" mID="13" setID="4" ID="quest_4_4_13_main" secID="quest_4_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
@@ -3924,136 +3936,136 @@
         <req>• Destruye al menos 5 vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-1: El francotirador" short="Object 260: AAP-1" desc="No desperdicies tu munición. Serán los disparos precisos los que te acercarán a la victoria." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Sé paciente y espera hasta apuntar completamente al enemigo.</Hint>
+    <PM name="AAP-1: Afirmación atrevida" short="Object 260: AAP-1" desc="El gran dario de explosión tras la detonación del proyectil es la característica clave de los vehículos de AAP. Incluso si yerras en realizar un impacto directo al vehículo enemigo objetivo, sigue habiendo una posibilidad de causar serios problemas al aturdirlos. El vehículo enemigo queda marcado con un indicador de aturdimiento, que es visible para tus aliados. Si los aliados causan daño a los vehículos que hayas aturdido, recibirás créditos y experiencia adicionales por el daño causado con tu asistencia." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 6 impactos que causen daño en vehículos enemigos.</req>
+        <req>• Aturdir vehículos enemigos al menos diez veces.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 4000 PV de daño.</req>
+        <req>• Causar daños a vehículos enemigos al menos ocho veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-2: Oculto y peligroso" short="Object 260: AAP-2" desc="Las AAP no pueden confiar en el espesor de su blindaje o la velocidad. Si manejas una AAP, aprende cómo permanecer oculto durante toda la batalla." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>La red de camuflaje combinada con camuflaje te ayudarán a mejorar en gran cantidad tu capacidad para ocultarte al estar montadas en una AAP.</Hint>
+    <PM name="AAP-2: El tiempo es dinero" short="Object 260: AAP-2" desc="Un vehículo enemigo se mantiene aturdido durante un periodo de tiempo concreto y no puede dar lo máximo de sí en el campo de batalla. Recuerda: un vehículo aturdido se convierte en un objetivo fácil." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Sé uno de los 3 mejores jugadores de tu equipo por daño causado. Permanece sin ser detectado durante la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 200 segundos.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 3 vehículos enemigos.</req>
+        <req>• Destruir al menos cuatro vehículos enemigos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-3: Golpe de howitzer" short="Object 260: AAP-3" desc="Si quieres ser un activo para tu equipo, tendrás que aprender primero a disparar con eficiencia." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Sigue el desarrollo de la batalla y apoya a tu equipo. No te quedes en un punto demasiado tiempo. Retírate o busca otra posición de fuego si es necesario.</Hint>
+    <PM name="AAP-3: El que no corre, resulta aturdido" short="Object 260: AAP-3" desc="Los cazacarros potentes y ocultos del enemigo y los carros de blindaje pesado pueden cambiar con facilidad el curso de la batalla. Son objetivos prioritarios, y causarles daño (o ayudar en su destrucción) debería ser el objetivo principal para un jugador en una AAP. La mayoría de los carros pesados y cazacarros son lentos y abultados, lo que aumenta las posibilidades de un disparo exitoso." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 4000 PV de daño en vehículos enemigos.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo al menos ocho veces.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-4: Penetración" short="Object 260: AAP-4" desc="Los proyectiles AE potentes no solo causarán daño al enemigo, sino que también tendrán una gran probabilidad de dañar o destruir módulos o herir tripulantes con daño por fragmentos." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Solo si penetra completamente el blindaje y explota en el interior de un vehículo enemigo, es cuando un proyectil de alto explosivo muestre su valía. Si tus proyectiles poseen una penetración mediocre, trata de encontrar un vehículo enemigo de torreta abierta, o carga un proyectil premium.</Hint>
+    <PM name="AAP-4: Te veo" short="Object 260: AAP-4" desc="Apréndete las rutas principales de los carros pesados enemigos y las posiciones donde los astutos cazacarros se suelen ocultar. Apuntar a una zona en particular del mapa con antelación incrementa las posibilidades de un disparo efectivo y devastador. Estos tipos de vehículos suelen seguir tácticas bastante previsibles en ciertos mapas. Sé listo: analiza la alineación del equipo enemigo y elige la posición más adecuada desde el mismo comienzo de la batalla." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Daña o destruye módulos de vehículos enemigos o hiere a sus tripulantes, totalizando al menos 10 módulos y tripulantes.\n• Se añaden de manera conjunta el número de módulos dañados/destruidos y tripulantes heridos de todos los vehículos enemigos dañados en batalla.</req>
+        <req>• Aturdir un carro pesado o cazacarros enemigo durante al menos 120 segundos en total.\n• Los disparos que aturdan deben también causar daños.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-5: Calcula y elimina" short="Object 260: AAP-5" desc="La mayor potencia de fuego que posees compensa la relativamente baja durabilidad de tu AAP." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Trata de dañar vehículos enemigos a la primera oportunidad. Incluso si tus proyectiles AE no dan al enemigo por milímetros, los vehículos todavía podrían recibir daño por fragmentos de proyectil.</Hint>
+    <PM name="AAP-5: Compartir es querer" short="Object 260: AAP-5" desc="El aturdimiento de los vehículos enemigos no sólo acerca a tu equipo un poco a la victoria, sino que también asegura que recibas experiencia y créditos adicionales si tus aliados causan daño a los vehículos enemigos aturdidos por ti. No te olvides de marcar la zona a la que estás apuntando (la tecla T por defecto) para notificar y llamar la atención de tus aliados." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa una cantidad de daño que supere en 10 veces los puntos de vida totales de tu vehículo.\n• El daño causado a aliados no es contabilizado para la misión.</req>
+        <req>• Tus aliados deben causar al menos 3000 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 4 vehículos enemigos.</req>
+        <req>• Causar daños a vehículos enemigos al menos ocho veces disparándoles o embistiéndolos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-6: El martillo en descenso" short="Object 260: AAP-6" desc="A menudo lucharás contra vehículos de mayor nivel. Pero eso no es problema para el comandante experimentado de una AAP." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Si no puedes penetrar un vehículo enemigo con proyectiles estándar, trata de usar proyectiles Premium. Dispara a los laterales y retaguardia del vehículo enemigo. Las AAP, con la trayectoria en arco de sus proyectiles, pueden alcanzar con eficiencia a cualquier vehículo en la parte superior de la torreta, en donde la protección del blindaje es débil. Los vehículos enemigos con torretas abiertas son incluso más vulnerables a la destrucción desde arriba.</Hint>
+    <PM name="AAP-6: El martillo de los dioses" short="Object 260: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos que sean dos niveles mayor que tu vehículo.</req>
+        <req>• Tus aliados deben dañar al menos seis vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-7: Despliega sobre los grandes cañones" short="Object 260: AAP-7" desc="Deberías destruir los cazacarros y AAP enemigos a la primera oportunidad. Deshacerse de ellos puede cambiar el signo de la batalla a tu favor." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Coordina tus acciones con las de los carros ligeros aliados. Detectar los cazacarros y AAP enemigos y destruirlos puede ayudar a conseguir la superioridad en el campo de batalla.</Hint>
+    <PM name="AAP-7: Consideración cuidadosa" short="Object 260: AAP-7" desc="Para completar esta misión, utiliza una aproximación selectiva al escoger tus objetivos. No concentres el fuego en un vehículo enemigo, incluso aunque sea un objetivo fácil. La mejor estrategia es impactar a grandes grupos de vehículos enemigos con un solo disparo. Estudia los mapas y aprende las rutas principales de los vehículos." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye un total de al menos 3 cazacarros y AAP enemigas.\n• Gana la batalla.</req>
+        <req>• Aturdir al menos seis vehículos enemigos.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 4000 PV de daño.</req>
+        <req>• Ganar la batalla\n• Sobrevivir a la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-8: ¡Fuego pesado sobre los carros pesados!" short="Object 260: AAP-8" desc="Un carro pesado es un objetivo duro, pero no para tu cañón. Los proyectiles con trayectoria en arco pueden dañar a cualquier vehículo en la parte superior de la torreta, en donde el blindaje es más débil." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Los carros pesados generalmente se mueven más despacio que los demás tipos de vehículos. Por lo tanto, a menudo puedes predecir dónde estará el carro cuando caiga el proyectil. Para el comandante de una AAP, es útil conocer la velocidad de tus proyectiles.</Hint>
+    <PM name="AAP-8: Un gran esfuerzo" short="Object 260: AAP-8" desc="Recibes experiencia por todas las acciones efectivas. Intenta ser el JMV: causa daño, asiste en destruir vehículos enemigos y sobrevive a la batalla. Cambia tu posición tras cada disparo; en caso contrario el fuego contrabatería de la AAP enemiga podría destruir tu vehículo." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 3000 PV de daño en carros pesados enemigos.</req>
+        <req>• Finalizar la batalla siendo el mejor jugador de tu equipo por experiencia conseguida.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 carros pesados enemigos.\n• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-9: Guíalos hasta dañarlos" short="Object 260: AAP-9" desc="Un comandante experimentado de AAP puede hacer blanco fácilmente en vehículos en movimiento. Aprende a predecir con efectividad el movimiento de los vehículos enemigos cuando dispares. Recuerda que un impacto directo puede causar mucho más daño en un vehículo que los fragmentos AE." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>La velocidad de tus proyectiles es un parámetro muy importante. Sabiendo cuándo el proyectil alcanza el objetivo, puedes calcular correctamente la desviación.</Hint>
+    <PM name="AAP-9: Daño colateral" short="Object 260: AAP-9" desc="Los potentes proyectiles de Alto Explosivo no sólo reducen los puntos de vida de los vehículos enemigos, sino que también tienen una alta probabilidad de destruir módulos o herir a tripulantes con el daño explosivo." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consigue al menos 4 impactos directos en vehículos enemigos.\n• Cuentan todos los impactos directos, tanto si causan daño como si no.</req>
+        <req>• Daña cualquier módulo de vehículos enemigos o hiere a miembros de su tripulación, por un total de al menos diez módulos y tripulantes.\n• El número de módulos destruidos y miembros de tripulación heridos se suma entre todos los vehículos enemigos que hayas dañado en la batalla.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Sobrevive a la batalla.\n• Gana la batalla.\n• Permanece sin ser detectado en la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-10: La perdición de la artillería" short="Object 260: AAP-10" desc="La caza de la artillería es una gran idea. Trata de predecir dónde podría ocultarse una AAP y comprueba si has calculado correctamente con un disparo preciso." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Con cuanta más frecuencia manejes una AAP, más puntos estratégicos conocerás de los mapas. Esto te ayudará a luchar contra las AAP enemigas, porque ya sabrás dónde podrían estar posicionadas.</Hint>
+    <PM name="AAP-10: Todo incluido" short="Object 260: AAP-10" desc="La situación del campo de batalla puede cambiar rápidamente: mantén siempre un ojo en el minimapa y asegúrate de tener una visión clara de los vehículos enemigos. Tendrás que moverte por el mapa todo el tiempo en lugar de mantenerte en una posición. Tus aliados confían en tu potencia artillera, así que haz todo lo posible en el momento y lugar adecuados." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 AAP enemigas.\n• Causa al menos 4000 PV de daño en vehículos enemigos.</req>
+        <req>• El daño total causado por ti y tus aliados a vehículos enemigos que hayas aturdido o inmovilizado debe ser al menos de 4000 PdV.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 5 vehículos enemigos.</req>
+        <req>• Ganar la batalla.\n• Los aliados deben destruir al menos tres vehículos que hayas aturdido o inmovilizado.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-11: El área de efecto" short="Object 260: AAP-11" desc="Tus proyectiles AE no solo pueden destruir un vehículo enemigo al primer disparo, sino que también pueden causar un gran daño en varios objetivos a la vez, si están lo suficientemente cerca." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Literalmente puedes matar dos pájaros de un tiro si varios vehículos se encuentran juntos en un punto. Este caso es típico de los mapas urbanos.</Hint>
+    <PM name="AAP-11: El área de efecto" short="Object 260: AAP-11" desc="Además de una considerable cantidad de daño causada con un disparo bien emplazado, un proyectil de Alto Explosivo puede también aturdir todos los vehículos situados dentro del radio de explosión tras la detonación del proyectil. Muchos mapas presentan lugares donde los vehículos enemigos se agolpan. Prueba suerte y envíales tus felicitaciones explosivas." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destruye al menos 2 vehículos enemigos con un sólo disparo.</req>
+        <req>• Aturdir al menos tres vehículos enemigos con un solo disparo dos veces.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 200 segundos.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-12: El golpeador" short="Object 260: AAP-12" desc="El estilo de juego en una AAP es drásticamente diferente al de cualquier otro tipo de vehículo. Pero el objetivo principal es el mismo—hacerlo lo mejor posible en batalla y contribuir en todo lo que puedas a la causa del equipo." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>No cambies a modo de artillería al inicio de la batalla. Primero, decide un buen punto estratégico.</Hint>
+    <PM name="AAP-12: El ojo malvado" short="Object 260: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finaliza la batalla siendo el mejor jugador en ambos equipos por daño causado.\n• Destruye al menos 4 vehículos enemigos.\n• Sobrevive a la batalla.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 200 segundos.\n• Los aliados deben destruir al menos tres vehículos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gana la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-13: La batería de artillería (personal/pelotón)" short="Object 260: AAP-13" desc="Un Pelotón de AAP bien usadas debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Si se dispersa, tu pelotón puede hacer blanco en objetivos desde ángulos diferentes, haciendo inútil la cobertura de muchas rocas y edificios que cubren y dominan el mapa.</Hint>
+    <PM name="AAP-13: La C es de cooperación" short="Object 260: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos el 30 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total de un pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propia AAP y en cualquier otro vehículo.</req>
+        <req>• Causar daños a vehículos enemigos al menos 10 veces o aturdirlos al menos 12 veces.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-14: Ofensiva conjunta (personal/pelotón)" short="Object 260: AAP-14" desc="La artillería depende del resto del equipo para tener éxito. La artillería y los carros ligeros se complementan el uno al otro bastante bien en un pelotón. Esta misión se puede completar siendo parte de un pelotón o en solitario, sin embargo lo último es mucho más difícil." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Un carro ligero puede detectar vehículos enemigos e inmovilizarlos. Las AAP harán que la desafortunada víctima desaparezca con rapidez. ¡Juntos ganaremos! Un carro pesado te protegerá con su grueso blindaje, un carro medio distraerá al enemigo y un cazacarros proporcionará apoyo de fuego a larga distancia.</Hint>
+    <PM name="AAP-14: Parte de la tripulación, ¡parte del barco!" short="Object 260: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos 5000 PV de daño en cazacarros y carros pesados enemigos , bien en persona o siendo parte del total de un pelotón.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propia AAP y en cualquier otro vehículo.</req>
+        <req>• Aturdir vehículos enemigos por un total de al menos 250 segundos o ayudar a tus aliados: deben causar al menos 1000 puntos de daño a los vehículos enemigos que hayas inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sobrevive en persona a la batalla.</req>
+        <req>• Ganar la batalla.</req>
       </Secondary>
     </PM>
-    <PM name="AAP-15: Dioses de la guerra" short="Object 260: AAP-15" desc="Es mucho mejor para tu equipo si la AAP sobrevive. Trata de no exponerte al fuego enemigo y lanza disparos precisos al enemigo." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Si conoces las características técnicas de tu AAP, puedes planear tus acciones en batalla. A veces permanecer en la base no es una buena idea. Si manejas una AAP rápida, puedes cambiar de posición con rapidez y enfrentarte al enemigo desde las direcciones en donde menos te esperan.</Hint>
+    <PM name="AAP-15: Dioses de la guerra" short="Object 260: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finaliza la batalla como el mejor jugador de ambos equipos por experiencia conseguida y daño causado.\n• Causa al menos 3000 PV de daño.</req>
+        <req>• Finalizar la batalla como el mejor jugador de ambos equipos por experiencia conseguida.\n• Tus aliados deben causar al menos 3500 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>

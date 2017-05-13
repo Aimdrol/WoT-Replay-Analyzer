@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Object 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fremskudt ildpunkt" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Ukendt" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Særlig kamp" />
     <item ID="5" Name="Særlig kamp" />
     <item ID="6" Name="Kamptræning" />
-    <item ID="7" Name="Hold: Urangerede kampe" />
+    <item ID="7" Name="Holdkamp" />
     <item ID="8" Name="Historisk kamp" />
     <item ID="9" Name="Særlig event" />
     <item ID="10" Name="Træfninger" />
@@ -1899,136 +1911,136 @@
         <req>• Ødelæg et fjendtligt køretøj.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Skarpskytten" short="StuG IV: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
+    <PM name="SPG-1: Et dristigt løfte" short="StuG IV: SPG-1" desc="Den store sprængradius efter en granateksplosion er den primære evne for SPG køretøjer. Selv hvis du ikke får lavet en direkte træffer på det fjendtlige køretøj du sigter på, er der stadig en chance for at uddele seriøse øretæver ved at gøre det fortumlet. Det fjendtlige køretøj er markeret med en fortumlet indikator, som er synlig for dine allierede. Hvis allierede uddeler skade til køretøjer, som er gjort fortumlede af dig, modtager du yderligere credits og xp for skade uddelt med din assistance." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 3 træffere der giver skade på fjendtlige køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 3 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 3 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skjult og farlig" short="StuG IV: SPG-2" desc="SPG'ere kan ikke regne med tykkelsen på deres panser eller deres hastighed. Hvis du fører en SPG, skal du lære hvordan du holder dig skjult under kampen." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Sløringsnettet kombineret med sløring vil hjælpe dig til at forbedre din evne til at skjule dig, når det er monteret på din SPG.</Hint>
+    <PM name="SPG-2: Tid er penge" short="StuG IV: SPG-2" desc="Et fjendtligt køretøj forbliver fortumlet i en bestemt periode og kan ikke yde deres bedste på slagmarken. Husk, et fortumlet køretøj bliver et nemt mål." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 500 hp skade til fjendtlige køretøjer. Forbliv uopdaget under kampen.\n• Overlev kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 50 sekunder i alt.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg et fjendtligt køretøj.</req>
+        <req>• Ødelæg mindst ét fjendtligt køretøj.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer skud" short="StuG IV: SPG-3" desc="Hvis du vil være en gevinst for holdet, skal du først lære at afgive ild på den mest effektive måde." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Følg rytmen i kampen og støt dit hold. Bliv ikke på det samme sted for længe. Fald tilbage eller se efter et nyt sted at afgive ild fra om nødvendigt.</Hint>
+    <PM name="SPG-3: Støt og rolig bliver fortumlet" short="StuG IV: SPG-3" desc="Skjulte, kraftfulde fjendtlige kampvognsjægere og velpansrede tunge kampvogne kan nemt ændre slagets gang. De er førsteprioritetsmål og at uddele skade til dem (eller assistere i deres ødelæggelse) bør være den primære opgave for en SPG. Størstedelen af de tunge kampvogne og kampvognsjægere er langsomme og store, hvilket forøger chancen for en god træffer." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade til fjendtlige køretøjer.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Vind kampen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Bryd igennem" short="StuG IV: SPG-4" desc="Kraftige HE granater kan ikke alene uddele skade til fjenden i form af hit points, men vil også have en stor chance for at beskadige eller ødelægge moduler eller såre mandskab med splash skade." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Kun ved at gennembryde panseret og eksplodere inde i skroget på et fjendtligt køretøj, kan en høj-eksplosiv granat virkelig vise sit værd. Hvis dine granater har middelmådig gennembrydning, prøv da at skyde på fjendtlige køretøjer med åbne tårne eller at lade en premium granat.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Beskadig eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 3 moduler og mandskab.\n• Antallet af skadede/ødelagte moduler og såret mandskab på alle de fjendtlige køretøjer du har uddelt skade til i løbet af kampen lægges sammen.</req>
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 2 gange.\n• De skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Udregn og ødelæg" short="StuG IV: SPG-5" desc="Den massive ildkraft du besidder kompenserer godt for den relativt lave holdbarhed på din SPG." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Prøv at uddele skade til fjendtlige køretøjer ved først givne lejlighed. Selv hvis dine HE granater rammer forbi fjenden, vil deres køretøj stadig tage skade af granatfragmenter.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade der overstiger 4 gange dit køretøjs hp.\n• Skade på allierede tælles ikke med.</req>
+    <PM name="SPG-4: Jeg hjælper dig igennem" short="StuG IV: SPG-4" desc="Lær de primære ruter hvor de fjendtlige tunge kampvogne bevæger sig og de steder hvor snu kampvognsjægere normalt gemmer sig. Ved at sigte på et særligt område på kortet på forhånd, forbedrer chancerne for de mest effektive og ødelæggende skud på fjendtlige positioner. Disse typer af køretøjer følger normalt rimelig forudsigelige mønstre på visse kort. Vær kløgtig. Analyser sammensætningen af det fjendtlige hold og vælg den bedste position fra starten af kampen." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 30 sekunder i alt.\n• Det skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg et fjendtligt køretøj.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Den faldende hammer" short="StuG IV: SPG-6" desc="Ofte vil du kæmpe mod køretøjer på højere niveauer. Men det er ikke noget problem for en erfaren SPG kommandør." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Hvis du ikke kan gennembryde en fjende med almindelige granater, prøv premium granater. Skyd mod siderne og bagtil på det fjendtlige køretøj. SPG'ere kan med deres buede skud effektivt ramme ethvert køretøj ovenpå tårnet, hvor panseret er svagt. Fjendtlige køretøjer med åbne tårne er endnu mere sårbare overfor ødelæggelsen fra oven.</Hint>
+    <PM name="SPG-5: Et dele er at have omtanke" short="StuG IV: SPG-5" desc="At gøre fjendtlige køretøjer fortumlede fører ikke alene dit hold tættere på sejren, men sikrer også at du modtager yderligere xp og credits hvis dine allierede uddeler skade til fjendtlige køretøjer gjort fortumlede af dig. Glem ikke at mærke området du sigter på (T tasten som default) til at gøre dine allierede opmærksomme." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer på samme niveau som dit køretøj eller højere.</req>
+        <req>• Gør dine allierede i stand til at uddele mindst 600 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Uddel skade til fjendtlige køretøjer mindst 3 gange ved beskydning eller sammenstød.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Gudernes hammer" short="StuG IV: SPG-6" desc="Det primære formål for SPG'er er at yde ildstøtte til allierede køretøjer. Fortumlede fjendtlige køretøjer er dårlige krigere, så dine holdkammerater vil helt sikkert sætte pris på din hjælp. Vær dog forsigtig når du afgiver ild - et uforsigtigt skud kan også gøre et allieret køretøj fortumlet. Skud mod allierede vil ikke blive toleret!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Gør dine allierede i stand til at uddele skadet til mindst 2 fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Rul de store kanoner ud" short="StuG IV: SPG-7" desc="Du bør ødelægge fjendtlige kampvognsjægere og SPG'ere ved først givne mulighed. Hvis du får ram på dem, kan det vende slagets gang." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Koordiner dine handlinger med allierede lette kampvogne. Observering og ødelæggelse af fjendtlige kampvognsjægere og SPG'ere kan hjælpe til at få overtaget på slagmarken.</Hint>
+    <PM name="SPG-7: Nøje overvejelser" short="StuG IV: SPG-7" desc="For at fuldføre denne mission, brug en selektiv metode til at udvælge dine mål. Koncentrer ikke ilden på det samme mål, selvom det er et nemt mål. Den bedste strategi er at ramme store grupper fjendtlige køretøjer med ét skud. Studer kortene og lær de primære ruter for køretøjer." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg en fjendtlig kampvognsjæger eller SPG.</req>
+        <req>• Gør mindst 2 fjendtlige køretøjer fortumlede.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tung ild på tunge kampvogne!" short="StuG IV: SPG-8" desc="En tung kampvogn er et hårdt mål, men ikke for din kanon. Granater med en høj bane kan ramme ethvert køretøj ovenpå tårnet, hvor panseret er tyndt." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Tunge kampvogne er generelt langsommere end andre typer af køretøjer. Derfor kan du ofte forudsige hvor kampvognen vil være når din granat lander. For en SPG-fører er det godt at kende hastigheden på dine granater.</Hint>
+    <PM name="SPG-8: Jeg gjorde mit bedste" short="StuG IV: SPG-8" desc="Du modtager xp for alle effektive handlinger. Prøv at være en MVP: Uddel skade, assister i at ødelægge fjendtlige køretøjer og overlev i kampen. Skift din position efter hvert skud, ellers kan kontraild fra fjendtlige SPG'er ødelægge dit køretøj." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.000 hp skade til fjendtlige tunge kampvogne.</req>
+        <req>• Vær i top 7 af spillere på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg en fjendtlig tung kampvogn.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sigt foran dem til du rammer dem" short="StuG IV: SPG-9" desc="En erfaren SPG kommandør kan nemt ramme køretøjer i bevægelse. Lær hvordan du effektivt kan forudsige bevægelsen på fjendtlige køretøjer når du afgiver ild. Husk at en direkte træffer kan give langt mere skade til et fjendtligt køretøj end splash skade fra en højeksplosiv granat." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Farten på dine granater er en meget vigtig parameter. Hvis du ved hvornår granaten når målet, kan du med held tage højde for det.</Hint>
+    <PM name="SPG-9: Følgeskader" short="StuG IV: SPG-9" desc="Kraftige HE-granater kan ikke alene reducere hp på fjendtlige køretøjer, men har også en høj chance for at ødelægge moduler eller såre mandskab med splash skade." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade til et fjendtligt køretøj, der bevæger sig med mindst 20 km/t.\n• Både splash skade og skade ved direkte træfninger tælles med.\n• Skade uddelt i sammenstød tælles ikke med.</req>
+        <req>• Ødelæg et modul på fjendtlige køretøjer eller sår deres mandskab, i alt 3 moduler eller mandskab\n• Antallet af ødelagte moduler og såret mandskab lægges sammen henover alle fjendtlige køretøjer du har skadet i kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Artilleriets banemænd" short="StuG IV: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
+    <PM name="SPG-10: Alt inklusive" short="StuG IV: SPG-10" desc="Kampsituationen kan ændre sig hurtigt-hold altid øje på minimap og vær sikker på du har en direkte skudlinje til fjendtlige køretøjer. Du vil skulle skifte position på kortet hele tiden i stedet for at blive det samme sted. Dine allierede stoler på din SPG's ildkraft, så gør dit bedste for at være på det rigtige sted på det rigtige tidspunkt." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 1 fjendtlig SPG.</req>
+        <req>• Samlet skade uddelt af dig og dine allierede til fjendtlige køretøjer, som du har gjort fortumlet eller immobiliseret, skal være mindst 1.000 hp.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
+        <req>• Allierede skal ødelægge mindst 1 fjendtligt køretøj gjort fortumlet eller immobiliseret af dig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Sprængradius" short="StuG IV: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Du kan bogstavelig talt dræbe to fluer med ét smæk, hvis adskillige fjendelige køretøjer står tæt sammen. Dette tilfælde sker tit på bykort.</Hint>
+    <PM name="SPG-11: Sprængradius" short="StuG IV: SPG-11" desc="Udover en betragtelig mængde skade forårsaget af et velplaceret skud, kan en høj-eksplosiv granat også gøre alle køretøjer indenfor granatens sprængradius fortumlede. Mange kort har nogle steder, hvor fjendtlige køretøjer pakker sig sammen. Tag en chance og send dine højeksplosive hilsener deres vej." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg et fjendtligt køretøj med et eneste skud.\n• Mål der allerede har taget skade i kampen tælles ikke med.</req>
+        <req>• Gør mindst 2 fjendtlige køretøjer fortumlede med et enkelt skud.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 50 sekunder i alt.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Det onde øje" short="StuG IV: SPG-12" desc="Dine allierede ødelagde det fortumlede køretøj? Det er gode nyheder for dig, siden det er din indsats, der bringer jer et skridt nærmere sejren! Din opgave er at yde ildstøtte og assistere dine allierede på det rigtige sted på det rigtige tidspunkt." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 50 sekunder i alt.\n• Allierede skal ødelægge mindst 1 fjendtligt køretøj der er gjort fortumlet eller immobiliseret af dig.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Skytten" short="StuG IV: SPG-12" desc="Spillestilen i en SPG er drastisk forskellig fra andre typer køretøjer. Det primære objektiv er dog det samme—gør dit bedste i kampen og bidrag så godt du kan til holdets bedste." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Skift ikke til artilleri modus lige så snart kampen starter. Beslut dig først for at finde et godt strategisk sted.</Hint>
+    <PM name="SPG-13: S for samarbejde" short="StuG IV: SPG-13" desc="Velhåndteret samarbejde mellem SPG'er og allierede skal gøre det fjendtlige hold ekstremt bekymret. Koordiner dine handlinger og fokuser din ild på et fjendtligt mål ad gangen." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vær i top 3 af spillere på dit hold efter uddelt skade.\n• Ødelæg et fjendtligt køretøj.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 4 gange eller gør dem fortumlede mindst 6 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleri batteri (personlig/deling)" short="StuG IV: SPG-13" desc="En deling af SPG'ere er en stor fare for fjenden. Koordiner dine handlinger indenfor delingen og tag fjenden ud med fokuseret ild. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Ved at sprede sig ud, kan din deling ramme mål fra flere forskellige vinkler, hvilket gør mange klipper og bygninger ubrugelige som dække og delingen vil samtidig kunne dominere slagmarken.</Hint>
+    <PM name="SPG-14: Del af mandskabet, del af køretøjet!" short="StuG IV: SPG-14" desc="Samarbejde er nøglen til sejr for hele holdet. Fremhæv det fjendtlige køretøj du sigter på, så dine allierede straks kan skyde på det, når det er blevet fortumlet eller immobiliseret. Husk: En enkelt soldat kan sjældent afgøre kampen alene." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 15% af den samlede skade uddelt til fjendtlige køretøjer af dit hold, enten personligt eller i alt blandt din deling.\n• Vind kampen.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din SPG og hvilke som helst andre køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 70 sekunder i alt eller gør dine allierede i stand til at uddele mindst 400 skade til fjendtlige køretøjer ved at immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Samlet offensiv (personlig/deling)" short="StuG IV: SPG-14" desc="Artilleri er afhængig af resten af holdet for at være mest effektiv. Artilleri og lette kampvogne komplementerer hinanden særdeles godt i en deling. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>En let kampvogn kan observere fjendtlige køretøjer og immobilisere dem. SPG'ere vil gøre kort proces med de uheldige ofre. Sammen vil vi vinde! En tung kampvogn vil beskytte dig med dens tykke panser, en medium kampvogn vil distrahere fjenden, mens en kampvognsjæger vil yde ildstøtte fra lang afstand.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade til fjendtlige tunge kampvogne eller kampvognsjægere, enten personligt eller i alt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din kampvognsjæger og hvilke som helst andre køretøjer.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Krigsguder" short="StuG IV: SPG-15" desc="Det er meget bedre for holdet, hvis SPG'en overlever. Prøv ikke at blive udsat for fjendtlig ild og affyr præcise skud mod fjenden." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
-      <Hint>Hvis du kender de tekniske karakteristika på din SPG, kan du planlægge dine handlinger i kamp. Nogle gange er det ikke en ret god idé at blive ved basen. Hvis du fører en hurtig SPG, kan du hurtigt skifte positioner og engagere fjenden fra de retninger de mindst venter det.</Hint>
+    <PM name="SPG-15: Krigsguder" short="StuG IV: SPG-15" desc="En SPG der overlever så længe som muligt er en virkelig bonus for holdet. Bliv ved med at affyre den ene granat efter den anden, mens du prøver at undgå at blive fanget af fjendtlig ild. Tag dig god tid og tænk to gange før du \&quot;trækker på aftrækkeren\&quot;, siden \&quot;et-skud-en-træffer\&quot; er den bedste strategi for et køretøj med en lang ladetid." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Vær i top 3 af spillere på dit hold efter optjent xp og uddelt skade.\n• Uddel mindst 2.000 hp skade.</req>
+        <req>• Vær i top 5 på dit hold efter optjent xp.\n• Gør dine allierede i stand til at uddele mindst 1.000 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Overlev kampen.</req>
@@ -2574,136 +2586,136 @@
         <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Skarpskytten" short="T28 heavy tank concept: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
+    <PM name="SPG-1: Et dristigt løfte" short="T28 heavy tank concept: SPG-1" desc="Den store sprængradius efter en granateksplosion er den primære evne for SPG køretøjer. Selv hvis du ikke får lavet en direkte træffer på det fjendtlige køretøj du sigter på, er der stadig en chance for at uddele seriøse øretæver ved at gøre det fortumlet. Det fjendtlige køretøj er markeret med en fortumlet indikator, som er synlig for dine allierede. Hvis allierede uddeler skade til køretøjer, som er gjort fortumlede af dig, modtager du yderligere credits og xp for skade uddelt med din assistance." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 4 træffere der giver skade på fjendtlige køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 5 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 5 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skjult og farlig" short="T28 heavy tank concept: SPG-2" desc="SPG'ere kan ikke regne med tykkelsen på deres panser eller deres hastighed. Hvis du fører en SPG, skal du lære hvordan du holder dig skjult under kampen." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Sløringsnettet kombineret med sløring vil hjælpe dig til at forbedre din evne til at skjule dig, når det er monteret på din SPG.</Hint>
+    <PM name="SPG-2: Tid er penge" short="T28 heavy tank concept: SPG-2" desc="Et fjendtligt køretøj forbliver fortumlet i en bestemt periode og kan ikke yde deres bedste på slagmarken. Husk, et fortumlet køretøj bliver et nemt mål." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.500 hp skade til fjendtlige køretøjer. Forbliv uopdaget under kampen.\n• Overlev kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 100 sekunder i alt.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer skud" short="T28 heavy tank concept: SPG-3" desc="Hvis du vil være en gevinst for holdet, skal du først lære at afgive ild på den mest effektive måde." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Følg rytmen i kampen og støt dit hold. Bliv ikke på det samme sted for længe. Fald tilbage eller se efter et nyt sted at afgive ild fra om nødvendigt.</Hint>
+    <PM name="SPG-3: Støt og rolig bliver fortumlet" short="T28 heavy tank concept: SPG-3" desc="Skjulte, kraftfulde fjendtlige kampvognsjægere og velpansrede tunge kampvogne kan nemt ændre slagets gang. De er førsteprioritetsmål og at uddele skade til dem (eller assistere i deres ødelæggelse) bør være den primære opgave for en SPG. Størstedelen af de tunge kampvogne og kampvognsjægere er langsomme og store, hvilket forøger chancen for en god træffer." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 4 gange.\n• De skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Bryd igennem" short="T28 heavy tank concept: SPG-4" desc="Kraftige HE granater kan ikke alene uddele skade til fjenden i form af hit points, men vil også have en stor chance for at beskadige eller ødelægge moduler eller såre mandskab med splash skade." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Kun ved at gennembryde panseret og eksplodere inde i skroget på et fjendtligt køretøj, kan en høj-eksplosiv granat virkelig vise sit værd. Hvis dine granater har middelmådig gennembrydning, prøv da at skyde på fjendtlige køretøjer med åbne tårne eller at lade en premium granat.</Hint>
+    <PM name="SPG-4: Jeg hjælper dig igennem" short="T28 heavy tank concept: SPG-4" desc="Lær de primære ruter hvor de fjendtlige tunge kampvogne bevæger sig og de steder hvor snu kampvognsjægere normalt gemmer sig. Ved at sigte på et særligt område på kortet på forhånd, forbedrer chancerne for de mest effektive og ødelæggende skud på fjendtlige positioner. Disse typer af køretøjer følger normalt rimelig forudsigelige mønstre på visse kort. Vær kløgtig. Analyser sammensætningen af det fjendtlige hold og vælg den bedste position fra starten af kampen." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Beskadig eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 5 moduler og mandskab.\n• Antallet af skadede/ødelagte moduler og såret mandskab på alle de fjendtlige køretøjer du har uddelt skade til i løbet af kampen lægges sammen.</req>
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 50 sekunder i alt.\n• Det skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Udregn og ødelæg" short="T28 heavy tank concept: SPG-5" desc="Den massive ildkraft du besidder kompenserer godt for den relativt lave holdbarhed på din SPG." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Prøv at uddele skade til fjendtlige køretøjer ved først givne lejlighed. Selv hvis dine HE granater rammer forbi fjenden, vil deres køretøj stadig tage skade af granatfragmenter.</Hint>
+    <PM name="SPG-5: Et dele er at have omtanke" short="T28 heavy tank concept: SPG-5" desc="At gøre fjendtlige køretøjer fortumlede fører ikke alene dit hold tættere på sejren, men sikrer også at du modtager yderligere xp og credits hvis dine allierede uddeler skade til fjendtlige køretøjer gjort fortumlede af dig. Glem ikke at mærke området du sigter på (T tasten som default) til at gøre dine allierede opmærksomme." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade der overstiger 6 gange dit køretøjs hp.\n• Skade på allierede tælles ikke med.</req>
+        <req>• Gør dine allierede i stand til at uddele mindst 1.000 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 5 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Den faldende hammer" short="T28 heavy tank concept: SPG-6" desc="Ofte vil du kæmpe mod køretøjer på højere niveauer. Men det er ikke noget problem for en erfaren SPG kommandør." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Hvis du ikke kan gennembryde en fjende med almindelige granater, prøv premium granater. Skyd mod siderne og bagtil på det fjendtlige køretøj. SPG'ere kan med deres buede skud effektivt ramme ethvert køretøj ovenpå tårnet, hvor panseret er svagt. Fjendtlige køretøjer med åbne tårne er endnu mere sårbare overfor ødelæggelsen fra oven.</Hint>
+    <PM name="SPG-6: Gudernes hammer" short="T28 heavy tank concept: SPG-6" desc="Det primære formål for SPG'er er at yde ildstøtte til allierede køretøjer. Fortumlede fjendtlige køretøjer er dårlige krigere, så dine holdkammerater vil helt sikkert sætte pris på din hjælp. Vær dog forsigtig når du afgiver ild - et uforsigtigt skud kan også gøre et allieret køretøj fortumlet. Skud mod allierede vil ikke blive toleret!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer af samme niveau som dit køretøj eller højere.</req>
+        <req>• Gør dine allierede i stand til at uddele skade til mindst 3 fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Rul de store kanoner ud" short="T28 heavy tank concept: SPG-7" desc="Du bør ødelægge fjendtlige kampvognsjægere og SPG'ere ved først givne mulighed. Hvis du får ram på dem, kan det vende slagets gang." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Koordiner dine handlinger med allierede lette kampvogne. Observering og ødelæggelse af fjendtlige kampvognsjægere og SPG'ere kan hjælpe til at få overtaget på slagmarken.</Hint>
+    <PM name="SPG-7: Nøje overvejelser" short="T28 heavy tank concept: SPG-7" desc="For at fuldføre denne mission, brug en selektiv metode til at udvælge dine mål. Koncentrer ikke ilden på det samme mål, selvom det er et nemt mål. Den bedste strategi er at ramme store grupper fjendtlige køretøjer med ét skud. Studer kortene og lær de primære ruter for køretøjer." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg en fjendtlig kampvognsjæger eller SPG som er 1 niveau højere end dit køretøj.</req>
+        <req>• Gør mindst 3 fjendtlige køretøjer fortumlede.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tung ild på tunge kampvogne!" short="T28 heavy tank concept: SPG-8" desc="En tung kampvogn er et hårdt mål, men ikke for din kanon. Granater med en høj bane kan ramme ethvert køretøj ovenpå tårnet, hvor panseret er tyndt." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Tunge kampvogne er generelt langsommere end andre typer af køretøjer. Derfor kan du ofte forudsige hvor kampvognen vil være når din granat lander. For en SPG-fører er det godt at kende hastigheden på dine granater.</Hint>
+    <PM name="SPG-8: Jeg gjorde mit bedste" short="T28 heavy tank concept: SPG-8" desc="Du modtager xp for alle effektive handlinger. Prøv at være en MVP: Uddel skade, assister i at ødelægge fjendtlige køretøjer og overlev i kampen. Skift din position efter hvert skud, ellers kan kontraild fra fjendtlige SPG'er ødelægge dit køretøj." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 1.500 hp skade til fjendtlige tunge kampvogne.</req>
+        <req>• Vær i top 5 blandt spillerne på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige tunge kampvogne.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sigt foran dem til du rammer dem" short="T28 heavy tank concept: SPG-9" desc="En erfaren SPG kommandør kan nemt ramme køretøjer i bevægelse. Lær hvordan du effektivt kan forudsige bevægelsen på fjendtlige køretøjer når du afgiver ild. Husk at en direkte træffer kan give langt mere skade til et fjendtligt køretøj end splash skade fra en højeksplosiv granat." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Farten på dine granater er en meget vigtig parameter. Hvis du ved hvornår granaten når målet, kan du med held tage højde for det.</Hint>
+    <PM name="SPG-9: Følgeskader" short="T28 heavy tank concept: SPG-9" desc="Kraftige HE-granater kan ikke alene reducere hp på fjendtlige køretøjer, men har også en høj chance for at ødelægge moduler eller såre mandskab med splash skade." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 2 direkte træffere på fjendtlige køretøjer.\n• Alle direkte træffere, uanset om de uddeler skade, tælles med.</req>
+        <req>• Ødelæg et modul på fjendtlige køretøjer eller sår deres mandskab, i alt 5 moduler eller mandskab\n• Antallet af ødelagte moduler og såret mandskab lægges sammen henover alle fjendtlige køretøjer du har skadet i kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Artilleriets banemænd" short="T28 heavy tank concept: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
+    <PM name="SPG-10: Alt inklusive" short="T28 heavy tank concept: SPG-10" desc="Kampsituationen kan ændre sig hurtigt-hold altid øje på minimap og vær sikker på du har en direkte skudlinje til fjendtlige køretøjer. Du vil skulle skifte position på kortet hele tiden i stedet for at blive det samme sted. Dine allierede stoler på din SPG's ildkraft, så gør dit bedste for at være på det rigtige sted på det rigtige tidspunkt." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige SPG'ere.</req>
+        <req>• Samlet skade uddelt af dig og dine allierede til fjendtlige køretøjer, som du har gjort fortumlet eller immobiliseret, skal være mindst 2.000 hp.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
+        <req>• Allierede skal ødelægge mindst 1 fjendtligt køretøj gjort fortumlet eller immobiliseret af dig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Sprængradius" short="T28 heavy tank concept: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Du kan bogstavelig talt dræbe to fluer med ét smæk, hvis adskillige fjendelige køretøjer står tæt sammen. Dette tilfælde sker tit på bykort.</Hint>
+    <PM name="SPG-11: Sprængradius" short="T28 heavy tank concept: SPG-11" desc="Udover en betragtelig mængde skade forårsaget af et velplaceret skud, kan en høj-eksplosiv granat også gøre alle køretøjer indenfor granatens sprængradius fortumlede. Mange kort har nogle steder, hvor fjendtlige køretøjer pakker sig sammen. Tag en chance og send dine højeksplosive hilsener deres vej." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel skade til mindst 2 fjendtlige køretøjer med ét skud.</req>
+        <req>• Gør mindst 2 fjendtlige køretøjer fortumlede med et enkelt skud to gange.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 100 sekunder i alt.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Det onde øje" short="T28 heavy tank concept: SPG-12" desc="Dine allierede ødelagde det fortumlede køretøj? Det er gode nyheder for dig, siden det er din indsats, der bringer jer et skridt nærmere sejren! Din opgave er at yde ildstøtte og assistere dine allierede på det rigtige sted på det rigtige tidspunkt." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 100 sekunder i alt.\n• Allierede skal ødelægge mindst 1 fjendtligt køretøj der er gjort fortumlet eller immobiliseret af dig.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Skytten" short="T28 heavy tank concept: SPG-12" desc="Spillestilen i en SPG er drastisk forskellig fra andre typer køretøjer. Det primære objektiv er dog det samme—gør dit bedste i kampen og bidrag så godt du kan til holdets bedste." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Skift ikke til artilleri modus lige så snart kampen starter. Beslut dig først for at finde et godt strategisk sted.</Hint>
+    <PM name="SPG-13: S for samarbejde" short="T28 heavy tank concept: SPG-13" desc="Velhåndteret samarbejde mellem SPG'er og allierede skal gøre det fjendtlige hold ekstremt bekymret. Koordiner dine handlinger og fokuser din ild på et fjendtligt mål ad gangen." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Vær i top 3 blandt spillerne på begge hold efter skade uddelt.\n• Ødelæg mindst 2 fjendtlige køretøjer.\n• Overlev kampen.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 6 gange eller gør dem fortumlede mindst 8 gange.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleri batteri (personlig/deling)" short="T28 heavy tank concept: SPG-13" desc="En deling af SPG'ere er en stor fare for fjenden. Koordiner dine handlinger indenfor delingen og tag fjenden ud med fokuseret ild. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Ved at sprede sig ud, kan din deling ramme mål fra flere forskellige vinkler, hvilket gør mange klipper og bygninger ubrugelige som dække og delingen vil samtidig kunne dominere slagmarken.</Hint>
+    <PM name="SPG-14: Del af mandskabet, del af køretøjet!" short="T28 heavy tank concept: SPG-14" desc="Samarbejde er nøglen til sejr for hele holdet. Fremhæv det fjendtlige køretøj du sigter på, så dine allierede straks kan skyde på det, når det er blevet fortumlet eller immobiliseret. Husk: En enkelt soldat kan sjældent afgøre kampen alene." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 20% af den samlede skade uddelt til fjendtlige køretøjer af dit hold, enten personligt eller i alt blandt din deling.\n• Vind kampen.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din SPG og hvilke som helst andre køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 100 sekunder i alt eller gør dine allierede i stand til at uddele mindst 600 skade til fjendtlige køretøjer ved at immobilisere dem.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Samlet offensiv (personlig/deling)" short="T28 heavy tank concept: SPG-14" desc="Artilleri er afhængig af resten af holdet for at være mest effektiv. Artilleri og lette kampvogne komplementerer hinanden særdeles godt i en deling. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>En let kampvogn kan observere fjendtlige køretøjer og immobilisere dem. SPG'ere vil gøre kort proces med de uheldige ofre. Sammen vil vi vinde! En tung kampvogn vil beskytte dig med dens tykke panser, en medium kampvogn vil distrahere fjenden, mens en kampvognsjæger vil yde ildstøtte fra lang afstand.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade til fjendtlige tunge kampvogne og kampvognsjægere, enten personligt eller i alt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din kampvognsjæger og hvilke som helst andre køretøjer.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Krigsguder" short="T28 heavy tank concept: SPG-15" desc="Det er meget bedre for holdet, hvis SPG'en overlever. Prøv ikke at blive udsat for fjendtlig ild og affyr præcise skud mod fjenden." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
-      <Hint>Hvis du kender de tekniske karakteristika på din SPG, kan du planlægge dine handlinger i kamp. Nogle gange er det ikke en ret god idé at blive ved basen. Hvis du fører en hurtig SPG, kan du hurtigt skifte positioner og engagere fjenden fra de retninger de mindst venter det.</Hint>
+    <PM name="SPG-15: Krigsguder" short="T28 heavy tank concept: SPG-15" desc="En SPG der overlever så længe som muligt er en virkelig bonus for holdet. Bliv ved med at affyre den ene granat efter den anden, mens du prøver at undgå at blive fanget af fjendtlig ild. Tag dig god tid og tænk to gange før du \&quot;trækker på aftrækkeren\&quot;, siden \&quot;et-skud-en-træffer\&quot; er den bedste strategi for et køretøj med en lang ladetid." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Vær i top 3 af spillere på begge hold efter både optjent xp og uddelt skade.\n• Uddel mindst 2.000 hp skade.</req>
+        <req>• Vær i top 3 på dit hold efter optjent xp.\n• Gør dine allierede i stand til at uddele mindst 1.500 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Overlev kampen.</req>
@@ -3249,136 +3261,136 @@
         <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Skarpskytten" short="T 55A: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
+    <PM name="SPG-1: Et dristigt løfte" short="T 55A: SPG-1" desc="Den store sprængradius efter en granateksplosion er den primære evne for SPG køretøjer. Selv hvis du ikke får lavet en direkte træffer på det fjendtlige køretøj du sigter på, er der stadig en chance for at uddele seriøse øretæver ved at gøre det fortumlet. Det fjendtlige køretøj er markeret med en fortumlet indikator, som er synlig for dine allierede. Hvis allierede uddeler skade til køretøjer, som er gjort fortumlede af dig, modtager du yderligere credits og xp for skade uddelt med din assistance." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 5 træffere der giver skade på fjendtlige køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 7 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 6 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skjult og farlig" short="T 55A: SPG-2" desc="SPG'ere kan ikke regne med tykkelsen på deres panser eller deres hastighed. Hvis du fører en SPG, skal du lære hvordan du holder dig skjult under kampen." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Sløringsnettet kombineret med sløring vil hjælpe dig til at forbedre din evne til at skjule dig, når det er monteret på din SPG.</Hint>
+    <PM name="SPG-2: Tid er penge" short="T 55A: SPG-2" desc="Et fjendtligt køretøj forbliver fortumlet i en bestemt periode og kan ikke yde deres bedste på slagmarken. Husk, et fortumlet køretøj bliver et nemt mål." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Vær i top 5 på dit hold efter uddelt skade. Forbliv uopdaget under hele kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 150 sekunder i alt.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer skud" short="T 55A: SPG-3" desc="Hvis du vil være en gevinst for holdet, skal du først lære at afgive ild på den mest effektive måde." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Følg rytmen i kampen og støt dit hold. Bliv ikke på det samme sted for længe. Fald tilbage eller se efter et nyt sted at afgive ild fra om nødvendigt.</Hint>
+    <PM name="SPG-3: Støt og rolig bliver fortumlet" short="T 55A: SPG-3" desc="Skjulte, kraftfulde fjendtlige kampvognsjægere og velpansrede tunge kampvogne kan nemt ændre slagets gang. De er førsteprioritetsmål og at uddele skade til dem (eller assistere i deres ødelæggelse) bør være den primære opgave for en SPG. Størstedelen af de tunge kampvogne og kampvognsjægere er langsomme og store, hvilket forøger chancen for en god træffer." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade på fjendtlige køretøjer.</req>
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 6 gange.\n• De skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Bryd igennem" short="T 55A: SPG-4" desc="Kraftige HE granater kan ikke alene uddele skade til fjenden i form af hit points, men vil også have en stor chance for at beskadige eller ødelægge moduler eller såre mandskab med splash skade." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Kun ved at gennembryde panseret og eksplodere inde i skroget på et fjendtligt køretøj, kan en høj-eksplosiv granat virkelig vise sit værd. Hvis dine granater har middelmådig gennembrydning, prøv da at skyde på fjendtlige køretøjer med åbne tårne eller at lade en premium granat.</Hint>
+    <PM name="SPG-4: Jeg hjælper dig igennem" short="T 55A: SPG-4" desc="Lær de primære ruter hvor de fjendtlige tunge kampvogne bevæger sig og de steder hvor snu kampvognsjægere normalt gemmer sig. Ved at sigte på et særligt område på kortet på forhånd, forbedrer chancerne for de mest effektive og ødelæggende skud på fjendtlige positioner. Disse typer af køretøjer følger normalt rimelig forudsigelige mønstre på visse kort. Vær kløgtig. Analyser sammensætningen af det fjendtlige hold og vælg den bedste position fra starten af kampen." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Beskadig eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 8 moduler og mandskab.\n• Antallet af skadede/ødelagte moduler og såret mandskab på alle de fjendtlige køretøjer du har uddelt skade til i løbet af kampen lægges sammen.</req>
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 80 sekunder i alt.\n• Det skud der gør dem fortumlede skal også uddele skade.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Udregn og ødelæg" short="T 55A: SPG-5" desc="Den massive ildkraft du besidder kompenserer godt for den relativt lave holdbarhed på din SPG." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Prøv at uddele skade til fjendtlige køretøjer ved først givne lejlighed. Selv hvis dine HE granater rammer forbi fjenden, vil deres køretøj stadig tage skade af granatfragmenter.</Hint>
+    <PM name="SPG-5: Et dele er at have omtanke" short="T 55A: SPG-5" desc="At gøre fjendtlige køretøjer fortumlede fører ikke alene dit hold tættere på sejren, men sikrer også at du modtager yderligere xp og credits hvis dine allierede uddeler skade til fjendtlige køretøjer gjort fortumlede af dig. Glem ikke at mærke området du sigter på (T tasten som default) til at gøre dine allierede opmærksomme." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade der overstiger 8 gange dit køretøjs hp.\n• Skade på allierede tælles ikke med.</req>
+        <req>• Gør dine allierede i stand til at uddele mindst 2.000 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 6 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Den faldende hammer" short="T 55A: SPG-6" desc="Ofte vil du kæmpe mod køretøjer på højere niveauer. Men det er ikke noget problem for en erfaren SPG kommandør." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Hvis du ikke kan gennembryde en fjende med almindelige granater, prøv premium granater. Skyd mod siderne og bagtil på det fjendtlige køretøj. SPG'ere kan med deres buede skud effektivt ramme ethvert køretøj ovenpå tårnet, hvor panseret er svagt. Fjendtlige køretøjer med åbne tårne er endnu mere sårbare overfor ødelæggelsen fra oven.</Hint>
+    <PM name="SPG-6: Gudernes hammer" short="T 55A: SPG-6" desc="Det primære formål for SPG'er er at yde ildstøtte til allierede køretøjer. Fortumlede fjendtlige køretøjer er dårlige krigere, så dine holdkammerater vil helt sikkert sætte pris på din hjælp. Vær dog forsigtig når du afgiver ild - et uforsigtigt skud kan også gøre et allieret køretøj fortumlet. Skud mod allierede vil ikke blive toleret!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer som er 1 niveau højere end dit køretøj.</req>
+        <req>• Gør dine allierede i stand til at uddele skade til mindst 5 fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Rul de store kanoner ud" short="T 55A: SPG-7" desc="Du bør ødelægge fjendtlige kampvognsjægere og SPG'ere ved først givne mulighed. Hvis du får ram på dem, kan det vende slagets gang." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Koordiner dine handlinger med allierede lette kampvogne. Observering og ødelæggelse af fjendtlige kampvognsjægere og SPG'ere kan hjælpe til at få overtaget på slagmarken.</Hint>
+    <PM name="SPG-7: Nøje overvejelser" short="T 55A: SPG-7" desc="For at fuldføre denne mission, brug en selektiv metode til at udvælge dine mål. Koncentrer ikke ilden på det samme mål, selvom det er et nemt mål. Den bedste strategi er at ramme store grupper fjendtlige køretøjer med ét skud. Studer kortene og lær de primære ruter for køretøjer." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg i alt mindst 2 fjendtlige kampvognsjægere og SPG'ere.\n• Vind kampen.</req>
+        <req>• Gør mindst 5 fjendtlige køretøjer fortumlede.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade.</req>
+        <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tung ild på tunge kampvogne!" short="T 55A: SPG-8" desc="En tung kampvogn er et hårdt mål, men ikke for din kanon. Granater med en høj bane kan ramme ethvert køretøj ovenpå tårnet, hvor panseret er tyndt." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Tunge kampvogne er generelt langsommere end andre typer af køretøjer. Derfor kan du ofte forudsige hvor kampvognen vil være når din granat lander. For en SPG-fører er det godt at kende hastigheden på dine granater.</Hint>
+    <PM name="SPG-8: Jeg gjorde mit bedste" short="T 55A: SPG-8" desc="Du modtager xp for alle effektive handlinger. Prøv at være en MVP: Uddel skade, assister i at ødelægge fjendtlige køretøjer og overlev i kampen. Skift din position efter hvert skud, ellers kan kontraild fra fjendtlige SPG'er ødelægge dit køretøj." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 2.000 hp skade til fjendtlige tunge kampvogne.</req>
+        <req>• Vær i top 3 på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg en fjendtlig tung kampvogn.\n• Vind kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sigt foran dem til du rammer dem" short="T 55A: SPG-9" desc="En erfaren SPG kommandør kan nemt ramme køretøjer i bevægelse. Lær hvordan du effektivt kan forudsige bevægelsen på fjendtlige køretøjer når du afgiver ild. Husk at en direkte træffer kan give langt mere skade til et fjendtligt køretøj end splash skade fra en højeksplosiv granat." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Farten på dine granater er en meget vigtig parameter. Hvis du ved hvornår granaten når målet, kan du med held tage højde for det.</Hint>
+    <PM name="SPG-9: Følgeskader" short="T 55A: SPG-9" desc="Kraftige HE-granater kan ikke alene reducere hp på fjendtlige køretøjer, men har også en høj chance for at ødelægge moduler eller såre mandskab med splash skade." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade til et fjendtligt køretøj, der bevæger sig med mindst 30 km/t.\n• Både splash skade og skade ved direkte træfninger tælles med.\n• Skade uddelt i sammenstød tælles ikke med.</req>
+        <req>• Ødelæg et modul på fjendtlige køretøjer eller sår deres mandskab, i alt 8 moduler eller mandskab\n• Antallet af ødelagte moduler og såret mandskab lægges sammen henover alle fjendtlige køretøjer du har skadet i kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Vind kampen.\n• Forbliv uopdaget i hele kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Artilleriets banemænd" short="T 55A: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
+    <PM name="SPG-10: Alt inklusive" short="T 55A: SPG-10" desc="Kampsituationen kan ændre sig hurtigt-hold altid øje på minimap og vær sikker på du har en direkte skudlinje til fjendtlige køretøjer. Du vil skulle skifte position på kortet hele tiden i stedet for at blive det samme sted. Dine allierede stoler på din SPG's ildkraft, så gør dit bedste for at være på det rigtige sted på det rigtige tidspunkt." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 1 fjendtlig SPG.\n• Uddel mindst 2.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Samlet skade uddelt af dig og dine allierede til fjendtlige køretøjer, som du har gjort fortumlet eller immobiliseret, skal være mindst 3.000 hp.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 4 fjendtlige køretøjer.</req>
+        <req>• Vind kampen.\n• Allierede skal ødelægge mindst 2 fjendtlige køretøjer som er gjort fortumlede eller immobiliserede af dig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Sprængradius" short="T 55A: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Du kan bogstavelig talt dræbe to fluer med ét smæk, hvis adskillige fjendelige køretøjer står tæt sammen. Dette tilfælde sker tit på bykort.</Hint>
+    <PM name="SPG-11: Sprængradius" short="T 55A: SPG-11" desc="Udover en betragtelig mængde skade forårsaget af et velplaceret skud, kan en høj-eksplosiv granat også gøre alle køretøjer indenfor granatens sprængradius fortumlede. Mange kort har nogle steder, hvor fjendtlige køretøjer pakker sig sammen. Tag en chance og send dine højeksplosive hilsener deres vej." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg et fjendtligt køretøj og uddel skade til yderligere 1 køretøj med ét skud.</req>
+        <req>• Gør mindst 3 fjendtlige køretøjer fortumlede med et enkelt skud.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Vind kampen.\n• Overlev kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 150 sekunder i alt.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Skytten" short="T 55A: SPG-12" desc="Spillestilen i en SPG er drastisk forskellig fra andre typer køretøjer. Det primære objektiv er dog det samme—gør dit bedste i kampen og bidrag så godt du kan til holdets bedste." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Skift ikke til artilleri modus lige så snart kampen starter. Beslut dig først for at finde et godt strategisk sted.</Hint>
+    <PM name="SPG-12: Det onde øje" short="T 55A: SPG-12" desc="Dine allierede ødelagde det fortumlede køretøj? Det er gode nyheder for dig, siden det er din indsats, der bringer jer et skridt nærmere sejren! Din opgave er at yde ildstøtte og assistere dine allierede på det rigtige sted på det rigtige tidspunkt." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Afslut kampen som den bedste spiller på dit hold efter uddelt skade.\n• Ødelæg mindst 3 fjendtlige køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 150 sekunder i alt.\n• Allierede skal ødelægge mindst 2 fjendtlige køretøjer der er gjort fortumlede eller immobiliserede af dig.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleri batteri (personlig/deling)" short="T 55A: SPG-13" desc="En deling af SPG'ere er en stor fare for fjenden. Koordiner dine handlinger indenfor delingen og tag fjenden ud med fokuseret ild. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Ved at sprede sig ud, kan din deling ramme mål fra flere forskellige vinkler, hvilket gør mange klipper og bygninger ubrugelige som dække og delingen vil samtidig kunne dominere slagmarken.</Hint>
+    <PM name="SPG-13: S for samarbejde" short="T 55A: SPG-13" desc="Velhåndteret samarbejde mellem SPG'er og allierede skal gøre det fjendtlige hold ekstremt bekymret. Koordiner dine handlinger og fokuser din ild på et fjendtligt mål ad gangen." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 25% af den samlede skade uddelt til fjendtlige køretøjer af dit hold, enten personligt eller i alt blandt din deling.\n• Vind kampen.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din SPG og hvilke som helst andre køretøjer.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 8 gange eller gør dem fortumlede mindst 10 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Samlet offensiv (personlig/deling)" short="T 55A: SPG-14" desc="Artilleri er afhængig af resten af holdet for at være mest effektiv. Artilleri og lette kampvogne komplementerer hinanden særdeles godt i en deling. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>En let kampvogn kan observere fjendtlige køretøjer og immobilisere dem. SPG'ere vil gøre kort proces med de uheldige ofre. Sammen vil vi vinde! En tung kampvogn vil beskytte dig med dens tykke panser, en medium kampvogn vil distrahere fjenden, mens en kampvognsjæger vil yde ildstøtte fra lang afstand.</Hint>
+    <PM name="SPG-14: Del af mandskabet, del af køretøjet!" short="T 55A: SPG-14" desc="Samarbejde er nøglen til sejr for hele holdet. Fremhæv det fjendtlige køretøj du sigter på, så dine allierede straks kan skyde på det, når det er blevet fortumlet eller immobiliseret. Husk: En enkelt soldat kan sjældent afgøre kampen alene." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 4.000 hp skade til fjendtlige tunge kampvogne og kampvognsjægere, enten personligt eller i alt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din kampvognsjæger og hvilke som helst andre køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 180 sekunder i alt eller gør dine allierede i stand til at uddele mindst 800 skade til fjendtlige køretøjer ved at immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Krigsguder" short="T 55A: SPG-15" desc="Det er meget bedre for holdet, hvis SPG'en overlever. Prøv ikke at blive udsat for fjendtlig ild og affyr præcise skud mod fjenden." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
-      <Hint>Hvis du kender de tekniske karakteristika på din SPG, kan du planlægge dine handlinger i kamp. Nogle gange er det ikke en ret god idé at blive ved basen. Hvis du fører en hurtig SPG, kan du hurtigt skifte positioner og engagere fjenden fra de retninger de mindst venter det.</Hint>
+    <PM name="SPG-15: Krigsguder" short="T 55A: SPG-15" desc="En SPG der overlever så længe som muligt er en virkelig bonus for holdet. Bliv ved med at affyre den ene granat efter den anden, mens du prøver at undgå at blive fanget af fjendtlig ild. Tag dig god tid og tænk to gange før du \&quot;trækker på aftrækkeren\&quot;, siden \&quot;et-skud-en-træffer\&quot; er den bedste strategi for et køretøj med en lang ladetid." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp og uddelt skade.\n• Uddel mindst 3.000 hp skade.</req>
+        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp.\n• Gør dine allierede i stand til at uddele mindst 2.500 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Overlev kampen.</req>
@@ -3924,136 +3936,136 @@
         <req>• Ødelæg mindst 5 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Skarpskytten" short="Object 260: SPG-1" desc="Spild ikke din ammunition. Det er de nøjagtige træffere, som vil give dig sejren." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Vær tålmodig og vent til dit sigte er kommet helt ind på målet.</Hint>
+    <PM name="SPG-1: Et dristigt løfte" short="Object 260: SPG-1" desc="Den store sprængradius efter en granateksplosion er den primære evne for SPG køretøjer. Selv hvis du ikke får lavet en direkte træffer på det fjendtlige køretøj du sigter på, er der stadig en chance for at uddele seriøse øretæver ved at gøre det fortumlet. Det fjendtlige køretøj er markeret med en fortumlet indikator, som er synlig for dine allierede. Hvis allierede uddeler skade til køretøjer, som er gjort fortumlede af dig, modtager du yderligere credits og xp for skade uddelt med din assistance." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 6 træffere der giver skade på fjendtlige køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 10 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 4.000 hp skade.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 8 gange ved beskydning eller sammenstød.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Skjult og farlig" short="Object 260: SPG-2" desc="SPG'ere kan ikke regne med tykkelsen på deres panser eller deres hastighed. Hvis du fører en SPG, skal du lære hvordan du holder dig skjult under kampen." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Sløringsnettet kombineret med sløring vil hjælpe dig til at forbedre din evne til at skjule dig, når det er monteret på din SPG.</Hint>
+    <PM name="SPG-2: Tid er penge" short="Object 260: SPG-2" desc="Et fjendtligt køretøj forbliver fortumlet i en bestemt periode og kan ikke yde deres bedste på slagmarken. Husk, et fortumlet køretøj bliver et nemt mål." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Vær i top 3 af spillerne på dit hold efter uddelt skade. Forbliv uopdaget i hele kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 200 sekunder i alt.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 3 fjendtlige køretøjer.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Howitzer skud" short="Object 260: SPG-3" desc="Hvis du vil være en gevinst for holdet, skal du først lære at afgive ild på den mest effektive måde." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Følg rytmen i kampen og støt dit hold. Bliv ikke på det samme sted for længe. Fald tilbage eller se efter et nyt sted at afgive ild fra om nødvendigt.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 4.000 hp skade til fjendtlige køretøjer.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vind kampen.\n• Overlev kampen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Bryd igennem" short="Object 260: SPG-4" desc="Kraftige HE granater kan ikke alene uddele skade til fjenden i form af hit points, men vil også have en stor chance for at beskadige eller ødelægge moduler eller såre mandskab med splash skade." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Kun ved at gennembryde panseret og eksplodere inde i skroget på et fjendtligt køretøj, kan en høj-eksplosiv granat virkelig vise sit værd. Hvis dine granater har middelmådig gennembrydning, prøv da at skyde på fjendtlige køretøjer med åbne tårne eller at lade en premium granat.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Beskadig eller ødelæg fjendtlige køretøjers moduler eller sår deres mandskab, i alt mindst 10 moduler og mandskab.\n• Antallet af skadede/ødelagte moduler og såret mandskab på alle de fjendtlige køretøjer du har uddelt skade til i løbet af kampen lægges sammen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vind kampen.\n• Overlev kampen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Udregn og ødelæg" short="Object 260: SPG-5" desc="Den massive ildkraft du besidder kompenserer godt for den relativt lave holdbarhed på din SPG." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Prøv at uddele skade til fjendtlige køretøjer ved først givne lejlighed. Selv hvis dine HE granater rammer forbi fjenden, vil deres køretøj stadig tage skade af granatfragmenter.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel skade der overstiger 10 gange dit køretøjs hp.\n• Skade på allierede tælles ikke med.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Ødelæg mindst 4 fjendtlige køretøjer.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Den faldende hammer" short="Object 260: SPG-6" desc="Ofte vil du kæmpe mod køretøjer på højere niveauer. Men det er ikke noget problem for en erfaren SPG kommandør." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Hvis du ikke kan gennembryde en fjende med almindelige granater, prøv premium granater. Skyd mod siderne og bagtil på det fjendtlige køretøj. SPG'ere kan med deres buede skud effektivt ramme ethvert køretøj ovenpå tårnet, hvor panseret er svagt. Fjendtlige køretøjer med åbne tårne er endnu mere sårbare overfor ødelæggelsen fra oven.</Hint>
+    <PM name="SPG-3: Støt og rolig bliver fortumlet" short="Object 260: SPG-3" desc="Skjulte, kraftfulde fjendtlige kampvognsjægere og velpansrede tunge kampvogne kan nemt ændre slagets gang. De er førsteprioritetsmål og at uddele skade til dem (eller assistere i deres ødelæggelse) bør være den primære opgave for en SPG. Størstedelen af de tunge kampvogne og kampvognsjægere er langsomme og store, hvilket forøger chancen for en god træffer." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 8 gange.\n• De skud der gør dem fortumlede skal også uddele skade.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vind kampen.\n• Overlev kampen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: Jeg hjælper dig igennem" short="Object 260: SPG-4" desc="Lær de primære ruter hvor de fjendtlige tunge kampvogne bevæger sig og de steder hvor snu kampvognsjægere normalt gemmer sig. Ved at sigte på et særligt område på kortet på forhånd, forbedrer chancerne for de mest effektive og ødelæggende skud på fjendtlige positioner. Disse typer af køretøjer følger normalt rimelig forudsigelige mønstre på visse kort. Vær kløgtig. Analyser sammensætningen af det fjendtlige hold og vælg den bedste position fra starten af kampen." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Gør en fjendtlig tung kampvogn eller kampvognsjæger fortumlet mindst 120 sekunder i alt.\n• Det skud der gør dem fortumlede skal også uddele skade.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vind kampen.\n• Overlev kampen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Et dele er at have omtanke" short="Object 260: SPG-5" desc="At gøre fjendtlige køretøjer fortumlede fører ikke alene dit hold tættere på sejren, men sikrer også at du modtager yderligere xp og credits hvis dine allierede uddeler skade til fjendtlige køretøjer gjort fortumlede af dig. Glem ikke at mærke området du sigter på (T tasten som default) til at gøre dine allierede opmærksomme." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer som er 2 niveauer højere end dit køretøj.</req>
+        <req>• Gør dine allierede i stand til at uddele mindst 3.000 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Uddel skade til fjendtlige køretøjer mindst 8 gange ved beskydning eller sammenstød.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Gudernes hammer" short="Object 260: SPG-6" desc="Det primære formål for SPG'er er at yde ildstøtte til allierede køretøjer. Fortumlede fjendtlige køretøjer er dårlige krigere, så dine holdkammerater vil helt sikkert sætte pris på din hjælp. Vær dog forsigtig når du afgiver ild - et uforsigtigt skud kan også gøre et allieret køretøj fortumlet. Skud mod allierede vil ikke blive toleret!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Gør dine allierede i stand til at uddele skade til mindst 6 fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Rul de store kanoner ud" short="Object 260: SPG-7" desc="Du bør ødelægge fjendtlige kampvognsjægere og SPG'ere ved først givne mulighed. Hvis du får ram på dem, kan det vende slagets gang." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Koordiner dine handlinger med allierede lette kampvogne. Observering og ødelæggelse af fjendtlige kampvognsjægere og SPG'ere kan hjælpe til at få overtaget på slagmarken.</Hint>
+    <PM name="SPG-7: Nøje overvejelser" short="Object 260: SPG-7" desc="For at fuldføre denne mission, brug en selektiv metode til at udvælge dine mål. Koncentrer ikke ilden på det samme mål, selvom det er et nemt mål. Den bedste strategi er at ramme store grupper fjendtlige køretøjer med ét skud. Studer kortene og lær de primære ruter for køretøjer." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg i alt mindst 3 fjendtlige kampvognsjægere og SPG'ere.\n• Vind kampen.</req>
+        <req>• Gør mindst 6 fjendtlige køretøjer fortumlede.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 4.000 hp skade.</req>
+        <req>• Vind kampen.\n• Overlev kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tung ild på tunge kampvogne!" short="Object 260: SPG-8" desc="En tung kampvogn er et hårdt mål, men ikke for din kanon. Granater med en høj bane kan ramme ethvert køretøj ovenpå tårnet, hvor panseret er tyndt." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Tunge kampvogne er generelt langsommere end andre typer af køretøjer. Derfor kan du ofte forudsige hvor kampvognen vil være når din granat lander. For en SPG-fører er det godt at kende hastigheden på dine granater.</Hint>
+    <PM name="SPG-8: Jeg gjorde mit bedste" short="Object 260: SPG-8" desc="Du modtager xp for alle effektive handlinger. Prøv at være en MVP: Uddel skade, assister i at ødelægge fjendtlige køretøjer og overlev i kampen. Skift din position efter hvert skud, ellers kan kontraild fra fjendtlige SPG'er ødelægge dit køretøj." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 3.000 hp skade til fjendtlige tunge kampvogne.</req>
+        <req>• Afslut kampen som den bedste spiller på dit hold efter optjent xp.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige tunge kampvognsjægere.\n• Vind kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sigt foran dem til du rammer dem" short="Object 260: SPG-9" desc="En erfaren SPG kommandør kan nemt ramme køretøjer i bevægelse. Lær hvordan du effektivt kan forudsige bevægelsen på fjendtlige køretøjer når du afgiver ild. Husk at en direkte træffer kan give langt mere skade til et fjendtligt køretøj end splash skade fra en højeksplosiv granat." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Farten på dine granater er en meget vigtig parameter. Hvis du ved hvornår granaten når målet, kan du med held tage højde for det.</Hint>
+    <PM name="SPG-9: Følgeskader" short="Object 260: SPG-9" desc="Kraftige HE-granater kan ikke alene reducere hp på fjendtlige køretøjer, men har også en høj chance for at ødelægge moduler eller såre mandskab med splash skade." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Scor mindst 4 direkte træffere på fjendtlige køretøjer.\n• Alle direkte træffere, uanset om de uddeler skade, tælles med.</req>
+        <req>• Ødelæg et modul på fjendtlige køretøjer eller sår deres mandskab, i alt 10 moduler eller mandskab\n• Antallet af ødelagte moduler og såret mandskab lægges sammen henover alle fjendtlige køretøjer du har skadet i kampen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Overlev kampen.\n• Vind kampen.\n• Forbliv uopdaget i hele kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Artilleriets banemænd" short="Object 260: SPG-10" desc="Artillerijagt er en god idé. Prøv at forudsige hvor de fjendtlige SPG'ere ligger på lur og se om du har gættet rigtigt med et præcist skud." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Jo mere du fører en SPG, jo flere strategiske steder på kortene vil du kende. Dette hjælper dig også til at bekæmpe fjendtlige SPG'ere, fordi du allerede vil vide, hvor de er placeret.</Hint>
+    <PM name="SPG-10: Alt inklusive" short="Object 260: SPG-10" desc="Kampsituationen kan ændre sig hurtigt-hold altid øje på minimap og vær sikker på du har en direkte skudlinje til fjendtlige køretøjer. Du vil skulle skifte position på kortet hele tiden i stedet for at blive det samme sted. Dine allierede stoler på din SPG's ildkraft, så gør dit bedste for at være på det rigtige sted på det rigtige tidspunkt." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige SPG'ere.\n• Uddel mindst 4.000 hp skade til fjendtlige køretøjer.</req>
+        <req>• Samlet skade uddelt af dig og dine allierede til fjendtlige køretøjer, som du har gjort fortumlet eller immobiliseret, skal være mindst 4.000 hp.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 5 fjendtlige køretøjer.</req>
+        <req>• Vind kampen.\n• Allierede skal ødelægge mindst 3 fjendtlige køretøjer som er gjort fortumlede eller immobiliserede af dig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Sprængradius" short="Object 260: SPG-11" desc="Dine HE granater kan ikke kun ødelægge et fjendtligt køretøj på første træffer, men de kan også give betydelig skade til flere mål på én gang, hvis de befinder sig tæt på hinanden." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Du kan bogstavelig talt dræbe to fluer med ét smæk, hvis adskillige fjendelige køretøjer står tæt sammen. Dette tilfælde sker tit på bykort.</Hint>
+    <PM name="SPG-11: Sprængradius" short="Object 260: SPG-11" desc="Udover en betragtelig mængde skade forårsaget af et velplaceret skud, kan en høj-eksplosiv granat også gøre alle køretøjer indenfor granatens sprængradius fortumlede. Mange kort har nogle steder, hvor fjendtlige køretøjer pakker sig sammen. Tag en chance og send dine højeksplosive hilsener deres vej." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ødelæg mindst 2 fjendtlige køretøjer med ét skud.</req>
+        <req>• Gør mindst 3 fjendtlige køretøjer fortumlede med et enkelt skud to gange.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vind kampen.\n• Overlev kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 200 sekunder i alt.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Skytten" short="Object 260: SPG-12" desc="Spillestilen i en SPG er drastisk forskellig fra andre typer køretøjer. Det primære objektiv er dog det samme—gør dit bedste i kampen og bidrag så godt du kan til holdets bedste." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Skift ikke til artilleri modus lige så snart kampen starter. Beslut dig først for at finde et godt strategisk sted.</Hint>
+    <PM name="SPG-12: Det onde øje" short="Object 260: SPG-12" desc="Dine allierede ødelagde det fortumlede køretøj? Det er gode nyheder for dig, siden det er din indsats, der bringer jer et skridt nærmere sejren! Din opgave er at yde ildstøtte og assistere dine allierede på det rigtige sted på det rigtige tidspunkt." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Afslut kampen som den bedste spiller på begge hold efter uddelt skade.\n• Ødelæg mindst 4 fjendtlige køretøjer.\n• Overlev kampen.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 200 sekunder i alt.\n• Allierede skal ødelægge mindst 3 fjendtlige køretøjer der er gjort fortumlede eller immobiliserede af dig.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleri batteri (personlig/deling)" short="Object 260: SPG-13" desc="En deling af SPG'ere er en stor fare for fjenden. Koordiner dine handlinger indenfor delingen og tag fjenden ud med fokuseret ild. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Ved at sprede sig ud, kan din deling ramme mål fra flere forskellige vinkler, hvilket gør mange klipper og bygninger ubrugelige som dække og delingen vil samtidig kunne dominere slagmarken.</Hint>
+    <PM name="SPG-13: S for samarbejde" short="Object 260: SPG-13" desc="Velhåndteret samarbejde mellem SPG'er og allierede skal gøre det fjendtlige hold ekstremt bekymret. Koordiner dine handlinger og fokuser din ild på et fjendtligt mål ad gangen." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 30% af den samlede skade uddelt til fjendtlige køretøjer af dit hold, enten personligt eller i alt blandt din deling.\n• Vind kampen.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din SPG og hvilke som helst andre køretøjer.</req>
+        <req>• Uddel skade til fjendtlige køretøjer mindst 10 gange eller gør dem fortumlede mindst 12 gange.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Samlet offensiv (personlig/deling)" short="Object 260: SPG-14" desc="Artilleri er afhængig af resten af holdet for at være mest effektiv. Artilleri og lette kampvogne komplementerer hinanden særdeles godt i en deling. Denne mission kan fuldføres enten som del af en deling eller på egen hånd, men det sidste er dog langt sværere." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>En let kampvogn kan observere fjendtlige køretøjer og immobilisere dem. SPG'ere vil gøre kort proces med de uheldige ofre. Sammen vil vi vinde! En tung kampvogn vil beskytte dig med dens tykke panser, en medium kampvogn vil distrahere fjenden, mens en kampvognsjæger vil yde ildstøtte fra lang afstand.</Hint>
+    <PM name="SPG-14: Del af mandskabet, del af køretøjet!" short="Object 260: SPG-14" desc="Samarbejde er nøglen til sejr for hele holdet. Fremhæv det fjendtlige køretøj du sigter på, så dine allierede straks kan skyde på det, når det er blevet fortumlet eller immobiliseret. Husk: En enkelt soldat kan sjældent afgøre kampen alene." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uddel mindst 5.000 hp skade til fjendtlige tunge kampvogne og kampvognsjægere, enten personligt eller i alt blandt din deling.\n• Kan fuldføres enten personligt eller som del af en deling, bestående af din kampvognsjæger og hvilke som helst andre køretøjer.</req>
+        <req>• Gør fjendtlige køretøjer fortumlede mindst 250 sekunder i alt eller gør dine allierede i stand til at uddele mindst 1.000 skade til fjendtlige køretøjer ved at immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overlev selv kampen.</req>
+        <req>• Vind kampen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Krigsguder" short="Object 260: SPG-15" desc="Det er meget bedre for holdet, hvis SPG'en overlever. Prøv ikke at blive udsat for fjendtlig ild og affyr præcise skud mod fjenden." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
-      <Hint>Hvis du kender de tekniske karakteristika på din SPG, kan du planlægge dine handlinger i kamp. Nogle gange er det ikke en ret god idé at blive ved basen. Hvis du fører en hurtig SPG, kan du hurtigt skifte positioner og engagere fjenden fra de retninger de mindst venter det.</Hint>
+    <PM name="SPG-15: Krigsguder" short="Object 260: SPG-15" desc="En SPG der overlever så længe som muligt er en virkelig bonus for holdet. Bliv ved med at affyre den ene granat efter den anden, mens du prøver at undgå at blive fanget af fjendtlig ild. Tag dig god tid og tænk to gange før du \&quot;trækker på aftrækkeren\&quot;, siden \&quot;et-skud-en-træffer\&quot; er den bedste strategi for et køretøj med en lang ladetid." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Den længe ventede backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Afslut kampen som den bedste spiller på begge hold efter optjent xp og uddelt skade.\n• Uddel mindst 3.000 hp skade.</req>
+        <req>• Afslut kampen som den bedste spiller på begge hold efter optjent xp.\n• Gør dine allierede i stand til at uddele mindst 3.500 skade til fjendtlige køretøjer ved at gøre dem fortumlede eller immobilisere dem.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Overlev kampen.</req>

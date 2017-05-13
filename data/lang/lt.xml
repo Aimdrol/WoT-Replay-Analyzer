@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskio" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Objektas 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Objektas 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Objektas 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingradas" />
     <item ID="95_lost_city" Name="Pamirštas miestas" />
     <item ID="96_prohorovka_defense" Name="Ugnies lankas" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somos puolimas" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Nežinoma" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Specialus mūšis" />
     <item ID="5" Name="Specialus mūšis" />
     <item ID="6" Name="Koviniai mokymai" />
-    <item ID="7" Name="Komandinis: Nereit. mūšiai" />
+    <item ID="7" Name="Komandinis mūšis" />
     <item ID="8" Name="Istorinis mūšis" />
     <item ID="9" Name="Specialus žaidimo režimas" />
     <item ID="10" Name="Išpuoliai" />
@@ -1899,136 +1911,136 @@
         <req>• Sunaikinti priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-1: Taikliarankis" short="StuG IV: SAP-1" desc="Nešvaistykite amunicijos. Tik taiklūs šūviais artina jus prie pergalės." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Būkite kantrus ir palaukite kol pilnai nusitaikysite į taikinį.</Hint>
+    <PM name="SAP-1: Priminti apie save" short="StuG IV: SAP-1" desc="Didelis sprogimo spindulys yra pagrindinė artilerijų ypatybė. Net jeigu nepavyko tiesiogiai pataikyti į priešą, jūs visada galite padaryti jam rimtos žalos jį apkurtindami. Apkurtinta mašina pažymima specialiu žymekliu, kurį mato visi komandos nariai. Jeigu saviškiai padaro žalos jūsų apkurtintiems priešams, jūs už tai gaunate patirties ir kreditų." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Bent 3 kartus šūviais padaryti žalos priešų mašinoms.</req>
+        <req>• Bent 3 kartus apkurtinti priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1000 žalos.</req>
+        <req>• Bent 3 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-2: Pasislėpęs ir pavojingas" short="StuG IV: SAP-2" desc="Artilerija negali pasikliauti savo šarvais ar greičiu. Jeigu vairuojate artileriją, išmokite likti nepastebėtas viso mūšio metu." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Kamufliažinis tinklas kartu su ekipažo kamufliažo įgūdžiu, pagerins jūsų artilerijos maskuotę.</Hint>
+    <PM name="SAP-2: Laikas pinigai" short="StuG IV: SAP-2" desc="Priešų mašina lieka apkurtinta tam tikrą laiką ir negali maksimaliai išnaudoti savo potencialo. Nepamirškite: apkurtintas priešininkas - lengvas grobis." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 500 žalos priešų mašinoms ir išlikti nepastebėtam viso mūšio metu.\n• Išgyventi mūšyje.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 50 sekundžių.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų mašiną.</req>
+        <req>• Sunaikinti bent vieną priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-3: Haubicos smūgis" short="StuG IV: SAP-3" desc="Išmokite šaudyti efektyviai. Taip būsite žymiai naudingesnis komandai." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Sėkite mūšio eigą ir padėkite komandai. Nestovėkite vienoje vietoje per ilgai. Atsitraukite ar paieškokite kitų patogių šaudymo pozicijų.</Hint>
+    <PM name="SAP-3: Panaikinti pranašumą" short="StuG IV: SAP-3" desc="Pasislėpę ir galingi priešų SPP bei šarvuoti sunkieji tankai gali lengvai pakreipti mūšio eigą į savo pusę. Jie yra taikiniai numeris vienas ir šaudymas į juose turi būti pačia svarbiausia užduotimi žaidėjui su artilerija. Dauguma sunkiųjų tankų ir prieštankinių yra lėti, o tai padidina pataikymo į juos tikimybę." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1000 žalos.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Laimėti mūšį.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-4: Proveržis" short="StuG IV: SAP-4" desc="Galingi fugasiniai sviediniai ne tik padarys priešams tiesioginės žalos, bet ir gali pažeisti mašinos modulius ar sužeisti įgulos narius skeveldromis." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Tik pramušę šarvus ir sprogę mašinos viduje fugasiniai sviediniai parodo savo tikrą jėgą. Jeigu jūsų sviediniai turi žemą pramušimo rodiklį, pasistenkite rasti priešų mašiną su atviro tipo bokšteliu arba pakeiskite amuniciją į Premium.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Pažeisti arba sunaikinti priešų mašinų vidinius modulius arba sužeisti priešų mašinų įgulos narius, iš viso 3 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
+        <req>• Bent 2 kartus apkurtinti priešų sunkųjį tanką ar SPP.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-5: Suskaičiuok ir sunaikink" short="StuG IV: SAP-5" desc="Puiki šaunamoji galia kompensuoja mažą jūsų artilerijos patvarumo taškų skaičių." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Stenkitės padaryti priešams žalos esant bent menkiausiai galimybei. Net jeigu ir nepataikote su fugasiniu sviediniu, priešų mašina gali patirti žalą nuo fugasinio sviedinio sprogimo skeveldrų.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti 4 kartus daugiau žalos nei jūsų mašina turi patvarumo taškų.\n• Žala saviškiams neskaičiuojama.</req>
+    <PM name="SAP-4: Aš tave matau" short="StuG IV: SAP-4" desc="Išanalizuokite pagrindinius priešų sunkiųjų tankų maršrutus ir prieštankinių dažniausias slėptuves. Išankstinis nusitaikymas į reikalingą žemėlapio zoną padės padaryti daugiau žalos. Šie mašinų tipai dažnai naudojasi nuspėjamomis taktikomis tam tikruose žemėlapiuose. Būkite gudrūs: išanalizavę komandų sudėtį pasirinkite tinkamiausią būsimiems šūviams poziciją nuo pat mūšio pradžios." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų sunkųjį tanką ar SPP iš viso 30 sekundžių.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų mašiną.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-6: Krentantis kūjis" short="StuG IV: SAP-6" desc="Dažnai jūs kovosite mūšiuose prieš aukštesnio lygio techniką. Bet tai tikrai ne problema patyrusiam artileristui." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Jeigu nepavyksta pramušti priešo šarvų su standartine amunicija, išbandykite Premium sviedinius. Taikykite į šonus ar mašinos galą. Artilerija su paraboline sviedinių skridimo trajektorija, gali pataikyti į priešų mašinos bokštelį iš viršaus, o ten šarvų nėra daug. Atviro kabinos tipo mašinos yra dar lengviau pažeidžiamos artilerijos šūviais.</Hint>
+    <PM name="SAP-5: Svarbu dalintis" short="StuG IV: SAP-5" desc="Priešų apkurtinimas ne tik artina komandą link pergalės, bet ir užtikrina jums papildomą patirties ir kreditų kiekį, jei saviškiai padaro žalos jūsų apkurtintiems priešams. Nepamirškite pažymėti ploto į kurį taikotės (T klavišas pagal nutylėjimą), taip atkreipsite saviškių dėmesį." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų mašinas, kurios yra tokio pat arba aukštesnio lygio nei jūsų mašina.</req>
+        <req>• Padėti saviškiams padaryti bent 600 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Bent 3 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-6: Dievo kūjis" short="StuG IV: SAP-6" desc="Pagrindinė artilerijos užduotis - saviškių palaikymas ugnimi. Apkurtinti priešai negali sėkmingai kovoti, tad saviškiai tikrai turės iš to naudos. Šaudydami būkite atsargūs - apkurtinti galite ir savos komandos narius. Šaudymas į saviškius nebus toleruojamas." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Padėti saviškiams pažeisti bent 2 priešų mašinas, apkurtinant arba sustabdant jas.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-7: Traukiam sunkiąją artileriją" short="StuG IV: SAP-7" desc="Jūs turėtumėte sunaikinti priešų prieštankinius pabūklus ir artileriją pasitaikius pirmai progai. Taip jūs padėsite pakreipti mūšio eigą sau naudinga linkme." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Koordinuokite veiksmus su saviškiais lengvaisiais tankais. Sėkminga priešų prieštankinių pabūklų ir artilerijos žvalgyba ir jūsų taiklūs šūviai gali padėti įgyti pranašumą mūšyje.</Hint>
+    <PM name="SAP-7: Atsargūs svarstymai" short="StuG IV: SAP-7" desc="Norėdami įvykdyti šią misiją, atidžiai rinkitės savo taikinius. Nešaudykite nuolat į vieną priešą, net jeigu tai ir būtų jums patogiau. Labiausiai pasiteisina šaudymas į dideles priešų grupes. Studijuokite žemėlapius ir atraskite pagrindinius priešų maršrutus." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų SPP ar SAP.</req>
+        <req>• Apkurtinti bent 2 priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1000 žalos.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-8: Kreipiam ugnį į sunkiuosius tankus!" short="StuG IV: SAP-8" desc="Sunkusis tankas - rimtas taikinys, bet tik ne jūsų pabūklui. Sviedinio parabolinė trajektorija leidžia pataikyti į priešą iš viršaus, kur šarvai plonesni." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Sunkieji tankai dažniausiai juda lėčiau nei kitų tipų mašinos. Dažnai jūs galite tiksliai nuspėti kur jie bus tuo metu, kai jūsų iššautas sviedinys pasieks žemę. Artilerijos vairuotojui naudinga yra žinoti savo sviedinių skriejimo laiką.</Hint>
+    <PM name="SAP-8: Sėkmingas mūšis" short="StuG IV: SAP-8" desc="Patirtis duodama už visus naudingus veiksmus. Pasistenkite tapti mūšio MVP: darykite žalą, padėkite sunaikinti priešus, išgyvenkite mūšyje. Keiskite poziciją po kiekvieno šūvio, nes priešų artilerijos atsakomasis šūvis gali jus pribaigti." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1000 žalos priešų sunkiesiems tankams.</req>
+        <req>• Patekti tarp 7 geriausių savo komandos žaidėjų pagal uždirbtą patirtį.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų sunkųjį tanką.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-9: Šaudymas su išlaikymu" short="StuG IV: SAP-9" desc="Patyręs artileristas lengvai pataiko į judančius taikinius. Išmokite nuspėti priešo judėjimą ir įvertinkite poslinkį. Nepamirškite, kad tiesioginis pataikymas gali padaryti žymiai daugiau žalos, nei sprogimo skeveldros." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Sviedinio skridimo greitis - svarbus parametras. Žinojimas kada sviedinys pasieks taikinį, jums leis tiksliau įvertinti taikymosi tašką.</Hint>
+    <PM name="SAP-9: Netiesioginė žala" short="StuG IV: SAP-9" desc="Galingi fugasiniai sviediniai ne tik daro tiesioginę žalą priešų mašinoms, bet turi ir didelę tikimybę sunaikinti modulius ar įgulos narius sprogimo skeveldromis." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pažeisti priešų mašiną, kuri juda ne mažesniu nei 20 km/h greičiu.\n• Skaičiuojama tiesioginių pataikymų ir sprogimų žala.\n• Taranavimo žala nevertinama.</req>
+        <req>• Sunaikinti priešų mašinų modulius arba sužeisti priešų mašinų įgulos narius, iš viso 3 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-10: Artilerijos bausmė" short="StuG IV: SAP-10" desc="Artilerijos medžioklė - puiki idėja. Pabandykite atspėti kur ji gali būti pasislėpusi ir patikrinkite taikliu šūviu." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Kuo dažniau žaisite su artilerija, tuo geriau pažinsite žemėlapius ir sužinosite strategines vietas. Tai jums padės kovoti su priešų artilerija, nes jūs jau numanysite, kur ji gali būti.</Hint>
+    <PM name="SAP-10: Viskas įskaičiuota" short="StuG IV: SAP-10" desc="Situacija mūšyje gali pasikeisti per akimirką - nepamirškite stebėti mini žemėlapio ir stenkitės išlaikyti priešus pasiekiamose vietose. Jums teks keisti pozicijas ir neužsibūti vienoje vietoje. Saviškiams reikia jūsų palaikymo, todėl būkite tinkamoje vietoje tinkamu laiku." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 1 priešų artileriją.</req>
+        <req>• Jūsų padarytos žalos ir sąjungininkų padarytos žalos su jūsų pagalba, kai jūs apkurtinate arba sustabdote priešus, suma turi būti bent 1000.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų mašinas.</req>
+        <req>• Saviškiai turi sunaikinti bent vieną jūsų apkurtintą ar sustabdytą priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-11: Veikimo laukas" short="StuG IV: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik vienu šūviu sunaikinti priešo mašiną, bet gali ir pažeisti kelis taikinius vienu metu, jeigu jie stovi vienas šalia kito." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Jūs galite nušauti kelis žvirblius vienu metu, jei kelios priešų mašinos stovi viena šalia kitos. Tai dažna situacija miestų žemėlapiuose.</Hint>
+    <PM name="SAP-11: Veikimo laukas" short="StuG IV: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik taikliu šūviu padaryti daug žalos, bet ir apkurtinti visas mašinas patenkančias į sprogimo spindulį. Daugelyje žemėlapių yra tokių vietų, kur priešų mašinos laikosi kartu. Nepraleiskite tokiu momentų ir nusiųskite priešams fugasinių linkėjimų." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vienu šūviu sunaikinti priešų mašiną.\n• Skaičiuojami tie taikiniai, kurie iki tol nepatyrė žalos.</req>
+        <req>• Apkurtinti bent 2 priešų mašinas vienu šūviu.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų mašinas iš viso 50 sekundžių.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-12: Bloga akis" short="StuG IV: SAP-12" desc="Saviškiai sunaikino jūsų apkurtintą mašiną? Puiki žinia jums, nes jūsų indėlis artina komanda link pergalės. Jūsų pagrindinis tikslas yra palaikyti saviškius ugnimi tinkamose vietoje, tinkamu laiku." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų mašinas iš viso 50 sekundžių.\n• Saviškiai turi sunaikinti bent vieną jūsų apkurtintą ar sustabdytą priešų mašiną.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-12: Smūgiuotojas" short="StuG IV: SAP-12" desc="Žaidimo stilius su artilerija visiškai kitoks nei su kitais mašinų tipais. Bet pagrindinis principas išlieka tas pats - stenkis kuo labiau ir suteik kuo daugiau naudos savo komandai." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Nepersijunkite į artilerinį režimą nuo pirmos mūšio sekundės. Pirmiausia išsirinkite strategiškai gerą poziciją.</Hint>
+    <PM name="SAP-13: Suderinti veiksmai" short="StuG IV: SAP-13" desc="Koordinuoti artilerijos ir kitų komandos narių veiksmai gali pridaryti rimtų problemų priešams. Koordinuokite savo veiksmus ir atakuokite vieną taikinį vienu metu." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Patekti tarp 3 geriausių savo komandos žaidėjų pagal padarytą žalą.\n• Sunaikinti priešų mašiną.</req>
+        <req>• Bent 4 kartus padaryti žalos priešų mašinoms arba apkurtinti jas bent 6 kartus.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-13: Artilerijos baterija (asmeninis/būryje)" short="StuG IV: SAP-13" desc="Artilerijų būrys kelia didelę grėsmę priešams. Koordinuokite savo veiksmus būryje ir naikinkite priešus koncentruota ugnimi. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Norėdami žaisti efektyviai būryje jūs turite išsidėstyti plačiai. Taip galėsite pasiekti net ir už priedangų pasislėpusius priešus.</Hint>
+    <PM name="SAP-14: Įgulos dalis - laivo dalis!" short="StuG IV: SAP-14" desc="Bendradarbiavimas komandoje gali nulemti visos komandos sėkmę. Pažymėkite priešų mašinas į kurias taikotės, tam kad saviškiai galėtų į jas šaudyti, kai jūs priešus sustabdysite ar apkurtinsite. Nepamirškite: vienišas karys karo nelaimės." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 15% visos komandos priešams padarytos žalos asmeniškai arba kartu būryje.\n• Laimėti mūšį.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 70 sekundžių arba padėti saviškiams padaryti bent 400 žalos sustabdant priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-14: Koordinuoti veiksmai (asmeninis/būryje)" short="StuG IV: SAP-14" desc="Artilerijos sėkmė labai priklauso nuo komandos. Artilerija ir lengvieji tankai papildo vieni kitus, ypač gerai tai daryti būryje. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Lengvieji tankai gali aptikti priešus ir juos sustabdyti numušdami vikšrus. Artilerija ištaškys į šipulius nelaimėlius. Sunkieji tankai pridengs savo šarvais, vidutiniai nukreips priešo dėmesį, o prieštankiniai naikins priešus dideliu atstumu.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 2000 žalos priešų sunkiesiems tankams ir SPP asmeniškai arba kartu būryje.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-15: Karo dievai" short="StuG IV: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Pasistenkite išvengti priešų ugnies ir šaudykite tik nusitaikę." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
-      <Hint>Jeigu jūs žinote savo artilerijos technines charakteristikas, jūs galite suplanuoti savo veiksmus mūšyje. Kartais sėdėjimas bazėje nėra pats geriausias sprendimas. Jeigu vairuojate greitą artileriją, tada galite užimti tokias pozicijas iš kurių galėsite apšaudyti priešus jiems to nesitikint.</Hint>
+    <PM name="SAP-15: Karo dievai" short="StuG IV: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Leiskite sviedinius vieną po kito ir patys nepakliūkite priešui į akis. Nusitaikykite ir pagalvokite prieš paleisdami šūvį, nes su ilgu užsitaisymo laiku pati geriausia strategija: vienas šūvis - vienas pataikymas." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Patekti tarp 3 geriausių savo komandos žaidėjų pagal uždirbtą patirtį ir padarytą žalą.\n• Padaryti bent 2000 žalos.</req>
+        <req>• Patekti tarp 5 geriausių savo komandos žaidėjų pagal uždirbtą patirtį.\n• Padėti saviškiams padaryti bent 1000 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Išgyventi mūšyje.</req>
@@ -2574,136 +2586,136 @@
         <req>• Sunaikinti bent 2 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-1: Taikliarankis" short="T28 heavy tank concept: SAP-1" desc="Nešvaistykite amunicijos. Tik taiklūs šūviais artina jus prie pergalės." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Būkite kantrus ir palaukite kol pilnai nusitaikysite į taikinį.</Hint>
+    <PM name="SAP-1: Priminti apie save" short="T28 heavy tank concept: SAP-1" desc="Didelis sprogimo spindulys yra pagrindinė artilerijų ypatybė. Net jeigu nepavyko tiesiogiai pataikyti į priešą, jūs visada galite padaryti jam rimtos žalos jį apkurtindami. Apkurtinta mašina pažymima specialiu žymekliu, kurį mato visi komandos nariai. Jeigu saviškiai padaro žalos jūsų apkurtintiems priešams, jūs už tai gaunate patirties ir kreditų." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Bent 4 kartus šūviais padaryti žalos priešų mašinoms.</req>
+        <req>• Bent 5 kartus apkurtinti priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 2000 žalos.</req>
+        <req>• Bent 5 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-2: Pasislėpęs ir pavojingas" short="T28 heavy tank concept: SAP-2" desc="Artilerija negali pasikliauti savo šarvais ar greičiu. Jeigu vairuojate artileriją, išmokite likti nepastebėtas viso mūšio metu." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Kamufliažinis tinklas kartu su ekipažo kamufliažo įgūdžiu, pagerins jūsų artilerijos maskuotę.</Hint>
+    <PM name="SAP-2: Laikas pinigai" short="T28 heavy tank concept: SAP-2" desc="Priešų mašina lieka apkurtinta tam tikrą laiką ir negali maksimaliai išnaudoti savo potencialo. Nepamirškite: apkurtintas priešininkas - lengvas grobis." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1500 žalos priešų mašinoms ir išlikti nepastebėtam viso mūšio metu.\n• Išgyventi mūšyje.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 100 sekundžių.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Sunaikinti bent 2 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-3: Haubicos smūgis" short="T28 heavy tank concept: SAP-3" desc="Išmokite šaudyti efektyviai. Taip būsite žymiai naudingesnis komandai." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Sėkite mūšio eigą ir padėkite komandai. Nestovėkite vienoje vietoje per ilgai. Atsitraukite ar paieškokite kitų patogių šaudymo pozicijų.</Hint>
+    <PM name="SAP-3: Panaikinti pranašumą" short="T28 heavy tank concept: SAP-3" desc="Pasislėpę ir galingi priešų SPP bei šarvuoti sunkieji tankai gali lengvai pakreipti mūšio eigą į savo pusę. Jie yra taikiniai numeris vienas ir šaudymas į juose turi būti pačia svarbiausia užduotimi žaidėjui su artilerija. Dauguma sunkiųjų tankų ir prieštankinių yra lėti, o tai padidina pataikymo į juos tikimybę." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 2000 žalos priešų mašinoms.</req>
+        <req>• Bent 4 kartus apkurtinti priešų sunkųjį tanką ar SPP.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-4: Proveržis" short="T28 heavy tank concept: SAP-4" desc="Galingi fugasiniai sviediniai ne tik padarys priešams tiesioginės žalos, bet ir gali pažeisti mašinos modulius ar sužeisti įgulos narius skeveldromis." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Tik pramušę šarvus ir sprogę mašinos viduje fugasiniai sviediniai parodo savo tikrą jėgą. Jeigu jūsų sviediniai turi žemą pramušimo rodiklį, pasistenkite rasti priešų mašiną su atviro tipo bokšteliu arba pakeiskite amuniciją į Premium.</Hint>
+    <PM name="SAP-4: Aš tave matau" short="T28 heavy tank concept: SAP-4" desc="Išanalizuokite pagrindinius priešų sunkiųjų tankų maršrutus ir prieštankinių dažniausias slėptuves. Išankstinis nusitaikymas į reikalingą žemėlapio zoną padės padaryti daugiau žalos. Šie mašinų tipai dažnai naudojasi nuspėjamomis taktikomis tam tikruose žemėlapiuose. Būkite gudrūs: išanalizavę komandų sudėtį pasirinkite tinkamiausią būsimiems šūviams poziciją nuo pat mūšio pradžios." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Pažeisti arba sunaikinti priešų mašinų vidinius modulius arba sužeisti priešų mašinų įgulos narius, iš viso 5 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
+        <req>• Apkurtinti priešų sunkųjį tanką ar SPP iš viso 50 sekundžių.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-5: Suskaičiuok ir sunaikink" short="T28 heavy tank concept: SAP-5" desc="Puiki šaunamoji galia kompensuoja mažą jūsų artilerijos patvarumo taškų skaičių." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Stenkitės padaryti priešams žalos esant bent menkiausiai galimybei. Net jeigu ir nepataikote su fugasiniu sviediniu, priešų mašina gali patirti žalą nuo fugasinio sviedinio sprogimo skeveldrų.</Hint>
+    <PM name="SAP-5: Svarbu dalintis" short="T28 heavy tank concept: SAP-5" desc="Priešų apkurtinimas ne tik artina komandą link pergalės, bet ir užtikrina jums papildomą patirties ir kreditų kiekį, jei saviškiai padaro žalos jūsų apkurtintiems priešams. Nepamirškite pažymėti ploto į kurį taikotės (T klavišas pagal nutylėjimą), taip atkreipsite saviškių dėmesį." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti 6 kartus daugiau žalos nei jūsų mašina turi patvarumo taškų.\n• Žala saviškiams neskaičiuojama.</req>
+        <req>• Padėti saviškiams padaryti bent 1000 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų mašinas.</req>
+        <req>• Bent 5 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-6: Krentantis kūjis" short="T28 heavy tank concept: SAP-6" desc="Dažnai jūs kovosite mūšiuose prieš aukštesnio lygio techniką. Bet tai tikrai ne problema patyrusiam artileristui." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Jeigu nepavyksta pramušti priešo šarvų su standartine amunicija, išbandykite Premium sviedinius. Taikykite į šonus ar mašinos galą. Artilerija su paraboline sviedinių skridimo trajektorija, gali pataikyti į priešų mašinos bokštelį iš viršaus, o ten šarvų nėra daug. Atviro kabinos tipo mašinos yra dar lengviau pažeidžiamos artilerijos šūviais.</Hint>
+    <PM name="SAP-6: Dievo kūjis" short="T28 heavy tank concept: SAP-6" desc="Pagrindinė artilerijos užduotis - saviškių palaikymas ugnimi. Apkurtinti priešai negali sėkmingai kovoti, tad saviškiai tikrai turės iš to naudos. Šaudydami būkite atsargūs - apkurtinti galite ir savos komandos narius. Šaudymas į saviškius nebus toleruojamas." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų mašinas, kurios yra tokio pat arba aukštesnio lygio nei jūsų mašina.</req>
+        <req>• Padėti saviškiams pažeisti bent 3 priešų mašinas, apkurtinant arba sustabdant jas.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-7: Traukiam sunkiąją artileriją" short="T28 heavy tank concept: SAP-7" desc="Jūs turėtumėte sunaikinti priešų prieštankinius pabūklus ir artileriją pasitaikius pirmai progai. Taip jūs padėsite pakreipti mūšio eigą sau naudinga linkme." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Koordinuokite veiksmus su saviškiais lengvaisiais tankais. Sėkminga priešų prieštankinių pabūklų ir artilerijos žvalgyba ir jūsų taiklūs šūviai gali padėti įgyti pranašumą mūšyje.</Hint>
+    <PM name="SAP-7: Atsargūs svarstymai" short="T28 heavy tank concept: SAP-7" desc="Norėdami įvykdyti šią misiją, atidžiai rinkitės savo taikinius. Nešaudykite nuolat į vieną priešą, net jeigu tai ir būtų jums patogiau. Labiausiai pasiteisina šaudymas į dideles priešų grupes. Studijuokite žemėlapius ir atraskite pagrindinius priešų maršrutus." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti 1 lygiu aukštesnį priešų SPP ar SAP.</req>
+        <req>• Apkurtinti bent 3 priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 2000 žalos.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-8: Kreipiam ugnį į sunkiuosius tankus!" short="T28 heavy tank concept: SAP-8" desc="Sunkusis tankas - rimtas taikinys, bet tik ne jūsų pabūklui. Sviedinio parabolinė trajektorija leidžia pataikyti į priešą iš viršaus, kur šarvai plonesni." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Sunkieji tankai dažniausiai juda lėčiau nei kitų tipų mašinos. Dažnai jūs galite tiksliai nuspėti kur jie bus tuo metu, kai jūsų iššautas sviedinys pasieks žemę. Artilerijos vairuotojui naudinga yra žinoti savo sviedinių skriejimo laiką.</Hint>
+    <PM name="SAP-8: Sėkmingas mūšis" short="T28 heavy tank concept: SAP-8" desc="Patirtis duodama už visus naudingus veiksmus. Pasistenkite tapti mūšio MVP: darykite žalą, padėkite sunaikinti priešus, išgyvenkite mūšyje. Keiskite poziciją po kiekvieno šūvio, nes priešų artilerijos atsakomasis šūvis gali jus pribaigti." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 1500 žalos priešų sunkiesiems tankams.</req>
+        <req>• Patekti tarp 5 geriausių savo komandos žaidėjų pagal uždirbtą patirtį.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų sunkiuosius tankus.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-9: Šaudymas su išlaikymu" short="T28 heavy tank concept: SAP-9" desc="Patyręs artileristas lengvai pataiko į judančius taikinius. Išmokite nuspėti priešo judėjimą ir įvertinkite poslinkį. Nepamirškite, kad tiesioginis pataikymas gali padaryti žymiai daugiau žalos, nei sprogimo skeveldros." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Sviedinio skridimo greitis - svarbus parametras. Žinojimas kada sviedinys pasieks taikinį, jums leis tiksliau įvertinti taikymosi tašką.</Hint>
+    <PM name="SAP-9: Netiesioginė žala" short="T28 heavy tank concept: SAP-9" desc="Galingi fugasiniai sviediniai ne tik daro tiesioginę žalą priešų mašinoms, bet turi ir didelę tikimybę sunaikinti modulius ar įgulos narius sprogimo skeveldromis." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Bent 2 kartus tiesiogiai pataikyti į priešų mašinas.\n• Skaičiuojami visi pataikymai, nepriklausomai ar jie padarė žalos ar ne.</req>
+        <req>• Sunaikinti priešų mašinų modulius arba sužeisti priešų mašinų įgulos narius, iš viso 5 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Išgyventi mūšyje.\n• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-10: Artilerijos bausmė" short="T28 heavy tank concept: SAP-10" desc="Artilerijos medžioklė - puiki idėja. Pabandykite atspėti kur ji gali būti pasislėpusi ir patikrinkite taikliu šūviu." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Kuo dažniau žaisite su artilerija, tuo geriau pažinsite žemėlapius ir sužinosite strategines vietas. Tai jums padės kovoti su priešų artilerija, nes jūs jau numanysite, kur ji gali būti.</Hint>
+    <PM name="SAP-10: Viskas įskaičiuota" short="T28 heavy tank concept: SAP-10" desc="Situacija mūšyje gali pasikeisti per akimirką - nepamirškite stebėti mini žemėlapio ir stenkitės išlaikyti priešus pasiekiamose vietose. Jums teks keisti pozicijas ir neužsibūti vienoje vietoje. Saviškiams reikia jūsų palaikymo, todėl būkite tinkamoje vietoje tinkamu laiku." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų artilerijas.</req>
+        <req>• Jūsų padarytos žalos ir sąjungininkų padarytos žalos su jūsų pagalba, kai jūs apkurtinate arba sustabdote priešus, suma turi būti bent 2000.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų mašinas.</req>
+        <req>• Saviškiai turi sunaikinti bent vieną jūsų apkurtintą ar sustabdytą priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-11: Veikimo laukas" short="T28 heavy tank concept: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik vienu šūviu sunaikinti priešo mašiną, bet gali ir pažeisti kelis taikinius vienu metu, jeigu jie stovi vienas šalia kito." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Jūs galite nušauti kelis žvirblius vienu metu, jei kelios priešų mašinos stovi viena šalia kitos. Tai dažna situacija miestų žemėlapiuose.</Hint>
+    <PM name="SAP-11: Veikimo laukas" short="T28 heavy tank concept: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik taikliu šūviu padaryti daug žalos, bet ir apkurtinti visas mašinas patenkančias į sprogimo spindulį. Daugelyje žemėlapių yra tokių vietų, kur priešų mašinos laikosi kartu. Nepraleiskite tokiu momentų ir nusiųskite priešams fugasinių linkėjimų." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti žalos 2 priešų mašinoms vienu šūviu.</req>
+        <req>• Du kartus apkurtinti bent 2 priešų mašinas vienu šūviu.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų mašinas iš viso 100 sekundžių.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-12: Bloga akis" short="T28 heavy tank concept: SAP-12" desc="Saviškiai sunaikino jūsų apkurtintą mašiną? Puiki žinia jums, nes jūsų indėlis artina komanda link pergalės. Jūsų pagrindinis tikslas yra palaikyti saviškius ugnimi tinkamose vietoje, tinkamu laiku." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų mašinas iš viso 100 sekundžių.\n• Saviškiai turi sunaikinti bent vieną jūsų apkurtintą ar sustabdytą priešų mašiną.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-12: Smūgiuotojas" short="T28 heavy tank concept: SAP-12" desc="Žaidimo stilius su artilerija visiškai kitoks nei su kitais mašinų tipais. Bet pagrindinis principas išlieka tas pats - stenkis kuo labiau ir suteik kuo daugiau naudos savo komandai." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Nepersijunkite į artilerinį režimą nuo pirmos mūšio sekundės. Pirmiausia išsirinkite strategiškai gerą poziciją.</Hint>
+    <PM name="SAP-13: Suderinti veiksmai" short="T28 heavy tank concept: SAP-13" desc="Koordinuoti artilerijos ir kitų komandos narių veiksmai gali pridaryti rimtų problemų priešams. Koordinuokite savo veiksmus ir atakuokite vieną taikinį vienu metu." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Patekti tarp 3 geriausių abiejų komandų žaidėjų pagal padarytą žalą.\n• Sunaikinti bent 2 priešų mašinas.\n• Išgyventi mūšyje.</req>
+        <req>• Bent 6 kartus padaryti žalos priešų mašinoms arba apkurtinti jas bent 8 kartus.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-13: Artilerijos baterija (asmeninis/būryje)" short="T28 heavy tank concept: SAP-13" desc="Artilerijų būrys kelia didelę grėsmę priešams. Koordinuokite savo veiksmus būryje ir naikinkite priešus koncentruota ugnimi. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Norėdami žaisti efektyviai būryje jūs turite išsidėstyti plačiai. Taip galėsite pasiekti net ir už priedangų pasislėpusius priešus.</Hint>
+    <PM name="SAP-14: Įgulos dalis - laivo dalis!" short="T28 heavy tank concept: SAP-14" desc="Bendradarbiavimas komandoje gali nulemti visos komandos sėkmę. Pažymėkite priešų mašinas į kurias taikotės, tam kad saviškiai galėtų į jas šaudyti, kai jūs priešus sustabdysite ar apkurtinsite. Nepamirškite: vienišas karys karo nelaimės." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 20% visos komandos priešams padarytos žalos asmeniškai arba kartu būryje.\n• Laimėti mūšį.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 100 sekundžių arba padėti saviškiams padaryti bent 600 žalos sustabdant priešų mašinas.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-14: Koordinuoti veiksmai (asmeninis/būryje)" short="T28 heavy tank concept: SAP-14" desc="Artilerijos sėkmė labai priklauso nuo komandos. Artilerija ir lengvieji tankai papildo vieni kitus, ypač gerai tai daryti būryje. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Lengvieji tankai gali aptikti priešus ir juos sustabdyti numušdami vikšrus. Artilerija ištaškys į šipulius nelaimėlius. Sunkieji tankai pridengs savo šarvais, vidutiniai nukreips priešo dėmesį, o prieštankiniai naikins priešus dideliu atstumu.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 3000 žalos priešų sunkiesiems tankams ir SPP asmeniškai arba kartu būryje.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-15: Karo dievai" short="T28 heavy tank concept: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Pasistenkite išvengti priešų ugnies ir šaudykite tik nusitaikę." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
-      <Hint>Jeigu jūs žinote savo artilerijos technines charakteristikas, jūs galite suplanuoti savo veiksmus mūšyje. Kartais sėdėjimas bazėje nėra pats geriausias sprendimas. Jeigu vairuojate greitą artileriją, tada galite užimti tokias pozicijas iš kurių galėsite apšaudyti priešus jiems to nesitikint.</Hint>
+    <PM name="SAP-15: Karo dievai" short="T28 heavy tank concept: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Leiskite sviedinius vieną po kito ir patys nepakliūkite priešui į akis. Nusitaikykite ir pagalvokite prieš paleisdami šūvį, nes su ilgu užsitaisymo laiku pati geriausia strategija: vienas šūvis - vienas pataikymas." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Patekti tarp 3 geriausių abiejų komandų žaidėjų pagal uždirbtą patirtį ir padarytą žalą.\n• Padaryti bent 2000 žalos.</req>
+        <req>• Patekti tarp 3 geriausių savo komandos žaidėjų pagal uždirbtą patirtį.\n• Padėti saviškiams padaryti bent 1500 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Išgyventi mūšyje.</req>
@@ -3249,136 +3261,136 @@
         <req>• Sunaikinti bent 3 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-1: Taikliarankis" short="T 55A: SAP-1" desc="Nešvaistykite amunicijos. Tik taiklūs šūviais artina jus prie pergalės." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Būkite kantrus ir palaukite kol pilnai nusitaikysite į taikinį.</Hint>
+    <PM name="SAP-1: Priminti apie save" short="T 55A: SAP-1" desc="Didelis sprogimo spindulys yra pagrindinė artilerijų ypatybė. Net jeigu nepavyko tiesiogiai pataikyti į priešą, jūs visada galite padaryti jam rimtos žalos jį apkurtindami. Apkurtinta mašina pažymima specialiu žymekliu, kurį mato visi komandos nariai. Jeigu saviškiai padaro žalos jūsų apkurtintiems priešams, jūs už tai gaunate patirties ir kreditų." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Bent 5 kartus šūviais padaryti žalos priešų mašinoms.</req>
+        <req>• Bent 7 kartus apkurtinti priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 3000 žalos.</req>
+        <req>• Bent 6 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-2: Pasislėpęs ir pavojingas" short="T 55A: SAP-2" desc="Artilerija negali pasikliauti savo šarvais ar greičiu. Jeigu vairuojate artileriją, išmokite likti nepastebėtas viso mūšio metu." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Kamufliažinis tinklas kartu su ekipažo kamufliažo įgūdžiu, pagerins jūsų artilerijos maskuotę.</Hint>
+    <PM name="SAP-2: Laikas pinigai" short="T 55A: SAP-2" desc="Priešų mašina lieka apkurtinta tam tikrą laiką ir negali maksimaliai išnaudoti savo potencialo. Nepamirškite: apkurtintas priešininkas - lengvas grobis." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Patekti tarp 5 geriausių savo komandos žaidėjų pagal padarytą žalą ir išlikti nepastebėtam viso mūšio metu.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 150 sekundžių.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Sunaikinti bent 3 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-3: Haubicos smūgis" short="T 55A: SAP-3" desc="Išmokite šaudyti efektyviai. Taip būsite žymiai naudingesnis komandai." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Sėkite mūšio eigą ir padėkite komandai. Nestovėkite vienoje vietoje per ilgai. Atsitraukite ar paieškokite kitų patogių šaudymo pozicijų.</Hint>
+    <PM name="SAP-3: Panaikinti pranašumą" short="T 55A: SAP-3" desc="Pasislėpę ir galingi priešų SPP bei šarvuoti sunkieji tankai gali lengvai pakreipti mūšio eigą į savo pusę. Jie yra taikiniai numeris vienas ir šaudymas į juose turi būti pačia svarbiausia užduotimi žaidėjui su artilerija. Dauguma sunkiųjų tankų ir prieštankinių yra lėti, o tai padidina pataikymo į juos tikimybę." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 3000 žalos priešų mašinoms.</req>
+        <req>• Bent 6 kartus apkurtinti priešų sunkųjį tanką ar SPP.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-4: Proveržis" short="T 55A: SAP-4" desc="Galingi fugasiniai sviediniai ne tik padarys priešams tiesioginės žalos, bet ir gali pažeisti mašinos modulius ar sužeisti įgulos narius skeveldromis." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Tik pramušę šarvus ir sprogę mašinos viduje fugasiniai sviediniai parodo savo tikrą jėgą. Jeigu jūsų sviediniai turi žemą pramušimo rodiklį, pasistenkite rasti priešų mašiną su atviro tipo bokšteliu arba pakeiskite amuniciją į Premium.</Hint>
+    <PM name="SAP-4: Aš tave matau" short="T 55A: SAP-4" desc="Išanalizuokite pagrindinius priešų sunkiųjų tankų maršrutus ir prieštankinių dažniausias slėptuves. Išankstinis nusitaikymas į reikalingą žemėlapio zoną padės padaryti daugiau žalos. Šie mašinų tipai dažnai naudojasi nuspėjamomis taktikomis tam tikruose žemėlapiuose. Būkite gudrūs: išanalizavę komandų sudėtį pasirinkite tinkamiausią būsimiems šūviams poziciją nuo pat mūšio pradžios." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pažeisti arba sunaikinti priešų mašinų vidinius modulius arba sužeisti priešų mašinų įgulos narius, iš viso 8 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
+        <req>• Apkurtinti priešų sunkųjį tanką ar SPP iš viso 80 sekundžių.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-5: Suskaičiuok ir sunaikink" short="T 55A: SAP-5" desc="Puiki šaunamoji galia kompensuoja mažą jūsų artilerijos patvarumo taškų skaičių." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Stenkitės padaryti priešams žalos esant bent menkiausiai galimybei. Net jeigu ir nepataikote su fugasiniu sviediniu, priešų mašina gali patirti žalą nuo fugasinio sviedinio sprogimo skeveldrų.</Hint>
+    <PM name="SAP-5: Svarbu dalintis" short="T 55A: SAP-5" desc="Priešų apkurtinimas ne tik artina komandą link pergalės, bet ir užtikrina jums papildomą patirties ir kreditų kiekį, jei saviškiai padaro žalos jūsų apkurtintiems priešams. Nepamirškite pažymėti ploto į kurį taikotės (T klavišas pagal nutylėjimą), taip atkreipsite saviškių dėmesį." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti 8 kartus daugiau žalos nei jūsų mašina turi patvarumo taškų.\n• Žala saviškiams neskaičiuojama.</req>
+        <req>• Padėti saviškiams padaryti bent 2000 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų mašinas.</req>
+        <req>• Bent 6 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-6: Krentantis kūjis" short="T 55A: SAP-6" desc="Dažnai jūs kovosite mūšiuose prieš aukštesnio lygio techniką. Bet tai tikrai ne problema patyrusiam artileristui." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Jeigu nepavyksta pramušti priešo šarvų su standartine amunicija, išbandykite Premium sviedinius. Taikykite į šonus ar mašinos galą. Artilerija su paraboline sviedinių skridimo trajektorija, gali pataikyti į priešų mašinos bokštelį iš viršaus, o ten šarvų nėra daug. Atviro kabinos tipo mašinos yra dar lengviau pažeidžiamos artilerijos šūviais.</Hint>
+    <PM name="SAP-6: Dievo kūjis" short="T 55A: SAP-6" desc="Pagrindinė artilerijos užduotis - saviškių palaikymas ugnimi. Apkurtinti priešai negali sėkmingai kovoti, tad saviškiai tikrai turės iš to naudos. Šaudydami būkite atsargūs - apkurtinti galite ir savos komandos narius. Šaudymas į saviškius nebus toleruojamas." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų mašinas, kurios yra vienu lygiu aukštesnės nei jūsų mašina.</req>
+        <req>• Padėti saviškiams pažeisti bent 5 priešų mašinas, apkurtinant arba sustabdant jas.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-7: Traukiam sunkiąją artileriją" short="T 55A: SAP-7" desc="Jūs turėtumėte sunaikinti priešų prieštankinius pabūklus ir artileriją pasitaikius pirmai progai. Taip jūs padėsite pakreipti mūšio eigą sau naudinga linkme." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Koordinuokite veiksmus su saviškiais lengvaisiais tankais. Sėkminga priešų prieštankinių pabūklų ir artilerijos žvalgyba ir jūsų taiklūs šūviai gali padėti įgyti pranašumą mūšyje.</Hint>
+    <PM name="SAP-7: Atsargūs svarstymai" short="T 55A: SAP-7" desc="Norėdami įvykdyti šią misiją, atidžiai rinkitės savo taikinius. Nešaudykite nuolat į vieną priešą, net jeigu tai ir būtų jums patogiau. Labiausiai pasiteisina šaudymas į dideles priešų grupes. Studijuokite žemėlapius ir atraskite pagrindinius priešų maršrutus." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų SPP ir SAP.\n• Laimėti mūšį.</req>
+        <req>• Apkurtinti bent 5 priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 3000 žalos.</req>
+        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-8: Kreipiam ugnį į sunkiuosius tankus!" short="T 55A: SAP-8" desc="Sunkusis tankas - rimtas taikinys, bet tik ne jūsų pabūklui. Sviedinio parabolinė trajektorija leidžia pataikyti į priešą iš viršaus, kur šarvai plonesni." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Sunkieji tankai dažniausiai juda lėčiau nei kitų tipų mašinos. Dažnai jūs galite tiksliai nuspėti kur jie bus tuo metu, kai jūsų iššautas sviedinys pasieks žemę. Artilerijos vairuotojui naudinga yra žinoti savo sviedinių skriejimo laiką.</Hint>
+    <PM name="SAP-8: Sėkmingas mūšis" short="T 55A: SAP-8" desc="Patirtis duodama už visus naudingus veiksmus. Pasistenkite tapti mūšio MVP: darykite žalą, padėkite sunaikinti priešus, išgyvenkite mūšyje. Keiskite poziciją po kiekvieno šūvio, nes priešų artilerijos atsakomasis šūvis gali jus pribaigti." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 2000 žalos priešų sunkiesiems tankams.</req>
+        <req>• Patekti tarp 3 geriausių savo komandos žaidėjų pagal uždirbtą patirtį.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų sunkųjį tanką.\n• Laimėti mūšį.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-9: Šaudymas su išlaikymu" short="T 55A: SAP-9" desc="Patyręs artileristas lengvai pataiko į judančius taikinius. Išmokite nuspėti priešo judėjimą ir įvertinkite poslinkį. Nepamirškite, kad tiesioginis pataikymas gali padaryti žymiai daugiau žalos, nei sprogimo skeveldros." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Sviedinio skridimo greitis - svarbus parametras. Žinojimas kada sviedinys pasieks taikinį, jums leis tiksliau įvertinti taikymosi tašką.</Hint>
+    <PM name="SAP-9: Netiesioginė žala" short="T 55A: SAP-9" desc="Galingi fugasiniai sviediniai ne tik daro tiesioginę žalą priešų mašinoms, bet turi ir didelę tikimybę sunaikinti modulius ar įgulos narius sprogimo skeveldromis." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pažeisti priešų mašiną, kuri juda ne mažesniu nei 30 km/h greičiu.\n• Skaičiuojama tiesioginių pataikymų ir sprogimų žala.\n• Taranavimo žala nevertinama.</req>
+        <req>• Sunaikinti priešų mašinų modulius arba sužeisti priešų mašinų įgulos narius, iš viso 8 modulius ar įgulos narius.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Išgyventi mūšyje.\n• Laimėti mūšį.\n• Išlikti nepastebėtam viso mūšio metu.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-10: Artilerijos bausmė" short="T 55A: SAP-10" desc="Artilerijos medžioklė - puiki idėja. Pabandykite atspėti kur ji gali būti pasislėpusi ir patikrinkite taikliu šūviu." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Kuo dažniau žaisite su artilerija, tuo geriau pažinsite žemėlapius ir sužinosite strategines vietas. Tai jums padės kovoti su priešų artilerija, nes jūs jau numanysite, kur ji gali būti.</Hint>
+    <PM name="SAP-10: Viskas įskaičiuota" short="T 55A: SAP-10" desc="Situacija mūšyje gali pasikeisti per akimirką - nepamirškite stebėti mini žemėlapio ir stenkitės išlaikyti priešus pasiekiamose vietose. Jums teks keisti pozicijas ir neužsibūti vienoje vietoje. Saviškiams reikia jūsų palaikymo, todėl būkite tinkamoje vietoje tinkamu laiku." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 1 priešų artileriją.\n• Padaryti bent 2000 žalos priešų mašinoms.</req>
+        <req>• Jūsų padarytos žalos ir sąjungininkų padarytos žalos su jūsų pagalba, kai jūs apkurtinate arba sustabdote priešus, suma turi būti bent 3000.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 4 priešų mašinas.</req>
+        <req>• Laimėti mūšį.\n• Saviškiai turi sunaikinti bent 2 jūsų apkurtintas ar sustabdytas priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-11: Veikimo laukas" short="T 55A: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik vienu šūviu sunaikinti priešo mašiną, bet gali ir pažeisti kelis taikinius vienu metu, jeigu jie stovi vienas šalia kito." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Jūs galite nušauti kelis žvirblius vienu metu, jei kelios priešų mašinos stovi viena šalia kitos. Tai dažna situacija miestų žemėlapiuose.</Hint>
+    <PM name="SAP-11: Veikimo laukas" short="T 55A: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik taikliu šūviu padaryti daug žalos, bet ir apkurtinti visas mašinas patenkančias į sprogimo spindulį. Daugelyje žemėlapių yra tokių vietų, kur priešų mašinos laikosi kartu. Nepraleiskite tokiu momentų ir nusiųskite priešams fugasinių linkėjimų." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti priešų mašiną ir padaryti žalos dar vienai tuo pačiu šūviu.</req>
+        <req>• Apkurtinti bent 3 priešų mašinas vienu šūviu.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 150 sekundžių.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-12: Smūgiuotojas" short="T 55A: SAP-12" desc="Žaidimo stilius su artilerija visiškai kitoks nei su kitais mašinų tipais. Bet pagrindinis principas išlieka tas pats - stenkis kuo labiau ir suteik kuo daugiau naudos savo komandai." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Nepersijunkite į artilerinį režimą nuo pirmos mūšio sekundės. Pirmiausia išsirinkite strategiškai gerą poziciją.</Hint>
+    <PM name="SAP-12: Bloga akis" short="T 55A: SAP-12" desc="Saviškiai sunaikino jūsų apkurtintą mašiną? Puiki žinia jums, nes jūsų indėlis artina komanda link pergalės. Jūsų pagrindinis tikslas yra palaikyti saviškius ugnimi tinkamose vietoje, tinkamu laiku." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Užimti pirmą vietą pagal padarytą žalą tarp savo komandų žaidėjų.\n• Sunaikinti bent 3 priešų mašinas.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 150 sekundžių.\n• Saviškiai turi sunaikinti bent 2 jūsų apkurtintas ar sustabdytas priešų mašiną.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-13: Artilerijos baterija (asmeninis/būryje)" short="T 55A: SAP-13" desc="Artilerijų būrys kelia didelę grėsmę priešams. Koordinuokite savo veiksmus būryje ir naikinkite priešus koncentruota ugnimi. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Norėdami žaisti efektyviai būryje jūs turite išsidėstyti plačiai. Taip galėsite pasiekti net ir už priedangų pasislėpusius priešus.</Hint>
+    <PM name="SAP-13: Suderinti veiksmai" short="T 55A: SAP-13" desc="Koordinuoti artilerijos ir kitų komandos narių veiksmai gali pridaryti rimtų problemų priešams. Koordinuokite savo veiksmus ir atakuokite vieną taikinį vienu metu." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 25% visos komandos priešams padarytos žalos asmeniškai arba kartu būryje.\n• Laimėti mūšį.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Bent 8 kartus padaryti žalos priešų mašinoms arba apkurtinti jas bent 10 kartų.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-14: Koordinuoti veiksmai (asmeninis/būryje)" short="T 55A: SAP-14" desc="Artilerijos sėkmė labai priklauso nuo komandos. Artilerija ir lengvieji tankai papildo vieni kitus, ypač gerai tai daryti būryje. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Lengvieji tankai gali aptikti priešus ir juos sustabdyti numušdami vikšrus. Artilerija ištaškys į šipulius nelaimėlius. Sunkieji tankai pridengs savo šarvais, vidutiniai nukreips priešo dėmesį, o prieštankiniai naikins priešus dideliu atstumu.</Hint>
+    <PM name="SAP-14: Įgulos dalis - laivo dalis!" short="T 55A: SAP-14" desc="Bendradarbiavimas komandoje gali nulemti visos komandos sėkmę. Pažymėkite priešų mašinas į kurias taikotės, tam kad saviškiai galėtų į jas šaudyti, kai jūs priešus sustabdysite ar apkurtinsite. Nepamirškite: vienišas karys karo nelaimės." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 4000 žalos priešų sunkiesiems tankams ir SPP asmeniškai arba kartu būryje.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 180 sekundžių arba padėti saviškiams padaryti bent 800 žalos sustabdant priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-15: Karo dievai" short="T 55A: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Pasistenkite išvengti priešų ugnies ir šaudykite tik nusitaikę." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
-      <Hint>Jeigu jūs žinote savo artilerijos technines charakteristikas, jūs galite suplanuoti savo veiksmus mūšyje. Kartais sėdėjimas bazėje nėra pats geriausias sprendimas. Jeigu vairuojate greitą artileriją, tada galite užimti tokias pozicijas iš kurių galėsite apšaudyti priešus jiems to nesitikint.</Hint>
+    <PM name="SAP-15: Karo dievai" short="T 55A: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Leiskite sviedinius vieną po kito ir patys nepakliūkite priešui į akis. Nusitaikykite ir pagalvokite prieš paleisdami šūvį, nes su ilgu užsitaisymo laiku pati geriausia strategija: vienas šūvis - vienas pataikymas." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Užimti pirmą vietą pagal padarytą žalą ir uždirbtą patirtį savo komandoje.\n• Padaryti bent 3000 žalos.</req>
+        <req>• Užimti pirmą vietą pagal padarytą žalą ir uždirbtą patirtį savo komandoje.\n• Padėti saviškiams padaryti bent 2500 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Išgyventi mūšyje.</req>
@@ -3924,136 +3936,136 @@
         <req>• Sunaikinti bent 5 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-1: Taikliarankis" short="Objektas 260: SAP-1" desc="Nešvaistykite amunicijos. Tik taiklūs šūviais artina jus prie pergalės." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Būkite kantrus ir palaukite kol pilnai nusitaikysite į taikinį.</Hint>
+    <PM name="SAP-1: Priminti apie save" short="Objektas 260: SAP-1" desc="Didelis sprogimo spindulys yra pagrindinė artilerijų ypatybė. Net jeigu nepavyko tiesiogiai pataikyti į priešą, jūs visada galite padaryti jam rimtos žalos jį apkurtindami. Apkurtinta mašina pažymima specialiu žymekliu, kurį mato visi komandos nariai. Jeigu saviškiai padaro žalos jūsų apkurtintiems priešams, jūs už tai gaunate patirties ir kreditų." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Bent 6 kartus šūviais padaryti žalos priešų mašinoms.</req>
+        <req>• Bent 10 kartų apkurtinti priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 4000 žalos.</req>
+        <req>• Bent 8 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-2: Pasislėpęs ir pavojingas" short="Objektas 260: SAP-2" desc="Artilerija negali pasikliauti savo šarvais ar greičiu. Jeigu vairuojate artileriją, išmokite likti nepastebėtas viso mūšio metu." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Kamufliažinis tinklas kartu su ekipažo kamufliažo įgūdžiu, pagerins jūsų artilerijos maskuotę.</Hint>
+    <PM name="SAP-2: Laikas pinigai" short="Objektas 260: SAP-2" desc="Priešų mašina lieka apkurtinta tam tikrą laiką ir negali maksimaliai išnaudoti savo potencialo. Nepamirškite: apkurtintas priešininkas - lengvas grobis." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Patekti tarp 3 geriausių savo komandos žaidėjų pagal padarytą žalą ir išlikti nepastebėtam viso mūšio metu.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 200 sekundžių.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų mašinas.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-3: Haubicos smūgis" short="Objektas 260: SAP-3" desc="Išmokite šaudyti efektyviai. Taip būsite žymiai naudingesnis komandai." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Sėkite mūšio eigą ir padėkite komandai. Nestovėkite vienoje vietoje per ilgai. Atsitraukite ar paieškokite kitų patogių šaudymo pozicijų.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 4000 žalos priešų mašinoms.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-4: Proveržis" short="Objektas 260: SAP-4" desc="Galingi fugasiniai sviediniai ne tik padarys priešams tiesioginės žalos, bet ir gali pažeisti mašinos modulius ar sužeisti įgulos narius skeveldromis." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Tik pramušę šarvus ir sprogę mašinos viduje fugasiniai sviediniai parodo savo tikrą jėgą. Jeigu jūsų sviediniai turi žemą pramušimo rodiklį, pasistenkite rasti priešų mašiną su atviro tipo bokšteliu arba pakeiskite amuniciją į Premium.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Pažeisti arba sunaikinti priešų mašinų vidinius modulius arba sužeisti priešų mašinų įgulos narius, iš viso 10 modulių ar įgulos narių.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
-      </Secondary>
-    </PM>
-    <PM name="SAP-5: Suskaičiuok ir sunaikink" short="Objektas 260: SAP-5" desc="Puiki šaunamoji galia kompensuoja mažą jūsų artilerijos patvarumo taškų skaičių." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Stenkitės padaryti priešams žalos esant bent menkiausiai galimybei. Net jeigu ir nepataikote su fugasiniu sviediniu, priešų mašina gali patirti žalą nuo fugasinio sviedinio sprogimo skeveldrų.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti 10 kartų daugiau žalos nei jūsų mašina turi patvarumo taškų.\n• Žala saviškiams neskaičiuojama.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Sunaikinti bent 4 priešų mašinas.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-6: Krentantis kūjis" short="Objektas 260: SAP-6" desc="Dažnai jūs kovosite mūšiuose prieš aukštesnio lygio techniką. Bet tai tikrai ne problema patyrusiam artileristui." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Jeigu nepavyksta pramušti priešo šarvų su standartine amunicija, išbandykite Premium sviedinius. Taikykite į šonus ar mašinos galą. Artilerija su paraboline sviedinių skridimo trajektorija, gali pataikyti į priešų mašinos bokštelį iš viršaus, o ten šarvų nėra daug. Atviro kabinos tipo mašinos yra dar lengviau pažeidžiamos artilerijos šūviais.</Hint>
+    <PM name="SAP-3: Panaikinti pranašumą" short="Objektas 260: SAP-3" desc="Pasislėpę ir galingi priešų SPP bei šarvuoti sunkieji tankai gali lengvai pakreipti mūšio eigą į savo pusę. Jie yra taikiniai numeris vienas ir šaudymas į juose turi būti pačia svarbiausia užduotimi žaidėjui su artilerija. Dauguma sunkiųjų tankų ir prieštankinių yra lėti, o tai padidina pataikymo į juos tikimybę." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Bent 8 kartus apkurtinti priešų sunkųjį tanką ar SPP.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-4: Aš tave matau" short="Objektas 260: SAP-4" desc="Išanalizuokite pagrindinius priešų sunkiųjų tankų maršrutus ir prieštankinių dažniausias slėptuves. Išankstinis nusitaikymas į reikalingą žemėlapio zoną padės padaryti daugiau žalos. Šie mašinų tipai dažnai naudojasi nuspėjamomis taktikomis tam tikruose žemėlapiuose. Būkite gudrūs: išanalizavę komandų sudėtį pasirinkite tinkamiausią būsimiems šūviams poziciją nuo pat mūšio pradžios." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Apkurtinti priešų sunkųjį tanką ar SPP iš viso 120 sekundžių.\n• Apkurtinantys šūviai turi padaryti žalos.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-5: Svarbu dalintis" short="Objektas 260: SAP-5" desc="Priešų apkurtinimas ne tik artina komandą link pergalės, bet ir užtikrina jums papildomą patirties ir kreditų kiekį, jei saviškiai padaro žalos jūsų apkurtintiems priešams. Nepamirškite pažymėti ploto į kurį taikotės (T klavišas pagal nutylėjimą), taip atkreipsite saviškių dėmesį." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų mašinas, kurios yra 2 lygiais aukštesnės nei jūsų mašina.</req>
+        <req>• Padėti saviškiams padaryti bent 3000 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Bent 8 kartus šūviais ar taranu padaryti žalos priešų mašinoms.</req>
+      </Secondary>
+    </PM>
+    <PM name="SAP-6: Dievo kūjis" short="Objektas 260: SAP-6" desc="Pagrindinė artilerijos užduotis - saviškių palaikymas ugnimi. Apkurtinti priešai negali sėkmingai kovoti, tad saviškiai tikrai turės iš to naudos. Šaudydami būkite atsargūs - apkurtinti galite ir savos komandos narius. Šaudymas į saviškius nebus toleruojamas." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Padėti saviškiams pažeisti bent 6 priešų mašinas, apkurtinant arba sustabdant jas.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-7: Traukiam sunkiąją artileriją" short="Objektas 260: SAP-7" desc="Jūs turėtumėte sunaikinti priešų prieštankinius pabūklus ir artileriją pasitaikius pirmai progai. Taip jūs padėsite pakreipti mūšio eigą sau naudinga linkme." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Koordinuokite veiksmus su saviškiais lengvaisiais tankais. Sėkminga priešų prieštankinių pabūklų ir artilerijos žvalgyba ir jūsų taiklūs šūviai gali padėti įgyti pranašumą mūšyje.</Hint>
+    <PM name="SAP-7: Atsargūs svarstymai" short="Objektas 260: SAP-7" desc="Norėdami įvykdyti šią misiją, atidžiai rinkitės savo taikinius. Nešaudykite nuolat į vieną priešą, net jeigu tai ir būtų jums patogiau. Labiausiai pasiteisina šaudymas į dideles priešų grupes. Studijuokite žemėlapius ir atraskite pagrindinius priešų maršrutus." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 3 priešų SPP ir SAP.\n• Laimėti mūšį.</req>
+        <req>• Apkurtinti bent 6 priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 4000 žalos.</req>
+        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-8: Kreipiam ugnį į sunkiuosius tankus!" short="Objektas 260: SAP-8" desc="Sunkusis tankas - rimtas taikinys, bet tik ne jūsų pabūklui. Sviedinio parabolinė trajektorija leidžia pataikyti į priešą iš viršaus, kur šarvai plonesni." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Sunkieji tankai dažniausiai juda lėčiau nei kitų tipų mašinos. Dažnai jūs galite tiksliai nuspėti kur jie bus tuo metu, kai jūsų iššautas sviedinys pasieks žemę. Artilerijos vairuotojui naudinga yra žinoti savo sviedinių skriejimo laiką.</Hint>
+    <PM name="SAP-8: Sėkmingas mūšis" short="Objektas 260: SAP-8" desc="Patirtis duodama už visus naudingus veiksmus. Pasistenkite tapti mūšio MVP: darykite žalą, padėkite sunaikinti priešus, išgyvenkite mūšyje. Keiskite poziciją po kiekvieno šūvio, nes priešų artilerijos atsakomasis šūvis gali jus pribaigti." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 3000 žalos priešų sunkiesiems tankams.</req>
+        <req>• Užimti pirmą vietą pagal uždirbtą patirtį tarp savo komandų žaidėjų.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų sunkiuosius tankus.\n• Laimėti mūšį.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-9: Šaudymas su išlaikymu" short="Objektas 260: SAP-9" desc="Patyręs artileristas lengvai pataiko į judančius taikinius. Išmokite nuspėti priešo judėjimą ir įvertinkite poslinkį. Nepamirškite, kad tiesioginis pataikymas gali padaryti žymiai daugiau žalos, nei sprogimo skeveldros." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Sviedinio skridimo greitis - svarbus parametras. Žinojimas kada sviedinys pasieks taikinį, jums leis tiksliau įvertinti taikymosi tašką.</Hint>
+    <PM name="SAP-9: Netiesioginė žala" short="Objektas 260: SAP-9" desc="Galingi fugasiniai sviediniai ne tik daro tiesioginę žalą priešų mašinoms, bet turi ir didelę tikimybę sunaikinti modulius ar įgulos narius sprogimo skeveldromis." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Bent 4 kartus tiesiogiai pataikyti į priešų mašinas.\n• Skaičiuojami visi pataikymai, nepriklausomai ar jie padarė žalos ar ne.</req>
+        <req>• Sunaikinti priešų mašinų modulius arba sužeisti priešų mašinų įgulos narius, iš viso 10 modulių ar įgulos narių.\n• Modulių ir įgulos narių skaičius sudedamas kartu.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Išgyventi mūšyje.\n• Laimėti mūšį.\n• Išlikti nepastebėtam viso mūšio metu.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-10: Artilerijos bausmė" short="Objektas 260: SAP-10" desc="Artilerijos medžioklė - puiki idėja. Pabandykite atspėti kur ji gali būti pasislėpusi ir patikrinkite taikliu šūviu." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Kuo dažniau žaisite su artilerija, tuo geriau pažinsite žemėlapius ir sužinosite strategines vietas. Tai jums padės kovoti su priešų artilerija, nes jūs jau numanysite, kur ji gali būti.</Hint>
+    <PM name="SAP-10: Viskas įskaičiuota" short="Objektas 260: SAP-10" desc="Situacija mūšyje gali pasikeisti per akimirką - nepamirškite stebėti mini žemėlapio ir stenkitės išlaikyti priešus pasiekiamose vietose. Jums teks keisti pozicijas ir neužsibūti vienoje vietoje. Saviškiams reikia jūsų palaikymo, todėl būkite tinkamoje vietoje tinkamu laiku." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų artilerijas.\n• Padaryti bent 4000 žalos priešų mašinoms.</req>
+        <req>• Jūsų padarytos žalos ir sąjungininkų padarytos žalos su jūsų pagalba, kai jūs apkurtinate arba sustabdote priešus, suma turi būti bent 4000.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 5 priešų mašinas.</req>
+        <req>• Laimėti mūšį.\n• Saviškiai turi sunaikinti bent 3 jūsų apkurtintas ar sustabdytas priešų mašiną.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-11: Veikimo laukas" short="Objektas 260: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik vienu šūviu sunaikinti priešo mašiną, bet gali ir pažeisti kelis taikinius vienu metu, jeigu jie stovi vienas šalia kito." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Jūs galite nušauti kelis žvirblius vienu metu, jei kelios priešų mašinos stovi viena šalia kitos. Tai dažna situacija miestų žemėlapiuose.</Hint>
+    <PM name="SAP-11: Veikimo laukas" short="Objektas 260: SAP-11" desc="Skeveldriniai - fugasiniai sviediniai gali ne tik taikliu šūviu padaryti daug žalos, bet ir apkurtinti visas mašinas patenkančias į sprogimo spindulį. Daugelyje žemėlapių yra tokių vietų, kur priešų mašinos laikosi kartu. Nepraleiskite tokiu momentų ir nusiųskite priešams fugasinių linkėjimų." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Sunaikinti bent 2 priešų mašinas vienu šūviu.</req>
+        <req>• Du kartus apkurtinti bent 3 priešų mašinas vienu šūviu.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Laimėti mūšį.\n• Išgyventi mūšyje.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 200 sekundžių.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-12: Smūgiuotojas" short="Objektas 260: SAP-12" desc="Žaidimo stilius su artilerija visiškai kitoks nei su kitais mašinų tipais. Bet pagrindinis principas išlieka tas pats - stenkis kuo labiau ir suteik kuo daugiau naudos savo komandai." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Nepersijunkite į artilerinį režimą nuo pirmos mūšio sekundės. Pirmiausia išsirinkite strategiškai gerą poziciją.</Hint>
+    <PM name="SAP-12: Bloga akis" short="Objektas 260: SAP-12" desc="Saviškiai sunaikino jūsų apkurtintą mašiną? Puiki žinia jums, nes jūsų indėlis artina komanda link pergalės. Jūsų pagrindinis tikslas yra palaikyti saviškius ugnimi tinkamose vietoje, tinkamu laiku." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Užimti pirmą vietą pagal padarytą žalą tarp abiejų komandų žaidėjų.\n• Sunaikinti bent 4 priešų mašinas.\n• Išgyventi mūšyje.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 200 sekundžių.\n• Saviškiai turi sunaikinti bent 3 jūsų apkurtintas ar sustabdytas priešų mašiną.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-13: Artilerijos baterija (asmeninis/būryje)" short="Objektas 260: SAP-13" desc="Artilerijų būrys kelia didelę grėsmę priešams. Koordinuokite savo veiksmus būryje ir naikinkite priešus koncentruota ugnimi. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Norėdami žaisti efektyviai būryje jūs turite išsidėstyti plačiai. Taip galėsite pasiekti net ir už priedangų pasislėpusius priešus.</Hint>
+    <PM name="SAP-13: Suderinti veiksmai" short="Objektas 260: SAP-13" desc="Koordinuoti artilerijos ir kitų komandos narių veiksmai gali pridaryti rimtų problemų priešams. Koordinuokite savo veiksmus ir atakuokite vieną taikinį vienu metu." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 30% visos komandos priešams padarytos žalos asmeniškai arba kartu būryje.\n• Laimėti mūšį.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Bent 10 kartų padaryti žalos priešų mašinoms arba apkurtinti jas bent 12 kartų.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-14: Koordinuoti veiksmai (asmeninis/būryje)" short="Objektas 260: SAP-14" desc="Artilerijos sėkmė labai priklauso nuo komandos. Artilerija ir lengvieji tankai papildo vieni kitus, ypač gerai tai daryti būryje. Ši misija gali būti įvykdyta žaidžiant kartu būryje arba žaidžiant vienam, bet tada bus žymiai sunkiau." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Lengvieji tankai gali aptikti priešus ir juos sustabdyti numušdami vikšrus. Artilerija ištaškys į šipulius nelaimėlius. Sunkieji tankai pridengs savo šarvais, vidutiniai nukreips priešo dėmesį, o prieštankiniai naikins priešus dideliu atstumu.</Hint>
+    <PM name="SAP-14: Įgulos dalis - laivo dalis!" short="Objektas 260: SAP-14" desc="Bendradarbiavimas komandoje gali nulemti visos komandos sėkmę. Pažymėkite priešų mašinas į kurias taikotės, tam kad saviškiai galėtų į jas šaudyti, kai jūs priešus sustabdysite ar apkurtinsite. Nepamirškite: vienišas karys karo nelaimės." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Padaryti bent 5000 žalos priešų sunkiesiems tankams ir SPP asmeniškai arba kartu būryje.\n• Galima įvykdyti asmeniškai arba žaidžiant būryje, sudarytame iš jūsų artilerijos ir bet kurių kitų mašinų.</req>
+        <req>• Apkurtinti priešų mašinas iš viso 250 sekundžių arba padėti saviškiams padaryti bent 1000 žalos sustabdant priešų mašinas.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Išgyventi mūšyje.</req>
+        <req>• Laimėti mūšį.</req>
       </Secondary>
     </PM>
-    <PM name="SAP-15: Karo dievai" short="Objektas 260: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Pasistenkite išvengti priešų ugnies ir šaudykite tik nusitaikę." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
-      <Hint>Jeigu jūs žinote savo artilerijos technines charakteristikas, jūs galite suplanuoti savo veiksmus mūšyje. Kartais sėdėjimas bazėje nėra pats geriausias sprendimas. Jeigu vairuojate greitą artileriją, tada galite užimti tokias pozicijas iš kurių galėsite apšaudyti priešus jiems to nesitikint.</Hint>
+    <PM name="SAP-15: Karo dievai" short="Objektas 260: SAP-15" desc="Komandai žymiai naudingiau jei artilerija lieka gyva kuo ilgiau. Leiskite sviedinius vieną po kito ir patys nepakliūkite priešui į akis. Nusitaikykite ir pagalvokite prieš paleisdami šūvį, nes su ilgu užsitaisymo laiku pati geriausia strategija: vienas šūvis - vienas pataikymas." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Ilgai lauktas pastiprinimas" reward="Objektas 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Užimti pirmą vietą pagal padarytą žalą ir uždirbtą patirtį tarp abiejų komandų žaidėjų.\n• Padaryti bent 3000 žalos.</req>
+        <req>• Užimti pirmą vietą pagal padarytą žalą ir uždirbtą patirtį tarp abiejų komandų žaidėjų.\n• Padėti saviškiams padaryti bent 3500 žalos priešų mašinoms jas apkurtinant ar sustabdant.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Išgyventi mūšyje.</req>

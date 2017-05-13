@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Objekt 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Objekt 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Objekt 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Město duchů" />
     <item ID="96_prohorovka_defense" Name="Ohnivý výběžek" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somma" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Neznámo" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Speciální bitva" />
     <item ID="5" Name="Speciální bitva" />
     <item ID="6" Name="Bojový výcvik" />
-    <item ID="7" Name="Tým: Nehodnocené bitvy" />
+    <item ID="7" Name="Týmová bitva" />
     <item ID="8" Name="Historická bitva" />
     <item ID="9" Name="Speciální režim bitvy" />
     <item ID="10" Name="Šarvátky" />
@@ -1899,136 +1911,136 @@
         <req>• Zničte nepřátelské vozidlo.</req>
       </Secondary>
     </PM>
-    <PM name="ART-1: Ostrostřelec" short="StuG IV: ART-1" desc="Neplýtvejte municí. Jsou to přesné zásahy, které vám přinesou vítězství." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Buďte trpěliví a počkejte, dokud cíl zcela nezaměříte.</Hint>
+    <PM name="ART-1: Smělé tvrzení" short="StuG IV: ART-1" desc="Velký rozsah výbuchu granátu je klíčovou vlastností dělostřeleckých vozidel. I když se vám nepovede zasadit nepřátelskému vozidlu přímý zásah, stále máte šanci, že mu způsobíte velké problémy, když ho ochromíte. Nepřátelské vozidlo je označeno ukazatelem ochromení, který je viditelný pro vaše spojence. Když spojenci poškodí vozidlo, které jste ochromili, dostanete další kredity a zkušenosti za poškození s vaší pomocí." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 3 zásahů, které způsobí poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 3krát nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození.</req>
+        <req>• Způsobte minimálně 3krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-2: Skrytý a nebezpečný" short="StuG IV: ART-2" desc="Dělostřelectvo se nemůže spoléhat na sílu pancíře nebo na rychlost. Když řídíte dělostřelectvo, naučte se zůstat ukrytí po celou bitvu." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Když máte na svém dělostřelectvu namontované vybavení Maskovací síť v kombinaci s maskováním, hodně vám to pomůže s jeho ukrytím.</Hint>
+    <PM name="ART-2: Čas jsou peníze" short="StuG IV: ART-2" desc="Nepřátelské vozidlo zůstává po určitou dobu ochromeno, a nemůže na bojišti dělat maximum. Pamatujte si: ochromené vozidlo je snadným cílem." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 500 HP poškození nepřátelským vozidlům. Zůstaňte během bitvy neodhaleni.\n• Přežijte bitvu.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 50 sekund.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské vozidlo.</req>
+        <req>• Zničte minimálně 1 nepřátelské vozidlo.</req>
       </Secondary>
     </PM>
-    <PM name="ART-3: Úder houfnice" short="StuG IV: ART-3" desc="Pokud se chcete stát pro svůj tým přínosem, musíte se nejprve naučit efektivně střílet." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Sledujte průběh bitvy a podpořte svůj tým. Nezůstávejte příliš dlouho na jednom místě. Ustupte, nebo se v případě potřeby poohlédněte po jiné palebné pozici.</Hint>
+    <PM name="ART-3: Pomalí a klidní budou ochromení" short="StuG IV: ART-3" desc="Maskované a silné nepřátelské stíhače tanků a dobře obrněné těžké tanky mohou snad zvrátit vývoj bitvy. Jsou to cíle s nejvyšší prioritou, a jejich poškození (nebo pomoc s jejich zničením) by mělo být hlavním cílem hráče s dělostřelectvem. Většina těžkých tanků a stíhačů tanků je pomalá a neohrabaná, což zvyšuje šanci na úspěšný zásah." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození nepřátelským vozidlům.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Vyhrajte bitvu.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-4: Prorazte skrz" short="StuG IV: ART-4" desc="Silné HE granáty nezpůsobí nepříteli pouze poškození v bodech výdrže, ale také mají vysokou šanci, že explozivním poškozením poškodí či zničí moduly, nebo zraní členy posádky." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Pouze úplným průstřelem a explozí uvnitř nepřátelského vozidla mohou explozivní granáty ukázat svou cenu. Pokud mají vaše granáty průměrnou průbojnost, snažte se najít nepřátelské vozidlo, které má seshora otevřenou věž, nebo nabijte prémiový granát.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nebo zničte moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkově 3 moduly a členy posádky.\n• Počty poškozených/zničených modulů a zraněných členů posádky u všech nepřátelských vozidel, která jste v bitvě poškodili, se sčítají.</req>
+        <req>• Ochromte minimálně 2krát nepřátelský těžký tank či stíhač tanků.\n• Ochromující výstřely by také měly způsobit poškození.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-5: Vypočítat &amp; vyhladit" short="StuG IV: ART-5" desc="Velkou palebnou sílu, kterou máte k dispozici, kompenzuje relativně nízká odolnost vašeho dělostřelectva." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Zkuste nepřátelským vozidlům způsobit poškození při první příležitosti. I když váš HE granát nepřítele o kousek mine, jeho vozidlo může být i přesto střepinami granátu poškozeno.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození, které 4krát přesahuje počet bodů výdrže vašeho vozidla.\n• Poškození způsobené spojencům se nepočítá.</req>
+    <PM name="ART-4: Uvidím tě" short="StuG IV: ART-4" desc="Naučte se znát hlavní trasy nepřátelských těžkých tanků a pozice, kde se obvykle skrývají vychytralé stíhače tanků. Předběžné zaměření na určitou oblast na mapě zvyšuje šance na nejúčinnější a nejničivější palbu na nepřátelské pozice. Tyto typy vozidel obvykle postupují na určitých mapách podle předvídatelných taktik. Buďte chytří: analyzujte sestavu nepřátelského týmu a hned od začátku bitvy si vyberte nejvhodnější pozici." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelský těžký tank či stíhač tanků celkem alespoň na 30 sekund.\n• Ochromující výstřel by také měl způsobit poškození.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské vozidlo.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-6: Padající kladivo" short="StuG IV: ART-6" desc="Často budete bojovat proti vozidlům vyšších úrovní. To však není pro zkušeného řidiče dělostřelectva problém." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Pokud nemůžete nepřátelské vozidlo prostřelit standardními granáty, zkuste použít prémiové. Střílejte na boky a na zadní část nepřátelského vozidla. Dělostřelectvo, se svou obloukovou trajektorií granátu, může účinně zasáhnout libovolné vozidlo do horní části věže, kde je pancéřová ochrana slabá. Nepřátelská vozidla s otevřenými věžemi jsou ještě více zranitelná vůči zásahům seshora.</Hint>
+    <PM name="ART-5: Sdílení znamená péči" short="StuG IV: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla, která mají stejnou úroveň jako vaše vozidlo, nebo vyšší.</req>
+        <req>• Umožněte svým spojencům způsobit minimálně 600 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Způsobte minimálně 3krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-6: Kladivo boží" short="StuG IV: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Umožněte svým spojencům poškodit minimálně 2 nepřátelská vozidla tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-7: Vytáhněte velká děla" short="StuG IV: ART-7" desc="Nepřátelské stíhače tanků a dělostřelectvo byste měli zničit při první příležitosti. Jejich vyřazení může zvrátit průběh bitvy ve váš prospěch." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Koordinujte své akce se spojeneckými lehkými tanky. Odhalování nepřátelských stíhačů tanků a dělostřelectva a jejich ničení vám může pomoci v získání převahy na bojišti.</Hint>
+    <PM name="ART-7: Pečlivé posouzení" short="StuG IV: ART-7" desc="Chcete-li splnit tuto misi, využijte selektivní přístup k výběru svých cílů. Nesoustřeďte palbu na jedno nepřátelské vozidlo, ani když představuje snadný cíl. Nejlepší strategii představuje zasažení celé skupiny nepřátel jedním výstřelem. Prostudujte si mapy a naučte se základní trasy vozidel." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelský stíhač tanků nebo dělostřelectvo.</req>
+        <req>• Ochromte minimálně 2 nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-8: Těžká palba na těžké tanky!" short="StuG IV: ART-8" desc="Těžký tank je obtížný cíl, ale ne pro vaše dělo. Granáty s obloukovou trajektorií mohou na každé vozidlo udeřit z vrchu věže, kde je pancíř slabý." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Těžké tanky jsou obecně pomalejší než ostatní typy vozidel. To znamená, že často můžete předvídat, kde se bude tank nacházet, když váš granát přiletí. Pro řidiče dělostřelectva je užitečné znát rychlost svých granátů.</Hint>
+    <PM name="ART-8: Snažil jsem se" short="StuG IV: ART-8" desc="Zkušenosti dostanete za všechny účinné akce. Zkuste být nejužitečnějším hráčem: způsobujte poškození, pomáhejte při ničení nepřátelských vozidel a zůstaňte v bitvě naživu. Po každém výstřelu měňte svou pozici, jinak může protibaterijní palba nepřátelského dělostřelectva vaše vozidlo zničit." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 000 HP poškození nepřátelským těžkým tankům.</req>
+        <req>• Dostaňte se mezi nejlepších 7 hráčů svého týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelský těžký tank.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-9: Palba s předsazením" short="StuG IV: ART-9" desc="Zkušený řidič dělostřelectva může snadno zasáhnout vozidla, která se pohybují. Naučte se při palbě efektivně předvídat pohyby nepřátelských vozidel. Pamatujte si, že přímým zásahem můžete nepřátelskému vozidlu způsobit mnohem větší poškození, než explozivním poškození ze zásahů „těsně vedle“." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Rychlost vašich granátů je velmi důležitý parametr. Když víte, kdy granát doletí k cíli, můžete správně spočítat odchylku.</Hint>
+    <PM name="ART-9: Vedlejší škody" short="StuG IV: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nepřátelské vozidlo, které se pohybuje rychlostí minimálně 20 km/h.\n• Počítá se poškození způsobené následkem explozí i přímé zásahy.\n• Nepočítá se poškození způsobené nárazem.</req>
+        <req>• Zničte jakékoliv moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkem minimálně 3 moduly a členy posádky.\n• Počet zničených modulů a zraněných členů posádky se sčítá ze všech nepřátelských vozidel, která jste v bitvě poškodili.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-10: Zkáza dělostřelectva" short="StuG IV: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
+    <PM name="ART-10: Vše v ceně" short="StuG IV: ART-10" desc="Situace na bojišti se může rychle změnit — vždy sledujte minimapu a ujistěte se, že máte čistý výhled na nepřátelská vozidla. Místo stání v jedné pozici se budete muset pohybovat po celé mapě. Vaši spojenci se spoléhají na palebnou sílu vašeho dělostřelectva, takže udělejte to nejlepší v pravou chvíli a na správném místě." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 1 nepřátelské dělostřelectvo.</req>
+        <req>• Celkové poškození způsobené vámi a vašimi spojenci nepřátelským vozidlům, která jste ochromili či znehybnili, musí být minimálně 1 000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
+        <req>• Spojenci musí zničit minimálně 1 nepřátelské vozidlo, které jste ochromili či znehybnili.</req>
       </Secondary>
     </PM>
-    <PM name="ART-11: Oblast účinku" short="StuG IV: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Pokud několik nepřátelských vozidel stojí blízko u sebe na jednom místě, můžete doslova zabít dvě mouchy jednou ranou. Takový případ je typický na městských mapách.</Hint>
+    <PM name="ART-11: Oblast účinku" short="StuG IV: ART-11" desc="Kromě značného poškození, způsobeného dobře umístěným výstřelem, může vysoce výbušný granát také ochromit všechna nesprávně umístěná vozidla v okruhu výbuchu granátu. Mnoho map má určitá místa, kde se nepřátelská vozidla drží pohromadě. Využijte svou šanci a pošlete jim vysoce „výbušné“ pozdravy." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské vozidlo jediným výstřelem.\n• Počítají se cíle, které nebyly předtím v bitvě poškozeny.</req>
+        <req>• Ochromte minimálně 2 nepřátelská vozidla jedním výstřelem.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 50 sekund.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-12: Zlé oko" short="StuG IV: ART-12" desc="Zničili vaši spojenci ochromené nepřátelské vozidlo? Tak to je pro vás dobrá zpráva, protože je to váš příspěvek, který o krok přiblížil vytoužené vítězství! Vaším cílem je poskytování palebné podpory a pomoc spojencům v pravý čas a na správném místě." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 50 sekund.\n• Spojenci musí zničit minimálně 1 nepřátelské vozidlo, které jste ochromili či znehybnili.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-12: Útočník" short="StuG IV: ART-12" desc="Styl hraní s dělostřelectvem se drasticky liší od všech ostatních typů vozidel. Hlavní úkol je však stejný—dělejte v boji to nejlepší co můžete a snažte se co nejvíce prospět svému týmu." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Nepřepínejte se do dělostřeleckého režimu hned na začátku bitvy. Nejprve si vyberte dobrou strategickou pozici.</Hint>
+    <PM name="ART-13: S jako spolupráce" short="StuG IV: ART-13" desc="Dobře zvládnutá spolupráce mezi dělostřelectvem a spojenci by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle způsobeného poškození.\n• Zničte nepřátelské vozidlo.</req>
+        <req>• Způsobte minimálně 4krát poškození nepřátelským vozidlům, nebo je minimálně 6krát ochromte.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-13: Dělostřelecká baterie (Osobní/Četa)" short="StuG IV: ART-13" desc="Četa dobře zvládnutého dělostřelectva by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Díky tomu, že se vaše četa rozdělí, můžete pak zasáhnout cíle z různých úhlů a mnohou skal a budov pak bude jako úkryt k ničemu, čímž ovládnete mapu.</Hint>
+    <PM name="ART-14: Člen posádky, součást lodi!" short="StuG IV: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 15 % z celkového poškození, které nepřátelským vozidlům způsobí váš tým.\n• Vyhrajte bitvu.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 70 sekund, nebo umožněte svým spojencům způsobit minimálně 400 HP poškození nepřátelským vozidlům tím, že je znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Společný útok (Osobní/Četa)" short="StuG IV: ART-14" desc="Chce-li být dělostřelectvo úspěšné, je závislé na zbytku týmu. Dělostřelectvo a lehké tanky se navzájem dobře doplňují, obzvlášť když hrají v četě. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Lehký tank může nepřátelská vozidla odhalovat a znehybňovat. Dělostřelectvo pak s nešťastnou obětí provede krátký proces. Společně vyhrajeme! Těžký tank vás zaštítí svým pancířem, střední tank rozptýlí nepřítele, zatímco stíhač tanků bude poskytovat palebnou podporu na velkou vzdálenost.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 2 000 HP poškození nepřátelským těžkým tankům a stíhačům tanků.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-15: Bohové války" short="StuG IV: ART-15" desc="Pro tým je mnohem lepší, pokud dělostřelectvo přežije. Pokuste se, abyste se nevystavovali nepřátelské palbě a na nepřítele palte přesně zamířené výstřely." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
-      <Hint>Když znáte technické parametry svého dělostřelectva, můžete si své akce v bitvě plánovat. Někdy není nejlepší nápad zůstávat na základně. Pokud řídíte rychlé dělostřelectvo, můžete rychle změnit svou pozici a napadnout nepřítele ze směru, ze kterého to očekává nejméně.</Hint>
+    <PM name="ART-15: Bohové války" short="StuG IV: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností a způsobeného poškození.\n• Způsobte minimálně 2 000 HP poškození.</req>
+        <req>• Dostaňte se mezi nejlepších 5 hráčů svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 1 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -2574,136 +2586,136 @@
         <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
-    <PM name="ART-1: Ostrostřelec" short="T28 heavy tank concept: ART-1" desc="Neplýtvejte municí. Jsou to přesné zásahy, které vám přinesou vítězství." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Buďte trpěliví a počkejte, dokud cíl zcela nezaměříte.</Hint>
+    <PM name="ART-1: Smělé tvrzení" short="T28 heavy tank concept: ART-1" desc="Velký rozsah výbuchu granátu je klíčovou vlastností dělostřeleckých vozidel. I když se vám nepovede zasadit nepřátelskému vozidlu přímý zásah, stále máte šanci, že mu způsobíte velké problémy, když ho ochromíte. Nepřátelské vozidlo je označeno ukazatelem ochromení, který je viditelný pro vaše spojence. Když spojenci poškodí vozidlo, které jste ochromili, dostanete další kredity a zkušenosti za poškození s vaší pomocí." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 4 zásahů, které způsobí poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 5krát nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození.</req>
+        <req>• Způsobte minimálně 5krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-2: Skrytý a nebezpečný" short="T28 heavy tank concept: ART-2" desc="Dělostřelectvo se nemůže spoléhat na sílu pancíře nebo na rychlost. Když řídíte dělostřelectvo, naučte se zůstat ukrytí po celou bitvu." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Když máte na svém dělostřelectvu namontované vybavení Maskovací síť v kombinaci s maskováním, hodně vám to pomůže s jeho ukrytím.</Hint>
+    <PM name="ART-2: Čas jsou peníze" short="T28 heavy tank concept: ART-2" desc="Nepřátelské vozidlo zůstává po určitou dobu ochromeno, a nemůže na bojišti dělat maximum. Pamatujte si: ochromené vozidlo je snadným cílem." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 500 HP poškození nepřátelským vozidlům. Zůstaňte během bitvy neodhaleni.\n• Přežijte bitvu.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 100 sekund.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
-    <PM name="ART-3: Úder houfnice" short="T28 heavy tank concept: ART-3" desc="Pokud se chcete stát pro svůj tým přínosem, musíte se nejprve naučit efektivně střílet." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Sledujte průběh bitvy a podpořte svůj tým. Nezůstávejte příliš dlouho na jednom místě. Ustupte, nebo se v případě potřeby poohlédněte po jiné palebné pozici.</Hint>
+    <PM name="ART-3: Pomalí a klidní budou ochromení" short="T28 heavy tank concept: ART-3" desc="Maskované a silné nepřátelské stíhače tanků a dobře obrněné těžké tanky mohou snad zvrátit vývoj bitvy. Jsou to cíle s nejvyšší prioritou, a jejich poškození (nebo pomoc s jejich zničením) by mělo být hlavním cílem hráče s dělostřelectvem. Většina těžkých tanků a stíhačů tanků je pomalá a neohrabaná, což zvyšuje šanci na úspěšný zásah." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 4krát nepřátelský těžký tank či stíhač tanků.\n• Ochromující výstřely by také měly způsobit poškození.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-4: Prorazte skrz" short="T28 heavy tank concept: ART-4" desc="Silné HE granáty nezpůsobí nepříteli pouze poškození v bodech výdrže, ale také mají vysokou šanci, že explozivním poškozením poškodí či zničí moduly, nebo zraní členy posádky." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Pouze úplným průstřelem a explozí uvnitř nepřátelského vozidla mohou explozivní granáty ukázat svou cenu. Pokud mají vaše granáty průměrnou průbojnost, snažte se najít nepřátelské vozidlo, které má seshora otevřenou věž, nebo nabijte prémiový granát.</Hint>
+    <PM name="ART-4: Uvidím tě" short="T28 heavy tank concept: ART-4" desc="Naučte se znát hlavní trasy nepřátelských těžkých tanků a pozice, kde se obvykle skrývají vychytralé stíhače tanků. Předběžné zaměření na určitou oblast na mapě zvyšuje šance na nejúčinnější a nejničivější palbu na nepřátelské pozice. Tyto typy vozidel obvykle postupují na určitých mapách podle předvídatelných taktik. Buďte chytří: analyzujte sestavu nepřátelského týmu a hned od začátku bitvy si vyberte nejvhodnější pozici." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nebo zničte moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkově 5 modulů a členů posádky.\n• Počty poškozených/zničených modulů a zraněných členů posádky u všech nepřátelských vozidel, která jste v bitvě poškodili, se sčítají.</req>
+        <req>• Ochromte nepřátelský těžký tank či stíhač tanků celkem alespoň na 50 sekund.\n• Ochromující výstřel by také měl způsobit poškození.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-5: Vypočítat &amp; vyhladit" short="T28 heavy tank concept: ART-5" desc="Velkou palebnou sílu, kterou máte k dispozici, kompenzuje relativně nízká odolnost vašeho dělostřelectva." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Zkuste nepřátelským vozidlům způsobit poškození při první příležitosti. I když váš HE granát nepřítele o kousek mine, jeho vozidlo může být i přesto střepinami granátu poškozeno.</Hint>
+    <PM name="ART-5: Sdílení znamená péči" short="T28 heavy tank concept: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození, které 6krát přesahuje počet bodů výdrže vašeho vozidla.\n• Poškození způsobené spojencům se nepočítá.</req>
+        <req>• Umožněte svým spojencům způsobit minimálně 1 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla.</req>
+        <req>• Způsobte minimálně 5krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-6: Padající kladivo" short="T28 heavy tank concept: ART-6" desc="Často budete bojovat proti vozidlům vyšších úrovní. To však není pro zkušeného řidiče dělostřelectva problém." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Pokud nemůžete nepřátelské vozidlo prostřelit standardními granáty, zkuste použít prémiové. Střílejte na boky a na zadní část nepřátelského vozidla. Dělostřelectvo, se svou obloukovou trajektorií granátu, může účinně zasáhnout libovolné vozidlo do horní části věže, kde je pancéřová ochrana slabá. Nepřátelská vozidla s otevřenými věžemi jsou ještě více zranitelná vůči zásahům seshora.</Hint>
+    <PM name="ART-6: Kladivo boží" short="T28 heavy tank concept: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla, která mají stejnou úroveň jako vaše vozidlo, nebo vyšší.</req>
+        <req>• Umožněte svým spojencům poškodit minimálně 3 nepřátelská vozidla tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-7: Vytáhněte velká děla" short="T28 heavy tank concept: ART-7" desc="Nepřátelské stíhače tanků a dělostřelectvo byste měli zničit při první příležitosti. Jejich vyřazení může zvrátit průběh bitvy ve váš prospěch." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Koordinujte své akce se spojeneckými lehkými tanky. Odhalování nepřátelských stíhačů tanků a dělostřelectva a jejich ničení vám může pomoci v získání převahy na bojišti.</Hint>
+    <PM name="ART-7: Pečlivé posouzení" short="T28 heavy tank concept: ART-7" desc="Chcete-li splnit tuto misi, využijte selektivní přístup k výběru svých cílů. Nesoustřeďte palbu na jedno nepřátelské vozidlo, ani když představuje snadný cíl. Nejlepší strategii představuje zasažení celé skupiny nepřátel jedním výstřelem. Prostudujte si mapy a naučte se základní trasy vozidel." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelský stíhač tanků nebo dělostřelectvo které je o 1 úroveň vyšší než vaše vozidlo.</req>
+        <req>• Ochromte minimálně 3 nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-8: Těžká palba na těžké tanky!" short="T28 heavy tank concept: ART-8" desc="Těžký tank je obtížný cíl, ale ne pro vaše dělo. Granáty s obloukovou trajektorií mohou na každé vozidlo udeřit z vrchu věže, kde je pancíř slabý." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Těžké tanky jsou obecně pomalejší než ostatní typy vozidel. To znamená, že často můžete předvídat, kde se bude tank nacházet, když váš granát přiletí. Pro řidiče dělostřelectva je užitečné znát rychlost svých granátů.</Hint>
+    <PM name="ART-8: Snažil jsem se" short="T28 heavy tank concept: ART-8" desc="Zkušenosti dostanete za všechny účinné akce. Zkuste být nejužitečnějším hráčem: způsobujte poškození, pomáhejte při ničení nepřátelských vozidel a zůstaňte v bitvě naživu. Po každém výstřelu měňte svou pozici, jinak může protibaterijní palba nepřátelského dělostřelectva vaše vozidlo zničit." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 1 500 HP poškození nepřátelským těžkým tankům.</req>
+        <req>• Dostaňte se mezi nejlepších 5 hráčů svého týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelské těžké tanky.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-9: Palba s předsazením" short="T28 heavy tank concept: ART-9" desc="Zkušený řidič dělostřelectva může snadno zasáhnout vozidla, která se pohybují. Naučte se při palbě efektivně předvídat pohyby nepřátelských vozidel. Pamatujte si, že přímým zásahem můžete nepřátelskému vozidlu způsobit mnohem větší poškození, než explozivním poškození ze zásahů „těsně vedle“." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Rychlost vašich granátů je velmi důležitý parametr. Když víte, kdy granát doletí k cíli, můžete správně spočítat odchylku.</Hint>
+    <PM name="ART-9: Vedlejší škody" short="T28 heavy tank concept: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 2 přímých zásahů nepřátelských vozidel.\n• Počítají se všechny přímé zásahy, ať už způsobí poškození, nebo ne.</req>
+        <req>• Zničte jakékoliv moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkem minimálně 5 modulů a členů posádky.\n• Počet zničených modulů a zraněných členů posádky se sčítá ze všech nepřátelských vozidel, která jste v bitvě poškodili.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Přežijte bitvu.\n• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-10: Zkáza dělostřelectva" short="T28 heavy tank concept: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
+    <PM name="ART-10: Vše v ceně" short="T28 heavy tank concept: ART-10" desc="Situace na bojišti se může rychle změnit — vždy sledujte minimapu a ujistěte se, že máte čistý výhled na nepřátelská vozidla. Místo stání v jedné pozici se budete muset pohybovat po celé mapě. Vaši spojenci se spoléhají na palebnou sílu vašeho dělostřelectva, takže udělejte to nejlepší v pravou chvíli a na správném místě." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská dělostřelectva.</req>
+        <req>• Celkové poškození, způsobené vámi a vašimi spojenci díky vašemu ochromování či znehybňování nepřátelských vozidel, musí být minimálně 2 000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
+        <req>• Spojenci musí zničit minimálně 1 nepřátelské vozidlo, které jste ochromili či znehybnili.</req>
       </Secondary>
     </PM>
-    <PM name="ART-11: Oblast účinku" short="T28 heavy tank concept: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Pokud několik nepřátelských vozidel stojí blízko u sebe na jednom místě, můžete doslova zabít dvě mouchy jednou ranou. Takový případ je typický na městských mapách.</Hint>
+    <PM name="ART-11: Oblast účinku" short="T28 heavy tank concept: ART-11" desc="Kromě značného poškození, způsobeného dobře umístěným výstřelem, může vysoce výbušný granát také ochromit všechna nesprávně umístěná vozidla v okruhu výbuchu granátu. Mnoho map má určitá místa, kde se nepřátelská vozidla drží pohromadě. Využijte svou šanci a pošlete jim vysoce „výbušné“ pozdravy." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození minimálně 2 nepřátelským vozidlům jediným výstřelem.</req>
+        <req>• Ochromte dvakrát minimálně 2 nepřátelská vozidla jedním výstřelem.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 100 sekund.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-12: Zlé oko" short="T28 heavy tank concept: ART-12" desc="Zničili vaši spojenci ochromené nepřátelské vozidlo? Tak to je pro vás dobrá zpráva, protože je to váš příspěvek, který o krok přiblížil vytoužené vítězství! Vaším cílem je poskytování palebné podpory a pomoc spojencům v pravý čas a na správném místě." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 100 sekund.\n• Spojenci musí zničit minimálně 1 nepřátelské vozidlo, které jste ochromili či znehybnili.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-12: Útočník" short="T28 heavy tank concept: ART-12" desc="Styl hraní s dělostřelectvem se drasticky liší od všech ostatních typů vozidel. Hlavní úkol je však stejný—dělejte v boji to nejlepší co můžete a snažte se co nejvíce prospět svému týmu." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Nepřepínejte se do dělostřeleckého režimu hned na začátku bitvy. Nejprve si vyberte dobrou strategickou pozici.</Hint>
+    <PM name="ART-13: S jako spolupráce" short="T28 heavy tank concept: ART-13" desc="Dobře zvládnutá spolupráce mezi dělostřelectvem a spojenci by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče z obou týmů podle způsobeného poškození.\n• Zničte minimálně 2 nepřátelská vozidla.\n• Přežijte bitvu.</req>
+        <req>• Způsobte minimálně 6krát poškození nepřátelským vozidlům, nebo je minimálně 8krát ochromte.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-13: Dělostřelecká baterie (Osobní/Četa)" short="T28 heavy tank concept: ART-13" desc="Četa dobře zvládnutého dělostřelectva by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Díky tomu, že se vaše četa rozdělí, můžete pak zasáhnout cíle z různých úhlů a mnohou skal a budov pak bude jako úkryt k ničemu, čímž ovládnete mapu.</Hint>
+    <PM name="ART-14: Člen posádky, součást lodi!" short="T28 heavy tank concept: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 20 % z celkového poškození, které nepřátelským vozidlům způsobí váš tým.\n• Vyhrajte bitvu.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 100 sekund, nebo umožněte svým spojencům způsobit minimálně 600 HP poškození nepřátelským vozidlům tím, že je znehybníte.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Společný útok (Osobní/Četa)" short="T28 heavy tank concept: ART-14" desc="Chce-li být dělostřelectvo úspěšné, je závislé na zbytku týmu. Dělostřelectvo a lehké tanky se navzájem dobře doplňují, obzvlášť když hrají v četě. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Lehký tank může nepřátelská vozidla odhalovat a znehybňovat. Dělostřelectvo pak s nešťastnou obětí provede krátký proces. Společně vyhrajeme! Těžký tank vás zaštítí svým pancířem, střední tank rozptýlí nepřítele, zatímco stíhač tanků bude poskytovat palebnou podporu na velkou vzdálenost.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 3 000 HP poškození nepřátelským těžkým tankům a stíhačům tanků.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-15: Bohové války" short="T28 heavy tank concept: ART-15" desc="Pro tým je mnohem lepší, pokud dělostřelectvo přežije. Pokuste se, abyste se nevystavovali nepřátelské palbě a na nepřítele palte přesně zamířené výstřely." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
-      <Hint>Když znáte technické parametry svého dělostřelectva, můžete si své akce v bitvě plánovat. Někdy není nejlepší nápad zůstávat na základně. Pokud řídíte rychlé dělostřelectvo, můžete rychle změnit svou pozici a napadnout nepřítele ze směru, ze kterého to očekává nejméně.</Hint>
+    <PM name="ART-15: Bohové války" short="T28 heavy tank concept: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče z obou týmů podle získaných zkušeností a způsobeného poškození.\n• Způsobte minimálně 2 000 HP poškození.</req>
+        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 1 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -3249,136 +3261,136 @@
         <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
-    <PM name="ART-1: Ostrostřelec" short="T 55A: ART-1" desc="Neplýtvejte municí. Jsou to přesné zásahy, které vám přinesou vítězství." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Buďte trpěliví a počkejte, dokud cíl zcela nezaměříte.</Hint>
+    <PM name="ART-1: Smělé tvrzení" short="T 55A: ART-1" desc="Velký rozsah výbuchu granátu je klíčovou vlastností dělostřeleckých vozidel. I když se vám nepovede zasadit nepřátelskému vozidlu přímý zásah, stále máte šanci, že mu způsobíte velké problémy, když ho ochromíte. Nepřátelské vozidlo je označeno ukazatelem ochromení, který je viditelný pro vaše spojence. Když spojenci poškodí vozidlo, které jste ochromili, dostanete další kredity a zkušenosti za poškození s vaší pomocí." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 5 zásahů, které způsobí poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 7krát nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození.</req>
+        <req>• Způsobte minimálně 6krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-2: Skrytý a nebezpečný" short="T 55A: ART-2" desc="Dělostřelectvo se nemůže spoléhat na sílu pancíře nebo na rychlost. Když řídíte dělostřelectvo, naučte se zůstat ukrytí po celou bitvu." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Když máte na svém dělostřelectvu namontované vybavení Maskovací síť v kombinaci s maskováním, hodně vám to pomůže s jeho ukrytím.</Hint>
+    <PM name="ART-2: Čas jsou peníze" short="T 55A: ART-2" desc="Nepřátelské vozidlo zůstává po určitou dobu ochromeno, a nemůže na bojišti dělat maximum. Pamatujte si: ochromené vozidlo je snadným cílem." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Dostaňte se mezi nejlepších 5 hráčů svého týmu podle způsobeného poškození. Zůstaňte během bitvy neodhaleni.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 150 sekund.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
-    <PM name="ART-3: Úder houfnice" short="T 55A: ART-3" desc="Pokud se chcete stát pro svůj tým přínosem, musíte se nejprve naučit efektivně střílet." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Sledujte průběh bitvy a podpořte svůj tým. Nezůstávejte příliš dlouho na jednom místě. Ustupte, nebo se v případě potřeby poohlédněte po jiné palebné pozici.</Hint>
+    <PM name="ART-3: Pomalí a klidní budou ochromení" short="T 55A: ART-3" desc="Maskované a silné nepřátelské stíhače tanků a dobře obrněné těžké tanky mohou snad zvrátit vývoj bitvy. Jsou to cíle s nejvyšší prioritou, a jejich poškození (nebo pomoc s jejich zničením) by mělo být hlavním cílem hráče s dělostřelectvem. Většina těžkých tanků a stíhačů tanků je pomalá a neohrabaná, což zvyšuje šanci na úspěšný zásah." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 6krát nepřátelský těžký tank či stíhač tanků.\n• Ochromující výstřely by také měly způsobit poškození.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-4: Prorazte skrz" short="T 55A: ART-4" desc="Silné HE granáty nezpůsobí nepříteli pouze poškození v bodech výdrže, ale také mají vysokou šanci, že explozivním poškozením poškodí či zničí moduly, nebo zraní členy posádky." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Pouze úplným průstřelem a explozí uvnitř nepřátelského vozidla mohou explozivní granáty ukázat svou cenu. Pokud mají vaše granáty průměrnou průbojnost, snažte se najít nepřátelské vozidlo, které má seshora otevřenou věž, nebo nabijte prémiový granát.</Hint>
+    <PM name="ART-4: Uvidím tě" short="T 55A: ART-4" desc="Naučte se znát hlavní trasy nepřátelských těžkých tanků a pozice, kde se obvykle skrývají vychytralé stíhače tanků. Předběžné zaměření na určitou oblast na mapě zvyšuje šance na nejúčinnější a nejničivější palbu na nepřátelské pozice. Tyto typy vozidel obvykle postupují na určitých mapách podle předvídatelných taktik. Buďte chytří: analyzujte sestavu nepřátelského týmu a hned od začátku bitvy si vyberte nejvhodnější pozici." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nebo zničte moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkově 8 modulů a členů posádky.\n• Počty poškozených/zničených modulů a zraněných členů posádky u všech nepřátelských vozidel, která jste v bitvě poškodili, se sčítají.</req>
+        <req>• Ochromte nepřátelský těžký tank či stíhač tanků celkem alespoň na 80 sekund.\n• Ochromující výstřel by také měl způsobit poškození.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-5: Vypočítat &amp; vyhladit" short="T 55A: ART-5" desc="Velkou palebnou sílu, kterou máte k dispozici, kompenzuje relativně nízká odolnost vašeho dělostřelectva." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Zkuste nepřátelským vozidlům způsobit poškození při první příležitosti. I když váš HE granát nepřítele o kousek mine, jeho vozidlo může být i přesto střepinami granátu poškozeno.</Hint>
+    <PM name="ART-5: Sdílení znamená péči" short="T 55A: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození, které 8krát přesahuje počet bodů výdrže vašeho vozidla.\n• Poškození způsobené spojencům se nepočítá.</req>
+        <req>• Umožněte svým spojencům způsobit minimálně 2 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
+        <req>• Způsobte minimálně 6krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-6: Padající kladivo" short="T 55A: ART-6" desc="Často budete bojovat proti vozidlům vyšších úrovní. To však není pro zkušeného řidiče dělostřelectva problém." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Pokud nemůžete nepřátelské vozidlo prostřelit standardními granáty, zkuste použít prémiové. Střílejte na boky a na zadní část nepřátelského vozidla. Dělostřelectvo, se svou obloukovou trajektorií granátu, může účinně zasáhnout libovolné vozidlo do horní části věže, kde je pancéřová ochrana slabá. Nepřátelská vozidla s otevřenými věžemi jsou ještě více zranitelná vůči zásahům seshora.</Hint>
+    <PM name="ART-6: Kladivo boží" short="T 55A: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla, která jsou o 1 úroveň vyšší než vaše vozidlo.</req>
+        <req>• Umožněte svým spojencům poškodit minimálně 5 nepřátelských vozidel tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-7: Vytáhněte velká děla" short="T 55A: ART-7" desc="Nepřátelské stíhače tanků a dělostřelectvo byste měli zničit při první příležitosti. Jejich vyřazení může zvrátit průběh bitvy ve váš prospěch." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Koordinujte své akce se spojeneckými lehkými tanky. Odhalování nepřátelských stíhačů tanků a dělostřelectva a jejich ničení vám může pomoci v získání převahy na bojišti.</Hint>
+    <PM name="ART-7: Pečlivé posouzení" short="T 55A: ART-7" desc="Chcete-li splnit tuto misi, využijte selektivní přístup k výběru svých cílů. Nesoustřeďte palbu na jedno nepřátelské vozidlo, ani když představuje snadný cíl. Nejlepší strategii představuje zasažení celé skupiny nepřátel jedním výstřelem. Prostudujte si mapy a naučte se základní trasy vozidel." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte celkem minimálně 2 nepřátelské stíhače tanků a dělostřelectva.\n• Vyhrajte bitvu.</req>
+        <req>• Ochromte minimálně 5 nepřátelských vozidel.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození.</req>
+        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-8: Těžká palba na těžké tanky!" short="T 55A: ART-8" desc="Těžký tank je obtížný cíl, ale ne pro vaše dělo. Granáty s obloukovou trajektorií mohou na každé vozidlo udeřit z vrchu věže, kde je pancíř slabý." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Těžké tanky jsou obecně pomalejší než ostatní typy vozidel. To znamená, že často můžete předvídat, kde se bude tank nacházet, když váš granát přiletí. Pro řidiče dělostřelectva je užitečné znát rychlost svých granátů.</Hint>
+    <PM name="ART-8: Snažil jsem se" short="T 55A: ART-8" desc="Zkušenosti dostanete za všechny účinné akce. Zkuste být nejužitečnějším hráčem: způsobujte poškození, pomáhejte při ničení nepřátelských vozidel a zůstaňte v bitvě naživu. Po každém výstřelu měňte svou pozici, jinak může protibaterijní palba nepřátelského dělostřelectva vaše vozidlo zničit." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 2 000 HP poškození nepřátelským těžkým tankům.</req>
+        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelský těžký tank.\n• Vyhrajte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-9: Palba s předsazením" short="T 55A: ART-9" desc="Zkušený řidič dělostřelectva může snadno zasáhnout vozidla, která se pohybují. Naučte se při palbě efektivně předvídat pohyby nepřátelských vozidel. Pamatujte si, že přímým zásahem můžete nepřátelskému vozidlu způsobit mnohem větší poškození, než explozivním poškození ze zásahů „těsně vedle“." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Rychlost vašich granátů je velmi důležitý parametr. Když víte, kdy granát doletí k cíli, můžete správně spočítat odchylku.</Hint>
+    <PM name="ART-9: Vedlejší škody" short="T 55A: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nepřátelské vozidlo, které se pohybuje rychlostí minimálně 30 km/h.\n• Počítá se poškození způsobené následkem explozí i přímé zásahy.\n• Nepočítá se poškození způsobené nárazem.</req>
+        <req>• Zničte jakékoliv moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkem minimálně 8 modulů a členů posádky.\n• Počet zničených modulů a zraněných členů posádky se sčítá ze všech nepřátelských vozidel, která jste v bitvě poškodili.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Přižijte bitvu.\n• Vyhrajte bitvu.\n• Zůstaňte v bitvě neodhaleni.</req>
       </Secondary>
     </PM>
-    <PM name="ART-10: Zkáza dělostřelectva" short="T 55A: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
+    <PM name="ART-10: Vše v ceně" short="T 55A: ART-10" desc="Situace na bojišti se může rychle změnit — vždy sledujte minimapu a ujistěte se, že máte čistý výhled na nepřátelská vozidla. Místo stání v jedné pozici se budete muset pohybovat po celé mapě. Vaši spojenci se spoléhají na palebnou sílu vašeho dělostřelectva, takže udělejte to nejlepší v pravou chvíli a na správném místě." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 1 nepřátelské dělostřelectvo.\n• Způsobte minimálně 2 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Celkové poškození, způsobené vámi a vašimi spojenci díky vašemu ochromování či znehybňování nepřátelských vozidel, musí být minimálně 3 000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 4 nepřátelská vozidla.</req>
+        <req>• Vyhrajte bitvu.\n• Spojenci musí zničit minimálně 2 nepřátelská vozidla, která jste ochromili či znehybnili.</req>
       </Secondary>
     </PM>
-    <PM name="ART-11: Oblast účinku" short="T 55A: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Pokud několik nepřátelských vozidel stojí blízko u sebe na jednom místě, můžete doslova zabít dvě mouchy jednou ranou. Takový případ je typický na městských mapách.</Hint>
+    <PM name="ART-11: Oblast účinku" short="T 55A: ART-11" desc="Kromě značného poškození, způsobeného dobře umístěným výstřelem, může vysoce výbušný granát také ochromit všechna nesprávně umístěná vozidla v okruhu výbuchu granátu. Mnoho map má určitá místa, kde se nepřátelská vozidla drží pohromadě. Využijte svou šanci a pošlete jim vysoce „výbušné“ pozdravy." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte nepřátelské vozidlo a poškoďte 1 další nepřátelské vozidlo jediným výstřelem.</req>
+        <req>• Ochromte minimálně 3 nepřátelská vozidla jedním výstřelem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 150 sekund.</req>
       </Secondary>
     </PM>
-    <PM name="ART-12: Útočník" short="T 55A: ART-12" desc="Styl hraní s dělostřelectvem se drasticky liší od všech ostatních typů vozidel. Hlavní úkol je však stejný—dělejte v boji to nejlepší co můžete a snažte se co nejvíce prospět svému týmu." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Nepřepínejte se do dělostřeleckého režimu hned na začátku bitvy. Nejprve si vyberte dobrou strategickou pozici.</Hint>
+    <PM name="ART-12: Zlé oko" short="T 55A: ART-12" desc="Zničili vaši spojenci ochromené nepřátelské vozidlo? Tak to je pro vás dobrá zpráva, protože je to váš příspěvek, který o krok přiblížil vytoužené vítězství! Vaším cílem je poskytování palebné podpory a pomoc spojencům v pravý čas a na správném místě." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle způsobeného poškození.\n• Zničte minimálně 3 nepřátelská vozidla.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 150 sekund.\n• Spojenci musí zničit minimálně 2 nepřátelská vozidla, která jste ochromili či znehybnili.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-13: Dělostřelecká baterie (Osobní/Četa)" short="T 55A: ART-13" desc="Četa dobře zvládnutého dělostřelectva by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Díky tomu, že se vaše četa rozdělí, můžete pak zasáhnout cíle z různých úhlů a mnohou skal a budov pak bude jako úkryt k ničemu, čímž ovládnete mapu.</Hint>
+    <PM name="ART-13: S jako spolupráce" short="T 55A: ART-13" desc="Dobře zvládnutá spolupráce mezi dělostřelectvem a spojenci by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 25 % z celkového poškození, které nepřátelským vozidlům způsobí váš tým.\n• Vyhrajte bitvu.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Způsobte minimálně 8krát poškození nepřátelským vozidlům, nebo je minimálně 10krát ochromte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Společný útok (Osobní/Četa)" short="T 55A: ART-14" desc="Chce-li být dělostřelectvo úspěšné, je závislé na zbytku týmu. Dělostřelectvo a lehké tanky se navzájem dobře doplňují, obzvlášť když hrají v četě. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Lehký tank může nepřátelská vozidla odhalovat a znehybňovat. Dělostřelectvo pak s nešťastnou obětí provede krátký proces. Společně vyhrajeme! Těžký tank vás zaštítí svým pancířem, střední tank rozptýlí nepřítele, zatímco stíhač tanků bude poskytovat palebnou podporu na velkou vzdálenost.</Hint>
+    <PM name="ART-14: Člen posádky, součást lodi!" short="T 55A: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 4 000 HP poškození nepřátelským těžkým tankům a stíhačům tanků.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 180 sekund, nebo umožněte svým spojencům způsobit minimálně 800 HP poškození nepřátelským vozidlům tím, že je znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-15: Bohové války" short="T 55A: ART-15" desc="Pro tým je mnohem lepší, pokud dělostřelectvo přežije. Pokuste se, abyste se nevystavovali nepřátelské palbě a na nepřítele palte přesně zamířené výstřely." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
-      <Hint>Když znáte technické parametry svého dělostřelectva, můžete si své akce v bitvě plánovat. Někdy není nejlepší nápad zůstávat na základně. Pokud řídíte rychlé dělostřelectvo, můžete rychle změnit svou pozici a napadnout nepřítele ze směru, ze kterého to očekává nejméně.</Hint>
+    <PM name="ART-15: Bohové války" short="T 55A: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností a způsobeného poškození.\n• Způsobte minimálně 3 000 HP poškození.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 2 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -3924,136 +3936,136 @@
         <req>• Zničte minimálně 5 nepřátelských vozidel.</req>
       </Secondary>
     </PM>
-    <PM name="ART-1: Ostrostřelec" short="Objekt 260: ART-1" desc="Neplýtvejte municí. Jsou to přesné zásahy, které vám přinesou vítězství." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Buďte trpěliví a počkejte, dokud cíl zcela nezaměříte.</Hint>
+    <PM name="ART-1: Smělé tvrzení" short="Objekt 260: ART-1" desc="Velký rozsah výbuchu granátu je klíčovou vlastností dělostřeleckých vozidel. I když se vám nepovede zasadit nepřátelskému vozidlu přímý zásah, stále máte šanci, že mu způsobíte velké problémy, když ho ochromíte. Nepřátelské vozidlo je označeno ukazatelem ochromení, který je viditelný pro vaše spojence. Když spojenci poškodí vozidlo, které jste ochromili, dostanete další kredity a zkušenosti za poškození s vaší pomocí." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 6 zásahů, které způsobí poškození nepřátelským vozidlům.</req>
+        <req>• Ochromte minimálně 10krát nepřátelská vozidla.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 4 000 HP poškození.</req>
+        <req>• Způsobte minimálně 8krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
       </Secondary>
     </PM>
-    <PM name="ART-2: Skrytý a nebezpečný" short="Objekt 260: ART-2" desc="Dělostřelectvo se nemůže spoléhat na sílu pancíře nebo na rychlost. Když řídíte dělostřelectvo, naučte se zůstat ukrytí po celou bitvu." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Když máte na svém dělostřelectvu namontované vybavení Maskovací síť v kombinaci s maskováním, hodně vám to pomůže s jeho ukrytím.</Hint>
+    <PM name="ART-2: Čas jsou peníze" short="Objekt 260: ART-2" desc="Nepřátelské vozidlo zůstává po určitou dobu ochromeno, a nemůže na bojišti dělat maximum. Pamatujte si: ochromené vozidlo je snadným cílem." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle způsobeného poškození. Zůstaňte během bitvy neodhaleni.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 200 sekund.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 3 nepřátelská vozidla.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-3: Úder houfnice" short="Objekt 260: ART-3" desc="Pokud se chcete stát pro svůj tým přínosem, musíte se nejprve naučit efektivně střílet." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Sledujte průběh bitvy a podpořte svůj tým. Nezůstávejte příliš dlouho na jednom místě. Ustupte, nebo se v případě potřeby poohlédněte po jiné palebné pozici.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 4 000 HP poškození nepřátelským vozidlům.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-4: Prorazte skrz" short="Objekt 260: ART-4" desc="Silné HE granáty nezpůsobí nepříteli pouze poškození v bodech výdrže, ale také mají vysokou šanci, že explozivním poškozením poškodí či zničí moduly, nebo zraní členy posádky." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Pouze úplným průstřelem a explozí uvnitř nepřátelského vozidla mohou explozivní granáty ukázat svou cenu. Pokud mají vaše granáty průměrnou průbojnost, snažte se najít nepřátelské vozidlo, které má seshora otevřenou věž, nebo nabijte prémiový granát.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Poškoďte nebo zničte moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkově 10 modulů a členů posádky.\n• Počty poškozených/zničených modulů a zraněných členů posádky u všech nepřátelských vozidel, která jste v bitvě poškodili, se sčítají.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
-      </Secondary>
-    </PM>
-    <PM name="ART-5: Vypočítat &amp; vyhladit" short="Objekt 260: ART-5" desc="Velkou palebnou sílu, kterou máte k dispozici, kompenzuje relativně nízká odolnost vašeho dělostřelectva." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Zkuste nepřátelským vozidlům způsobit poškození při první příležitosti. I když váš HE granát nepřítele o kousek mine, jeho vozidlo může být i přesto střepinami granátu poškozeno.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte poškození, které 10krát přesahuje počet bodů výdrže vašeho vozidla.\n• Poškození způsobené spojencům se nepočítá.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Zničte minimálně 4 nepřátelská vozidla.</req>
       </Secondary>
     </PM>
-    <PM name="ART-6: Padající kladivo" short="Objekt 260: ART-6" desc="Často budete bojovat proti vozidlům vyšších úrovní. To však není pro zkušeného řidiče dělostřelectva problém." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Pokud nemůžete nepřátelské vozidlo prostřelit standardními granáty, zkuste použít prémiové. Střílejte na boky a na zadní část nepřátelského vozidla. Dělostřelectvo, se svou obloukovou trajektorií granátu, může účinně zasáhnout libovolné vozidlo do horní části věže, kde je pancéřová ochrana slabá. Nepřátelská vozidla s otevřenými věžemi jsou ještě více zranitelná vůči zásahům seshora.</Hint>
+    <PM name="ART-3: Pomalí a klidní budou ochromení" short="Objekt 260: ART-3" desc="Maskované a silné nepřátelské stíhače tanků a dobře obrněné těžké tanky mohou snad zvrátit vývoj bitvy. Jsou to cíle s nejvyšší prioritou, a jejich poškození (nebo pomoc s jejich zničením) by mělo být hlavním cílem hráče s dělostřelectvem. Většina těžkých tanků a stíhačů tanků je pomalá a neohrabaná, což zvyšuje šanci na úspěšný zásah." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Ochromte minimálně 8krát nepřátelský těžký tank či stíhač tanků.\n• Ochromující výstřely by také měly způsobit poškození.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-4: Uvidím tě" short="Objekt 260: ART-4" desc="Naučte se znát hlavní trasy nepřátelských těžkých tanků a pozice, kde se obvykle skrývají vychytralé stíhače tanků. Předběžné zaměření na určitou oblast na mapě zvyšuje šance na nejúčinnější a nejničivější palbu na nepřátelské pozice. Tyto typy vozidel obvykle postupují na určitých mapách podle předvídatelných taktik. Buďte chytří: analyzujte sestavu nepřátelského týmu a hned od začátku bitvy si vyberte nejvhodnější pozici." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Ochromte nepřátelský těžký tank či stíhač tanků celkem alespoň na 120 sekund.\n• Ochromující výstřel by také měl způsobit poškození.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-5: Sdílení znamená péči" short="Objekt 260: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla, která jsou o 2 úrovně vyšší než vaše vozidlo.</req>
+        <req>• Umožněte svým spojencům způsobit minimálně 3 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Způsobte minimálně 8krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
+      </Secondary>
+    </PM>
+    <PM name="ART-6: Kladivo boží" short="Objekt 260: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Umožněte svým spojencům poškodit minimálně 6 nepřátelských vozidel tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-7: Vytáhněte velká děla" short="Objekt 260: ART-7" desc="Nepřátelské stíhače tanků a dělostřelectvo byste měli zničit při první příležitosti. Jejich vyřazení může zvrátit průběh bitvy ve váš prospěch." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Koordinujte své akce se spojeneckými lehkými tanky. Odhalování nepřátelských stíhačů tanků a dělostřelectva a jejich ničení vám může pomoci v získání převahy na bojišti.</Hint>
+    <PM name="ART-7: Pečlivé posouzení" short="Objekt 260: ART-7" desc="Chcete-li splnit tuto misi, využijte selektivní přístup k výběru svých cílů. Nesoustřeďte palbu na jedno nepřátelské vozidlo, ani když představuje snadný cíl. Nejlepší strategii představuje zasažení celé skupiny nepřátel jedním výstřelem. Prostudujte si mapy a naučte se základní trasy vozidel." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte celkem minimálně 3 nepřátelské stíhače tanků a dělostřelectva.\n• Vyhrajte bitvu.</req>
+        <req>• Ochromte minimálně 6 nepřátelských vozidel.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 4 000 HP poškození.</req>
+        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-8: Těžká palba na těžké tanky!" short="Objekt 260: ART-8" desc="Těžký tank je obtížný cíl, ale ne pro vaše dělo. Granáty s obloukovou trajektorií mohou na každé vozidlo udeřit z vrchu věže, kde je pancíř slabý." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Těžké tanky jsou obecně pomalejší než ostatní typy vozidel. To znamená, že často můžete předvídat, kde se bude tank nacházet, když váš granát přiletí. Pro řidiče dělostřelectva je užitečné znát rychlost svých granátů.</Hint>
+    <PM name="ART-8: Snažil jsem se" short="Objekt 260: ART-8" desc="Zkušenosti dostanete za všechny účinné akce. Zkuste být nejužitečnějším hráčem: způsobujte poškození, pomáhejte při ničení nepřátelských vozidel a zůstaňte v bitvě naživu. Po každém výstřelu měňte svou pozici, jinak může protibaterijní palba nepřátelského dělostřelectva vaše vozidlo zničit." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte minimálně 3 000 HP poškození nepřátelským těžkým tankům.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelské těžké tanky.\n• Vyhrajte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-9: Palba s předsazením" short="Objekt 260: ART-9" desc="Zkušený řidič dělostřelectva může snadno zasáhnout vozidla, která se pohybují. Naučte se při palbě efektivně předvídat pohyby nepřátelských vozidel. Pamatujte si, že přímým zásahem můžete nepřátelskému vozidlu způsobit mnohem větší poškození, než explozivním poškození ze zásahů „těsně vedle“." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Rychlost vašich granátů je velmi důležitý parametr. Když víte, kdy granát doletí k cíli, můžete správně spočítat odchylku.</Hint>
+    <PM name="ART-9: Vedlejší škody" short="Objekt 260: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dosáhněte minimálně 4 přímých zásahů nepřátelských vozidel.\n• Počítají se všechny přímé zásahy, ať už způsobí poškození, nebo ne.</req>
+        <req>• Zničte jakékoliv moduly nepřátelských vozidel, nebo zraňte členy jejich posádky, celkem minimálně 10 modulů a členů posádky.\n• Počet zničených modulů a zraněných členů posádky se sčítá ze všech nepřátelských vozidel, která jste v bitvě poškodili.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Přižijte bitvu.\n• Vyhrajte bitvu.\n• Zůstaňte v bitvě neodhaleni.</req>
       </Secondary>
     </PM>
-    <PM name="ART-10: Zkáza dělostřelectva" short="Objekt 260: ART-10" desc="Lov dělostřelectva je skvělý nápad. Zkuste odhadnout, kde se může nepřátelské dělostřelectvo skrývat, a přesným výstřelem si ověřte, zda jste hádali správně." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Čím častěji budete řídit dělostřelectvo, tím více strategických bodů na mapách poznáte. To vám pomůže v boji proti nepřátelskému dělostřelectvu, protože už budete vědět, kde se může nacházet.</Hint>
+    <PM name="ART-10: Vše v ceně" short="Objekt 260: ART-10" desc="Situace na bojišti se může rychle změnit — vždy sledujte minimapu a ujistěte se, že máte čistý výhled na nepřátelská vozidla. Místo stání v jedné pozici se budete muset pohybovat po celé mapě. Vaši spojenci se spoléhají na palebnou sílu vašeho dělostřelectva, takže udělejte to nejlepší v pravou chvíli a na správném místě." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská dělostřelectva.\n• Způsobte minimálně 4 000 HP poškození nepřátelským vozidlům.</req>
+        <req>• Celkové poškození způsobené vámi a vašimi spojenci nepřátelským vozidlům, která jste ochromili či znehybnili, musí být minimálně 4 000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 5 nepřátelských vozidel.</req>
+        <req>• Vyhrajte bitvu.\n• Spojenci musí zničit minimálně 3 nepřátelská vozidla, která jste ochromili či znehybnili.</req>
       </Secondary>
     </PM>
-    <PM name="ART-11: Oblast účinku" short="Objekt 260: ART-11" desc="Vaše HE granáty mohou nejen zničit nepřátelské vozidlo prvním zásahem, ale také mohou způsobit značné poškození více cílům najednou, pokud stojí blízko u sebe." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Pokud několik nepřátelských vozidel stojí blízko u sebe na jednom místě, můžete doslova zabít dvě mouchy jednou ranou. Takový případ je typický na městských mapách.</Hint>
+    <PM name="ART-11: Oblast účinku" short="Objekt 260: ART-11" desc="Kromě značného poškození, způsobeného dobře umístěným výstřelem, může vysoce výbušný granát také ochromit všechna nesprávně umístěná vozidla v okruhu výbuchu granátu. Mnoho map má určitá místa, kde se nepřátelská vozidla drží pohromadě. Využijte svou šanci a pošlete jim vysoce „výbušné“ pozdravy." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zničte minimálně 2 nepřátelská vozidla jediným výstřelem.</req>
+        <req>• Ochromte dvakrát minimálně 3 nepřátelská vozidla jedním výstřelem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vyhrajte bitvu.\n• Přežijte bitvu.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 200 sekund.</req>
       </Secondary>
     </PM>
-    <PM name="ART-12: Útočník" short="Objekt 260: ART-12" desc="Styl hraní s dělostřelectvem se drasticky liší od všech ostatních typů vozidel. Hlavní úkol je však stejný—dělejte v boji to nejlepší co můžete a snažte se co nejvíce prospět svému týmu." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Nepřepínejte se do dělostřeleckého režimu hned na začátku bitvy. Nejprve si vyberte dobrou strategickou pozici.</Hint>
+    <PM name="ART-12: Zlé oko" short="Objekt 260: ART-12" desc="Zničili vaši spojenci ochromené nepřátelské vozidlo? Tak to je pro vás dobrá zpráva, protože je to váš příspěvek, který o krok přiblížil vytoužené vítězství! Vaším cílem je poskytování palebné podpory a pomoc spojencům v pravý čas a na správném místě." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle způsobeného poškození.\n• Zničte minimálně 4 nepřátelská vozidla.\n• Přežijte bitvu.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 200 sekund.\n• Spojenci musí zničit minimálně 3 nepřátelská vozidla, která jste ochromili či znehybnili.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-13: Dělostřelecká baterie (Osobní/Četa)" short="Objekt 260: ART-13" desc="Četa dobře zvládnutého dělostřelectva by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Díky tomu, že se vaše četa rozdělí, můžete pak zasáhnout cíle z různých úhlů a mnohou skal a budov pak bude jako úkryt k ničemu, čímž ovládnete mapu.</Hint>
+    <PM name="ART-13: S jako spolupráce" short="Objekt 260: ART-13" desc="Dobře zvládnutá spolupráce mezi dělostřelectvem a spojenci by měla nepřátelskému týmu působit vážné obavy. Koordinujte své akce a soustřeďte svou palbu ve stejnou chvíli na jeden nepřátelský cíl." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 30 % z celkového poškození, které nepřátelským vozidlům způsobí váš tým.\n• Vyhrajte bitvu.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Způsobte minimálně 10krát poškození nepřátelským vozidlům, nebo je minimálně 12krát ochromte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Společný útok (Osobní/Četa)" short="Objekt 260: ART-14" desc="Chce-li být dělostřelectvo úspěšné, je závislé na zbytku týmu. Dělostřelectvo a lehké tanky se navzájem dobře doplňují, obzvlášť když hrají v četě. Tuto misi lze dokončit jak v četě, tak i na vlastní pěst, avšak druhá varianta je mnohem obtížnější." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Lehký tank může nepřátelská vozidla odhalovat a znehybňovat. Dělostřelectvo pak s nešťastnou obětí provede krátký proces. Společně vyhrajeme! Těžký tank vás zaštítí svým pancířem, střední tank rozptýlí nepřítele, zatímco stíhač tanků bude poskytovat palebnou podporu na velkou vzdálenost.</Hint>
+    <PM name="ART-14: Člen posádky, součást lodi!" short="Objekt 260: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Způsobte, buď osobně, nebo celkově v četě, minimálně 5 000 HP poškození nepřátelským těžkým tankům a stíhačům tanků.\n• Můžete jí dokončit buď osobně, nebo jako člen čety, která se skládá z vašeho dělostřelectva a jakýchkoliv jiných vozidel.</req>
+        <req>• Ochromte nepřátelská vozidla celkem alespoň na 250 sekund, nebo umožněte svým spojencům způsobit minimálně 1 000 HP poškození nepřátelským vozidlům tím, že je znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobně přežijte bitvu.</req>
+        <req>• Vyhrajte bitvu.</req>
       </Secondary>
     </PM>
-    <PM name="ART-15: Bohové války" short="Objekt 260: ART-15" desc="Pro tým je mnohem lepší, pokud dělostřelectvo přežije. Pokuste se, abyste se nevystavovali nepřátelské palbě a na nepřítele palte přesně zamířené výstřely." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
-      <Hint>Když znáte technické parametry svého dělostřelectva, můžete si své akce v bitvě plánovat. Někdy není nejlepší nápad zůstávat na základně. Pokud řídíte rychlé dělostřelectvo, můžete rychle změnit svou pozici a napadnout nepřítele ze směru, ze kterého to očekává nejméně.</Hint>
+    <PM name="ART-15: Bohové války" short="Objekt 260: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností a způsobeného poškození.\n• Způsobte minimálně 3 000 HP poškození.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 3 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>

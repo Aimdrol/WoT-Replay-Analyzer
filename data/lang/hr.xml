@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 od Kreslavskog" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Objekt 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Staljingrad" />
     <item ID="95_lost_city" Name="Grad Duhova" />
     <item ID="96_prohorovka_defense" Name="Vatrena izbočina" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Nepoznati" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Posebna bitka" />
     <item ID="5" Name="Posebna bitka" />
     <item ID="6" Name="Bojna obuka" />
-    <item ID="7" Name="Tim: nerangirane bitke" />
+    <item ID="7" Name="Timska bitka" />
     <item ID="8" Name="Povijesna bitka" />
     <item ID="9" Name="Posebni događaj" />
     <item ID="10" Name="Okršaji" />
@@ -1443,7 +1455,7 @@
     <PM name="LT-10: Najveći rezultat" short="StuG IV: LT-10" desc="Što ste učinkovitiji u bitci to ćete zaraditi više iskustva. Pokažite im za što je sposoban laki tenk!" tMID="10" opID="1" mID="10" setID="1" ID="quest_1_1_10_main" secID="quest_1_1_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
       <Hint>Dobar izviđač zna kada treba biti oprezan, a kada agresivan. Pazite na tijek bitke.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Budi među najbolja tri igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
@@ -1599,7 +1611,7 @@
         <req>• Šteta blokirana od oklopa mora biti jednaka ili veća od HP vašeg vozila.\n• Nanesi najmanje 1000 HP štete.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-13: Juriš na obranu! (Osobno/vod)" short="StuG IV: TT-13" desc="Vod dobro koordiniranih teških tenkova može preokrenuti i najbeznadežniju situaciju. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje puno teže." tMID="28" opID="1" mID="13" setID="2" ID="quest_1_2_13_main" secID="quest_1_2_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
@@ -1734,7 +1746,7 @@
         <req>• Zapali neprijateljsko vozilo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Budi među najboljih 5 igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi u najboljih 5 igrača u svojem timu po zarađenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="ST-13: Aktivna akcija (Osobno/vod)" short="StuG IV: ST-13" desc="Vod srednjih tenkova može biti od velike pomoći timu na cijeloj bojišnivi. Ovaj zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
@@ -1767,7 +1779,7 @@
     <PM name="LNT-1: Učinkovito djelovanje" short="StuG IV: LNT-1" desc="Lovci na tenkovi su odličan izbor za igrače koji vole uništavati neprijateljska vozila sa velike udaljenosti." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
       <Hint>Lovci na tenkove imaju jaku vatrenu moć, ali relativno teško preživljavaju. Pokušajte pucati s udaljenosti-preciznost vaših topova vam to omogućava.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Budi u najboljih 7 igrača u tvom tomu po zarađenom iskustvu.</req>
+        <req>• Budi u najboljih 7 igrača u svojem tim po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
@@ -1815,7 +1827,7 @@
         <req>• Nanesi štetu neprijateljskom vozilu s udaljenosti od najmanje 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje jedno neprijateljsko vozilo.</req>
+        <req>• Uništi barem jedno neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
     <PM name="LNT-7: Prvi udar" short="StuG IV: LNT-7" desc="Ne dajte neprijatelju da vam se previše približi: oklop vašeg vozila nije dostatno učinkovit protiv neprijateljske vatre." tMID="52" opID="1" mID="7" setID="4" ID="quest_1_4_7_main" secID="quest_1_4_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
@@ -1833,7 +1845,7 @@
         <req>• Nanesi dvostruko štete neprijateljskim vozilima nego što vaše vozilo ima HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-9: Točno mjesto!" short="StuG IV: LNT-9" desc="Odlične karakteristike vašeg topa nadoknađuju relativno slab oklop vašeg vozila." tMID="54" opID="1" mID="9" setID="4" ID="quest_1_4_9_main" secID="quest_1_4_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
@@ -1899,136 +1911,136 @@
         <req>• Uništi neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-1: Dobar strijelac" short="StuG IV: ShT-1" desc="Ne trošite streljivo uzalud. Precizni pogoci vam donose pobjedu." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Budite strpljivi i čekajte dok niste potpuno naciljali metu.</Hint>
+    <PM name="ShT-1: Odvažna tvrdnja" short="StuG IV: ShT-1" desc="Veliki radijus rasprskavanja nakon eksplozije granate je ključna osobina samohodnih topova. Čak i ako ne uspijete izravno pogoditi neprijateljsko vozilo još uvijek ima šanse da mu date velike glavobolje tako što ste ga ošamutili. Neprijateljsko vozilo je označeno znakom ošamućenosti koje je vidljivo vašim saveznicima. Ako saveznici nanesu štetu vozilu koje ste ošamutili, dobit ćete dodatne kredite i iskustvo za štetu koja je nanešena uz vašu pomoć." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje tri hica koja nanose štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje tri puta.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 HP štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje tri puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-2: Skriven i opasan" short="StuG IV: ShT-2" desc="Samohodni topovi se ne mogu pouzdati u debljinu oklopa ili brzinu. Ako vozite samohodni top naučite kako ostati skriven tijekom cijele bitke." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Maskirna mreža u kombinaciji s vještinom posade kamuflaža će vam pomoći da ostanete neotkriveni.</Hint>
+    <PM name="ShT-2: Vrijeme je novac" short="StuG IV: ShT-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni period i ne može dati sve od sebe na bojišnici. Upamtite: ošamućeno vozilo postaje laka meta." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 500 HP štete neprijateljskim vozilima. Ostani neotkriven tijekom bitke.\n• Preživi bitku.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 50 sekundi.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo.</req>
+        <req>• Uništi barem jedno neprijateljsko vozilo.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-3: Udar haubice" short="StuG IV: ShT-3" desc="Ako želite biti od koristi timu, prvo morate naučiti učinkovito pucati." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Pratite tijek bitke i podržavajte svoj tim. Ne ostajte predugo na jednom mjestu. Povucite se i tražite drugi vatreni položaj ako je potrebno.</Hint>
+    <PM name="ShT-3: Polako i sigurno se ošamuti" short="StuG IV: ShT-3" desc="Skriveni i moćni lovci na tenkove i dobro oklopljeni teški tenkovi mogu preokrenuti tijek bitke. Oni su vaše primarne mete i nanošenje štete njima (ili pomaganje u njihovom uništenju) bi trebao biti primarni cilj za igrača u samohodnom topu. Većina teškaša i lovaca na tenkove su spori i nezgrapni što povećava vjerojatnost uspješnog hica." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 HP štete neprijateljskim vozilima.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.</req>
-      </Secondary>
-    </PM>
-    <PM name="ShT: Proboj" short="StuG IV: ShT" desc="Jaka fugasna granata ne samo da nanosi štetu neprijatelju već ima veliku vojerojatnost oštećenja ili uništenja modula ili ozljeđivanja članova posade sa štetom rasprskavanja." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Samo potpunim probojem oklopa i eksplozijom unutar trupa neprijateljskog vozila je fugasna granata učinkovita. Ako vaše granate imaju osrednju probojnost pokušajte pronaći neprijateljsko vozilo s otvorenom kupolom ili napunite premium granatu.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module neprijateljskih vozila ili ozlijedi članove njihove posade, ukupno najmanje tri modula i člana posade.\n• Broj oštećenih/uništenih modula i ozlijeđenih članova posade na svim neprijateljskim vozilima koje ste oštetili u bitci se zbraja.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje dva puta.\n• Hici ošamućenja bi također trebali uzrokovati štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-5: Izračunaj i uništi" short="StuG IV: ShT-5" desc="Velika vatrena moć koju imate nadoknađuje slabu izdržljivost samohodnih topova." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Pokušajte nanijeti štetu neprijateljskom vozilu prvom prilikom. Čak i ako vaša fugasna granata promaši za dlaku, neprijateljsko vozilo može biti oštećeno od šrapnela.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi štetu koja prelazi četiri puta HP vašeg vozila.\n• Šteta nanešena saveznicima se računa.</req>
+    <PM name="ShT-4: Provest ću te" short="StuG IV: ShT-4" desc="Naučite glavne pravce neprijateljskih teških tenkova i položaje gdje se obično skrivaju lukavi lovci na tenkove. Ciljanje unaprijed na određeni dio mape povećava vjerojatnost za najučinkovitiju i najrazorniju paljbu na neprijateljske položaje. Ovi tipovi vozila obično koriste predvidljive taktike na određenim mapama. Budite pametni: analizirajte sastav neprijateljskog tima i odaberite najbolji položaj na samom početku bitke." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje ukupno 30 sekundi.\n• Hici ošamućenja bi također trebali uzrokovati štetu.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-6: Malj" short="StuG IV: ShT-6" desc="Često ćete se boriti protiv vozila više razine. Ali to nije problem za iskusne vozače samohodnih topova." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Ako ne možete probiti neprijateljsko vozilo standardnim granatama, pokušajte s premium granatam. Gađajte bokove i zadnji kraj neprijateljskog vozila. Samohodni topovi s njihovom parabolom hica mogu učinkovito pogoditi bilo koje vozilo u vrh kupole, gdje je oklop tanak. Neprijateljska vozila s otvorenim kupolama su još ranjivija na uništenje iz zraka.</Hint>
+    <PM name="ShT-5: Dijeljenje je užitak" short="StuG IV: ShT-5" desc="Ošamućivanje neprijateljskih vozila ne samo da vas dovodi korak bliže pobjedi već dobijate i dodatno iskustvo i kredite ako vaši saveznici oštete vozila koja ste ošamutili. Nemojte zaboraviti označiti područje na koje ciljate (zadano tipka T) kako bi obavjestili svoje saveznike." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska vozila iste razine kao tvoje vozilo ili više.</req>
+        <req>• Omogući saveznicima da nanesu najmanje 600 štete neprijateljskim vozilima ošamućenjem ili imobilizacijom.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje tri puta hicem ili sudaranjem.</req>
+      </Secondary>
+    </PM>
+    <PM name="ShT-6: Malj bogova" short="StuG IV: ShT-6" desc="Primarni cilj samohodnih topova je pružanje vatrene potpore saveznicima. Ošamućena neprijateljska vozila su slabi borci i vaši suigrači će znati cijeniti vašu pomoć. Međutim, budite pažljivi kada pucate: aljkavi hitac može ošamutiti i savezničko vozilo. Prijateljska paljba se ne će tolerirati!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Omogući saveznicima da nanesu štetu najmanje dvoma vozilima ošamućenjem ili imobilizacijom.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-7: Borba s velikim topovima" short="StuG IV: ShT-7" desc="Trebali bi uništiti neprijateljske lovce na tenkove i samohodne topove prvom prilikom. Njihovo uništenje može preokrenuti tijek bitke u vašu korist." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Koordinirajte vaše akcije sa savezničkim lakim tenkovima. Otkrivanje i uništavanje neprijateljskih lovaca na tenkove i samohodnih topova može ostvariti nadmoć na bojišnici.</Hint>
+    <PM name="ShT-7: Pažljivo razmatranje" short="StuG IV: ShT-7" desc="Kako bi izvršili ovaj zadatak, selektivno birajte svoje mete. Nemojte koncentrirati paljbu na jedno neprijateljsko vozilo, čak i ako je laka meta. Najbolja strategija je da udarite po velikim grupama neprijateljskih vozila jednim hicem. Proučite mape i naučite osnovne pravce vozila." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski lovac na tenkove ili samohodni top.</req>
+        <req>• Ošamuti najmanje dva neprijateljska vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 HP štete.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-8: Teška vatra na teške tenkove!" short="StuG IV: ShT-8" desc="Teški tenk je teška meta, ali ne za vaš top. Granate sa zakrivljenom putanjom mogu pogoditi bilo koje vozilo na vrh kupole gdje je oklop tanak." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Teški tenkovi se općenito kreću sporije od ostalih tipova vozila. Zato često možete predvidjeti gdje će tenk biti kada vaša granata udari. Za vozača samohodnih topova je korisno znati brzinu vaših granata.</Hint>
+    <PM name="ShT-8: Dao sam sve od sebe" short="StuG IV: ShT-8" desc="Dobijate iskustvo za sve učinkovite akcije. Pokušajte biti MVP: nanosite štetu, pomagajte u uništavanju neprijateljskih vozila i preživite bitku. Mjenjajte svoj položaj nakon svakog hica-u suprotnom protupaljba neprijateljskih samohodnih topova može uništiti vaše vozilo." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1000 HP štete neprijateljskim teškim tenkovima.</req>
+        <req>• Budi u najboljih 7 igrača u svojem tim po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski teški tenk.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-9: Paljba s pretjecanjem" short="StuG IV: ShT-9" desc="Iskusni vozač samohodnih topova može lako pogoditi vozila u pokretu. Naučite predviđati kretanje neprijateljskih vozila kada pucate. Upamtite da izravan pogodak može nanijeti puno više štete neprijateljskom vozilu od šrapnela." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Brzina vaših granata je vrlo bitan parametar. Ako znate kada će granata doseći metu možete točno izračunati otklon.</Hint>
+    <PM name="ShT-9: Kolateralna šteta" short="StuG IV: ShT-9" desc="Moćne fugasne granate ne samo da smanjuju HP neprijateljskih vozila već imaju i veliku šansu uništiti module ili ozlijediti članove posade sa štetom rasprskavanja." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ošteti neprijateljsko vozilo koje se kreće brzinom od najmanje 20 km/h.\n• Računaju se i šteta rasprskavanjem i šteta izravnih pogodaka.\n• Ne računa se šteta nanešena sudaranjem.</req>
+        <req>• Uništi bilo koji modul neprijateljskih vozila ili ozlijedi članove njihovih posada, ukupno najmanje tri modula i članova posade.\n• Broj uništenih modula i ozlijeđenih članova posade se računa za sva neprijateljska vozila koja ste oštetili u bitci.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-10: Prokletstvo topništva" short="StuG IV: ShT-10" desc="Lov na topništvo je odlična ideja. Pokušajte predvidjeti gdje se mogu sakrivati neprijateljski samohodni topovi i provjerite da li ste bili u pravu s preciznim hicem." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Što više vozite samohodni top to ćete bolje upoznati strateške točke na mapi. To će vam pomoći u borbi protiv neprijateljskih samohodnih topova jer ćete već znati gdje mogu biti pozicionirani.</Hint>
+    <PM name="ShT-10: Cijeli spektar usluga" short="StuG IV: ShT-10" desc="Situacija u bitci se može brzo promjeniti-uvijek pazite na minimapu i pobrinite se da imate jasan pregled neprijateljskih vozila. Morat ćete se cijelo vrijeme kretati po mapi umjesto da ostajete na jednom položaju. Vaši saveznici se pouzdaju u vatrenu moć vašeg samohodnog topa pa dajte sve od sebe na pravom mjestu i u pravo vrijeme." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje jedan neprijateljski samohodni top.</req>
+        <req>• Ukupna šteta nanešena od vas i vaših saveznika neprijateljskim vozilima koje ste ošamutili ili imobilizirali mora biti najmanje 1000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska vozila.</req>
+        <req>• Saveznici moraju uništiti najmanje jedno vozilo koje ste ošamutili ili imobilizirali.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-11: Područje učinka" short="StuG IV: ShT-11" desc="Vaše visokoeksplozivne granate ne samo da mogu uništiti neprijateljsko vozilo iz prve već mogu nanijeti i značajnu štetu više meta odjednom ako stoje blizu." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Ako nekoliko neprijateljskih vozila stoji zajedno doslovce možete ubiti dvije muhe jednim udarcem. Takvi slučajevi su tipični za gradske mape.</Hint>
+    <PM name="ShT-11: Područje učinka" short="StuG IV: ShT-11" desc="Osim znatne štete koju nanosi dobro smješten hitac, fugasna granata može također ošamutiti sva vozila unutar radijusa rasprskavanja nakon eksplozije granate. Na mnogim mapama su mjesta gdje se neprijateljska vozila zajedno gužvaju. Iskoristite priliku i pošaljite im eksplozivne \&quot;pozdrave\&quot;." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo jednim hicem.\n• Računaju se mete koje prethodno nisu primile štetu u bitci.</req>
+        <req>• Ošamuti najmanje dva neprijateljska vozila jednim hicem.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 50 sekundi.</req>
+      </Secondary>
+    </PM>
+    <PM name="ShT-12: Zlo oko" short="StuG IV: ShT-12" desc="Vaši saveznici su uništili ošamućeno neprijateljsko vozilo? To su dobre vijesti za vas jer vas je vaš doprinos primaknuo korak bliže pobjedi! Vaš cilj je davati vatrenu potporu i pomagati saveznicima u pravo vrijeme i na pravom mjestu." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 50 sekundi.\n• Saveznici morjau uništiti najmanje jedno neprijateljsko vozilo koje ste ošamutili ili imobilizirali.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-12: Udarnik" short="StuG IV: ShT-12" desc="Stil igre u samohodnom topu se drastično razlikuje od svih ostalih tipova vozila. Ali, glavni cilj je isti - dajte sve od sebe u bitci i pridonesite timu što više možete." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Nemojte se na početku bitke prabacivati u režim topništva. Prvo odaberite dobru stratešku točku.</Hint>
+    <PM name="ShT-13: S za suradnju" short="StuG IV: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Budi u prva tri igrača u tvom timu po nanesenoj šteti.\n• Uništi neprijateljsko vozilo.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 4 puta ili ih ošamuti najmanje 6 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-13: Topnička bitnica (Osobno/vod)" short="StuG IV: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Vaš vod može širenjem napasti mete iz različitih pravaca i obezvrijediti ulogu stijena i zgrada kao zaštite koje dominiraju mapom.</Hint>
+    <PM name="ShT-14: Dio posade, dio broda!" short="StuG IV: ShT-14" desc="Suradnja unutar voda je ključe pobjede cijelog tima. Označite neprijateljska vozila koja ciljate kako bi ih vaši suigrači u vodu odmah mogli zasuti paljbom jednom kada su ošamućeni ili imobilizirani. Upamtite: usamljeni vojnik teško može dobiti bitku." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 15% ukupne štete nanešene neprijateljskim vozilima od strane vašeg tim, bilo osobno ili ukupno kao vod.\n• Pobjedi u bitci.\n• Može se izvršiti osobno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje ukupno 70 sekundi ili omogući saveznicima da nanesu najmanje 400 štete neprijateljskim vozilima imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-14: Ujedinjena ofenziva (Osobno/vod)" short="StuG IV: ShT-14" desc="Uspjeh topništva ovisi o ostatku tima. Topništvo i laki tenkovi se dobro nadopunjuju u vodu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Laki tenk može otkriti neprijateljska vozila i imobilizirati ih. Samohodni top će ga dovrošiti. Zajedno pobjeđujemo! Teški tenk će vas štititi sa svojim debelim oklopom, srednji tenk će odvlačiti neprijatelja, a lovac na tenkove će pružiti dalekometnu vatrenu podršku.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 HP štete neprijateljskim teškim tenkovima i lovcima na tenkove bilo osobno ili ukupno kao vod.\n• Može se izvršiti osobno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
-      </Secondary>
-    </PM>
-    <PM name="ShT-15: Bogovi rata" short="StuG IV: ShT-15" desc="Puno je bolje za tim ako samohodni top preživi. Nemojte se izlagati neprijateljskoj vatri i ispaljujte precizne hice na neprijatelja." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
-      <Hint>Ako poznajete tehničke karakteristike vašeg samohodnog topa možete planirati svoje akcije u bitci. Ostanak u bazi ponekad nije dobra ideja. Ako vozite brzi samohodni top možete brzo mijenjati položaj i napasti neprijatelja iz pravca kojeg najmanje očekuje.</Hint>
+    <PM name="ShT-15: Bogovi rata" short="StuG IV: ShT-15" desc="Samohodni top koji preživi što je duže moguće je prava vrijednost tima. Ispaljujte jednu granatu za drugom, ali nemojte pasti pod neprijateljsku paljbu. Budite strpljivi i promislite dvapu prije nego \&quot;pritisnete okidač\&quot; jer je \&quot;jedan hitac-jedan pogodak\&quot; najbolja strategija za vozilo koje dugo puni granatu." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Budi u najbolja tri igrača u tvom timu po zarađenom iskustvu i nanesenoj šteti.\n• Nanesi najmanje 2000 HP štete.</req>
+        <req>• Budi u najboljih 5 igrača u tvom timu po zarađenom iskustvu.\n• Omogući saveznicima da nanesu najmanje 1000 štete neprijateljskim vozilima ošamućenjem ili imobilizacijom.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Preživi bitku.</req>
@@ -2118,7 +2130,7 @@
     <PM name="LT-10: Najveći rezultat" short="T28 koncept teškog tenka: LT-10" desc="Što ste učinkovitiji u bitci to ćete zaraditi više iskustva. Pokažite im za što je sposoban laki tenk!" tMID="85" opID="2" mID="10" setID="1" ID="quest_2_1_10_main" secID="quest_2_1_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
       <Hint>Dobar izviđač zna kada treba biti oprezan, a kada agresivan. Pazite na tijek bitke.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi bitku kao najbolji igrač u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Završi bitku kao najbolji igrač u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
@@ -2274,7 +2286,7 @@
         <req>• Imaj najmanje dvostruko ukupno blokrane štete od strane oklopa nego HP tvog vozila.\n• Nanesi najmanje 1500 HP štete.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-13: Juriš na obranu! (Osobno/vod)" short="T28 koncept teškog tenka: TT-13" desc="Vod dobro koordiniranih teških tenkova može preokrenuti i najbeznadežniju situaciju. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje puno teže." tMID="103" opID="2" mID="13" setID="2" ID="quest_2_2_13_main" secID="quest_2_2_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
@@ -2409,7 +2421,7 @@
         <req>• Zapali neprijateljsko vozilo.\n• Nanesi najmanje 2000 HP štete neprijateljskim vozilima.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Budi među najbolja tri igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="ST-13: Aktivna akcija (Osobno/vod)" short="T28 koncept teškog tenka: ST-13" desc="Vod srednjih tenkova može biti od velike pomoći timu na cijeloj bojišnivi. Ovaj zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
@@ -2442,7 +2454,7 @@
     <PM name="LNT-1: Učinkovito djelovanje" short="T28 koncept teškog tenka: LNT-1" desc="Lovci na tenkovi su odličan izbor za igrače koji vole uništavati neprijateljska vozila sa velike udaljenosti." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
       <Hint>Lovci na tenkove imaju jaku vatrenu moć, ali relativno teško preživljavaju. Pokušajte pucati s udaljenosti-preciznost vaših topova vam to omogućava.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Budi među najboljih 5 igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi u najboljih 5 igrača u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
@@ -2508,7 +2520,7 @@
         <req>• Nanesi tri puta više štete neprijateljskim vozilima od HP svog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-9: Točno mjesto!" short="T28 koncept teškog tenka: LNT-9" desc="Odlične karakteristike vašeg topa nadoknađuju relativno slab oklop vašeg vozila." tMID="129" opID="2" mID="9" setID="4" ID="quest_2_4_9_main" secID="quest_2_4_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
@@ -2574,136 +2586,136 @@
         <req>• Uništi najmanje dva neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-1: Dobar strijelac" short="T28 koncept teškog tenka: ShT-1" desc="Ne trošite streljivo uzalud. Precizni pogoci vam donose pobjedu." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Budite strpljivi i čekajte dok niste potpuno naciljali metu.</Hint>
+    <PM name="ShT-1: Odvažna tvrdnja" short="T28 koncept teškog tenka: ShT-1" desc="Veliki radijus rasprskavanja nakon eksplozije granate je ključna osobina samohodnih topova. Čak i ako ne uspijete izravno pogoditi neprijateljsko vozilo još uvijek ima šanse da mu date velike glavobolje tako što ste ga ošamutili. Neprijateljsko vozilo je označeno znakom ošamućenosti koje je vidljivo vašim saveznicima. Ako saveznici nanesu štetu vozilu koje ste ošamutili, dobit ćete dodatne kredite i iskustvo za štetu koja je nanešena uz vašu pomoć." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje četiri hica koja nanose štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 5 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 HP štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 5 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-2: Skriven i opasan" short="T28 koncept teškog tenka: ShT-2" desc="Samohodni topovi se ne mogu pouzdati u debljinu oklopa ili brzinu. Ako vozite samohodni top naučite kako ostati skriven tijekom cijele bitke." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Maskirna mreža u kombinaciji s vještinom posade kamuflaža će vam pomoći da ostanete neotkriveni.</Hint>
+    <PM name="ShT-2: Vrijeme je novac" short="T28 koncept teškog tenka: ShT-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni period i ne može dati sve od sebe na bojišnici. Upamtite: ošamućeno vozilo postaje laka meta." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1500 HP štete neprijateljskim vozilima. Ostani neotkriven tijekom bitke.\n• Preživi bitku.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje ukupno 100 sekundi.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Uništi najmanje dva neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-3: Udar haubice" short="T28 koncept teškog tenka: ShT-3" desc="Ako želite biti od koristi timu, prvo morate naučiti učinkovito pucati." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Pratite tijek bitke i podržavajte svoj tim. Ne ostajte predugo na jednom mjestu. Povucite se i tražite drugi vatreni položaj ako je potrebno.</Hint>
+    <PM name="ShT-3: Polako i sigurno se ošamuti" short="T28 koncept teškog tenka: ShT-3" desc="Skriveni i moćni lovci na tenkove i dobro oklopljeni teški tenkovi mogu preokrenuti tijek bitke. Oni su vaše primarne mete i nanošenje štete njima (ili pomaganje u njihovom uništenju) bi trebao biti primarni cilj za igrača u samohodnom topu. Većina teškaša i lovaca na tenkove su spori i nezgrapni što povećava vjerojatnost uspješnog hica." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 HP štete neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje 4 puta.\n• Hici ošamućenja bi trebali uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT: Proboj" short="T28 koncept teškog tenka: ShT" desc="Jaka fugasna granata ne samo da nanosi štetu neprijatelju već ima veliku vojerojatnost oštećenja ili uništenja modula ili ozljeđivanja članova posade sa štetom rasprskavanja." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Samo potpunim probojem oklopa i eksplozijom unutar trupa neprijateljskog vozila je fugasna granata učinkovita. Ako vaše granate imaju osrednju probojnost pokušajte pronaći neprijateljsko vozilo s otvorenom kupolom ili napunite premium granatu.</Hint>
+    <PM name="ShT-4: Provest ću te" short="T28 koncept teškog tenka: ShT-4" desc="Naučite glavne pravce neprijateljskih teških tenkova i položaje gdje se obično skrivaju lukavi lovci na tenkove. Ciljanje unaprijed na određeni dio mape povećava vjerojatnost za najučinkovitiju i najrazorniju paljbu na neprijateljske položaje. Ovi tipovi vozila obično koriste predvidljive taktike na određenim mapama. Budite pametni: analizirajte sastav neprijateljskog tima i odaberite najbolji položaj na samom početku bitke." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module neprijateljskih vozila ili ozlijedi članove posade, ukupno najmanje 5 modula i članova posade.\n• Broj oštećenih/uništenih modula i ozljeđenih članova posade svih neprijateljskih vozila oštećenih u bitci se zbraja.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje ukupno 50 sekundi.\n• Hitac ošamućenja bi trebao uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-5: Izračunaj i uništi" short="T28 koncept teškog tenka: ShT-5" desc="Velika vatrena moć koju imate nadoknađuje slabu izdržljivost samohodnih topova." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Pokušajte nanijeti štetu neprijateljskom vozilu prvom prilikom. Čak i ako vaša fugasna granata promaši za dlaku, neprijateljsko vozilo može biti oštećeno od šrapnela.</Hint>
+    <PM name="ShT-5: Dijeljenje je užitak" short="T28 koncept teškog tenka: ShT-5" desc="Ošamućivanje neprijateljskih vozila ne samo da vas dovodi korak bliže pobjedi već dobijate i dodatno iskustvo i kredite ako vaši saveznici oštete vozila koja ste ošamutili. Nemojte zaboraviti označiti područje na koje ciljate (zadano tipka T) kako bi obavjestili svoje saveznike." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi štetu 6 puta veću od HP tvojeg vozila.\n• Šteta nanesena saveznicima se ne računa.</req>
+        <req>• Omogući saveznicima da nanesu najmanje 1000 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 5 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-6: Malj" short="T28 koncept teškog tenka: ShT-6" desc="Često ćete se boriti protiv vozila više razine. Ali to nije problem za iskusne vozače samohodnih topova." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Ako ne možete probiti neprijateljsko vozilo standardnim granatama, pokušajte s premium granatam. Gađajte bokove i zadnji kraj neprijateljskog vozila. Samohodni topovi s njihovom parabolom hica mogu učinkovito pogoditi bilo koje vozilo u vrh kupole, gdje je oklop tanak. Neprijateljska vozila s otvorenim kupolama su još ranjivija na uništenje iz zraka.</Hint>
+    <PM name="ShT-6: Malj bogova" short="T28 koncept teškog tenka: ShT-6" desc="Primarni cilj samohodnih topova je pružanje vatrene potpore saveznicima. Ošamućena neprijateljska vozila su slabi borci i vaši suigrači će znati cijeniti vašu pomoć. Međutim, budite pažljivi kada pucate: aljkavi hitac može ošamutiti i savezničko vozilo. Prijateljska paljba se ne će tolerirati!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje tri neprijateljska vozila iste ili više razine od tvog vozila.</req>
+        <req>• Omogući saveznicima da nanesu štetu najmanje 3 neprijateljska vozila ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-7: Borba s velikim topovima" short="T28 koncept teškog tenka: ShT-7" desc="Trebali bi uništiti neprijateljske lovce na tenkove i samohodne topove prvom prilikom. Njihovo uništenje može preokrenuti tijek bitke u vašu korist." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Koordinirajte vaše akcije sa savezničkim lakim tenkovima. Otkrivanje i uništavanje neprijateljskih lovaca na tenkove i samohodnih topova može ostvariti nadmoć na bojišnici.</Hint>
+    <PM name="ShT-7: Pažljivo razmatranje" short="T28 koncept teškog tenka: ShT-7" desc="Kako bi izvršili ovaj zadatak, selektivno birajte svoje mete. Nemojte koncentrirati paljbu na jedno neprijateljsko vozilo, čak i ako je laka meta. Najbolja strategija je da udarite po velikim grupama neprijateljskih vozila jednim hicem. Proučite mape i naučite osnovne pravce vozila." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljski lovac na tenkove koji je jednu razinu iznad tvog vozila.</req>
+        <req>• Ošamuti najmanje 3 neprijateljska vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 HP štete.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-8: Teška vatra na teške tenkove!" short="T28 koncept teškog tenka: ShT-8" desc="Teški tenk je teška meta, ali ne za vaš top. Granate sa zakrivljenom putanjom mogu pogoditi bilo koje vozilo na vrh kupole gdje je oklop tanak." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Teški tenkovi se općenito kreću sporije od ostalih tipova vozila. Zato često možete predvidjeti gdje će tenk biti kada vaša granata udari. Za vozača samohodnih topova je korisno znati brzinu vaših granata.</Hint>
+    <PM name="ShT-8: Dao sam sve od sebe" short="T28 koncept teškog tenka: ShT-8" desc="Dobijate iskustvo za sve učinkovite akcije. Pokušajte biti MVP: nanosite štetu, pomagajte u uništavanju neprijateljskih vozila i preživite bitku. Mjenjajte svoj položaj nakon svakog hica-u suprotnom protupaljba neprijateljskih samohodnih topova može uništiti vaše vozilo." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 1500 HP štete neprijateljskim teškim tenkovima.</req>
+        <req>• Budi u najboljih 5 igrača u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska teška tenka.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-9: Paljba s pretjecanjem" short="T28 koncept teškog tenka: ShT-9" desc="Iskusni vozač samohodnih topova može lako pogoditi vozila u pokretu. Naučite predviđati kretanje neprijateljskih vozila kada pucate. Upamtite da izravan pogodak može nanijeti puno više štete neprijateljskom vozilu od šrapnela." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Brzina vaših granata je vrlo bitan parametar. Ako znate kada će granata doseći metu možete točno izračunati otklon.</Hint>
+    <PM name="ShT-9: Kolateralna šteta" short="T28 koncept teškog tenka: ShT-9" desc="Moćne fugasne granate ne samo da smanjuju HP neprijateljskih vozila već imaju i veliku šansu uništiti module ili ozlijediti članove posade sa štetom rasprskavanja." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje dva izravna pogotka na neprijateljska vozila.\n• Računaju se svi izravni pogoci, neovisno da li su nanijeli štetu ili ne.</req>
+        <req>• Uništi bilo koji modul neprijateljskih vozila ili ozlijedi članove njihovih posada, ukupno najmanje 5 modula i članova posade.\n• Broj uništenih modula i ozlijeđenih članova posade se računa za sva neprijateljska vozila koja ste oštetili u bitci.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Preživi bitku.\n• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-10: Prokletstvo topništva" short="T28 koncept teškog tenka: ShT-10" desc="Lov na topništvo je odlična ideja. Pokušajte predvidjeti gdje se mogu sakrivati neprijateljski samohodni topovi i provjerite da li ste bili u pravu s preciznim hicem." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Što više vozite samohodni top to ćete bolje upoznati strateške točke na mapi. To će vam pomoći u borbi protiv neprijateljskih samohodnih topova jer ćete već znati gdje mogu biti pozicionirani.</Hint>
+    <PM name="ShT-10: Cijeli spektar usluga" short="T28 koncept teškog tenka: ShT-10" desc="Situacija u bitci se može brzo promjeniti-uvijek pazite na minimapu i pobrinite se da imate jasan pregled neprijateljskih vozila. Morat ćete se cijelo vrijeme kretati po mapi umjesto da ostajete na jednom položaju. Vaši saveznici se pouzdaju u vatrenu moć vašeg samohodnog topa pa dajte sve od sebe na pravom mjestu i u pravo vrijeme." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska samohodna topa.</req>
+        <req>• Ukupna šteta nanešena od vas i vaših saveznika nakon vašeg ošamućenja ili imobilizacije neprijateljskih vozila mora biti najmanje 2000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje tri neprijateljska vozila.</req>
+        <req>• Saveznici moraju uništiti najmanje jedno vozilo koje ste ošamutili ili imobilizirali.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-11: Područje učinka" short="T28 koncept teškog tenka: ShT-11" desc="Vaše visokoeksplozivne granate ne samo da mogu uništiti neprijateljsko vozilo iz prve već mogu nanijeti i značajnu štetu više meta odjednom ako stoje blizu." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Ako nekoliko neprijateljskih vozila stoji zajedno doslovce možete ubiti dvije muhe jednim udarcem. Takvi slučajevi su tipični za gradske mape.</Hint>
+    <PM name="ShT-11: Područje učinka" short="T28 koncept teškog tenka: ShT-11" desc="Osim znatne štete koju nanosi dobro smješten hitac, fugasna granata može također ošamutiti sva vozila unutar radijusa rasprskavanja nakon eksplozije granate. Na mnogim mapama su mjesta gdje se neprijateljska vozila zajedno gužvaju. Iskoristite priliku i pošaljite im eksplozivne \&quot;pozdrave\&quot;." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi štetu najmanje dvoma neprijateljskim vozilima jednim hicem.</req>
+        <req>• Ošamuti najmanje dva neprijateljska vozila jednim hicem dvaput.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila na najmanje ukupno 100 sekundi.</req>
+      </Secondary>
+    </PM>
+    <PM name="ShT-12: Zlo oko" short="T28 koncept teškog tenka: ShT-12" desc="Vaši saveznici su uništili ošamućeno neprijateljsko vozilo? To su dobre vijesti za vas jer vas je vaš doprinos primaknuo korak bliže pobjedi! Vaš cilj je davati vatrenu potporu i pomagati saveznicima u pravo vrijeme i na pravom mjestu." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Ošamuti neprijateljska vozila za najmanje ukupno 100 sekundi.\n• Saveznici moraju uništiti najmanje jedno neprijateljsko vozilo koje ste ošamutili ili imobilizirali.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-12: Udarnik" short="T28 koncept teškog tenka: ShT-12" desc="Stil igre u samohodnom topu se drastično razlikuje od svih ostalih tipova vozila. Ali, glavni cilj je isti - dajte sve od sebe u bitci i pridonesite timu što više možete." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Nemojte se na početku bitke prabacivati u režim topništva. Prvo odaberite dobru stratešku točku.</Hint>
+    <PM name="ShT-13: S za suradnju" short="T28 koncept teškog tenka: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Budi među najboljih tri igrača u oba tima po nanesenoj šteti.\n• Uništi najmanje dva neprijateljska vozila.\n• Preživi bitku.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta ili ih ošamuti najmanje 8 puta.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-13: Topnička bitnica (Osobno/vod)" short="T28 koncept teškog tenka: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Vaš vod može širenjem napasti mete iz različitih pravaca i obezvrijediti ulogu stijena i zgrada kao zaštite koje dominiraju mapom.</Hint>
+    <PM name="ShT-14: Dio posade, dio broda!" short="T28 koncept teškog tenka: ShT-14" desc="Suradnja unutar voda je ključe pobjede cijelog tima. Označite neprijateljska vozila koja ciljate kako bi ih vaši suigrači u vodu odmah mogli zasuti paljbom jednom kada su ošamućeni ili imobilizirani. Upamtite: usamljeni vojnik teško može dobiti bitku." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 20% od ukupne štete nanešene neprijatelju od vašeg tima. Šteta koju su nanijeli suigrači u vodu se računa toj ukupnoj šteti.\n• Pobjedi u bitci.\n• Može se izvršiti samostalno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila na najmanje ukupno 100 sekundi ili omogući saveznicima da nanesu najmanje 600 štete neprijateljskim vozilima imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-14: Ujedinjena ofenziva (Osobno/vod)" short="T28 koncept teškog tenka: ShT-14" desc="Uspjeh topništva ovisi o ostatku tima. Topništvo i laki tenkovi se dobro nadopunjuju u vodu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Laki tenk može otkriti neprijateljska vozila i imobilizirati ih. Samohodni top će ga dovrošiti. Zajedno pobjeđujemo! Teški tenk će vas štititi sa svojim debelim oklopom, srednji tenk će odvlačiti neprijatelja, a lovac na tenkove će pružiti dalekometnu vatrenu podršku.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 HP štete nanešene neprijateljskim teškim tenkovima i lovcima na tenkove. Šteta koju su nanijeli suigrači u vodu se računa toj ukupnoj šteti.\n• Može se izvršiti samostalno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
-      </Secondary>
-    </PM>
-    <PM name="ShT-15: Bogovi rata" short="T28 koncept teškog tenka: ShT-15" desc="Puno je bolje za tim ako samohodni top preživi. Nemojte se izlagati neprijateljskoj vatri i ispaljujte precizne hice na neprijatelja." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
-      <Hint>Ako poznajete tehničke karakteristike vašeg samohodnog topa možete planirati svoje akcije u bitci. Ostanak u bazi ponekad nije dobra ideja. Ako vozite brzi samohodni top možete brzo mijenjati položaj i napasti neprijatelja iz pravca kojeg najmanje očekuje.</Hint>
+    <PM name="ShT-15: Bogovi rata" short="T28 koncept teškog tenka: ShT-15" desc="Samohodni top koji preživi što je duže moguće je prava vrijednost tima. Ispaljujte jednu granatu za drugom, ali nemojte pasti pod neprijateljsku paljbu. Budite strpljivi i promislite dvapu prije nego \&quot;pritisnete okidač\&quot; jer je \&quot;jedan hitac-jedan pogodak\&quot; najbolja strategija za vozilo koje dugo puni granatu." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T28 koncept teškog tenka">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Budi u najbolja tri igrača u oba tima po zarađenom iskustvu i nanesenoj šteti.\n• Nanesi najmanje 2000 HP štete.</req>
+        <req>• Budi u najbolja tri igrača u oba tima po zarađenom iskustvu.\n• Omogući saveznicima da nanesu najmanje 1500 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Preživi bitku.</req>
@@ -2886,7 +2898,7 @@
         <req>• Nanesi najmanje 3000 HP štete neprijateljskim vozilima na maloj udaljenosti (unutar vidokruga tvojeg vozila).</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
     <PM name="TT-6: Teška meta" short="T 55A: TT-6" desc="Teški tenk je opasna meta visokog prioriteta. Uništite teške tenkove kako bi ostvarili prednost svojem timu." tMID="171" opID="3" mID="6" setID="2" ID="quest_3_2_6_main" secID="quest_3_2_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -2913,7 +2925,7 @@
         <req>• Nanesi najmanje 3000 HP štete neprijateljskim teškim tenkovima.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
     <PM name="TT-9: Poražavajući udarac" short="T 55A: TT-9" desc="Često tijekom borbe u skučenom prostoru nećete imati dovoljno vremena za punjenje. U toj situaciji dokrajčite neprijatelja sudaranjem! Što je oklop neprijateljskog vozila slabiji u točci sudaranja, to ćete nanijeti više štete." tMID="174" opID="3" mID="9" setID="2" ID="quest_3_2_9_main" secID="quest_3_2_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -2922,7 +2934,7 @@
         <req>• Uništi neprijateljsko vozilo sudaranjem.\n• Preživi neprijateljski napad sudaranjem.\n• Nanesi više štete sudaranjem nego što je tvom vozilu naneseno štete sudaranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-10: Valjani argument" short="T 55A: TT-10" desc="Neka vaš top stalno radi i ostanite živi što je duže moguće." tMID="175" opID="3" mID="10" setID="2" ID="quest_3_2_10_main" secID="quest_3_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -2940,7 +2952,7 @@
         <req>• Nanesi najmanje 3000 HP štete do kraja bitke.\n• Nemoj imati niti jedan oštećeni/uništeni unutarnji modul ili ozlijeđenog člana posade.\n• Preživi bitku.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
     <PM name="TT-12: Čvrsti oklop" short="T 55A: TT-12" desc="Vaš oklop može podnijeti veliku količinu štete ako ga učinkovito koristite." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -2949,7 +2961,7 @@
         <req>• Imaj najmanje trostruko ukupno blokrane štete od strane oklopa nego HP tvog vozila.\n• Nanesi najmanje 2000 HP štete.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-13: Juriš na obranu! (Osobno/vod)" short="T 55A: TT-13" desc="Vod dobro koordiniranih teških tenkova može preokrenuti i najbeznadežniju situaciju. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje puno teže." tMID="178" opID="3" mID="13" setID="2" ID="quest_3_2_13_main" secID="quest_3_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3075,7 +3087,7 @@
         <req>• Uništi neprijateljsko vozilo sudaranjem.\n• Preživi neprijateljski napad sudaranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="ST-12: Spalitelj" short="T 55A: ST-12" desc="Zapaljenje neprijateljskih vozila je jedan od najučinkovitijih načina da ih se uništi." tMID="192" opID="3" mID="12" setID="3" ID="quest_3_3_12_main" secID="quest_3_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3084,7 +3096,7 @@
         <req>• Zapali neprijateljsko vozilo iste ili više razine.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Budi među najbolja tri igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="ST-13: Aktivna akcija (Osobno/vod)" short="T 55A: ST-13" desc="Vod srednjih tenkova može biti od velike pomoći timu na cijeloj bojišnivi. Ovaj zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3117,10 +3129,10 @@
     <PM name="LNT-1: Učinkovito djelovanje" short="T 55A: LNT-1" desc="Lovci na tenkovi su odličan izbor za igrače koji vole uništavati neprijateljska vozila sa velike udaljenosti." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
       <Hint>Lovci na tenkove imaju jaku vatrenu moć, ali relativno teško preživljavaju. Pokušajte pucati s udaljenosti-preciznost vaših topova vam to omogućava.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Budi među najbolja tri igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-2: Ciljana paljba" short="T 55A: LNT-2" desc="Ako pogodite modul neprijateljskog vozila ili ozlijedite posadu, borbena učinkovitost neprijatelja će se smanjiti." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3147,7 +3159,7 @@
         <req>• Uništi najmanje tri neprijateljska vozila. Ostani neotkriven od njih u trenutku njihova uništenja.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-5: Dalekometni top" short="T 55A: LNT-5" desc="Kada vozite lovac na tenkove bitno je znati kako učinkovito pucati na velike udaljenosti." tMID="200" opID="3" mID="5" setID="4" ID="quest_3_4_5_main" secID="quest_3_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3174,7 +3186,7 @@
         <req>• Uništi najmanje tri neprijateljska vozila bez prethodno primljene štete na tvojem vozilu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-8: Veliki kalibar" short="T 55A: LNT-8" desc="Svaki vozač lovca na tenkove bi trebao znati kako nanijeti više štete neprijatelju nego što njegovo vozilo ima HPa." tMID="203" opID="3" mID="8" setID="4" ID="quest_3_4_8_main" secID="quest_3_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3183,7 +3195,7 @@
         <req>Nanesi četiri puta više štete neprijateljskim vozilima od HP svog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-9: Točno mjesto!" short="T 55A: LNT-9" desc="Odlične karakteristike vašeg topa nadoknađuju relativno slab oklop vašeg vozila." tMID="204" opID="3" mID="9" setID="4" ID="quest_3_4_9_main" secID="quest_3_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3201,7 +3213,7 @@
         <req>• Nanesi najmanje 3000 HP štete neprijateljskim vozilima. Ostani neotkriven u trenutku nanošenje štete.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-11: Ključna uloga" short="T 55A: LNT-11" desc="Vaš moćni top je sila na koju se mora računati. Naravno, ako ga znate koristiti." tMID="206" opID="3" mID="11" setID="4" ID="quest_3_4_11_main" secID="quest_3_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3219,7 +3231,7 @@
         <req>• Uništi najmanje dva neprijateljska teška tenka.\n• Nanesi najmanje 3000 HP štete.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-13: Lovci na tenkove (Osobno/vod)" short="T 55A: LNT-13" desc="Kao vod možete koncentrirati vašu paljbu i brzo uništavati neprijateljske tenkove. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="208" opID="3" mID="13" setID="4" ID="quest_3_4_13_main" secID="quest_3_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
@@ -3249,136 +3261,136 @@
         <req>• Uništi najmanje tri neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-1: Dobar strijelac" short="T 55A: ShT-1" desc="Ne trošite streljivo uzalud. Precizni pogoci vam donose pobjedu." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Budite strpljivi i čekajte dok niste potpuno naciljali metu.</Hint>
+    <PM name="ShT-1: Odvažna tvrdnja" short="T 55A: ShT-1" desc="Veliki radijus rasprskavanja nakon eksplozije granate je ključna osobina samohodnih topova. Čak i ako ne uspijete izravno pogoditi neprijateljsko vozilo još uvijek ima šanse da mu date velike glavobolje tako što ste ga ošamutili. Neprijateljsko vozilo je označeno znakom ošamućenosti koje je vidljivo vašim saveznicima. Ako saveznici nanesu štetu vozilu koje ste ošamutili, dobit ćete dodatne kredite i iskustvo za štetu koja je nanešena uz vašu pomoć." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje 5 hitaca koji uzrokuju štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 7 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 HP štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-2: Skriven i opasan" short="T 55A: ShT-2" desc="Samohodni topovi se ne mogu pouzdati u debljinu oklopa ili brzinu. Ako vozite samohodni top naučite kako ostati skriven tijekom cijele bitke." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Maskirna mreža u kombinaciji s vještinom posade kamuflaža će vam pomoći da ostanete neotkriveni.</Hint>
+    <PM name="ShT-2: Vrijeme je novac" short="T 55A: ShT-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni period i ne može dati sve od sebe na bojišnici. Upamtite: ošamućeno vozilo postaje laka meta." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Budi u pet najboljih igrača u svom timu po nanesenoj šteti. Ostani neotkriven tijekom bitke.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 150 sekundi.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Uništi najmanje tri neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-3: Udar haubice" short="T 55A: ShT-3" desc="Ako želite biti od koristi timu, prvo morate naučiti učinkovito pucati." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Pratite tijek bitke i podržavajte svoj tim. Ne ostajte predugo na jednom mjestu. Povucite se i tražite drugi vatreni položaj ako je potrebno.</Hint>
+    <PM name="ShT-3: Polako i sigurno se ošamuti" short="T 55A: ShT-3" desc="Skriveni i moćni lovci na tenkove i dobro oklopljeni teški tenkovi mogu preokrenuti tijek bitke. Oni su vaše primarne mete i nanošenje štete njima (ili pomaganje u njihovom uništenju) bi trebao biti primarni cilj za igrača u samohodnom topu. Većina teškaša i lovaca na tenkove su spori i nezgrapni što povećava vjerojatnost uspješnog hica." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 HP štete neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje 6 puta.\n• Hici ošamućenja bi trebali uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT: Proboj" short="T 55A: ShT" desc="Jaka fugasna granata ne samo da nanosi štetu neprijatelju već ima veliku vojerojatnost oštećenja ili uništenja modula ili ozljeđivanja članova posade sa štetom rasprskavanja." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Samo potpunim probojem oklopa i eksplozijom unutar trupa neprijateljskog vozila je fugasna granata učinkovita. Ako vaše granate imaju osrednju probojnost pokušajte pronaći neprijateljsko vozilo s otvorenom kupolom ili napunite premium granatu.</Hint>
+    <PM name="ShT-4: Provest ću te" short="T 55A: ShT-4" desc="Naučite glavne pravce neprijateljskih teških tenkova i položaje gdje se obično skrivaju lukavi lovci na tenkove. Ciljanje unaprijed na određeni dio mape povećava vjerojatnost za najučinkovitiju i najrazorniju paljbu na neprijateljske položaje. Ovi tipovi vozila obično koriste predvidljive taktike na određenim mapama. Budite pametni: analizirajte sastav neprijateljskog tima i odaberite najbolji položaj na samom početku bitke." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ošteti ili uništi module neprijateljskog vozila ili ozlijedi članove posade, najmanje 8 modula i članova posade ukupno.\n• Broj oštećenih/uništenih modula i ozliješenih članova posade svih neprijateljskih vozila u bitci se zbrajaju.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje ukupno 80 sekundi.\n• Hitac ošamućenja bi trebao uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-5: Izračunaj i uništi" short="T 55A: ShT-5" desc="Velika vatrena moć koju imate nadoknađuje slabu izdržljivost samohodnih topova." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Pokušajte nanijeti štetu neprijateljskom vozilu prvom prilikom. Čak i ako vaša fugasna granata promaši za dlaku, neprijateljsko vozilo može biti oštećeno od šrapnela.</Hint>
+    <PM name="ShT-5: Dijeljenje je užitak" short="T 55A: ShT-5" desc="Ošamućivanje neprijateljskih vozila ne samo da vas dovodi korak bliže pobjedi već dobijate i dodatno iskustvo i kredite ako vaši saveznici oštete vozila koja ste ošamutili. Nemojte zaboraviti označiti područje na koje ciljate (zadano tipka T) kako bi obavjestili svoje saveznike." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi 8 puta više štete od HP tvojeg vozila.\n• Ne računa se šteta nanešena saveznicima.</req>
+        <req>• Omogući saveznicima da nanesu najmanje 2000 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje tri neprijateljska vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 6 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-6: Malj" short="T 55A: ShT-6" desc="Često ćete se boriti protiv vozila više razine. Ali to nije problem za iskusne vozače samohodnih topova." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Ako ne možete probiti neprijateljsko vozilo standardnim granatama, pokušajte s premium granatam. Gađajte bokove i zadnji kraj neprijateljskog vozila. Samohodni topovi s njihovom parabolom hica mogu učinkovito pogoditi bilo koje vozilo u vrh kupole, gdje je oklop tanak. Neprijateljska vozila s otvorenim kupolama su još ranjivija na uništenje iz zraka.</Hint>
+    <PM name="ShT-6: Malj bogova" short="T 55A: ShT-6" desc="Primarni cilj samohodnih topova je pružanje vatrene potpore saveznicima. Ošamućena neprijateljska vozila su slabi borci i vaši suigrači će znati cijeniti vašu pomoć. Međutim, budite pažljivi kada pucate: aljkavi hitac može ošamutiti i savezničko vozilo. Prijateljska paljba se ne će tolerirati!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje tri neprijateljska vozila koja su jednu razinu viša od tvog vozila.</req>
+        <req>• Omogući saveznicima da nanesu štetu najmanje 5 neprijateljskih vozila ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-7: Borba s velikim topovima" short="T 55A: ShT-7" desc="Trebali bi uništiti neprijateljske lovce na tenkove i samohodne topove prvom prilikom. Njihovo uništenje može preokrenuti tijek bitke u vašu korist." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Koordinirajte vaše akcije sa savezničkim lakim tenkovima. Otkrivanje i uništavanje neprijateljskih lovaca na tenkove i samohodnih topova može ostvariti nadmoć na bojišnici.</Hint>
+    <PM name="ShT-7: Pažljivo razmatranje" short="T 55A: ShT-7" desc="Kako bi izvršili ovaj zadatak, selektivno birajte svoje mete. Nemojte koncentrirati paljbu na jedno neprijateljsko vozilo, čak i ako je laka meta. Najbolja strategija je da udarite po velikim grupama neprijateljskih vozila jednim hicem. Proučite mape i naučite osnovne pravce vozila." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi ukupno najmanje dva neprijateljska lovca na tenkove i samohodna topa.\n• Pobjedi u bitci.</req>
+        <req>• Ošamuti najmanje 5 neprijateljskih vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 HP štete.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-8: Teška vatra na teške tenkove!" short="T 55A: ShT-8" desc="Teški tenk je teška meta, ali ne za vaš top. Granate sa zakrivljenom putanjom mogu pogoditi bilo koje vozilo na vrh kupole gdje je oklop tanak." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Teški tenkovi se općenito kreću sporije od ostalih tipova vozila. Zato često možete predvidjeti gdje će tenk biti kada vaša granata udari. Za vozača samohodnih topova je korisno znati brzinu vaših granata.</Hint>
+    <PM name="ShT-8: Dao sam sve od sebe" short="T 55A: ShT-8" desc="Dobijate iskustvo za sve učinkovite akcije. Pokušajte biti MVP: nanosite štetu, pomagajte u uništavanju neprijateljskih vozila i preživite bitku. Mjenjajte svoj položaj nakon svakog hica-u suprotnom protupaljba neprijateljskih samohodnih topova može uništiti vaše vozilo." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 2000 HP štete neprijateljskim teškim tenkovima.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijatelkjski teški tenk.\n• Pobjedi u bitci.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-9: Paljba s pretjecanjem" short="T 55A: ShT-9" desc="Iskusni vozač samohodnih topova može lako pogoditi vozila u pokretu. Naučite predviđati kretanje neprijateljskih vozila kada pucate. Upamtite da izravan pogodak može nanijeti puno više štete neprijateljskom vozilu od šrapnela." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Brzina vaših granata je vrlo bitan parametar. Ako znate kada će granata doseći metu možete točno izračunati otklon.</Hint>
+    <PM name="ShT-9: Kolateralna šteta" short="T 55A: ShT-9" desc="Moćne fugasne granate ne samo da smanjuju HP neprijateljskih vozila već imaju i veliku šansu uništiti module ili ozlijediti članove posade sa štetom rasprskavanja." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ošteti neprijateljsko vozilo koje se kreće brzinom od najmanje 30 km/sat.\n• Računa se i šteta rasprskavanja i izravni pogoci.\n• Ne računa se šteta nanešena sudaranjem.</req>
+        <req>• Uništi bilo koji modul neprijateljskih vozila ili ozlijedi članove njihovih posada, ukupno najmanje 8 modula i članova posade.\n• Broj uništenih modula i ozlijeđenih članova posade se računa za sva neprijateljska vozila koja ste oštetili u bitci.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Preživi bitku.\n• Pobjedi u bitci.\n• Ostani neotkriven tijekom bitke.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-10: Prokletstvo topništva" short="T 55A: ShT-10" desc="Lov na topništvo je odlična ideja. Pokušajte predvidjeti gdje se mogu sakrivati neprijateljski samohodni topovi i provjerite da li ste bili u pravu s preciznim hicem." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Što više vozite samohodni top to ćete bolje upoznati strateške točke na mapi. To će vam pomoći u borbi protiv neprijateljskih samohodnih topova jer ćete već znati gdje mogu biti pozicionirani.</Hint>
+    <PM name="ShT-10: Cijeli spektar usluga" short="T 55A: ShT-10" desc="Situacija u bitci se može brzo promjeniti-uvijek pazite na minimapu i pobrinite se da imate jasan pregled neprijateljskih vozila. Morat ćete se cijelo vrijeme kretati po mapi umjesto da ostajete na jednom položaju. Vaši saveznici se pouzdaju u vatrenu moć vašeg samohodnog topa pa dajte sve od sebe na pravom mjestu i u pravo vrijeme." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje jedan neprijateljski samohodni top.\n• Nanesi najmanje 2000 HP štete neprijateljskim vozilima.</req>
+        <req>• Ukupna šteta koju ste nanijeli vi i saveznici nakon vašeg ošamućenja ili imobiliziranja neprijateljskih vozila mora biti najmanje 3000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Pobjedi u bitci.\n• Saveznici moraju uništiti najmanje dva neprijateljska vozila koja ste ošamutili ili imobilizirali.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-11: Područje učinka" short="T 55A: ShT-11" desc="Vaše visokoeksplozivne granate ne samo da mogu uništiti neprijateljsko vozilo iz prve već mogu nanijeti i značajnu štetu više meta odjednom ako stoje blizu." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Ako nekoliko neprijateljskih vozila stoji zajedno doslovce možete ubiti dvije muhe jednim udarcem. Takvi slučajevi su tipični za gradske mape.</Hint>
+    <PM name="ShT-11: Područje učinka" short="T 55A: ShT-11" desc="Osim znatne štete koju nanosi dobro smješten hitac, fugasna granata može također ošamutiti sva vozila unutar radijusa rasprskavanja nakon eksplozije granate. Na mnogim mapama su mjesta gdje se neprijateljska vozila zajedno gužvaju. Iskoristite priliku i pošaljite im eksplozivne \&quot;pozdrave\&quot;." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi neprijateljsko vozilo i nanesi štetu još jednom vozilu s jednim hicem.</req>
+        <req>• Ošamuti najmanje 3 neprijateljska vozila jednim hicem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 150 sekundi.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-12: Udarnik" short="T 55A: ShT-12" desc="Stil igre u samohodnom topu se drastično razlikuje od svih ostalih tipova vozila. Ali, glavni cilj je isti - dajte sve od sebe u bitci i pridonesite timu što više možete." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Nemojte se na početku bitke prabacivati u režim topništva. Prvo odaberite dobru stratešku točku.</Hint>
+    <PM name="ShT-12: Zlo oko" short="T 55A: ShT-12" desc="Vaši saveznici su uništili ošamućeno neprijateljsko vozilo? To su dobre vijesti za vas jer vas je vaš doprinos primaknuo korak bliže pobjedi! Vaš cilj je davati vatrenu potporu i pomagati saveznicima u pravo vrijeme i na pravom mjestu." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi bitku kao najbolji igrač u svom tomu po nanesenoj šteti.\n• Uništi najmanje tri neprijateljska vozila.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 150 sekundi\n• Saveznici moraju uništiti najmanje dva neprijateljska vozila koja ste ošamutili ili imobilizirali.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-13: Topnička bitnica (Osobno/vod)" short="T 55A: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Vaš vod može širenjem napasti mete iz različitih pravaca i obezvrijediti ulogu stijena i zgrada kao zaštite koje dominiraju mapom.</Hint>
+    <PM name="ShT-13: S za suradnju" short="T 55A: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 25% od ukupne štete neprijateljskim vozilima svog tima bilo osobno ili ukupno kao vod.\n• Pobjedi u bitci.\n• Može se izvršiti osobno ili kao dio voda koji se sastoji od tvojeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta ili ih ošamuti najmanje 10 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-14: Ujedinjena ofenziva (Osobno/vod)" short="T 55A: ShT-14" desc="Uspjeh topništva ovisi o ostatku tima. Topništvo i laki tenkovi se dobro nadopunjuju u vodu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Laki tenk može otkriti neprijateljska vozila i imobilizirati ih. Samohodni top će ga dovrošiti. Zajedno pobjeđujemo! Teški tenk će vas štititi sa svojim debelim oklopom, srednji tenk će odvlačiti neprijatelja, a lovac na tenkove će pružiti dalekometnu vatrenu podršku.</Hint>
+    <PM name="ShT-14: Dio posade, dio broda!" short="T 55A: ShT-14" desc="Suradnja unutar voda je ključe pobjede cijelog tima. Označite neprijateljska vozila koja ciljate kako bi ih vaši suigrači u vodu odmah mogli zasuti paljbom jednom kada su ošamućeni ili imobilizirani. Upamtite: usamljeni vojnik teško može dobiti bitku." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 HP štete neprijateljskim teškim tenkovima i lovcima na tenkove bilo osobno ili ukupno kao vod.\n• Može se izvršiti osobno ili kao dio voda koji se sastoji od tvojeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 180 sekundi ili omogući svojim saveznicima da nanesu najmanje 800 štete neprijateljskim vozilima imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-15: Bogovi rata" short="T 55A: ShT-15" desc="Puno je bolje za tim ako samohodni top preživi. Nemojte se izlagati neprijateljskoj vatri i ispaljujte precizne hice na neprijatelja." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
-      <Hint>Ako poznajete tehničke karakteristike vašeg samohodnog topa možete planirati svoje akcije u bitci. Ostanak u bazi ponekad nije dobra ideja. Ako vozite brzi samohodni top možete brzo mijenjati položaj i napasti neprijatelja iz pravca kojeg najmanje očekuje.</Hint>
+    <PM name="ShT-15: Bogovi rata" short="T 55A: ShT-15" desc="Samohodni top koji preživi što je duže moguće je prava vrijednost tima. Ispaljujte jednu granatu za drugom, ali nemojte pasti pod neprijateljsku paljbu. Budite strpljivi i promislite dvapu prije nego \&quot;pritisnete okidač\&quot; jer je \&quot;jedan hitac-jedan pogodak\&quot; najbolja strategija za vozilo koje dugo puni granatu." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Završi bitku kao najbolji igrač u svom timu po zarađenom iskustvu i nanesenoj šteti.\n• Nanesi najmanje 3000 HP štete.</req>
+        <req>• Završi bitku kao najbolji igrač u svom timu po zarađenom iskustvu.\n• Omogući saveznicima da nanesu najmanje 2500 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Preživi bitku.</req>
@@ -3579,7 +3591,7 @@
         <req>• Sudjeluj u uspješnom osvajanju baze ili poništi neprijateljsko osvajanje vaše/neutralne baze.\n• Pobjedi u bitci.\n• Nanesi najmanje 4000 HP štete neprijateljskim vozilima.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
     <PM name="TT-8: Iz svih oruđa" short="Object 260: TT-8" desc="Oklop je vaš najveći saveznik. Nanesite što je moguće više štete dok vas neprijatelj uzaludno pokušava uništiti." tMID="248" opID="4" mID="8" setID="2" ID="quest_4_2_8_main" secID="quest_4_2_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3597,7 +3609,7 @@
         <req>• Uništi neprijateljsko vozilo sudaranjem koje je jednu razinu više od tvog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-10: Valjani argument" short="Object 260: TT-10" desc="Neka vaš top stalno radi i ostanite živi što je duže moguće." tMID="250" opID="4" mID="10" setID="2" ID="quest_4_2_10_main" secID="quest_4_2_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3624,7 +3636,7 @@
         <req>• Imaj najmanje trostruko ukupno blokrane štete od strane oklopa nego HP tvog vozila.\n• Nanesi najmanje 3000 HP štete.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="TT-13: Juriš na obranu! (Osobno/vod)" short="Object 260: TT-13" desc="Vod dobro koordiniranih teških tenkova može preokrenuti i najbeznadežniju situaciju. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje puno teže." tMID="253" opID="4" mID="13" setID="2" ID="quest_4_2_13_main" secID="quest_4_2_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3750,7 +3762,7 @@
         <req>• Uništi neprijateljsko vozilo sudaranjem koje je jednu razinu više od tvog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="ST-12: Spalitelj" short="Object 260: ST-12" desc="Zapaljenje neprijateljskih vozila je jedan od najučinkovitijih načina da ih se uništi." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3759,7 +3771,7 @@
         <req>• Zapali neprijateljsko vozilo iste ili više razine.\n• Nanesi najmanje 3000 HP štete neprijateljskim vozilima.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Budi među najbolja tri igrača u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Budi među najbolja 3 igrača u svojem timu po zarađenom iskustvu.</req>
       </Secondary>
     </PM>
     <PM name="ST-13: Aktivna akcija (Osobno/vod)" short="Object 260: ST-13" desc="Vod srednjih tenkova može biti od velike pomoći timu na cijeloj bojišnivi. Ovaj zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3792,10 +3804,10 @@
     <PM name="LNT-1: Učinkovito djelovanje" short="Object 260: LNT-1" desc="Lovci na tenkovi su odličan izbor za igrače koji vole uništavati neprijateljska vozila sa velike udaljenosti." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
       <Hint>Lovci na tenkove imaju jaku vatrenu moć, ali relativno teško preživljavaju. Pokušajte pucati s udaljenosti-preciznost vaših topova vam to omogućava.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Završi bitku kao najbolji igrač u tvojem timu po zarađenom iskustvu.</req>
+        <req>• Završi bitku kao najbolji igrač u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-2: Ciljana paljba" short="Object 260: LNT-2" desc="Ako pogodite modul neprijateljskog vozila ili ozlijedite posadu, borbena učinkovitost neprijatelja će se smanjiti." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3822,7 +3834,7 @@
         <req>• Uništi najmanje četiri neprijateljska vozila. Ostani neotkriven od njih u trenutku njihova uništenja.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-5: Dalekometni top" short="Object 260: LNT-5" desc="Kada vozite lovac na tenkove bitno je znati kako učinkovito pucati na velike udaljenosti." tMID="275" opID="4" mID="5" setID="4" ID="quest_4_4_5_main" secID="quest_4_4_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3840,7 +3852,7 @@
         <req>• Nanesi najmanje 3000 HP štete neprijateljskim vozilima s udaljenosti od najmanje 250 m.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
     <PM name="LNT-7: Prvi udar" short="Object 260: LNT-7" desc="Ne dajte neprijatelju da vam se previše približi: oklop vašeg vozila nije dostatno učinkovit protiv neprijateljske vatre." tMID="277" opID="4" mID="7" setID="4" ID="quest_4_4_7_main" secID="quest_4_4_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3849,7 +3861,7 @@
         <req>• Uništi najmanje četiri neprijateljska vozila bez prethodno primljene štete na tvojem vozilu.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-8: Veliki kalibar" short="Object 260: LNT-8" desc="Svaki vozač lovca na tenkove bi trebao znati kako nanijeti više štete neprijatelju nego što njegovo vozilo ima HPa." tMID="278" opID="4" mID="8" setID="4" ID="quest_4_4_8_main" secID="quest_4_4_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3858,7 +3870,7 @@
         <req>• Nanesi pet puta više štete neprijateljskim vozilima od HP svog vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-9: Točno mjesto!" short="Object 260: LNT-9" desc="Odlične karakteristike vašeg topa nadoknađuju relativno slab oklop vašeg vozila." tMID="279" opID="4" mID="9" setID="4" ID="quest_4_4_9_main" secID="quest_4_4_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3876,7 +3888,7 @@
         <req>• Nanesi najmanje 4000 HP štete neprijateljskim vozilima. Ostani neotkriven u trenutku nanošenja štete.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-11: Ključna uloga" short="Object 260: LNT-11" desc="Vaš moćni top je sila na koju se mora računati. Naravno, ako ga znate koristiti." tMID="281" opID="4" mID="11" setID="4" ID="quest_4_4_11_main" secID="quest_4_4_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3894,7 +3906,7 @@
         <req>• Uništi najmanje tri neprijateljska teška tenka.\n• Nanesi najmanje 4000 HP štete.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
     <PM name="LNT-13: Lovci na tenkove (Osobno/vod)" short="Object 260: LNT-13" desc="Kao vod možete koncentrirati vašu paljbu i brzo uništavati neprijateljske tenkove. Zadatak se može izvršiti bilo kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="283" opID="4" mID="13" setID="4" ID="quest_4_4_13_main" secID="quest_4_4_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
@@ -3924,136 +3936,136 @@
         <req>• Uništi najmanje pet neprijateljskih vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-1: Dobar strijelac" short="Object 260: ShT-1" desc="Ne trošite streljivo uzalud. Precizni pogoci vam donose pobjedu." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Budite strpljivi i čekajte dok niste potpuno naciljali metu.</Hint>
+    <PM name="ShT-1: Odvažna tvrdnja" short="Object 260: ShT-1" desc="Veliki radijus rasprskavanja nakon eksplozije granate je ključna osobina samohodnih topova. Čak i ako ne uspijete izravno pogoditi neprijateljsko vozilo još uvijek ima šanse da mu date velike glavobolje tako što ste ga ošamutili. Neprijateljsko vozilo je označeno znakom ošamućenosti koje je vidljivo vašim saveznicima. Ako saveznici nanesu štetu vozilu koje ste ošamutili, dobit ćete dodatne kredite i iskustvo za štetu koja je nanešena uz vašu pomoć." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje 6 hitaca koji nanose štetu neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje 10 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 HP štete.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-2: Skriven i opasan" short="Object 260: ShT-2" desc="Samohodni topovi se ne mogu pouzdati u debljinu oklopa ili brzinu. Ako vozite samohodni top naučite kako ostati skriven tijekom cijele bitke." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Maskirna mreža u kombinaciji s vještinom posade kamuflaža će vam pomoći da ostanete neotkriveni.</Hint>
+    <PM name="ShT-2: Vrijeme je novac" short="Object 260: ShT-2" desc="Neprijateljsko vozilo ostaje ošamućeno na određeni period i ne može dati sve od sebe na bojišnici. Upamtite: ošamućeno vozilo postaje laka meta." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Budi u najbolja tri igrača u tvom timu po nanešenoj šteti. Ostani neotkriven tijekom bitke.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 200 sekundi.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje tri neprijateljska vozila.</req>
+        <req>• Uništi najmanje 4 neprijateljska vozila.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-3: Udar haubice" short="Object 260: ShT-3" desc="Ako želite biti od koristi timu, prvo morate naučiti učinkovito pucati." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Pratite tijek bitke i podržavajte svoj tim. Ne ostajte predugo na jednom mjestu. Povucite se i tražite drugi vatreni položaj ako je potrebno.</Hint>
+    <PM name="ShT-3: Polako i sigurno se ošamuti" short="Object 260: ShT-3" desc="Skriveni i moćni lovci na tenkove i dobro oklopljeni teški tenkovi mogu preokrenuti tijek bitke. Oni su vaše primarne mete i nanošenje štete njima (ili pomaganje u njihovom uništenju) bi trebao biti primarni cilj za igrača u samohodnom topu. Većina teškaša i lovaca na tenkove su spori i nezgrapni što povećava vjerojatnost uspješnog hica." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 HP štete neprijateljskim vozilima.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje 8 puta.\n• Hici ošamućenja bi trebali uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT: Proboj" short="Object 260: ShT" desc="Jaka fugasna granata ne samo da nanosi štetu neprijatelju već ima veliku vojerojatnost oštećenja ili uništenja modula ili ozljeđivanja članova posade sa štetom rasprskavanja." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Samo potpunim probojem oklopa i eksplozijom unutar trupa neprijateljskog vozila je fugasna granata učinkovita. Ako vaše granate imaju osrednju probojnost pokušajte pronaći neprijateljsko vozilo s otvorenom kupolom ili napunite premium granatu.</Hint>
+    <PM name="ShT-4: Provest ću te" short="Object 260: ShT-4" desc="Naučite glavne pravce neprijateljskih teških tenkova i položaje gdje se obično skrivaju lukavi lovci na tenkove. Ciljanje unaprijed na određeni dio mape povećava vjerojatnost za najučinkovitiju i najrazorniju paljbu na neprijateljske položaje. Ovi tipovi vozila obično koriste predvidljive taktike na određenim mapama. Budite pametni: analizirajte sastav neprijateljskog tima i odaberite najbolji položaj na samom početku bitke." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Uništi ili ošteti module neprijateljskih vozila ili ozlijedi članove posade, ukupno najmanje 10 modula i članova posade.\n• Broj oštećenih/uništenih modula i ozlijeđenih članova posade svih neprijateljskih vozila koje ste oštetili se zbrajaju.</req>
+        <req>• Ošamuti neprijateljski teški tenk ili lovac na tenkove najmanje ukupno 120 sekundi.\n• Hitac ošamućenja bi trebao uzrokovati i štetu.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-5: Izračunaj i uništi" short="Object 260: ShT-5" desc="Velika vatrena moć koju imate nadoknađuje slabu izdržljivost samohodnih topova." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Pokušajte nanijeti štetu neprijateljskom vozilu prvom prilikom. Čak i ako vaša fugasna granata promaši za dlaku, neprijateljsko vozilo može biti oštećeno od šrapnela.</Hint>
+    <PM name="ShT-5: Dijeljenje je užitak" short="Object 260: ShT-5" desc="Ošamućivanje neprijateljskih vozila ne samo da vas dovodi korak bliže pobjedi već dobijate i dodatno iskustvo i kredite ako vaši saveznici oštete vozila koja ste ošamutili. Nemojte zaboraviti označiti područje na koje ciljate (zadano tipka T) kako bi obavjestili svoje saveznike." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi štetu 10 puta veću od HP tvojeg vozila.\n• Ne računa se šteta nanešena saveznicima.</req>
+        <req>• Omogući saveznicima da nanesu najmanje 3000 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje četiri neprijateljska vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 8 puta hicem ili sudaranjem.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-6: Malj" short="Object 260: ShT-6" desc="Često ćete se boriti protiv vozila više razine. Ali to nije problem za iskusne vozače samohodnih topova." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Ako ne možete probiti neprijateljsko vozilo standardnim granatama, pokušajte s premium granatam. Gađajte bokove i zadnji kraj neprijateljskog vozila. Samohodni topovi s njihovom parabolom hica mogu učinkovito pogoditi bilo koje vozilo u vrh kupole, gdje je oklop tanak. Neprijateljska vozila s otvorenim kupolama su još ranjivija na uništenje iz zraka.</Hint>
+    <PM name="ShT-6: Malj bogova" short="Object 260: ShT-6" desc="Primarni cilj samohodnih topova je pružanje vatrene potpore saveznicima. Ošamućena neprijateljska vozila su slabi borci i vaši suigrači će znati cijeniti vašu pomoć. Međutim, budite pažljivi kada pucate: aljkavi hitac može ošamutiti i savezničko vozilo. Prijateljska paljba se ne će tolerirati!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska vozila koja su dvije razine iznad tvog vozila.</req>
+        <req>• Omogući saveznicima da nanesu štetu najmanje 6 neprijateljskih vozila ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-7: Borba s velikim topovima" short="Object 260: ShT-7" desc="Trebali bi uništiti neprijateljske lovce na tenkove i samohodne topove prvom prilikom. Njihovo uništenje može preokrenuti tijek bitke u vašu korist." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Koordinirajte vaše akcije sa savezničkim lakim tenkovima. Otkrivanje i uništavanje neprijateljskih lovaca na tenkove i samohodnih topova može ostvariti nadmoć na bojišnici.</Hint>
+    <PM name="ShT-7: Pažljivo razmatranje" short="Object 260: ShT-7" desc="Kako bi izvršili ovaj zadatak, selektivno birajte svoje mete. Nemojte koncentrirati paljbu na jedno neprijateljsko vozilo, čak i ako je laka meta. Najbolja strategija je da udarite po velikim grupama neprijateljskih vozila jednim hicem. Proučite mape i naučite osnovne pravce vozila." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi ukupno najmanje tri neprijateljska lovca na tenkove i samohodna topa.\n• Pobjedi u bitci.</req>
+        <req>• Ošamuti najmanje 6 neprijateljskih vozila.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 4000 HP štete.</req>
+        <req>• Pobjedi u bitci\n• Preživi bitku.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-8: Teška vatra na teške tenkove!" short="Object 260: ShT-8" desc="Teški tenk je teška meta, ali ne za vaš top. Granate sa zakrivljenom putanjom mogu pogoditi bilo koje vozilo na vrh kupole gdje je oklop tanak." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Teški tenkovi se općenito kreću sporije od ostalih tipova vozila. Zato često možete predvidjeti gdje će tenk biti kada vaša granata udari. Za vozača samohodnih topova je korisno znati brzinu vaših granata.</Hint>
+    <PM name="ShT-8: Dao sam sve od sebe" short="Object 260: ShT-8" desc="Dobijate iskustvo za sve učinkovite akcije. Pokušajte biti MVP: nanosite štetu, pomagajte u uništavanju neprijateljskih vozila i preživite bitku. Mjenjajte svoj položaj nakon svakog hica-u suprotnom protupaljba neprijateljskih samohodnih topova može uništiti vaše vozilo." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 3000 HP štete neprijateljskim teškim tenkovima.</req>
+        <req>• Završi bitku kao najbolji igrač u svojem timu po zarađenom iskustvu.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska teška tenka.\n• Pobjedi u bitci.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-9: Paljba s pretjecanjem" short="Object 260: ShT-9" desc="Iskusni vozač samohodnih topova može lako pogoditi vozila u pokretu. Naučite predviđati kretanje neprijateljskih vozila kada pucate. Upamtite da izravan pogodak može nanijeti puno više štete neprijateljskom vozilu od šrapnela." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Brzina vaših granata je vrlo bitan parametar. Ako znate kada će granata doseći metu možete točno izračunati otklon.</Hint>
+    <PM name="ShT-9: Kolateralna šteta" short="Object 260: ShT-9" desc="Moćne fugasne granate ne samo da smanjuju HP neprijateljskih vozila već imaju i veliku šansu uništiti module ili ozlijediti članove posade sa štetom rasprskavanja." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ostvari najmanje četiri hica na neprijateljska vozila.\n• Svi direktni pogoci se računaju, bilo da su nanijeli štetu ili ne.</req>
+        <req>• Uništi bilo koji modul neprijateljskih vozila ili ozlijedi članove njihovih posada, ukupno najmanje 10 modula i članova posade.\n• Broj uništenih modula i ozlijeđenih članova posade se računa za sva neprijateljska vozila koja ste oštetili u bitci.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Preživi bitku.\n• Pobjedi u bitci.\n• Ostani neotkriven tijekom bitke.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-10: Prokletstvo topništva" short="Object 260: ShT-10" desc="Lov na topništvo je odlična ideja. Pokušajte predvidjeti gdje se mogu sakrivati neprijateljski samohodni topovi i provjerite da li ste bili u pravu s preciznim hicem." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Što više vozite samohodni top to ćete bolje upoznati strateške točke na mapi. To će vam pomoći u borbi protiv neprijateljskih samohodnih topova jer ćete već znati gdje mogu biti pozicionirani.</Hint>
+    <PM name="ShT-10: Cijeli spektar usluga" short="Object 260: ShT-10" desc="Situacija u bitci se može brzo promjeniti-uvijek pazite na minimapu i pobrinite se da imate jasan pregled neprijateljskih vozila. Morat ćete se cijelo vrijeme kretati po mapi umjesto da ostajete na jednom položaju. Vaši saveznici se pouzdaju u vatrenu moć vašeg samohodnog topa pa dajte sve od sebe na pravom mjestu i u pravo vrijeme." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska samohodna topa koja još nisu otkrivena.\n• Nanesi najmanje 4000 HP štete neprijateljskim vozilima.</req>
+        <req>• Ukupna šteta koju ste nanijeli vi i saveznici neprijateljskim vozilima koje ste ošamutili ili imobilizirali mora biti najmanje 4000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje pet neprijateljskih vozila.</req>
+        <req>• Pobjedi u bitci.\n• Saveznici moraju uništiti najmanje 3 neprijateljska vozila koja ste ošamutili ili imobilizirali.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-11: Područje učinka" short="Object 260: ShT-11" desc="Vaše visokoeksplozivne granate ne samo da mogu uništiti neprijateljsko vozilo iz prve već mogu nanijeti i značajnu štetu više meta odjednom ako stoje blizu." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Ako nekoliko neprijateljskih vozila stoji zajedno doslovce možete ubiti dvije muhe jednim udarcem. Takvi slučajevi su tipični za gradske mape.</Hint>
+    <PM name="ShT-11: Područje učinka" short="Object 260: ShT-11" desc="Osim znatne štete koju nanosi dobro smješten hitac, fugasna granata može također ošamutiti sva vozila unutar radijusa rasprskavanja nakon eksplozije granate. Na mnogim mapama su mjesta gdje se neprijateljska vozila zajedno gužvaju. Iskoristite priliku i pošaljite im eksplozivne \&quot;pozdrave\&quot;." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Uništi najmanje dva neprijateljska vozila jednim hicem.</req>
+        <req>• Ošamuti najmanje tri neprijateljska vozila jednim hicem dvaput.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Pobjedi u bitci.\n• Preživi bitku.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 200 sekundi.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-12: Udarnik" short="Object 260: ShT-12" desc="Stil igre u samohodnom topu se drastično razlikuje od svih ostalih tipova vozila. Ali, glavni cilj je isti - dajte sve od sebe u bitci i pridonesite timu što više možete." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Nemojte se na početku bitke prabacivati u režim topništva. Prvo odaberite dobru stratešku točku.</Hint>
+    <PM name="ShT-12: Zlo oko" short="Object 260: ShT-12" desc="Vaši saveznici su uništili ošamućeno neprijateljsko vozilo? To su dobre vijesti za vas jer vas je vaš doprinos primaknuo korak bliže pobjedi! Vaš cilj je davati vatrenu potporu i pomagati saveznicima u pravo vrijeme i na pravom mjestu." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Završi bitku kao najbolji igrač u oba tima po nanesenoj šteti.\n• Uništi najmanje četiri neprijateljska vozila.\n• Preživi bitku.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 200 sekundi.\n• Saveznici moraju uništiti najmanje 3 neprijateljska vozila koja ste ošamutili ili imobilizirali.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-13: Topnička bitnica (Osobno/vod)" short="Object 260: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Vaš vod može širenjem napasti mete iz različitih pravaca i obezvrijediti ulogu stijena i zgrada kao zaštite koje dominiraju mapom.</Hint>
+    <PM name="ShT-13: S za suradnju" short="Object 260: ShT-13" desc="Vod dobro vođenih samohodnih topova bi trebao jako zabrinuti neprijatelja. Koordinirajte svoje akcije i koncentrirajte vatru na jednu po jednu metu." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 30% ukupne štete nanešene neprijateljskim vozilima od tvog tima bilo osobno ili ukupno kao vod.\n• Pobjedi u bitci.\n• Može se izvršiti osobno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Nanesi štetu neprijateljskim vozilima najmanje 10 puta ili ih ošamuti najmanje 12 puta.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-14: Ujedinjena ofenziva (Osobno/vod)" short="Object 260: ShT-14" desc="Uspjeh topništva ovisi o ostatku tima. Topništvo i laki tenkovi se dobro nadopunjuju u vodu. Zadatak se može izvršiti kao dio voda ili samostalno, ali je potonje mnogo teže." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Laki tenk može otkriti neprijateljska vozila i imobilizirati ih. Samohodni top će ga dovrošiti. Zajedno pobjeđujemo! Teški tenk će vas štititi sa svojim debelim oklopom, srednji tenk će odvlačiti neprijatelja, a lovac na tenkove će pružiti dalekometnu vatrenu podršku.</Hint>
+    <PM name="ShT-14: Dio posade, dio broda!" short="Object 260: ShT-14" desc="Suradnja unutar voda je ključe pobjede cijelog tima. Označite neprijateljska vozila koja ciljate kako bi ih vaši suigrači u vodu odmah mogli zasuti paljbom jednom kada su ošamućeni ili imobilizirani. Upamtite: usamljeni vojnik teško može dobiti bitku." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Nanesi najmanje 5000 HP štete nanešene neprijateljskim teškim tenkovima i lovcima na tenkove. Šteta koju su nanijeli suigrači u vodu se računa toj ukupnoj šteti.\n• Može se izvršiti samostalno ili kao dio voda koji se sastoji od vašeg samohodnog topa i bilo kojih drugih vozila.</req>
+        <req>• Ošamuti neprijateljska vozila najmanje ukupno 250 sekundi ili omogući svojim saveznicima da nanesu najmanje 1000 štete neprijateljskim vozilima imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Osobno preživi bitku.</req>
+        <req>• Pobjedi u bitci.</req>
       </Secondary>
     </PM>
-    <PM name="ShT-15: Bogovi rata" short="Object 260: ShT-15" desc="Puno je bolje za tim ako samohodni top preživi. Nemojte se izlagati neprijateljskoj vatri i ispaljujte precizne hice na neprijatelja." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
-      <Hint>Ako poznajete tehničke karakteristike vašeg samohodnog topa možete planirati svoje akcije u bitci. Ostanak u bazi ponekad nije dobra ideja. Ako vozite brzi samohodni top možete brzo mijenjati položaj i napasti neprijatelja iz pravca kojeg najmanje očekuje.</Hint>
+    <PM name="ShT-15: Bogovi rata" short="Object 260: ShT-15" desc="Samohodni top koji preživi što je duže moguće je prava vrijednost tima. Ispaljujte jednu granatu za drugom, ali nemojte pasti pod neprijateljsku paljbu. Budite strpljivi i promislite dvapu prije nego \&quot;pritisnete okidač\&quot; jer je \&quot;jedan hitac-jedan pogodak\&quot; najbolja strategija za vozilo koje dugo puni granatu." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dugoočekivana podrška" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Završi bitku kao najbolji igrač u oba tima po zarađenom iskustvu i nanešenoj šteti.\n• Nanesi najmanje 3000 HP štete.</req>
+        <req>• Završi bitku kao najbolji igrač u oba tima po zarađenom iskustvu.\n• Omogući saveznicima da nanesu najmanje 3500 štete neprijateljskim vozilima ošamućenjem ili imobiliziranjem.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Preživi bitku.</req>

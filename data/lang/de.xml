@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 von Kreslawski" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Objekt 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Objekt 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Geisterstadt" />
     <item ID="96_prohorovka_defense" Name="Feuriger Bogen" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Die Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Unbekannt" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Spezialgefecht" />
     <item ID="5" Name="Spezialgefecht" />
     <item ID="6" Name="Gefechtsübung" />
-    <item ID="7" Name="Team: Nicht-Gewertete Gefechte" />
+    <item ID="7" Name="Teamgefecht" />
     <item ID="8" Name="Historisches Gefecht" />
     <item ID="9" Name="Spezialevent" />
     <item ID="10" Name="Scharmützel" />
@@ -1899,136 +1911,136 @@
         <req>• Zerstören Sie ein Gegnerfahrzeug.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-1: Der Scharfschütze" short="StuG IV: SFL-1" desc="Verschwenden Sie Ihre Munition nicht. Es sind präzise Treffer, die den Sieg bringen." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Seien Sie geduldig und warten Sie, bis das Ziel voll erfasst ist.</Hint>
+    <PM name="SFL-1: Eine kühne Behauptung" short="StuG IV: SFL-1" desc="Der große Flächenschaden nach einer Granatendetonation ist das wichtigste Merkmal der Selbstfahrlafetten. Selbst wenn man keinen Direkttreffer an einem Fahrzeug landet, kann es immer noch betäubt werden. Das betroffene Fahrzeug wird mit einer Betäubungsmarkierung versehen, die Ihre Verbündeten sehen. Verursachen Verbündete Schaden an von Ihnen betäubten Fahrzeugen, erhalten Sie zusätzliche Kreditpunkte und Erfahrung für den Unterstützungsschaden." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 3 Treffer, die Schaden an Gegnerfahrzeugen verursachen.</req>
+        <req>• Betäuben Sie mindestens 3 Mal Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.000 Schadenspunkte.</req>
+        <req>• Beschädigen Sie mindestens dreimal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-2: Versteckt und gefährlich" short="StuG IV: SFL-2" desc="Selbstfahrlafetten haben weder eine dicke Panzerung, noch sind sie schnell. Fahren Sie eine Selbstfahrlafette, müssen Sie lernen, wie Sie im Gefecht verborgen bleiben." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Ein Tarnnetz, gepaart mit Tarnung, verringert die Entdeckbarkeit Ihrer Selbstfahrlafetten ungemein.</Hint>
+    <PM name="SFL-2: Zeit ist Geld" short="StuG IV: SFL-2" desc="Ein gegnerisches Fahrzeug bleibt für einen bestimmten Zeitraum betäubt und kann nur eingeschränkt auf dem Schlachtfeld agieren. Nicht vergessen: ein betäubtes Fahrzeug ist eine leichte Beute." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 500 Schadenspunkte an Gegnerfahrzeugen. Bleiben Sie im ganzen Gefecht unentdeckt.\n• Überleben Sie das Gefecht.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 50 Sekunden.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie ein Gegnerfahrzeug.</req>
+        <req>• Zerstören Sie mindestens ein Gegnerfahrzeug.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-3: Haubitzenschlag" short="StuG IV: SFL-3" desc="Wollen Sie Ihren Beitrag zum Team leisten, sollten Sie erst lernen, wie man richtig schießt." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Folgen Sie dem Fluss der Schlacht und unterstützen Sie Ihr Team. Stehen Sie nie zu lange an einer Stelle. Ziehen Sie sich zurück oder suchen Sie nach einer anderen Feuerstellung, wenn nötig.</Hint>
+    <PM name="SFL-3: Langsam und stetig wird betäubt" short="StuG IV: SFL-3" desc="Verborgene und starke Jagdpanzer, sowie gut gepanzerte schwere Panzer haben großen Einfluss auf den Verlauf des Gefechts. Sie sind Ihre vornehmlichen Ziele. Schaden an ihnen zu verursachen (oder bei ihrer Zerstörung zu helfen) ist das Hauptziel für einen Spieler in einer SFL. Der Großteil der schweren Panzer und Jagdpanzer ist langsam und schwerfällig. Leichte Beute für Sie." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.000 Schadenspunkte an Gegnerfahrzeugen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Gewinnen Sie das Gefecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-4: Der Durchbruch" short="StuG IV: SFL-4" desc="Starke Spenggranaten beschädigen den Gegner nicht nur in Form von Strukturpunkten, sondern haben auch eine hohe Chance, durch Flächenschaden Module zu beschädigen oder zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Eine Sprenggranate kann ihre volle Wirkung erst entfalten, wenn sie die Panzerung voll durchschlägt und im Inneren explodiert. Haben Ihre Granaten nur geringe Durchschlagskraft, suchen Sie sich Fahrzeuge mit einem oben offenen Turm oder verwenden Sie Premiumgranaten.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie Module oder verletzen Sie Besatzungsmitglieder eines Gegnerfahrzeugs, insgesamt 3 Module oder Besatzungsmitglieder.\n• Die Anzahl beschädigter/zerstörter Module und verletzter Besatzungsmitglieder wird über alle Fahrzeuge addiert, die Sie beschädigt haben.</req>
+        <req>• Betäuben Sie mindestens 2 Mal gegnerische schwere Panzer oder Jagdpanzer.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-5: Berechnen &amp; Zerstören" short="StuG IV: SFL-5" desc="Ihre hohe Feuerkraft entschädigt Sie für die geringe Haltbarkeit Ihrer SFL." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Versuchen Sie, bei der ersten Gelegenheit, Gegnerfahrzeuge zu beschädigen. Auch wenn die HE-Granate nur knapp vorbei geht, erhält das Fahrzeug eventuell Schaden durch Splitter.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie viermal so viel Schaden, wie Ihr Fahrzeug Strukturpunkte hat.\n• Schaden an Verbündeten wird nicht gewertet.</req>
+    <PM name="SFL-4: Ich durchschaue dich" short="StuG IV: SFL-4" desc="Merken Sie sich die Routen der schwereren Panzer und die Stellungen der Jagdpanzer. Einen bestimmten Bereich der Karte im Vorfeld anzuvisieren steigert Ihre Chancen, gegnerische Stellungen effektiv und verheerend unter Beschuss zu nehmen. Diese Fahrzeugtypen verwenden recht vorhersehbare Taktiken auf bestimmten Karten. Seien Sie klug: analysieren Sie die Aufstellung des gegnerischen Teams und wählen Sie gleich zu Anfang des Gefechts die beste Stellung." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische schwere Panzer oder Jagdpanzer für insgesamt 30 Sekunden.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie ein Gegnerfahrzeug.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-6: Der fallende Hammer" short="StuG IV: SFL-6" desc="Sie werden oft gegen höherstufige Fahrzeuge kämpfen müssen. Für einen erfahrenen SFL-Fahrer ist das aber kein Problem." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Können Sie einen Gegner nicht mit Standardgranaten durchschlagen, dann versuchen Sie es mit Premiumgranaten. Schießen Sie auf die Seiten und das Heck des Gegnerfahrzeugs. SFL können mit ihrem Steilfeuer sehr gut die Oberseite des Turmes treffen, eine sehr verwundbare Stelle. Gegnerfahrzeuge mit oben offenem Turm sind noch verwundbarer für diese Art von Treffern.</Hint>
+    <PM name="SFL-5: Teilen macht Freude" short="StuG IV: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge, die die gleiche oder eine höhere Stufe wie Ihr Fahrzeug haben.</req>
+        <req>• Verbündete müssen mindestens 600 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Beschädigen Sie mindestens dreimal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-6: Der Hammer der Götter" short="StuG IV: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Verbündete müssen an mindestens 2 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-7: Die Dicken Kanonen auspacken" short="StuG IV: SFL-7" desc="Sie sollten gegnerische Jagdpanzer und SFL bei der ersten Gelegenheit zerstören. Sie auszuschalten bedeutet vielleicht, die Schlacht zu Ihren Gunsten zu lenken." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Koordinieren Sie Ihre Aktionen mit verbündeten leichten Panzern. Die Aufklärung gegnerischer Jagdpanzer und SFL und deren Zerstörung kann der entscheidende Schlag auf dem Schlachtfeld sein.</Hint>
+    <PM name="SFL-7: Sorgsam überlegt" short="StuG IV: SFL-7" desc="Schließen Sie diesen Auftrag ab, indem Sie selektiv bei der Wahl Ihrer Ziele herangehen. Konzentrieren Sie Ihr Feuer nicht auf ein Fahrzeug, auch wenn dieses leichte Beute ist. Treffen Sie große Gegnertruppen mit einem Schuss. Studieren Sie die Karten und merken Sie sich die wichtigsten Fahrzeugrouten." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie einen gegnerischen Jagdpanzer oder SFL.</req>
+        <req>• Betäuben Sie mindestens 2 Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.000 Schadenspunkte.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-8: Schweres Feuer auf schwere Panzer!" short="StuG IV: SFL-8" desc="Ein schwerer Panzer ist ein harter Gegner, aber nicht für Ihr Geschütz. Granaten mit einer gebogenen Flugbahn können die Oberseite des Turms eines Fahrzeugs treffen, wo die Panzerung am dünnsten ist." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Gegnerische Panzer sind generell langsamer als andere Fahrzeugtypen. Daher kann man oft vorhersehen, wo der Panzer sein wird, wenn Ihre Granate eintrifft. Ein guter SFL-Fahrer sollte wissen, wie schnell seine Granaten sind.</Hint>
+    <PM name="SFL-8: Ich habe alles gegeben" short="StuG IV: SFL-8" desc="Sie erhalten Erfahrung für alle effektiven Handlungen. Versuchen Sie, die wichtigste Person zu sein: verursachen Sie Schaden, helfen Sie bei Zerstören von Gegnerfahrzeugen und überleben Sie das Gefecht. Ändern Sie nach jedem Schuss Ihre Position, sonst werden Sie zum Opfer der gegnerischen SLF." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
+        <req>• Erhalten Sie die mindestens siebthöchste Erfahrung Ihres Teams.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie einen gegnerischen schweren Panzer.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-9: Leite sie bis du die triffst" short="StuG IV: SFL-9" desc="Ein erfahrener Kommandant einer SFL trifft mit Leichtigkeit Ziele, die sich bewegen. Lernen Sie, wie man beim Schießen erfolgreich die Bewegung von Gegnerfahrzeugen erahnt. Ein Direkttreffer erzielt mehr Schaden als ein HE-Treffer." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Die Fluggeschwindigkeit Ihrer Geschosse ist ein wichtiger Parameter. Weiß man, wie lange das Geschoss zum Ziel braucht, kann man die Abweichung korrekt berechnen.</Hint>
+    <PM name="SFL-9: Kollateralschaden" short="StuG IV: SFL-9" desc="Schlagkräftige Sprenggranaten verringern nicht nur die Strukturpunkte eines Gegnerfahrzeugs, es besteht auch eine gute Chance, mit der Flächenwirkung Module zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschädigen Sie ein Gegnerfahrzeug, das sich mit einer Geschwindigkeit von mindestens 20 km/h bewegt.\n• Es zählen sowohl Flächenschaden als auch Schaden durch Direkttreffer.\n• Schaden durch Rammen wird nicht gewertet.</req>
+        <req>• Zerstören Sie Module gegnerischer Fahrzeuge oder verletzen Sie Besatzungsmitglieder dieser, insgesamt mindestens 3 Module und Besatzungsmitglieder.\n• Die Anzahl zerstörter Module und verletzter Besatzungsmitglieder wird von allen Gegnerfahrzeugen summiert, die Sie im Laufe des Gefecht beschädigt haben.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-10: Das Verderben der Artillerie" short="StuG IV: SFL-10" desc="Die Jagd auf die Artillerie ist eine gute Idee. Versuchen Sie zu erahnen, wo sich gegnerische SFL versteckt haben könnten und vergewissern Sie sich mit einem präzisen Schuss, ob Sie richtig vermuten." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Je öfter man eine Selbstfahrlafette fährt, desto mehr strategische Punkte der Karten kennt man. Das hilft im Kampf gegen gegnerische SFL, denn dann weiß man oft schon, wo sie stehen könnten.</Hint>
+    <PM name="SFL-10: Alles inklusive" short="StuG IV: SFL-10" desc="Die Situation im Gefecht kann sich schnell ändern. Haben Sie die Minikarte im Auge und versuchen Sie, eine saubere Sichtlinie auf die Gegnerfahrzeuge zu behalten. Oft ist es besser, sich häufig zu verlegen, als an einer Stelle zu bleiben. Ihre Verbündeten verlassen sich auf die Feuerkraft Ihrer SFL. Versuchen Sie also, zur rechten Zeit am richtigen Ort zu sein." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 1 gegnerische SFL.</req>
+        <req>• Der insgesamt verursachte Schaden von Ihnen und Ihren Verbündeten an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen sollte mindestens 1 000 SP betragen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge.</req>
+        <req>• Verbündete müssen mindestens 1 von Ihnen betäubtes oder unbeweglich gemachtes Gegnerfahrzeug zerstören.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-11: Flächenschaden" short="StuG IV: SFL-11" desc="Ihre HE-Granaten können ein Gegnerfahrzeug nicht nur mit dem ersten Treffer zerstören, sondern auch massiven Schaden an mehreren Zielen gleichzeitig verursachen, wenn diese nahe beieinander stehen." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Beobachten Sie Engstellen und beliebte Ecken, an denen Fahrzeuge sich gerne sammeln. Sie können dann wortwörtlich zwei Fliegen mit einer Klappe schlagen. Und Munition ist nicht umsonst: denken Sie an das Einsparpotential.</Hint>
+    <PM name="SFL-11: Flächenschaden" short="StuG IV: SFL-11" desc="Neben dem massiven Schaden, den ein gut platzierter Treffer verursacht, kann eine Sprenggranate alle unglücklichen Fahrzeuge innerhalb des Explosionsradius der Granate betäuben. Viele Karten haben Plätze, an denen sich Fahrzeuge sammeln. Probieren Sie Ihr Glück und senden Sie „explosive“ Grüße." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie ein Gegnerfahrzeug mit einem einzigen Schuss.\n• Es werden nur Ziele gewertet, die vorher keinen Schaden genommen haben.</req>
+        <req>• Betäuben Sie mindestens 2 Gegnerfahrzeuge mit einem einzigen Schuss.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 50 Sekunden.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-12: Der böse Blick" short="StuG IV: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 50 Sekunden.\n• Verbündete müssen mindestens 1 von Ihnen betäubtes oder unbeweglich gemachtes Fahrzeug zerstören.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-12: Der Hammer" short="StuG IV: SFL-12" desc="Der Spielstil einer SFL unterscheidet sich enorm von dem anderer Fahrzeugtypen. Das Hauptziel ist jedoch das gleiche – die beste Leistung im Gefecht zu geben und so viel wie möglich zum Teamerfolg beizutragen." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Schalten Sie nicht schon zu Beginn eines Gefechts in die Artilleriebeobachtersicht. Suchen Sie sich erst eine gute Stellung.</Hint>
+    <PM name="SFL-13: K für Kooperation" short="StuG IV: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den mindestens dritthöchsten Schaden Ihres Teams.\n• Zerstören Sie ein Gegnerfahrzeug.</req>
+        <req>• Beschädigen Sie mindestens viermal gegnerische Fahrzeuge oder betäuben Sie diese mindestens sechsmal.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-13: Artilleriebatterie  (Persönlich/Zug)" short="StuG IV: SFL-13" desc="Ein Zug aus Selbstfahrlafetten stellt für jeden Gegner eine große Gefahr da. Koordinieren Sie Ihre Aktionen innerhalb des Zugs und beseitigen Sie den Gegner mit fokussiertem Feuer. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Verteilen Sie sich, damit Ihr Team Ziele aus verschiedenen Richtungen angreifen kann, wodurch viele Deckungen wirkungslos werden.</Hint>
+    <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="StuG IV: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 15 % des durch Ihr Teams verursachten Gesamtschadens an gegnerischen Fahrzeugen, entweder selbst oder insgesamt als Zug.\n• Gewinnen Sie das Gefecht.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>Betäuben Sie gegnerische Fahrzeuge für insgesamt 70 Sekunden oder ermöglichen Sie Ihren Verbündeten, mindestens 400 Schadenspunkte an von Ihnen unbeweglich gemachten Fahrzeugen zu verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-14: Vereinte Offensive  (Persönlich/Zug)" short="StuG IV: SFL-14" desc="Die Artillerie ist davon abhängig, dass der Rest des Teams erfolgreich ist. Artillerie und leichte Panzer ergänzen sich sehr gut, insbesondere in einem Zug. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Ein leichter Panzer kann gegnerische Fahrzeuge aufklären und sie unbeweglich machen. Die SFL machen kurzen Prozess mit dem unglücklichen Opfer. Gemeinsam gewinnt man! Ein schwerer Panzer schützt Sie mit seiner dicken Panzerung, ein mittlerer Panzer lenkt den Gegner ab und Jagdpanzer bieten Feuerunterstützung auf lange Reichweite.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 2.000 Schadenspunkte an gegnerischen schweren Panzern und Jagdpanzer, entweder selbst oder insgesamt als Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-15: Kriegsgötter" short="StuG IV: SFL-15" desc="Es ist besser für das Team, wenn die Selbstfahrlafette überlebt. Setzen Sie sich keinem Gegnerfeuer aus und feuern Sie präzise Schüsse auf den Gegner ab." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
-      <Hint>Kennen Sie die technischen Daten Ihrer SFL, können Sie Ihre Aktionen im Gefecht planen. Manchmal ist es keine gute Idee, in der Basis zu bleiben. Fährt man eine schnelle SFL, kann man schnell die Stellungen wechseln und den Gegner aus unterschiedlichen Richtungen angreifen, von denen aus sie es am wenigsten vermuten.</Hint>
+    <PM name="SFL-15: Kriegsgötter" short="StuG IV: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Verursachen Sie den mindestens dritthöchsten Schaden und erhalten Sie die mindestens dritthöchste Erfahrung Ihres Teams\n• Verursachen Sie mindestens 2.000 Schadenspunkte.</req>
+        <req>• Erhalten Sie die mindestens fünfthöchste Erfahrung Ihres Teams.\n• Verbündete müssen mindestens 1 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>
@@ -2574,136 +2586,136 @@
         <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-1: Der Scharfschütze" short="T28 Heavy Tank Concept: SFL-1" desc="Verschwenden Sie Ihre Munition nicht. Es sind präzise Treffer, die den Sieg bringen." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Seien Sie geduldig und warten Sie, bis das Ziel voll erfasst ist.</Hint>
+    <PM name="SFL-1: Eine kühne Behauptung" short="T28 Heavy Tank Concept: SFL-1" desc="Der große Flächenschaden nach einer Granatendetonation ist das wichtigste Merkmal der Selbstfahrlafetten. Selbst wenn man keinen Direkttreffer an einem Fahrzeug landet, kann es immer noch betäubt werden. Das betroffene Fahrzeug wird mit einer Betäubungsmarkierung versehen, die Ihre Verbündeten sehen. Verursachen Verbündete Schaden an von Ihnen betäubten Fahrzeugen, erhalten Sie zusätzliche Kreditpunkte und Erfahrung für den Unterstützungsschaden." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 4 Treffer, die Schaden an Gegnerfahrzeugen verursachen.</req>
+        <req>• Betäuben Sie mindestens 5 Mal Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 2.000 Schadenspunkte.</req>
+        <req>• Beschädigen Sie mindestens fünfmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-2: Versteckt und gefährlich" short="T28 Heavy Tank Concept: SFL-2" desc="Selbstfahrlafetten haben weder eine dicke Panzerung, noch sind sie schnell. Fahren Sie eine Selbstfahrlafette, müssen Sie lernen, wie Sie im Gefecht verborgen bleiben." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Ein Tarnnetz, gepaart mit Tarnung, verringert die Entdeckbarkeit Ihrer Selbstfahrlafetten ungemein.</Hint>
+    <PM name="SFL-2: Zeit ist Geld" short="T28 Heavy Tank Concept: SFL-2" desc="Ein gegnerisches Fahrzeug bleibt für einen bestimmten Zeitraum betäubt und kann nur eingeschränkt auf dem Schlachtfeld agieren. Nicht vergessen: ein betäubtes Fahrzeug ist eine leichte Beute." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.500 Schadenspunkte an Gegnerfahrzeugen. Bleiben Sie im ganzen Gefecht unentdeckt.\n• Überleben Sie das Gefecht.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 100 Sekunden.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-3: Haubitzenschlag" short="T28 Heavy Tank Concept: SFL-3" desc="Wollen Sie Ihren Beitrag zum Team leisten, sollten Sie erst lernen, wie man richtig schießt." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Folgen Sie dem Fluss der Schlacht und unterstützen Sie Ihr Team. Stehen Sie nie zu lange an einer Stelle. Ziehen Sie sich zurück oder suchen Sie nach einer anderen Feuerstellung, wenn nötig.</Hint>
+    <PM name="SFL-3: Langsam und stetig wird betäubt" short="T28 Heavy Tank Concept: SFL-3" desc="Verborgene und starke Jagdpanzer, sowie gut gepanzerte schwere Panzer haben großen Einfluss auf den Verlauf des Gefechts. Sie sind Ihre vornehmlichen Ziele. Schaden an ihnen zu verursachen (oder bei ihrer Zerstörung zu helfen) ist das Hauptziel für einen Spieler in einer SFL. Der Großteil der schweren Panzer und Jagdpanzer ist langsam und schwerfällig. Leichte Beute für Sie." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 2.000 Schadenspunkte an Gegnerfahrzeugen.</req>
+        <req>• Betäuben Sie mindestens 4 Mal gegnerische schwere Panzer oder Jagdpanzer.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-4: Der Durchbruch" short="T28 Heavy Tank Concept: SFL-4" desc="Starke Spenggranaten beschädigen den Gegner nicht nur in Form von Strukturpunkten, sondern haben auch eine hohe Chance, durch Flächenschaden Module zu beschädigen oder zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Eine Sprenggranate kann ihre volle Wirkung erst entfalten, wenn sie die Panzerung voll durchschlägt und im Inneren explodiert. Haben Ihre Granaten nur geringe Durchschlagskraft, suchen Sie sich Fahrzeuge mit einem oben offenen Turm oder verwenden Sie Premiumgranaten.</Hint>
+    <PM name="SFL-4: Ich durchschaue dich" short="T28 Heavy Tank Concept: SFL-4" desc="Merken Sie sich die Routen der schwereren Panzer und die Stellungen der Jagdpanzer. Einen bestimmten Bereich der Karte im Vorfeld anzuvisieren steigert Ihre Chancen, gegnerische Stellungen effektiv und verheerend unter Beschuss zu nehmen. Diese Fahrzeugtypen verwenden recht vorhersehbare Taktiken auf bestimmten Karten. Seien Sie klug: analysieren Sie die Aufstellung des gegnerischen Teams und wählen Sie gleich zu Anfang des Gefechts die beste Stellung." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie Module oder verletzen Sie Besatzungsmitglieder eines Gegnerfahrzeugs, insgesamt 5 Module oder Besatzungsmitglieder.\n• Die Anzahl beschädigter/zerstörter Module und verletzter Besatzungsmitglieder wird über alle Fahrzeuge addiert, die Sie beschädigt haben.</req>
+        <req>• Betäuben Sie gegnerische schwere Panzer oder Jagdpanzer für insgesamt 50 Sekunden.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-5: Berechnen &amp; Zerstören" short="T28 Heavy Tank Concept: SFL-5" desc="Ihre hohe Feuerkraft entschädigt Sie für die geringe Haltbarkeit Ihrer SFL." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Versuchen Sie, bei der ersten Gelegenheit, Gegnerfahrzeuge zu beschädigen. Auch wenn die HE-Granate nur knapp vorbei geht, erhält das Fahrzeug eventuell Schaden durch Splitter.</Hint>
+    <PM name="SFL-5: Teilen macht Freude" short="T28 Heavy Tank Concept: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie sechsmal so viel Schaden, wie Ihr Fahrzeug Strukturpunkte hat.\n• Schaden an Verbündeten wird nicht gewertet.</req>
+        <req>• Verbündete müssen mindestens 1 000 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge.</req>
+        <req>• Beschädigen Sie mindestens fünfmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-6: Der fallende Hammer" short="T28 Heavy Tank Concept: SFL-6" desc="Sie werden oft gegen höherstufige Fahrzeuge kämpfen müssen. Für einen erfahrenen SFL-Fahrer ist das aber kein Problem." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Können Sie einen Gegner nicht mit Standardgranaten durchschlagen, dann versuchen Sie es mit Premiumgranaten. Schießen Sie auf die Seiten und das Heck des Gegnerfahrzeugs. SFL können mit ihrem Steilfeuer sehr gut die Oberseite des Turmes treffen, eine sehr verwundbare Stelle. Gegnerfahrzeuge mit oben offenem Turm sind noch verwundbarer für diese Art von Treffern.</Hint>
+    <PM name="SFL-6: Der Hammer der Götter" short="T28 Heavy Tank Concept: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge, die die gleiche oder eine höhere Stufe wie Ihr Fahrzeug haben.</req>
+        <req>• Verbündete müssen an mindestens 3 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-7: Die Dicken Kanonen auspacken" short="T28 Heavy Tank Concept: SFL-7" desc="Sie sollten gegnerische Jagdpanzer und SFL bei der ersten Gelegenheit zerstören. Sie auszuschalten bedeutet vielleicht, die Schlacht zu Ihren Gunsten zu lenken." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Koordinieren Sie Ihre Aktionen mit verbündeten leichten Panzern. Die Aufklärung gegnerischer Jagdpanzer und SFL und deren Zerstörung kann der entscheidende Schlag auf dem Schlachtfeld sein.</Hint>
+    <PM name="SFL-7: Sorgsam überlegt" short="T28 Heavy Tank Concept: SFL-7" desc="Schließen Sie diesen Auftrag ab, indem Sie selektiv bei der Wahl Ihrer Ziele herangehen. Konzentrieren Sie Ihr Feuer nicht auf ein Fahrzeug, auch wenn dieses leichte Beute ist. Treffen Sie große Gegnertruppen mit einem Schuss. Studieren Sie die Karten und merken Sie sich die wichtigsten Fahrzeugrouten." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie einen gegnerischen Jagdpanzer oder SFL, der 1 Stufe über Ihrem Fahrzeug liegt.</req>
+        <req>• Betäuben Sie mindestens 3 Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 2.000 Schadenspunkte.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-8: Schweres Feuer auf schwere Panzer!" short="T28 Heavy Tank Concept: SFL-8" desc="Ein schwerer Panzer ist ein harter Gegner, aber nicht für Ihr Geschütz. Granaten mit einer gebogenen Flugbahn können die Oberseite des Turms eines Fahrzeugs treffen, wo die Panzerung am dünnsten ist." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Gegnerische Panzer sind generell langsamer als andere Fahrzeugtypen. Daher kann man oft vorhersehen, wo der Panzer sein wird, wenn Ihre Granate eintrifft. Ein guter SFL-Fahrer sollte wissen, wie schnell seine Granaten sind.</Hint>
+    <PM name="SFL-8: Ich habe alles gegeben" short="T28 Heavy Tank Concept: SFL-8" desc="Sie erhalten Erfahrung für alle effektiven Handlungen. Versuchen Sie, die wichtigste Person zu sein: verursachen Sie Schaden, helfen Sie bei Zerstören von Gegnerfahrzeugen und überleben Sie das Gefecht. Ändern Sie nach jedem Schuss Ihre Position, sonst werden Sie zum Opfer der gegnerischen SLF." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 1.500 Schadenspunkte an gegnerischen schweren Panzern.</req>
+        <req>• Erhalten Sie die mindestens fünfthöchste Erfahrung Ihres Teams.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 gegnerische schwere Panzer.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-9: Leite sie bis du die triffst" short="T28 Heavy Tank Concept: SFL-9" desc="Ein erfahrener Kommandant einer SFL trifft mit Leichtigkeit Ziele, die sich bewegen. Lernen Sie, wie man beim Schießen erfolgreich die Bewegung von Gegnerfahrzeugen erahnt. Ein Direkttreffer erzielt mehr Schaden als ein HE-Treffer." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Die Fluggeschwindigkeit Ihrer Geschosse ist ein wichtiger Parameter. Weiß man, wie lange das Geschoss zum Ziel braucht, kann man die Abweichung korrekt berechnen.</Hint>
+    <PM name="SFL-9: Kollateralschaden" short="T28 Heavy Tank Concept: SFL-9" desc="Schlagkräftige Sprenggranaten verringern nicht nur die Strukturpunkte eines Gegnerfahrzeugs, es besteht auch eine gute Chance, mit der Flächenwirkung Module zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 2 Direkttreffer auf gegnerische Fahrzeuge.\n• Es werden alle Direkttreffer gewertet, egal, ob Sie Schaden verursachen.</req>
+        <req>• Zerstören Sie Module gegnerischer Fahrzeuge oder verletzen Sie Besatzungsmitglieder dieser, insgesamt mindestens 5 Module und Besatzungsmitglieder.\n• Die Anzahl zerstörter Module und verletzter Besatzungsmitglieder wird von allen Gegnerfahrzeugen summiert, die Sie im Laufe des Gefecht beschädigt haben.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Überleben Sie das Gefecht.\n• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-10: Das Verderben der Artillerie" short="T28 Heavy Tank Concept: SFL-10" desc="Die Jagd auf die Artillerie ist eine gute Idee. Versuchen Sie zu erahnen, wo sich gegnerische SFL versteckt haben könnten und vergewissern Sie sich mit einem präzisen Schuss, ob Sie richtig vermuten." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Je öfter man eine Selbstfahrlafette fährt, desto mehr strategische Punkte der Karten kennt man. Das hilft im Kampf gegen gegnerische SFL, denn dann weiß man oft schon, wo sie stehen könnten.</Hint>
+    <PM name="SFL-10: Alles inklusive" short="T28 Heavy Tank Concept: SFL-10" desc="Die Situation im Gefecht kann sich schnell ändern. Haben Sie die Minikarte im Auge und versuchen Sie, eine saubere Sichtlinie auf die Gegnerfahrzeuge zu behalten. Oft ist es besser, sich häufig zu verlegen, als an einer Stelle zu bleiben. Ihre Verbündeten verlassen sich auf die Feuerkraft Ihrer SFL. Versuchen Sie also, zur rechten Zeit am richtigen Ort zu sein." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 gegnerische SFL.</req>
+        <req>• Der insgesamt verursachte Schaden von Ihnen und Ihren Verbündeten an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen sollte mindestens 2 000 SP betragen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge.</req>
+        <req>• Verbündete müssen mindestens 1 von Ihnen betäubtes oder unbeweglich gemachtes Gegnerfahrzeug zerstören.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-11: Flächenschaden" short="T28 Heavy Tank Concept: SFL-11" desc="Ihre HE-Granaten können ein Gegnerfahrzeug nicht nur mit dem ersten Treffer zerstören, sondern auch massiven Schaden an mehreren Zielen gleichzeitig verursachen, wenn diese nahe beieinander stehen." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Beobachten Sie Engstellen und beliebte Ecken, an denen Fahrzeuge sich gerne sammeln. Sie können dann wortwörtlich zwei Fliegen mit einer Klappe schlagen. Und Munition ist nicht umsonst: denken Sie an das Einsparpotential.</Hint>
+    <PM name="SFL-11: Flächenschaden" short="T28 Heavy Tank Concept: SFL-11" desc="Neben dem massiven Schaden, den ein gut platzierter Treffer verursacht, kann eine Sprenggranate alle unglücklichen Fahrzeuge innerhalb des Explosionsradius der Granate betäuben. Viele Karten haben Plätze, an denen sich Fahrzeuge sammeln. Probieren Sie Ihr Glück und senden Sie „explosive“ Grüße." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Beschädigen Sie mindestens 2 Gegnerfahrzeuge mit einem einzigen Schuss.</req>
+        <req>• Betäuben Sie zweimal mindestens 2 Gegnerfahrzeuge mit einem einzigen Schuss.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 100 Sekunden.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-12: Der böse Blick" short="T28 Heavy Tank Concept: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 100 Sekunden.\n• Verbündete müssen mindestens 1 von Ihnen betäubtes oder unbeweglich gemachtes Fahrzeug zerstören.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-12: Der Hammer" short="T28 Heavy Tank Concept: SFL-12" desc="Der Spielstil einer SFL unterscheidet sich enorm von dem anderer Fahrzeugtypen. Das Hauptziel ist jedoch das gleiche – die beste Leistung im Gefecht zu geben und so viel wie möglich zum Teamerfolg beizutragen." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Schalten Sie nicht schon zu Beginn eines Gefechts in die Artilleriebeobachtersicht. Suchen Sie sich erst eine gute Stellung.</Hint>
+    <PM name="SFL-13: K für Kooperation" short="T28 Heavy Tank Concept: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den mindestens dritthöchsten Schaden beider Teams.\n• Zerstören Sie mindestens 2 Gegnerfahrzeuge.\n• Überleben Sie das Gefecht.</req>
+        <req>• Beschädigen Sie mindestens sechsmal gegnerische Fahrzeuge oder betäuben Sie diese mindestens achtmal.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-13: Artilleriebatterie  (Persönlich/Zug)" short="T28 Heavy Tank Concept: SFL-13" desc="Ein Zug aus Selbstfahrlafetten stellt für jeden Gegner eine große Gefahr da. Koordinieren Sie Ihre Aktionen innerhalb des Zugs und beseitigen Sie den Gegner mit fokussiertem Feuer. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Verteilen Sie sich, damit Ihr Team Ziele aus verschiedenen Richtungen angreifen kann, wodurch viele Deckungen wirkungslos werden.</Hint>
+    <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T28 Heavy Tank Concept: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 20 % des durch Ihr Teams verursachten Gesamtschadens an gegnerischen Fahrzeugen, entweder selbst oder insgesamt als Zug.\n• Gewinnen Sie das Gefecht.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>Betäuben Sie gegnerische Fahrzeuge für insgesamt 100 Sekunden oder ermöglichen Sie Ihren Verbündeten, mindestens 600 Schadenspunkte an von Ihnen unbeweglich gemachten Fahrzeugen zu verursachen.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-14: Vereinte Offensive  (Persönlich/Zug)" short="T28 Heavy Tank Concept: SFL-14" desc="Die Artillerie ist davon abhängig, dass der Rest des Teams erfolgreich ist. Artillerie und leichte Panzer ergänzen sich sehr gut, insbesondere in einem Zug. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Ein leichter Panzer kann gegnerische Fahrzeuge aufklären und sie unbeweglich machen. Die SFL machen kurzen Prozess mit dem unglücklichen Opfer. Gemeinsam gewinnt man! Ein schwerer Panzer schützt Sie mit seiner dicken Panzerung, ein mittlerer Panzer lenkt den Gegner ab und Jagdpanzer bieten Feuerunterstützung auf lange Reichweite.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 3.000 Schadenspunkte an gegnerischen schweren Panzern und Jagdpanzer, entweder selbst oder insgesamt als Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-15: Kriegsgötter" short="T28 Heavy Tank Concept: SFL-15" desc="Es ist besser für das Team, wenn die Selbstfahrlafette überlebt. Setzen Sie sich keinem Gegnerfeuer aus und feuern Sie präzise Schüsse auf den Gegner ab." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
-      <Hint>Kennen Sie die technischen Daten Ihrer SFL, können Sie Ihre Aktionen im Gefecht planen. Manchmal ist es keine gute Idee, in der Basis zu bleiben. Fährt man eine schnelle SFL, kann man schnell die Stellungen wechseln und den Gegner aus unterschiedlichen Richtungen angreifen, von denen aus sie es am wenigsten vermuten.</Hint>
+    <PM name="SFL-15: Kriegsgötter" short="T28 Heavy Tank Concept: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Verursachen Sie den mindestens dritthöchsten Schaden und erhalten Sie die mindestens dritthöchste Erfahrung beider Teams.\n• Verursachen Sie mindestens 2.000 Schadenspunkte.</req>
+        <req>• Erhalten Sie die mindestens dritthöchste Erfahrung Ihres Teams.\n• Verbündete müssen mindestens 1 500 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>
@@ -3249,136 +3261,136 @@
         <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-1: Der Scharfschütze" short="T 55A: SFL-1" desc="Verschwenden Sie Ihre Munition nicht. Es sind präzise Treffer, die den Sieg bringen." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Seien Sie geduldig und warten Sie, bis das Ziel voll erfasst ist.</Hint>
+    <PM name="SFL-1: Eine kühne Behauptung" short="T 55A: SFL-1" desc="Der große Flächenschaden nach einer Granatendetonation ist das wichtigste Merkmal der Selbstfahrlafetten. Selbst wenn man keinen Direkttreffer an einem Fahrzeug landet, kann es immer noch betäubt werden. Das betroffene Fahrzeug wird mit einer Betäubungsmarkierung versehen, die Ihre Verbündeten sehen. Verursachen Verbündete Schaden an von Ihnen betäubten Fahrzeugen, erhalten Sie zusätzliche Kreditpunkte und Erfahrung für den Unterstützungsschaden." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 5 Treffer, die Schaden an Gegnerfahrzeugen verursachen.</req>
+        <req>• Betäuben Sie mindestens 7 Mal Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 3.000 Schadenspunkte.</req>
+        <req>• Beschädigen Sie mindestens sechsmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-2: Versteckt und gefährlich" short="T 55A: SFL-2" desc="Selbstfahrlafetten haben weder eine dicke Panzerung, noch sind sie schnell. Fahren Sie eine Selbstfahrlafette, müssen Sie lernen, wie Sie im Gefecht verborgen bleiben." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Ein Tarnnetz, gepaart mit Tarnung, verringert die Entdeckbarkeit Ihrer Selbstfahrlafetten ungemein.</Hint>
+    <PM name="SFL-2: Zeit ist Geld" short="T 55A: SFL-2" desc="Ein gegnerisches Fahrzeug bleibt für einen bestimmten Zeitraum betäubt und kann nur eingeschränkt auf dem Schlachtfeld agieren. Nicht vergessen: ein betäubtes Fahrzeug ist eine leichte Beute." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den mindestens fünfthöchsten Schaden Ihres Teams. Bleiben Sie im ganzen Gefecht unentdeckt.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 150 Sekunden.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-3: Haubitzenschlag" short="T 55A: SFL-3" desc="Wollen Sie Ihren Beitrag zum Team leisten, sollten Sie erst lernen, wie man richtig schießt." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Folgen Sie dem Fluss der Schlacht und unterstützen Sie Ihr Team. Stehen Sie nie zu lange an einer Stelle. Ziehen Sie sich zurück oder suchen Sie nach einer anderen Feuerstellung, wenn nötig.</Hint>
+    <PM name="SFL-3: Langsam und stetig wird betäubt" short="T 55A: SFL-3" desc="Verborgene und starke Jagdpanzer, sowie gut gepanzerte schwere Panzer haben großen Einfluss auf den Verlauf des Gefechts. Sie sind Ihre vornehmlichen Ziele. Schaden an ihnen zu verursachen (oder bei ihrer Zerstörung zu helfen) ist das Hauptziel für einen Spieler in einer SFL. Der Großteil der schweren Panzer und Jagdpanzer ist langsam und schwerfällig. Leichte Beute für Sie." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 3.000 Schadenspunkte an Gegnerfahrzeugen.</req>
+        <req>• Betäuben Sie mindestens 6 Mal gegnerische schwere Panzer oder Jagdpanzer.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-4: Der Durchbruch" short="T 55A: SFL-4" desc="Starke Spenggranaten beschädigen den Gegner nicht nur in Form von Strukturpunkten, sondern haben auch eine hohe Chance, durch Flächenschaden Module zu beschädigen oder zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Eine Sprenggranate kann ihre volle Wirkung erst entfalten, wenn sie die Panzerung voll durchschlägt und im Inneren explodiert. Haben Ihre Granaten nur geringe Durchschlagskraft, suchen Sie sich Fahrzeuge mit einem oben offenen Turm oder verwenden Sie Premiumgranaten.</Hint>
+    <PM name="SFL-4: Ich durchschaue dich" short="T 55A: SFL-4" desc="Merken Sie sich die Routen der schwereren Panzer und die Stellungen der Jagdpanzer. Einen bestimmten Bereich der Karte im Vorfeld anzuvisieren steigert Ihre Chancen, gegnerische Stellungen effektiv und verheerend unter Beschuss zu nehmen. Diese Fahrzeugtypen verwenden recht vorhersehbare Taktiken auf bestimmten Karten. Seien Sie klug: analysieren Sie die Aufstellung des gegnerischen Teams und wählen Sie gleich zu Anfang des Gefechts die beste Stellung." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie Module oder verletzen Sie Besatzungsmitglieder eines Gegnerfahrzeugs, insgesamt 8 Module oder Besatzungsmitglieder.\n• Die Anzahl beschädigter/zerstörter Module und verletzter Besatzungsmitglieder wird über alle Fahrzeuge addiert, die Sie beschädigt haben.</req>
+        <req>• Betäuben Sie gegnerische schwere Panzer oder Jagdpanzer für insgesamt 80 Sekunden.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-5: Berechnen &amp; Zerstören" short="T 55A: SFL-5" desc="Ihre hohe Feuerkraft entschädigt Sie für die geringe Haltbarkeit Ihrer SFL." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Versuchen Sie, bei der ersten Gelegenheit, Gegnerfahrzeuge zu beschädigen. Auch wenn die HE-Granate nur knapp vorbei geht, erhält das Fahrzeug eventuell Schaden durch Splitter.</Hint>
+    <PM name="SFL-5: Teilen macht Freude" short="T 55A: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie achtmal so viel Schaden, wie Ihr Fahrzeug Strukturpunkte hat.\n• Schaden an Verbündeten wird nicht gewertet.</req>
+        <req>• Verbündete müssen mindestens 2 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge.</req>
+        <req>• Beschädigen Sie mindestens sechsmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-6: Der fallende Hammer" short="T 55A: SFL-6" desc="Sie werden oft gegen höherstufige Fahrzeuge kämpfen müssen. Für einen erfahrenen SFL-Fahrer ist das aber kein Problem." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Können Sie einen Gegner nicht mit Standardgranaten durchschlagen, dann versuchen Sie es mit Premiumgranaten. Schießen Sie auf die Seiten und das Heck des Gegnerfahrzeugs. SFL können mit ihrem Steilfeuer sehr gut die Oberseite des Turmes treffen, eine sehr verwundbare Stelle. Gegnerfahrzeuge mit oben offenem Turm sind noch verwundbarer für diese Art von Treffern.</Hint>
+    <PM name="SFL-6: Der Hammer der Götter" short="T 55A: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge, die 1 Stufe über Ihrem Fahrzeug liegen.</req>
+        <req>• Verbündete müssen an mindestens 5 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-7: Die Dicken Kanonen auspacken" short="T 55A: SFL-7" desc="Sie sollten gegnerische Jagdpanzer und SFL bei der ersten Gelegenheit zerstören. Sie auszuschalten bedeutet vielleicht, die Schlacht zu Ihren Gunsten zu lenken." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Koordinieren Sie Ihre Aktionen mit verbündeten leichten Panzern. Die Aufklärung gegnerischer Jagdpanzer und SFL und deren Zerstörung kann der entscheidende Schlag auf dem Schlachtfeld sein.</Hint>
+    <PM name="SFL-7: Sorgsam überlegt" short="T 55A: SFL-7" desc="Schließen Sie diesen Auftrag ab, indem Sie selektiv bei der Wahl Ihrer Ziele herangehen. Konzentrieren Sie Ihr Feuer nicht auf ein Fahrzeug, auch wenn dieses leichte Beute ist. Treffen Sie große Gegnertruppen mit einem Schuss. Studieren Sie die Karten und merken Sie sich die wichtigsten Fahrzeugrouten." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 gegnerische Jagdpanzer und SFL.\n• Gewinnen Sie das Gefecht.</req>
+        <req>• Betäuben Sie mindestens 5 Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 3.000 Schadenspunkte.</req>
+        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-8: Schweres Feuer auf schwere Panzer!" short="T 55A: SFL-8" desc="Ein schwerer Panzer ist ein harter Gegner, aber nicht für Ihr Geschütz. Granaten mit einer gebogenen Flugbahn können die Oberseite des Turms eines Fahrzeugs treffen, wo die Panzerung am dünnsten ist." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Gegnerische Panzer sind generell langsamer als andere Fahrzeugtypen. Daher kann man oft vorhersehen, wo der Panzer sein wird, wenn Ihre Granate eintrifft. Ein guter SFL-Fahrer sollte wissen, wie schnell seine Granaten sind.</Hint>
+    <PM name="SFL-8: Ich habe alles gegeben" short="T 55A: SFL-8" desc="Sie erhalten Erfahrung für alle effektiven Handlungen. Versuchen Sie, die wichtigste Person zu sein: verursachen Sie Schaden, helfen Sie bei Zerstören von Gegnerfahrzeugen und überleben Sie das Gefecht. Ändern Sie nach jedem Schuss Ihre Position, sonst werden Sie zum Opfer der gegnerischen SLF." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 2.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
+        <req>• Erhalten Sie die mindestens dritthöchste Erfahrung Ihres Teams.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie einen gegnerischen schweren Panzer.\n• Gewinnen Sie das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-9: Leite sie bis du die triffst" short="T 55A: SFL-9" desc="Ein erfahrener Kommandant einer SFL trifft mit Leichtigkeit Ziele, die sich bewegen. Lernen Sie, wie man beim Schießen erfolgreich die Bewegung von Gegnerfahrzeugen erahnt. Ein Direkttreffer erzielt mehr Schaden als ein HE-Treffer." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Die Fluggeschwindigkeit Ihrer Geschosse ist ein wichtiger Parameter. Weiß man, wie lange das Geschoss zum Ziel braucht, kann man die Abweichung korrekt berechnen.</Hint>
+    <PM name="SFL-9: Kollateralschaden" short="T 55A: SFL-9" desc="Schlagkräftige Sprenggranaten verringern nicht nur die Strukturpunkte eines Gegnerfahrzeugs, es besteht auch eine gute Chance, mit der Flächenwirkung Module zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschädigen Sie ein Gegnerfahrzeug, das sich mit einer Geschwindigkeit von mindestens 30 km/h bewegt.\n• Es zählen sowohl Flächenschaden als auch Schaden durch Direkttreffer.\n• Schaden durch Rammen wird nicht gewertet.</req>
+        <req>• Zerstören Sie Module gegnerischer Fahrzeuge oder verletzen Sie Besatzungsmitglieder dieser, insgesamt mindestens 8 Module und Besatzungsmitglieder.\n• Die Anzahl zerstörter Module und verletzter Besatzungsmitglieder wird von allen Gegnerfahrzeugen summiert, die Sie im Laufe des Gefecht beschädigt haben.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Überleben Sie das Gefecht.\n• Gewinnen Sie das Gefecht.\n• Bleiben Sie im ganzen Gefecht unentdeckt.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-10: Das Verderben der Artillerie" short="T 55A: SFL-10" desc="Die Jagd auf die Artillerie ist eine gute Idee. Versuchen Sie zu erahnen, wo sich gegnerische SFL versteckt haben könnten und vergewissern Sie sich mit einem präzisen Schuss, ob Sie richtig vermuten." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Je öfter man eine Selbstfahrlafette fährt, desto mehr strategische Punkte der Karten kennt man. Das hilft im Kampf gegen gegnerische SFL, denn dann weiß man oft schon, wo sie stehen könnten.</Hint>
+    <PM name="SFL-10: Alles inklusive" short="T 55A: SFL-10" desc="Die Situation im Gefecht kann sich schnell ändern. Haben Sie die Minikarte im Auge und versuchen Sie, eine saubere Sichtlinie auf die Gegnerfahrzeuge zu behalten. Oft ist es besser, sich häufig zu verlegen, als an einer Stelle zu bleiben. Ihre Verbündeten verlassen sich auf die Feuerkraft Ihrer SFL. Versuchen Sie also, zur rechten Zeit am richtigen Ort zu sein." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 1 gegnerische SFL.\n• Verursachen Sie mindestens 2 000 Schadenspunkte an gegnerischen Fahrzeugen.</req>
+        <req>• Der insgesamt verursachte Schaden von Ihnen und Ihren Verbündeten an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen sollte mindestens 3 000 SP betragen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 4 Gegnerfahrzeuge.</req>
+        <req>• Gewinnen Sie das Gefecht.\n• Verbündete müssen mindestens 2 von Ihnen betäubte oder unbeweglich gemachte Gegnerfahrzeuge zerstören.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-11: Flächenschaden" short="T 55A: SFL-11" desc="Ihre HE-Granaten können ein Gegnerfahrzeug nicht nur mit dem ersten Treffer zerstören, sondern auch massiven Schaden an mehreren Zielen gleichzeitig verursachen, wenn diese nahe beieinander stehen." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Beobachten Sie Engstellen und beliebte Ecken, an denen Fahrzeuge sich gerne sammeln. Sie können dann wortwörtlich zwei Fliegen mit einer Klappe schlagen. Und Munition ist nicht umsonst: denken Sie an das Einsparpotential.</Hint>
+    <PM name="SFL-11: Flächenschaden" short="T 55A: SFL-11" desc="Neben dem massiven Schaden, den ein gut platzierter Treffer verursacht, kann eine Sprenggranate alle unglücklichen Fahrzeuge innerhalb des Explosionsradius der Granate betäuben. Viele Karten haben Plätze, an denen sich Fahrzeuge sammeln. Probieren Sie Ihr Glück und senden Sie „explosive“ Grüße." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie ein Gegnerfahrzeug und beschädigen Sie 1 weiteres Gegnerfahrzeug mit einem einzigen Schuss.</req>
+        <req>• Betäuben Sie mindestens 3 Gegnerfahrzeuge mit einem einzigen Schuss.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 150 Sekunden.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-12: Der Hammer" short="T 55A: SFL-12" desc="Der Spielstil einer SFL unterscheidet sich enorm von dem anderer Fahrzeugtypen. Das Hauptziel ist jedoch das gleiche – die beste Leistung im Gefecht zu geben und so viel wie möglich zum Teamerfolg beizutragen." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Schalten Sie nicht schon zu Beginn eines Gefechts in die Artilleriebeobachtersicht. Suchen Sie sich erst eine gute Stellung.</Hint>
+    <PM name="SFL-12: Der böse Blick" short="T 55A: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den meisten Schaden in Ihrem Teams.\n• Zerstören Sie 3 Gegnerfahrzeuge.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 150 Sekunden.\n• Verbündete müssen mindestens 2 von Ihnen betäubte oder unbeweglich gemachte Fahrzeuge zerstören.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-13: Artilleriebatterie  (Persönlich/Zug)" short="T 55A: SFL-13" desc="Ein Zug aus Selbstfahrlafetten stellt für jeden Gegner eine große Gefahr da. Koordinieren Sie Ihre Aktionen innerhalb des Zugs und beseitigen Sie den Gegner mit fokussiertem Feuer. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Verteilen Sie sich, damit Ihr Team Ziele aus verschiedenen Richtungen angreifen kann, wodurch viele Deckungen wirkungslos werden.</Hint>
+    <PM name="SFL-13: K für Kooperation" short="T 55A: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 25 % des durch Ihr Teams verursachten Gesamtschadens an gegnerischen Fahrzeugen, entweder selbst oder insgesamt als Zug.\n• Gewinnen Sie das Gefecht.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>• Beschädigen Sie mindestens achtmal gegnerische Fahrzeuge oder betäuben Sie diese mindestens zehnmal.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-14: Vereinte Offensive  (Persönlich/Zug)" short="T 55A: SFL-14" desc="Die Artillerie ist davon abhängig, dass der Rest des Teams erfolgreich ist. Artillerie und leichte Panzer ergänzen sich sehr gut, insbesondere in einem Zug. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Ein leichter Panzer kann gegnerische Fahrzeuge aufklären und sie unbeweglich machen. Die SFL machen kurzen Prozess mit dem unglücklichen Opfer. Gemeinsam gewinnt man! Ein schwerer Panzer schützt Sie mit seiner dicken Panzerung, ein mittlerer Panzer lenkt den Gegner ab und Jagdpanzer bieten Feuerunterstützung auf lange Reichweite.</Hint>
+    <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T 55A: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 4.000 Schadenspunkte an gegnerischen schweren Panzern und Jagdpanzer, entweder selbst oder insgesamt als Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>Betäuben Sie gegnerische Fahrzeuge für insgesamt 180 Sekunden oder ermöglichen Sie Ihren Verbündeten, mindestens 800 Schadenspunkte an von Ihnen unbeweglich gemachten Fahrzeugen zu verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-15: Kriegsgötter" short="T 55A: SFL-15" desc="Es ist besser für das Team, wenn die Selbstfahrlafette überlebt. Setzen Sie sich keinem Gegnerfeuer aus und feuern Sie präzise Schüsse auf den Gegner ab." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
-      <Hint>Kennen Sie die technischen Daten Ihrer SFL, können Sie Ihre Aktionen im Gefecht planen. Manchmal ist es keine gute Idee, in der Basis zu bleiben. Fährt man eine schnelle SFL, kann man schnell die Stellungen wechseln und den Gegner aus unterschiedlichen Richtungen angreifen, von denen aus sie es am wenigsten vermuten.</Hint>
+    <PM name="SFL-15: Kriegsgötter" short="T 55A: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Erhalten Sie die höchste Erfahrung und verursachen Sie den höchsten Schaden Ihres Teams.\n• Verursachen Sie mindestens 3.000 Schadenspunkte.</req>
+        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 2 500 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>
@@ -3924,136 +3936,136 @@
         <req>• Zerstören Sie mindestens 5 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-1: Der Scharfschütze" short="Objekt 260: SFL-1" desc="Verschwenden Sie Ihre Munition nicht. Es sind präzise Treffer, die den Sieg bringen." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Seien Sie geduldig und warten Sie, bis das Ziel voll erfasst ist.</Hint>
+    <PM name="SFL-1: Eine kühne Behauptung" short="Objekt 260: SFL-1" desc="Der große Flächenschaden nach einer Granatendetonation ist das wichtigste Merkmal der Selbstfahrlafetten. Selbst wenn man keinen Direkttreffer an einem Fahrzeug landet, kann es immer noch betäubt werden. Das betroffene Fahrzeug wird mit einer Betäubungsmarkierung versehen, die Ihre Verbündeten sehen. Verursachen Verbündete Schaden an von Ihnen betäubten Fahrzeugen, erhalten Sie zusätzliche Kreditpunkte und Erfahrung für den Unterstützungsschaden." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 6 Treffer, die Schaden an Gegnerfahrzeugen verursachen.</req>
+        <req>• Betäuben Sie mindestens 10 Mal Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 4.000 Schadenspunkte.</req>
+        <req>• Beschädigen Sie mindestens achtmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-2: Versteckt und gefährlich" short="Objekt 260: SFL-2" desc="Selbstfahrlafetten haben weder eine dicke Panzerung, noch sind sie schnell. Fahren Sie eine Selbstfahrlafette, müssen Sie lernen, wie Sie im Gefecht verborgen bleiben." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Ein Tarnnetz, gepaart mit Tarnung, verringert die Entdeckbarkeit Ihrer Selbstfahrlafetten ungemein.</Hint>
+    <PM name="SFL-2: Zeit ist Geld" short="Objekt 260: SFL-2" desc="Ein gegnerisches Fahrzeug bleibt für einen bestimmten Zeitraum betäubt und kann nur eingeschränkt auf dem Schlachtfeld agieren. Nicht vergessen: ein betäubtes Fahrzeug ist eine leichte Beute." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den mindestens dritthöchsten Schaden Ihres Teams. Bleiben Sie im ganzen Gefecht unentdeckt.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 200 Sekunden.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 Gegnerfahrzeuge.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-3: Haubitzenschlag" short="Objekt 260: SFL-3" desc="Wollen Sie Ihren Beitrag zum Team leisten, sollten Sie erst lernen, wie man richtig schießt." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Folgen Sie dem Fluss der Schlacht und unterstützen Sie Ihr Team. Stehen Sie nie zu lange an einer Stelle. Ziehen Sie sich zurück oder suchen Sie nach einer anderen Feuerstellung, wenn nötig.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 4.000 Schadenspunkte an Gegnerfahrzeugen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-4: Der Durchbruch" short="Objekt 260: SFL-4" desc="Starke Spenggranaten beschädigen den Gegner nicht nur in Form von Strukturpunkten, sondern haben auch eine hohe Chance, durch Flächenschaden Module zu beschädigen oder zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Eine Sprenggranate kann ihre volle Wirkung erst entfalten, wenn sie die Panzerung voll durchschlägt und im Inneren explodiert. Haben Ihre Granaten nur geringe Durchschlagskraft, suchen Sie sich Fahrzeuge mit einem oben offenen Turm oder verwenden Sie Premiumgranaten.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Beschädigen oder zerstören Sie Module oder verletzen Sie Besatzungsmitglieder eines Gegnerfahrzeugs, insgesamt 10 Module oder Besatzungsmitglieder.\n• Die Anzahl beschädigter/zerstörter Module und verletzter Besatzungsmitglieder wird über alle Fahrzeuge addiert, die Sie beschädigt haben.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SFL-5: Berechnen &amp; Zerstören" short="Objekt 260: SFL-5" desc="Ihre hohe Feuerkraft entschädigt Sie für die geringe Haltbarkeit Ihrer SFL." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Versuchen Sie, bei der ersten Gelegenheit, Gegnerfahrzeuge zu beschädigen. Auch wenn die HE-Granate nur knapp vorbei geht, erhält das Fahrzeug eventuell Schaden durch Splitter.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie zehnmal so viel Schaden, wie Ihr Fahrzeug Strukturpunkte hat.\n• Schaden an Verbündeten wird nicht gewertet.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Zerstören Sie mindestens 4 Gegnerfahrzeuge.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-6: Der fallende Hammer" short="Objekt 260: SFL-6" desc="Sie werden oft gegen höherstufige Fahrzeuge kämpfen müssen. Für einen erfahrenen SFL-Fahrer ist das aber kein Problem." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Können Sie einen Gegner nicht mit Standardgranaten durchschlagen, dann versuchen Sie es mit Premiumgranaten. Schießen Sie auf die Seiten und das Heck des Gegnerfahrzeugs. SFL können mit ihrem Steilfeuer sehr gut die Oberseite des Turmes treffen, eine sehr verwundbare Stelle. Gegnerfahrzeuge mit oben offenem Turm sind noch verwundbarer für diese Art von Treffern.</Hint>
+    <PM name="SFL-3: Langsam und stetig wird betäubt" short="Objekt 260: SFL-3" desc="Verborgene und starke Jagdpanzer, sowie gut gepanzerte schwere Panzer haben großen Einfluss auf den Verlauf des Gefechts. Sie sind Ihre vornehmlichen Ziele. Schaden an ihnen zu verursachen (oder bei ihrer Zerstörung zu helfen) ist das Hauptziel für einen Spieler in einer SFL. Der Großteil der schweren Panzer und Jagdpanzer ist langsam und schwerfällig. Leichte Beute für Sie." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie mindestens 8 Mal gegnerische schwere Panzer oder Jagdpanzer.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-4: Ich durchschaue dich" short="Objekt 260: SFL-4" desc="Merken Sie sich die Routen der schwereren Panzer und die Stellungen der Jagdpanzer. Einen bestimmten Bereich der Karte im Vorfeld anzuvisieren steigert Ihre Chancen, gegnerische Stellungen effektiv und verheerend unter Beschuss zu nehmen. Diese Fahrzeugtypen verwenden recht vorhersehbare Taktiken auf bestimmten Karten. Seien Sie klug: analysieren Sie die Aufstellung des gegnerischen Teams und wählen Sie gleich zu Anfang des Gefechts die beste Stellung." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Betäuben Sie gegnerische schwere Panzer oder Jagdpanzer für insgesamt 120 Sekunden.\n• Der Betäubungstreffer sollte Schaden verursachen.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-5: Teilen macht Freude" short="Objekt 260: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge, die 2 Stufen über Ihrem Fahrzeug liegen.</req>
+        <req>• Verbündete müssen mindestens 3 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Beschädigen Sie mindestens achtmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SFL-6: Der Hammer der Götter" short="Objekt 260: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Verbündete müssen an mindestens 6 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-7: Die Dicken Kanonen auspacken" short="Objekt 260: SFL-7" desc="Sie sollten gegnerische Jagdpanzer und SFL bei der ersten Gelegenheit zerstören. Sie auszuschalten bedeutet vielleicht, die Schlacht zu Ihren Gunsten zu lenken." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Koordinieren Sie Ihre Aktionen mit verbündeten leichten Panzern. Die Aufklärung gegnerischer Jagdpanzer und SFL und deren Zerstörung kann der entscheidende Schlag auf dem Schlachtfeld sein.</Hint>
+    <PM name="SFL-7: Sorgsam überlegt" short="Objekt 260: SFL-7" desc="Schließen Sie diesen Auftrag ab, indem Sie selektiv bei der Wahl Ihrer Ziele herangehen. Konzentrieren Sie Ihr Feuer nicht auf ein Fahrzeug, auch wenn dieses leichte Beute ist. Treffen Sie große Gegnertruppen mit einem Schuss. Studieren Sie die Karten und merken Sie sich die wichtigsten Fahrzeugrouten." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 3 gegnerische Jagdpanzer und SFL.\n• Gewinnen Sie das Gefecht.</req>
+        <req>• Betäuben Sie mindestens 6 Gegnerfahrzeuge.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 4.000 Schadenspunkte.</req>
+        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-8: Schweres Feuer auf schwere Panzer!" short="Objekt 260: SFL-8" desc="Ein schwerer Panzer ist ein harter Gegner, aber nicht für Ihr Geschütz. Granaten mit einer gebogenen Flugbahn können die Oberseite des Turms eines Fahrzeugs treffen, wo die Panzerung am dünnsten ist." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Gegnerische Panzer sind generell langsamer als andere Fahrzeugtypen. Daher kann man oft vorhersehen, wo der Panzer sein wird, wenn Ihre Granate eintrifft. Ein guter SFL-Fahrer sollte wissen, wie schnell seine Granaten sind.</Hint>
+    <PM name="SFL-8: Ich habe alles gegeben" short="Objekt 260: SFL-8" desc="Sie erhalten Erfahrung für alle effektiven Handlungen. Versuchen Sie, die wichtigste Person zu sein: verursachen Sie Schaden, helfen Sie bei Zerstören von Gegnerfahrzeugen und überleben Sie das Gefecht. Ändern Sie nach jedem Schuss Ihre Position, sonst werden Sie zum Opfer der gegnerischen SLF." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 3.000 Schadenspunkte an gegnerischen schweren Panzern.</req>
+        <req>• Erhalten Sie die höchste Erfahrung Ihres Teams.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 gegnerische schwere Panzer.\n• Gewinnen Sie das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-9: Leite sie bis du die triffst" short="Objekt 260: SFL-9" desc="Ein erfahrener Kommandant einer SFL trifft mit Leichtigkeit Ziele, die sich bewegen. Lernen Sie, wie man beim Schießen erfolgreich die Bewegung von Gegnerfahrzeugen erahnt. Ein Direkttreffer erzielt mehr Schaden als ein HE-Treffer." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Die Fluggeschwindigkeit Ihrer Geschosse ist ein wichtiger Parameter. Weiß man, wie lange das Geschoss zum Ziel braucht, kann man die Abweichung korrekt berechnen.</Hint>
+    <PM name="SFL-9: Kollateralschaden" short="Objekt 260: SFL-9" desc="Schlagkräftige Sprenggranaten verringern nicht nur die Strukturpunkte eines Gegnerfahrzeugs, es besteht auch eine gute Chance, mit der Flächenwirkung Module zu zerstören oder Besatzungsmitglieder zu verletzen." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Erzielen Sie mindestens 4 Direkttreffer auf gegnerische Fahrzeuge.\n• Es werden alle Direkttreffer gewertet, egal, ob Sie Schaden verursachen.</req>
+        <req>• Zerstören Sie Module gegnerischer Fahrzeuge oder verletzen Sie Besatzungsmitglieder dieser, insgesamt mindestens 10 Module und Besatzungsmitglieder.\n• Die Anzahl zerstörter Module und verletzter Besatzungsmitglieder wird von allen Gegnerfahrzeugen summiert, die Sie im Laufe des Gefecht beschädigt haben.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Überleben Sie das Gefecht.\n• Gewinnen Sie das Gefecht.\n• Bleiben Sie im ganzen Gefecht unentdeckt.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-10: Das Verderben der Artillerie" short="Objekt 260: SFL-10" desc="Die Jagd auf die Artillerie ist eine gute Idee. Versuchen Sie zu erahnen, wo sich gegnerische SFL versteckt haben könnten und vergewissern Sie sich mit einem präzisen Schuss, ob Sie richtig vermuten." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Je öfter man eine Selbstfahrlafette fährt, desto mehr strategische Punkte der Karten kennt man. Das hilft im Kampf gegen gegnerische SFL, denn dann weiß man oft schon, wo sie stehen könnten.</Hint>
+    <PM name="SFL-10: Alles inklusive" short="Objekt 260: SFL-10" desc="Die Situation im Gefecht kann sich schnell ändern. Haben Sie die Minikarte im Auge und versuchen Sie, eine saubere Sichtlinie auf die Gegnerfahrzeuge zu behalten. Oft ist es besser, sich häufig zu verlegen, als an einer Stelle zu bleiben. Ihre Verbündeten verlassen sich auf die Feuerkraft Ihrer SFL. Versuchen Sie also, zur rechten Zeit am richtigen Ort zu sein." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 gegnerische SFL.\n• Verursachen Sie mindestens 4 000 Schadenspunkte an Gegnerfahrzeugen.</req>
+        <req>• Der insgesamt verursachte Schaden von Ihnen und Ihren Verbündeten an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen sollte mindestens 4 000 SP betragen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 5 Gegnerfahrzeuge.</req>
+        <req>• Gewinnen Sie das Gefecht.\n• Verbündete müssen mindestens 3 von Ihnen betäubte oder unbeweglich gemachte Gegnerfahrzeuge zerstören.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-11: Flächenschaden" short="Objekt 260: SFL-11" desc="Ihre HE-Granaten können ein Gegnerfahrzeug nicht nur mit dem ersten Treffer zerstören, sondern auch massiven Schaden an mehreren Zielen gleichzeitig verursachen, wenn diese nahe beieinander stehen." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Beobachten Sie Engstellen und beliebte Ecken, an denen Fahrzeuge sich gerne sammeln. Sie können dann wortwörtlich zwei Fliegen mit einer Klappe schlagen. Und Munition ist nicht umsonst: denken Sie an das Einsparpotential.</Hint>
+    <PM name="SFL-11: Flächenschaden" short="Objekt 260: SFL-11" desc="Neben dem massiven Schaden, den ein gut platzierter Treffer verursacht, kann eine Sprenggranate alle unglücklichen Fahrzeuge innerhalb des Explosionsradius der Granate betäuben. Viele Karten haben Plätze, an denen sich Fahrzeuge sammeln. Probieren Sie Ihr Glück und senden Sie „explosive“ Grüße." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Zerstören Sie mindestens 2 Gegnerfahrzeuge mit einem Schuss.</req>
+        <req>• Betäuben Sie zweimal mindestens 3 Gegnerfahrzeuge mit einem einzigen Schuss.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 200 Sekunden.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-12: Der Hammer" short="Objekt 260: SFL-12" desc="Der Spielstil einer SFL unterscheidet sich enorm von dem anderer Fahrzeugtypen. Das Hauptziel ist jedoch das gleiche – die beste Leistung im Gefecht zu geben und so viel wie möglich zum Teamerfolg beizutragen." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Schalten Sie nicht schon zu Beginn eines Gefechts in die Artilleriebeobachtersicht. Suchen Sie sich erst eine gute Stellung.</Hint>
+    <PM name="SFL-12: Der böse Blick" short="Objekt 260: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie den meisten Schaden beider Teams.\n• Zerstören Sie mindestens 4 Gegnerfahrzeuge.\n• Überleben Sie das Gefecht.</req>
+        <req>• Betäuben Sie gegnerische Fahrzeuge für insgesamt 200 Sekunden.\n• Verbündete müssen mindestens 3 von Ihnen betäubte oder unbeweglich gemachte Fahrzeuge zerstören.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-13: Artilleriebatterie  (Persönlich/Zug)" short="Objekt 260: SFL-13" desc="Ein Zug aus Selbstfahrlafetten stellt für jeden Gegner eine große Gefahr da. Koordinieren Sie Ihre Aktionen innerhalb des Zugs und beseitigen Sie den Gegner mit fokussiertem Feuer. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Verteilen Sie sich, damit Ihr Team Ziele aus verschiedenen Richtungen angreifen kann, wodurch viele Deckungen wirkungslos werden.</Hint>
+    <PM name="SFL-13: K für Kooperation" short="Objekt 260: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 30 % des durch Ihr Teams verursachten Gesamtschadens an gegnerischen Fahrzeugen, entweder selbst oder insgesamt als Zug.\n• Gewinnen Sie das Gefecht.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>• Beschädigen Sie mindestens 10 Mal gegnerische Fahrzeuge oder betäuben Sie diese mindestens 12 Mal.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-14: Vereinte Offensive  (Persönlich/Zug)" short="Objekt 260: SFL-14" desc="Die Artillerie ist davon abhängig, dass der Rest des Teams erfolgreich ist. Artillerie und leichte Panzer ergänzen sich sehr gut, insbesondere in einem Zug. Dieser Auftrag kann als Zug oder alleine erledigt werden. Letzteres ist aber schwieriger." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Ein leichter Panzer kann gegnerische Fahrzeuge aufklären und sie unbeweglich machen. Die SFL machen kurzen Prozess mit dem unglücklichen Opfer. Gemeinsam gewinnt man! Ein schwerer Panzer schützt Sie mit seiner dicken Panzerung, ein mittlerer Panzer lenkt den Gegner ab und Jagdpanzer bieten Feuerunterstützung auf lange Reichweite.</Hint>
+    <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="Objekt 260: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verursachen Sie mindestens 5.000 Schadenspunkte an gegnerischen schweren Panzern und Jagdpanzer, entweder selbst oder insgesamt als Zug.\n• Kann entweder alleine oder als Teil eines Zugs, der aus Ihrer SFL und beliebigen anderen Fahrzeugen besteht, erfüllt werden.</req>
+        <req>Betäuben Sie gegnerische Fahrzeuge für insgesamt 250 Sekunden oder ermöglichen Sie Ihren Verbündeten, mindestens 1 000 Schadenspunkte an von Ihnen unbeweglich gemachten Fahrzeugen zu verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Überleben Sie persönlich das Gefecht.</req>
+        <req>• Gewinnen Sie das Gefecht.</req>
       </Secondary>
     </PM>
-    <PM name="SFL-15: Kriegsgötter" short="Objekt 260: SFL-15" desc="Es ist besser für das Team, wenn die Selbstfahrlafette überlebt. Setzen Sie sich keinem Gegnerfeuer aus und feuern Sie präzise Schüsse auf den Gegner ab." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
-      <Hint>Kennen Sie die technischen Daten Ihrer SFL, können Sie Ihre Aktionen im Gefecht planen. Manchmal ist es keine gute Idee, in der Basis zu bleiben. Fährt man eine schnelle SFL, kann man schnell die Stellungen wechseln und den Gegner aus unterschiedlichen Richtungen angreifen, von denen aus sie es am wenigsten vermuten.</Hint>
+    <PM name="SFL-15: Kriegsgötter" short="Objekt 260: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Erhalten Sie die meiste Erfahrung und verursachen Sie den meisten Schaden beider Teams.\n• Verursachen Sie mindestens 3.000 Schadenspunkte.</req>
+        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 3 500 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>

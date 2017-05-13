@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="The Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Unknown" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Special Battle" />
     <item ID="5" Name="Special Battle" />
     <item ID="6" Name="Battle Training" />
-    <item ID="7" Name="Team: Unranked Battles" />
+    <item ID="7" Name="Team Battle" />
     <item ID="8" Name="Historical Battle" />
     <item ID="9" Name="Special Event" />
     <item ID="10" Name="Skirmishes" />
@@ -1899,136 +1911,136 @@
         <req>• Destroy an enemy vehicle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="StuG IV: SPG-1" desc="Do not waste your ammunition. It is the precise hits that will bring you victory." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Be patient and wait until you are fully aimed at the target.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="StuG IV: SPG-1" desc="The large burst radius after a shell explosion is the key feature of SPG vehicles. Even if you failed to deliver a direct hit to the target enemy vehicle, there is still a chance to cause serious trouble by stunning it. The enemy vehicle is marked with the stun indicator, which is visible to your allies. If allies cause damage to the vehicles stunned by you, you will receive additional credits and experience for damage caused with your assistance." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Score at least 3 hits that cause damage to enemy vehicles.</req>
+        <req>• Stun enemy vehicles at least 3 times.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage.</req>
+        <req>• Cause damage to enemy vehicles at least 3 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="StuG IV: SPG-2" desc="SPGs cannot rely on the thickness of their armor or their speed. If you drive an SPG, learn how to stay concealed during the whole battle." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>The Camouflage Net equipment combined with the Camouflage crew skill will help you stay unspotted.</Hint>
+    <PM name="SPG-2: Time Is Money" short="StuG IV: SPG-2" desc="An enemy vehicle remains stunned for a particular period of time and cannot do their best on the battlefield. Remember: a stunned vehicle becomes an easy target." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 500 HP of damage to enemy vehicles. Remain unspotted during the battle.\n• Survive the battle.</req>
+        <req>• Stun enemy vehicles for at least 50 seconds in total.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy vehicle.</req>
+        <req>• Destroy at least one enemy vehicle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="StuG IV: SPG-3" desc="If you want to become an asset to the team, you have to learn how to shoot effectively first." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Follow the flow of the battle and support your team. Do not stand in one spot for too long. Retreat or look for another firing position if needed.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="StuG IV: SPG-3" desc="Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The majority of heavies and tank destroyers are slow and hulking, which increases the chances for a successful shot." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage to enemy vehicles.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Win the battle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Break On Through" short="StuG IV: SPG-4" desc="Powerful HE shells can not only cause damage in terms of hit points, but will also have a good chance of damaging or destroying modules or injuring crew members with splash damage." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>A High-Explosive shell is most devastating when it fully penetrates the armor and explodes inside the hull of an enemy vehicle. If your shells have mediocre penetration, try to find an enemy vehicle with an open-top turret, or load a Premium shell.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Damage or destroy enemy vehicles’ modules or injure members of their crew, totaling at least 3 modules and crew members.\n• The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</req>
+        <req>• Stun an enemy heavy tank or tank destroyer at least 2 times.\n• The stunning shots should also cause damage.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="StuG IV: SPG-5" desc="The great firepower you possess compensates well for the relatively low durability of your SPG." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Try to cause damage to enemy vehicles at the first opportunity. Even if your HE shell misses the enemy, a near miss may still cause damage to the target.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause damage exceeding 4 times the hit points of your vehicle.\n• Damage caused to allies is not counted.</req>
+    <PM name="SPG-4: I'll See You Through" short="StuG IV: SPG-4" desc="Learn major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for the most effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the best suitable position from the very start of the battle." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Stun an enemy heavy tank or tank destroyer for at least 30 seconds in total.\n• The stunning shot should also cause damage.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy vehicle.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="StuG IV: SPG-6" desc="Often you will fight against vehicles of a higher tier. But that is not a problem for an experienced SPG driver." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>SPGs, with their arcing shell trajectory, can often hit a target on the top of the turret or the engine deck, areas where the armor protection is usually weak. Enemy vehicles with open turrets are even more vulnerable to destruction from above. Against the heaviest targets, you may have to resort to Premium shells.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="StuG IV: SPG-5" desc="Stunning of enemy vehicles not only makes your team one step closer to a victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy vehicles of the same tier as your vehicle or higher.</req>
+        <req>• Enable your allies to cause at least 600 damage to enemy vehicles by stunning or immobilizing them.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Cause damage to enemy vehicles at least 3 times by shooting or ramming them.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hammer of the Gods" short="StuG IV: SPG-6" desc="The primary objective of SPGs is to provide fire support to allied vehicles. Stunned enemy vehicles are poor fighters, so your teammates will certainly appreciate your assistance. However, be cautious when firing: a careless shot can also stun an allied vehicle. Friendly fire will not be tolerated!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Enable your allies to cause damage to at least 2 enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="StuG IV: SPG-7" desc="You should destroy enemy tank destroyers and SPGs any chance you get. Taking them out may turn the tide of battle in your favor." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Coordinate your actions with allied light tanks. Spotting enemy tank destroyers and SPGs and destroying them can help to achieve superiority on the battlefield.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="StuG IV: SPG-7" desc="To complete this mission, use a selective approach for choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy tank destroyer or SPG.</req>
+        <req>• Stun at least 2 enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="StuG IV: SPG-8" desc="A heavy tank is a hard target, but not for your gun. The sight of heavy tank in the open should make you smile." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Heavy tanks generally move more slowly than other types of vehicles. Therefore, you can often predict where the tank will be when your shell arrives. For an SPG driver, it is useful to know the speed of your shells.</Hint>
+    <PM name="SPG-8: I Did My Best" short="StuG IV: SPG-8" desc="You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive in the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,000 HP of damage to enemy heavy tanks.</req>
+        <req>• Be among the top 7 players on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy heavy tank.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Til You Hit Them" short="StuG IV: SPG-9" desc="An experienced SPG driver can easily hit moving vehicles. Learn to effectively predict the movement of enemy vehicles when firing. Remember that a direct hit can cause much more damage to an enemy vehicle than an HE splash." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Knowing the velocity of your shells is crucial. By estimating how long the shell will take to reach the aim point, you can correctly lead a moving target.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="StuG IV: SPG-9" desc="Powerful HE-shells can not only reduce the hit points of enemy vehicles, but also have a high chance of destroying modules or injuring crew members with splash damage." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Damage an enemy vehicle that is moving at a speed of at least 20 km/h.\n• Both splash damage and the damage caused by direct hits is counted.\n• Damage caused by ramming is not counted.</req>
+        <req>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 3 modules and crew members.\n• The number of destroyed modules and injured crew members is totaled across all enemy vehicles you have damaged in the battle.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="StuG IV: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
+    <PM name="SPG-10: All Included" short="StuG IV: SPG-10" desc="Battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying at one position. Your allies rely on your SPG firepower, so do your best in the right time and place." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 1 enemy SPG.</req>
+        <req>• Total damage caused by you and your allies to enemy vehicles that you have stunned or immobilized must be at least 1,000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy vehicles.</req>
+        <req>• Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Keep your eye on choke points and busy corners where vehicles are likely to stack up. You can literally kill two birds with one stone. And ammunition is not free: think of the savings!</Hint>
+    <PM name="SPG-11: The Area of Effect" short="StuG IV: SPG-11" desc="In addition to a considerable amount of damage caused with a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature some spots where enemy vehicles are bunching together. Take your chance and send you highly \&quot;explosive\&quot; regards to them." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy vehicle with a single shot.\n• Only targets that received no prior damage in the battle are counted.</req>
+        <req>• Stun at least 2 enemy vehicles with a single shot.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Stun enemy vehicles for at least 50 seconds in total.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: The Evil Eye" short="StuG IV: SPG-12" desc="Your allies destroyed the stunned enemy vehicle? Good news for your, since it is your contribution which makes the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place and moment." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Stun enemy vehicles for at least 50 seconds in total.\n• Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="StuG IV: SPG-12" desc="Playing an SPG is drastically different from playing any other vehicle type. But the main objective is the same—do your best in battle, and contribute as much as you can to the team's cause." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Do not switch to Artillery mode at the very beginning of the battle. First, decide on a good firing position.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="StuG IV: SPG-13" desc="Well-handled cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Be among the top 3 players on your team by damage caused.\n• Destroy an enemy vehicle.</req>
+        <req>• Cause damage to enemy vehicles at least 4 times or stun them at least 6 times.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Personal/Platoon)" short="StuG IV: SPG-13" desc="A Platoon of well-handled SPGs should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>By spreading out, your Platoon can hit targets from different angles, rendering many rocks and buildings useless as cover and dominating the map.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="StuG IV: SPG-14" desc="Cooperation is key to victory of the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 15% of the total damage caused to enemy vehicles by your team. Damage caused by Platoon mates counts toward this total.\n• Win the battle.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Stun enemy vehicles for at least 70 seconds in total or enable your allies to cause at least 400 damage to enemy vehicles by immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Personal/Platoon)" short="StuG IV: SPG-14" desc="Artillery is dependent on the rest of the team to be successful. Artillery and light tanks complement each other especially well in a Platoon. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>A light tank can spot enemy vehicles and immobilize them, allowing SPGs to make short work of the unfortunate victim. A heavy tank can shield allies with its thick armor, a medium tank can distract the enemy, while a tank destroyer can provide fire support at long range. Together we will win!</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage to enemy heavy tanks and tank destroyers. Damage caused by Platoon mates counts toward this total.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: War Gods" short="StuG IV: SPG-15" desc="An SPG, played well and properly supported, can be a dominant weapon." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
-      <Hint>Know the technical characteristics of your SPG and plan your actions accordingly. Sometimes, remaining at the base is not a very good idea. If you are driving a fast SPG, you can quickly change positions and engage the enemy from an unexpected direction.</Hint>
+    <PM name="SPG-15: War Gods" short="StuG IV: SPG-15" desc="An SPG that survives for as long as possible is a real asset for the team. Keep firing one shell after another while trying not to get caught under enemy fire. Take your time and think twice before \&quot;pulling the trigger\&quot;, since \&quot;one shot—one hit\&quot; is the best strategy for a vehicle with a long reload time." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Be among the top 3 players on your team by experience earned and damage caused.\n• Cause at least 2,000 HP of damage.</req>
+        <req>• Be among the top 5 players on your team by experience earned.\n• Enable your allies to cause at least 1,000 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Survive the battle.</req>
@@ -2574,136 +2586,136 @@
         <req>• Destroy at least 2 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="Т28 Heavy Tank Concept: SPG-1" desc="Do not waste your ammunition. It is the precise hits that will bring you victory." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Be patient and wait until you are fully aimed at the target.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="Т28 Heavy Tank Concept: SPG-1" desc="The large burst radius after a shell explosion is the key feature of SPG vehicles. Even if you failed to deliver a direct hit to the target enemy vehicle, there is still a chance to cause serious trouble by stunning it. The enemy vehicle is marked with the stun indicator, which is visible to your allies. If allies cause damage to the vehicles stunned by you, you will receive additional credits and experience for damage caused with your assistance." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Score at least 4 hits that cause damage to enemy vehicles.</req>
+        <req>• Stun enemy vehicles at least 5 times.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage.</req>
+        <req>• Cause damage to enemy vehicles at least 5 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="Т28 Heavy Tank Concept: SPG-2" desc="SPGs cannot rely on the thickness of their armor or their speed. If you drive an SPG, learn how to stay concealed during the whole battle." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>The Camouflage Net equipment combined with the Camouflage crew skill will help you stay unspotted.</Hint>
+    <PM name="SPG-2: Time Is Money" short="Т28 Heavy Tank Concept: SPG-2" desc="An enemy vehicle remains stunned for a particular period of time and cannot do their best on the battlefield. Remember: a stunned vehicle becomes an easy target." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,500 HP of damage to enemy vehicles. Remain unspotted during the battle.\n• Survive the battle.</req>
+        <req>• Stun enemy vehicles for at least 100 seconds in total.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 2 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="Т28 Heavy Tank Concept: SPG-3" desc="If you want to become an asset to the team, you have to learn how to shoot effectively first." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Follow the flow of the battle and support your team. Do not stand in one spot for too long. Retreat or look for another firing position if needed.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="Т28 Heavy Tank Concept: SPG-3" desc="Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The majority of heavies and tank destroyers are slow and hulking, which increases the chances for a successful shot." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage to enemy vehicles.</req>
+        <req>• Stun an enemy heavy tank or tank destroyer at least 4 times.\n• The stunning shots should also cause damage.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Break On Through" short="Т28 Heavy Tank Concept: SPG-4" desc="Powerful HE shells can not only cause damage in terms of hit points, but will also have a good chance of damaging or destroying modules or injuring crew members with splash damage." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>A High-Explosive shell is most devastating when it fully penetrates the armor and explodes inside the hull of an enemy vehicle. If your shells have mediocre penetration, try to find an enemy vehicle with an open-top turret, or load a Premium shell.</Hint>
+    <PM name="SPG-4: I'll See You Through" short="Т28 Heavy Tank Concept: SPG-4" desc="Learn major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for the most effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the best suitable position from the very start of the battle." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Damage or destroy enemy vehicles’ modules or injure members of their crew, totaling at least 5 modules and crew members.\n• The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</req>
+        <req>• Stun an enemy heavy tank or tank destroyer for at least 50 seconds in total.\n• The stunning shot should also cause damage.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="Т28 Heavy Tank Concept: SPG-5" desc="The great firepower you possess compensates well for the relatively low durability of your SPG." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Try to cause damage to enemy vehicles at the first opportunity. Even if your HE shell misses the enemy, a near miss may still cause damage to the target.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="Т28 Heavy Tank Concept: SPG-5" desc="Stunning of enemy vehicles not only makes your team one step closer to a victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause damage exceeding 6 times the hit points of your vehicle.\n• Damage caused to allies is not counted.</req>
+        <req>• Enable your allies to cause at least 1,000 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy vehicles.</req>
+        <req>• Cause damage to enemy vehicles at least 5 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="Т28 Heavy Tank Concept: SPG-6" desc="Often you will fight against vehicles of a higher tier. But that is not a problem for an experienced SPG driver." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>SPGs, with their arcing shell trajectory, can often hit a target on the top of the turret or the engine deck, areas where the armor protection is usually weak. Enemy vehicles with open turrets are even more vulnerable to destruction from above. Against the heaviest targets, you may have to resort to Premium shells.</Hint>
+    <PM name="SPG-6: Hammer of the Gods" short="Т28 Heavy Tank Concept: SPG-6" desc="The primary objective of SPGs is to provide fire support to allied vehicles. Stunned enemy vehicles are poor fighters, so your teammates will certainly appreciate your assistance. However, be cautious when firing: a careless shot can also stun an allied vehicle. Friendly fire will not be tolerated!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy vehicles of the same tier as your vehicle or higher.</req>
+        <req>• Enable your allies to cause damage to at least 3 enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="Т28 Heavy Tank Concept: SPG-7" desc="You should destroy enemy tank destroyers and SPGs any chance you get. Taking them out may turn the tide of battle in your favor." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Coordinate your actions with allied light tanks. Spotting enemy tank destroyers and SPGs and destroying them can help to achieve superiority on the battlefield.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="Т28 Heavy Tank Concept: SPG-7" desc="To complete this mission, use a selective approach for choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy tank destroyer or SPG that is 1 tier higher than your vehicle.</req>
+        <req>• Stun at least 3 enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="Т28 Heavy Tank Concept: SPG-8" desc="A heavy tank is a hard target, but not for your gun. The sight of heavy tank in the open should make you smile." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Heavy tanks generally move more slowly than other types of vehicles. Therefore, you can often predict where the tank will be when your shell arrives. For an SPG driver, it is useful to know the speed of your shells.</Hint>
+    <PM name="SPG-8: I Did My Best" short="Т28 Heavy Tank Concept: SPG-8" desc="You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive in the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 1,500 HP of damage to enemy heavy tanks.</req>
+        <req>• Be among the top 5 players on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy heavy tanks.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Til You Hit Them" short="Т28 Heavy Tank Concept: SPG-9" desc="An experienced SPG driver can easily hit moving vehicles. Learn to effectively predict the movement of enemy vehicles when firing. Remember that a direct hit can cause much more damage to an enemy vehicle than an HE splash." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Knowing the velocity of your shells is crucial. By estimating how long the shell will take to reach the aim point, you can correctly lead a moving target.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="Т28 Heavy Tank Concept: SPG-9" desc="Powerful HE-shells can not only reduce the hit points of enemy vehicles, but also have a high chance of destroying modules or injuring crew members with splash damage." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Score at least 2 direct hits on enemy vehicles.\n• All direct hits, whether or not they caused damage, are counted.</req>
+        <req>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 5 modules and crew members.\n• The number of destroyed modules and injured crew members is totaled across all enemy vehicles you have damaged in the battle.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.\n• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="Т28 Heavy Tank Concept: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
+    <PM name="SPG-10: All Included" short="Т28 Heavy Tank Concept: SPG-10" desc="Battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying at one position. Your allies rely on your SPG firepower, so do your best in the right time and place." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy SPGs.</req>
+        <req>• Total damage caused by you and your allies upon your stunning or immobilizing enemy vehicles must be at least 2,000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy vehicles.</req>
+        <req>• Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="Т28 Heavy Tank Concept: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Keep your eye on choke points and busy corners where vehicles are likely to stack up. You can literally kill two birds with one stone. And ammunition is not free: think of the savings!</Hint>
+    <PM name="SPG-11: The Area of Effect" short="Т28 Heavy Tank Concept: SPG-11" desc="In addition to a considerable amount of damage caused with a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature some spots where enemy vehicles are bunching together. Take your chance and send you highly \&quot;explosive\&quot; regards to them." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause damage to at least 2 enemy vehicles with a single shot.</req>
+        <req>• Stun at least 2 enemy vehicles with a single shot twice.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Stun enemy vehicles for at least 100 seconds in total.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: The Evil Eye" short="Т28 Heavy Tank Concept: SPG-12" desc="Your allies destroyed the stunned enemy vehicle? Good news for your, since it is your contribution which makes the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place and moment." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Stun enemy vehicles for at least 100 seconds in total.\n• Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="Т28 Heavy Tank Concept: SPG-12" desc="Playing an SPG is drastically different from playing any other vehicle type. But the main objective is the same—do your best in battle, and contribute as much as you can to the team's cause." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Do not switch to Artillery mode at the very beginning of the battle. First, decide on a good firing position.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="Т28 Heavy Tank Concept: SPG-13" desc="Well-handled cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Be among the top 3 players on both teams by damage caused.\n• Destroy at least 2 enemy vehicles.\n• Survive the battle.</req>
+        <req>• Cause damage to enemy vehicles at least 6 times or stun them at least 8 times.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Personal/Platoon)" short="Т28 Heavy Tank Concept: SPG-13" desc="A Platoon of well-handled SPGs should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>By spreading out, your Platoon can hit targets from different angles, rendering many rocks and buildings useless as cover and dominating the map.</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="Т28 Heavy Tank Concept: SPG-14" desc="Cooperation is key to victory of the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 20% of the total damage caused to enemy vehicles by your team. Damage caused by Platoon mates counts toward this total.\n• Win the battle.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Stun enemy vehicles for at least 100 seconds in total or enable your allies to cause at least 600 damage to enemy vehicles by immobilizing them.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Personal/Platoon)" short="Т28 Heavy Tank Concept: SPG-14" desc="Artillery is dependent on the rest of the team to be successful. Artillery and light tanks complement each other especially well in a Platoon. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>A light tank can spot enemy vehicles and immobilize them, allowing SPGs to make short work of the unfortunate victim. A heavy tank can shield allies with its thick armor, a medium tank can distract the enemy, while a tank destroyer can provide fire support at long range. Together we will win!</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage to enemy heavy tanks and tank destroyers. Damage caused by Platoon mates counts toward this total.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: War Gods" short="Т28 Heavy Tank Concept: SPG-15" desc="An SPG, played well and properly supported, can be a dominant weapon." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
-      <Hint>Know the technical characteristics of your SPG and plan your actions accordingly. Sometimes, remaining at the base is not a very good idea. If you are driving a fast SPG, you can quickly change positions and engage the enemy from an unexpected direction.</Hint>
+    <PM name="SPG-15: War Gods" short="Т28 Heavy Tank Concept: SPG-15" desc="An SPG that survives for as long as possible is a real asset for the team. Keep firing one shell after another while trying not to get caught under enemy fire. Take your time and think twice before \&quot;pulling the trigger\&quot;, since \&quot;one shot—one hit\&quot; is the best strategy for a vehicle with a long reload time." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Be among the top 3 players on both teams by experience earned and damage caused.\n• Cause at least 2,000 HP of damage.</req>
+        <req>• Be among the top 3 players on your team by experience earned.\n• Enable your allies to cause at least 1,500 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Survive the battle.</req>
@@ -3249,136 +3261,136 @@
         <req>• Destroy at least 3 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="T 55A: SPG-1" desc="Do not waste your ammunition. It is the precise hits that will bring you victory." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Be patient and wait until you are fully aimed at the target.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="T 55A: SPG-1" desc="The large burst radius after a shell explosion is the key feature of SPG vehicles. Even if you failed to deliver a direct hit to the target enemy vehicle, there is still a chance to cause serious trouble by stunning it. The enemy vehicle is marked with the stun indicator, which is visible to your allies. If allies cause damage to the vehicles stunned by you, you will receive additional credits and experience for damage caused with your assistance." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Score at least 5 hits that cause damage to enemy vehicles.</req>
+        <req>• Stun enemy vehicles at least 7 times.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage.</req>
+        <req>• Cause damage to enemy vehicles at least 6 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="T 55A: SPG-2" desc="SPGs cannot rely on the thickness of their armor or their speed. If you drive an SPG, learn how to stay concealed during the whole battle." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>The Camouflage Net equipment combined with the Camouflage crew skill will help you stay unspotted.</Hint>
+    <PM name="SPG-2: Time Is Money" short="T 55A: SPG-2" desc="An enemy vehicle remains stunned for a particular period of time and cannot do their best on the battlefield. Remember: a stunned vehicle becomes an easy target." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Be among the top 5 players on your team by damage caused. Remain unspotted during the battle.</req>
+        <req>• Stun enemy vehicles for at least 150 seconds in total.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 3 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer Strike" short="T 55A: SPG-3" desc="If you want to become an asset to the team, you have to learn how to shoot effectively first." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Follow the flow of the battle and support your team. Do not stand in one spot for too long. Retreat or look for another firing position if needed.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="T 55A: SPG-3" desc="Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The majority of heavies and tank destroyers are slow and hulking, which increases the chances for a successful shot." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage to enemy vehicles.</req>
+        <req>• Stun an enemy heavy tank or tank destroyer at least 6 times.\n• The stunning shots should also cause damage.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Break On Through" short="T 55A: SPG-4" desc="Powerful HE shells can not only cause damage in terms of hit points, but will also have a good chance of damaging or destroying modules or injuring crew members with splash damage." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>A High-Explosive shell is most devastating when it fully penetrates the armor and explodes inside the hull of an enemy vehicle. If your shells have mediocre penetration, try to find an enemy vehicle with an open-top turret, or load a Premium shell.</Hint>
+    <PM name="SPG-4: I'll See You Through" short="T 55A: SPG-4" desc="Learn major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for the most effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the best suitable position from the very start of the battle." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Damage or destroy enemy vehicles’ modules or injure members of their crew, totaling at least 8 modules and crew members.\n• The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</req>
+        <req>• Stun an enemy heavy tank or tank destroyer for at least 80 seconds in total.\n• The stunning shot should also cause damage.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="T 55A: SPG-5" desc="The great firepower you possess compensates well for the relatively low durability of your SPG." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Try to cause damage to enemy vehicles at the first opportunity. Even if your HE shell misses the enemy, a near miss may still cause damage to the target.</Hint>
+    <PM name="SPG-5: Sharing is Caring" short="T 55A: SPG-5" desc="Stunning of enemy vehicles not only makes your team one step closer to a victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause damage exceeding 8 times the hit points of your vehicle.\n• Damage caused to allies is not counted.</req>
+        <req>• Enable your allies to cause at least 2,000 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy vehicles.</req>
+        <req>• Cause damage to enemy vehicles at least 6 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="T 55A: SPG-6" desc="Often you will fight against vehicles of a higher tier. But that is not a problem for an experienced SPG driver." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>SPGs, with their arcing shell trajectory, can often hit a target on the top of the turret or the engine deck, areas where the armor protection is usually weak. Enemy vehicles with open turrets are even more vulnerable to destruction from above. Against the heaviest targets, you may have to resort to Premium shells.</Hint>
+    <PM name="SPG-6: Hammer of the Gods" short="T 55A: SPG-6" desc="The primary objective of SPGs is to provide fire support to allied vehicles. Stunned enemy vehicles are poor fighters, so your teammates will certainly appreciate your assistance. However, be cautious when firing: a careless shot can also stun an allied vehicle. Friendly fire will not be tolerated!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy vehicles that are 1 tier higher than your vehicle.</req>
+        <req>• Enable your allies to cause damage to at least 5 enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="T 55A: SPG-7" desc="You should destroy enemy tank destroyers and SPGs any chance you get. Taking them out may turn the tide of battle in your favor." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Coordinate your actions with allied light tanks. Spotting enemy tank destroyers and SPGs and destroying them can help to achieve superiority on the battlefield.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="T 55A: SPG-7" desc="To complete this mission, use a selective approach for choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy a total of at least 2 enemy tank destroyers and SPGs.\n• Win the battle.</req>
+        <req>• Stun at least 5 enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage.</req>
+        <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="T 55A: SPG-8" desc="A heavy tank is a hard target, but not for your gun. The sight of heavy tank in the open should make you smile." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Heavy tanks generally move more slowly than other types of vehicles. Therefore, you can often predict where the tank will be when your shell arrives. For an SPG driver, it is useful to know the speed of your shells.</Hint>
+    <PM name="SPG-8: I Did My Best" short="T 55A: SPG-8" desc="You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive in the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 2,000 HP of damage to enemy heavy tanks.</req>
+        <req>• Be among the top 3 players on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy heavy tank.\n• Win the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Til You Hit Them" short="T 55A: SPG-9" desc="An experienced SPG driver can easily hit moving vehicles. Learn to effectively predict the movement of enemy vehicles when firing. Remember that a direct hit can cause much more damage to an enemy vehicle than an HE splash." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Knowing the velocity of your shells is crucial. By estimating how long the shell will take to reach the aim point, you can correctly lead a moving target.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="T 55A: SPG-9" desc="Powerful HE-shells can not only reduce the hit points of enemy vehicles, but also have a high chance of destroying modules or injuring crew members with splash damage." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Damage an enemy vehicle that is moving at a speed of at least 30 km/h.\n• Both splash damage and the damage caused by direct hits is counted.\n• Damage caused by ramming is not counted.</req>
+        <req>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 8 modules and crew members. \n• The number of destroyed modules and injured crew members is totaled across all enemy vehicles you have damaged in the battle.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.\n• Win the battle.\n• Remain unspotted for the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="T 55A: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
+    <PM name="SPG-10: All Included" short="T 55A: SPG-10" desc="Battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying at one position. Your allies rely on your SPG firepower, so do your best in the right time and place." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 1 enemy SPG.\n• Cause at least 2,000 HP of damage to enemy vehicles.</req>
+        <req>• Total damage caused by you and your allies upon your stunning or immobilizing an enemy vehicle must be at least 3,000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 4 enemy vehicles.</req>
+        <req>• Win the battle.\n• Allies must destroy at least 2 enemy vehicles stunned or immobilized by you.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Keep your eye on choke points and busy corners where vehicles are likely to stack up. You can literally kill two birds with one stone. And ammunition is not free: think of the savings!</Hint>
+    <PM name="SPG-11: The Area of Effect" short="T 55A: SPG-11" desc="In addition to a considerable amount of damage caused with a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature some spots where enemy vehicles are bunching together. Take your chance and send you highly \&quot;explosive\&quot; regards to them." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy an enemy vehicle and cause damage to 1 more vehicle with a single shot.</req>
+        <req>• Stun at least 3 enemy vehicles with a single shot.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Win the battle.\n• Survive the battle.</req>
+        <req>• Stun enemy vehicles for at least 150 seconds in total.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="T 55A: SPG-12" desc="Playing an SPG is drastically different from playing any other vehicle type. But the main objective is the same—do your best in battle, and contribute as much as you can to the team's cause." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Do not switch to Artillery mode at the very beginning of the battle. First, decide on a good firing position.</Hint>
+    <PM name="SPG-12: The Evil Eye" short="T 55A: SPG-12" desc="Your allies destroyed the stunned enemy vehicle? Good news for your, since it is your contribution which makes the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place and moment." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player on your team by damage caused.\n• Destroy at least 3 enemy vehicles.</req>
+        <req>• Stun enemy vehicles for at least 150 seconds in total.\n• Allies must destroy at least 2 enemy vehicles stunned or immobilized by you.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Personal/Platoon)" short="T 55A: SPG-13" desc="A Platoon of well-handled SPGs should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>By spreading out, your Platoon can hit targets from different angles, rendering many rocks and buildings useless as cover and dominating the map.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="T 55A: SPG-13" desc="Well-handled cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 25% of the total damage caused to enemy vehicles by your team. Damage caused by Platoon mates counts toward this total.\n• Win the battle.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Cause damage to enemy vehicles at least 8 times or stun them at least 10 times.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Personal/Platoon)" short="T 55A: SPG-14" desc="Artillery is dependent on the rest of the team to be successful. Artillery and light tanks complement each other especially well in a Platoon. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>A light tank can spot enemy vehicles and immobilize them, allowing SPGs to make short work of the unfortunate victim. A heavy tank can shield allies with its thick armor, a medium tank can distract the enemy, while a tank destroyer can provide fire support at long range. Together we will win!</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="T 55A: SPG-14" desc="Cooperation is key to victory of the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 4,000 HP of damage to enemy heavy tanks and tank destroyers. Damage caused by Platoon mates counts toward this total.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Stun enemy vehicles for at least 180 seconds in total or enable your allies to cause at least 800 damage to enemy vehicles by immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: War Gods" short="T 55A: SPG-15" desc="An SPG, played well and properly supported, can be a dominant weapon." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
-      <Hint>Know the technical characteristics of your SPG and plan your actions accordingly. Sometimes, remaining at the base is not a very good idea. If you are driving a fast SPG, you can quickly change positions and engage the enemy from an unexpected direction.</Hint>
+    <PM name="SPG-15: War Gods" short="T 55A: SPG-15" desc="An SPG that survives for as long as possible is a real asset for the team. Keep firing one shell after another while trying not to get caught under enemy fire. Take your time and think twice before \&quot;pulling the trigger\&quot;, since \&quot;one shot—one hit\&quot; is the best strategy for a vehicle with a long reload time." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finish the battle as the top player on your team by experience earned and damage caused.\n• Cause at least 3,000 HP of damage.</req>
+        <req>• Finish the battle as the top player on your team by experience earned.\n• Enable your allies to cause at least 2,500 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Survive the battle.</req>
@@ -3924,136 +3936,136 @@
         <req>• Destroy at least 5 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: The Sharpshooter" short="Object 260: SPG-1" desc="Do not waste your ammunition. It is the precise hits that will bring you victory." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Be patient and wait until you are fully aimed at the target.</Hint>
+    <PM name="SPG-1: A Bold Claim" short="Object 260: SPG-1" desc="The large burst radius after a shell explosion is the key feature of SPG vehicles. Even if you failed to deliver a direct hit to the target enemy vehicle, there is still a chance to cause serious trouble by stunning it. The enemy vehicle is marked with the stun indicator, which is visible to your allies. If allies cause damage to the vehicles stunned by you, you will receive additional credits and experience for damage caused with your assistance." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Score at least 6 hits that cause damage to enemy vehicles.</req>
+        <req>• Stun enemy vehicles at least 10 times.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 4,000 HP of damage.</req>
+        <req>• Cause damage to enemy vehicles at least 8 times by shooting or ramming them.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Hidden and Dangerous" short="Object 260: SPG-2" desc="SPGs cannot rely on the thickness of their armor or their speed. If you drive an SPG, learn how to stay concealed during the whole battle." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>The Camouflage Net equipment combined with the Camouflage crew skill will help you stay unspotted.</Hint>
+    <PM name="SPG-2: Time Is Money" short="Object 260: SPG-2" desc="An enemy vehicle remains stunned for a particular period of time and cannot do their best on the battlefield. Remember: a stunned vehicle becomes an easy target." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Be among the top 3 players on your team by damage caused. Remain unspotted during the battle.</req>
+        <req>• Stun enemy vehicles for at least 200 seconds in total.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 3 enemy vehicles.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Howitzer Strike" short="Object 260: SPG-3" desc="If you want to become an asset to the team, you have to learn how to shoot effectively first." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Follow the flow of the battle and support your team. Do not stand in one spot for too long. Retreat or look for another firing position if needed.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 4,000 HP of damage to enemy vehicles.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Win the battle.\n• Survive the battle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Break On Through" short="Object 260: SPG-4" desc="Powerful HE shells can not only cause damage in terms of hit points, but will also have a good chance of damaging or destroying modules or injuring crew members with splash damage." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>A High-Explosive shell is most devastating when it fully penetrates the armor and explodes inside the hull of an enemy vehicle. If your shells have mediocre penetration, try to find an enemy vehicle with an open-top turret, or load a Premium shell.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Damage or destroy enemy vehicles’ modules or injure members of their crew, totaling at least 10 modules and crew members.\n• The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Win the battle.\n• Survive the battle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Calculate &amp; Obliterate" short="Object 260: SPG-5" desc="The great firepower you possess compensates well for the relatively low durability of your SPG." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Try to cause damage to enemy vehicles at the first opportunity. Even if your HE shell misses the enemy, a near miss may still cause damage to the target.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause damage exceeding 10 times the hit points of your vehicle.\n• Damage caused to allies is not counted.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Destroy at least 4 enemy vehicles.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: The Falling Hammer" short="Object 260: SPG-6" desc="Often you will fight against vehicles of a higher tier. But that is not a problem for an experienced SPG driver." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>SPGs, with their arcing shell trajectory, can often hit a target on the top of the turret or the engine deck, areas where the armor protection is usually weak. Enemy vehicles with open turrets are even more vulnerable to destruction from above. Against the heaviest targets, you may have to resort to Premium shells.</Hint>
+    <PM name="SPG-3: Slow and Steady Gets Stunned" short="Object 260: SPG-3" desc="Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The majority of heavies and tank destroyers are slow and hulking, which increases the chances for a successful shot." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Stun an enemy heavy tank or tank destroyer at least 8 times.\n• The stunning shots should also cause damage.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Win the battle.\n• Survive the battle.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: I'll See You Through" short="Object 260: SPG-4" desc="Learn major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for the most effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the best suitable position from the very start of the battle." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Stun an enemy heavy tank or tank destroyer for at least 120 seconds in total.\n• The stunning shot should also cause damage.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Win the battle.\n• Survive the battle.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Sharing is Caring" short="Object 260: SPG-5" desc="Stunning of enemy vehicles not only makes your team one step closer to a victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy vehicles that are 2 tiers higher than your vehicle.</req>
+        <req>• Enable your allies to cause at least 3,000 damage to enemy vehicles by stunning or immobilizing them.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Cause damage to enemy vehicles at least 8 times by shooting or ramming them.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hammer of the Gods" short="Object 260: SPG-6" desc="The primary objective of SPGs is to provide fire support to allied vehicles. Stunned enemy vehicles are poor fighters, so your teammates will certainly appreciate your assistance. However, be cautious when firing: a careless shot can also stun an allied vehicle. Friendly fire will not be tolerated!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Enable your allies to cause damage to at least 6 enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Roll Out the Big Guns" short="Object 260: SPG-7" desc="You should destroy enemy tank destroyers and SPGs any chance you get. Taking them out may turn the tide of battle in your favor." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Coordinate your actions with allied light tanks. Spotting enemy tank destroyers and SPGs and destroying them can help to achieve superiority on the battlefield.</Hint>
+    <PM name="SPG-7: Careful Consideration" short="Object 260: SPG-7" desc="To complete this mission, use a selective approach for choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy a total of at least 3 enemy tank destroyers and SPGs.\n• Win the battle.</req>
+        <req>• Stun at least 6 enemy vehicles.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Cause at least 4,000 HP of damage.</req>
+        <req>• Win the battle.\n• Survive the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Heavy Fire on Heavy Tanks!" short="Object 260: SPG-8" desc="A heavy tank is a hard target, but not for your gun. The sight of heavy tank in the open should make you smile." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Heavy tanks generally move more slowly than other types of vehicles. Therefore, you can often predict where the tank will be when your shell arrives. For an SPG driver, it is useful to know the speed of your shells.</Hint>
+    <PM name="SPG-8: I Did My Best" short="Object 260: SPG-8" desc="You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive in the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 3,000 HP of damage to enemy heavy tanks.</req>
+        <req>• Finish the battle as the top player on your team by experience earned.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy heavy tanks.\n• Win the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Lead Them Til You Hit Them" short="Object 260: SPG-9" desc="An experienced SPG driver can easily hit moving vehicles. Learn to effectively predict the movement of enemy vehicles when firing. Remember that a direct hit can cause much more damage to an enemy vehicle than an HE splash." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Knowing the velocity of your shells is crucial. By estimating how long the shell will take to reach the aim point, you can correctly lead a moving target.</Hint>
+    <PM name="SPG-9: Collateral Damage" short="Object 260: SPG-9" desc="Powerful HE-shells can not only reduce the hit points of enemy vehicles, but also have a high chance of destroying modules or injuring crew members with splash damage." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Score at least 4 direct hits on enemy vehicles.\n• All direct hits, whether or not they caused damage, are counted.</req>
+        <req>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 10 modules and crew members.\n• The number of destroyed modules and injured crew members is totaled across all enemy vehicles you have damaged in the battle.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Survive the battle.\n• Win the battle.\n• Remain unspotted for the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: The Bane of Artillery" short="Object 260: SPG-10" desc="Artillery can be quite good at destroying artillery. Watch for falling trees and broken fences. Predict where an enemy SPG may be hiding and send a shell to test your hypothesis." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>As you become more experienced with artillery, you will get to know the \"standard\" artillery hiding places on each map. Make enemy SPGs pay for their lack of creativity.</Hint>
+    <PM name="SPG-10: All Included" short="Object 260: SPG-10" desc="Battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying at one position. Your allies rely on your SPG firepower, so do your best in the right time and place." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy SPGs.\n• Cause at least 4,000 HP of damage to enemy vehicles.</req>
+        <req>• Total damage caused by you and your allies to enemy vehicles that you have stunned or immobilized must be at least 4,000 HP.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 5 enemy vehicles.</req>
+        <req>• Win the battle.\n• Allies must destroy at least 3 enemy vehicles stunned or immobilized by you.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="Your HE shells can not only destroy an enemy vehicle in one hit, but they can also cause significant damage to multiple targets at once if they are located close together." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Keep your eye on choke points and busy corners where vehicles are likely to stack up. You can literally kill two birds with one stone. And ammunition is not free: think of the savings!</Hint>
+    <PM name="SPG-11: The Area of Effect" short="Object 260: SPG-11" desc="In addition to a considerable amount of damage caused with a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature some spots where enemy vehicles are bunching together. Take your chance and send you highly \&quot;explosive\&quot; regards to them." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Destroy at least 2 enemy vehicles with a single shot.</req>
+        <req>• Stun at least 3 enemy vehicles with a single shot twice.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Win the battle.\n• Survive the battle.</req>
+        <req>• Stun enemy vehicles for at least 200 seconds in total.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: The Striker" short="Object 260: SPG-12" desc="Playing an SPG is drastically different from playing any other vehicle type. But the main objective is the same—do your best in battle, and contribute as much as you can to the team's cause." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Do not switch to Artillery mode at the very beginning of the battle. First, decide on a good firing position.</Hint>
+    <PM name="SPG-12: The Evil Eye" short="Object 260: SPG-12" desc="Your allies destroyed the stunned enemy vehicle? Good news for your, since it is your contribution which makes the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place and moment." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Finish the battle as the top player on both teams by damage caused.\n• Destroy at least 4 enemy vehicles.\n• Survive the battle.</req>
+        <req>• Stun enemy vehicles for at least 200 seconds in total.\n• Allies must destroy at least 3 enemy vehicles stunned or immobilized by you.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: The Artillery Battery (Personal/Platoon)" short="Object 260: SPG-13" desc="A Platoon of well-handled SPGs should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>By spreading out, your Platoon can hit targets from different angles, rendering many rocks and buildings useless as cover and dominating the map.</Hint>
+    <PM name="SPG-13: C for Cooperation" short="Object 260: SPG-13" desc="Well-handled cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 30% of the total damage caused to enemy vehicles by your team. Damage caused by Platoon mates counts toward this total.\n• Win the battle.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Cause damage to enemy vehicles at least 10 times or stun them at least 12 times.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Joint Offensive (Personal/Platoon)" short="Object 260: SPG-14" desc="Artillery is dependent on the rest of the team to be successful. Artillery and light tanks complement each other especially well in a Platoon. This mission may be completed either as part of a Platoon or on your own, however, the latter is much more difficult." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>A light tank can spot enemy vehicles and immobilize them, allowing SPGs to make short work of the unfortunate victim. A heavy tank can shield allies with its thick armor, a medium tank can distract the enemy, while a tank destroyer can provide fire support at long range. Together we will win!</Hint>
+    <PM name="SPG-14: Part of the Crew, Part of the Ship!" short="Object 260: SPG-14" desc="Cooperation is key to victory of the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Cause at least 5,000 HP of damage to enemy heavy tanks and tank destroyers. Damage caused by Platoon mates counts toward this total.\n• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</req>
+        <req>• Stun enemy vehicles for at least 250 seconds in total or enable your allies to cause at least 1,000 damage to enemy vehicles by immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Personally survive the battle.</req>
+        <req>• Win the battle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: War Gods" short="Object 260: SPG-15" desc="An SPG, played well and properly supported, can be a dominant weapon." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
-      <Hint>Know the technical characteristics of your SPG and plan your actions accordingly. Sometimes, remaining at the base is not a very good idea. If you are driving a fast SPG, you can quickly change positions and engage the enemy from an unexpected direction.</Hint>
+    <PM name="SPG-15: War Gods" short="Object 260: SPG-15" desc="An SPG that survives for as long as possible is a real asset for the team. Keep firing one shell after another while trying not to get caught under enemy fire. Take your time and think twice before \&quot;pulling the trigger\&quot;, since \&quot;one shot—one hit\&quot; is the best strategy for a vehicle with a long reload time." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="The Long-Awaited Backup" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finish the battle as the top player on both teams by experience earned and damage caused.\n• Cause at least 3,000 HP of damage.</req>
+        <req>• Finish the battle as the top player on both teams by experience earned.\n• Enable your allies to cause at least 3,500 damage to enemy vehicles by stunning or immobilizing them.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Survive the battle.</req>

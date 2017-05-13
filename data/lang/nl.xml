@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Spookstad" />
     <item ID="96_prohorovka_defense" Name="Vurig Saillant" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="De Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Onbekend" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Speciaal gevecht" />
     <item ID="5" Name="Speciaal gevecht" />
     <item ID="6" Name="Gevechtstraining" />
-    <item ID="7" Name="Team: Ongeklasseerde gevechten" />
+    <item ID="7" Name="Teamgevecht" />
     <item ID="8" Name="Historisch gevecht" />
     <item ID="9" Name="Speciaal evenement" />
     <item ID="10" Name="Schermutselingen" />
@@ -1734,7 +1746,7 @@
         <req>• Steek een vijandelijk voertuig in brand.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 5 spelers in jouw team met verdiende ervaring.</req>
+        <req>• Wees bij de top 5 spelers van jouw team met verdiende ervaring.</req>
       </Secondary>
     </PM>
     <PM name="MT-13: Actieve actie (persoonlijk/peloton)" short="StuG IV: MT-13" desc="Een peloton medium tanks kan van grote waarde zijn voor een team op het gehele slagveld. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
@@ -1767,7 +1779,7 @@
     <PM name="TJ-1: Effectieve prestatie" short="StuG IV: TJ-1" desc="Tankjagers zijn een geweldige keuze voor spelers, die er van houden vijandelijke voertuigen vanaf grote afstand te vernietigen." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
       <Hint>Tankjagers hebben serieuze vuurkracht, maar in vergelijking een lage overlevingskans. Probeer te vuren vanaf afstand—de accuratie van je kanon staat dat toe.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 7 spelers in jouw team met verdiende ervaring.</req>
+        <req>• Wees bij de top 7 spelers van jouw team met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
@@ -1899,136 +1911,136 @@
         <req>• Vernietig een vijandelijk voertuig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: De scherpschutter" short="StuG IV: SPG-1" desc="Verspil je munitie niet. Het zijn de precieze treffers die je de overwinning bezorgen." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Wees geduldig en wacht totdat je volledig bent gericht op het doelwit.</Hint>
+    <PM name="SPG-1: Een gewaagde conclusie" short="StuG IV: SPG-1" desc="De grote explosieradius van een granaatexplosie is het belangrijkste kenmerk van artillerie. Zelfs wanneer het je niet gelukt is om het vijandelijk voertuig direct te raken, is er nog steeds een kans dat je serieuze problemen veroorzaakt door het te verdoven. Het vijandelijk voertuig is gemarkeerd door de verdovingsindicator, welke zichtbaar is voor jouw bondgenoten. Als bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt, zul je extra credits en ervaring ontvangen voor schade veroorzaakt met jouw hulp." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 3 treffers die schade aan vijandelijke voertuigen veroorzaken.</req>
+        <req>• Verdoof vijandelijke voertuigen minstens 3 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.000 HP schade.</req>
+        <req>• Veroorzaak minstens 3 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Verborgen en gevaarlijk" short="StuG IV: SPG-2" desc="Artillerie kan niet van de dikte van bepantsering of snelheid aan. Als je in een artillerie rijdt, leer dan om in dekking te blijven gedurende het hele gevecht." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>De camouflagenet uitrusting in combinatie met een bemanning met camouflagevaardigheid zullen je helpen om ongedetecteerd te blijven.</Hint>
+    <PM name="SPG-2: Tijd is geld" short="StuG IV: SPG-2" desc="Een vijandelijk voertuig blijft verdoofd voor een specifieke periode en kan niet optimaal presteren op het slagveld. Onthoud: een verdoofd voertuig vormt een gemakkelijk doelwit." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 500 HP schade aan vijandelijke voertuigen. Blijf onverkend tijdens het gevecht.\n• Overleef het gevecht</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 50 seconden.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijk voertuig.</req>
+        <req>• Vernietig minstens één vijandelijk voertuig.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer aanval" short="StuG IV: SPG-3" desc="Als je van waarde wilt zijn voor je team, moet je eerst effectief leren vuren." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Volg de loop van het gevecht en ondersteun je team. Blijf niet te lang op een plek staan. Trek terug of kijk uit naar een andere vuurpositie wanneer nodig.</Hint>
+    <PM name="SPG-3: Langzaam en traag worden verdoofd" short="StuG IV: SPG-3" desc="Verborgen en krachtige vijandelijke tankjagers en zwaar bepantserde vijandelijke voertuigen kunnen makkelijk de koers van een gevecht veranderen. Zij zijn jouw belangrijkste doelen, en schade aan hen (of het meehelpen aan hun vernietiging) moet het hoofddoel zijn voor elke artilleriespeler. De meeste zware tanks en tankjagers zijn langzaam en traag, wat de kans op een succesvol schot verhoogt." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.000 HP schade aan vijandelijke zware tanks.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Win het gevecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Breek erdoor" short="StuG IV: SPG-4" desc="Sterke brisantgranaten zullen niet alleen schade toebrengen aan de levenspunten van de vijand, maar hebben ook een hoge kans op het beschadigen of vernietigen van modules of het verwonden van bemanningsleden door explosieschade." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Alleen door volledig het pantser te penetreren en te exploderen in de romp van een vijandelijk voertuig kan een brisantgranaat zijn waarde tonen. Als je granaten een middelmatige penetratie hebben, probeer dan een vijandelijke voertuig met een open koepel te vinden of laad een Premiumgranaat.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Beschadig of vernietig de modules van een vijandelijk voertuig of verwond de leden van de bemanning, in totaal moeten het minstens 3 modules en bemanningsleden zijn.\n• Het aantal beschadigde/vernietigde modules en verwonde bemanningsleden van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht worden bij elkaar opgeteld.</req>
+        <req>• Verdoof een vijandelijke zware tank of tankjager minstens 2 keer. \n• De verdovende schoten moeten ook schade veroorzaken.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Bereken en vernietig" short="StuG IV: SPG-5" desc="De grote vuurkracht die je bezit compenseert goed voor de relatief zwakke duurzaamheid van jouw artillerie." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Probeer vijandelijke voertuigen te beschadigen bij de eerste kans. Zelfs als je brisantgranaat de vijand op een haar na mist, kan hun voertuig nog steeds beschadigd raken door granaatscherven.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens meer dan 4 keer zoveel schade dan de levenspunten van je voertuig.\n• Schade veroorzaakt aan bondgenoten wordt niet meegeteld.</req>
+    <PM name="SPG-4: Ik help je erdoorheen" short="StuG IV: SPG-4" desc="Leer de hoofdroutes van vijandelijke zware tanks en de posities waar slimme tankjagers zich meestal verstoppen. Alvast richten op een bepaalde regio van de kaart verhoogt de kansen voor zeer effectief en vernietigend vuur op vijandelijke posities. Deze typen voertuigen volgen meestal voorspelbare tactieken op bepaalde kaarten. Wees slim: analyseer de compositie van het vijandelijke team en selecteer de meest geschikte locatie vanaf het begin van het gevecht." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Verdoof een zware tank of tankjager voor in totaal minstens 30 seconden.\n• Het verdovende schot moet ook schade veroorzaken.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijk voertuig.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: De vallende gamer" short="StuG IV: SPG-6" desc="Vaak zul je vechten tegen voertuigen van een hoger niveau. Maar dat is geen probleem voor een ervaren artilleriebestuurder." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Als je een vijandelijk voertuig met standaard granaten niet kan penetreren, probeer dan Premiumgranaten. Beschiet de zijkanten en de achterkant van het vijandelijk voertuig. Artillerie, met hun granaten die een boogtraject volgen, kunnen elk voertuig effectief bovenop de koepel, waar de bepantsering zwak is, raken. Vijandelijke voertuigen met open koepels zijn nog meer kwetsbaar voor vernietiging van bovenaf.</Hint>
+    <PM name="SPG-5: Eerlijk zullen we alles delen" short="StuG IV: SPG-5" desc="Het verdoven van vijandelijk voertuigen zorgt er niet alleen voor dat jouw team een stap dichter bij de overwinning is, het zorgt er ook voor dat jij extra ervaring en credits verdiend als jouw bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt. Vergeet niet het gebied waar je op richt te markeren (standaard de T-toets) om jouw bondgenoten op te hoogte te stellen en hun aandacht te trekken." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke voertuigen van hetzelfde niveau als jouw voertuig of hoger.</req>
+        <req>• Geef bondgenoten de gelegenheid om minstens 600 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Veroorzaak minstens 3 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hamer van de goden" short="StuG IV: SPG-6" desc="Het hoofddoel van artillerie is het geven van vuursteun aan geallieerde voertuigen. Verdoofde vijandelijke voertuigen zijn slechte vechters, dus jouw bondgenoten zullen jouw hulp zeker waarderen. Wees echter voorzichtig tijdens het schieten: een zorgeloos schot kan ook een geallieerd voertuig verdoven! Vriendschappelijk vuur wordt niet getolereerd!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Geef bondgenoten de gelegenheid om schade aan minstens 2 vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Breng de zware kanonnen" short="StuG IV: SPG-7" desc="Je moet vijandelijke tankjagers en artillerie vernietigen bij de allereerste gelegenheid. Door hen uit te schakelen kun je het tij van het gevecht in jouw voordeel doen keren." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Coördineer je acties met geallieerde lichte tanks. Het verkennen en vernietigen van vijandelijke tankjagers en artillerie kan helpen bij het behalen van superioriteit op het slagveld.</Hint>
+    <PM name="SPG-7: Voorzichtige overweging" short="StuG IV: SPG-7" desc="Gebruik een selectieve aanpak bij het kiezen van jouw doelen om deze missie te voltooien. Concentreer je vuur niet op één vijandelijk voertuig, ook al is het een makkelijk doel. De beste strategie is om grote groepen van vijandelijke voertuigen met één schot te raken. Bestudeer de kaarten en leer de basisroutes van voertuigen." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijke tankjager of artillerie.</req>
+        <req>• Verdoof minstens 2 vijandelijke voertuigen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.000 HP schade.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Zwaar vuur op zware tanks!" short="StuG IV: SPG-8" desc="Een zware tank is een lastig doelwit, maar niet voor je kanon. Granaten met een boogvormige baan kunnen elk voertuig bovenop de koepel raken waar het pantser dun is." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Zware tanks bewegen over het algemeen langzamer dan andere voertuigtypen. Daarom kun je vaak voorspellen waar een tank zal zijn als je granaat neerkomt. Voor een artilleriebestuurder is het handig om de snelheid van je granaten te weten.</Hint>
+    <PM name="SPG-8: Ik heb mijn best gedaan" short="StuG IV: SPG-8" desc="Je zult ervaring ontvangen voor alle effectieve acties. Probeer om de meest waardevolle speler te zijn: veroorzaak schade, help met het vernietigen van vijandelijke voertuigen en overleef het gevecht. Verwissel van positie na elk schot; anders kan contravuur van vijandelijke artillerie jouw voertuig vernietigen." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.000 HP schade aan vijandelijke zware tanks.</req>
+        <req>• Wees bij de top 7 spelers van jouw team met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijke zware tank.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Leidt hen totdat je hen raakt" short="StuG IV: SPG-9" desc="Een ervaren artilleriebestuurder kan makkelijk bewegende voertuigen raken. Leer effectief de bewegingen van vijandelijke voertuigen te voorspellen als je vuurt. Denk eraan dat een directe treffer veel meer schade veroorzaakt aan een vijandelijk voertuig dan de omgevingsschade van een brisantgranaat." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>De snelheid van je granaten is een zeer belangrijke parameter. Wanneer je weet hoe snel de granaat het doel bereikt, kun je correct de afwijking berekenen.</Hint>
+    <PM name="SPG-9: Bijkomende schade" short="StuG IV: SPG-9" desc="Krachtige brisantgranaten kunnen niet alleen de levenspunten van vijandelijke voertuigen verminderen, ze hebben ook een grote kans op het vernietigen van modules of het verwonden van bemanningsleden met explosie-schade." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschadig een vijandelijk voertuig die in beweging is met een snelheid van minstens 20 km/u.\n• Zowel schade door explosies en de schade veroorzaakt door directe treffers wordt meegeteld.\n• Schade veroorzaakt door rammen wordt niet meegeteld.</req>
+        <req>• Vernietig willekeurige modules van vijandelijke voertuigen of verwond leden van hun bemanning, met in totaal minstens 3 modules en bemanningsleden.\n• Het aantal vernietigde modules en verwonde bemanningsleden is het totaal van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: De vloek van artillerie" short="StuG IV: SPG-10" desc="Artillerie jagen is een geweldig idee. Probeer te voorspellen waar een vijandelijke artillerie zich heeft verstopt en controleer of je juist hebt geraden met een precies schot." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Hoe vaker je rijdt in een artillerie, des te meer strategische punten op de kaarten je leert kennen. Dit zal je helpen met het vechten tegen vijandelijke artillerie, omdat je al weet waar ze zich mogelijk gepositioneerd hebben.</Hint>
+    <PM name="SPG-10: Alles-inclusief" short="StuG IV: SPG-10" desc="Gevechtssituaties kunnen snel veranderen-houd altijd een oog op de minimap en zorg ervoor dat je vijandelijke voertuigen duidelijk in zicht hebt. Je zult de gehele tijd over de kaart moeten bewegen in plaats van op een plek te blijven. Je bondgenoten zijn afhankelijk van de vuurkracht van je artillerie, dus zorg ervoor dat je je best doet op het juiste moment en de juiste plaats." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 1 vijandelijke artillerie.</req>
+        <req>• De totale schade door jou en je bondgenoten veroorzaakt aan vijandelijke voertuigen die je hebt verdoofd of geïmmobiliseerd, moet minstens 1.000 HP zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke voertuigen.</req>
+        <req>• Bondgenoten moeten minstens 1 vijandelijk voertuig vernietigen dat door jou verdoofd of geïmmobiliseerd is.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Gebied van effect" short="StuG IV: SPG-11" desc="Je bristantgranaten kunnen niet alleen een vijandelijk voertuig vernietigen bij de eerste inslag maar kunnen ook significante schade aanrichten aan meerdere voertuigen tegelijkertijd indien deze te dicht op elkaar staan." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Je kan letterlijk twee vliegen in één klap slaan, als meerdere vijandelijke voertuigen dicht bij elkaar staan op één punt. Deze situatie is typerend voor stedelijke kaarten.</Hint>
+    <PM name="SPG-11: Gebied van effect" short="StuG IV: SPG-11" desc="Naast de aanzienlijke schade van een goed geplaatste treffer kan de explosie van een brisantgranaat ook alle voertuigen in de explosieradius verdoven. Veel kaarten hebben bepaalde plekken waar vijandelijke voertuigen samentrekken. Grijp je kans en doe ze jouw \&quot;hoog explosieve\&quot; groeten." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijke voertuig met een enkel schot.\n• Doelwitten die niet eerder schade hebben ontvangen tijdens het gevecht worden meegeteld.</req>
+        <req>• Verdoof minstens 2 vijandelijke voertuigen met een enkel schot.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 50 seconden.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Het slechte oog" short="StuG IV: SPG-12" desc="Jouw bondgenoten vernietigden het verdoofde voertuig? Goed nieuws voor jou, want het is jouw bijdrage die de begeerde overwinning een stap dichterbij brengt! Jouw doel is om vuursteun te geven en jouw bondgenoten op de juiste tijd en plaats te helpen." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Verdoof vijandelijke voertuigen voor een totaal van minstens 50 seconden.\n• Bondgenoten moeten minstens 1 vijandelijk voertuig vernietigen dat door jou verdoofd of geïmmobiliseerd is.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: De scorer" short="StuG IV: SPG-12" desc="De stijl van spelen in een artillerie is zeer verschillend van alle andere typen voertuigen. Maar het hoofddoel is hetzelfde—doe je best in het gevecht en draag zoveel mogelijk bij aan het doel van het team." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Schakel niet over naar artilleriemodus aan het begin van het gevecht. Bedenk eerst een goed strategisch punt.</Hint>
+    <PM name="SPG-13: S voor samenwerking" short="StuG IV: SPG-13" desc="Goede samenwerking tussen artillerie en bondgenoten zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer jullie acties en focus jullie vuur tezamen op één vijand." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 3 spelers in jouw team met veroorzaakte schade.\n• Vernietig een vijandelijk voertuig.</req>
+        <req>• Veroorzaak minstens 4 keer schade aan vijandelijke voertuigen of verdoof hen minstens 6 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleriebatterij (persoonlijk/peloton)" short="StuG IV: SPG-13" desc="Een peloton goed bediende artillerie zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer je acties en focus je vuur op één vijand per keer. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Door te verspreiden, kan je peloton doelen vanuit verschillende hoeken raken. Hierdoor worden veel stenen en gebouwen nutteloos als dekking. Je peloton zal dan de map domineren.</Hint>
+    <PM name="SPG-14: Samen uit, samen thuis!" short="StuG IV: SPG-14" desc="Samenwerking is de sleutel tot de overwinning voor het gehele team. Markeer het vijandelijk voertuig waarop je aan het richten bent zodat jouw bondgenoten dit voertuig direct kunnen beschieten nadat het verdoofd of geïmmobiliseerd is. Onthoud: één soldaat kan geen gevecht winnen." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 15% van de totale schade veroorzaakt aan vijandelijke voertuigen door jouw team.\n• Win het gevecht.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 70 seconden of geef je bondgenoten de gelegenheid om minstens 400 schade aan vijandelijke voertuigen te veroorzaken door hen te immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Verenigd offensief (persoonlijk/peloton)" short="StuG IV: SPG-14" desc="Artillerie is afhankelijk van de rest van het team om succesvol te zijn. Artillerie en lichte tanks vullen elkaar zeer goed aan in een peloton. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Een lichte tank kan vijandelijke voertuigen verkennen en hen immobiliseren. Artillerie zal snel werk maken van het onfortuinlijke slachtoffer. Samen zullen we winnen! Een zware tank zal je beschermen met zijn dikke pantser, een medium tank zal de vijand afleiden, terwijl de tankjager voor vuurondersteuning op de lange afstand zorgt.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 2.000 HP schade aan vijandelijk zware tanks.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Oorlogsgoden" short="StuG IV: SPG-15" desc="Het is veel beter voor het team als de artillerie overleefd. Probeer niet onder vijandelijk vuur te komen en vuur precieze schoten af op de vijand." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
-      <Hint>Als je de technische karakteristieken van je artillerie kent, kun je je acties in het gevecht uitvoeren. Soms is in de basis blijven niet zo'n goed idee. Als je in een snelle artillerie rijdt, kun je snel van positie veranderen en de vijand aanvallen vanuit de richting van waaruit zij dit het minste verwachten.</Hint>
+    <PM name="SPG-15: Oorlogsgoden" short="StuG IV: SPG-15" desc="Een artillerie die zo lang mogelijk overleeft, is een ware aanwinst voor het team. Ga door met het afvuren van de ene granaat na de andere, terwijl je probeert te voorkomen dat je door de vijand wordt beschoten. Neem je tijd en denk twee keer na voordat je \&quot;de trekker overhaalt\&quot;, omdat \&quot;één schot-één treffer\&quot; de beste strategie is voor een voertuig met een lange herlaadtijd." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Wees bij de top 3 spelers in jouw team met verdiende ervaring en veroorzaakte schade.\n• Veroorzaak minstens 2.000 HP schade.</req>
+        <req>• Wees bij de top 5 spelers van jouw team met verdiende ervaring.\n• Geef bondgenoten de gelegenheid om minstens 1.000 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Overleef het gevecht.</req>
@@ -2442,7 +2454,7 @@
     <PM name="TJ-1: Effectieve prestatie" short="Т28 Heavy Tank Concept: TJ-1" desc="Tankjagers zijn een geweldige keuze voor spelers, die er van houden vijandelijke voertuigen vanaf grote afstand te vernietigen." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
       <Hint>Tankjagers hebben serieuze vuurkracht, maar in vergelijking een lage overlevingskans. Probeer te vuren vanaf afstand—de accuratie van je kanon staat dat toe.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 5 spelers in jouw team met verdiende ervaring.</req>
+        <req>• Wees bij de top 5 spelers van jouw team met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
@@ -2574,136 +2586,136 @@
         <req>• Vernietig minstens 2 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: De scherpschutter" short="Т28 Heavy Tank Concept: SPG-1" desc="Verspil je munitie niet. Het zijn de precieze treffers die je de overwinning bezorgen." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Wees geduldig en wacht totdat je volledig bent gericht op het doelwit.</Hint>
+    <PM name="SPG-1: Een gewaagde conclusie" short="Т28 Heavy Tank Concept: SPG-1" desc="De grote explosieradius van een granaatexplosie is het belangrijkste kenmerk van artillerie. Zelfs wanneer het je niet gelukt is om het vijandelijk voertuig direct te raken, is er nog steeds een kans dat je serieuze problemen veroorzaakt door het te verdoven. Het vijandelijk voertuig is gemarkeerd door de verdovingsindicator, welke zichtbaar is voor jouw bondgenoten. Als bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt, zul je extra credits en ervaring ontvangen voor schade veroorzaakt met jouw hulp." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 4 treffers die schade aan vijandelijke voertuigen veroorzaken.</req>
+        <req>• Verdoof vijandelijke voertuigen minstens 5 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 2.000 HP schade.</req>
+        <req>• Veroorzaak minstens 5 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Verborgen en gevaarlijk" short="Т28 Heavy Tank Concept: SPG-2" desc="Artillerie kan niet van de dikte van bepantsering of snelheid aan. Als je in een artillerie rijdt, leer dan om in dekking te blijven gedurende het hele gevecht." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>De camouflagenet uitrusting in combinatie met een bemanning met camouflagevaardigheid zullen je helpen om ongedetecteerd te blijven.</Hint>
+    <PM name="SPG-2: Tijd is geld" short="Т28 Heavy Tank Concept: SPG-2" desc="Een vijandelijk voertuig blijft verdoofd voor een specifieke periode en kan niet optimaal presteren op het slagveld. Onthoud: een verdoofd voertuig vormt een gemakkelijk doelwit." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.500 HP schade aan vijandelijke voertuigen. Blijf ongedetecteerd tijdens het gevecht.\n• Overleef het gevecht</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 100 seconden.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Vernietig minstens 2 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer aanval" short="Т28 Heavy Tank Concept: SPG-3" desc="Als je van waarde wilt zijn voor je team, moet je eerst effectief leren vuren." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Volg de loop van het gevecht en ondersteun je team. Blijf niet te lang op een plek staan. Trek terug of kijk uit naar een andere vuurpositie wanneer nodig.</Hint>
+    <PM name="SPG-3: Langzaam en traag worden verdoofd" short="Т28 Heavy Tank Concept: SPG-3" desc="Verborgen en krachtige vijandelijke tankjagers en zwaar bepantserde vijandelijke voertuigen kunnen makkelijk de koers van een gevecht veranderen. Zij zijn jouw belangrijkste doelen, en schade aan hen (of het meehelpen aan hun vernietiging) moet het hoofddoel zijn voor elke artilleriespeler. De meeste zware tanks en tankjagers zijn langzaam en traag, wat de kans op een succesvol schot verhoogt." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 2.000 HP schade aan vijandelijke voertuigen.</req>
+        <req>• Verdoof een vijandelijke zware tank of tankjager minstens 4 keer. \n• De verdovende schoten moeten ook schade veroorzaken.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Breek erdoor" short="Т28 Heavy Tank Concept: SPG-4" desc="Sterke brisantgranaten zullen niet alleen schade toebrengen aan de levenspunten van de vijand, maar hebben ook een hoge kans op het beschadigen of vernietigen van modules of het verwonden van bemanningsleden door explosieschade." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Alleen door volledig het pantser te penetreren en te exploderen in de romp van een vijandelijk voertuig kan een brisantgranaat zijn waarde tonen. Als je granaten een middelmatige penetratie hebben, probeer dan een vijandelijke voertuig met een open koepel te vinden of laad een Premiumgranaat.</Hint>
+    <PM name="SPG-4: Ik help je erdoorheen" short="Т28 Heavy Tank Concept: SPG-4" desc="Leer de hoofdroutes van vijandelijke zware tanks en de posities waar slimme tankjagers zich meestal verstoppen. Alvast richten op een bepaalde regio van de kaart verhoogt de kansen voor zeer effectief en vernietigend vuur op vijandelijke posities. Deze typen voertuigen volgen meestal voorspelbare tactieken op bepaalde kaarten. Wees slim: analyseer de compositie van het vijandelijke team en selecteer de meest geschikte locatie vanaf het begin van het gevecht." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Beschadig of vernietig de modules van een vijandelijk voertuig of verwond de leden van de bemanning, in totaal moeten het minstens 5 modules en bemanningsleden zijn.\n• Het aantal beschadigde/vernietigde modules en verwonde bemanningsleden van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht worden bij elkaar opgeteld.</req>
+        <req>• Verdoof een zware tank of tankjager voor in totaal minstens 50 seconden.\n• Het verdovende schot moet ook schade veroorzaken.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Bereken en vernietig" short="Т28 Heavy Tank Concept: SPG-5" desc="De grote vuurkracht die je bezit compenseert goed voor de relatief zwakke duurzaamheid van jouw artillerie." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Probeer vijandelijke voertuigen te beschadigen bij de eerste kans. Zelfs als je brisantgranaat de vijand op een haar na mist, kan hun voertuig nog steeds beschadigd raken door granaatscherven.</Hint>
+    <PM name="SPG-5: Eerlijk zullen we alles delen" short="Т28 Heavy Tank Concept: SPG-5" desc="Het verdoven van vijandelijk voertuigen zorgt er niet alleen voor dat jouw team een stap dichter bij de overwinning is, het zorgt er ook voor dat jij extra ervaring en credits verdiend als jouw bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt. Vergeet niet het gebied waar je op richt te markeren (standaard de T-toets) om jouw bondgenoten op te hoogte te stellen en hun aandacht te trekken." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens meer dan 6 keer zoveel schade dan de levenspunten van je voertuig.\n• Schade veroorzaakt aan bondgenoten wordt niet meegeteld.</req>
+        <req>• Geef bondgenoten de gelegenheid om minstens 1.000 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke voertuigen.</req>
+        <req>• Veroorzaak minstens 5 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: De vallende gamer" short="Т28 Heavy Tank Concept: SPG-6" desc="Vaak zul je vechten tegen voertuigen van een hoger niveau. Maar dat is geen probleem voor een ervaren artilleriebestuurder." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Als je een vijandelijk voertuig met standaard granaten niet kan penetreren, probeer dan Premiumgranaten. Beschiet de zijkanten en de achterkant van het vijandelijk voertuig. Artillerie, met hun granaten die een boogtraject volgen, kunnen elk voertuig effectief bovenop de koepel, waar de bepantsering zwak is, raken. Vijandelijke voertuigen met open koepels zijn nog meer kwetsbaar voor vernietiging van bovenaf.</Hint>
+    <PM name="SPG-6: Hamer van de goden" short="Т28 Heavy Tank Concept: SPG-6" desc="Het hoofddoel van artillerie is het geven van vuursteun aan geallieerde voertuigen. Verdoofde vijandelijke voertuigen zijn slechte vechters, dus jouw bondgenoten zullen jouw hulp zeker waarderen. Wees echter voorzichtig tijdens het schieten: een zorgeloos schot kan ook een geallieerd voertuig verdoven! Vriendschappelijk vuur wordt niet getolereerd!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 3 vijandelijke voertuigen van hetzelfde niveau als jouw voertuig of hoger.</req>
+        <req>• Geef bondgenoten de gelegenheid om schade aan minstens 3 vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Breng de zware kanonnen" short="Т28 Heavy Tank Concept: SPG-7" desc="Je moet vijandelijke tankjagers en artillerie vernietigen bij de allereerste gelegenheid. Door hen uit te schakelen kun je het tij van het gevecht in jouw voordeel doen keren." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Coördineer je acties met geallieerde lichte tanks. Het verkennen en vernietigen van vijandelijke tankjagers en artillerie kan helpen bij het behalen van superioriteit op het slagveld.</Hint>
+    <PM name="SPG-7: Voorzichtige overweging" short="Т28 Heavy Tank Concept: SPG-7" desc="Gebruik een selectieve aanpak bij het kiezen van jouw doelen om deze missie te voltooien. Concentreer je vuur niet op één vijandelijk voertuig, ook al is het een makkelijk doel. De beste strategie is om grote groepen van vijandelijke voertuigen met één schot te raken. Bestudeer de kaarten en leer de basisroutes van voertuigen." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijke tankjager of artillerie die 1 niveau hoger is dan je voertuig.</req>
+        <req>• Verdoof minstens 3 vijandelijke voertuigen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 2.000 HP schade.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Zwaar vuur op zware tanks!" short="Т28 Heavy Tank Concept: SPG-8" desc="Een zware tank is een lastig doelwit, maar niet voor je kanon. Granaten met een boogvormige baan kunnen elk voertuig bovenop de koepel raken waar het pantser dun is." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Zware tanks bewegen over het algemeen langzamer dan andere voertuigtypen. Daarom kun je vaak voorspellen waar een tank zal zijn als je granaat neerkomt. Voor een artilleriebestuurder is het handig om de snelheid van je granaten te weten.</Hint>
+    <PM name="SPG-8: Ik heb mijn best gedaan" short="Т28 Heavy Tank Concept: SPG-8" desc="Je zult ervaring ontvangen voor alle effectieve acties. Probeer om de meest waardevolle speler te zijn: veroorzaak schade, help met het vernietigen van vijandelijke voertuigen en overleef het gevecht. Verwissel van positie na elk schot; anders kan contravuur van vijandelijke artillerie jouw voertuig vernietigen." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 1.500 HP schade aan vijandelijke zware tanks.</req>
+        <req>• Wees bij de top 5 spelers van jouw team met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke zware tanks.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Leidt hen totdat je hen raakt" short="Т28 Heavy Tank Concept: SPG-9" desc="Een ervaren artilleriebestuurder kan makkelijk bewegende voertuigen raken. Leer effectief de bewegingen van vijandelijke voertuigen te voorspellen als je vuurt. Denk eraan dat een directe treffer veel meer schade veroorzaakt aan een vijandelijk voertuig dan de omgevingsschade van een brisantgranaat." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>De snelheid van je granaten is een zeer belangrijke parameter. Wanneer je weet hoe snel de granaat het doel bereikt, kun je correct de afwijking berekenen.</Hint>
+    <PM name="SPG-9: Bijkomende schade" short="Т28 Heavy Tank Concept: SPG-9" desc="Krachtige brisantgranaten kunnen niet alleen de levenspunten van vijandelijke voertuigen verminderen, ze hebben ook een grote kans op het vernietigen van modules of het verwonden van bemanningsleden met explosie-schade." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 2 directe treffers op vijandelijke voertuigen.\n• Alle directe treffers, of ze nu wel of geen schade veroorzaken, worden meegeteld.</req>
+        <req>• Vernietig willekeurige modules van vijandelijke voertuigen of verwond leden van hun bemanning, met in totaal minstens 5 modules en bemanningsleden.\n• Het aantal vernietigde modules en verwonde bemanningsleden is het totaal van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Overleef het gevecht.\n• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: De vloek van artillerie" short="Т28 Heavy Tank Concept: SPG-10" desc="Artillerie jagen is een geweldig idee. Probeer te voorspellen waar een vijandelijke artillerie zich heeft verstopt en controleer of je juist hebt geraden met een precies schot." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Hoe vaker je rijdt in een artillerie, des te meer strategische punten op de kaarten je leert kennen. Dit zal je helpen met het vechten tegen vijandelijke artillerie, omdat je al weet waar ze zich mogelijk gepositioneerd hebben.</Hint>
+    <PM name="SPG-10: Alles-inclusief" short="Т28 Heavy Tank Concept: SPG-10" desc="Gevechtssituaties kunnen snel veranderen-houd altijd een oog op de minimap en zorg ervoor dat je vijandelijke voertuigen duidelijk in zicht hebt. Je zult de gehele tijd over de kaart moeten bewegen in plaats van op een plek te blijven. Je bondgenoten zijn afhankelijk van de vuurkracht van je artillerie, dus zorg ervoor dat je je best doet op het juiste moment en de juiste plaats." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke artillerie.</req>
+        <req>• De totale schade door jou en je bondgenoten veroorzaakt op het moment dat jij een vijandelijk voertuig verdooft of immobiliseert, moet minstens 2.000 HP zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 3 vijandelijke voertuigen.</req>
+        <req>• Bondgenoten moeten minstens 1 vijandelijk voertuig vernietigen dat door jou verdoofd of geïmmobiliseerd is.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Gebied van effect" short="Т28 Heavy Tank Concept: SPG-11" desc="Je bristantgranaten kunnen niet alleen een vijandelijk voertuig vernietigen bij de eerste inslag maar kunnen ook significante schade aanrichten aan meerdere voertuigen tegelijkertijd indien deze te dicht op elkaar staan." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Je kan letterlijk twee vliegen in één klap slaan, als meerdere vijandelijke voertuigen dicht bij elkaar staan op één punt. Deze situatie is typerend voor stedelijke kaarten.</Hint>
+    <PM name="SPG-11: Gebied van effect" short="Т28 Heavy Tank Concept: SPG-11" desc="Naast de aanzienlijke schade van een goed geplaatste treffer kan de explosie van een brisantgranaat ook alle voertuigen in de explosieradius verdoven. Veel kaarten hebben bepaalde plekken waar vijandelijke voertuigen samentrekken. Grijp je kans en doe ze jouw \&quot;hoog explosieve\&quot; groeten." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak schade aan minstens 2 vijandelijke voertuigen met een enkel schot.</req>
+        <req>• Verdoof minstens 2 vijandelijke voertuigen tweemaal met een enkel schot.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 100 seconden.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Het slechte oog" short="Т28 Heavy Tank Concept: SPG-12" desc="Jouw bondgenoten vernietigden het verdoofde voertuig? Goed nieuws voor jou, want het is jouw bijdrage die de begeerde overwinning een stap dichterbij brengt! Jouw doel is om vuursteun te geven en jouw bondgenoten op de juiste tijd en plaats te helpen." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 100 seconden \n• Bondgenoten moeten minstens 1 vijandelijk voertuig vernietigen dat door jou verdoofd of geïmmobiliseerd is.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: De scorer" short="Т28 Heavy Tank Concept: SPG-12" desc="De stijl van spelen in een artillerie is zeer verschillend van alle andere typen voertuigen. Maar het hoofddoel is hetzelfde—doe je best in het gevecht en draag zoveel mogelijk bij aan het doel van het team." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Schakel niet over naar artilleriemodus aan het begin van het gevecht. Bedenk eerst een goed strategisch punt.</Hint>
+    <PM name="SPG-13: S voor samenwerking" short="Т28 Heavy Tank Concept: SPG-13" desc="Goede samenwerking tussen artillerie en bondgenoten zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer jullie acties en focus jullie vuur tezamen op één vijand." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 3 van spelers van beide teams met veroorzaakte schade.\n• Vernietig minstens 2 vijandelijke voertuigen.\n• Overleef het gevecht.</req>
+        <req>• Veroorzaak minstens 6 keer schade aan vijandelijke voertuigen of verdoof hen minstens 8 keer.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleriebatterij (persoonlijk/peloton)" short="Т28 Heavy Tank Concept: SPG-13" desc="Een peloton goed bediende artillerie zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer je acties en focus je vuur op één vijand per keer. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Door te verspreiden, kan je peloton doelen vanuit verschillende hoeken raken. Hierdoor worden veel stenen en gebouwen nutteloos als dekking. Je peloton zal dan de map domineren.</Hint>
+    <PM name="SPG-14: Samen uit, samen thuis!" short="Т28 Heavy Tank Concept: SPG-14" desc="Samenwerking is de sleutel tot de overwinning voor het gehele team. Markeer het vijandelijk voertuig waarop je aan het richten bent zodat jouw bondgenoten dit voertuig direct kunnen beschieten nadat het verdoofd of geïmmobiliseerd is. Onthoud: één soldaat kan geen gevecht winnen." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 20% van de totale schade veroorzaakt aan vijandelijke voertuigen door jouw team.\n• Win het gevecht.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 100 seconden of geef je bondgenoten de gelegenheid om minstens 600 schade aan vijandelijke voertuigen te veroorzaken door hen te immobiliseren.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Verenigd offensief (persoonlijk/peloton)" short="Т28 Heavy Tank Concept: SPG-14" desc="Artillerie is afhankelijk van de rest van het team om succesvol te zijn. Artillerie en lichte tanks vullen elkaar zeer goed aan in een peloton. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Een lichte tank kan vijandelijke voertuigen verkennen en hen immobiliseren. Artillerie zal snel werk maken van het onfortuinlijke slachtoffer. Samen zullen we winnen! Een zware tank zal je beschermen met zijn dikke pantser, een medium tank zal de vijand afleiden, terwijl de tankjager voor vuurondersteuning op de lange afstand zorgt.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 3.000 HP schade aan vijandelijke zware tanks en tankjagers.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Oorlogsgoden" short="Т28 Heavy Tank Concept: SPG-15" desc="Het is veel beter voor het team als de artillerie overleefd. Probeer niet onder vijandelijk vuur te komen en vuur precieze schoten af op de vijand." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
-      <Hint>Als je de technische karakteristieken van je artillerie kent, kun je je acties in het gevecht uitvoeren. Soms is in de basis blijven niet zo'n goed idee. Als je in een snelle artillerie rijdt, kun je snel van positie veranderen en de vijand aanvallen vanuit de richting van waaruit zij dit het minste verwachten.</Hint>
+    <PM name="SPG-15: Oorlogsgoden" short="Т28 Heavy Tank Concept: SPG-15" desc="Een artillerie die zo lang mogelijk overleeft, is een ware aanwinst voor het team. Ga door met het afvuren van de ene granaat na de andere, terwijl je probeert te voorkomen dat je door de vijand wordt beschoten. Neem je tijd en denk twee keer na voordat je \&quot;de trekker overhaalt\&quot;, omdat \&quot;één schot-één treffer\&quot; de beste strategie is voor een voertuig met een lange herlaadtijd." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Wees bij de top 3 spelers van beide teams met verdiende ervaring en veroorzaakte schade.\n• Veroorzaak minstens 2.000 HP schade.</req>
+        <req>• Wees bij de top 3 spelers van beide teams met verdiende ervaring.\n• Geef bondgenoten de gelegenheid om minstens 1.500 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Overleef het gevecht.</req>
@@ -3249,136 +3261,136 @@
         <req>• Vernietig minstens 3 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: De scherpschutter" short="T 55A: SPG-1" desc="Verspil je munitie niet. Het zijn de precieze treffers die je de overwinning bezorgen." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Wees geduldig en wacht totdat je volledig bent gericht op het doelwit.</Hint>
+    <PM name="SPG-1: Een gewaagde conclusie" short="T 55A: SPG-1" desc="De grote explosieradius van een granaatexplosie is het belangrijkste kenmerk van artillerie. Zelfs wanneer het je niet gelukt is om het vijandelijk voertuig direct te raken, is er nog steeds een kans dat je serieuze problemen veroorzaakt door het te verdoven. Het vijandelijk voertuig is gemarkeerd door de verdovingsindicator, welke zichtbaar is voor jouw bondgenoten. Als bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt, zul je extra credits en ervaring ontvangen voor schade veroorzaakt met jouw hulp." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 5 treffers die schade aan vijandelijke voertuigen veroorzaken.</req>
+        <req>• Verdoof vijandelijke voertuigen minstens 7 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 3.000 HP schade.</req>
+        <req>• Veroorzaak minstens 6 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Verborgen en gevaarlijk" short="T 55A: SPG-2" desc="Artillerie kan niet van de dikte van bepantsering of snelheid aan. Als je in een artillerie rijdt, leer dan om in dekking te blijven gedurende het hele gevecht." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>De camouflagenet uitrusting in combinatie met een bemanning met camouflagevaardigheid zullen je helpen om ongedetecteerd te blijven.</Hint>
+    <PM name="SPG-2: Tijd is geld" short="T 55A: SPG-2" desc="Een vijandelijk voertuig blijft verdoofd voor een specifieke periode en kan niet optimaal presteren op het slagveld. Onthoud: een verdoofd voertuig vormt een gemakkelijk doelwit." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Eindig het gevecht in de top 5 spelers van je team met verdiende ervaringspunten. Zorg dat je niet verkend wordt gedurende het gevecht.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 150 seconden.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Vernietig minstens 3 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Howitzer aanval" short="T 55A: SPG-3" desc="Als je van waarde wilt zijn voor je team, moet je eerst effectief leren vuren." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Volg de loop van het gevecht en ondersteun je team. Blijf niet te lang op een plek staan. Trek terug of kijk uit naar een andere vuurpositie wanneer nodig.</Hint>
+    <PM name="SPG-3: Langzaam en traag worden verdoofd" short="T 55A: SPG-3" desc="Verborgen en krachtige vijandelijke tankjagers en zwaar bepantserde vijandelijke voertuigen kunnen makkelijk de koers van een gevecht veranderen. Zij zijn jouw belangrijkste doelen, en schade aan hen (of het meehelpen aan hun vernietiging) moet het hoofddoel zijn voor elke artilleriespeler. De meeste zware tanks en tankjagers zijn langzaam en traag, wat de kans op een succesvol schot verhoogt." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 3.000 HP schade aan vijandelijke voertuigen.</req>
+        <req>• Verdoof een vijandelijke zware tank of tankjager minstens 6 keer.\n• De verdovende schoten moeten ook schade veroorzaken.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Breek erdoor" short="T 55A: SPG-4" desc="Sterke brisantgranaten zullen niet alleen schade toebrengen aan de levenspunten van de vijand, maar hebben ook een hoge kans op het beschadigen of vernietigen van modules of het verwonden van bemanningsleden door explosieschade." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Alleen door volledig het pantser te penetreren en te exploderen in de romp van een vijandelijk voertuig kan een brisantgranaat zijn waarde tonen. Als je granaten een middelmatige penetratie hebben, probeer dan een vijandelijke voertuig met een open koepel te vinden of laad een Premiumgranaat.</Hint>
+    <PM name="SPG-4: Ik help je erdoorheen" short="T 55A: SPG-4" desc="Leer de hoofdroutes van vijandelijke zware tanks en de posities waar slimme tankjagers zich meestal verstoppen. Alvast richten op een bepaalde regio van de kaart verhoogt de kansen voor zeer effectief en vernietigend vuur op vijandelijke posities. Deze typen voertuigen volgen meestal voorspelbare tactieken op bepaalde kaarten. Wees slim: analyseer de compositie van het vijandelijke team en selecteer de meest geschikte locatie vanaf het begin van het gevecht." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Beschadig of vernietig de modules van een vijandelijk voertuig of verwond de leden van de bemanning, in totaal moeten het minstens 8 modules en bemanningsleden zijn.\n• Het aantal beschadigde/vernietigde modules en verwonde bemanningsleden van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht worden bij elkaar opgeteld.</req>
+        <req>• Verdoof een zware tank of tankjager voor in totaal minstens 80 seconden.\n• Het verdovende schot moet ook schade veroorzaken.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Bereken en vernietig" short="T 55A: SPG-5" desc="De grote vuurkracht die je bezit compenseert goed voor de relatief zwakke duurzaamheid van jouw artillerie." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Probeer vijandelijke voertuigen te beschadigen bij de eerste kans. Zelfs als je brisantgranaat de vijand op een haar na mist, kan hun voertuig nog steeds beschadigd raken door granaatscherven.</Hint>
+    <PM name="SPG-5: Eerlijk zullen we alles delen" short="T 55A: SPG-5" desc="Het verdoven van vijandelijk voertuigen zorgt er niet alleen voor dat jouw team een stap dichter bij de overwinning is, het zorgt er ook voor dat jij extra ervaring en credits verdiend als jouw bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt. Vergeet niet het gebied waar je op richt te markeren (standaard de T-toets) om jouw bondgenoten op te hoogte te stellen en hun aandacht te trekken." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens meer dan 8 keer zoveel schade dan de levenspunten van je voertuig.\n• Schade veroorzaakt aan bondgenoten wordt niet meegeteld.</req>
+        <req>• Geef bondgenoten de gelegenheid om minstens 2.000 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 3 vijandelijke voertuigen.</req>
+        <req>• Veroorzaak minstens 6 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: De vallende gamer" short="T 55A: SPG-6" desc="Vaak zul je vechten tegen voertuigen van een hoger niveau. Maar dat is geen probleem voor een ervaren artilleriebestuurder." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Als je een vijandelijk voertuig met standaard granaten niet kan penetreren, probeer dan Premiumgranaten. Beschiet de zijkanten en de achterkant van het vijandelijk voertuig. Artillerie, met hun granaten die een boogtraject volgen, kunnen elk voertuig effectief bovenop de koepel, waar de bepantsering zwak is, raken. Vijandelijke voertuigen met open koepels zijn nog meer kwetsbaar voor vernietiging van bovenaf.</Hint>
+    <PM name="SPG-6: Hamer van de goden" short="T 55A: SPG-6" desc="Het hoofddoel van artillerie is het geven van vuursteun aan geallieerde voertuigen. Verdoofde vijandelijke voertuigen zijn slechte vechters, dus jouw bondgenoten zullen jouw hulp zeker waarderen. Wees echter voorzichtig tijdens het schieten: een zorgeloos schot kan ook een geallieerd voertuig verdoven! Vriendschappelijk vuur wordt niet getolereerd!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 3 vijandelijke voertuigen die 1 niveau hoger zijn dan jouw voertuig.</req>
+        <req>• Geef bondgenoten de gelegenheid om schade te veroorzaken aan minstens 5 vijandelijke voertuigen door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Breng de zware kanonnen" short="T 55A: SPG-7" desc="Je moet vijandelijke tankjagers en artillerie vernietigen bij de allereerste gelegenheid. Door hen uit te schakelen kun je het tij van het gevecht in jouw voordeel doen keren." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Coördineer je acties met geallieerde lichte tanks. Het verkennen en vernietigen van vijandelijke tankjagers en artillerie kan helpen bij het behalen van superioriteit op het slagveld.</Hint>
+    <PM name="SPG-7: Voorzichtige overweging" short="T 55A: SPG-7" desc="Gebruik een selectieve aanpak bij het kiezen van jouw doelen om deze missie te voltooien. Concentreer je vuur niet op één vijandelijk voertuig, ook al is het een makkelijk doel. De beste strategie is om grote groepen van vijandelijke voertuigen met één schot te raken. Bestudeer de kaarten en leer de basisroutes van voertuigen." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig in totaal minstens 2 vijandelijke tankjagers en artillerie.\n• Win het gevecht.</req>
+        <req>• Verdoof minstens 5 vijandelijke voertuigen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 3.000 HP schade.</req>
+        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Zwaar vuur op zware tanks!" short="T 55A: SPG-8" desc="Een zware tank is een lastig doelwit, maar niet voor je kanon. Granaten met een boogvormige baan kunnen elk voertuig bovenop de koepel raken waar het pantser dun is." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Zware tanks bewegen over het algemeen langzamer dan andere voertuigtypen. Daarom kun je vaak voorspellen waar een tank zal zijn als je granaat neerkomt. Voor een artilleriebestuurder is het handig om de snelheid van je granaten te weten.</Hint>
+    <PM name="SPG-8: Ik heb mijn best gedaan" short="T 55A: SPG-8" desc="Je zult ervaring ontvangen voor alle effectieve acties. Probeer om de meest waardevolle speler te zijn: veroorzaak schade, help met het vernietigen van vijandelijke voertuigen en overleef het gevecht. Verwissel van positie na elk schot; anders kan contravuur van vijandelijke artillerie jouw voertuig vernietigen." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 2.000 HP schade aan vijandelijke zware tanks.</req>
+        <req>• Wees bij de top 3 spelers van beide teams met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijke zware tank.\n• Win het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Leidt hen totdat je hen raakt" short="T 55A: SPG-9" desc="Een ervaren artilleriebestuurder kan makkelijk bewegende voertuigen raken. Leer effectief de bewegingen van vijandelijke voertuigen te voorspellen als je vuurt. Denk eraan dat een directe treffer veel meer schade veroorzaakt aan een vijandelijk voertuig dan de omgevingsschade van een brisantgranaat." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>De snelheid van je granaten is een zeer belangrijke parameter. Wanneer je weet hoe snel de granaat het doel bereikt, kun je correct de afwijking berekenen.</Hint>
+    <PM name="SPG-9: Bijkomende schade" short="T 55A: SPG-9" desc="Krachtige brisantgranaten kunnen niet alleen de levenspunten van vijandelijke voertuigen verminderen, ze hebben ook een grote kans op het vernietigen van modules of het verwonden van bemanningsleden met explosie-schade." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Beschadig een vijandelijk voertuig die in beweging is met een snelheid van minstens 30 km/u.\n• Zowel schade door explosies en de schade veroorzaakt door directe treffers wordt meegeteld.\n• Schade veroorzaakt door rammen wordt niet meegeteld.</req>
+        <req>• Vernietig willekeurige modules van vijandelijke voertuigen of verwond leden van hun bemanning, met in totaal minstens 8 modules of bemanningsleden.\n• Het aantal vernietigde modules en verwonde bemanningsleden is het totaal van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Overleef het gevecht.\n• Win het gevecht.\n• Word niet verkend gedurende het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: De vloek van artillerie" short="T 55A: SPG-10" desc="Artillerie jagen is een geweldig idee. Probeer te voorspellen waar een vijandelijke artillerie zich heeft verstopt en controleer of je juist hebt geraden met een precies schot." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Hoe vaker je rijdt in een artillerie, des te meer strategische punten op de kaarten je leert kennen. Dit zal je helpen met het vechten tegen vijandelijke artillerie, omdat je al weet waar ze zich mogelijk gepositioneerd hebben.</Hint>
+    <PM name="SPG-10: Alles-inclusief" short="T 55A: SPG-10" desc="Gevechtssituaties kunnen snel veranderen-houd altijd een oog op de minimap en zorg ervoor dat je vijandelijke voertuigen duidelijk in zicht hebt. Je zult de gehele tijd over de kaart moeten bewegen in plaats van op een plek te blijven. Je bondgenoten zijn afhankelijk van de vuurkracht van je artillerie, dus zorg ervoor dat je je best doet op het juiste moment en de juiste plaats." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 1 vijandelijke artillerie.\n• Veroorzaak minstens 2.000 HP schade aan vijandelijke voertuigen.</req>
+        <req>• Totale schade door jou en je bondgenoten veroorzaakt aan een vijandelijk voertuig dat door jou verdooft of geïmmobiliseerd is, moet minstens 3.000 HP zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 4 vijandelijke voertuigen.</req>
+        <req>• Win het gevecht.\n• Bondgenoten moeten minstens 2 vijandelijke voertuigen vernietigen die door jou verdoofd of geïmmobiliseerd zijn.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Gebied van effect" short="T 55A: SPG-11" desc="Je bristantgranaten kunnen niet alleen een vijandelijk voertuig vernietigen bij de eerste inslag maar kunnen ook significante schade aanrichten aan meerdere voertuigen tegelijkertijd indien deze te dicht op elkaar staan." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Je kan letterlijk twee vliegen in één klap slaan, als meerdere vijandelijke voertuigen dicht bij elkaar staan op één punt. Deze situatie is typerend voor stedelijke kaarten.</Hint>
+    <PM name="SPG-11: Gebied van effect" short="T 55A: SPG-11" desc="Naast de aanzienlijke schade van een goed geplaatste treffer kan de explosie van een brisantgranaat ook alle voertuigen in de explosieradius verdoven. Veel kaarten hebben bepaalde plekken waar vijandelijke voertuigen samentrekken. Grijp je kans en doe ze jouw \&quot;hoog explosieve\&quot; groeten." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig een vijandelijk voertuig en veroorzaak schade aan 1 ander voertuig met een enkel schot.</req>
+        <req>• Verdoof minstens 3 vijandelijke voertuigen met een enkel schot.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 150 seconden.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: De scorer" short="T 55A: SPG-12" desc="De stijl van spelen in een artillerie is zeer verschillend van alle andere typen voertuigen. Maar het hoofddoel is hetzelfde—doe je best in het gevecht en draag zoveel mogelijk bij aan het doel van het team." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Schakel niet over naar artilleriemodus aan het begin van het gevecht. Bedenk eerst een goed strategisch punt.</Hint>
+    <PM name="SPG-12: Het slechte oog" short="T 55A: SPG-12" desc="Jouw bondgenoten vernietigden het verdoofde voertuig? Goed nieuws voor jou, want het is jouw bijdrage die de begeerde overwinning een stap dichterbij brengt! Jouw doel is om vuursteun te geven en jouw bondgenoten op de juiste tijd en plaats te helpen." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Eindig het gevecht als de topspeler van je team met veroorzaakte schade.\n• Vernietig minstens 3 vijandelijke voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 150 seconden.\n• Bondgenoten moeten minstens 2 vijandelijke voertuigen vernietigen die door jou verdoofd of geïmmobiliseerd zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleriebatterij (persoonlijk/peloton)" short="T 55A: SPG-13" desc="Een peloton goed bediende artillerie zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer je acties en focus je vuur op één vijand per keer. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Door te verspreiden, kan je peloton doelen vanuit verschillende hoeken raken. Hierdoor worden veel stenen en gebouwen nutteloos als dekking. Je peloton zal dan de map domineren.</Hint>
+    <PM name="SPG-13: S voor samenwerking" short="T 55A: SPG-13" desc="Goede samenwerking tussen artillerie en bondgenoten zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer jullie acties en focus jullie vuur tezamen op één vijand." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 25% van de totale schade veroorzaakt aan vijandelijke voertuigen door jouw team.\n• Win het gevecht.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Veroorzaak minstens 8 keer schade aan vijandelijke voertuigen of verdoof hen minstens 10 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Verenigd offensief (persoonlijk/peloton)" short="T 55A: SPG-14" desc="Artillerie is afhankelijk van de rest van het team om succesvol te zijn. Artillerie en lichte tanks vullen elkaar zeer goed aan in een peloton. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Een lichte tank kan vijandelijke voertuigen verkennen en hen immobiliseren. Artillerie zal snel werk maken van het onfortuinlijke slachtoffer. Samen zullen we winnen! Een zware tank zal je beschermen met zijn dikke pantser, een medium tank zal de vijand afleiden, terwijl de tankjager voor vuurondersteuning op de lange afstand zorgt.</Hint>
+    <PM name="SPG-14: Samen uit, samen thuis!" short="T 55A: SPG-14" desc="Samenwerking is de sleutel tot de overwinning voor het gehele team. Markeer het vijandelijk voertuig waarop je aan het richten bent zodat jouw bondgenoten dit voertuig direct kunnen beschieten nadat het verdoofd of geïmmobiliseerd is. Onthoud: één soldaat kan geen gevecht winnen." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 4.000 HP schade aan vijandelijke zware tanks of tankjagers.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 180 seconden of geef je bondgenoten de gelegenheid om minstens 800 schade aan vijandelijke voertuigen te veroorzaken door hen te immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Oorlogsgoden" short="T 55A: SPG-15" desc="Het is veel beter voor het team als de artillerie overleefd. Probeer niet onder vijandelijk vuur te komen en vuur precieze schoten af op de vijand." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
-      <Hint>Als je de technische karakteristieken van je artillerie kent, kun je je acties in het gevecht uitvoeren. Soms is in de basis blijven niet zo'n goed idee. Als je in een snelle artillerie rijdt, kun je snel van positie veranderen en de vijand aanvallen vanuit de richting van waaruit zij dit het minste verwachten.</Hint>
+    <PM name="SPG-15: Oorlogsgoden" short="T 55A: SPG-15" desc="Een artillerie die zo lang mogelijk overleeft, is een ware aanwinst voor het team. Ga door met het afvuren van de ene granaat na de andere, terwijl je probeert te voorkomen dat je door de vijand wordt beschoten. Neem je tijd en denk twee keer na voordat je \&quot;de trekker overhaalt\&quot;, omdat \&quot;één schot-één treffer\&quot; de beste strategie is voor een voertuig met een lange herlaadtijd." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Eindig het gevecht als de topspeler van je team met verdiende ervaring en veroorzaakte schade.\n• Veroorzaak minstens 3.000 HP schade.</req>
+        <req>• Eindig het gevecht als de topspeler van je team met verdiende ervaring.\n• Geef bondgenoten de gelegenheid om minstens 2.500 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Overleef het gevecht.</req>
@@ -3924,136 +3936,136 @@
         <req>• Vernietig minstens 5 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: De scherpschutter" short="Object 260: SPG-1" desc="Verspil je munitie niet. Het zijn de precieze treffers die je de overwinning bezorgen." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Wees geduldig en wacht totdat je volledig bent gericht op het doelwit.</Hint>
+    <PM name="SPG-1: Een gewaagde conclusie" short="Object 260: SPG-1" desc="De grote explosieradius van een granaatexplosie is het belangrijkste kenmerk van artillerie. Zelfs wanneer het je niet gelukt is om het vijandelijk voertuig direct te raken, is er nog steeds een kans dat je serieuze problemen veroorzaakt door het te verdoven. Het vijandelijk voertuig is gemarkeerd door de verdovingsindicator, welke zichtbaar is voor jouw bondgenoten. Als bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt, zul je extra credits en ervaring ontvangen voor schade veroorzaakt met jouw hulp." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 6 treffers die schade veroorzakken aan vijandelijke voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen minstens 10 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 4.000 HP schade.</req>
+        <req>• Veroorzaak minstens 8 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Verborgen en gevaarlijk" short="Object 260: SPG-2" desc="Artillerie kan niet van de dikte van bepantsering of snelheid aan. Als je in een artillerie rijdt, leer dan om in dekking te blijven gedurende het hele gevecht." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>De camouflagenet uitrusting in combinatie met een bemanning met camouflagevaardigheid zullen je helpen om ongedetecteerd te blijven.</Hint>
+    <PM name="SPG-2: Tijd is geld" short="Object 260: SPG-2" desc="Een vijandelijk voertuig blijft verdoofd voor een specifieke periode en kan niet optimaal presteren op het slagveld. Onthoud: een verdoofd voertuig vormt een gemakkelijk doelwit." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Wees bij de top 3 spelers van je team met veroorzaakte schade. Zorg dat je niet verkend wordt gedurende het gevecht.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 200 seconden.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 3 vijandelijke voertuigen.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-3: Howitzer aanval" short="Object 260: SPG-3" desc="Als je van waarde wilt zijn voor je team, moet je eerst effectief leren vuren." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Volg de loop van het gevecht en ondersteun je team. Blijf niet te lang op een plek staan. Trek terug of kijk uit naar een andere vuurpositie wanneer nodig.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 4.000 HP schade aan vijandelijke voertuigen.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Breek erdoor" short="Object 260: SPG-4" desc="Sterke brisantgranaten zullen niet alleen schade toebrengen aan de levenspunten van de vijand, maar hebben ook een hoge kans op het beschadigen of vernietigen van modules of het verwonden van bemanningsleden door explosieschade." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Alleen door volledig het pantser te penetreren en te exploderen in de romp van een vijandelijk voertuig kan een brisantgranaat zijn waarde tonen. Als je granaten een middelmatige penetratie hebben, probeer dan een vijandelijke voertuig met een open koepel te vinden of laad een Premiumgranaat.</Hint>
-      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Beschadig of vernietig de modules van een vijandelijk voertuig of verwond de leden van de bemanning, in totaal moeten het minstens 10 modules en bemanningsleden zijn.\n• Het aantal beschadigde/vernietigde modules en verwonde bemanningsleden van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht worden bij elkaar opgeteld.</req>
-      </Primary>
-      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-5: Bereken en vernietig" short="Object 260: SPG-5" desc="De grote vuurkracht die je bezit compenseert goed voor de relatief zwakke duurzaamheid van jouw artillerie." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Probeer vijandelijke voertuigen te beschadigen bij de eerste kans. Zelfs als je brisantgranaat de vijand op een haar na mist, kan hun voertuig nog steeds beschadigd raken door granaatscherven.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens meer dan 10 keer zoveel schade dan de levenspunten van je voertuig.\n• Schade veroorzaakt aan bondgenoten wordt niet meegeteld.</req>
-      </Primary>
-      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vernietig minstens 4 vijandelijke voertuigen.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: De vallende gamer" short="Object 260: SPG-6" desc="Vaak zul je vechten tegen voertuigen van een hoger niveau. Maar dat is geen probleem voor een ervaren artilleriebestuurder." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Als je een vijandelijk voertuig met standaard granaten niet kan penetreren, probeer dan Premiumgranaten. Beschiet de zijkanten en de achterkant van het vijandelijk voertuig. Artillerie, met hun granaten die een boogtraject volgen, kunnen elk voertuig effectief bovenop de koepel, waar de bepantsering zwak is, raken. Vijandelijke voertuigen met open koepels zijn nog meer kwetsbaar voor vernietiging van bovenaf.</Hint>
+    <PM name="SPG-3: Langzaam en traag worden verdoofd" short="Object 260: SPG-3" desc="Verborgen en krachtige vijandelijke tankjagers en zwaar bepantserde vijandelijke voertuigen kunnen makkelijk de koers van een gevecht veranderen. Zij zijn jouw belangrijkste doelen, en schade aan hen (of het meehelpen aan hun vernietiging) moet het hoofddoel zijn voor elke artilleriespeler. De meeste zware tanks en tankjagers zijn langzaam en traag, wat de kans op een succesvol schot verhoogt." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Verdoof een vijandelijke zware tank of tankjager minstens 8 keer.\n• De verdovende schoten moeten ook schade veroorzaken.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-4: Ik help je erdoorheen" short="Object 260: SPG-4" desc="Leer de hoofdroutes van vijandelijke zware tanks en de posities waar slimme tankjagers zich meestal verstoppen. Alvast richten op een bepaalde regio van de kaart verhoogt de kansen voor zeer effectief en vernietigend vuur op vijandelijke posities. Deze typen voertuigen volgen meestal voorspelbare tactieken op bepaalde kaarten. Wees slim: analyseer de compositie van het vijandelijke team en selecteer de meest geschikte locatie vanaf het begin van het gevecht." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
+        <req>• Verdoof een zware tank of tankjager voor in totaal minstens 120 seconden.\n• Het verdovende schot moet ook schade veroorzaken.</req>
+      </Primary>
+      <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
+        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-5: Eerlijk zullen we alles delen" short="Object 260: SPG-5" desc="Het verdoven van vijandelijk voertuigen zorgt er niet alleen voor dat jouw team een stap dichter bij de overwinning is, het zorgt er ook voor dat jij extra ervaring en credits verdiend als jouw bondgenoten schade veroorzaken aan voertuigen die jij verdoofd hebt. Vergeet niet het gebied waar je op richt te markeren (standaard de T-toets) om jouw bondgenoten op te hoogte te stellen en hun aandacht te trekken." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke voertuigen die 2 niveaus hoger zijn dan jouw voertuig.</req>
+        <req>• Stel je bondgenoten in staat om minstens 3.000 schade te veroorzaken aan vijandelijke voertuigen door hen te verdoven of immobiliseren.</req>
+      </Primary>
+      <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
+        <req>• Veroorzaak minstens 8 keer schade aan vijandelijke voertuigen door hen te beschieten of rammen.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Hamer van de goden" short="Object 260: SPG-6" desc="Het hoofddoel van artillerie is het geven van vuursteun aan geallieerde voertuigen. Verdoofde vijandelijke voertuigen zijn slechte vechters, dus jouw bondgenoten zullen jouw hulp zeker waarderen. Wees echter voorzichtig tijdens het schieten: een zorgeloos schot kan ook een geallieerd voertuig verdoven! Vriendschappelijk vuur wordt niet getolereerd!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Geef bondgenoten de gelegenheid om schade te veroorzaken aan minstens 6 vijandelijke voertuigen door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Breng de zware kanonnen" short="Object 260: SPG-7" desc="Je moet vijandelijke tankjagers en artillerie vernietigen bij de allereerste gelegenheid. Door hen uit te schakelen kun je het tij van het gevecht in jouw voordeel doen keren." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Coördineer je acties met geallieerde lichte tanks. Het verkennen en vernietigen van vijandelijke tankjagers en artillerie kan helpen bij het behalen van superioriteit op het slagveld.</Hint>
+    <PM name="SPG-7: Voorzichtige overweging" short="Object 260: SPG-7" desc="Gebruik een selectieve aanpak bij het kiezen van jouw doelen om deze missie te voltooien. Concentreer je vuur niet op één vijandelijk voertuig, ook al is het een makkelijk doel. De beste strategie is om grote groepen van vijandelijke voertuigen met één schot te raken. Bestudeer de kaarten en leer de basisroutes van voertuigen." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig in totaal minstens 3 vijandelijke tankjagers en artillerie.\n• Win het gevecht.</req>
+        <req>• Verdoof minstens 6 vijandelijke voertuigen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 4.000 HP schade.</req>
+        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Zwaar vuur op zware tanks!" short="Object 260: SPG-8" desc="Een zware tank is een lastig doelwit, maar niet voor je kanon. Granaten met een boogvormige baan kunnen elk voertuig bovenop de koepel raken waar het pantser dun is." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Zware tanks bewegen over het algemeen langzamer dan andere voertuigtypen. Daarom kun je vaak voorspellen waar een tank zal zijn als je granaat neerkomt. Voor een artilleriebestuurder is het handig om de snelheid van je granaten te weten.</Hint>
+    <PM name="SPG-8: Ik heb mijn best gedaan" short="Object 260: SPG-8" desc="Je zult ervaring ontvangen voor alle effectieve acties. Probeer om de meest waardevolle speler te zijn: veroorzaak schade, help met het vernietigen van vijandelijke voertuigen en overleef het gevecht. Verwissel van positie na elk schot; anders kan contravuur van vijandelijke artillerie jouw voertuig vernietigen." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak minstens 3.000 HP schade aan vijandelijke zware tanks.</req>
+        <req>• Eindig het gevecht als de topspeler van je team met verdiende ervaring.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke zware tanks.\n• Wn het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Leidt hen totdat je hen raakt" short="Object 260: SPG-9" desc="Een ervaren artilleriebestuurder kan makkelijk bewegende voertuigen raken. Leer effectief de bewegingen van vijandelijke voertuigen te voorspellen als je vuurt. Denk eraan dat een directe treffer veel meer schade veroorzaakt aan een vijandelijk voertuig dan de omgevingsschade van een brisantgranaat." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>De snelheid van je granaten is een zeer belangrijke parameter. Wanneer je weet hoe snel de granaat het doel bereikt, kun je correct de afwijking berekenen.</Hint>
+    <PM name="SPG-9: Bijkomende schade" short="Object 260: SPG-9" desc="Krachtige brisantgranaten kunnen niet alleen de levenspunten van vijandelijke voertuigen verminderen, ze hebben ook een grote kans op het vernietigen van modules of het verwonden van bemanningsleden met explosie-schade." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Scoor minstens 4 directe treffers op vijandelijke voertuigen.\n• Alle directe treffers, of ze nu wel of geen schade veroorzaken, worden meegeteld.</req>
+        <req>• Vernietig willekeurige modules van vijandelijke voertuigen of verwond leden van hun bemanning, met in totaal minstens 10 modules of bemanningsleden.\n• Het aantal vernietigde modules en verwonde bemanningsleden is het totaal van alle vijandelijke voertuigen die jij hebt beschadigd in het gevecht.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Overleef het gevecht.\n• Win het gevecht.\n• Word niet verkend gedurende het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: De vloek van artillerie" short="Object 260: SPG-10" desc="Artillerie jagen is een geweldig idee. Probeer te voorspellen waar een vijandelijke artillerie zich heeft verstopt en controleer of je juist hebt geraden met een precies schot." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Hoe vaker je rijdt in een artillerie, des te meer strategische punten op de kaarten je leert kennen. Dit zal je helpen met het vechten tegen vijandelijke artillerie, omdat je al weet waar ze zich mogelijk gepositioneerd hebben.</Hint>
+    <PM name="SPG-10: Alles-inclusief" short="Object 260: SPG-10" desc="Gevechtssituaties kunnen snel veranderen-houd altijd een oog op de minimap en zorg ervoor dat je vijandelijke voertuigen duidelijk in zicht hebt. Je zult de gehele tijd over de kaart moeten bewegen in plaats van op een plek te blijven. Je bondgenoten zijn afhankelijk van de vuurkracht van je artillerie, dus zorg ervoor dat je je best doet op het juiste moment en de juiste plaats." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke artillerie.\n• Veroorzaak minstens 4.000 HP schade aan vijandelijke voertuigen.</req>
+        <req>• Totale schade door jou en je bondgenoten veroorzaakt aan vijandelijke voertuigen die je hebt verdoofd of geïmmobiliseerd, moet minstens 4.000 HP zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 5 vijandelijke voertuigen.</req>
+        <req>• Win het gevecht.\n• Bondgenoten moeten minstens 3 vijandelijke voertuigen vernietigen die door jou verdoofd of geïmmobiliseerd zijn.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Gebied van effect" short="Object 260: SPG-11" desc="Je bristantgranaten kunnen niet alleen een vijandelijk voertuig vernietigen bij de eerste inslag maar kunnen ook significante schade aanrichten aan meerdere voertuigen tegelijkertijd indien deze te dicht op elkaar staan." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Je kan letterlijk twee vliegen in één klap slaan, als meerdere vijandelijke voertuigen dicht bij elkaar staan op één punt. Deze situatie is typerend voor stedelijke kaarten.</Hint>
+    <PM name="SPG-11: Gebied van effect" short="Object 260: SPG-11" desc="Naast de aanzienlijke schade van een goed geplaatste treffer kan de explosie van een brisantgranaat ook alle voertuigen in de explosieradius verdoven. Veel kaarten hebben bepaalde plekken waar vijandelijke voertuigen samentrekken. Grijp je kans en doe ze jouw \&quot;hoog explosieve\&quot; groeten." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vernietig minstens 2 vijandelijke voertuigen met een enkel schot.</req>
+        <req>• Verdoof minstens 3 vijandelijke voertuigen tweemaal met een enkel schot.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Win het gevecht.\n• Overleef het gevecht.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 200 seconden.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: De scorer" short="Object 260: SPG-12" desc="De stijl van spelen in een artillerie is zeer verschillend van alle andere typen voertuigen. Maar het hoofddoel is hetzelfde—doe je best in het gevecht en draag zoveel mogelijk bij aan het doel van het team." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Schakel niet over naar artilleriemodus aan het begin van het gevecht. Bedenk eerst een goed strategisch punt.</Hint>
+    <PM name="SPG-12: Het slechte oog" short="Object 260: SPG-12" desc="Jouw bondgenoten vernietigden het verdoofde voertuig? Goed nieuws voor jou, want het is jouw bijdrage die de begeerde overwinning een stap dichterbij brengt! Jouw doel is om vuursteun te geven en jouw bondgenoten op de juiste tijd en plaats te helpen." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Eindig het gevecht als de topspeler van beide teams met veroorzaakte schade.\n• Vernietig minstens 4 vijandelijke voertuigen.\n• Overleef het gevecht.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 200 seconden.\n• Bondgenoten moeten minstens 3 vijandelijke voertuigen vernietigen die door jou verdoofd of geïmmobiliseerd zijn.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Artilleriebatterij (persoonlijk/peloton)" short="Object 260: SPG-13" desc="Een peloton goed bediende artillerie zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer je acties en focus je vuur op één vijand per keer. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Door te verspreiden, kan je peloton doelen vanuit verschillende hoeken raken. Hierdoor worden veel stenen en gebouwen nutteloos als dekking. Je peloton zal dan de map domineren.</Hint>
+    <PM name="SPG-13: S voor samenwerking" short="Object 260: SPG-13" desc="Goede samenwerking tussen artillerie en bondgenoten zou voor het vijandelijke team extreem zorgelijk moeten zijn. Coördineer jullie acties en focus jullie vuur tezamen op één vijand." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 30% van de totale schade veroorzaakt aan vijandelijke voertuigen door jouw team.\n• Win het gevecht.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Veroorzaak minstens 10 keer schade aan vijandelijke voertuigen of verdoof hen minstens 12 keer.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Verenigd offensief (persoonlijk/peloton)" short="Object 260: SPG-14" desc="Artillerie is afhankelijk van de rest van het team om succesvol te zijn. Artillerie en lichte tanks vullen elkaar zeer goed aan in een peloton. Deze missie kan zowel in een peloton als alleen worden voltooid, hoewel het in het laatste geval veel moeilijker zal zijn." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Een lichte tank kan vijandelijke voertuigen verkennen en hen immobiliseren. Artillerie zal snel werk maken van het onfortuinlijke slachtoffer. Samen zullen we winnen! Een zware tank zal je beschermen met zijn dikke pantser, een medium tank zal de vijand afleiden, terwijl de tankjager voor vuurondersteuning op de lange afstand zorgt.</Hint>
+    <PM name="SPG-14: Samen uit, samen thuis!" short="Object 260: SPG-14" desc="Samenwerking is de sleutel tot de overwinning voor het gehele team. Markeer het vijandelijk voertuig waarop je aan het richten bent zodat jouw bondgenoten dit voertuig direct kunnen beschieten nadat het verdoofd of geïmmobiliseerd is. Onthoud: één soldaat kan geen gevecht winnen." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Veroorzaak persoonlijk of gezamenlijk als peloton minstens 5.000 HP schade aan vijandelijke zware tanks en tankjagers.\n• Kan zowel persoonlijk of als lid van een peloton worden voltooid, bestaande uit je artillerie en elke andere voertuigen.</req>
+        <req>• Verdoof vijandelijke voertuigen voor in totaal minstens 250 seconden of geef je bondgenoten de gelegenheid om minstens 1.000 schade aan vijandelijke voertuigen te veroorzaken door hen te immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Overleef persoonlijk het gevecht.</req>
+        <req>• Win het gevecht.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Oorlogsgoden" short="Object 260: SPG-15" desc="Het is veel beter voor het team als de artillerie overleefd. Probeer niet onder vijandelijk vuur te komen en vuur precieze schoten af op de vijand." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
-      <Hint>Als je de technische karakteristieken van je artillerie kent, kun je je acties in het gevecht uitvoeren. Soms is in de basis blijven niet zo'n goed idee. Als je in een snelle artillerie rijdt, kun je snel van positie veranderen en de vijand aanvallen vanuit de richting van waaruit zij dit het minste verwachten.</Hint>
+    <PM name="SPG-15: Oorlogsgoden" short="Object 260: SPG-15" desc="Een artillerie die zo lang mogelijk overleeft, is een ware aanwinst voor het team. Ga door met het afvuren van de ene granaat na de andere, terwijl je probeert te voorkomen dat je door de vijand wordt beschoten. Neem je tijd en denk twee keer na voordat je \&quot;de trekker overhaalt\&quot;, omdat \&quot;één schot-één treffer\&quot; de beste strategie is voor een voertuig met een lange herlaadtijd." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="De langverwachte versterking" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Eindig het gevecht als de topspeler van beide teams met verdiende ervaring en veroorzaakte schade.\n• Veroorzaak minstens 3.000 HP schade.</req>
+        <req>• Eindig het gevecht als de topspeler van beide teams met verdiende ervaring.\n• Geef bondgenoten de gelegenheid om minstens 3.500 schade aan vijandelijke voertuigen te veroorzaken door hen te verdoven of immobiliseren.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Overleef het gevecht.</req>

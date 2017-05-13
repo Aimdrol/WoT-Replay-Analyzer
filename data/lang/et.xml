@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 by Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Object 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Kummituslinn" />
     <item ID="96_prohorovka_defense" Name="Tulest kaar" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somme lahing" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Tundmatu" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,12 +1117,12 @@
     <item ID="4" Name="Eriline lahing" />
     <item ID="5" Name="Eriline lahing" />
     <item ID="6" Name="Lahingutreening" />
-    <item ID="7" Name="Tiim: tavalahing" />
+    <item ID="7" Name="Tiimilahing" />
     <item ID="8" Name="Ajalooline lahing" />
     <item ID="9" Name="Erilise lahingu režiim" />
     <item ID="10" Name="Kokkupõrked" />
     <item ID="11" Name="Edenemised" />
-    <item ID="12" Name="Tiim: edetabelilahing" />
+    <item ID="12" Name="Tiimilahingud edetabelis" />
     <item ID="13" Name="Maailmakaart" />
     <item ID="17" Name="Treeninglaager" />
     <item ID="unknown" Name="Tundmatu" />
@@ -1899,136 +1911,136 @@
         <req>• Hävita vaenlase masin.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Täpsuslaskur" short="StuG IV: SPG-1" desc="Ära raiska oma laskemoona. Ainult täpsed tabamused toovad võitu lähemale." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Ole kannatlik ning oota kuni sihik täiesti kokku koondub.</Hint>
+    <PM name="SPG-1: Julge pealehakkamine" short="StuG IV: SPG-1" desc="Mürsu suur lõhkeraadius on liikursuurtükkide leivanumber. Isegi kui sa ei taba vaenlast kümmnesse, siis isegi sel juhul suudad sa talle läbi uimaseks löömise kahju teha. Uimaseks löödud vaenlasel on masina kohal kindel indikaator, mis annab liitlastele temast märku. Uimaseks löödud vaenlase pihta tulistavad liitlased toovad sulle lisaks kogemusi ja krediiti." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tee vähemalt 3 lasku, mis kahjustavad vaenlase masinaid.</req>
+        <req>• Löö vähemalt 3 korral vaenlase masinaid uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 1000 elupunkti kahju.</req>
+        <req>• Tekita vaenlase masinatele vähemalt 3 korral kahju neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Peidetud oht" short="StuG IV: SPG-2" desc="Liikursuurtükid ei saa kaitseks vaenlase eest kasutada oma olematut soomust. Õige lahendus on õppida, kuidas püsida lahingu jooksul nähtamatuna." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Maskeerimisvõrk koos maskeeringuga aitab suurel määral sinu suurtükki vaenlase eest peita.</Hint>
+    <PM name="SPG-2: Aeg jookseb" short="StuG IV: SPG-2" desc="Vaenlase masin püsib uimaseks lööduna kindla aja ning ei suuda lahinguväljal hästi orienteeruda. Pea meeles: uimaseks löödud sihtmärk on lihtne sihtmärk." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 500 elupunkti kahju. Püsi lahingu jooksul nähtamatuna.\n• Ela lahing üle.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 50 sekundiks uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase masin.</req>
+        <req>• Hävita vähemalt 1 vaenlase masin.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Haubitsarünnak" short="StuG IV: SPG-3" desc="Kui sa tahad tiimile oluline olla, pead sa enne õppima efektiivselt tulistama." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Jälgi lahingu käiku ning toeta oma kaaslasi. Ära ole liiga kaua ühes kohas, vajadusel tagane või otsi uus tulistamiskoht.</Hint>
+    <PM name="SPG-3: Võrdsustamine" short="StuG IV: SPG-3" desc="Varjunud ja võimsad vaenlase tankihävitajad ja raskeltsoomustatud rasketankid suudavad kergesti lahingu kurssi muuta. Nende kahjustamine ja kahjustamise abistamine peaksid olema liikursuurtükkide peamised eesmärgid. Enamik rasketanke ja tankihävitajaid on aeglased, mis suurendab eduka lasu võimalusi." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 1000 elupunkti kahju.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Võida lahing.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-4: Läbimurre" short="StuG IV: SPG-4" desc="Võimsad kildmürsud mitte ainult ei kahjusta vaenlast, vaid neil on ka suur võimalus purustada plahvatusega mooduleid ja vigastada meeskonda." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Kildmürsud on efektiivseimad siis, kui nad tungivad läbi vastase soomuse ning plahvatavad masina sisemuses. Kui su mürsud ei ole hea läbistavusega, otsi avatud torniga vaenlast või lae sisse premium mürsk.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Hävita või kahjusta lahingus vaenlase masinatel kokku vähemalt 3 moodulit või meeskonnaliiget.\n• Hävitatud/kahjustatud moodulite ning vigastatud meeskonnaliikmete arv lisatakse kokku.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja vähemalt 2 korral uimaseks.\n• Uimastavad lasud peaksid ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Kalkuleeri ja hävita" short="StuG IV: SPG-5" desc="Suur tulejõud kompenseerib su liikursuurtüki suhteliselt nõrka vastupidavust." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Ürita kahjustada vaenlasi igal võimalikul hetkel. Isegi kui su lõhkemürsk sihtmärgist õrnalt mööda lendab, võib vaenlane siiski kildudest viga saada.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita oma masina elupunktidest 4 korda rohkem kahju.\n• Arvesse ei lähe liitlastele tekitatud kahju.</req>
+    <PM name="SPG-4: Ära jää seisma" short="StuG IV: SPG-4" desc="Õpi meeles pidama vastaste tankihävitajate peamisi liikumisteid ja peidukohti. Sihtides juba ennetavalt ühte kaardi piirkonda annab sulle eelise sihtimiskiiruses ja tabamisvõimaluses. Tankihävitajad järgivad enamasti kaartidel kindlat taktikat. Ole tark: analüüsi vaenlase tiimi koosseisu ja vali lahingu alguses parim positsioon." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Löö vaenlase rasketank või tankihävitaja kokku vähemalt 30 sekundiks uimaseks.\n• Uimastav lask peaks ka kahju põhjustama.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase masin.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Langev haamer" short="StuG IV: SPG-6" desc="Tihti satud sa vastamisi endast kõrgema järgu masinatega, kuid pea meeles, et see ei ole mingi probleem kogenud suurtükiväelasele." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Kui sa ei suuda vaenlast läbistada tavaliste mürskudega, proovi premium mürske. Tulista vaenlase masina külgi ning tagaosa. Suurtükid koos oma mürsu kaarja trajektooriga suudavad tabada iga masina ülemist külge, kus soomus on nõrgem. Vaenlase masinad, millel on avatud torn, on isegi veel kergem saak ülevaltpoolt saabuvatele mürskudele.</Hint>
+    <PM name="SPG-5: Ära ole kade" short="StuG IV: SPG-5" desc="Vaenlase masinate uimaseks löömine ei vii mitte ainult tiimi võidule lähemale, vaid annab ka lisaks kogemuspunkte ja krediiti, kui liitlased sinu poolt uimaseks löödud masinat kahjustavad. Ära unusta märkimast ala, kuhu sa sihid (vaikimisi T nupp), et oma liitlaste tähelepanu sinna suunata." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 masinat, mis on sinuga samast või kõrgemast järgust.</req>
+        <req>• Võimalda oma liitlastel vaenlase masinatele vähemalt 600 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Kahjusta vähemalt 3 vaenlase masinat neid tulistades või rammides.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-6: Thori haamer" short="StuG IV: SPG-6" desc="Liikursuurtükkide peamine eesmärk on pakkuda liitlastele abi. Uimaseks löödud vaenlase masinad on kehvad võitlejad, seega on su liitlased sulle tänulikud. Kuid ole ettevaatlik – halvasti sihitud lask võib ka su liitlasi uimastada!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Võimalda oma liitlastel kahju teha vähemalt 2 sinu poolt uimaseks löödud või seisatud vaenlase masinale.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tooge välja suured torud" short="StuG IV: SPG-7" desc="Sa peaksid hävitama vaenlase tankihävitajad ja liikursuurtükid esimesel võimalusel. Nende hävitamine võib pöörata lahingu käiku sinu kasuks." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Ühilda oma tegevused liitlastest kergetankidega. Vaenlase tankihävitajate ja liikursuurtükkide avastamine ning hävitamine aitab su tiimil lahinguväljal ülemvõimu haarata.</Hint>
+    <PM name="SPG-7: Kahjuritõrje" short="StuG IV: SPG-7" desc="Selle missiooni täitmiseks vali oma sihtmärke. Ära tulista vaid ühte sihtmärki isegi siis, kui see on kergelt kättesaadav. Parim strateegia on tabada korraga mitut vaenlast. Õpi kaarte ning sihi ennetavalt vaenlase kogunemiskohtadesse." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase tankihävitaja või liikursuurtükk.</req>
+        <req>• Löö vähemalt 2 vaenlase masinat uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 1000 elupunkti kahju.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tuld rasketele tankidele!" short="StuG IV: SPG-8" desc="Rasketank on raske sihtmärk, kuid mitte sinule. Kaarja trajektooriga mürsud suudavad tabada masinate torni pealmist osa, kus on nõrk soomus." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Rasketankid on enamasti aeglasemad teistest masinatüüpidest. Sellest tulenevalt võid sa tihti ennustada, kus masin on, kui su mürsk kohale jõuab, mistõttu on suurtükiväelasel mõistlik teada oma mürskude kiiruseid.</Hint>
+    <PM name="SPG-8: Edukas lahing" short="StuG IV: SPG-8" desc="Kõigi efektiivsete tegevuste eest teenid sa kogemuspunkte. Püüa olla parim mängija: tee kahju, abista vaenlase masinate hävitamisel ning ela lahing üle. Vaheta peale igat lasku positisiooni, muidu võid sa vaenlase suurtükkidelt pihta saada." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele vähemalt 1000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis 7 enim kogemusi teeninud mängija hulgas.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase rasketank.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sihi neid tabamuseni" short="StuG IV: SPG-9" desc="Kogenud suurtükiväelane oskab ilma vaevata tabada liikuvaid sihtmärke. Õpi ennustama vaenlase liikumistrajektoori, et talle täpselt pihta saada. Pea meeles, et otsetabamus teeb enamasti rohkem kahju kui masina kõrval toimuv plahvatus." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Sinu mürskude kiirus on oluline parameeter. Selle teadmine annab sulle võimaluse välja arvutada umbkaudne mürsu langemise aeg.</Hint>
+    <PM name="SPG-9: Haara kondist" short="StuG IV: SPG-9" desc="Võimsad lõhkemürsud mitte ainult ei kahjusta vaenlase masinaid, vaid võivad ka plahvatusega nende mooduleid ja meeskonda vigastada." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vigasta vaenlase masin, mis liigub vähemalt 20 km/h.\n• Arvesse lähevad nii otsesed pihtasaamised kui ka plahvatusega tehtud kahju.\n• Rammimise teel tehtud kahju ei võeta arvesse.</req>
+        <req>• Hävita või vigasta kokku vähemalt 3 vaenlase masina moodulit või meeskonnaliiget.\n• Hävitatud moodulite ja vigastatud meeskonnaliikmete arv liidetakse kõikide lahingus sinu poolt vigastatud vaenlase tankide peale kokku.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Suurtükkide kirstunael" short="StuG IV: SPG-10" desc="Suurtükkide jahtimine on hea idee. Proovi mõelda kus vaenlase liikursuurtükid olla võiksid ning testi oma kahtlusi täpse lasuga." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Mida enam sa liikursuurtükkidega sõidad, seda enam õpid sa kaarte tundma. See aitab sul vaenlase suurtükkide vastu võidelda, kuna sa tead kus nad paikneda võiksid.</Hint>
+    <PM name="SPG-10: Kõik mängus" short="StuG IV: SPG-10" desc="Lahingu olukord võib kiirelt muutuda – hoia silm alati minikaardil ja jälgi, et sul oleks alati võimalik vaenlase masinaid tulistada. Sa pead pidevalt liikumises olema, mitte püsima ühe koha peal paigal. Su liitlased panustavad su liikursuurtüki tulejõu peale, nii et ole õigel hetkel õiges kohas." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 1 vaenlase liikursuurtükk.</req>
+        <req>• Sinu poolt tehtud kahju ja su liitlaste sinu poolt uimaseks löömise või seiskamise läbi vaenlase masinatele tehtud kahju peab olema kokku vähemalt 1000 elupunkti.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase masinat.</req>
+        <req>• Liitlased peavad hävitama vähemalt 1 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Plahvatuse kahju" short="StuG IV: SPG-11" desc="Killud lõhkemürsust võivad kahjustada korraga mitut masinat, kui nad seisavad üksteise läheduses." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Sa saad sõna otseses mõttes kaks ühe hoobiga – kui mitu vaenlast seisavad kõrvuti, siis tulista neid ning mõlemad saavad kahju. See on eriti tüüpiline linnakaartidele.</Hint>
+    <PM name="SPG-11: Plahvatuse kahju" short="StuG IV: SPG-11" desc="Lisaks suurele kahjule õigesti sihitud mürsuga saavad lõhkemürsud ka oma lõhkeraadiuses olevaid tanke uimaseks lüüa. Paljudel kaartidel on kindlad kohad, kuhu alati vaenlase tankid kogunevad. Sihi täpselt ja saada oma õhkavad tervitused nende poole teele!" tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlane ühe lasuga.\n• Arvesse lähevad masinad, mis on enne tabamust täiseludega.</req>
+        <req>• Löö vähemalt 2 vaenlase masinat ühe lasuga uimaseks.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Löö vaenlase masinaid kokku vähemalt 50 sekundiks uimaseks.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Kuradi silm" short="StuG IV: SPG-12" desc="Su vaenlased hävitasid sinu poolt uimaseks löödud masina? Head uudised, kuna sinu abi läbi on võit sammukese lähemal. Sinu ülesanne on pakkuda tuletoetust ning abistada liitlasi õiges kohas ja ajal." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Löö vaenlase masinaid kokku vähemalt 50 sekundiks uimaseks.\n• Liitlased peavad hävitama vähemalt 1 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Survestaja" short="StuG IV: SPG-12" desc="Suurtükkide lahingupidamine erineb drastiliselt teiste masinate omadest, kuid siiski on peaeesmärk sama – teha võimalikult palju võidu heaks ning aidata oma tiimikaaslasi." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Ära mine kohe lahingu alguses suurtükivaatesse, vaid otsi esmalt hea koht kust tulistada.</Hint>
+    <PM name="SPG-13: Koostöö" short="StuG IV: SPG-13" desc="Suurtükkide koostöö liitlastega on suur oht vaenlasele. Ühilda oma tegevused tiimiga ja tulistage kõik ühte vaenlast." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Ole oma tiimis tekitatud kahju arvestuses 3 esimese mängija hulgas.\n• Hävita vaenlase masin.</req>
+        <req>• Tee vaenlase masinatele vähemalt 4 korral kahju või löö neid vähemalt 6 korda uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Suurtükirünnak (Isiklik/Rühm)" short="StuG IV: SPG-13" desc="Rühm suurtükke on suur oht vaenlasele. Ühilda oma tegevused rühmaga ja tulistage kõik ühte vaenlast. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Laiali hargnedes saab su rühm sihtmärke tabada eri nurkade alt, muutes paljud kivid ja ehitised varjumise jaoks kasutuks.</Hint>
+    <PM name="SPG-14: Osake meeskonnast, osake masinast!" short="StuG IV: SPG-14" desc="Koostöö tiimiga on terve tiimi edu võti. Märgi vaenlane, keda sa sihid, et liitlased saaks seda kohe peale uimaseks löömist või peatamist tulistama hakata. Pea meeles, et üks sõdur ei suuda lahingu käiku muuta." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 15% sinu tiimi poolt vaenlaste masinatele tekitatud kahjust, kas üksinda või kogu rühma arvestuses.\n• Võida lahing.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 70 sekundiks uimaseks või võimalda oma liitlastel vaenlase masinatele vähemalt 400 elupunkti kahju teha neid seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ühine rünnak (Isiklik/Rühm)" short="StuG IV: SPG-14" desc="Suurtükkide edu sõltub suuresti ülejäänud tiimist. Suurtükid ja kergetankid sobivad ideaalselt koos rühmas mängimiseks. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Kergetank avastab vaenlasi ning peatab neid, peatatuid õnnetuid tulistavad omakorda suurtükid. Koos võidame! Rasketank kaitseb sind oma paksu soomusega, keskmine tank hajutab tähelepanu ning samal ajal toetab kaugemalt tankihävitaja neid oma suure kahuriga.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele ja tankihävitajatele vähemalt 2000 elupunkti kahju, kas üksinda või kogu rühma arvestuses.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Sõjajumalad" short="StuG IV: SPG-15" desc="Tiimile on parim kui nende suurtükid terved on. Ära avalikusta ennast vaenlastele ning tulista ainult täpseid laske." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
-      <Hint>Kui sa tunned oma suurtüki tehnilisi omadusi, saad sa oma tegevusi lahingus ette planeerida. Mõnikord ei ole baasi jäämine hea tegevus. Kui sul on kiire liikursuurtükk, saad sa kiiresti positsioone vahetada ning tulistada vaenlasi sealt kus nad seda ei oota.</Hint>
+    <PM name="SPG-15: Sõjajumalad" short="StuG IV: SPG-15" desc="Tiimile on parim, kui nende suurtükid terved on. Hoia oma toru kuumas ning ürita mitte vaenlase silma alla sattuda. Lase sihikul lõpuni kokku tõmmata, kuna iga pihtasaamine on tähtis ja laadimine aeganõudev." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole oma tiimis 3 enim kogemusi teeninud ja kahju tekitanud mängija hulgas.\n• Tekita vähemalt 2000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis 5 enim kogemusi teeninud mängija hulgas.\n• Võimalda oma liitlastel vaenlase masinatele vähemalt 1000 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Ela lahing üle.</req>
@@ -2574,136 +2586,136 @@
         <req>• Hävita vähemalt 2 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Täpsuslaskur" short="T28 heavy tank concept: SPG-1" desc="Ära raiska oma laskemoona. Ainult täpsed tabamused toovad võitu lähemale." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Ole kannatlik ning oota kuni sihik täiesti kokku koondub.</Hint>
+    <PM name="SPG-1: Julge pealehakkamine" short="T28 heavy tank concept: SPG-1" desc="Mürsu suur lõhkeraadius on liikursuurtükkide leivanumber. Isegi kui sa ei taba vaenlast kümmnesse, siis isegi sel juhul suudad sa talle läbi uimaseks löömise kahju teha. Uimaseks löödud vaenlasel on masina kohal kindel indikaator, mis annab liitlastele temast märku. Uimaseks löödud vaenlase pihta tulistavad liitlased toovad sulle lisaks kogemusi ja krediiti." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Tee vähemalt 4 lasku, mis kahjustavad vaenlase masinaid.</req>
+        <req>• Löö vähemalt 5 korral vaenlase masinaid uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 2000 elupunkti kahju.</req>
+        <req>• Tekita vaenlase masinatele vähemalt 5 korral kahju neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Peidetud oht" short="T28 heavy tank concept: SPG-2" desc="Liikursuurtükid ei saa kaitseks vaenlase eest kasutada oma olematut soomust. Õige lahendus on õppida, kuidas püsida lahingu jooksul nähtamatuna." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Maskeerimisvõrk koos maskeeringuga aitab suurel määral sinu suurtükki vaenlase eest peita.</Hint>
+    <PM name="SPG-2: Aeg jookseb" short="T28 heavy tank concept: SPG-2" desc="Vaenlase masin püsib uimaseks lööduna kindla aja ning ei suuda lahinguväljal hästi orienteeruda. Pea meeles: uimaseks löödud sihtmärk on lihtne sihtmärk." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 1500 elupunkti kahju. Püsi lahingu jooksul nähtamatuna.\n• Ela lahing üle.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 100 sekundiks uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Hävita vähemalt 2 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Haubitsarünnak" short="T28 heavy tank concept: SPG-3" desc="Kui sa tahad tiimile oluline olla, pead sa enne õppima efektiivselt tulistama." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Jälgi lahingu käiku ning toeta oma kaaslasi. Ära ole liiga kaua ühes kohas, vajadusel tagane või otsi uus tulistamiskoht.</Hint>
+    <PM name="SPG-3: Võrdsustamine" short="T28 heavy tank concept: SPG-3" desc="Varjunud ja võimsad vaenlase tankihävitajad ja raskeltsoomustatud rasketankid suudavad kergesti lahingu kurssi muuta. Nende kahjustamine ja kahjustamise abistamine peaksid olema liikursuurtükkide peamised eesmärgid. Enamik rasketanke ja tankihävitajaid on aeglased, mis suurendab eduka lasu võimalusi." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 2000 elupunkti kahju.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja vähemalt 4 korral uimaseks. Uimastavad lasud peaksid ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Läbimurre" short="T28 heavy tank concept: SPG-4" desc="Võimsad kildmürsud mitte ainult ei kahjusta vaenlast, vaid neil on ka suur võimalus purustada plahvatusega mooduleid ja vigastada meeskonda." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Kildmürsud on efektiivseimad siis, kui nad tungivad läbi vastase soomuse ning plahvatavad masina sisemuses. Kui su mürsud ei ole hea läbistavusega, otsi avatud torniga vaenlast või lae sisse premium mürsk.</Hint>
+    <PM name="SPG-4: Ära jää seisma" short="T28 heavy tank concept: SPG-4" desc="Õpi meeles pidama vastaste tankihävitajate peamisi liikumisteid ja peidukohti. Sihtides juba ennetavalt ühte kaardi piirkonda annab sulle eelise sihtimiskiiruses ja tabamisvõimaluses. Tankihävitajad järgivad enamasti kaartidel kindlat taktikat. Ole tark: analüüsi vaenlase tiimi koosseisu ja vali lahingu alguses parim positsioon." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Hävita või kahjusta lahingus vaenlase masinatel kokku 5 moodulit või meeskonnaliiget.\n• Hävitatud/kahjustatud moodulite ning vigastatud meeskonnaliikmete arv lisatakse kokku.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja kokku vähemalt 50 sekundiks uimaseks.\n• Uimastav lask peaks ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Kalkuleeri ja hävita" short="T28 heavy tank concept: SPG-5" desc="Suur tulejõud kompenseerib su liikursuurtüki suhteliselt nõrka vastupidavust." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Ürita kahjustada vaenlasi igal võimalikul hetkel. Isegi kui su lõhkemürsk sihtmärgist õrnalt mööda lendab, võib vaenlane siiski kildudest viga saada.</Hint>
+    <PM name="SPG-5: Ära ole kade" short="T28 heavy tank concept: SPG-5" desc="Vaenlase masinate uimaseks löömine ei vii mitte ainult tiimi võidule lähemale, vaid annab ka lisaks kogemuspunkte ja krediiti, kui liitlased sinu poolt uimaseks löödud masinat kahjustavad. Ära unusta märkimast ala, kuhu sa sihid (vaikimisi T nupp), et oma liitlaste tähelepanu sinna suunata." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita oma masina elupunktidest 6 korda rohkem kahju.\n• Arvesse ei lähe liitlastele tekitatud kahju.</req>
+        <req>• Võimalda oma liitlastel vaenlase masinatele vähemalt 1000 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase masinat.</req>
+        <req>• Kahjusta vähemalt 5 vaenlase masinat neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Langev haamer" short="T28 heavy tank concept: SPG-6" desc="Tihti satud sa vastamisi endast kõrgema järgu masinatega, kuid pea meeles, et see ei ole mingi probleem kogenud suurtükiväelasele." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Kui sa ei suuda vaenlast läbistada tavaliste mürskudega, proovi premium mürske. Tulista vaenlase masina külgi ning tagaosa. Suurtükid koos oma mürsu kaarja trajektooriga suudavad tabada iga masina ülemist külge, kus soomus on nõrgem. Vaenlase masinad, millel on avatud torn, on isegi veel kergem saak ülevaltpoolt saabuvatele mürskudele.</Hint>
+    <PM name="SPG-6: Thori haamer" short="T28 heavy tank concept: SPG-6" desc="Liikursuurtükkide peamine eesmärk on pakkuda liitlastele abi. Uimaseks löödud vaenlase masinad on kehvad võitlejad, seega on su liitlased sulle tänulikud. Kuid ole ettevaatlik – halvasti sihitud lask võib ka su liitlasi uimastada!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 masinat, mis on sinuga samast või kõrgemast järgust.</req>
+        <req>• Võimalda oma liitlastel kahju teha vähemalt 3 sinu poolt uimaseks löödud või seisatud vaenlase masinale.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tooge välja suured torud" short="T28 heavy tank concept: SPG-7" desc="Sa peaksid hävitama vaenlase tankihävitajad ja liikursuurtükid esimesel võimalusel. Nende hävitamine võib pöörata lahingu käiku sinu kasuks." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Ühilda oma tegevused liitlastest kergetankidega. Vaenlase tankihävitajate ja liikursuurtükkide avastamine ning hävitamine aitab su tiimil lahinguväljal ülemvõimu haarata.</Hint>
+    <PM name="SPG-7: Kahjuritõrje" short="T28 heavy tank concept: SPG-7" desc="Selle missiooni täitmiseks vali oma sihtmärke. Ära tulista vaid ühte sihtmärki isegi siis, kui see on kergelt kättesaadav. Parim strateegia on tabada korraga mitut vaenlast. Õpi kaarte ning sihi ennetavalt vaenlase kogunemiskohtadesse." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase tankihävitaja või liikursuurtükk, mis on sinu masinast ühe järgu võrra kõrgem.</req>
+        <req>• Löö vähemalt 3 vaenlase masinat uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 2000 elupunkti kahju.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tuld rasketele tankidele!" short="T28 heavy tank concept: SPG-8" desc="Rasketank on raske sihtmärk, kuid mitte sinule. Kaarja trajektooriga mürsud suudavad tabada masinate torni pealmist osa, kus on nõrk soomus." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Rasketankid on enamasti aeglasemad teistest masinatüüpidest. Sellest tulenevalt võid sa tihti ennustada, kus masin on, kui su mürsk kohale jõuab, mistõttu on suurtükiväelasel mõistlik teada oma mürskude kiiruseid.</Hint>
+    <PM name="SPG-8: Edukas lahing" short="T28 heavy tank concept: SPG-8" desc="Kõigi efektiivsete tegevuste eest teenid sa kogemuspunkte. Püüa olla parim mängija: tee kahju, abista vaenlase masinate hävitamisel ning ela lahing üle. Vaheta peale igat lasku positisiooni, muidu võid sa vaenlase suurtükkidelt pihta saada." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele vähemalt 1500 elupunkti kahju.</req>
+        <req>• Ole oma tiimis 5 enim kogemusi teeninud mängija hulgas.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase rasketanki.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sihi neid tabamuseni" short="T28 heavy tank concept: SPG-9" desc="Kogenud suurtükiväelane oskab ilma vaevata tabada liikuvaid sihtmärke. Õpi ennustama vaenlase liikumistrajektoori, et talle täpselt pihta saada. Pea meeles, et otsetabamus teeb enamasti rohkem kahju kui masina kõrval toimuv plahvatus." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Sinu mürskude kiirus on oluline parameeter. Selle teadmine annab sulle võimaluse välja arvutada umbkaudne mürsu langemise aeg.</Hint>
+    <PM name="SPG-9: Haara kondist" short="T28 heavy tank concept: SPG-9" desc="Võimsad lõhkemürsud mitte ainult ei kahjusta vaenlase masinaid, vaid võivad ka plahvatusega nende mooduleid ja meeskonda vigastada." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Saa vaenlase vastu pihta vähemalt 2 lasku.\n• Kõik pihtaläinud lasud, hoolimata kas nad tegid kahju, lähevad arvesse.</req>
+        <req>• Hävita või vigasta kokku vähemalt 5 vaenlase masina moodulit või meeskonnaliiget.\n• Hävitatud moodulite ja vigastatud meeskonnaliikmete arv liidetakse kõikide lahingus sinu poolt vigastatud vaenlase tankide peale kokku.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Ela lahing üle.\n• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Suurtükkide kirstunael" short="T28 heavy tank concept: SPG-10" desc="Suurtükkide jahtimine on hea idee. Proovi mõelda kus vaenlase liikursuurtükid olla võiksid ning testi oma kahtlusi täpse lasuga." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Mida enam sa liikursuurtükkidega sõidad, seda enam õpid sa kaarte tundma. See aitab sul vaenlase suurtükkide vastu võidelda, kuna sa tead kus nad paikneda võiksid.</Hint>
+    <PM name="SPG-10: Kõik mängus" short="T28 heavy tank concept: SPG-10" desc="Lahingu olukord võib kiirelt muutuda – hoia silm alati minikaardil ja jälgi, et sul oleks alati võimalik vaenlase masinaid tulistada. Sa pead pidevalt liikumises olema, mitte püsima ühe koha peal paigal. Su liitlased panustavad su liikursuurtüki tulejõu peale, nii et ole õigel hetkel õiges kohas." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase liikursuurtükki.</req>
+        <req>• Sinu poolt tehtud kahju ja su liitlaste sinu poolt uimaseks löömise või seiskamise läbi vaenlase masinatele tehtud kahju peab olema kokku vähemalt 2000 elupunkti.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 vaenlase masinat.</req>
+        <req>• Liitlased peavad hävitama vähemalt 1 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Plahvatuse kahju" short="T28 heavy tank concept: SPG-11" desc="Killud lõhkemürsust võivad kahjustada korraga mitut masinat, kui nad seisavad üksteise läheduses." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Sa saad sõna otseses mõttes kaks ühe hoobiga – kui mitu vaenlast seisavad kõrvuti, siis tulista neid ning mõlemad saavad kahju. See on eriti tüüpiline linnakaartidele.</Hint>
+    <PM name="SPG-11: Plahvatuse kahju" short="T28 heavy tank concept: SPG-11" desc="Lisaks suurele kahjule õigesti sihitud mürsuga saavad lõhkemürsud ka oma lõhkeraadiuses olevaid tanke uimaseks lüüa. Paljudel kaartidel on kindlad kohad, kuhu alati vaenlase tankid kogunevad. Sihi täpselt ja saada oma õhkavad tervitused nende poole teele!" tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Kahjusta ühe lasuga vähemalt 2 vaenlast.</req>
+        <req>• Löö vähemalt 2 vaenlase masinat ühe lasuga uimaseks kahel korral.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Löö vaenlase masinaid kokku vähemalt 100 sekundiks uimaseks.</req>
+      </Secondary>
+    </PM>
+    <PM name="SPG-12: Kuradi silm" short="T28 heavy tank concept: SPG-12" desc="Su vaenlased hävitasid sinu poolt uimaseks löödud masina? Head uudised, kuna sinu abi läbi on võit sammukese lähemal. Sinu ülesanne on pakkuda tuletoetust ning abistada liitlasi õiges kohas ja ajal." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Löö vaenlase masinaid kokku vähemalt 100 sekundiks uimaseks.\n• Liitlased peavad hävitama vähemalt 1 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Survestaja" short="T28 heavy tank concept: SPG-12" desc="Suurtükkide lahingupidamine erineb drastiliselt teiste masinate omadest, kuid siiski on peaeesmärk sama – teha võimalikult palju võidu heaks ning aidata oma tiimikaaslasi." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Ära mine kohe lahingu alguses suurtükivaatesse, vaid otsi esmalt hea koht kust tulistada.</Hint>
+    <PM name="SPG-13: Koostöö" short="T28 heavy tank concept: SPG-13" desc="Suurtükkide koostöö liitlastega on suur oht vaenlasele. Ühilda oma tegevused tiimiga ja tulistage kõik ühte vaenlast." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Ole mõlema tiimi arvestuses 3 enim kahju tekitanud mängija hulgas.\n• Hävita vähemalt 2 vaenlase masinat.\n• Ela lahing üle.</req>
+        <req>• Tee vaenlase masinatele vähemalt 6 korral kahju või löö neid vähemalt 8 korda uimaseks.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Suurtükirünnak (Isiklik/Rühm)" short="T28 heavy tank concept: SPG-13" desc="Rühm suurtükke on suur oht vaenlasele. Ühilda oma tegevused rühmaga ja tulistage kõik ühte vaenlast. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Laiali hargnedes saab su rühm sihtmärke tabada eri nurkade alt, muutes paljud kivid ja ehitised varjumise jaoks kasutuks.</Hint>
+    <PM name="SPG-14: Osake meeskonnast, osake masinast!" short="T28 heavy tank concept: SPG-14" desc="Koostöö tiimiga on terve tiimi edu võti. Märgi vaenlane, keda sa sihid, et liitlased saaks seda kohe peale uimaseks löömist või peatamist tulistama hakata. Pea meeles, et üks sõdur ei suuda lahingu käiku muuta." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 20% sinu tiimi poolt vaenlaste masinatele tekitatud kahjust, kas üksinda või kogu rühma arvestuses.\n• Võida lahing.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 100 sekundiks uimaseks või võimalda oma liitlastel vaenlase masinatele vähemalt 600 elupunkti kahju teha neid seisates.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ühine rünnak (Isiklik/Rühm)" short="T28 heavy tank concept: SPG-14" desc="Suurtükkide edu sõltub suuresti ülejäänud tiimist. Suurtükid ja kergetankid sobivad ideaalselt koos rühmas mängimiseks. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Kergetank avastab vaenlasi ning peatab neid, peatatuid õnnetuid tulistavad omakorda suurtükid. Koos võidame! Rasketank kaitseb sind oma paksu soomusega, keskmine tank hajutab tähelepanu ning samal ajal toetab kaugemalt tankihävitaja neid oma suure kahuriga.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele ja tankihävitajatele vähemalt 3000 elupunkti kahju, kas üksinda või kogu rühma arvestuses.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
-      </Secondary>
-    </PM>
-    <PM name="SPG-15: Sõjajumalad" short="T28 heavy tank concept: SPG-15" desc="Tiimile on parim kui nende suurtükid terved on. Ära avalikusta ennast vaenlastele ning tulista ainult täpseid laske." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
-      <Hint>Kui sa tunned oma suurtüki tehnilisi omadusi, saad sa oma tegevusi lahingus ette planeerida. Mõnikord ei ole baasi jäämine hea tegevus. Kui sul on kiire liikursuurtükk, saad sa kiiresti positsioone vahetada ning tulistada vaenlasi sealt kus nad seda ei oota.</Hint>
+    <PM name="SPG-15: Sõjajumalad" short="T28 heavy tank concept: SPG-15" desc="Tiimile on parim, kui nende suurtükid terved on. Hoia oma toru kuumas ning ürita mitte vaenlase silma alla sattuda. Lase sihikul lõpuni kokku tõmmata, kuna iga pihtasaamine on tähtis ja laadimine aeganõudev." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T28 heavy tank concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole mõlema tiimi arvestuses 3 enim kogemusi teeninud ja kahju tekitanud mängija hulgas.\n• Tekita vähemalt 2000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis 3 enim kogemusi teeninud mängija hulgas.\n• Võimalda oma liitlastel vaenlase masinatele vähemalt 1500 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Ela lahing üle.</req>
@@ -3249,136 +3261,136 @@
         <req>• Hävita vähemalt 3 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Täpsuslaskur" short="T 55A: SPG-1" desc="Ära raiska oma laskemoona. Ainult täpsed tabamused toovad võitu lähemale." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Ole kannatlik ning oota kuni sihik täiesti kokku koondub.</Hint>
+    <PM name="SPG-1: Julge pealehakkamine" short="T 55A: SPG-1" desc="Mürsu suur lõhkeraadius on liikursuurtükkide leivanumber. Isegi kui sa ei taba vaenlast kümmnesse, siis isegi sel juhul suudad sa talle läbi uimaseks löömise kahju teha. Uimaseks löödud vaenlasel on masina kohal kindel indikaator, mis annab liitlastele temast märku. Uimaseks löödud vaenlase pihta tulistavad liitlased toovad sulle lisaks kogemusi ja krediiti." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Tee vähemalt 5 lasku, mis kahjustavad vaenlase masinaid.</req>
+        <req>• Löö vähemalt 7 korral vaenlase masinaid uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 3000 elupunkti kahju.</req>
+        <req>• Tekita vaenlase masinatele vähemalt 6 korral kahju neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Peidetud oht" short="T 55A: SPG-2" desc="Liikursuurtükid ei saa kaitseks vaenlase eest kasutada oma olematut soomust. Õige lahendus on õppida, kuidas püsida lahingu jooksul nähtamatuna." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Maskeerimisvõrk koos maskeeringuga aitab suurel määral sinu suurtükki vaenlase eest peita.</Hint>
+    <PM name="SPG-2: Aeg jookseb" short="T 55A: SPG-2" desc="Vaenlase masin püsib uimaseks lööduna kindla aja ning ei suuda lahinguväljal hästi orienteeruda. Pea meeles: uimaseks löödud sihtmärk on lihtne sihtmärk." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Ole oma tiimis 5 enim kogemusi teeninud mängija hulgas. Püsi lahingu jooksul nähtamatuna.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 150 sekundiks uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Hävita vähemalt 3 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Haubitsarünnak" short="T 55A: SPG-3" desc="Kui sa tahad tiimile oluline olla, pead sa enne õppima efektiivselt tulistama." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Jälgi lahingu käiku ning toeta oma kaaslasi. Ära ole liiga kaua ühes kohas, vajadusel tagane või otsi uus tulistamiskoht.</Hint>
+    <PM name="SPG-3: Võrdsustamine" short="T 55A: SPG-3" desc="Varjunud ja võimsad vaenlase tankihävitajad ja raskeltsoomustatud rasketankid suudavad kergesti lahingu kurssi muuta. Nende kahjustamine ja kahjustamise abistamine peaksid olema liikursuurtükkide peamised eesmärgid. Enamik rasketanke ja tankihävitajaid on aeglased, mis suurendab eduka lasu võimalusi." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 3000 elupunkti kahju.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja vähemalt 6 korral uimaseks. Uimastavad lasud peaksid ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Ela lahing üle.\n• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Läbimurre" short="T 55A: SPG-4" desc="Võimsad kildmürsud mitte ainult ei kahjusta vaenlast, vaid neil on ka suur võimalus purustada plahvatusega mooduleid ja vigastada meeskonda." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Kildmürsud on efektiivseimad siis, kui nad tungivad läbi vastase soomuse ning plahvatavad masina sisemuses. Kui su mürsud ei ole hea läbistavusega, otsi avatud torniga vaenlast või lae sisse premium mürsk.</Hint>
+    <PM name="SPG-4: Ära jää seisma" short="T 55A: SPG-4" desc="Õpi meeles pidama vastaste tankihävitajate peamisi liikumisteid ja peidukohti. Sihtides juba ennetavalt ühte kaardi piirkonda annab sulle eelise sihtimiskiiruses ja tabamisvõimaluses. Tankihävitajad järgivad enamasti kaartidel kindlat taktikat. Ole tark: analüüsi vaenlase tiimi koosseisu ja vali lahingu alguses parim positsioon." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Hävita või kahjusta lahingus vaenlase masinatel kokku vähemalt 8 moodulit või meeskonnaliiget.\n• Hävitatud/kahjustatud moodulite ning vigastatud meeskonnaliikmete arv lisatakse kokku.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja kokku vähemalt 80 sekundiks uimaseks.\n• Uimastav lask peaks ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Kalkuleeri ja hävita" short="T 55A: SPG-5" desc="Suur tulejõud kompenseerib su liikursuurtüki suhteliselt nõrka vastupidavust." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Ürita kahjustada vaenlasi igal võimalikul hetkel. Isegi kui su lõhkemürsk sihtmärgist õrnalt mööda lendab, võib vaenlane siiski kildudest viga saada.</Hint>
+    <PM name="SPG-5: Ära ole kade" short="T 55A: SPG-5" desc="Vaenlase masinate uimaseks löömine ei vii mitte ainult tiimi võidule lähemale, vaid annab ka lisaks kogemuspunkte ja krediiti, kui liitlased sinu poolt uimaseks löödud masinat kahjustavad. Ära unusta märkimast ala, kuhu sa sihid (vaikimisi T nupp), et oma liitlaste tähelepanu sinna suunata." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita oma masina elupunktidest 8 korda rohkem kahju.\n• Arvesse ei lähe liitlastele tekitatud kahju.</req>
+        <req>• Võimalda oma liitlastel vaenlase masinatele vähemalt 2000 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 vaenlase masinat.</req>
+        <req>• Kahjusta vähemalt 6 vaenlase masinat neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Langev haamer" short="T 55A: SPG-6" desc="Tihti satud sa vastamisi endast kõrgema järgu masinatega, kuid pea meeles, et see ei ole mingi probleem kogenud suurtükiväelasele." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Kui sa ei suuda vaenlast läbistada tavaliste mürskudega, proovi premium mürske. Tulista vaenlase masina külgi ning tagaosa. Suurtükid koos oma mürsu kaarja trajektooriga suudavad tabada iga masina ülemist külge, kus soomus on nõrgem. Vaenlase masinad, millel on avatud torn, on isegi veel kergem saak ülevaltpoolt saabuvatele mürskudele.</Hint>
+    <PM name="SPG-6: Thori haamer" short="T 55A: SPG-6" desc="Liikursuurtükkide peamine eesmärk on pakkuda liitlastele abi. Uimaseks löödud vaenlase masinad on kehvad võitlejad, seega on su liitlased sulle tänulikud. Kuid ole ettevaatlik – halvasti sihitud lask võib ka su liitlasi uimastada!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 vaenlase masinat, mis on sinust ühe järgu võrra kõrgemal.</req>
+        <req>• Võimalda oma liitlastel kahju teha vähemalt 5 sinu poolt uimaseks löödud või seisatud vaenlase masinale.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tooge välja suured torud" short="T 55A: SPG-7" desc="Sa peaksid hävitama vaenlase tankihävitajad ja liikursuurtükid esimesel võimalusel. Nende hävitamine võib pöörata lahingu käiku sinu kasuks." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Ühilda oma tegevused liitlastest kergetankidega. Vaenlase tankihävitajate ja liikursuurtükkide avastamine ning hävitamine aitab su tiimil lahinguväljal ülemvõimu haarata.</Hint>
+    <PM name="SPG-7: Kahjuritõrje" short="T 55A: SPG-7" desc="Selle missiooni täitmiseks vali oma sihtmärke. Ära tulista vaid ühte sihtmärki isegi siis, kui see on kergelt kättesaadav. Parim strateegia on tabada korraga mitut vaenlast. Õpi kaarte ning sihi ennetavalt vaenlase kogunemiskohtadesse." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase tankihävitajat ja liikursuurtükki.\n• Võida lahing.</req>
+        <req>• Löö vähemalt 5 vaenlase masinat uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 3000 elupunkti kahju.</req>
+        <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tuld rasketele tankidele!" short="T 55A: SPG-8" desc="Rasketank on raske sihtmärk, kuid mitte sinule. Kaarja trajektooriga mürsud suudavad tabada masinate torni pealmist osa, kus on nõrk soomus." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Rasketankid on enamasti aeglasemad teistest masinatüüpidest. Sellest tulenevalt võid sa tihti ennustada, kus masin on, kui su mürsk kohale jõuab, mistõttu on suurtükiväelasel mõistlik teada oma mürskude kiiruseid.</Hint>
+    <PM name="SPG-8: Edukas lahing" short="T 55A: SPG-8" desc="Kõigi efektiivsete tegevuste eest teenid sa kogemuspunkte. Püüa olla parim mängija: tee kahju, abista vaenlase masinate hävitamisel ning ela lahing üle. Vaheta peale igat lasku positisiooni, muidu võid sa vaenlase suurtükkidelt pihta saada." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele vähemalt 2000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis 3 enim kogemusi teeninud mängija hulgas.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlase rasketank.\n• Võida lahing.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sihi neid tabamuseni" short="T 55A: SPG-9" desc="Kogenud suurtükiväelane oskab ilma vaevata tabada liikuvaid sihtmärke. Õpi ennustama vaenlase liikumistrajektoori, et talle täpselt pihta saada. Pea meeles, et otsetabamus teeb enamasti rohkem kahju kui masina kõrval toimuv plahvatus." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Sinu mürskude kiirus on oluline parameeter. Selle teadmine annab sulle võimaluse välja arvutada umbkaudne mürsu langemise aeg.</Hint>
+    <PM name="SPG-9: Haara kondist" short="T 55A: SPG-9" desc="Võimsad lõhkemürsud mitte ainult ei kahjusta vaenlase masinaid, vaid võivad ka plahvatusega nende mooduleid ja meeskonda vigastada." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vigasta vaenlase masinat, mis liigub vähemalt 30 km/h.\n• Arvesse lähevad nii otsetabamused kui ka plahvatuse kahju.\n• Rammimise teel tekitatud kahju ei loe.</req>
+        <req>• Hävita või vigasta kokku vähemalt 8 vaenlase masina moodulit või meeskonnaliiget.\n• Hävitatud moodulite ja vigastatud meeskonnaliikmete arv liidetakse kõikide lahingus sinu poolt vigastatud vaenlase tankide peale kokku.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.\n• Ela lahing üle.\n• Püsi lahingu jooksul nähtamatuna.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Suurtükkide kirstunael" short="T 55A: SPG-10" desc="Suurtükkide jahtimine on hea idee. Proovi mõelda kus vaenlase liikursuurtükid olla võiksid ning testi oma kahtlusi täpse lasuga." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Mida enam sa liikursuurtükkidega sõidad, seda enam õpid sa kaarte tundma. See aitab sul vaenlase suurtükkide vastu võidelda, kuna sa tead kus nad paikneda võiksid.</Hint>
+    <PM name="SPG-10: Kõik mängus" short="T 55A: SPG-10" desc="Lahingu olukord võib kiirelt muutuda – hoia silm alati minikaardil ja jälgi, et sul oleks alati võimalik vaenlase masinaid tulistada. Sa pead pidevalt liikumises olema, mitte püsima ühe koha peal paigal. Su liitlased panustavad su liikursuurtüki tulejõu peale, nii et ole õigel hetkel õiges kohas." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 1 vaenlase liikursuurtükk.\n• Tekita vaenlase masinatele vähemalt 2000 elupunkti kahju.</req>
+        <req>• Sinu poolt tehtud kahju ja su liitlaste sinu poolt uimaseks löömise või seiskamise läbi vaenlase masinatele tehtud kahju peab olema kokku vähemalt 3000 elupunkti.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 4 vaenlase masinat.</req>
+        <req>• Võida lahing.\n• Liitlased peavad hävitama vähemalt 2 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Plahvatuse kahju" short="T 55A: SPG-11" desc="Killud lõhkemürsust võivad kahjustada korraga mitut masinat, kui nad seisavad üksteise läheduses." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Sa saad sõna otseses mõttes kaks ühe hoobiga – kui mitu vaenlast seisavad kõrvuti, siis tulista neid ning mõlemad saavad kahju. See on eriti tüüpiline linnakaartidele.</Hint>
+    <PM name="SPG-11: Plahvatuse kahju" short="T 55A: SPG-11" desc="Lisaks suurele kahjule õigesti sihitud mürsuga saavad lõhkemürsud ka oma lõhkeraadiuses olevaid tanke uimaseks lüüa. Paljudel kaartidel on kindlad kohad, kuhu alati vaenlase tankid kogunevad. Sihi täpselt ja saada oma õhkavad tervitused nende poole teele!" tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vaenlane ning kahjusta sama lasuga veel ühte teist vaenlast.</req>
+        <req>• Löö vähemalt 3 vaenlase masinat ühe lasuga uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Võida lahing.\n• Ela lahing üle.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 150 sekundiks uimaseks.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Survestaja" short="T 55A: SPG-12" desc="Suurtükkide lahingupidamine erineb drastiliselt teiste masinate omadest, kuid siiski on peaeesmärk sama – teha võimalikult palju võidu heaks ning aidata oma tiimikaaslasi." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Ära mine kohe lahingu alguses suurtükivaatesse, vaid otsi esmalt hea koht kust tulistada.</Hint>
+    <PM name="SPG-12: Kuradi silm" short="T 55A: SPG-12" desc="Su vaenlased hävitasid sinu poolt uimaseks löödud masina? Head uudised, kuna sinu abi läbi on võit sammukese lähemal. Sinu ülesanne on pakkuda tuletoetust ning abistada liitlasi õiges kohas ja ajal." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Lõpeta lahing, olles tekitatud kahju arvestuses oma tiimis esikohal.\n• Hävita vähemalt 3 vaenlase masinat.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 150 sekundiks uimaseks.\n• Liitlased peavad hävitama vähemalt 2 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Suurtükirünnak (Isiklik/Rühm)" short="T 55A: SPG-13" desc="Rühm suurtükke on suur oht vaenlasele. Ühilda oma tegevused rühmaga ja tulistage kõik ühte vaenlast. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Laiali hargnedes saab su rühm sihtmärke tabada eri nurkade alt, muutes paljud kivid ja ehitised varjumise jaoks kasutuks.</Hint>
+    <PM name="SPG-13: Koostöö" short="T 55A: SPG-13" desc="Suurtükkide koostöö liitlastega on suur oht vaenlasele. Ühilda oma tegevused tiimiga ja tulistage kõik ühte vaenlast." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 25% sinu tiimi poolt vaenlaste masinatele tekitatud kahjust, kas üksinda või kogu rühma arvestuses.\n• Võida lahing.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Tee vaenlase masinatele vähemalt 8 korral kahju või löö neid vähemalt 10 korda uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ühine rünnak (Isiklik/Rühm)" short="T 55A: SPG-14" desc="Suurtükkide edu sõltub suuresti ülejäänud tiimist. Suurtükid ja kergetankid sobivad ideaalselt koos rühmas mängimiseks. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Kergetank avastab vaenlasi ning peatab neid, peatatuid õnnetuid tulistavad omakorda suurtükid. Koos võidame! Rasketank kaitseb sind oma paksu soomusega, keskmine tank hajutab tähelepanu ning samal ajal toetab kaugemalt tankihävitaja neid oma suure kahuriga.</Hint>
+    <PM name="SPG-14: Osake meeskonnast, osake masinast!" short="T 55A: SPG-14" desc="Koostöö tiimiga on terve tiimi edu võti. Märgi vaenlane, keda sa sihid, et liitlased saaks seda kohe peale uimaseks löömist või peatamist tulistama hakata. Pea meeles, et üks sõdur ei suuda lahingu käiku muuta." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele ja tankihävitajatele vähemalt 4000 elupunkti kahju, kas üksinda või kogu rühma arvestuses.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 180 sekundiks uimaseks või võimalda oma liitlastel vaenlase masinatele vähemalt 800 elupunkti kahju teha neid seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Sõjajumalad" short="T 55A: SPG-15" desc="Tiimile on parim kui nende suurtükid terved on. Ära avalikusta ennast vaenlastele ning tulista ainult täpseid laske." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
-      <Hint>Kui sa tunned oma suurtüki tehnilisi omadusi, saad sa oma tegevusi lahingus ette planeerida. Mõnikord ei ole baasi jäämine hea tegevus. Kui sul on kiire liikursuurtükk, saad sa kiiresti positsioone vahetada ning tulistada vaenlasi sealt kus nad seda ei oota.</Hint>
+    <PM name="SPG-15: Sõjajumalad" short="T 55A: SPG-15" desc="Tiimile on parim, kui nende suurtükid terved on. Hoia oma toru kuumas ning ürita mitte vaenlase silma alla sattuda. Lase sihikul lõpuni kokku tõmmata, kuna iga pihtasaamine on tähtis ja laadimine aeganõudev." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole oma tiimis lahingu lõppedes teenitud kogemuste ja tekitatud kahju arvestuses esikohal.\n• Tekita vähemalt 3000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis enim kogemusi teeninud mängija.\n• Võimalda oma liitlastel vaenlase masinatele vähemalt 2500 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Ela lahing üle.</req>
@@ -3423,7 +3435,7 @@
     <PM name="LT-5: Eelluure" short="Object 260: LT-5" desc="Nendel lahingutasemetel on kergetankid eriti nõrgad vaenlase tule vastu. Tee seda, milleks kergetankid loodud on – avasta vaenlasi, et tagada lahingu efektiivsus." tMID="230" opID="4" mID="5" setID="1" ID="quest_4_1_5_main" secID="quest_4_1_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
       <Hint>Niipea, kui vaenlane ilmub su vaatevälja, hoia tal silma peal. Sel viisil saavad liitlased ta asukoha teada ning neil on võimalus teda kahjustada või hävitada. Ära unusta talle tähelepanu tõmbamast, valides vaenlase masinal juhtmenüüst „Soovin tuletoetust…“.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Avasta vaenlase masinaid ja võimalda oma liitlastel vähemalt 3 vaenlasele kahju tekitada.\n• Ela lahing üle.</req>
+        <req>• Avasta vaenlase masinaid ja võimalda oma liitlastel vähemalt 3 sinu poolt avastatud masinat hävitada.\n• Ela lahing üle.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Avasta vaenlase masinaid ja võimalda oma liitlastel vähemalt 8 vaenlasele kahju tekitada.</req>
@@ -3924,136 +3936,136 @@
         <req>• Hävita vähemalt 5 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-1: Täpsuslaskur" short="Object 260: SPG-1" desc="Ära raiska oma laskemoona. Ainult täpsed tabamused toovad võitu lähemale." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Ole kannatlik ning oota kuni sihik täiesti kokku koondub.</Hint>
+    <PM name="SPG-1: Julge pealehakkamine" short="Object 260: SPG-1" desc="Mürsu suur lõhkeraadius on liikursuurtükkide leivanumber. Isegi kui sa ei taba vaenlast kümmnesse, siis isegi sel juhul suudad sa talle läbi uimaseks löömise kahju teha. Uimaseks löödud vaenlasel on masina kohal kindel indikaator, mis annab liitlastele temast märku. Uimaseks löödud vaenlase pihta tulistavad liitlased toovad sulle lisaks kogemusi ja krediiti." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Tee vähemalt 6 lasku, mis kahjustavad vaenlase masinaid.</req>
+        <req>• Löö vähemalt 10 korral vaenlase masinaid uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 4000 elupunkti kahju.</req>
+        <req>• Tekita vaenlase masinatele vähemalt 8 korral kahju neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-2: Peidetud oht" short="Object 260: SPG-2" desc="Liikursuurtükid ei saa kaitseks vaenlase eest kasutada oma olematut soomust. Õige lahendus on õppida, kuidas püsida lahingu jooksul nähtamatuna." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Maskeerimisvõrk koos maskeeringuga aitab suurel määral sinu suurtükki vaenlase eest peita.</Hint>
+    <PM name="SPG-2: Aeg jookseb" short="Object 260: SPG-2" desc="Vaenlase masin püsib uimaseks lööduna kindla aja ning ei suuda lahinguväljal hästi orienteeruda. Pea meeles: uimaseks löödud sihtmärk on lihtne sihtmärk." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Ole oma tiimis 3 enim kogemusi teeninud mängija hulgas. Püsi lahingu jooksul nähtamatuna.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 200 sekundiks uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 vaenlase masinat.</req>
+        <req>• Hävita vähemalt 4 vaenlase masinat.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-3: Haubitsarünnak" short="Object 260: SPG-3" desc="Kui sa tahad tiimile oluline olla, pead sa enne õppima efektiivselt tulistama." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Jälgi lahingu käiku ning toeta oma kaaslasi. Ära ole liiga kaua ühes kohas, vajadusel tagane või otsi uus tulistamiskoht.</Hint>
+    <PM name="SPG-3: Võrdsustamine" short="Object 260: SPG-3" desc="Varjunud ja võimsad vaenlase tankihävitajad ja raskeltsoomustatud rasketankid suudavad kergesti lahingu kurssi muuta. Nende kahjustamine ja kahjustamise abistamine peaksid olema liikursuurtükkide peamised eesmärgid. Enamik rasketanke ja tankihävitajaid on aeglased, mis suurendab eduka lasu võimalusi." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase masinatele vähemalt 4000 elupunkti kahju.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja vähemalt 8 korral uimaseks. Uimastavad lasud peaksid ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Ela lahing üle.\n• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-4: Läbimurre" short="Object 260: SPG-4" desc="Võimsad kildmürsud mitte ainult ei kahjusta vaenlast, vaid neil on ka suur võimalus purustada plahvatusega mooduleid ja vigastada meeskonda." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Kildmürsud on efektiivseimad siis, kui nad tungivad läbi vastase soomuse ning plahvatavad masina sisemuses. Kui su mürsud ei ole hea läbistavusega, otsi avatud torniga vaenlast või lae sisse premium mürsk.</Hint>
+    <PM name="SPG-4: Ära jää seisma" short="Object 260: SPG-4" desc="Õpi meeles pidama vastaste tankihävitajate peamisi liikumisteid ja peidukohti. Sihtides juba ennetavalt ühte kaardi piirkonda annab sulle eelise sihtimiskiiruses ja tabamisvõimaluses. Tankihävitajad järgivad enamasti kaartidel kindlat taktikat. Ole tark: analüüsi vaenlase tiimi koosseisu ja vali lahingu alguses parim positsioon." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Hävita või kahjusta lahingus vaenlase masinatel kokku 10 moodulit või meeskonnaliiget.\n• Hävitatud/kahjustatud moodulite ning vigastatud meeskonnaliikmete arv lisatakse kokku.</req>
+        <req>• Löö vaenlase rasketank või tankihävitaja kokku vähemalt 120 sekundiks uimaseks.\n• Uimastav lask peaks ka kahju põhjustama.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-5: Kalkuleeri ja hävita" short="Object 260: SPG-5" desc="Suur tulejõud kompenseerib su liikursuurtüki suhteliselt nõrka vastupidavust." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Ürita kahjustada vaenlasi igal võimalikul hetkel. Isegi kui su lõhkemürsk sihtmärgist õrnalt mööda lendab, võib vaenlane siiski kildudest viga saada.</Hint>
+    <PM name="SPG-5: Ära ole kade" short="Object 260: SPG-5" desc="Vaenlase masinate uimaseks löömine ei vii mitte ainult tiimi võidule lähemale, vaid annab ka lisaks kogemuspunkte ja krediiti, kui liitlased sinu poolt uimaseks löödud masinat kahjustavad. Ära unusta märkimast ala, kuhu sa sihid (vaikimisi T nupp), et oma liitlaste tähelepanu sinna suunata." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita oma masina elupunktidest 10 korda rohkem kahju.\n• Arvesse ei lähe liitlastele tekitatud kahju.</req>
+        <req>• Võimalda oma liitlastel vaenlase masinatele vähemalt 3000 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 4 vaenlase masinat.</req>
+        <req>• Kahjusta vähemalt 8 vaenlase masinat neid tulistades või rammides.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-6: Langev haamer" short="Object 260: SPG-6" desc="Tihti satud sa vastamisi endast kõrgema järgu masinatega, kuid pea meeles, et see ei ole mingi probleem kogenud suurtükiväelasele." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Kui sa ei suuda vaenlast läbistada tavaliste mürskudega, proovi premium mürske. Tulista vaenlase masina külgi ning tagaosa. Suurtükid koos oma mürsu kaarja trajektooriga suudavad tabada iga masina ülemist külge, kus soomus on nõrgem. Vaenlase masinad, millel on avatud torn, on isegi veel kergem saak ülevaltpoolt saabuvatele mürskudele.</Hint>
+    <PM name="SPG-6: Thori haamer" short="Object 260: SPG-6" desc="Liikursuurtükkide peamine eesmärk on pakkuda liitlastele abi. Uimaseks löödud vaenlase masinad on kehvad võitlejad, seega on su liitlased sulle tänulikud. Kuid ole ettevaatlik – halvasti sihitud lask võib ka su liitlasi uimastada!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase masinat, mis on sinust 2 järku kõrgemal.</req>
+        <req>• Võimalda oma liitlastel kahju teha vähemalt 6 sinu poolt uimaseks löödud või seisatud vaenlase masinale.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-7: Tooge välja suured torud" short="Object 260: SPG-7" desc="Sa peaksid hävitama vaenlase tankihävitajad ja liikursuurtükid esimesel võimalusel. Nende hävitamine võib pöörata lahingu käiku sinu kasuks." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Ühilda oma tegevused liitlastest kergetankidega. Vaenlase tankihävitajate ja liikursuurtükkide avastamine ning hävitamine aitab su tiimil lahinguväljal ülemvõimu haarata.</Hint>
+    <PM name="SPG-7: Kahjuritõrje" short="Object 260: SPG-7" desc="Selle missiooni täitmiseks vali oma sihtmärke. Ära tulista vaid ühte sihtmärki isegi siis, kui see on kergelt kättesaadav. Parim strateegia on tabada korraga mitut vaenlast. Õpi kaarte ning sihi ennetavalt vaenlase kogunemiskohtadesse." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 3 vaenlase tankihävitajat ja liikursuurtükki.\n• Võida lahing.</req>
+        <req>• Löö vähemalt 6 vaenlase masinat uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 4000 elupunkti kahju.</req>
+        <req>• Võida lahing.\n• Ela lahing üle.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-8: Tuld rasketele tankidele!" short="Object 260: SPG-8" desc="Rasketank on raske sihtmärk, kuid mitte sinule. Kaarja trajektooriga mürsud suudavad tabada masinate torni pealmist osa, kus on nõrk soomus." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Rasketankid on enamasti aeglasemad teistest masinatüüpidest. Sellest tulenevalt võid sa tihti ennustada, kus masin on, kui su mürsk kohale jõuab, mistõttu on suurtükiväelasel mõistlik teada oma mürskude kiiruseid.</Hint>
+    <PM name="SPG-8: Edukas lahing" short="Object 260: SPG-8" desc="Kõigi efektiivsete tegevuste eest teenid sa kogemuspunkte. Püüa olla parim mängija: tee kahju, abista vaenlase masinate hävitamisel ning ela lahing üle. Vaheta peale igat lasku positisiooni, muidu võid sa vaenlase suurtükkidelt pihta saada." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele vähemalt 3000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis enim kogemusi teeninud mängija.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase rasketanki.\n• Võida lahing.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-9: Sihi neid tabamuseni" short="Object 260: SPG-9" desc="Kogenud suurtükiväelane oskab ilma vaevata tabada liikuvaid sihtmärke. Õpi ennustama vaenlase liikumistrajektoori, et talle täpselt pihta saada. Pea meeles, et otsetabamus teeb enamasti rohkem kahju kui masina kõrval toimuv plahvatus." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Sinu mürskude kiirus on oluline parameeter. Selle teadmine annab sulle võimaluse välja arvutada umbkaudne mürsu langemise aeg.</Hint>
+    <PM name="SPG-9: Haara kondist" short="Object 260: SPG-9" desc="Võimsad lõhkemürsud mitte ainult ei kahjusta vaenlase masinaid, vaid võivad ka plahvatusega nende mooduleid ja meeskonda vigastada." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Saa vaenlase vastu pihta vähemalt 4 lasku.\n• Kõik pihtaläinud lasud, hoolimata kas nad tegid kahju, lähevad arvesse.</req>
+        <req>• Hävita või vigasta kokku vähemalt 10 vaenlase masina moodulit või meeskonnaliiget.\n• Hävitatud moodulite ja vigastatud meeskonnaliikmete arv liidetakse kõikide lahingus sinu poolt vigastatud vaenlase tankide peale kokku.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Ela lahing üle\n• Võida lahing.\n• Püsi lahingu jooksul nähtamatuna.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-10: Suurtükkide kirstunael" short="Object 260: SPG-10" desc="Suurtükkide jahtimine on hea idee. Proovi mõelda kus vaenlase liikursuurtükid olla võiksid ning testi oma kahtlusi täpse lasuga." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Mida enam sa liikursuurtükkidega sõidad, seda enam õpid sa kaarte tundma. See aitab sul vaenlase suurtükkide vastu võidelda, kuna sa tead kus nad paikneda võiksid.</Hint>
+    <PM name="SPG-10: Kõik mängus" short="Object 260: SPG-10" desc="Lahingu olukord võib kiirelt muutuda – hoia silm alati minikaardil ja jälgi, et sul oleks alati võimalik vaenlase masinaid tulistada. Sa pead pidevalt liikumises olema, mitte püsima ühe koha peal paigal. Su liitlased panustavad su liikursuurtüki tulejõu peale, nii et ole õigel hetkel õiges kohas." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 2 vaenlase liikursuurtükki.\n• Tekita vaenlase masinatele vähemalt 4000 elupunkti kahju.</req>
+        <req>• Sinu poolt tehtud kahju ja su liitlaste sinu poolt uimaseks löömise või seiskamise läbi vaenlase masinatele tehtud kahju peab olema kokku vähemalt 4000 elupunkti.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Hävita vähemalt 5 vaenlase masinat.</req>
+        <req>• Võida lahing.\n• Liitlased peavad hävitama vähemalt 3 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Plahvatuse kahju" short="Object 260: SPG-11" desc="Killud lõhkemürsust võivad kahjustada korraga mitut masinat, kui nad seisavad üksteise läheduses." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Sa saad sõna otseses mõttes kaks ühe hoobiga – kui mitu vaenlast seisavad kõrvuti, siis tulista neid ning mõlemad saavad kahju. See on eriti tüüpiline linnakaartidele.</Hint>
+    <PM name="SPG-11: Plahvatuse kahju" short="Object 260: SPG-11" desc="Lisaks suurele kahjule õigesti sihitud mürsuga saavad lõhkemürsud ka oma lõhkeraadiuses olevaid tanke uimaseks lüüa. Paljudel kaartidel on kindlad kohad, kuhu alati vaenlase tankid kogunevad. Sihi täpselt ja saada oma õhkavad tervitused nende poole teele!" tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Hävita ühe lasuga vähemalt 2 vaenlast.</req>
+        <req>• Löö vähemalt 3 vaenlase masinat ühe lasuga uimaseks kahel korral.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Võida lahing.\n• Ela lahing üle.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 200 sekundiks uimaseks.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-12: Survestaja" short="Object 260: SPG-12" desc="Suurtükkide lahingupidamine erineb drastiliselt teiste masinate omadest, kuid siiski on peaeesmärk sama – teha võimalikult palju võidu heaks ning aidata oma tiimikaaslasi." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Ära mine kohe lahingu alguses suurtükivaatesse, vaid otsi esmalt hea koht kust tulistada.</Hint>
+    <PM name="SPG-12: Kuradi silm" short="Object 260: SPG-12" desc="Su vaenlased hävitasid sinu poolt uimaseks löödud masina? Head uudised, kuna sinu abi läbi on võit sammukese lähemal. Sinu ülesanne on pakkuda tuletoetust ning abistada liitlasi õiges kohas ja ajal." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ole mõlema tiimi arvestuses lahingu lõppedes lahingus enim kahju teinud mängija.\n• Hävita vähemalt 4 vaenlase masinat.\n• Ela lahing üle.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 200 sekundiks uimaseks.\n• Liitlased peavad hävitama vähemalt 3 sinu poolt uimaseks löödud või seisatud masina.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-13: Suurtükirünnak (Isiklik/Rühm)" short="Object 260: SPG-13" desc="Rühm suurtükke on suur oht vaenlasele. Ühilda oma tegevused rühmaga ja tulistage kõik ühte vaenlast. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Laiali hargnedes saab su rühm sihtmärke tabada eri nurkade alt, muutes paljud kivid ja ehitised varjumise jaoks kasutuks.</Hint>
+    <PM name="SPG-13: Koostöö" short="Object 260: SPG-13" desc="Suurtükkide koostöö liitlastega on suur oht vaenlasele. Ühilda oma tegevused tiimiga ja tulistage kõik ühte vaenlast." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vähemalt 30% sinu tiimi poolt vaenlaste masinatele tekitatud kahjust, kas üksinda või kogu rühma arvestuses.\n• Võida lahing.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Tee vaenlase masinatele vähemalt 10 korral kahju või löö neid vähemalt 12 korda uimaseks.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-14: Ühine rünnak (Isiklik/Rühm)" short="Object 260: SPG-14" desc="Suurtükkide edu sõltub suuresti ülejäänud tiimist. Suurtükid ja kergetankid sobivad ideaalselt koos rühmas mängimiseks. Seda missiooni saab täita nii rühmaliikmena kui ka üksinda, siiski, viimane variant on palju raskem." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Kergetank avastab vaenlasi ning peatab neid, peatatuid õnnetuid tulistavad omakorda suurtükid. Koos võidame! Rasketank kaitseb sind oma paksu soomusega, keskmine tank hajutab tähelepanu ning samal ajal toetab kaugemalt tankihävitaja neid oma suure kahuriga.</Hint>
+    <PM name="SPG-14: Osake meeskonnast, osake masinast!" short="Object 260: SPG-14" desc="Koostöö tiimiga on terve tiimi edu võti. Märgi vaenlane, keda sa sihid, et liitlased saaks seda kohe peale uimaseks löömist või peatamist tulistama hakata. Pea meeles, et üks sõdur ei suuda lahingu käiku muuta." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tekita vaenlase rasketankidele ja tankihävitajatele vähemalt 5000 elupunkti kahju, kas üksinda või kogu rühma arvestuses.\n• Saab täita üksinda või koos rühmaga, mis koosneb sinu liikursuurtükist ja teistest masinatest.</req>
+        <req>• Löö vaenlase masinaid kokku vähemalt 250 sekundiks uimaseks või võimalda oma liitlastel vaenlase masinatele vähemalt 1000 elupunkti kahju teha neid seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Ela lahing ise üle.</req>
+        <req>• Võida lahing.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-15: Sõjajumalad" short="Object 260: SPG-15" desc="Tiimile on parim kui nende suurtükid terved on. Ära avalikusta ennast vaenlastele ning tulista ainult täpseid laske." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
-      <Hint>Kui sa tunned oma suurtüki tehnilisi omadusi, saad sa oma tegevusi lahingus ette planeerida. Mõnikord ei ole baasi jäämine hea tegevus. Kui sul on kiire liikursuurtükk, saad sa kiiresti positsioone vahetada ning tulistada vaenlasi sealt kus nad seda ei oota.</Hint>
+    <PM name="SPG-15: Sõjajumalad" short="Object 260: SPG-15" desc="Tiimile on parim, kui nende suurtükid terved on. Hoia oma toru kuumas ning ürita mitte vaenlase silma alla sattuda. Lase sihikul lõpuni kokku tõmmata, kuna iga pihtasaamine on tähtis ja laadimine aeganõudev." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Kauaoodatud lisajõud" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ole mõlema tiimi arvestuses lahingu lõppedes teenitud kogemuste ja tekitatud kahju arvestuses esikohal.\n• Tekita vähemalt 3000 elupunkti kahju.</req>
+        <req>• Ole oma tiimis enim kogemusi teeninud mängija.\n• Võimalda oma liitlastel vaenlase masinatele vähemalt 3500 elupunkti kahju teha neid uimaseks lüües või seisates.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Ela lahing üle.</req>

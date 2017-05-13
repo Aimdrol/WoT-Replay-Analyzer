@@ -31,9 +31,11 @@
     <tank ID="A11_T29_IGR" sName="T29" lName="T29" />
     <tank ID="A111_T25_Pilot" sName="T25 Pilot 1" lName="T25 Pilot Number 1" />
     <tank ID="A112_T71E2" sName="T71 CMCD" lName="T71 CMCD" />
-    <tank ID="A115_Chrysler_K" sName="Chrysler K" lName="Chrysler K" />
+    <tank ID="A115_Chrysler_K" sName="Chrysler GF" lName="Chrysler K GF" />
+    <tank ID="A116_XM551" sName="Sheridan" lName="XM551 Sheridan" />
     <tank ID="A117_T26E5" sName="T26E5" lName="T26E5" />
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
+    <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
@@ -174,6 +176,8 @@
     <tank ID="Ch24_Type64" sName="Type 64" lName="Type 64" />
     <tank ID="Ch25_121_mod_1971B" sName="121B" lName="121B" />
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
+    <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
+    <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -272,6 +276,8 @@
     <tank ID="F74_AMX_M4_1949_Liberte" sName="AMX M4 49 L" lName="AMX M4 mle. 49 Liberté" />
     <tank ID="F75_Char_de_25t" sName="B-C 25 t AP" lName="Bat.-Châtillon 25 t AP" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
+    <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="FCM_36Pak40" sName="FCM36Pak40" lName="FCM 36 Pak 40" />
     <tank ID="FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="Ferdinand" sName="Ferdinand" lName="Ferdinand" />
@@ -325,6 +331,8 @@
     <tank ID="G120_M41_90_GrandFinal" sName="M 41 90 GF" lName="leKpz M 41 90 mm GF" />
     <tank ID="G121_Grille_15_L63" sName="Grille 15" lName="Grille 15" />
     <tank ID="G122_VK6501H" sName="VK 65.01 (H)" lName="VK 65.01 (H)" />
+    <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
+    <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
@@ -722,6 +730,8 @@
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
     <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
+    <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
+    <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
@@ -1018,7 +1028,8 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Hayalet Kasaba" />
     <item ID="96_prohorovka_defense" Name="Ateş Hattı" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="h11_WGL_GrandFinal_2016" />
+    <item ID="h12_bday_EU_2015" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1059,6 +1070,7 @@
     <item ID="122_somme" Name="Somme" />
     <item ID="h18_bdtanks100_2016" />
     <item ID="h08_kr_lnewyear_2015" />
+    <item ID="h09_bday_CN_2016" />
     <item ID="unknown" Name="Bilinmeyen" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1105,7 +1117,7 @@
     <item ID="4" Name="Özel Savaş" />
     <item ID="5" Name="Özel Savaş" />
     <item ID="6" Name="Savaş Eğitimi" />
-    <item ID="7" Name="Ekip: Sıralamasız Savaşlar" />
+    <item ID="7" Name="Ekip Savaşı" />
     <item ID="8" Name="Tarihsel Savaş" />
     <item ID="9" Name="Özel savaş kipi" />
     <item ID="10" Name="Çatışmalar" />
@@ -1899,136 +1911,136 @@
         <req>• Bir düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-1: Keskin Nişancı" short="StuG IV: KMT-1" desc="Mühimmatınızı boşa harcamayın. Size zafer getirecek olanlar isabetli atışlardır." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Sabırlı olun ve hedefe tam olarak nişan alana kadar bekleyin.</Hint>
+    <PM name="KMT-1: Cesur İddia" short="StuG IV: KMT-1" desc="Merminin patlamasından sonra oluşan geniş patlama yarıçapı KMT araçlarının ana özelliğidir. Hedef düşman aracına isabet ettiremeseniz de şoka sokarak ciddi sorun yaratma şansınız hâlâ vardır. Düşman aracı şok göstergesi ile işaretlenir ve müttefikleriniz tarafından görülür. Müttefikleriniz tarafınızdan şoka sokulan araçlara hasar verirse, sayenizde verilen hasar için ek kredi ve deneyim alırsınız." tMID="61" opID="1" mID="1" setID="5" ID="quest_1_5_1_main" secID="quest_1_5_1_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına hasar veren en az 3 isabet kaydedin.</req>
+        <req>• Düşman araçlarını en az 3 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• En az 1.000 CP hazar verin.</req>
+        <req>• Ateş ederek veya çarparak düşman araçlarına en az 3 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-2: Gizli ve Tehlikeli" short="StuG IV: KMT-2" desc="KMT'ler zırhlarının kalınlığına veya hızlarına güvenemezler. Eğer bir KMT kullanıyorsanız, tüm savaş boyunca nasıl gizli kalınacağını öğrenin." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>KMT'nize koyulduğunda, Kamuflaj ile birlikte kullanılan Kamuflaj Ağı donanımı, gizlenebilirliğinizi arttırmaya müthiş bir şekilde yardımcı olacaktır.</Hint>
+    <PM name="KMT-2: Vakit Nakittir" short="StuG IV: KMT-2" desc="Düşman aracı belirli bir süre için şokta kalır ve savaş alanında en iyi performansını gösteremez. Unutmayın: şokta bir açar kolay hedef haline gelir." tMID="62" opID="1" mID="2" setID="5" ID="quest_1_5_2_main" secID="quest_1_5_2_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 500 CP hasar verin. Savaş boyunca tespit edilmeyin.\n• Savaşı canlı bitirin.</req>
+        <req>• Düşman araçlarını toplamda en az 50 saniye şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Bir düşman aracı yok edin.</req>
+        <req>• En az bir düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-3: Obüs Darbesi" short="StuG IV: KMT-3" desc="Ekibinize faydalı olmak istiyorsanız önce etkin atış yapmayı öğrenmelisiniz." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Savaşın akışını takip edin ve ekibinize destek olun. Bir noktada çok uzun kalmayın. Gerektiğinde geri çekilin ve başka bir atış pozisyonu arayın.</Hint>
+    <PM name="KMT-3: Yavaş ve İstikrarlı Olan Şoka Girer" short="StuG IV: KMT-3" desc="Gizli ve güçlü düşman tank avcıları ve iyi zırhlı ağır tanklar kolaylıkla savaşın akışını değiştirebilirler. Birinci öncelikli hedeflerdir ve onlara hasar vermek (veya yok edilmelerine yardımcı olmak) KMT'de oynayan bir oyuncu için ana hedef olmalıdır. Ağır tankların ve tank avcılarının büyük çoğunluğu yavaş ve hantaldır, bu da başarılı bir atış şansını yükseltir." tMID="63" opID="1" mID="3" setID="5" ID="quest_1_5_3_main" secID="quest_1_5_3_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 1.000 CP hasar verin.</req>
-      </Primary>
-      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Savaşı kazanın.</req>
-      </Secondary>
-    </PM>
-    <PM name="KMT-4: Yar Geç" short="StuG IV: KMT-4" desc="Güçlü HE mermiler sadece düşmana can puanı hasarı vermekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalara hasar verip yok edebilir veya mürettebat üyelerini yaralayabilir." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Bir Yüksek Patlayıcı mermi sadece zırhı tamamen delip düşman aracının gövdesinin içerisinde patlarsa değerini gösterir. Mermilerinizin delişi zayıfsa tepesi açık kuleye sahip bir düşman aracı bulmaya çalışın veya Premium mermi yükleyin.</Hint>
-      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Toplamda en az 3 parça ve mürettebat üyesi olacak şekilde araçların iç parçalarını yok edin veya hasar verin veya mürettebat üyelerini yaralayın.\n• Savaşta hasar verdiğiniz tüm düşman araçlarındaki hasarlanan/yok edilen parça ve yaralı mürettebat üyesi sayıları toplanır.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını en az 2 kere şoka sokun.\n• Şoka sokan atışlar aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-5: Hesapla &amp; Yok Et" short="StuG IV: KMT-5" desc="Sahip olduğunuz muhteşem ateş gücü KMTnizin göreceli düşük dayanıklılığını rahatça telafi eder." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Düşman araçlarına ilk fırsatta hasar vermeye çalışın. YP merminiz düşmanı az farkla bile ıskalasa merminin parça tesiri sayesinde yine de hasar alabilir.</Hint>
-      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızın can puanınızın 4 katını aşan hasar verin.\n• Müttefiklere verilen hasar sayılmaz.</req>
+    <PM name="KMT-4: Sana Yardım Edeceğim" short="StuG IV: KMT-4" desc="Düşman ağır tanklarının ana yollarını ve kurnaz tank avcılarının genellikle saklandıkları konumları öğrenin. Önceden belirli bir harita bölgesine nişan almak, düşman mevziilerine en etkili ve yıkıcı ateş açma şansını artırır. Bu tür araçlar bazı haritalarda genellikle kolaylıkla tahmin edilebilen yollardan geçerler. Aklınızı kullanın: düşman ekibinin kurulumunu analiz edin ve daha savaşın başından en uygun konumu seçin." tMID="64" opID="1" mID="4" setID="5" ID="quest_1_5_4_main" secID="quest_1_5_4_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Bir düşman ağır tankını veya tank avcısını toplamda en az 30 saniye şoka sokun.\n• Şoka sokan atış aynı zamanda hasar vermelidir.</req>
       </Primary>
-      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Bir düşman aracı yok edin.</req>
+      <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-6: Düşen Çekiç" short="StuG IV: KMT-6" desc="Genellikle daha yüksek seviye olan araçlara karşı savaşacaksınız. Ancak bu deneyimli bir KMT kullanıcısı için bir sorun değildir." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Bir düşman aracını standart mermiler ile delemiyorsanız Premium mermi kullanmayı deneyin. Düşman aracının yanlarına ve arkasına ateş edin. KMTler, eğimli mermi yolları ile her araca zırh korumasının zayıf olduğu kule tepesinden vurabilirler. Açık kuleli düşman araçları yukarıdan yok edilmeye çok daha açıktır.</Hint>
+    <PM name="KMT-5: Paylaşmak Önemsemektir" short="StuG IV: KMT-5" desc="Düşman araçlarını şoka sokmak sadece ekibinizi zafere yaklaştırmakla kalmaz, şoka soktuğunuz düşman araçlarına müttefikleriniz hasar verirse ek deneyim ve kredi kazanmanızı sağlar. Nişan aldığınız yeri işaretleyerek (varsayılan olarak T tuşu) müttefiklerinizin dikkatini çekip bilgilendirmeyi unutmayın." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızla aynı veya daha yüksek seviye olan en az 2 düşman aracı yok edin.</req>
+        <req>• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 600 hasar vermesini sağlayın.</req>
+      </Primary>
+      <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 3 kere hasar verin.</req>
+      </Secondary>
+    </PM>
+    <PM name="KMT-6: Tanrıların Çekici" short="StuG IV: KMT-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
+        <req>• Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin en az 2 düşman aracında hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-7: Büyük Silahları Çıkar" short="StuG IV: KMT-7" desc="Düşman tank avcıları ve KMTlerini ilk fırsatta yok etmelisiniz. Onları yok etmek savaşın akışını lehinize döndürebilir." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Hareketlerinizi müttefik hafif tanklar ile eşgüdümleyin. Düşman tank avcılarını ve KMTleri tespit edip yok etmek savaş alanında üstünlük kurmanıza yardımcı olabilir.</Hint>
+    <PM name="KMT-7: Dikkatle Düşünmek" short="StuG IV: KMT-7" desc="Bu görevi tamamlamak için hedeflerinizi belirlerken seçici bir yöntem uygulayın. Kolay bir hedef bile olsa ateşinizi tek bir düşman aracına yoğunlaştırmayın. En iyi strateji tek bir atışla büyük düşman aracı gruplarını vurmaktır. Haritaları inceleyin ve araçların temel yollarını öğrenin." tMID="67" opID="1" mID="7" setID="5" ID="quest_1_5_7_main" secID="quest_1_5_7_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Bir düşman tank avcısı veya KMT yok edin.</req>
+        <req>• En az 2 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• En az 1.000 CP hasar verin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-8: Ağır Tanklara Ağır Ateş!" short="StuG IV: KMT-8" desc="Ağır tanklar zor hedeflerdir ama sizin toplarınız için değil. Eğimli yörüngeye sahip mermiler her aracı zırhın zayıf olduğu kule tepesinden vurabilir." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Ağır tanklar genellikle diğer araç türlerinden yavaş hareket eder. O yüzden merminiz vardığında tankın nerede olabileceğini kestirebilirsiniz. Bir KMT kullanıcısı için mermilerinizin hızını bilmek faydalıdır.</Hint>
+    <PM name="KMT-8: Elimden Geleni Yaptım" short="StuG IV: KMT-8" desc="Tüm etkili eylemleriniz için deneyim kazanırsınız. En değerli oyuncu olmaya çalışın: hasar verin, düşman araçlarının yok edilmesine yardım edin ve savaşı canlı bitirin. Her atıştan sonra konumunuzu değiştirin yoksa düşman KMT'lerinin karşı ateşi aracınızı yok edebilir." tMID="68" opID="1" mID="8" setID="5" ID="quest_1_5_8_main" secID="quest_1_5_8_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman ağır tanklarına en az 1.000 puan hasar verin.</req>
+        <req>• Kazanılan deneyimde ekibinizdeki oyuncular arasında ilk 7'ye girin.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• Bir düşman ağır tankı yok edin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-9: Onları Vurana Kadar Takip Et" short="StuG IV: KMT-9" desc="Deneyimli bir KMT sürücüsü kolaylıkla hareketli araçları vurabilir. Ateş ederken, düşman araçlarının hareketini önceden kestirmeyi öğrenin. Düşman aracına doğrudan isabetin YP sıçramasından çok daha fazla hasar vereceğini unutmayın." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Mermileriniz hızı önemli bir parametredir. Merminin hedefe ne zaman ulaşacağını bilerek, doğru bir şekilde sapmayı hesaplayabilirsiniz.</Hint>
+    <PM name="KMT-9: Munzam Zarar" short="StuG IV: KMT-9" desc="Güçlü HE mermiler sadece düşman araçlarının can puanını düşürmekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalarını yok etme veya mürettebat üyelerini yaralama şansına sahiptir." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 20 km/s hız ile hareket eden bir düşman aracına hasar verin.\n• Hem sıçrama hasarı hem de doğrudan isabet sayesindeki hasar sayılır.\n• Çarpma ile verilen hasar sayılmaz.</req>
+        <req>• Toplamda en az 3 parça ve mürettebat üyesi olacak şekilde araçların parçalarını yok edin  veya mürettebat üyelerini yaralayın.\n• Yok edilen parça ve yaralanan mürettebat sayısı savaşta hasar verdiğiniz tüm düşman araçları üzerinden toplanır.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-10: Topçunun Belası" short="StuG IV: KMT-10" desc="Topçu avı çok iyi bir fikirdir. Düşman KMT'sinin nerede saklanıyor olabileceğini tahmin edin ve doğru bir tahminde bulunup bulunmadığınızı hassas bir atış ile kontrol edin." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Ne kadar sık KMT kullanırsanız, haritalarda o kadar daha çok stratejik nokta öğrenirsiniz. Önceden nerelere konuşlanmış olduklarını bileceğiniz için, bu sizin düşman KMT'lerine karşı savaşınızda faydalı olacaktır.</Hint>
+    <PM name="KMT-10: Her Şey Dâhil" short="StuG IV: KMT-10" desc="Savaşın durumu hızla değişebilir-her zaman bir gözünüz mini haritada olsun ve düşman araçlarını kolayca görebildiğinizden emin olun. Tek bir noktada kalmak yerine sürekli haritada dolaşmanız gerekecek. Müttefikleriniz KMT'nizin ateş gücüne güveniyor o yüzden doğru yer ve zamanda elinizden geleni yapın." tMID="70" opID="1" mID="10" setID="5" ID="quest_1_5_10_main" secID="quest_1_5_10_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 1 düşman KMTsi yok edin.</req>
+        <req>• Şoka soktuğunuz veya hareketsiz hale getirdiğiniz düşman araçlarına tarafınızdan ve müttefikleriniz tarafından verilen toplam hasar en az 1.000 CP olmalıdır.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman aracı yok edin.</req>
+        <req>• Müttefikler, hareketsiz hale getirdiğiniz veya şoka soktuğunuz en az 1 düşman aracı yok etmelidir.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-11: Etki Alanı" short="StuG IV: KMT-11" desc="YP mermileriniz sadece bir düşman aracını ilk isabette yok etmekle kalmayabilir aynı zamanda birbirlerine yakın duruyorlarsa birçok hedefe aynı anda ciddi hasar verebilirsiniz." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Eğer birkaç düşman aracı tek bir noktada birbirlerine yakın duruyorsa, gerçekten de tek taş ile iki kuş vurabilirsiniz. Bu şehir haritalarının tipik bir özelliğidir.</Hint>
+    <PM name="KMT-11: Etki Alanı" short="StuG IV: KMT-11" desc="İyi yapılmış bir atışla verilecek ciddi hasar miktarına ek olarak Yüksek Patlayıcı bir mermi aynı zamanda mermi patladıktan sonra patlama yarıçapında kalan tüm yanlış konumdaki araçları şoka sokabilir. Çoğu haritada düşman araçlarının toplandığı bazı noktalar vardır. Şansınızı deneyin ve yüksek \&quot;patlayıcı\&quot; saygılarınızı gönderin." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Tek bir atış ile bir düşman aracını yok edin.\n• Savaşta daha önce hasar almamış hedefler sayılır.</req>
+        <req>• Tek bir atış ile en az 2 düşman aracını şoka sokun.</req>
+      </Primary>
+      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
+        <req>• Düşman araçlarını toplamda en az 50 saniye şoka sokun.</req>
+      </Secondary>
+    </PM>
+    <PM name="KMT-12: Kem Göz" short="StuG IV: KMT-12" desc="Müttefikleriniz şoktaki düşman aracını yok etti mi? Sizin için iyi haber çünkü zafere bir adım daha yaklaştıran sizin desteğinizdi! Hedefiniz ateş desteği sağlamak ve doğru yer ve zamanda müttefiklerinize destek olmaktır." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
+      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
+        <req>• Düşman araçlarını toplamda en az 50 saniye şoka sokun.\n• Müttefikler, hareketsiz hale getirdiğiniz veya şoka soktuğunuz en az 1 düşman aracı yok etmelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-12: Vurucu" short="StuG IV: KMT-12" desc="Bir KMT ile oynama tarzı diğer tüm araç tiplerinden sert bir şekilde farklılık gösterir.Ama ana hedefiniz aynı—savaşta elinizden gelenin en iyisini yapın ve takımınız amacı için yapabildiğiniz kadar çok katkı sağlayın." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Savaşın en başında hemen Topçu bakışına geçmeyin. Önce, iyi bir stratejik nokta belirleyin.</Hint>
+    <PM name="KMT-13: İşbirliğinin İ'si" short="StuG IV: KMT-13" desc="KMT'ler ve müttefikleri arasında iyi yürütülen koordinasyon düşman ekibi çok endişelendirecektir. Hareketlerinizi koordine edin ve ateşinizi düşman hedeflerine birer birer odaklayın." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Verilen hasarda her iki ekipteki oyuncular arasında ilk 3'e girin.\n• Bir düşman aracını yok edin.</req>
+        <req>• Düşman araçlarına en az 4 kere hasar verin veya en az 6 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-13: Topçu Bataryası (Kişisel/Takım)" short="StuG IV: KMT-13" desc="İyi kullanılan KMT'lerden kurulu bir Takım düşman için büyük bir tehlikedir. Hareketlerinizi koordine edin ve düşmana birer birer odaklanın. Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Yayılarak Takımınız hedefleri farklı açılardan vurabilir, çoğu kaya ve binayı siper olarak kullanılmaz kılar ve haritada üstünlük kurabilirsiniz.</Hint>
+    <PM name="KMT-14: Mürettebatın Parçası, Geminin Parçası!" short="StuG IV: KMT-14" desc="İşbirliği tüm ekibin zaferinin anahtarıdır. Nişan aldığınız düşman aracını işaretleyerek şoka girer girmez veya hareketsiz kaldığında müttefikleriniz üzerine anında ateş edebilsinler. Unutmayın: tek bir asker savaşı zor kazanır." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• İster bireysel olarak ister Takımın toplamında ekibinizin düşman araçlarına verdiği toplam hasarın en az %%15'ini verin.\n• Savaşı kazanın.\n• Kişisel olarak veya sizin KMTniz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarını toplamda en az 70 saniye şoka sokun veya düşman araçlarını hareketsiz bırakarak müttefiklerinizin en az 400 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-14: Birleşik Taarruz (Kişisel/Takım)" short="StuG IV: KMT-14" desc="Topçular başarılı olmak için ekibin geri kalanına bağımlıdırlar. Topçular ve hafif tanklar bir Takımda birbirlerini özellikle iyi desteklerler.Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Bir hafif tank düşman araçlarını tespit edip hareketsiz bırakabilir. KMTler zavallı kurbanın işini hızlıca bitirirler. Beraber kazanacağız! Bir ağır tank sizi kalın zırhı ile koruyacaktır, orta tank düşmanın dikkatini çelecektir ve tank avcısı uzun menzilden ateş desteği sağlayacaktır.</Hint>
-      <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• İster bireysel olarak ister Takımın toplamında düşman ağır tanklarına ve tank avcılarına en az 2.000 CP hasar verin.\n• Kişisel olarak veya sizin KMTniz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
-      </Primary>
-      <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
-      </Secondary>
-    </PM>
-    <PM name="KMT-15: Savaş Tanrıları" short="StuG IV: KMT-15" desc="KMT'nin canlı kalması ekip için çok daha iyidir. Düşman ateşine mağruz kalmamaya ve düşmana kesin atışlara yapmaya çalışın." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
-      <Hint>Eğer KMT'nizin teknik karakteristiklerini biliyorsanız, savaştaki hareketlerinizi planlayabilirsiniz. Bazen, üste kalmak çok iyi bir fikir olmayabilir. Eğer hızlı bir KMT kullanıyorsanız, çabucak pozisyon değiştirebilir ve düşmanı sizi beklediği son doğrultulardan vurabilirsiniz.</Hint>
+    <PM name="KMT-15: Savaş Tanrıları" short="StuG IV: KMT-15" desc="Mümkün olduğunca uzun süre hayatta kalan bir KMT ekip için gerçek bir değerdir. Düşman ateşine maruz kalmadan mermi ardına mermi atmaya devam edin. Acele etmeyin ve \&quot;tetiği çekmeden\&quot; önce iki kere düşünün çünkü \&quot;bir atış-bir isabet\&quot; uzun yükleme süresine sahip bir araç için en iyi stratejidir." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Kazanılan deneyimde ve verilen hasarda ekibinizdeki oyuncular arasında ilk 3'e girin.\n• En az 2.000 hasar verin.</req>
+        <req>• Kazanılan deneyimde ve verilen hasarda ekibinizdeki oyuncular arasında ilk 5'e girin.\n• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 1.000 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Savaşta canlı kalın.</req>
@@ -2574,136 +2586,136 @@
         <req>• En az 2 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-1: Keskin Nişancı" short="Т28 Heavy Tank Concept: KMT-1" desc="Mühimmatınızı boşa harcamayın. Size zafer getirecek olanlar isabetli atışlardır." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Sabırlı olun ve hedefe tam olarak nişan alana kadar bekleyin.</Hint>
+    <PM name="KMT-1: Cesur İddia" short="Т28 Heavy Tank Concept: KMT-1" desc="Merminin patlamasından sonra oluşan geniş patlama yarıçapı KMT araçlarının ana özelliğidir. Hedef düşman aracına isabet ettiremeseniz de şoka sokarak ciddi sorun yaratma şansınız hâlâ vardır. Düşman aracı şok göstergesi ile işaretlenir ve müttefikleriniz tarafından görülür. Müttefikleriniz tarafınızdan şoka sokulan araçlara hasar verirse, sayenizde verilen hasar için ek kredi ve deneyim alırsınız." tMID="136" opID="2" mID="1" setID="5" ID="quest_2_5_1_main" secID="quest_2_5_1_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına hasar veren en az 4 isabet kaydedin.</req>
+        <req>• Düşman araçlarını en az 5 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• En az 2.000 CP hasar verin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 5 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-2: Gizli ve Tehlikeli" short="Т28 Heavy Tank Concept: KMT-2" desc="KMT'ler zırhlarının kalınlığına veya hızlarına güvenemezler. Eğer bir KMT kullanıyorsanız, tüm savaş boyunca nasıl gizli kalınacağını öğrenin." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>KMT'nize koyulduğunda, Kamuflaj ile birlikte kullanılan Kamuflaj Ağı donanımı, gizlenebilirliğinizi arttırmaya müthiş bir şekilde yardımcı olacaktır.</Hint>
+    <PM name="KMT-2: Vakit Nakittir" short="Т28 Heavy Tank Concept: KMT-2" desc="Düşman aracı belirli bir süre için şokta kalır ve savaş alanında en iyi performansını gösteremez. Unutmayın: şokta bir açar kolay hedef haline gelir." tMID="137" opID="2" mID="2" setID="5" ID="quest_2_5_2_main" secID="quest_2_5_2_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 1.500 CP hasar verin. Savaş boyunca tespit edilmeyin.\n• Savaşı canlı bitirin.</req>
+        <req>• Düşman araçlarını toplamda en az 100 saniye şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• En az 2 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-3: Obüs Darbesi" short="Т28 Heavy Tank Concept: KMT-3" desc="Ekibinize faydalı olmak istiyorsanız önce etkin atış yapmayı öğrenmelisiniz." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Savaşın akışını takip edin ve ekibinize destek olun. Bir noktada çok uzun kalmayın. Gerektiğinde geri çekilin ve başka bir atış pozisyonu arayın.</Hint>
+    <PM name="KMT-3: Yavaş ve İstikrarlı Olan Şoka Girer" short="Т28 Heavy Tank Concept: KMT-3" desc="Gizli ve güçlü düşman tank avcıları ve iyi zırhlı ağır tanklar kolaylıkla savaşın akışını değiştirebilirler. Birinci öncelikli hedeflerdir ve onlara hasar vermek (veya yok edilmelerine yardımcı olmak) KMT'de oynayan bir oyuncu için ana hedef olmalıdır. Ağır tankların ve tank avcılarının büyük çoğunluğu yavaş ve hantaldır, bu da başarılı bir atış şansını yükseltir." tMID="138" opID="2" mID="3" setID="5" ID="quest_2_5_3_main" secID="quest_2_5_3_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 2.000 CP hasar verin.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını en az 4 kere şoka sokun.\n• Şoka sokan atışlar aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-4: Yar Geç" short="Т28 Heavy Tank Concept: KMT-4" desc="Güçlü HE mermiler sadece düşmana can puanı hasarı vermekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalara hasar verip yok edebilir veya mürettebat üyelerini yaralayabilir." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Bir Yüksek Patlayıcı mermi sadece zırhı tamamen delip düşman aracının gövdesinin içerisinde patlarsa değerini gösterir. Mermilerinizin delişi zayıfsa tepesi açık kuleye sahip bir düşman aracı bulmaya çalışın veya Premium mermi yükleyin.</Hint>
+    <PM name="KMT-4: Sana Yardım Edeceğim" short="Т28 Heavy Tank Concept: KMT-4" desc="Düşman ağır tanklarının ana yollarını ve kurnaz tank avcılarının genellikle saklandıkları konumları öğrenin. Önceden belirli bir harita bölgesine nişan almak, düşman mevziilerine en etkili ve yıkıcı ateş açma şansını artırır. Bu tür araçlar bazı haritalarda genellikle kolaylıkla tahmin edilebilen yollardan geçerler. Aklınızı kullanın: düşman ekibinin kurulumunu analiz edin ve daha savaşın başından en uygun konumu seçin." tMID="139" opID="2" mID="4" setID="5" ID="quest_2_5_4_main" secID="quest_2_5_4_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Toplamda en az 5 parça ve mürettebat üyesi olacak şekilde araçların iç parçalarını yok edin veya hasar verin veya mürettebat üyelerini yaralayın.\n• Savaşta hasar verdiğiniz tüm düşman araçlarındaki hasarlanan/yok edilen parça ve yaralı mürettebat üyesi sayıları toplanır.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını toplamda en az 50 saniye şoka sokun.\n• Şoka sokan atış aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-5: Hesapla &amp; Yok Et" short="Т28 Heavy Tank Concept: KMT-5" desc="Sahip olduğunuz muhteşem ateş gücü KMTnizin göreceli düşük dayanıklılığını rahatça telafi eder." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Düşman araçlarına ilk fırsatta hasar vermeye çalışın. YP merminiz düşmanı az farkla bile ıskalasa merminin parça tesiri sayesinde yine de hasar alabilir.</Hint>
+    <PM name="KMT-5: Paylaşmak Önemsemektir" short="Т28 Heavy Tank Concept: KMT-5" desc="Düşman araçlarını şoka sokmak sadece ekibinizi zafere yaklaştırmakla kalmaz, şoka soktuğunuz düşman araçlarına müttefikleriniz hasar verirse ek deneyim ve kredi kazanmanızı sağlar. Nişan aldığınız yeri işaretleyerek (varsayılan olarak T tuşu) müttefiklerinizin dikkatini çekip bilgilendirmeyi unutmayın." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızın can puanının 6 katını aşan hasar verin.\n• Müttefiklere verilen hasar sayılmaz.</req>
+        <req>• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 1.000 hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman aracı yok edin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 5 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-6: Düşen Çekiç" short="Т28 Heavy Tank Concept: KMT-6" desc="Genellikle daha yüksek seviye olan araçlara karşı savaşacaksınız. Ancak bu deneyimli bir KMT kullanıcısı için bir sorun değildir." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Bir düşman aracını standart mermiler ile delemiyorsanız Premium mermi kullanmayı deneyin. Düşman aracının yanlarına ve arkasına ateş edin. KMTler, eğimli mermi yolları ile her araca zırh korumasının zayıf olduğu kule tepesinden vurabilirler. Açık kuleli düşman araçları yukarıdan yok edilmeye çok daha açıktır.</Hint>
+    <PM name="KMT-6: Tanrıların Çekici" short="Т28 Heavy Tank Concept: KMT-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızla aynı veya daha yüksek seviye olan en az 3 düşman aracı yok edin.</req>
+        <req>• Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin en az 3 düşman aracında hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-7: Büyük Silahları Çıkar" short="Т28 Heavy Tank Concept: KMT-7" desc="Düşman tank avcıları ve KMTlerini ilk fırsatta yok etmelisiniz. Onları yok etmek savaşın akışını lehinize döndürebilir." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Hareketlerinizi müttefik hafif tanklar ile eşgüdümleyin. Düşman tank avcılarını ve KMTleri tespit edip yok etmek savaş alanında üstünlük kurmanıza yardımcı olabilir.</Hint>
+    <PM name="KMT-7: Dikkatle Düşünmek" short="Т28 Heavy Tank Concept: KMT-7" desc="Bu görevi tamamlamak için hedeflerinizi belirlerken seçici bir yöntem uygulayın. Kolay bir hedef bile olsa ateşinizi tek bir düşman aracına yoğunlaştırmayın. En iyi strateji tek bir atışla büyük düşman aracı gruplarını vurmaktır. Haritaları inceleyin ve araçların temel yollarını öğrenin." tMID="142" opID="2" mID="7" setID="5" ID="quest_2_5_7_main" secID="quest_2_5_7_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızdan 1 seviye daha yüksek bir düşman tank avcısı veya KMT yok edin.</req>
+        <req>• En az 3 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• En az 2.000 CP hasar verin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-8: Ağır Tanklara Ağır Ateş!" short="Т28 Heavy Tank Concept: KMT-8" desc="Ağır tanklar zor hedeflerdir ama sizin toplarınız için değil. Eğimli yörüngeye sahip mermiler her aracı zırhın zayıf olduğu kule tepesinden vurabilir." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Ağır tanklar genellikle diğer araç türlerinden yavaş hareket eder. O yüzden merminiz vardığında tankın nerede olabileceğini kestirebilirsiniz. Bir KMT kullanıcısı için mermilerinizin hızını bilmek faydalıdır.</Hint>
+    <PM name="KMT-8: Elimden Geleni Yaptım" short="Т28 Heavy Tank Concept: KMT-8" desc="Tüm etkili eylemleriniz için deneyim kazanırsınız. En değerli oyuncu olmaya çalışın: hasar verin, düşman araçlarının yok edilmesine yardım edin ve savaşı canlı bitirin. Her atıştan sonra konumunuzu değiştirin yoksa düşman KMT'lerinin karşı ateşi aracınızı yok edebilir." tMID="143" opID="2" mID="8" setID="5" ID="quest_2_5_8_main" secID="quest_2_5_8_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman ağır tanklarına en az 1.500 puan hasar verin.</req>
+        <req>• Ekibinizde kazanılan deneyimde ilk 5 oyuncu arasına girin.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman ağır tankı yok edin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-9: Onları Vurana Kadar Takip Et" short="Т28 Heavy Tank Concept: KMT-9" desc="Deneyimli bir KMT sürücüsü kolaylıkla hareketli araçları vurabilir. Ateş ederken, düşman araçlarının hareketini önceden kestirmeyi öğrenin. Düşman aracına doğrudan isabetin YP sıçramasından çok daha fazla hasar vereceğini unutmayın." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Mermileriniz hızı önemli bir parametredir. Merminin hedefe ne zaman ulaşacağını bilerek, doğru bir şekilde sapmayı hesaplayabilirsiniz.</Hint>
+    <PM name="KMT-9: Munzam Zarar" short="Т28 Heavy Tank Concept: KMT-9" desc="Güçlü HE mermiler sadece düşman araçlarının can puanını düşürmekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalarını yok etme veya mürettebat üyelerini yaralama şansına sahiptir." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 2 doğrudan isabet kaydedin.\n• Tüm doğrudan isabetler, hasar verse de vermese de, sayılır.</req>
+        <req>• Toplamda en az 5 parça ve mürettebat üyesi olacak şekilde araçların parçalarını yok edin  veya mürettebat üyelerini yaralayın.\n• Yok edilen parça ve yaralanan mürettebat sayısı savaşta hasar verdiğiniz tüm düşman araçları üzerinden toplanır.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-10: Topçunun Belası" short="Т28 Heavy Tank Concept: KMT-10" desc="Topçu avı çok iyi bir fikirdir. Düşman KMT'sinin nerede saklanıyor olabileceğini tahmin edin ve doğru bir tahminde bulunup bulunmadığınızı hassas bir atış ile kontrol edin." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Ne kadar sık KMT kullanırsanız, haritalarda o kadar daha çok stratejik nokta öğrenirsiniz. Önceden nerelere konuşlanmış olduklarını bileceğiniz için, bu sizin düşman KMT'lerine karşı savaşınızda faydalı olacaktır.</Hint>
+    <PM name="KMT-10: Her Şey Dâhil" short="Т28 Heavy Tank Concept: KMT-10" desc="Savaşın durumu hızla değişebilir-her zaman bir gözünüz mini haritada olsun ve düşman araçlarını kolayca görebildiğinizden emin olun. Tek bir noktada kalmak yerine sürekli haritada dolaşmanız gerekecek. Müttefikleriniz KMT'nizin ateş gücüne güveniyor o yüzden doğru yer ve zamanda elinizden geleni yapın." tMID="145" opID="2" mID="10" setID="5" ID="quest_2_5_10_main" secID="quest_2_5_10_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman KMTsi yok edin.</req>
+        <req>• Şoka soktuğunuz veya hareketsiz hale getirdiğiniz düşman araçlarına tarafınızdan ve müttefikleriniz tarafından verilen toplam hasar en az 2.000 CP olmalıdır.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• En az 3 düşman aracı yok edin.</req>
+        <req>• Müttefikler, hareketsiz hale getirdiğiniz veya şoka soktuğunuz en az 1 düşman aracı yok etmelidir.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-11: Etki Alanı" short="Т28 Heavy Tank Concept: KMT-11" desc="YP mermileriniz sadece bir düşman aracını ilk isabette yok etmekle kalmayabilir aynı zamanda birbirlerine yakın duruyorlarsa birçok hedefe aynı anda ciddi hasar verebilirsiniz." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Eğer birkaç düşman aracı tek bir noktada birbirlerine yakın duruyorsa, gerçekten de tek taş ile iki kuş vurabilirsiniz. Bu şehir haritalarının tipik bir özelliğidir.</Hint>
+    <PM name="KMT-11: Etki Alanı" short="Т28 Heavy Tank Concept: KMT-11" desc="İyi yapılmış bir atışla verilecek ciddi hasar miktarına ek olarak Yüksek Patlayıcı bir mermi aynı zamanda mermi patladıktan sonra patlama yarıçapında kalan tüm yanlış konumdaki araçları şoka sokabilir. Çoğu haritada düşman araçlarının toplandığı bazı noktalar vardır. Şansınızı deneyin ve yüksek \&quot;patlayıcı\&quot; saygılarınızı gönderin." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Tek bir atış ile en az 2 düşman aracına hasar verin.</req>
+        <req>• İki kere tek bir atışla en az 2 düşman aracını şoka sokun.</req>
+      </Primary>
+      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
+        <req>• Düşman araçlarını toplamda en az 100 saniye şoka sokun.</req>
+      </Secondary>
+    </PM>
+    <PM name="KMT-12: Kem Göz" short="Т28 Heavy Tank Concept: KMT-12" desc="Müttefikleriniz şoktaki düşman aracını yok etti mi? Sizin için iyi haber çünkü zafere bir adım daha yaklaştıran sizin desteğinizdi! Hedefiniz ateş desteği sağlamak ve doğru yer ve zamanda müttefiklerinize destek olmaktır." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
+      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
+        <req>• Düşman araçlarını toplamda en az 100 saniye şoka sokun.\n• Müttefikler tarafınızdan şoka sokulan veya hareketsiz bırakılan en az 1 düşman aracını yok etmelidir.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-12: Vurucu" short="Т28 Heavy Tank Concept: KMT-12" desc="Bir KMT ile oynama tarzı diğer tüm araç tiplerinden sert bir şekilde farklılık gösterir.Ama ana hedefiniz aynı—savaşta elinizden gelenin en iyisini yapın ve takımınız amacı için yapabildiğiniz kadar çok katkı sağlayın." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Savaşın en başında hemen Topçu bakışına geçmeyin. Önce, iyi bir stratejik nokta belirleyin.</Hint>
+    <PM name="KMT-13: İşbirliğinin İ'si" short="Т28 Heavy Tank Concept: KMT-13" desc="KMT'ler ve müttefikleri arasında iyi yürütülen koordinasyon düşman ekibi çok endişelendirecektir. Hareketlerinizi koordine edin ve ateşinizi düşman hedeflerine birer birer odaklayın." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Verilen hasarda her iki ekipteki oyuncular arasında ilk 3'e girin.\n• En az 2 düşman aracı yok edin.\n• Savaşta canlı kalın.</req>
+        <req>• Düşman araçlarına en az 6 kere hasar verin veya en az 8 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-13: Topçu Bataryası (Kişisel/Takım)" short="Т28 Heavy Tank Concept: KMT-13" desc="İyi kullanılan KMT'lerden kurulu bir Takım düşman için büyük bir tehlikedir. Hareketlerinizi koordine edin ve düşmana birer birer odaklanın. Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Yayılarak Takımınız hedefleri farklı açılardan vurabilir, çoğu kaya ve binayı siper olarak kullanılmaz kılar ve haritada üstünlük kurabilirsiniz.</Hint>
+    <PM name="KMT-14: Mürettebatın Parçası, Geminin Parçası!" short="Т28 Heavy Tank Concept: KMT-14" desc="İşbirliği tüm ekibin zaferinin anahtarıdır. Nişan aldığınız düşman aracını işaretleyerek şoka girer girmez veya hareketsiz kaldığında müttefikleriniz üzerine anında ateş edebilsinler. Unutmayın: tek bir asker savaşı zor kazanır." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• İster kişisel olarak ister Takımınızın toplamında ekibinizin düşman araçlarına verdiği toplam hasarın en az %%20'sini verin.\n• Savaşı kazanın.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarını toplamda en az 100 saniye şoka sokun veya düşman araçlarını hareketsiz bırakarak müttefiklerinizin en az 600 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-14: Birleşik Taarruz (Kişisel/Takım)" short="Т28 Heavy Tank Concept: KMT-14" desc="Topçular başarılı olmak için ekibin geri kalanına bağımlıdırlar. Topçular ve hafif tanklar bir Takımda birbirlerini özellikle iyi desteklerler.Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Bir hafif tank düşman araçlarını tespit edip hareketsiz bırakabilir. KMTler zavallı kurbanın işini hızlıca bitirirler. Beraber kazanacağız! Bir ağır tank sizi kalın zırhı ile koruyacaktır, orta tank düşmanın dikkatini çelecektir ve tank avcısı uzun menzilden ateş desteği sağlayacaktır.</Hint>
-      <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• İster kişisel olarak ister Takımınızın toplamında düşman ağır tanklarına ve tank avcılarına en az 3.000 CP hasar verin.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
-      </Primary>
-      <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
-      </Secondary>
-    </PM>
-    <PM name="KMT-15: Savaş Tanrıları" short="Т28 Heavy Tank Concept: KMT-15" desc="KMT'nin canlı kalması ekip için çok daha iyidir. Düşman ateşine mağruz kalmamaya ve düşmana kesin atışlara yapmaya çalışın." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
-      <Hint>Eğer KMT'nizin teknik karakteristiklerini biliyorsanız, savaştaki hareketlerinizi planlayabilirsiniz. Bazen, üste kalmak çok iyi bir fikir olmayabilir. Eğer hızlı bir KMT kullanıyorsanız, çabucak pozisyon değiştirebilir ve düşmanı sizi beklediği son doğrultulardan vurabilirsiniz.</Hint>
+    <PM name="KMT-15: Savaş Tanrıları" short="Т28 Heavy Tank Concept: KMT-15" desc="Mümkün olduğunca uzun süre hayatta kalan bir KMT ekip için gerçek bir değerdir. Düşman ateşine maruz kalmadan mermi ardına mermi atmaya devam edin. Acele etmeyin ve \&quot;tetiği çekmeden\&quot; önce iki kere düşünün çünkü \&quot;bir atış-bir isabet\&quot; uzun yükleme süresine sahip bir araç için en iyi stratejidir." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Т28 Heavy Tank Concept">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Kazanılan deneyimde ve verilen hasarda her iki ekipteki oyuncular arasında ilk 3'e girin.\n• En az 2.000 CP hasar verin.</req>
+        <req>• Kazanılan deneyimde ve verilen hasarda ekibinizdeki oyuncular arasında ilk 3'e girin.\n• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 1.500 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Savaşta canlı kalın.</req>
@@ -3249,136 +3261,136 @@
         <req>• En az 3 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-1: Keskin Nişancı" short="T 55A: KMT-1" desc="Mühimmatınızı boşa harcamayın. Size zafer getirecek olanlar isabetli atışlardır." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Sabırlı olun ve hedefe tam olarak nişan alana kadar bekleyin.</Hint>
+    <PM name="KMT-1: Cesur İddia" short="T 55A: KMT-1" desc="Merminin patlamasından sonra oluşan geniş patlama yarıçapı KMT araçlarının ana özelliğidir. Hedef düşman aracına isabet ettiremeseniz de şoka sokarak ciddi sorun yaratma şansınız hâlâ vardır. Düşman aracı şok göstergesi ile işaretlenir ve müttefikleriniz tarafından görülür. Müttefikleriniz tarafınızdan şoka sokulan araçlara hasar verirse, sayenizde verilen hasar için ek kredi ve deneyim alırsınız." tMID="211" opID="3" mID="1" setID="5" ID="quest_3_5_1_main" secID="quest_3_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına hasar veren en az 5 isabet kaydedin.</req>
+        <req>• Düşman araçlarını en az 7 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• En az 3.000 CP hasar verin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 6 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-2: Gizli ve Tehlikeli" short="T 55A: KMT-2" desc="KMT'ler zırhlarının kalınlığına veya hızlarına güvenemezler. Eğer bir KMT kullanıyorsanız, tüm savaş boyunca nasıl gizli kalınacağını öğrenin." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>KMT'nize koyulduğunda, Kamuflaj ile birlikte kullanılan Kamuflaj Ağı donanımı, gizlenebilirliğinizi arttırmaya müthiş bir şekilde yardımcı olacaktır.</Hint>
+    <PM name="KMT-2: Vakit Nakittir" short="T 55A: KMT-2" desc="Düşman aracı belirli bir süre için şokta kalır ve savaş alanında en iyi performansını gösteremez. Unutmayın: şokta bir açar kolay hedef haline gelir." tMID="212" opID="3" mID="2" setID="5" ID="quest_3_5_2_main" secID="quest_3_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Verilen hasarda ekibinizdeki oyuncular arasında ilk 5'e girin. Savaş boyunca tespit edilmeyin.</req>
+        <req>• Düşman araçlarını toplamda en az 150 saniye şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• En az 3 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-3: Obüs Darbesi" short="T 55A: KMT-3" desc="Ekibinize faydalı olmak istiyorsanız önce etkin atış yapmayı öğrenmelisiniz." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Savaşın akışını takip edin ve ekibinize destek olun. Bir noktada çok uzun kalmayın. Gerektiğinde geri çekilin ve başka bir atış pozisyonu arayın.</Hint>
+    <PM name="KMT-3: Yavaş ve İstikrarlı Olan Şoka Girer" short="T 55A: KMT-3" desc="Gizli ve güçlü düşman tank avcıları ve iyi zırhlı ağır tanklar kolaylıkla savaşın akışını değiştirebilirler. Birinci öncelikli hedeflerdir ve onlara hasar vermek (veya yok edilmelerine yardımcı olmak) KMT'de oynayan bir oyuncu için ana hedef olmalıdır. Ağır tankların ve tank avcılarının büyük çoğunluğu yavaş ve hantaldır, bu da başarılı bir atış şansını yükseltir." tMID="213" opID="3" mID="3" setID="5" ID="quest_3_5_3_main" secID="quest_3_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 3.000 CP hasar verin.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını en az 6 kere şoka sokun.\n• Şoka sokan atışlar aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.\n• Savaşta canlı kalın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-4: Yar Geç" short="T 55A: KMT-4" desc="Güçlü HE mermiler sadece düşmana can puanı hasarı vermekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalara hasar verip yok edebilir veya mürettebat üyelerini yaralayabilir." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Bir Yüksek Patlayıcı mermi sadece zırhı tamamen delip düşman aracının gövdesinin içerisinde patlarsa değerini gösterir. Mermilerinizin delişi zayıfsa tepesi açık kuleye sahip bir düşman aracı bulmaya çalışın veya Premium mermi yükleyin.</Hint>
+    <PM name="KMT-4: Sana Yardım Edeceğim" short="T 55A: KMT-4" desc="Düşman ağır tanklarının ana yollarını ve kurnaz tank avcılarının genellikle saklandıkları konumları öğrenin. Önceden belirli bir harita bölgesine nişan almak, düşman mevziilerine en etkili ve yıkıcı ateş açma şansını artırır. Bu tür araçlar bazı haritalarda genellikle kolaylıkla tahmin edilebilen yollardan geçerler. Aklınızı kullanın: düşman ekibinin kurulumunu analiz edin ve daha savaşın başından en uygun konumu seçin." tMID="214" opID="3" mID="4" setID="5" ID="quest_3_5_4_main" secID="quest_3_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• Toplamda en az 8 parça ve mürettebat üyesi olacak şekilde araçların iç parçalarını yok edin veya hasar verin veya mürettebat üyelerini yaralayın.\n• Savaşta hasar verdiğiniz tüm düşman araçlarındaki hasarlanan/yok edilen parça ve yaralı mürettebat üyesi sayıları toplanır.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını toplamda en az 80 saniye şoka sokun.\n• Şoka sokan atış aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-5: Hesapla &amp; Yok Et" short="T 55A: KMT-5" desc="Sahip olduğunuz muhteşem ateş gücü KMTnizin göreceli düşük dayanıklılığını rahatça telafi eder." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Düşman araçlarına ilk fırsatta hasar vermeye çalışın. YP merminiz düşmanı az farkla bile ıskalasa merminin parça tesiri sayesinde yine de hasar alabilir.</Hint>
+    <PM name="KMT-5: Paylaşmak Önemsemektir" short="T 55A: KMT-5" desc="Düşman araçlarını şoka sokmak sadece ekibinizi zafere yaklaştırmakla kalmaz, şoka soktuğunuz düşman araçlarına müttefikleriniz hasar verirse ek deneyim ve kredi kazanmanızı sağlar. Nişan aldığınız yeri işaretleyerek (varsayılan olarak T tuşu) müttefiklerinizin dikkatini çekip bilgilendirmeyi unutmayın." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızın can puanının 8 katını aşan hasar verin.\n• Müttefiklere verilen hasar sayılmaz.</req>
+        <req>• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 2.000 hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• En az 3 düşman aracı yok edin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 6 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-6: Düşen Çekiç" short="T 55A: KMT-6" desc="Genellikle daha yüksek seviye olan araçlara karşı savaşacaksınız. Ancak bu deneyimli bir KMT kullanıcısı için bir sorun değildir." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Bir düşman aracını standart mermiler ile delemiyorsanız Premium mermi kullanmayı deneyin. Düşman aracının yanlarına ve arkasına ateş edin. KMTler, eğimli mermi yolları ile her araca zırh korumasının zayıf olduğu kule tepesinden vurabilirler. Açık kuleli düşman araçları yukarıdan yok edilmeye çok daha açıktır.</Hint>
+    <PM name="KMT-6: Tanrıların Çekici" short="T 55A: KMT-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızdan 1 seviye daha yüksek olan en az 3 düşman aracı yok edin.</req>
+        <req>• Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin en az 5 düşman aracında hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-7: Büyük Silahları Çıkar" short="T 55A: KMT-7" desc="Düşman tank avcıları ve KMTlerini ilk fırsatta yok etmelisiniz. Onları yok etmek savaşın akışını lehinize döndürebilir." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Hareketlerinizi müttefik hafif tanklar ile eşgüdümleyin. Düşman tank avcılarını ve KMTleri tespit edip yok etmek savaş alanında üstünlük kurmanıza yardımcı olabilir.</Hint>
+    <PM name="KMT-7: Dikkatle Düşünmek" short="T 55A: KMT-7" desc="Bu görevi tamamlamak için hedeflerinizi belirlerken seçici bir yöntem uygulayın. Kolay bir hedef bile olsa ateşinizi tek bir düşman aracına yoğunlaştırmayın. En iyi strateji tek bir atışla büyük düşman aracı gruplarını vurmaktır. Haritaları inceleyin ve araçların temel yollarını öğrenin." tMID="217" opID="3" mID="7" setID="5" ID="quest_3_5_7_main" secID="quest_3_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Toplam en az 2 düşman tank avcısı veya KMTsi yok edin.\n• Savaşı kazanın.</req>
+        <req>• En az 5 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• En az 3.000 CP hasar verin.</req>
+        <req>• Savaşı kazanın.\n• Savaşı canlı bitirin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-8: Ağır Tanklara Ağır Ateş!" short="T 55A: KMT-8" desc="Ağır tanklar zor hedeflerdir ama sizin toplarınız için değil. Eğimli yörüngeye sahip mermiler her aracı zırhın zayıf olduğu kule tepesinden vurabilir." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Ağır tanklar genellikle diğer araç türlerinden yavaş hareket eder. O yüzden merminiz vardığında tankın nerede olabileceğini kestirebilirsiniz. Bir KMT kullanıcısı için mermilerinizin hızını bilmek faydalıdır.</Hint>
+    <PM name="KMT-8: Elimden Geleni Yaptım" short="T 55A: KMT-8" desc="Tüm etkili eylemleriniz için deneyim kazanırsınız. En değerli oyuncu olmaya çalışın: hasar verin, düşman araçlarının yok edilmesine yardım edin ve savaşı canlı bitirin. Her atıştan sonra konumunuzu değiştirin yoksa düşman KMT'lerinin karşı ateşi aracınızı yok edebilir." tMID="218" opID="3" mID="8" setID="5" ID="quest_3_5_8_main" secID="quest_3_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman ağır tanklarına en az 2.000 puan hasar verin.</req>
+        <req>• Ekibinizde kazanılan deneyimde ilk 3 oyuncu arasına girin.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Bir düşman ağır tankı yok edin.\n• Savaşı kazanın.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-9: Onları Vurana Kadar Takip Et" short="T 55A: KMT-9" desc="Deneyimli bir KMT sürücüsü kolaylıkla hareketli araçları vurabilir. Ateş ederken, düşman araçlarının hareketini önceden kestirmeyi öğrenin. Düşman aracına doğrudan isabetin YP sıçramasından çok daha fazla hasar vereceğini unutmayın." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Mermileriniz hızı önemli bir parametredir. Merminin hedefe ne zaman ulaşacağını bilerek, doğru bir şekilde sapmayı hesaplayabilirsiniz.</Hint>
+    <PM name="KMT-9: Munzam Zarar" short="T 55A: KMT-9" desc="Güçlü HE mermiler sadece düşman araçlarının can puanını düşürmekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalarını yok etme veya mürettebat üyelerini yaralama şansına sahiptir." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 30 km/s hız ile hareket eden bir düşman aracına hasar verin.\n• Hem sıçrama hasarı hem de doğrudan isabet sayesindeki hasar sayılır.\n• Çarpma ile verilen hasar sayılmaz.</req>
+        <req>• Toplamda en az 8 parça ve mürettebat üyesi olacak şekilde araçların parçalarını yok edin  veya mürettebat üyelerini yaralayın.\n• Yok edilen parça ve yaralanan mürettebat sayısı savaşta hasar verdiğiniz tüm düşman araçları üzerinden toplanır.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.\n• Savaş boyunca tespit edilmeyin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-10: Topçunun Belası" short="T 55A: KMT-10" desc="Topçu avı çok iyi bir fikirdir. Düşman KMT'sinin nerede saklanıyor olabileceğini tahmin edin ve doğru bir tahminde bulunup bulunmadığınızı hassas bir atış ile kontrol edin." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Ne kadar sık KMT kullanırsanız, haritalarda o kadar daha çok stratejik nokta öğrenirsiniz. Önceden nerelere konuşlanmış olduklarını bileceğiniz için, bu sizin düşman KMT'lerine karşı savaşınızda faydalı olacaktır.</Hint>
+    <PM name="KMT-10: Her Şey Dâhil" short="T 55A: KMT-10" desc="Savaşın durumu hızla değişebilir-her zaman bir gözünüz mini haritada olsun ve düşman araçlarını kolayca görebildiğinizden emin olun. Tek bir noktada kalmak yerine sürekli haritada dolaşmanız gerekecek. Müttefikleriniz KMT'nizin ateş gücüne güveniyor o yüzden doğru yer ve zamanda elinizden geleni yapın." tMID="220" opID="3" mID="10" setID="5" ID="quest_3_5_10_main" secID="quest_3_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 1 düşman KMT'si yok edin.\n• Düşman araçlarına en az 2.000 CP hasar verin.</req>
+        <req>• Şoka soktuğunuz veya hareketsiz hale getirdiğiniz düşman araçlarına tarafınızdan ve müttefikleriniz tarafından verilen toplam hasar en az 3.000 CP olmalıdır.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• En az 4 düşman aracı yok edin.</req>
+        <req>• Savaşı kazanın.\n• Müttefikler tarafınızdan şoka sokulan veya hareketsiz bırakılan en az 2 düşman aracını yok etmelidir.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-11: Etki Alanı" short="T 55A: KMT-11" desc="YP mermileriniz sadece bir düşman aracını ilk isabette yok etmekle kalmayabilir aynı zamanda birbirlerine yakın duruyorlarsa birçok hedefe aynı anda ciddi hasar verebilirsiniz." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Eğer birkaç düşman aracı tek bir noktada birbirlerine yakın duruyorsa, gerçekten de tek taş ile iki kuş vurabilirsiniz. Bu şehir haritalarının tipik bir özelliğidir.</Hint>
+    <PM name="KMT-11: Etki Alanı" short="T 55A: KMT-11" desc="İyi yapılmış bir atışla verilecek ciddi hasar miktarına ek olarak Yüksek Patlayıcı bir mermi aynı zamanda mermi patladıktan sonra patlama yarıçapında kalan tüm yanlış konumdaki araçları şoka sokabilir. Çoğu haritada düşman araçlarının toplandığı bazı noktalar vardır. Şansınızı deneyin ve yüksek \&quot;patlayıcı\&quot; saygılarınızı gönderin." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tek bir atış ile bir düşman aracını yok edin ve 1 araca daha hasar verin.</req>
+        <req>• Tek bir atış ile en az 3 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
-        <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
+        <req>• Düşman araçlarını toplamda en az 150 saniye şoka sokun.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-12: Vurucu" short="T 55A: KMT-12" desc="Bir KMT ile oynama tarzı diğer tüm araç tiplerinden sert bir şekilde farklılık gösterir.Ama ana hedefiniz aynı—savaşta elinizden gelenin en iyisini yapın ve takımınız amacı için yapabildiğiniz kadar çok katkı sağlayın." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Savaşın en başında hemen Topçu bakışına geçmeyin. Önce, iyi bir stratejik nokta belirleyin.</Hint>
+    <PM name="KMT-12: Kem Göz" short="T 55A: KMT-12" desc="Müttefikleriniz şoktaki düşman aracını yok etti mi? Sizin için iyi haber çünkü zafere bir adım daha yaklaştıran sizin desteğinizdi! Hedefiniz ateş desteği sağlamak ve doğru yer ve zamanda müttefiklerinize destek olmaktır." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı, verilen hasarda ekibinizde birinci olarak tamamlayın.\n• En az 3 düşman aracı yok edin.</req>
+        <req>• Düşman araçlarını toplamda en az 150 saniye şoka sokun.\n• Müttefikler tarafınızdan şoka sokulan veya hareketsiz bırakılan en az 2 düşman aracını yok etmelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-13: Topçu Bataryası (Kişisel/Takım)" short="T 55A: KMT-13" desc="İyi kullanılan KMT'lerden kurulu bir Takım düşman için büyük bir tehlikedir. Hareketlerinizi koordine edin ve düşmana birer birer odaklanın. Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Yayılarak Takımınız hedefleri farklı açılardan vurabilir, çoğu kaya ve binayı siper olarak kullanılmaz kılar ve haritada üstünlük kurabilirsiniz.</Hint>
+    <PM name="KMT-13: İşbirliğinin İ'si" short="T 55A: KMT-13" desc="KMT'ler ve müttefikleri arasında iyi yürütülen koordinasyon düşman ekibi çok endişelendirecektir. Hareketlerinizi koordine edin ve ateşinizi düşman hedeflerine birer birer odaklayın." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• İster kişisel olarak ister Takımınızın toplamında ekibinizin düşman araçlarına verdiği toplam hasarın en az %%25'ini verin.\n• Savaşı kazanın.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarına en az 8 kere hasar verin veya en az 10 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-14: Birleşik Taarruz (Kişisel/Takım)" short="T 55A: KMT-14" desc="Topçular başarılı olmak için ekibin geri kalanına bağımlıdırlar. Topçular ve hafif tanklar bir Takımda birbirlerini özellikle iyi desteklerler.Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Bir hafif tank düşman araçlarını tespit edip hareketsiz bırakabilir. KMTler zavallı kurbanın işini hızlıca bitirirler. Beraber kazanacağız! Bir ağır tank sizi kalın zırhı ile koruyacaktır, orta tank düşmanın dikkatini çelecektir ve tank avcısı uzun menzilden ateş desteği sağlayacaktır.</Hint>
+    <PM name="KMT-14: Mürettebatın Parçası, Geminin Parçası!" short="T 55A: KMT-14" desc="İşbirliği tüm ekibin zaferinin anahtarıdır. Nişan aldığınız düşman aracını işaretleyerek şoka girer girmez veya hareketsiz kaldığında müttefikleriniz üzerine anında ateş edebilsinler. Unutmayın: tek bir asker savaşı zor kazanır." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• İster bireysel olarak ister Takımın toplamında düşman ağır tanklarına ve tank avcılarına en az 4.000 CP hasar verin.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarını toplamda en az 180 saniye şoka sokun veya düşman araçlarını hareketsiz bırakarak müttefiklerinizin en az 800 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-15: Savaş Tanrıları" short="T 55A: KMT-15" desc="KMT'nin canlı kalması ekip için çok daha iyidir. Düşman ateşine mağruz kalmamaya ve düşmana kesin atışlara yapmaya çalışın." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
-      <Hint>Eğer KMT'nizin teknik karakteristiklerini biliyorsanız, savaştaki hareketlerinizi planlayabilirsiniz. Bazen, üste kalmak çok iyi bir fikir olmayabilir. Eğer hızlı bir KMT kullanıyorsanız, çabucak pozisyon değiştirebilir ve düşmanı sizi beklediği son doğrultulardan vurabilirsiniz.</Hint>
+    <PM name="KMT-15: Savaş Tanrıları" short="T 55A: KMT-15" desc="Mümkün olduğunca uzun süre hayatta kalan bir KMT ekip için gerçek bir değerdir. Düşman ateşine maruz kalmadan mermi ardına mermi atmaya devam edin. Acele etmeyin ve \&quot;tetiği çekmeden\&quot; önce iki kere düşünün çünkü \&quot;bir atış-bir isabet\&quot; uzun yükleme süresine sahip bir araç için en iyi stratejidir." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Savaşı, verilen hasarda ve kazanılan deneyimde ekibinizdeki oyuncular arasında birinci olarak tamamlayın.\n• En az 3.000 CP hasar verin.</req>
+        <req>• Savaşı, kazanılan deneyimde ekibinizdeki oyuncular arasında birinci olarak tamamlayın.\n• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 2.500 hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Savaşta canlı kalın.</req>
@@ -3924,136 +3936,136 @@
         <req>• En az 5 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-1: Keskin Nişancı" short="Object 260: KMT-1" desc="Mühimmatınızı boşa harcamayın. Size zafer getirecek olanlar isabetli atışlardır." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Sabırlı olun ve hedefe tam olarak nişan alana kadar bekleyin.</Hint>
+    <PM name="KMT-1: Cesur İddia" short="Object 260: KMT-1" desc="Merminin patlamasından sonra oluşan geniş patlama yarıçapı KMT araçlarının ana özelliğidir. Hedef düşman aracına isabet ettiremeseniz de şoka sokarak ciddi sorun yaratma şansınız hâlâ vardır. Düşman aracı şok göstergesi ile işaretlenir ve müttefikleriniz tarafından görülür. Müttefikleriniz tarafınızdan şoka sokulan araçlara hasar verirse, sayenizde verilen hasar için ek kredi ve deneyim alırsınız." tMID="286" opID="4" mID="1" setID="5" ID="quest_4_5_1_main" secID="quest_4_5_1_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına hasar veren en az 6 isabet kaydedin.</req>
+        <req>• Düşman araçlarını en az 10 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• En az 4.000 CP hasar verin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 8 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-2: Gizli ve Tehlikeli" short="Object 260: KMT-2" desc="KMT'ler zırhlarının kalınlığına veya hızlarına güvenemezler. Eğer bir KMT kullanıyorsanız, tüm savaş boyunca nasıl gizli kalınacağını öğrenin." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>KMT'nize koyulduğunda, Kamuflaj ile birlikte kullanılan Kamuflaj Ağı donanımı, gizlenebilirliğinizi arttırmaya müthiş bir şekilde yardımcı olacaktır.</Hint>
+    <PM name="KMT-2: Vakit Nakittir" short="Object 260: KMT-2" desc="Düşman aracı belirli bir süre için şokta kalır ve savaş alanında en iyi performansını gösteremez. Unutmayın: şokta bir açar kolay hedef haline gelir." tMID="287" opID="4" mID="2" setID="5" ID="quest_4_5_2_main" secID="quest_4_5_2_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Verilen hasarda ekibinizdeki oyuncular arasında ilk 3'e girin. Savaş boyunca tespit edilmeyin.</req>
+        <req>• Düşman araçlarını toplamda en az 200 saniye şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• En az 3 düşman aracı yok edin.</req>
+        <req>• En az 4 düşman aracı yok edin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-3: Obüs Darbesi" short="Object 260: KMT-3" desc="Ekibinize faydalı olmak istiyorsanız önce etkin atış yapmayı öğrenmelisiniz." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Savaşın akışını takip edin ve ekibinize destek olun. Bir noktada çok uzun kalmayın. Gerektiğinde geri çekilin ve başka bir atış pozisyonu arayın.</Hint>
+    <PM name="KMT-3: Yavaş ve İstikrarlı Olan Şoka Girer" short="Object 260: KMT-3" desc="Gizli ve güçlü düşman tank avcıları ve iyi zırhlı ağır tanklar kolaylıkla savaşın akışını değiştirebilirler. Birinci öncelikli hedeflerdir ve onlara hasar vermek (veya yok edilmelerine yardımcı olmak) KMT'de oynayan bir oyuncu için ana hedef olmalıdır. Ağır tankların ve tank avcılarının büyük çoğunluğu yavaş ve hantaldır, bu da başarılı bir atış şansını yükseltir." tMID="288" opID="4" mID="3" setID="5" ID="quest_4_5_3_main" secID="quest_4_5_3_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 4.000 CP hasar verin.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını en az 8 kere şoka sokun.\n• Şoka sokan atışlar aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.\n• Savaşta canlı kalın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-4: Yar Geç" short="Object 260: KMT-4" desc="Güçlü HE mermiler sadece düşmana can puanı hasarı vermekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalara hasar verip yok edebilir veya mürettebat üyelerini yaralayabilir." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Bir Yüksek Patlayıcı mermi sadece zırhı tamamen delip düşman aracının gövdesinin içerisinde patlarsa değerini gösterir. Mermilerinizin delişi zayıfsa tepesi açık kuleye sahip bir düşman aracı bulmaya çalışın veya Premium mermi yükleyin.</Hint>
+    <PM name="KMT-4: Sana Yardım Edeceğim" short="Object 260: KMT-4" desc="Düşman ağır tanklarının ana yollarını ve kurnaz tank avcılarının genellikle saklandıkları konumları öğrenin. Önceden belirli bir harita bölgesine nişan almak, düşman mevziilerine en etkili ve yıkıcı ateş açma şansını artırır. Bu tür araçlar bazı haritalarda genellikle kolaylıkla tahmin edilebilen yollardan geçerler. Aklınızı kullanın: düşman ekibinin kurulumunu analiz edin ve daha savaşın başından en uygun konumu seçin." tMID="289" opID="4" mID="4" setID="5" ID="quest_4_5_4_main" secID="quest_4_5_4_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="0" done="false">
-        <req>• Toplamda en az 10 parça ve mürettebat üyesi olacak şekilde araçların iç parçalarını yok edin veya hasar verin veya mürettebat üyelerini yaralayın.\n• Savaşta hasar verdiğiniz tüm düşman araçlarındaki hasarlanan/yok edilen parça ve yaralı mürettebat üyesi sayıları toplanır.</req>
+        <req>• Bir düşman ağır tankını veya tank avcısını toplamda en az 120 saniye şoka sokun.\n• Şoka sokan atış aynı zamanda hasar vermelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-5: Hesapla &amp; Yok Et" short="Object 260: KMT-5" desc="Sahip olduğunuz muhteşem ateş gücü KMTnizin göreceli düşük dayanıklılığını rahatça telafi eder." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Düşman araçlarına ilk fırsatta hasar vermeye çalışın. YP merminiz düşmanı az farkla bile ıskalasa merminin parça tesiri sayesinde yine de hasar alabilir.</Hint>
+    <PM name="KMT-5: Paylaşmak Önemsemektir" short="Object 260: KMT-5" desc="Düşman araçlarını şoka sokmak sadece ekibinizi zafere yaklaştırmakla kalmaz, şoka soktuğunuz düşman araçlarına müttefikleriniz hasar verirse ek deneyim ve kredi kazanmanızı sağlar. Nişan aldığınız yeri işaretleyerek (varsayılan olarak T tuşu) müttefiklerinizin dikkatini çekip bilgilendirmeyi unutmayın." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızın can puanının 10 katını aşan hasar verin.\n• Müttefiklere verilen hasar sayılmaz.</req>
+        <req>• Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin düşman araçlarına en az 3.000 hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• En az 4 düşman aracı yok edin.</req>
+        <req>• Düşman araçlarına ateş ederek veya çarparak en az 8 kere hasar verin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-6: Düşen Çekiç" short="Object 260: KMT-6" desc="Genellikle daha yüksek seviye olan araçlara karşı savaşacaksınız. Ancak bu deneyimli bir KMT kullanıcısı için bir sorun değildir." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Bir düşman aracını standart mermiler ile delemiyorsanız Premium mermi kullanmayı deneyin. Düşman aracının yanlarına ve arkasına ateş edin. KMTler, eğimli mermi yolları ile her araca zırh korumasının zayıf olduğu kule tepesinden vurabilirler. Açık kuleli düşman araçları yukarıdan yok edilmeye çok daha açıktır.</Hint>
+    <PM name="KMT-6: Tanrıların Çekici" short="Object 260: KMT-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Aracınızdan 2 seviye daha yüksek olan en az 2 düşman aracı yok edin.</req>
+        <req>• Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin en az 6 düşman aracında hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-7: Büyük Silahları Çıkar" short="Object 260: KMT-7" desc="Düşman tank avcıları ve KMTlerini ilk fırsatta yok etmelisiniz. Onları yok etmek savaşın akışını lehinize döndürebilir." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Hareketlerinizi müttefik hafif tanklar ile eşgüdümleyin. Düşman tank avcılarını ve KMTleri tespit edip yok etmek savaş alanında üstünlük kurmanıza yardımcı olabilir.</Hint>
+    <PM name="KMT-7: Dikkatle Düşünmek" short="Object 260: KMT-7" desc="Bu görevi tamamlamak için hedeflerinizi belirlerken seçici bir yöntem uygulayın. Kolay bir hedef bile olsa ateşinizi tek bir düşman aracına yoğunlaştırmayın. En iyi strateji tek bir atışla büyük düşman aracı gruplarını vurmaktır. Haritaları inceleyin ve araçların temel yollarını öğrenin." tMID="292" opID="4" mID="7" setID="5" ID="quest_4_5_7_main" secID="quest_4_5_7_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Toplam en az 3 düşman tank avcısı veya KMTsi yok edin.\n• Savaşı kazanın.</req>
+        <req>• En az 6 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• En az 4.000 CP hasar verin.</req>
+        <req>• Savaşı kazanın.\n• Savaşı canlı bitirin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-8: Ağır Tanklara Ağır Ateş!" short="Object 260: KMT-8" desc="Ağır tanklar zor hedeflerdir ama sizin toplarınız için değil. Eğimli yörüngeye sahip mermiler her aracı zırhın zayıf olduğu kule tepesinden vurabilir." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Ağır tanklar genellikle diğer araç türlerinden yavaş hareket eder. O yüzden merminiz vardığında tankın nerede olabileceğini kestirebilirsiniz. Bir KMT kullanıcısı için mermilerinizin hızını bilmek faydalıdır.</Hint>
+    <PM name="KMT-8: Elimden Geleni Yaptım" short="Object 260: KMT-8" desc="Tüm etkili eylemleriniz için deneyim kazanırsınız. En değerli oyuncu olmaya çalışın: hasar verin, düşman araçlarının yok edilmesine yardım edin ve savaşı canlı bitirin. Her atıştan sonra konumunuzu değiştirin yoksa düşman KMT'lerinin karşı ateşi aracınızı yok edebilir." tMID="293" opID="4" mID="8" setID="5" ID="quest_4_5_8_main" secID="quest_4_5_8_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman ağır tanklarına en az 3.000 CP hasar verin.</req>
+        <req>• Savaşı, kazanılan deneyimde ekibinizdeki oyuncular arasında birinci olarak tamamlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman ağır tankı yok edin.\n• Savaşı kazanın.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-9: Onları Vurana Kadar Takip Et" short="Object 260: KMT-9" desc="Deneyimli bir KMT sürücüsü kolaylıkla hareketli araçları vurabilir. Ateş ederken, düşman araçlarının hareketini önceden kestirmeyi öğrenin. Düşman aracına doğrudan isabetin YP sıçramasından çok daha fazla hasar vereceğini unutmayın." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Mermileriniz hızı önemli bir parametredir. Merminin hedefe ne zaman ulaşacağını bilerek, doğru bir şekilde sapmayı hesaplayabilirsiniz.</Hint>
+    <PM name="KMT-9: Munzam Zarar" short="Object 260: KMT-9" desc="Güçlü HE mermiler sadece düşman araçlarının can puanını düşürmekle kalmaz aynı zamanda sıçrama hasarı ile yüksek ihtimalle parçalarını yok etme veya mürettebat üyelerini yaralama şansına sahiptir." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Düşman araçlarına en az 4 doğrudan isabet kaydedin.\n• Tüm doğrudan isabetler, hasar verse de vermese de, sayılır.</req>
+        <req>• Toplamda en az 10 parça ve mürettebat üyesi olacak şekilde araçların parçalarını yok edin  veya mürettebat üyelerini yaralayın.\n• Yok edilen parça ve yaralanan mürettebat sayısı savaşta hasar verdiğiniz tüm düşman araçları üzerinden toplanır.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Savaşta canlı kalın.\n• Savaşı kazanın.\n• Savaş boyunca tespit edilmeyin.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-10: Topçunun Belası" short="Object 260: KMT-10" desc="Topçu avı çok iyi bir fikirdir. Düşman KMT'sinin nerede saklanıyor olabileceğini tahmin edin ve doğru bir tahminde bulunup bulunmadığınızı hassas bir atış ile kontrol edin." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Ne kadar sık KMT kullanırsanız, haritalarda o kadar daha çok stratejik nokta öğrenirsiniz. Önceden nerelere konuşlanmış olduklarını bileceğiniz için, bu sizin düşman KMT'lerine karşı savaşınızda faydalı olacaktır.</Hint>
+    <PM name="KMT-10: Her Şey Dâhil" short="Object 260: KMT-10" desc="Savaşın durumu hızla değişebilir-her zaman bir gözünüz mini haritada olsun ve düşman araçlarını kolayca görebildiğinizden emin olun. Tek bir noktada kalmak yerine sürekli haritada dolaşmanız gerekecek. Müttefikleriniz KMT'nizin ateş gücüne güveniyor o yüzden doğru yer ve zamanda elinizden geleni yapın." tMID="295" opID="4" mID="10" setID="5" ID="quest_4_5_10_main" secID="quest_4_5_10_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• En az 2 düşman KMT'si yok edin.\n• Düşman araçlarına en az 4.000 CP hasar verin.</req>
+        <req>• Şoka soktuğunuz veya hareketsiz hale getirdiğiniz düşman araçlarına tarafınızdan ve müttefikleriniz tarafından verilen toplam hasar en az 4.000 CP olmalıdır.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
-        <req>• En az 5 düşman aracı yok edin.</req>
+        <req>• Savaşı kazanın.\n• Müttefikler tarafınızdan şoka sokulan veya hareketsiz bırakılan en az 3 düşman aracını yok etmelidir.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-11: Etki Alanı" short="Object 260: KMT-11" desc="YP mermileriniz sadece bir düşman aracını ilk isabette yok etmekle kalmayabilir aynı zamanda birbirlerine yakın duruyorlarsa birçok hedefe aynı anda ciddi hasar verebilirsiniz." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Eğer birkaç düşman aracı tek bir noktada birbirlerine yakın duruyorsa, gerçekten de tek taş ile iki kuş vurabilirsiniz. Bu şehir haritalarının tipik bir özelliğidir.</Hint>
+    <PM name="KMT-11: Etki Alanı" short="Object 260: KMT-11" desc="İyi yapılmış bir atışla verilecek ciddi hasar miktarına ek olarak Yüksek Patlayıcı bir mermi aynı zamanda mermi patladıktan sonra patlama yarıçapında kalan tüm yanlış konumdaki araçları şoka sokabilir. Çoğu haritada düşman araçlarının toplandığı bazı noktalar vardır. Şansınızı deneyin ve yüksek \&quot;patlayıcı\&quot; saygılarınızı gönderin." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tek bir atış ile en az 2 düşman aracı yok edin.</req>
+        <req>• İki kere tek bir atışla en az 3 düşman aracını şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşta canlı kalın.\n• Savaşı kazanın.</req>
+        <req>• Düşman araçlarını toplamda en az 200 saniye şoka sokun.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-12: Vurucu" short="Object 260: KMT-12" desc="Bir KMT ile oynama tarzı diğer tüm araç tiplerinden sert bir şekilde farklılık gösterir.Ama ana hedefiniz aynı—savaşta elinizden gelenin en iyisini yapın ve takımınız amacı için yapabildiğiniz kadar çok katkı sağlayın." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Savaşın en başında hemen Topçu bakışına geçmeyin. Önce, iyi bir stratejik nokta belirleyin.</Hint>
+    <PM name="KMT-12: Kem Göz" short="Object 260: KMT-12" desc="Müttefikleriniz şoktaki düşman aracını yok etti mi? Sizin için iyi haber çünkü zafere bir adım daha yaklaştıran sizin desteğinizdi! Hedefiniz ateş desteği sağlamak ve doğru yer ve zamanda müttefiklerinize destek olmaktır." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı, verilen hasarda her iki ekipteki oyuncular arasında birinci olarak tamamlayın.\n• En az 4 düşman aracı yok edin.\n• Savaşta canlı kalın.</req>
+        <req>• Düşman araçlarını toplamda en az 200 saniye şoka sokun.\n• Müttefikler tarafınızdan şoka sokulan veya hareketsiz bırakılan en az 3 düşman aracını yok etmelidir.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-13: Topçu Bataryası (Kişisel/Takım)" short="Object 260: KMT-13" desc="İyi kullanılan KMT'lerden kurulu bir Takım düşman için büyük bir tehlikedir. Hareketlerinizi koordine edin ve düşmana birer birer odaklanın. Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Yayılarak Takımınız hedefleri farklı açılardan vurabilir, çoğu kaya ve binayı siper olarak kullanılmaz kılar ve haritada üstünlük kurabilirsiniz.</Hint>
+    <PM name="KMT-13: İşbirliğinin İ'si" short="Object 260: KMT-13" desc="KMT'ler ve müttefikleri arasında iyi yürütülen koordinasyon düşman ekibi çok endişelendirecektir. Hareketlerinizi koordine edin ve ateşinizi düşman hedeflerine birer birer odaklayın." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• İster kişisel olarak ister Takımınızın toplamında ekibinizin düşman araçlarına verdiği toplam hasarın en az %%30'unu verin.\n• Savaşı kazanın.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarına en az 10 kere hasar verin veya en az 12 kere şoka sokun.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-14: Birleşik Taarruz (Kişisel/Takım)" short="Object 260: KMT-14" desc="Topçular başarılı olmak için ekibin geri kalanına bağımlıdırlar. Topçular ve hafif tanklar bir Takımda birbirlerini özellikle iyi desteklerler.Bu görev bir Takımın parçası olarak veya kendi başınıza tamamlanabilir ancak ikincisi çok daha zordur." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Bir hafif tank düşman araçlarını tespit edip hareketsiz bırakabilir. KMTler zavallı kurbanın işini hızlıca bitirirler. Beraber kazanacağız! Bir ağır tank sizi kalın zırhı ile koruyacaktır, orta tank düşmanın dikkatini çelecektir ve tank avcısı uzun menzilden ateş desteği sağlayacaktır.</Hint>
+    <PM name="KMT-14: Mürettebatın Parçası, Geminin Parçası!" short="Object 260: KMT-14" desc="İşbirliği tüm ekibin zaferinin anahtarıdır. Nişan aldığınız düşman aracını işaretleyerek şoka girer girmez veya hareketsiz kaldığında müttefikleriniz üzerine anında ateş edebilsinler. Unutmayın: tek bir asker savaşı zor kazanır." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• İster bireysel olarak ister Takımın toplamında düşman ağır tanklarına ve tank avcılarına en az 5.000 CP hasar verin.\n• Kişisel olarak veya sizin KMT'niz ve diğer herhangi araçlardan oluşan Takımın parçası olarak tamamlanabilir.</req>
+        <req>• Düşman araçlarını toplamda en az 250 saniye şoka sokun veya düşman araçlarını hareketsiz bırakarak müttefiklerinizin en az 1.000 hasar vermelerini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Savaşı kişisel olarak canlı bitirin.</req>
+        <req>• Savaşı kazanın.</req>
       </Secondary>
     </PM>
-    <PM name="KMT-15: Savaş Tanrıları" short="Object 260: KMT-15" desc="KMT'nin canlı kalması ekip için çok daha iyidir. Düşman ateşine mağruz kalmamaya ve düşmana kesin atışlara yapmaya çalışın." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
-      <Hint>Eğer KMT'nizin teknik karakteristiklerini biliyorsanız, savaştaki hareketlerinizi planlayabilirsiniz. Bazen, üste kalmak çok iyi bir fikir olmayabilir. Eğer hızlı bir KMT kullanıyorsanız, çabucak pozisyon değiştirebilir ve düşmanı sizi beklediği son doğrultulardan vurabilirsiniz.</Hint>
+    <PM name="KMT-15: Savaş Tanrıları" short="Object 260: KMT-15" desc="Mümkün olduğunca uzun süre hayatta kalan bir KMT ekip için gerçek bir değerdir. Düşman ateşine maruz kalmadan mermi ardına mermi atmaya devam edin. Acele etmeyin ve \&quot;tetiği çekmeden\&quot; önce iki kere düşünün çünkü \&quot;bir atış-bir isabet\&quot; uzun yükleme süresine sahip bir araç için en iyi stratejidir." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
+      <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Savaşı, verilen hasarda ve kazanılan deneyimde her iki ekipteki oyuncular arasında birinci olarak tamamlayın.\n• En az 3.000 CP hasar verin.</req>
+        <req>• Savaşı, kazanılan deneyimde her iki ekipteki oyuncular arasında birinci olarak tamamlayın.\n• Düşman araçlarını şoka sokarak veya hareketsiz hale getirerek müttefiklerinizin en az 3.500 hasar vermesini sağlayın.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Savaşta canlı kalın.</req>
