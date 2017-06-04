@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Nameless" lName="Nameless" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -977,11 +985,11 @@
     <tank ID="Wespe" sName="Wespe" lName="Wespe" />
   </Lang_Tanks>
   <Lang_TankClasses>
-    <item ID="td" Name="Páncélvadász" />
+    <item ID="td" Name="Páncélvadászok" />
     <item ID="ht" Name="Nehéz tank" />
     <item ID="mt" Name="Közepes tank" />
     <item ID="lt" Name="Könnyű tank" />
-    <item ID="spg" Name="Önjáró löveg" />
+    <item ID="spg" Name="Önjáró lövegek" />
     <item ID="unknown" Name="Ismeretlen" />
   </Lang_TankClasses>
   <Lang_Maps>
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Ghost Town" />
     <item ID="96_prohorovka_defense" Name="Fiery Salient" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Aréna" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1254,13 +1260,13 @@
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Bajtársak" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Kritikus együttműködés" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De Langlade medál" />
-    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Tamada Yoshio medál" />
+    <achv ID_Num="146" ID="medalTamadaYoshio" Name="Tamada Yoshio medálja" />
     <achv ID_Num="147" ID="bombardier" Name="Bombavető" />
     <achv ID_Num="148" ID="huntsman" Name="Naydin Medál" />
     <achv ID_Num="150" ID="sturdy" Name="Spártai" />
     <achv ID_Num="151" ID="ironMan" Name="Hidegfejű" />
     <achv ID_Num="152" ID="luckyDevil" Name="Szerencsés" />
-    <achv ID_Num="154" ID="pattonValley" Name="Pattonok völgye" />
+    <achv ID_Num="154" ID="pattonValley" Name="Pattonök völgye" />
     <achv ID_Num="227" ID="sniper2" Name="Harckocsizó-mesterlövész" />
     <achv ID_Num="228" ID="mainGun" Name="Nagy kaliber" />
     <achv ID_Num="230" ID="wolfAmongSheepMedal" Name="Farkas a bárányok között" />
@@ -1291,7 +1297,7 @@
     <achv ID_Num="308" ID="histBattle4_historyLessons" Name="Történelmi leckék: Bryansk front" />
     <achv ID_Num="470" ID="promisingFighterMedal" Name="Ígéretes harcos" />
     <achv ID_Num="472" ID="heavyFireMedal" Name="Erős tűz" />
-    <achv ID_Num="474" ID="rangerMedal" Name="Ranger" />
+    <achv ID_Num="474" ID="rangerMedal" Name="Rohamosztagos" />
     <achv ID_Num="476" ID="fireAndSteelMedal" Name="Tűz és Acél" />
     <achv ID_Num="478" ID="pyromaniacMedal" Name="Piromániás" />
     <achv ID_Num="479" ID="noMansLand" Name="Felperzselt föld" />
@@ -1714,7 +1720,7 @@
       </Secondary>
     </PM>
     <PM name="MT-9: Egy méltó ellenfél" short="StuG IV: MT-9" desc="Az ellenséges nehéz tankok felkutatása és megsemmisítése nehéz feladat de a csapat számára nagyon kifizetődő lehet." tMID="39" opID="1" mID="9" setID="3" ID="quest_1_3_9_main" secID="quest_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
-      <Hint>Bármibe is kerül támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd a nehéz tankok lassabbak mint te és a tornyaik forgássebessége is meglehetősen lassú.</Hint>
+      <Hint>Bármibe is kerül, támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd, a nehéz tankok lassabbak, mint te és a tornyaik forgássebessége is meglehetősen alacsony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Okozz legalább 500 életpont sebzést ellenséges nehéz tankoknak, amelyek azonos vagy magasabb szintűek a járművednél.</req>
       </Primary>
@@ -1950,7 +1956,7 @@
     <PM name="SPG-5: Egy kis törődés" short="StuG IV: SPG-5" desc="Az ellenséges tankok elkábítása nem csak közelebb viszi a csapatod a győzelemhez, de további tapasztalati pontot és kreditet jelent számodra, ha csapattársaid sebzik az általad elkábított járműveket. Ne felejtsd el megjelölni a területet, ahová célzol (a T gombbal alapértelmezettként), hogy figyelmeztesd a szövetségeseid." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 600 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 600 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Okozz sérülést az ellenséges járműveknek legalább 3 alkalommal lövéssel vagy ütközéssel.</req>
@@ -1959,7 +1965,7 @@
     <PM name="SPG-6: Istenek pörölye" short="StuG IV: SPG-6" desc="Az önjáró lövegek elsődleges feladata a fedezettűz biztosítása a szövetséges járműveknek. Az elkábult ellenségek harcképessége lecsökken, így a társaidnak komoly segítséget nyújthatsz. Azonban légy óvatos, egy megfontolatlan lövés a szövetséges járműveket is elkábíthatja. A baráti tüzet nem toleráljuk!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 2 ellenséges járműnek sérülést okozzanak, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 2 ellenséges járműnek sérülést okozzanak, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -2001,7 +2007,7 @@
         <req>• Csapattársaidnak legalább 1, általad elkábított vagy mozgásképtelenné tett járművet meg kell semmisítenie.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Területsebzés" short="StuG IV: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található rosszúl elhelyezkedő járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
+    <PM name="SPG-11: Területsebzés" short="StuG IV: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="71" opID="1" mID="11" setID="5" ID="quest_1_5_11_main" secID="quest_1_5_11_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Kábíts el legalább 2 ellenséges járművet egyetlen lövéssel.</req>
@@ -2040,7 +2046,7 @@
     <PM name="SPG-15: Háborús istenek" short="StuG IV: SPG-15" desc="Egy önjáró löveg, amely képes a lehető legtovább túlélni, komoly erőssége a csapatnak. Tüzelj sorozatosan, miközben biztonságban maradsz az ellenséges tűz elől. Gondolkodj, mielőtt tüzelnél, az \&quot;egy lövés—egy találat\&quot; a legjobb stratégia a hosszú újratöltési idejű járműveknél." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Végezz a top 5 játékos között a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 1000 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Végezz az 5 legjobb játékos között a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 1 000 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Éld túl a csatát.</req>
@@ -2389,7 +2395,7 @@
       </Secondary>
     </PM>
     <PM name="MT-9: Egy méltó ellenfél" short="T28 heavy tank concept: MT-9" desc="Az ellenséges nehéz tankok felkutatása és megsemmisítése nehéz feladat de a csapat számára nagyon kifizetődő lehet." tMID="114" opID="2" mID="9" setID="3" ID="quest_2_3_9_main" secID="quest_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
-      <Hint>Bármibe is kerül támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd a nehéz tankok lassabbak mint te és a tornyaik forgássebessége is meglehetősen lassú.</Hint>
+      <Hint>Bármibe is kerül, támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd, a nehéz tankok lassabbak, mint te és a tornyaik forgássebessége is meglehetősen alacsony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Okozz legalább 1 000 életerő sebzés ellenséges nehéz tankoknak, amik ugyanolyan szintűek vagy nagyobbak, mint a járműved.</req>
       </Primary>
@@ -2625,7 +2631,7 @@
     <PM name="SPG-5: Egy kis törődés" short="T28 heavy tank concept: SPG-5" desc="Az ellenséges tankok elkábítása nem csak közelebb viszi a csapatod a győzelemhez, de további tapasztalati pontot és kreditet jelent számodra, ha csapattársaid sebzik az általad elkábított járműveket. Ne felejtsd el megjelölni a területet, ahová célzol (a T gombbal alapértelmezettként), hogy figyelmeztesd a szövetségeseid." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 1000 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 1 000 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Okozz sérülést az ellenséges járműveknek legalább 5 alkalommal lövéssel vagy ütközéssel.</req>
@@ -2634,7 +2640,7 @@
     <PM name="SPG-6: Istenek pörölye" short="T28 heavy tank concept: SPG-6" desc="Az önjáró lövegek elsődleges feladata a fedezettűz biztosítása a szövetséges járműveknek. Az elkábult ellenségek harcképessége lecsökken, így a társaidnak komoly segítséget nyújthatsz. Azonban légy óvatos, egy megfontolatlan lövés a szövetséges járműveket is elkábíthatja. A baráti tüzet nem toleráljuk!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 3 ellenséges járműnek sérülést okozzanak, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 3 ellenséges járműnek sérülést okozzanak, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -2676,7 +2682,7 @@
         <req>• Csapattársaidnak legalább 1, általad elkábított vagy mozgásképtelenné tett járművet meg kell semmisítenie.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Területsebzés" short="T28 heavy tank concept: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található rosszúl elhelyezkedő járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
+    <PM name="SPG-11: Területsebzés" short="T28 heavy tank concept: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="146" opID="2" mID="11" setID="5" ID="quest_2_5_11_main" secID="quest_2_5_11_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
         <req>• Kábíts el legalább 2 ellenséges járművet egyetlen lövéssel kétszer.</req>
@@ -2715,7 +2721,7 @@
     <PM name="SPG-15: Háborús istenek" short="T28 heavy tank concept: SPG-15" desc="Egy önjáró löveg, amely képes a lehető legtovább túlélni, komoly erőssége a csapatnak. Tüzelj sorozatosan, miközben biztonságban maradsz az ellenséges tűz elől. Gondolkodj, mielőtt tüzelnél, az \&quot;egy lövés—egy találat\&quot; a legjobb stratégia a hosszú újratöltési idejű járműveknél." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Végezz a top 3 játékos között a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 1500 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Végezz a 3 legjobb játékos között a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 1 500 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Éld túl a csatát.</req>
@@ -3064,7 +3070,7 @@
       </Secondary>
     </PM>
     <PM name="MT-9: Egy méltó ellenfél" short="T 55A: MT-9" desc="Az ellenséges nehéz tankok felkutatása és megsemmisítése nehéz feladat de a csapat számára nagyon kifizetődő lehet." tMID="189" opID="3" mID="9" setID="3" ID="quest_3_3_9_main" secID="quest_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
-      <Hint>Bármibe is kerül támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd a nehéz tankok lassabbak mint te és a tornyaik forgássebessége is meglehetősen lassú.</Hint>
+      <Hint>Bármibe is kerül, támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd, a nehéz tankok lassabbak, mint te és a tornyaik forgássebessége is meglehetősen alacsony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Semmisíts meg 1 ellenséges nehéz tankot, amik 2 szinttel nagyobbak a járművednél.</req>
       </Primary>
@@ -3300,7 +3306,7 @@
     <PM name="SPG-5: Egy kis törődés" short="T 55A: SPG-5" desc="Az ellenséges tankok elkábítása nem csak közelebb viszi a csapatod a győzelemhez, de további tapasztalati pontot és kreditet jelent számodra, ha csapattársaid sebzik az általad elkábított járműveket. Ne felejtsd el megjelölni a területet, ahová célzol (a T gombbal alapértelmezettként), hogy figyelmeztesd a szövetségeseid." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 2000 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 2000 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Okozz sérülést az ellenséges járműveknek legalább 6 alkalommal lövéssel vagy ütközéssel.</req>
@@ -3309,7 +3315,7 @@
     <PM name="SPG-6: Istenek pörölye" short="T 55A: SPG-6" desc="Az önjáró lövegek elsődleges feladata a fedezettűz biztosítása a szövetséges járműveknek. Az elkábult ellenségek harcképessége lecsökken, így a társaidnak komoly segítséget nyújthatsz. Azonban légy óvatos, egy megfontolatlan lövés a szövetséges járműveket is elkábíthatja. A baráti tüzet nem toleráljuk!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 5 ellenséges járműnek sérülést okozzanak, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 5 ellenséges járműnek sérülést okozzanak, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.\n• Éld túl a csatát.</req>
@@ -3351,7 +3357,7 @@
         <req>• Nyerd meg a csatát.\n•  A csapattársaknak meg kell semmisítenie legalább 2, általad elkábított vagy mozgásképtelenné tett járművet.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Területsebzés" short="T 55A: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található rosszúl elhelyezkedő járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
+    <PM name="SPG-11: Területsebzés" short="T 55A: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
         <req>• Kábíts el legalább 3 ellenséges járművet egyetlen lövéssel.</req>
@@ -3390,7 +3396,7 @@
     <PM name="SPG-15: Háborús istenek" short="T 55A: SPG-15" desc="Egy önjáró löveg, amely képes a lehető legtovább túlélni, komoly erőssége a csapatnak. Tüzelj sorozatosan, miközben biztonságban maradsz az ellenséges tűz elől. Gondolkodj, mielőtt tüzelnél, az \&quot;egy lövés—egy találat\&quot; a legjobb stratégia a hosszú újratöltési idejű járműveknél." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Végezz az első helyen a csatában a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 2500 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Végezz az első helyen a megszerzett tapasztalati pont alapján a csapatodban.\n• Tedd lehetővé, hogy csapattársaid legalább 2 500 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Éld túl a csatát.</req>
@@ -3739,7 +3745,7 @@
       </Secondary>
     </PM>
     <PM name="MT-9: Egy méltó ellenfél" short="Object 260: MT-9" desc="Az ellenséges nehéz tankok felkutatása és megsemmisítése nehéz feladat de a csapat számára nagyon kifizetődő lehet." tMID="264" opID="4" mID="9" setID="3" ID="quest_4_3_9_main" secID="quest_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
-      <Hint>Bármibe is kerül támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd a nehéz tankok lassabbak mint te és a tornyaik forgássebessége is meglehetősen lassú.</Hint>
+      <Hint>Bármibe is kerül, támadd oldalba az ellenséges járműveket, lőj rájuk fedezékből vagy célozd a gyenge pontjaikat. Ne feledd, a nehéz tankok lassabbak, mint te és a tornyaik forgássebessége is meglehetősen alacsony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Okozz legalább 2 000 életpont sebzést ellenséges nehéz tankoknak, amik 1 szinttel nagyobbak mint a te járműved.</req>
       </Primary>
@@ -3975,7 +3981,7 @@
     <PM name="SPG-5: Egy kis törődés" short="Object 260: SPG-5" desc="Az ellenséges tankok elkábítása nem csak közelebb viszi a csapatod a győzelemhez, de további tapasztalati pontot és kreditet jelent számodra, ha csapattársaid sebzik az általad elkábított járműveket. Ne felejtsd el megjelölni a területet, ahová célzol (a T gombbal alapértelmezettként), hogy figyelmeztesd a szövetségeseid." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 3000 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 3 000 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Okozz sérülést az ellenséges járműveknek legalább 8 alkalommal lövéssel vagy ütközéssel.</req>
@@ -3984,7 +3990,7 @@
     <PM name="SPG-6: Istenek pörölye" short="Object 260: SPG-6" desc="Az önjáró lövegek elsődleges feladata a fedezettűz biztosítása a szövetséges járműveknek. Az elkábult ellenségek harcképessége lecsökken, így a társaidnak komoly segítséget nyújthatsz. Azonban légy óvatos, egy megfontolatlan lövés a szövetséges járműveket is elkábíthatja. A baráti tüzet nem toleráljuk!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Tedd lehetővé, hogy csapattársaid legalább 6 ellenséges járműnek sérülést okozzanak, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Tedd lehetővé, hogy csapattársaid legalább 6 ellenséges járműnek sérülést okozzanak, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.\n• Éld túl a csatát.</req>
@@ -4026,7 +4032,7 @@
         <req>• Nyerd meg a csatát.\n•  A csapattársaknak meg kell semmisítenie legalább 3, általad elkábított vagy mozgásképtelenné tett járművet.</req>
       </Secondary>
     </PM>
-    <PM name="SPG-11: Területsebzés" short="Object 260: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található rosszúl elhelyezkedő járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
+    <PM name="SPG-11: Területsebzés" short="Object 260: SPG-11" desc="Egy jól irányzott lövés által okozott jelentős sebzésen túl a repeszromboló lövedékek képesek elkábítani a robbanási sugárban található járműveket. Sok pályán van olyan pont, ahol az ellenséges járművek összegyűlnek. Ragadd meg az esélyed, hogy kirobbanó fogadtatásban részesítsd őket." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
         <req>• Kábíts el legalább 3 ellenséges járművet egyetlen lövéssel kétszer.</req>
@@ -4065,7 +4071,7 @@
     <PM name="SPG-15: Háborús istenek" short="Object 260: SPG-15" desc="Egy önjáró löveg, amely képes a lehető legtovább túlélni, komoly erőssége a csapatnak. Tüzelj sorozatosan, miközben biztonságban maradsz az ellenséges tűz elől. Gondolkodj, mielőtt tüzelnél, az \&quot;egy lövés—egy találat\&quot; a legjobb stratégia a hosszú újratöltési idejű járműveknél." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Végezz az első helyen a csatában a megszerzett tapasztalati pont alapján mindkét csapatban.\n• Tedd lehetővé, hogy csapattársaid legalább 3500 sebzést osszanak ki az ellenséges járműveknek, amiket elkábítottál vagy mozgásképtelenné tettél.</req>
+        <req>• Végezz az első helyen a csatában a megszerzett tapasztalati pont alapján.\n• Tedd lehetővé, hogy csapattársaid legalább 3 500 sebzést osszanak ki az ellenséges járműveknek, melyeket elkábítottál vagy mozgásképtelenné tettél.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Éld túl a csatát.</req>

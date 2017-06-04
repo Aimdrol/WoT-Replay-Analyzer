@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Nameless" lName="Nameless" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrado" />
     <item ID="95_lost_city" Name="Città Fantasma" />
     <item ID="96_prohorovka_defense" Name="Difesa infuocata" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1950,7 +1956,7 @@
     <PM name="A-SMV-5: Condividere è amare" short="StuG IV: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consenti ai tuoi alleati di provocare almeno 600 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 600 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Danneggia veicoli nemici almeno 3 volte sparandogli o speronandoli.</req>
@@ -2040,7 +2046,7 @@
     <PM name="A-SMV-15: Dei della guerra" short="StuG IV: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati nei primi 5 per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 1.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Posizionati tra i primi 5 giocatori della tua squadra in ordine di esperienza guadagnata.\n• Consenti ai tuoi alleati di provocare almeno 1.000 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -2625,7 +2631,7 @@
     <PM name="A-SMV-5: Condividere è amare" short="T28 heavy tank concept: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consenti ai tuoi alleati di provocare almeno 1.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 1.000 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Danneggia veicoli nemici almeno 5 volte sparandogli o speronandoli.</req>
@@ -2715,7 +2721,7 @@
     <PM name="A-SMV-15: Dei della guerra" short="T28 heavy tank concept: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati nei primi 3 posti per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 1.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Posizionati tra i primi 3 giocatori della tua squadra in ordine di esperienza guadagnata.\n• Consenti ai tuoi alleati di provocare almeno 1.500 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -3300,7 +3306,7 @@
     <PM name="A-SMV-5: Condividere è amare" short="T 55A: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consenti ai tuoi alleati di provocare almeno 2.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 2.000 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Danneggia veicoli nemici almeno 6 volte sparandogli o speronandoli.</req>
@@ -3390,7 +3396,7 @@
     <PM name="A-SMV-15: Dei della guerra" short="T 55A: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Posizionati al primo posto per esperienza guadagnata nella tua squadra.\n• Consenti ai tuoi alleati di provocare almeno 2.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Termina la battaglia come miglior giocatore della tua squadra in ordine di esperienza ottenuta\n• Consenti ai tuoi alleati di provocare almeno 2.500 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>
@@ -3975,7 +3981,7 @@
     <PM name="A-SMV-5: Condividere è amare" short="Object 260: A-SMV-5" desc="Lo stordimento dei veicoli nemici non solo porta la tua squadra a un passo più vicina alla vittoria, ma ti assicura di ricevere più esperienza e crediti se i tuoi alleati causano danno ai veicoli nemici che hai stordito. Non dimenticarti di indicare l'area in cui stai mirando (usando il tasto T per impostazione predefinita) per segnalarla e avere l'attenzione dei tuoi alleati." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Consenti ai tuoi alleati di provocare almeno 3.000 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Consenti ai tuoi alleati di provocare almeno 3.000 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Danneggia veicoli nemici almeno 8 volte sparandogli o speronandoli.</req>
@@ -4065,7 +4071,7 @@
     <PM name="A-SMV-15: Dei della guerra" short="Object 260: A-SMV-15" desc="Un'artiglieria che sopravvive il più a lungo possibile è un vero tesoro per la squadra. Spara un colpo dopo l'altro mentre cerchi di non farti prendere dal fuoco nemico. Prenditi il tempo necessario e pensa duo volte prima di \&quot;premere il grilletto\&quot;, dato che mettere a segno i colpi è la priorità di un veicolo dall'alto tempo di ricarica." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Il supporto tanto atteso" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Finisci la battaglia come miglior giocatore di entrambe le squadre in ordine di esperienza ottenuta\n• Consenti ai tuoi alleati di provocare almeno 3.500 HP di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
+        <req>• Termina la battaglia come miglior giocatore di entrambe le squadre in ordine di esperienza ottenuta\n• Consenti ai tuoi alleati di provocare almeno 3.500 di danno a veicoli nemici immobilizzandoli o stordendoli.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Sopravvivi alla battaglia.</req>

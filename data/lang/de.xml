@@ -147,7 +147,7 @@
     <tank ID="Ch01_Type59" sName="Type 59" lName="Type 59" />
     <tank ID="Ch01_Type59_Gold" sName="Type 59 G" lName="Type 59 G" />
     <tank ID="Ch02_Type62" sName="Type 62" lName="Type 62" />
-    <tank ID="Ch03_WZ_111_A" sName="Alpine Tiger" lName="WZ-111 Alpine Tiger" />
+    <tank ID="Ch03_WZ_111_A" sName="Alpentiger" lName="WZ-111 Alpentiger" />
     <tank ID="Ch03_WZ-111" sName="WZ-111" lName="WZ-111" />
     <tank ID="Ch04_T34_1" sName="T-34-1" lName="T-34-1" />
     <tank ID="Ch04_T34_1_training" sName="T-34-1" lName="T-34-1" />
@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Nameless" lName="Nameless" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Objekt 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Geisterstadt" />
     <item ID="96_prohorovka_defense" Name="Feuriger Bogen" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Altes Panzerfort" />
@@ -1950,7 +1956,7 @@
     <PM name="SFL-5: Teilen macht Freude" short="StuG IV: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen mindestens 600 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+        <req>• Verbündete müssen mindestens 600 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Beschädigen Sie mindestens dreimal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
@@ -1959,7 +1965,7 @@
     <PM name="SFL-6: Der Hammer der Götter" short="StuG IV: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen an mindestens 2 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
+        <req>• Verbündete müssen an mindestens 2 von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
@@ -2625,7 +2631,7 @@
     <PM name="SFL-5: Teilen macht Freude" short="T28 Heavy Tank Concept: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen mindestens 1 000 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+        <req>• Verbündete müssen mindestens 1 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Beschädigen Sie mindestens fünfmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
@@ -2634,7 +2640,7 @@
     <PM name="SFL-6: Der Hammer der Götter" short="T28 Heavy Tank Concept: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen an mindestens 3 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
+        <req>• Verbündete müssen an mindestens 3 von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.</req>
@@ -3300,7 +3306,7 @@
     <PM name="SFL-5: Teilen macht Freude" short="T 55A: SFL-5" desc="Betäubte Gegnerfahrzeuge bringen nicht nur Ihr Team ein Stück weiter zum Sieg. Sie erhalten zusätzliche Erfahrung und Kreditpunkte für den Schaden, den Verbündete an Fahrzeugen verursachen, die Sie betäubt haben. Vergessen Sie nicht, den Bereich zu markieren, auf den Sie zielen (Taste „T“), damit Ihre Verbündeten sich zurückziehen können." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen mindestens 2 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+        <req>• Verbündete müssen mindestens 2 000 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Beschädigen Sie mindestens sechsmal gegnerische Fahrzeuge durch Beschuss oder Rammen.</req>
@@ -3309,7 +3315,7 @@
     <PM name="SFL-6: Der Hammer der Götter" short="T 55A: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen an mindestens 5 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
+        <req>• Verbündete müssen an mindestens 5 von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
@@ -3390,7 +3396,7 @@
     <PM name="SFL-15: Kriegsgötter" short="T 55A: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 2 500 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 2 500 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>
@@ -3984,7 +3990,7 @@
     <PM name="SFL-6: Der Hammer der Götter" short="Objekt 260: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Verbündete müssen an mindestens 6 von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen Schaden verursachen.</req>
+        <req>• Verbündete müssen an mindestens 6 von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen Schaden verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Gewinnen Sie das Gefecht.\n• Überleben Sie das Gefecht.</req>
@@ -4065,7 +4071,7 @@
     <PM name="SFL-15: Kriegsgötter" short="Objekt 260: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 3 500 Schadenspunkten an von Ihnen betäubten oder unbeweglich gemachten Fahrzeugen verursachen.</req>
+        <req>• Erhalten Sie die meiste Erfahrung beider Teams.\n• Verbündete müssen mindestens 3 500 Schadenspunkte an von Ihnen betäubten oder unbeweglich gemachten Gegnerfahrzeugen verursachen.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Überleben Sie das Gefecht.</req>
@@ -4261,7 +4267,7 @@
       </Secondary>
     </PM>
     <PM name="H-7: Nerven aus Stahl" short="T-22 mittel: H-7" desc="Überschätzen Sie Ihren Panzerschutz nicht: vermeiden Sie es, Seiten und Heck Ihre Fahrzeug dem gegnerischen Beschuss auszusetzen. Ziehen Sie sich nach Möglichkeit schnell aus Zonen mit Artillerieschlägen oder Luftangriffen zurück." tMID="407" opID="5" mID="7" setID="2" ID="fallout_5_2_7_main" secID="fallout_5_2_7_add" minLvl="8" maxLvl="10" campID="2" camp="Feuersturm" reward="T-22 mittel">
-      <Hint>Damit Sie diesen Auftrag abschließen können, sollten Sie ein schwer gepanzertes Fahrzeug mit hoher Haltbarkeit wählen. Je mehr Abpraller und nicht durchschlagende Treffer Sie erhalten, desto näher kommen Sie ihrem Ziel.</Hint>
+      <Hint>Damit Sie diesen Auftrag abschließen können, sollten Sie ein schwer gepanzertes Fahrzeug mit hoher Robustheit wählen. Je mehr Abpraller und nicht durchschlagende Treffer Sie erhalten, desto näher kommen Sie ihrem Ziel.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Verursachter und durch Ihre Panzerung abgewehrter Schaden muss mindestens 8.000 Schadenspunkte betragen.\n• Schaden von oder durch Kampfreserven zählt nicht.\n• Feuern Sie mindestens 5 Granaten ab, die Schaden an gegnerischen Fahrzeugen verursachen.\n• Ergebnisse aller von Ihnen für das Gefecht gewählten Fahrzeuge werden addiert.</req>
       </Primary>

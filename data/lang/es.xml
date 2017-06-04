@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Nameless" lName="Nameless" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrado" />
     <item ID="95_lost_city" Name="Pueblo fantasma" />
     <item ID="96_prohorovka_defense" Name="Saliente de fuego" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1268,7 +1274,7 @@
     <achv ID_Num="233" ID="kingOfTheHill" Name="Rey de la colina" />
     <achv ID_Num="236" ID="armoredFist" Name="Puño blindado" />
     <achv ID_Num="237" ID="tacticalBreakthrough" Name="Genio táctico" />
-    <achv ID_Num="282" ID="guardsman" Name="Guardia  {0}" />
+    <achv ID_Num="282" ID="guardsman" Name="Guardia {0}" />
     <achv ID_Num="283" ID="makerOfHistory" Name="Fabricante de la historia {0}" />
     <achv ID_Num="286" ID="godOfWar" Name="Dios de la guerra" />
     <achv ID_Num="288" ID="fightingReconnaissanceMedal" Name="Reconocimiento de combate" />
@@ -1435,7 +1441,7 @@
       </Secondary>
     </PM>
     <PM name="CL-8: ¡Sal de nuestra base!" short="StuG IV: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
-      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
+      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participa en una captura con éxito de una base o reinicia los puntos de captura de base de una base amiga/neutral.\n• Gana la batalla.</req>
       </Primary>
@@ -1896,7 +1902,7 @@
     <PM name="CC-14: El gran cazador (personal/pelotón)" short="StuG IV: CC-14" desc="Un Pelotón bien coordinado de cazacarros no permitirá que el enemigo flanquee las posiciones de su equipo. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="59" opID="1" mID="14" setID="4" ID="quest_1_4_14_main" secID="quest_1_4_14_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
       <Hint>Proporciona fuego de cobertura a los miembros de tu Pelotón que hayan sufrido un correctivo. A veces es mejor atraer el fuego en tí mismo, dando a tus compañeros la oportunidad de retirarse.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos un 20 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu cazacarros y en cualquier otro vehículo.</req>
+        <req>• Causa al menos un 20 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu cazacarros y en cualquier otro vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Sobrevive en persona a la batalla.</req>
@@ -2040,7 +2046,7 @@
     <PM name="AAP-15: Dioses de la guerra" short="StuG IV: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ser uno de los 5 mejores jugadores de tu equipo por experiencia conseguida.\n• Permitir a tus aliados causar al menos 1000 PdV de daño a vehículos enemigos al aturdirlos o inmovilizarlos.</req>
+        <req>• Situarse entre los cinco jugadores del equipo que más experiencia consigan.\r\n• Tus aliados deben causar al menos 1000 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>
@@ -2110,7 +2116,7 @@
       </Secondary>
     </PM>
     <PM name="CL-8: ¡Sal de nuestra base!" short="Concepto del carro pesado T28: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
-      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
+      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participa en la captura con éxito de una base mientras consigues al menos 20 puntos de captura de base, o reinicias los puntos de captura de base de una base amiga/neutral mientras consigues al menos 20 puntos de captura de base.\n• Gana la batalla.</req>
       </Primary>
@@ -2571,7 +2577,7 @@
     <PM name="CC-14: El gran cazador (personal/pelotón)" short="Concepto del carro pesado T28: CC-14" desc="Un Pelotón bien coordinado de cazacarros no permitirá que el enemigo flanquee las posiciones de su equipo. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="134" opID="2" mID="14" setID="4" ID="quest_2_4_14_main" secID="quest_2_4_14_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
       <Hint>Proporciona fuego de cobertura a los miembros de tu Pelotón que hayan sufrido un correctivo. A veces es mejor atraer el fuego en tí mismo, dando a tus compañeros la oportunidad de retirarse.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Causa al menos el 25 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu cazacarros y en cualquier otro vehículo.</req>
+        <req>• Causa al menos el 25 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o en el total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu cazacarros y en cualquier otro vehículo.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
         <req>• Sobrevive en persona a la batalla.</req>
@@ -2715,7 +2721,7 @@
     <PM name="AAP-15: Dioses de la guerra" short="Concepto del carro pesado T28: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Concepto del carro pesado T28">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Ser uno de los tres mejores jugadores por experiencia conseguida de tu equipo.\n• Permitir a tus aliados causar al menos 1500 PdV de daño a vehículos enemigos al aturdirlos o inmovilizarlos.</req>
+        <req>• Situarse entre los tres jugadores del equipo que más experiencia consigan.\r\n• Tus aliados deben causar al menos 1500 puntos de daño a los vehículos enemigos que hayas aturdido o inmovilizado.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Sobrevive a la batalla.</req>
@@ -2785,7 +2791,7 @@
       </Secondary>
     </PM>
     <PM name="CL-8: ¡Sal de nuestra base!" short="T 55A: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
-      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
+      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participa en la captura con éxito de una base mientras consigues al menos 40 puntos de captura de base, o reinicias los puntos de captura de base de la base amiga/neutral mientras consigues al menos 40 puntos de captura de base.\n• Gana la batalla.</req>
       </Primary>
@@ -3246,7 +3252,7 @@
     <PM name="CC-14: El gran cazador (personal/pelotón)" short="T 55A: CC-14" desc="Un Pelotón bien coordinado de cazacarros no permitirá que el enemigo flanquee las posiciones de su equipo. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="209" opID="3" mID="14" setID="4" ID="quest_3_4_14_main" secID="quest_3_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="T 55A">
       <Hint>Proporciona fuego de cobertura a los miembros de tu Pelotón que hayan sufrido un correctivo. A veces es mejor atraer el fuego en tí mismo, dando a tus compañeros la oportunidad de retirarse.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos un 30 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propio cazacarros y en cualquier otro vehículo.</req>
+        <req>• Causa al menos un 30 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total del pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propio cazacarros y en cualquier otro vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Sobrevive en persona a la batalla.</req>
@@ -3460,7 +3466,7 @@
       </Secondary>
     </PM>
     <PM name="CL-8: ¡Sal de nuestra base!" short="Object 260: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
-      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
+      <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Participa en la captura con éxito de una base mientras consigues al menos 60 puntos de captura de base, o reinicia los puntos de captura de base de una base amiga/neutral mientras consigues al menos 60 puntos de captura de base.\n• Gana la batalla.</req>
       </Primary>
@@ -3921,7 +3927,7 @@
     <PM name="CC-14: El gran cazador (personal/pelotón)" short="Object 260: CC-14" desc="Un Pelotón bien coordinado de cazacarros no permitirá que el enemigo flanquee las posiciones de su equipo. Esta misión se puede completar bien como parte de un pelotón o en solitario, aunque lo segundo es mucho más difícil." tMID="284" opID="4" mID="14" setID="4" ID="quest_4_4_14_main" secID="quest_4_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="El Apoyo largamente esperado" reward="Object 260">
       <Hint>Proporciona fuego de cobertura a los miembros de tu Pelotón que hayan sufrido un correctivo. A veces es mejor atraer el fuego en tí mismo, dando a tus compañeros la oportunidad de retirarse.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="0" done="false">
-        <req>• Causa al menos el 35 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total de un pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propio cazacarros y en cualquier otro vehículo.</req>
+        <req>• Causa al menos el 35 % del daño total causado en vehículos enemigos por tu equipo, bien en persona o siendo parte del total de un pelotón.\n• Gana la batalla.\n• Se puede completar bien en persona o siendo parte de un pelotón que consista en tu propio cazacarros y en cualquier otro vehículo.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
         <req>• Sobrevive en persona a la batalla.</req>

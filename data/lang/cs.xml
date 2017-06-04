@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Nameless" lName="Nameless" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Objekt 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Objekt 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Město duchů" />
     <item ID="96_prohorovka_defense" Name="Ohnivý výběžek" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorfská aréna" />
     <item ID="117_eiffelball" Name="Eiffelův stadion" />
     <item ID="118_lostcityball" Name="Starý tankodrom" />
@@ -1950,7 +1956,7 @@
     <PM name="ART-5: Sdílení znamená péči" short="StuG IV: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="65" opID="1" mID="5" setID="5" ID="quest_1_5_5_main" secID="quest_1_5_5_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Umožněte svým spojencům způsobit minimálně 600 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 600 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Způsobte minimálně 3krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
@@ -2040,7 +2046,7 @@
     <PM name="ART-15: Bohové války" short="StuG IV: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dostaňte se mezi nejlepších 5 hráčů svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 1 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Dostaňte se mezi nejlepších 5 hráčů svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 1 000 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -2625,7 +2631,7 @@
     <PM name="ART-5: Sdílení znamená péči" short="T28 heavy tank concept: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Umožněte svým spojencům způsobit minimálně 1 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 1 000 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Způsobte minimálně 5krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
@@ -2715,7 +2721,7 @@
     <PM name="ART-15: Bohové války" short="T28 heavy tank concept: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 1 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Dostaňte se mezi nejlepší 3 hráče svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 1 500 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -3300,7 +3306,7 @@
     <PM name="ART-5: Sdílení znamená péči" short="T 55A: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Umožněte svým spojencům způsobit minimálně 2 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 2 000 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Způsobte minimálně 6krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
@@ -3390,7 +3396,7 @@
     <PM name="ART-15: Bohové války" short="T 55A: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč ve svém týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 2 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč svého týmu podle získaných zkušeností.\n• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 2 500 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>
@@ -3975,7 +3981,7 @@
     <PM name="ART-5: Sdílení znamená péči" short="Objekt 260: ART-5" desc="Nejen, že ochromení nepřátelských vozidel posune váš tým o krok blíže k vítězství, ale také vám zajistí, že dostanete další kredity a zkušenosti, pokud vaši spojenci poškodí nepřátelská vozidla, která jste ochromili. Nezapomeňte označit oblast, na kterou míříte (ve výchozím nastavení klávesa T), abyste své spojence informovali a přitáhli jejich pozornost." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Umožněte svým spojencům způsobit minimálně 3 000 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 3 000 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Způsobte minimálně 8krát poškození nepřátelským vozidlům střelbou nebo nárazem.</req>
@@ -4065,7 +4071,7 @@
     <PM name="ART-15: Bohové války" short="Objekt 260: ART-15" desc="Dělostřelectvo, které přežije co nejdéle, je pro tým skutečným přínosem. Pokračujte v palbě jednoho granátu za druhým, ale neriskujte, že se dostanete do palby nepřítele. Dejte si na čas a dvakrát si rozmyslete, než „stisknete spoušť“, protože pro vozidlo s dlouhou dobou nabíjení představuje nejlepší strategii „jeden výstřel — jeden zásah“." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Umožněte svým spojencům způsobit minimálně 3 500 HP poškození nepřátelským vozidlům tím, že je ochromíte či znehybníte.</req>
+        <req>• Dokončete bitvu jako nejlepší hráč z obou týmů podle získaných zkušeností.\n• Umožněte svým spojencům způsobit nepřátelským vozidlům minimálně 3 500 poškození tím, že je ochromíte či znehybníte.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Přežijte bitvu.</req>

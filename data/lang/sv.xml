@@ -178,6 +178,8 @@
     <tank ID="Ch26_59_Patton" sName="59-Patton" lName="59-Patton" />
     <tank ID="Ch28_WZ_132A" sName="WZ-132A" lName="WZ-132A" />
     <tank ID="Ch29_Type_62C_prot" sName="WZ-132-1" lName="WZ-132-1" />
+    <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
+    <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -334,6 +336,8 @@
     <tank ID="G125_Spz_57_Rh" sName="Rhm. Pzw." lName="Rheinmetall Panzerwagen" />
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
+    <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -552,6 +556,8 @@
     <tank ID="J26_Type_89" sName="I-Go/Chi-Ro" lName="Type 89 I-Go/Chi-Ro" />
     <tank ID="J27_O_I_120" sName="O-Ho" lName="O-Ho" />
     <tank ID="J28_O_I_100" sName="O-Ni" lName="O-Ni" />
+    <tank ID="J29_Nameless" sName="Namnlös" lName="Namnlös" />
+    <tank ID="J30_Edelweiss" sName="Edelweiss" lName="Edelweiss" />
     <tank ID="JagdPanther" sName="JPanther" lName="Jagdpanther" />
     <tank ID="JagdPantherII" sName="JPanther II" lName="Jagdpanther II" />
     <tank ID="JagdPz_E100" sName="Jg.Pz. E 100" lName="Jagdpanzer E 100" />
@@ -735,7 +741,9 @@
     <tank ID="R133_KV_122" sName="KV-122" lName="KV-122" />
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
+    <tank ID="R135_T_103" sName="T-103" lName="T-103" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
+    <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -1028,8 +1036,7 @@
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="95_lost_city" Name="Spökstad" />
     <item ID="96_prohorovka_defense" Name="Brandgata" />
-    <item ID="h11_WGL_GrandFinal_2016" />
-    <item ID="h12_bday_EU_2015" />
+    <item ID="h13_bovtankfest_2016" />
     <item ID="03_campania" />
     <item ID="15_komarin" />
     <item ID="39_crimea" />
@@ -1057,7 +1064,6 @@
     <item ID="h12_bday_eu_2015" />
     <item ID="119_moon_pool" />
     <item ID="h10_summer_holiday_2016" />
-    <item ID="h13_bovtankfest_2016" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Gamla Tankford" />
@@ -1959,7 +1965,7 @@
     <PM name="Art-6: Gudarnas hammare" short="StuG IV: Art-6" desc="Artilleriets huvuduppgift är att ge understöd till laget. Chockade fiendevagnar är lätta motståndare så dina lagkamrater kommer uppskatta din assistans. Var försiktig när du ger eld då ett oförsiktigt skott kan chocka dina egna allierade. Det är inte tillåtet att skada dina lagkamrater." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka minst 2 fiendevagnar skada på vagnar du själv chockat eller immobiliserat.</req>
+        <req>• Allierade vagnar måste åsamka skada på minst 2 fiendevagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -2040,7 +2046,7 @@
     <PM name="Art-15: Krigsgudar" short="StuG IV: Art-15" desc="En artillerivagn som överlever länge är en tillgång för laget. Håll igång din eldgivning, samtidigt som du byter eldställning för att undvika fientlig moteld. Tänk efter innan du trycker på avtryckaren då träff med varje granat är vad du strävar efter när du kör en vagn med lång omladdningstid." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Var bland de 5 i laget som tjänat mest erfarenhet.\n• Allierade vagnar måste åsamka 1 000 träffpoäng skada på fiender du själv chockat eller immobiliserat.</req>
+        <req>• Var bland de 5 i laget som tjänat mest erfarenhet.\n• Allierade vagnar måste åsamka 1 000 träffpoäng skada på fiender du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Överlev striden.</req>
@@ -2625,7 +2631,7 @@
     <PM name="Art-5: Delad glädje är dubbel glädje" short="T28 heavy tank concept: Art-5" desc="Att chocka fiendevagnar gör det inte bara lättare att ta hem segern, utan det ger även extra erfarenhet och krediter när dina allierade skadar vagnar du chockat. Glöm inte att signalera vilket område du siktar på (\&quot;T\&quot;-tangenten som standard) så dina lagkamrater kan dra nytta av din understödseld." tMID="140" opID="2" mID="5" setID="5" ID="quest_2_5_5_main" secID="quest_2_5_5_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka 1 000 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
+        <req>• Dina allierade måste åsamka 1 000 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Åsamka fiendevagnar skada minst 5 gånger genom att skjuta eller ramma dem.</req>
@@ -2634,7 +2640,7 @@
     <PM name="Art-6: Gudarnas hammare" short="T28 heavy tank concept: Art-6" desc="Artilleriets huvuduppgift är att ge understöd till laget. Chockade fiendevagnar är lätta motståndare så dina lagkamrater kommer uppskatta din assistans. Var försiktig när du ger eld då ett oförsiktigt skott kan chocka dina egna allierade. Det är inte tillåtet att skada dina lagkamrater." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka minst 3 fiendevagnar skada på vagnar du själv chockat eller immobiliserat.</req>
+        <req>• Allierade vagnar måste åsamka skada på minst 3 fiendevagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="0" done="false">
         <req>• Vinn striden.</req>
@@ -2715,7 +2721,7 @@
     <PM name="Art-15: Krigsgudar" short="T28 heavy tank concept: Art-15" desc="En artillerivagn som överlever länge är en tillgång för laget. Håll igång din eldgivning, samtidigt som du byter eldställning för att undvika fientlig moteld. Tänk efter innan du trycker på avtryckaren då träff med varje granat är vad du strävar efter när du kör en vagn med lång omladdningstid." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Var en av de 3 spelare i laget som tjänat mest erfarenhet och åsamkat mest skada.\n• Allierade vagnar måste åsamka 1 500 träffpoäng skada på fiender du själv chockat eller immobiliserat.</req>
+        <req>• Var en av de 3 spelare i laget som tjänat mest erfarenhet och åsamkat mest skada.\n• Allierade vagnar måste åsamka 1 500 träffpoäng skada på fiender du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Överlev striden.</req>
@@ -3300,7 +3306,7 @@
     <PM name="Art-5: Delad glädje är dubbel glädje" short="T-55A: Art-5" desc="Att chocka fiendevagnar gör det inte bara lättare att ta hem segern, utan det ger även extra erfarenhet och krediter när dina allierade skadar vagnar du chockat. Glöm inte att signalera vilket område du siktar på (\&quot;T\&quot;-tangenten som standard) så dina lagkamrater kan dra nytta av din understödseld." tMID="215" opID="3" mID="5" setID="5" ID="quest_3_5_5_main" secID="quest_3_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka 2 000 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
+        <req>• Dina allierade måste åsamka 2 000 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Åsamka fiendevagnar skada minst 6 gånger genom att skjuta eller ramma dem.</req>
@@ -3309,7 +3315,7 @@
     <PM name="Art-6: Gudarnas hammare" short="T-55A: Art-6" desc="Artilleriets huvuduppgift är att ge understöd till laget. Chockade fiendevagnar är lätta motståndare så dina lagkamrater kommer uppskatta din assistans. Var försiktig när du ger eld då ett oförsiktigt skott kan chocka dina egna allierade. Det är inte tillåtet att skada dina lagkamrater." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka skada på minst 5 fiendevagnar som du själv chockat eller immobiliserat.</req>
+        <req>• Allierade vagnar måste åsamka skada på minst 5 fiendevagnar som du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
         <req>• Vinn striden\n• Överlev striden.</req>
@@ -3975,7 +3981,7 @@
     <PM name="Art-5: Delad glädje är dubbel glädje" short="Objekt 260: Art-5" desc="Att chocka fiendevagnar gör det inte bara lättare att ta hem segern, utan det ger även extra erfarenhet och krediter när dina allierade skadar vagnar du chockat. Glöm inte att signalera vilket område du siktar på (\&quot;T\&quot;-tangenten som standard) så dina lagkamrater kan dra nytta av din understödseld." tMID="290" opID="4" mID="5" setID="5" ID="quest_4_5_5_main" secID="quest_4_5_5_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka minst 3 000 träffpoäng skada på vagnar som du själv chockat eller immobiliserat.</req>
+        <req>• Dina allierade måste åsamka minst 3 000 träffpoäng skada på vagnar som du själv chockat eller immobiliserat.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Åsamka fiendevagnar skada minst 8 gånger genom att skjuta eller ramma dem.</req>
@@ -3984,7 +3990,7 @@
     <PM name="Art-6: Gudarnas hammare" short="Objekt 260: Art-6" desc="Artilleriets huvuduppgift är att ge understöd till laget. Chockade fiendevagnar är lätta motståndare så dina lagkamrater kommer uppskatta din assistans. Var försiktig när du ger eld då ett oförsiktigt skott kan chocka dina egna allierade. Det är inte tillåtet att skada dina lagkamrater." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Allierade vagnar måste åsamka skada på minst 6 fiendevagnar som du själv chockat eller immobiliserat.</req>
+        <req>• Allierade vagnar måste åsamka skada på minst 6 fiendevagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="0" done="false">
         <req>• Vinn striden\n• Överlev striden.</req>
@@ -4065,7 +4071,7 @@
     <PM name="Art-15: Krigsgudar" short="Objekt 260: Art-15" desc="En artillerivagn som överlever länge är en tillgång för laget. Håll igång din eldgivning, samtidigt som du byter eldställning för att undvika fientlig moteld. Tänk efter innan du trycker på avtryckaren då träff med varje granat är vad du strävar efter när du kör en vagn med lång omladdningstid." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Var den spelare i laget som tjänat mest erfarenhet.\n• Dina allierade måste åsamka minst 3 500 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
+        <req>• Var den spelare i striden som tjänat mest erfarenhet.\n• Dina allierade måste åsamka minst 3 500 träffpoäng skada på vagnar du immobiliserat eller chockat.</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="1" done="false">
         <req>• Överlev striden.</req>
