@@ -3,7 +3,7 @@
   <Lang_Tanks>
     <tank ID="_105_leFH18B2" sName="leFH18B2" lName="105 leFH18B2" />
     <tank ID="_105_leFH18B2_IGR" sName="leFH18B2" lName="105 leFH18B2" />
-    <tank ID="A00_T110E5" />
+    <tank ID="A00_T110E5" sName="Mammoth" lName="Mammoth" />
     <tank ID="A01_T1_Cunningham" sName="T1" lName="T1 Cunningham" />
     <tank ID="A01_T1_Cunningham_bot" sName="T1" lName="T1 Cunningham" />
     <tank ID="A02_M2_lt" sName="M2 Light" lName="M2 Light Tank" />
@@ -137,7 +137,7 @@
     <tank ID="Bat_Chatillon155_55" sName="B-C 155 55" lName="Bat.-Châtillon 155 55" />
     <tank ID="Bat_Chatillon155_58" sName="B-C 155 58" lName="Bat.-Châtillon 155 58" />
     <tank ID="Bat_Chatillon25t" sName="B-C 25 t" lName="Bat.-Châtillon 25 t" />
-    <tank ID="Bat_Chatillon25t_fallout" />
+    <tank ID="Bat_Chatillon25t_fallout" sName="B-C 25 t (D)" lName="Bat.-Châtillon 25 t (D)" />
     <tank ID="Bat_Chatillon25t_IGR" sName="B-C 25 t" lName="Bat.-Châtillon 25 t" />
     <tank ID="BDR_G1B" sName="BDR G1 B" lName="BDR G1 B" />
     <tank ID="Bison_I" sName="Bison" lName="Sturmpanzer I Bison" />
@@ -213,7 +213,7 @@
     <tank ID="ELC_AMX" sName="AMX ELC bis" lName="AMX ELC bis" />
     <tank ID="ELC_AMX_IGR" sName="ELC AMX" lName="ELC AMX" />
     <tank ID="Env_Artillery" />
-    <tank ID="F00_AMX_50Foch_155" />
+    <tank ID="F00_AMX_50Foch_155" sName="Polar Bear" lName="Polar Bear" />
     <tank ID="F01_RenaultFT" sName="FT" lName="Renault FT" />
     <tank ID="F01_RenaultFT_bot" sName="FT" lName="Renault FT" />
     <tank ID="F02_D1" sName="D1" lName="D1" />
@@ -414,7 +414,7 @@
     <tank ID="G87_VK3002DB_V1" sName="VK 30.01 D" lName="VK 30.01 (D)" />
     <tank ID="G88_Indien_Panzer" sName="Indien-Pz." lName="Indien-Panzer" />
     <tank ID="G89_Leopard1" sName="Leopard 1" lName="Leopard 1" />
-    <tank ID="G89_Leopard1_fallout" />
+    <tank ID="G89_Leopard1_fallout" sName="Leopard 1 (D)" lName="Leopard 1 (D)" />
     <tank ID="G90_DW_II" sName="D.W. 2" lName="Durchbruchswagen 2" />
     <tank ID="G91_Pro_Ag_A" sName="Leopard PT A" lName="Leopard Prototyp A" />
     <tank ID="G92_VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
@@ -517,14 +517,14 @@
     <tank ID="Indien_Panzer" sName="Indien-Pz." lName="Indien-Panzer" />
     <tank ID="IS" sName="IS" lName="IS" />
     <tank ID="IS-3" sName="IS-3" lName="IS-3" />
-    <tank ID="IS-3_IGR" sName="IS-3" lName="IS-3" />
+    <tank ID="IS-3_IGR" sName="PC방 IS-3" lName="IS-3" />
     <tank ID="IS-4" sName="IS-4" lName="IS-4" />
     <tank ID="IS-7" sName="IS-7" lName="IS-7" />
     <tank ID="IS-7_fallout" sName="(R) IS-7" lName="(R) IS-7" />
     <tank ID="IS-7_IGR" sName="IS-7" lName="IS-7" />
     <tank ID="IS8" sName="T-10" lName="T-10" />
     <tank ID="ISU-152" sName="ISU-152" lName="ISU-152" />
-    <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
+    <tank ID="ISU-152_IGR" sName="PC방 ISU-152" lName="ISU-152" />
     <tank ID="J01_NC27" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="J01_NC27_bot" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="J02_Te_Ke" sName="Te-Ke" lName="Type 97 Te-Ke" />
@@ -565,7 +565,7 @@
     <tank ID="JagdTiger" sName="Jagdtiger" lName="Jagdtiger" />
     <tank ID="JagdTiger_SdKfz_185" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
     <tank ID="JagdTiger_SdKfz_185_IGR" sName="JgTig.8,8 cm" lName="8,8 cm Pak 43 Jagdtiger" />
-    <tank ID="Karl" />
+    <tank ID="Karl" sName="Karl" lName="Karl" />
     <tank ID="Ke_Ho" sName="Ke-Ho" lName="Type 5 Ke-Ho" />
     <tank ID="Ke_Ni" sName="Ke-Ni" lName="Type 98 Ke-Ni" />
     <tank ID="Ke_Ni_B" sName="Ke-Ni Otsu" lName="Type 98 Ke-Ni Otsu" />
@@ -574,7 +574,7 @@
     <tank ID="KV-13" sName="KV-13" lName="KV-13" />
     <tank ID="KV-1s" sName="KV-1S" lName="KV-1S" />
     <tank ID="KV2" sName="KV-2" lName="KV-2" />
-    <tank ID="KV2_IGR" sName="KV-2" lName="KV-2" />
+    <tank ID="KV2_IGR" sName="PC방 KV-2" lName="KV-2" />
     <tank ID="KV-220" sName="KV-220 T" lName="KV-220 Beta-Test" />
     <tank ID="KV-220_action" sName="KV-220" lName="KV-220" />
     <tank ID="KV-3" sName="KV-3" lName="KV-3" />
@@ -598,7 +598,7 @@
     <tank ID="M2_med" sName="M2 Medium" lName="M2 Medium Tank" />
     <tank ID="M22_Locust" sName="Locust" lName="M22 Locust" />
     <tank ID="M24_Chaffee" sName="Chaffee" lName="M24 Chaffee" />
-    <tank ID="M24_Chaffee_GT" />
+    <tank ID="M24_Chaffee_GT" sName="M24 Sport" lName="M24 Chaffee Sport" />
     <tank ID="M3_Grant" sName="M3 Lee" lName="M3 Lee" />
     <tank ID="M3_Stuart" sName="M3 Stuart" lName="M3 Stuart" />
     <tank ID="M3_Stuart_LL" sName="M3 Light" lName="M3 Light" />
@@ -636,17 +636,17 @@
     <tank ID="NC27" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="NC27_bot" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="Object_140" sName="Obj. 140" lName="Object 140" />
-    <tank ID="Object_140_fallout" />
+    <tank ID="Object_140_fallout" sName="Obj. 140 (D)" lName="Object 140 (D)" />
     <tank ID="Object_212" sName="212A" lName="212A" />
     <tank ID="Object_261" sName="Obj. 261" lName="Object 261" />
     <tank ID="Object_430" sName="Obj. 430" lName="Object 430" />
-    <tank ID="Object_704" />
+    <tank ID="Object_704" sName="Obj. 704" lName="Object 704" />
     <tank ID="Object_907" sName="Obj. 907" lName="Object 907" />
     <tank ID="Object_907A" sName="Obj. 907A" lName="Object 907A" />
     <tank ID="Object252" sName="IS-6" lName="IS-6" />
     <tank ID="Object263" sName="Obj. 263" lName="Object 263" />
     <tank ID="Object268" sName="Obj. 268" lName="Object 268" />
-    <tank ID="Object268_fallout" />
+    <tank ID="Object268_fallout" sName="Obj. 268 (D)" lName="Object 268 (D)" />
     <tank ID="Object416" sName="Obj. 416" lName="Object 416" />
     <tank ID="Observer" sName="Vaataja" lName="Vaataja" />
     <tank ID="Panther_II" sName="Panther II" lName="Panther II" />
@@ -670,11 +670,11 @@
     <tank ID="PzII" sName="Pz. II" lName="Pz.Kpfw. II" />
     <tank ID="PzII_J" sName="Pz. II J" lName="Pz.Kpfw. II Ausf. J" />
     <tank ID="PzII_Luchs" sName="Luchs" lName="Pz.Kpfw. II Luchs" />
-    <tank ID="PzIII" />
+    <tank ID="PzIII" sName="Pz. III" lName="Pz.Kpfw. III" />
     <tank ID="PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="PzIII_AusfJ" sName="Pz. III J" lName="Pz.Kpfw. III Ausf. J" />
     <tank ID="PzIII_IV" sName="Pz. III/IV" lName="Pz.Kpfw. III/IV" />
-    <tank ID="PzIII_training" />
+    <tank ID="PzIII_training" sName="Pz. III" lName="Pz.Kpfw. III" />
     <tank ID="PzIV" sName="Pz. IV" lName="Pz.Kpfw. IV" />
     <tank ID="PzIV_Hydro" sName="Pz. IV hydr." lName="Pz.Kpfw. IV hydrostat." />
     <tank ID="PzIV_schmalturm" sName="Pz. IV S." lName="Pz.Kpfw. IV Schmalturm" />
@@ -689,8 +689,8 @@
     <tank ID="PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_IGR" sName="Tiger II" lName="Tiger II" />
     <tank ID="PzVIB_Tiger_II_training" sName="Tiger II" lName="Tiger II" />
-    <tank ID="R00_Sfera" />
-    <tank ID="R00_T_50_2" />
+    <tank ID="R00_Sfera" sName="IS-360" lName="IS-360" />
+    <tank ID="R00_T_50_2" sName="Arctic Fox" lName="Arctic Fox" />
     <tank ID="R01_IS" sName="IS" lName="IS" />
     <tank ID="R02_SU-85" sName="SU-85" lName="SU-85" />
     <tank ID="R03_BT-7" sName="BT-7" lName="BT-7" />
@@ -812,7 +812,7 @@
     <tank ID="R86_LTP" sName="LTP" lName="LTP" />
     <tank ID="R87_T62A" sName="T-62A" lName="T-62A" />
     <tank ID="R87_T62A_fallout" sName="(R) T-62A" lName="(R) T-62A" />
-    <tank ID="R87_T62A_sport" sName="T-62А S" lName="T-62A SPORT" />
+    <tank ID="R87_T62A_sport" sName="T-62A S." lName="T-62A SPORT" />
     <tank ID="R88_Object268" sName="Obj. 268" lName="Object 268" />
     <tank ID="R89_SU122_44" sName="SU-122-44" lName="SU-122-44" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
@@ -870,7 +870,7 @@
     <tank ID="STA_1_IGR" sName="STA-1" lName="STA-1" />
     <tank ID="StuG_40_AusfG" sName="StuG III G" lName="StuG III Ausf. G" />
     <tank ID="StuG_40_AusfG_IGR" sName="StuG III G" lName="StuG III Ausf. G" />
-    <tank ID="StuGIII" />
+    <tank ID="StuGIII" sName="StuG III" lName="StuG III" />
     <tank ID="Sturer_Emil" sName="St. Emil" lName="Sturer Emil" />
     <tank ID="Sturmpanzer_II" sName="St.Pz. II" lName="Sturmpanzer II" />
     <tank ID="SU_85I" sName="SU-85I" lName="SU-85I" />
@@ -898,7 +898,7 @@
     <tank ID="T1_E6" sName="T1E6" lName="T1E6" />
     <tank ID="T1_hvy" sName="T1 Heavy" lName="T1 Heavy Tank" />
     <tank ID="T110" sName="T110E5" lName="T110E5" />
-    <tank ID="T110_fallout" />
+    <tank ID="T110_fallout" sName="T110E5 (D)" lName="T110E5 (D)" />
     <tank ID="T110E3" sName="T110E3" lName="T110E3" />
     <tank ID="T110E4" sName="T110E4" lName="T110E4" />
     <tank ID="T-127" sName="T-127" lName="T-127" />
@@ -927,7 +927,7 @@
     <tank ID="T32" sName="T32" lName="T32" />
     <tank ID="T-34" sName="T-34" lName="T-34" />
     <tank ID="T34_hvy" sName="T34" lName="T34" />
-    <tank ID="T34_hvy_IGR" sName="T34" lName="T34" />
+    <tank ID="T34_hvy_IGR" sName="PC방 T34" lName="T34" />
     <tank ID="T-34-85" sName="T-34-85" lName="T-34-85" />
     <tank ID="T-34-85_training" sName="T-34-85" lName="T-34-85" />
     <tank ID="T37" sName="T37" lName="T37" />
@@ -936,7 +936,7 @@
     <tank ID="T-44" sName="T-44" lName="T-44" />
     <tank ID="T44_122" sName="T-44-122" lName="T-44-122" />
     <tank ID="T44_85" sName="T-44-85" lName="T-44-85" />
-    <tank ID="T-44_IGR" sName="T-44" lName="T-44" />
+    <tank ID="T-44_IGR" sName="PC방 T-44" lName="T-44" />
     <tank ID="T-46" sName="T-46" lName="T-46" />
     <tank ID="T49" sName="T49" lName="T49" />
     <tank ID="T-50" sName="T-50" lName="T-50" />
@@ -944,20 +944,20 @@
     <tank ID="T54E1" sName="T54E1" lName="T54E1" />
     <tank ID="T57" sName="T57" lName="T57" />
     <tank ID="T57_58" sName="T57 Heavy" lName="T57 Heavy Tank" />
-    <tank ID="T57_58_fallout" />
+    <tank ID="T57_58_fallout" sName="T57 Heavy (D)" lName="T57 Heavy Tank (D)" />
     <tank ID="T-60" sName="T-60" lName="T-60" />
     <tank ID="T62A" sName="T-62A" lName="T-62A" />
-    <tank ID="T62A_sport" sName="T-62А S" lName="T-62A SPORT" />
+    <tank ID="T62A_sport" sName="T-62A S." lName="T-62A SPORT" />
     <tank ID="T67" sName="T67" lName="T67" />
-    <tank ID="T67_IGR" sName="T67" lName="T67" />
+    <tank ID="T67_IGR" sName="PC방 T67" lName="T67" />
     <tank ID="T69" sName="T69" lName="T69" />
     <tank ID="T69_IGR" sName="T69" lName="T69" />
     <tank ID="T7_Combat_Car" sName="T7 Car" lName="T7 Combat Car" />
     <tank ID="T-70" sName="T-70" lName="T-70" />
     <tank ID="T71" sName="T71" lName="T71" />
-    <tank ID="T71_IGR" sName="T71" lName="T71" />
+    <tank ID="T71_IGR" sName="PC방 T71" lName="T71" />
     <tank ID="T80" sName="T-80" lName="T-80" />
-    <tank ID="T82" />
+    <tank ID="T82" sName="T82" lName="T82" />
     <tank ID="T92" sName="T92 HMC" lName="T92 HMC" />
     <tank ID="T95" sName="T95" lName="T95" />
     <tank ID="T95_E2" sName="T95E2" lName="T95E2" />
@@ -996,20 +996,31 @@
     <item ID="00_tank_tutorial" Name="Treeningala" />
     <item ID="01_karelia" Name="Karjala" />
     <item ID="02_malinovka" Name="Malinovka" />
+    <item ID="03_campania" Name="Provints" />
     <item ID="04_himmelsdorf" Name="Himmelsdorf" />
     <item ID="05_prohorovka" Name="Prokhorovka" />
     <item ID="06_ensk" Name="Ensk" />
     <item ID="07_lakeville" Name="Lakeville" />
     <item ID="08_ruinberg" Name="Ruinberg" />
+    <item ID="10_hills" Name="Kaevandused" />
     <item ID="100_thepit" Name="Mittengard" />
     <item ID="101_dday" Name="Surmarannik" />
+    <item ID="102_deathtrack" Name="Tankiralli" />
     <item ID="103_ruinberg_winter" Name="Winterberg" />
-    <item ID="10_hills" Name="Kaevandused" />
+    <item ID="105_germany" Name="Berliin" />
+    <item ID="11_murovanka" Name="Murovanka" />
+    <item ID="111_paris" Name="Jäätunud" />
+    <item ID="112_eiffel_tower" Name="Purustatud pealinn" />
     <item ID="112_eiffel_tower_ctf" Name="Pariis" />
     <item ID="114_czech" Name="Pilsen" />
-    <item ID="11_murovanka" Name="Murovanka" />
+    <item ID="116_himmelball" Name="Himmelsdorfi areen" />
+    <item ID="117_eiffelball" Name="Stad Eiffel" />
+    <item ID="118_lostcityball" Name="Old Tankford" />
+    <item ID="119_moon_pool" Name="Kraater" />
+    <item ID="122_somme" Name="Somme lahing" />
     <item ID="13_erlenberg" Name="Erlenberg" />
     <item ID="14_siegfried_line" Name="Siegfriedi Liin" />
+    <item ID="15_komarin" Name="Komarin" />
     <item ID="17_munchen" Name="Widepark" />
     <item ID="18_cliff" Name="Kalju" />
     <item ID="19_monastery" Name="Klooster" />
@@ -1024,59 +1035,27 @@
     <item ID="36_fishing_bay" Name="Kalurilaht" />
     <item ID="37_caucasus" Name="Mäekuru" />
     <item ID="38_mannerheim_line" Name="Polaarala" />
+    <item ID="39_crimea" Name="Lõunarannik" />
+    <item ID="43_north_america" Name="Loodekaart" />
     <item ID="44_north_america" Name="Virgiinia tammed" />
     <item ID="45_north_america" Name="Kiirtee" />
     <item ID="47_canada_a" Name="Vaikne rannik" />
+    <item ID="51_asia" Name="Draakoni ahelik" />
+    <item ID="53_japan" Name="Varjatud küla" />
     <item ID="59_asia_great_wall" Name="Impeeriumi piir" />
+    <item ID="60_asia_miao" Name="Pärlijõgi" />
     <item ID="63_tundra" Name="Tundra" />
     <item ID="73_asia_korea" Name="Püha org" />
     <item ID="83_kharkiv" Name="Harkiv" />
     <item ID="84_winter" Name="Windstorm" />
+    <item ID="85_winter" Name="Severogorsk" />
     <item ID="86_himmelsdorf_winter" Name="Talvine Himmelsdorf" />
+    <item ID="87_ruinberg_on_fire" Name="Leekides Ruinberg" />
     <item ID="92_stalingrad" Name="Stalingrad" />
+    <item ID="94_battlecity" />
     <item ID="95_lost_city" Name="Kummituslinn" />
     <item ID="96_prohorovka_defense" Name="Tulest kaar" />
-    <item ID="h13_bovtankfest_2016" />
-    <item ID="03_campania" />
-    <item ID="15_komarin" />
-    <item ID="39_crimea" />
-    <item ID="43_north_america" />
-    <item ID="51_asia" />
-    <item ID="53_japan" />
-    <item ID="60_asia_miao" />
-    <item ID="85_winter" />
-    <item ID="87_ruinberg_on_fire" />
-    <item ID="99_himmelball" />
-    <item ID="102_deathtrack" />
-    <item ID="111_paris" Name="Jäätunud" />
-    <item ID="h01_bday_2015" />
-    <item ID="h02_tmday_2015" />
-    <item ID="105_germany" Name="Berliin" />
-    <item ID="112_eiffel_tower" Name="Purustatud pealinn" />
-    <item ID="h03_shopfest_2015" />
-    <item ID="h04_remday_2015" />
-    <item ID="h05_thanks_2015" />
-    <item ID="h06_vetday_2015" />
-    <item ID="94_battlecity" />
-    <item ID="h07_newyear_2015" />
-    <item ID="h09_bday_cn_2016" />
-    <item ID="h11_wgl_grandfinal_2016" />
-    <item ID="h12_bday_eu_2015" />
-    <item ID="119_moon_pool" />
-    <item ID="h10_summer_holiday_2016" />
-    <item ID="116_himmelball" Name="Himmelsdorfi areen" />
-    <item ID="117_eiffelball" Name="Stad Eiffel" />
-    <item ID="118_lostcityball" Name="Old Tankford" />
-    <item ID="h14_fevent_2016" />
-    <item ID="servercollision" />
-    <item ID="h15_gamescom_2016" />
-    <item ID="h16_wg_bday_2016" />
-    <item ID="h17_thgday_kr_2016" />
-    <item ID="h19_victory_day_cn" />
-    <item ID="122_somme" Name="Somme lahing" />
-    <item ID="h18_bdtanks100_2016" />
-    <item ID="h08_kr_lnewyear_2015" />
-    <item ID="h09_bday_CN_2016" />
+    <item ID="99_himmelball" Name="Himmelsdorfi meistrivõistlused" />
     <item ID="unknown" Name="Tundmatu" />
   </Lang_Maps>
   <Lang_Nations>
@@ -1130,7 +1109,14 @@
     <item ID="11" Name="Edenemised" />
     <item ID="12" Name="Tiimilahingud edetabelis" />
     <item ID="13" Name="Maailmakaart" />
+    <item ID="18" Name="Domineerimine" />
+    <item ID="19" Name="Terasjaht" />
+    <item ID="20" Name="Kokkupõrge" />
+    <item ID="21" Name="Edenemine" />
+    <item ID="22" Name="Edetabeli lahing" />
     <item ID="17" Name="Treeninglaager" />
+    <item ID="16" Name="Treeninglaager" />
+    <item ID="14" Name="Turniir" />
     <item ID="unknown" Name="Tundmatu" />
   </Lang_BattleTypes>
   <Lang_FinishReasons>
@@ -1173,6 +1159,7 @@
     <item ID="3" Name="Hävines õnnetuses" />
     <item ID="4" Name="Hävitatud surmatsooni poolt" />
     <item ID="5" Name="Masin uppus" />
+    <item ID="6" Name="Hävinenud tulemöllus" />
     <item ID="7" Name="Tahtlik enesehävitamine" />
     <item ID="unknown" Name="Tundmatu" />
   </Lang_DeathReasons>
