@@ -90,7 +90,7 @@
     <DataTank ID="R86_LTP" numID="221" numID_Nation="0" Tier="3" Type="lt" />
     <DataTank ID="R99_T44_122" numID="222" numID_Nation="0" Tier="7" Type="mt" />
     <DataTank ID="R98_T44_85" numID="223" numID_Nation="0" Tier="7" Type="mt" />
-    <DataTank ID="R98_T44_85M" numID="224" numID_Nation="0" Tier="8" Type="mt" />
+    <DataTank ID="R98_T44_85M" numID="224" numID_Nation="0" Tier="8" Type="lt" />
     <DataTank ID="R108_T34_85M" numID="227" numID_Nation="0" Tier="6" Type="mt" />
     <DataTank ID="R110_Object_260" numID="228" numID_Nation="0" Tier="10" Type="ht" />
     <DataTank ID="R111_ISU130" numID="229" numID_Nation="0" Tier="8" Type="td" />
@@ -122,6 +122,7 @@
     <DataTank ID="R135_T_103" numID="189" numID_Nation="0" Tier="8" Type="td" />
     <DataTank ID="R143_T_29" numID="187" numID_Nation="0" Tier="3" Type="mt" />
     <DataTank ID="R146_STG" numID="186" numID_Nation="0" Tier="8" Type="mt" />
+    <DataTank ID="R146_STG_Tday" numID="185" numID_Nation="0" Tier="8" Type="mt" />
     <DataTank ID="R87_T62A_fallout" numID="249" numID_Nation="0" Tier="10" Type="mt" />
     <DataTank ID="R45_IS-7_fallout" numID="251" numID_Nation="0" Tier="10" Type="ht" />
     <DataTank ID="R47_ISU-152_IGR" numID="151" numID_Nation="0" Tier="8" Type="td" />
@@ -323,6 +324,8 @@
     <DataTank ID="G115_Typ_205B" numID="77" numID_Nation="1" Tier="8" Type="ht" />
     <DataTank ID="G125_Spz_57_Rh" numID="78" numID_Nation="1" Tier="10" Type="lt" />
     <DataTank ID="G126_HWK_12" numID="79" numID_Nation="1" Tier="8" Type="lt" />
+    <DataTank ID="G98_Waffentrager_E100_P" numID="190" numID_Nation="1" Tier="10" Type="td" />
+    <DataTank ID="G138_VK168_02" numID="191" numID_Nation="1" Tier="8" Type="ht" />
     <DataTank ID="G136_Tiger_131" numID="192" numID_Nation="1" Tier="6" Type="ht" />
     <DataTank ID="G44_JagdTigerH" numID="193" numID_Nation="1" Tier="8" Type="td" />
     <DataTank ID="G16_PzVIB_Tiger_II_F" numID="194" numID_Nation="1" Tier="7" Type="ht" />
@@ -578,14 +581,14 @@
     <DataTank ID="A63_M46_Patton_KR" numID="223" numID_Nation="2" Tier="8" Type="mt" />
     <DataTank ID="A111_T25_Pilot" numID="224" numID_Nation="2" Tier="8" Type="mt" />
     <DataTank ID="A112_T71E2" numID="225" numID_Nation="2" Tier="7" Type="lt" />
-    <DataTank ID="A99_T92_LT" numID="226" numID_Nation="2" Tier="7" Type="lt" />
+    <DataTank ID="A99_T92_LT" numID="226" numID_Nation="2" Tier="8" Type="lt" />
     <DataTank ID="A115_Chrysler_K" numID="229" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="A117_T26E5" numID="230" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="A117_T26E5_Patriot" numID="231" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="A13_T34_hvy_BF" numID="232" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="A118_M4_Thunderbolt" numID="233" numID_Nation="2" Tier="6" Type="mt" />
-    <DataTank ID="A90_T69_IGR" numID="152" numID_Nation="2" Tier="8" Type="mt" />
     <DataTank ID="A103_T71E1_IGR" numID="151" numID_Nation="2" Tier="7" Type="lt" />
+    <DataTank ID="A90_T69_IGR" numID="152" numID_Nation="2" Tier="8" Type="mt" />
     <DataTank ID="A13_T34_hvy_IGR" numID="153" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="A36_Sherman_Jumbo_IGR" numID="154" numID_Nation="2" Tier="6" Type="mt" />
     <DataTank ID="A58_T67_IGR" numID="155" numID_Nation="2" Tier="5" Type="td" />
@@ -782,6 +785,7 @@
     <DataTank ID="F75_Char_de_25t" numID="22" numID_Nation="4" Tier="9" Type="mt" />
     <DataTank ID="F88_AMX_13_105" numID="67" numID_Nation="4" Tier="10" Type="lt" />
     <DataTank ID="F87_Batignolles-Chatillon_12t" numID="68" numID_Nation="4" Tier="8" Type="lt" />
+    <DataTank ID="F64_AMX_50Fosh_B" numID="69" numID_Nation="4" Tier="10" Type="td" />
     <DataTank ID="F89_Canon_dassaut_de_105" numID="241" numID_Nation="4" Tier="8" Type="td" />
     <DataTank ID="F74_AMX_M4_1949_Liberte" numID="242" numID_Nation="4" Tier="8" Type="ht" />
     <DataTank ID="F84_Somua_SM" numID="243" numID_Nation="4" Tier="8" Type="ht" />
@@ -1065,6 +1069,7 @@
     <DataItem ID="101_dday" numID="70" />
     <DataItem ID="114_czech" numID="74" />
     <DataItem ID="112_eiffel_tower_ctf" numID="75" />
+    <DataItem ID="212_epic_random_valley" numID="81" />
     <DataItem ID="15_komarin" numID="10" />
     <DataItem ID="03_campania" numID="27" />
     <DataItem ID="39_crimea" numID="32" />
@@ -1677,5 +1682,5 @@
     <ExpectedValueItem TnumID="244" NnumID="1" kills="1.01" spots="0.69" DMG="1369.06" WR="0.5112" Def="0.98" />
   </ExpectedValues>
   <ExpectedValuesVersion>30</ExpectedValuesVersion>
-  <LastUpdate_ExpectedValues>2017-08-19T18:57:50.8788992+02:00</LastUpdate_ExpectedValues>
+  <LastUpdate_ExpectedValues>2017-08-31T18:29:14.3286887+02:00</LastUpdate_ExpectedValues>
 </Data>

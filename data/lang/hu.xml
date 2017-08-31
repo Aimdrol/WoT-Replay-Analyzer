@@ -282,6 +282,7 @@
     <tank ID="F62_ELC_AMX" sName="AMX ELC bis" lName="AMX ELC bis" />
     <tank ID="F62_ELC_AMX_IGR" sName="ELC AMX" lName="ELC AMX" />
     <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
+    <tank ID="F64_AMX_50Fosh_B" sName="Foch B" lName="AMX 50 Foch B" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F66_AMX_Ob_Am105" sName="AMX 105 AM" lName="AMX 105 AM mle. 47" />
     <tank ID="F67_Bat_Chatillon155_55" sName="B-C 155 55" lName="Bat.-Châtillon 155 55" />
@@ -362,6 +363,7 @@
     <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
     <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G137_PzVI_Tiger_217" sName="Tiger 217" lName="Tiger 217" />
+    <tank ID="G138_VK168_02" sName="VK 168.01 P" lName="VK 168.01 (P)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -450,7 +452,8 @@
     <tank ID="G95_Pz_Sfl_IVb" sName="Pz.Sfl. IVb" lName="Pz.Sfl. IVb" />
     <tank ID="G96_VK3002M" sName="VK 30.02 M" lName="VK 30.02 (M)" />
     <tank ID="G97_Waffentrager_IV" sName="WT auf Pz. IV" lName="Waffenträger auf Pz. IV" />
-    <tank ID="G98_Waffentrager_E100" sName="WT auf E 100" lName="Waffenträger auf E 100" />
+    <tank ID="G98_Waffentrager_E100" sName="WT E 100" lName="Waffenträger auf E 100" />
+    <tank ID="G98_Waffentrager_E100_P" sName="WT E 100 (P)" lName="Waffenträger auf E 100 (P)" />
     <tank ID="G99_RhB_Waffentrager" sName="Rhm.-B. WT" lName="Rhm.-Borsig Waffenträger" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -778,6 +781,7 @@
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R146_STG" sName="STG" lName="STG" />
+    <tank ID="R146_STG_Tday" sName="Guard" lName="STG Guard" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -861,7 +865,7 @@
     <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="R97_Object_140" sName="Obj. 140" lName="Object 140" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
-    <tank ID="R98_T44_85M" sName="T-44-85M" lName="T-44-85M" />
+    <tank ID="R98_T44_85M" sName="T-44 ltwt." lName="T-44 lightweight" />
     <tank ID="R99_T44_122" sName="T-44-122" lName="T-44-122" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
@@ -1019,7 +1023,7 @@
     <tank ID="VK4502A" sName="VK 45.02 A" lName="VK 45.02 (P) Ausf. A" />
     <tank ID="VK4502P" sName="VK 45.02 B" lName="VK 45.02 (P) Ausf. B" />
     <tank ID="VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
-    <tank ID="Waffentrager_E100" sName="WT auf E 100" lName="Waffenträger auf E 100" />
+    <tank ID="Waffentrager_E100" sName="WT E 100" lName="Waffenträger auf E 100" />
     <tank ID="Waffentrager_IV" sName="WT auf Pz. IV" lName="Waffenträger auf Pz. IV" />
     <tank ID="Wespe" sName="Wespe" lName="Wespe" />
   </Lang_Tanks>
@@ -1063,6 +1067,7 @@
     <item ID="17_munchen" Name="Widepark" />
     <item ID="18_cliff" Name="Cliff" />
     <item ID="19_monastery" Name="Abbey" />
+    <item ID="212_epic_random_valley" Name="Nebelburg" />
     <item ID="22_slough" Name="Swamp" />
     <item ID="23_westfeld" Name="Westfield" />
     <item ID="28_desert" Name="Sand River" />
@@ -1118,7 +1123,7 @@
   </Lang_Results>
   <Lang_Gamemodes>
     <item ID="assault" Name="Támadás" />
-    <item ID="ctf" Name="Normál Csata" />
+    <item ID="ctf" Name="Normál csata" />
     <item ID="ctf2" Name="Foglald el" />
     <item ID="domination" Name="Csata ütközet" />
     <item ID="nations" Name="Összecsapás" />
@@ -1402,6 +1407,7 @@
     <achv ID_Num="882" ID="xmasTreeBronze" Name="Tökös Tank Ász, III. osztály" />
     <achv ID_Num="883" ID="xmasTreeSilver" Name="Tökös Tank Ász, II. osztály" />
     <achv ID_Num="884" ID="xmasTreeGold" Name="Tökös Tank Ász, I. osztály" />
+    <achv ID_Num="1106" ID="rankedBattlesPioneer" Name="Rangsorolt csata Pionír" />
     <achv ID_Num="0" ID="unknown" Name="Ismeretlen" />
   </Lang_Achievements>
   <Lang_PersonalMissions>
@@ -1519,7 +1525,7 @@
         <req>• Deríts fel ellenséges járműveket, lehetővé téve társaidnak, hogy legalább 1 500 életerő sebzést kioszthassanak, egyedül vagy az egész szakaszt tekintve.\n• Okozz te vagy az egész szakasz együtt 1 000 életerő sebzést ellenséges járműveknek.\n• Teljesítheted egyedül vagy szakaszban, a könnyű tankod mellett bármilyen tankokkal.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.\n• Nyerd meg a csatát.</req>
+        <req>• Éld túl a csatát.\n• Nyerd meg a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-14: Harci megfigyelő (Személyes/Szakasz)" short="StuG IV: LT-14" desc="Egy jól szervezett szakaszban egy könnyű tank igazi katasztrófa lehet az ellenségre nézve. Játssz szakaszban olyan járművekkel, amelyek jól kiegészítik a játékstílusodat: néha jobb önjáró löveg szakasz tagjaként harcolni, míg máskor jobb egy gyorsan mozgó szakaszban lenni. Ne félj kipróbálni különböző összeállításokat. Ezt a küldetést teljesítheted szakaszban vagy egyedül, bár utóbbi jóval nehezebb feladat." tMID="14" opID="1" mID="14" setID="1" ID="quest_1_1_14_main" secID="quest_1_1_14_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
@@ -1528,7 +1534,7 @@
         <req>• Deríts fel ellenséges járműveket, lehetővé téve társaidnak, hogy legalább 2 000 életerő sebzést kioszthassanak, egyedül vagy az egész szakaszt tekintve.\n• Teljesítheted egyedül vagy szakaszban, a könnyű tankod mellett bármilyen tankokkal.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-15: Agresszív felderítési specialista" short="StuG IV: LT-15" desc="Ideje megmutatni az ellenségnek, hogy mire képes egy igazi könnyű tank!" tMID="15" opID="1" mID="15" setID="1" ID="quest_1_1_15_main" secID="quest_1_1_15_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
@@ -1579,7 +1585,7 @@
     <PM name="HT-5: Célpont bemérve!" short="StuG IV: HT-5" desc="Ne hagyj esélyt az ellenségnek, találd el őket az első adandó alkalommal. Minden egyes találat egy lépéssel közelebb viszi a csapatodat a győzelemhez." tMID="20" opID="1" mID="5" setID="2" ID="quest_1_2_5_main" secID="quest_1_2_5_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Folyamatosan elemezd a helyzetet a harctéren. Gyakran jobb ha visszavonulsz egy előnytelen helyzetben, így később több sebzést tudsz okozni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Okozz legalább 1 000 életerő sebzést ellenségeknek közelről (legfeljebb a járműved látótávjáig)</req>
+        <req>• Okozz legalább 1 000 életerő sebzést ellenséges járműveknek kis távolságon (a járműved látótávolságán belül).</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Semmisíts meg legalább 2 ellenséges járművet.</req>
@@ -1597,7 +1603,7 @@
     <PM name="HT-7: Már megvédtem" short="StuG IV: HT-7" desc="Az áttörés taktika nagyszerű a nehéz tankok számára. Törd át az ellenség védelmi vonalát és foglald el a bázisukat. Viszont ne becsüld alá őket—mert lehet ők is hasonló taktikát használnak." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is tudsz védekezni a saját vagy a semleges, (ütközet során) bázison.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Vegyél részt sikeres bázisfoglalásban vagy szakítsd meg az ellenség bázisfoglalását a te bázisodon/semleges bázison.\n• Nyerd meg a csatát.\n• Okozz legalább 1 000 életpont sebzést ellenséges járműveknek.</req>
+        <req>• Vegyél részt sikeres bázisfoglalásban vagy szakítsd meg az ellenség bázisfoglalását a te bázisodon/semleges bázison.\n• Nyerd meg a csatát.\n• Okozz legalább 1 000 életerő sebzést ellenséges járműveknek.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Semmisíts meg egy ellenséges járművet.</req>
@@ -1606,7 +1612,7 @@
     <PM name="HT-8: Lángoló löveg" short="StuG IV: HT-8" desc="A páncélzat a legjobb barátod. Ossz ki annyi sebzést, amennyit csak tudsz, miközben az ellenség megpróbál elpusztítani, mindhiába." tMID="23" opID="1" mID="8" setID="2" ID="quest_1_2_8_main" secID="quest_1_2_8_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Akár egyetlen nehéz tank is komoly veszélyt jelenthet a csapatod számára. Próbáld meg a lehető leggyorsabban megsemmisíteni a nehéz tankokat, vagy a lehető legtöbb sebzést okozni nekik.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Okozz legalább 1 000 HP sebzést ellenséges nehéz tankoknak.</req>
+        <req>• Okozz legalább 1 000 életerő sebzést ellenséges nehéz tankoknak.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Semmisíts meg legalább 2 ellenséges járművet.</req>
@@ -1642,7 +1648,7 @@
     <PM name="HT-12: Masszív páncél" short="StuG IV: HT-12" desc="A páncélzatod képes nagy mennyiségű sérülést felfogni, ha megfelelően használod." tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Minél hosszabb ideig maradsz életben a csata során, annál hasznosabb leszel a csapatod számára.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Szerezz legalább annyi páncél által felfogott sebzést, mint amennyi a járműved életereje.\n• Okozz legalább 1 000 HP sebzést.</req>
+        <req>• Szerezz legalább annyi páncél által felfogott sebzést, mint amennyi a járműved életereje.\n• Okozz legalább 1 000 életerő sebzést.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.\n• Éld túl a csatát.</req>
@@ -1651,25 +1657,25 @@
     <PM name="HT-13: Rohamozd meg a védelmet! (Egyedül/Szakaszban)" short="StuG IV: HT-13" desc="Egy összehangolt nehéz tank szakasz még a legreménytelenebb csata  kimenetelét is megfordíthatja.  Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="28" opID="1" mID="13" setID="2" ID="quest_1_2_13_main" secID="quest_1_2_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Szakaszban játszva figyeljétek egymás hátát és fókuszáljátok a tüzet az ellenségre. Tartsátok egymást életben, törjétek át az ellenség védelmét és találjátok ki, hogyan nyerhetitek meg a csatát.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Semmisíts meg egy ellenséges járművet a csata első 3 percében, személyesen te vagy a szakasz egy tagja.\n• Teljesítheted egyedül vagy szakaszban, a nehéz tankod mellett bármilyen tankokkal.</req>
+        <req>• Semmisíts meg egy ellenséges járművet a csata első 3 percében. A szakasztársak által megsemmisített jármű is számít.\n• Teljesítheted egyedül vagy szakaszban. A szakaszban a nehéz tankod mellett bármilyen jármű lehet.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-14: Foglald el azt a magaslatot! (Egyedül/Szakaszban)" short="StuG IV: HT-14" desc="Semmisítsd meg az ellenség összes jármű típusát, állítsd meg a támadásukat ne adj nekik esélyt a győzelemre. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="29" opID="1" mID="14" setID="2" ID="quest_1_2_14_main" secID="quest_1_2_14_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Hangold össze a mozgásod a csapattársaiddal és próbáld meg őket fedezni a csatatéren.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Semmisíts meg 3 ellenséges járművet 2 különböző típusból, személyesen te vagy a szakasz egy tagja.\n• Teljesítheted egyedül vagy szakaszban, a nehéz tankod mellett bármilyen tankokkal.</req>
+        <req>• Semmisíts meg 3 ellenséges járművet 2 különböző típusból. A szakasztársak által megsemmisített járművek is számítanak.\n• Teljesítheted egyedül vagy szakaszban. A szakaszban a nehéz tankod mellett bármilyen jármű lehet.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-15: Edzett acél" short="StuG IV: HT-15" desc="Minél tovább van életben egy nehéz tank, annál több sebzést tud kiosztani az ellenségnek. Próbálj életben maradni, mert néha te leszel a csapat utolsó reménye a győzelemre." tMID="30" opID="1" mID="15" setID="2" ID="quest_1_2_15_main" secID="quest_1_2_15_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Légy résen. Élj túl! Próbáld meg elkerülni, hogy oldalról vagy hátulról eltaláljanak. Egy nehéz tank képes szinte bármely csatát megnyerni, ezért nagyon értékes célpontja az ellenség önjáró lövegeinek. Próbálj hideg fejjel cselekedni és ne hagyd, hogy lenyomjanak.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="4" done="false">
-        <req>• Az összes kiosztott sebzés, a kapott sebzés és a páncélzat által felfogott sebzés legyen legalább 6 000 életpont.</req>
+        <req>• Az összes kiosztott sebzés, a kapott sebzés és a páncélzat által felfogott sebzés legyen legalább 6 000 életerő.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -1813,7 +1819,7 @@
     <PM name="TD-1: Hatékony teljesítmény" short="StuG IV: TD-1" desc="A páncélvadászok kitűnő választás olyan játékosoknak, akik szeretik az ellenséget távolról megsemmisíteni." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>A páncélvadászok komoly tűzerővel rendelkeznek de túlélési arányuk viszonylag alacsony. Próbálj távolról tüzelni—a löveged nagy pontossága ezt lehetővé teszi.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Végezz a top 7 játékos között a megszerzett tapasztalati pont alapján a csapatodban.</req>
+        <req>• Végezz a 7 legjobb játékos között a megszerzett tapasztalati pont alapján a csapatodban.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -1825,7 +1831,7 @@
         <req>• Semmisíts meg 1 belső modult vagy sebesíts meg egy harckocsizót egy ellenséges járműben.</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="0" done="false">
-        <req>• Éld túl a csatát\n• A csata végére ne legyen kilőtt harckocsizód vagy sérült/megsemmisült belső modulod.</req>
+        <req>• Éld túl a csatát.\n• A csata végére ne legyen sebesült harckocsizód vagy sérült/megsemmisült belső modulod.</req>
       </Secondary>
     </PM>
     <PM name="TD-3: Jó vadászat" short="StuG IV: TD-3" desc="A páncélvadászok legnagyobb előnye a nagy tűzerő." tMID="48" opID="1" mID="3" setID="4" ID="quest_1_4_3_main" secID="quest_1_4_3_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
@@ -1894,7 +1900,7 @@
     <PM name="TD-10: Rejtett fenyegetés" short="StuG IV: TD-10" desc="Ha a páncélvadászod álcázása megfelelő, akkor a gyanútlan ellenséget következmények nélkül lőheted." tMID="55" opID="1" mID="10" setID="4" ID="quest_1_4_10_main" secID="quest_1_4_10_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Használj álcafestést és álcahálót. A csata során próbálj fedezékben maradni és a csapatod által felderített járművekre lőni.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Okozz legalább 1 000 életpont sebzést az ellenségnek. Maradj észrevétlen a sebzés bevitelének pillanatában.</req>
+        <req>• Okozz legalább 1 000 életerő sebzést az ellenségnek. Maradj észrevétlen a sebzés bevitelének pillanatában.</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -1903,7 +1909,7 @@
     <PM name="TD-11: Kulcsszerep" short="StuG IV: TD-11" desc="A te erős löveged az az erő, amivel számolni kell. Persze csak ha tudod, hogyan kell lőni vele." tMID="56" opID="1" mID="11" setID="4" ID="quest_1_4_11_main" secID="quest_1_4_11_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>A páncélvadászok legnagyobb kihívása az, hogy elég ideig éljenek a csatában ahhoz, hogy tűzerejüket teljes mértékben ki tudják használni. Támadnod kell de életben is kell maradnod.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Legyél te a legtöbb sebzést okozó játékos a csapatodban.\n• Okozz legalább 1 000 életpont sebzést.</req>
+        <req>• Legyél te a legtöbb sebzést okozó játékos a csapatodban.\n• Okozz legalább 1 000 életerő sebzést.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Éld túl a csatát.</req>
@@ -1912,7 +1918,7 @@
     <PM name="TD-12: Vadászat a nagyvadra" short="StuG IV: TD-12" desc="Az eszeddel és egy kiváló löveggel felfegyverkezve megsemmisítheted az ellenséges járműveket, mielőtt közel kerülnének hozzád. Rengeteg sebzést okozhatsz a felderített nehéz tankoknak, mielőtt téged is felderítenének." tMID="57" opID="1" mID="12" setID="4" ID="quest_1_4_12_main" secID="quest_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Képes vagy győzelemre vezetni a csapatod. Ha ismered az ellenséges járművek gyengepontjait, a vastag páncéljuk sem mentheti meg őket.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Semmisíts meg 1 ellenséges nehéz tankot.\n• Okozz legalább 1 000 HP sebzést.</req>
+        <req>• Semmisíts meg 1 ellenséges nehéz tankot.\n• Okozz legalább 1 000 életerő sebzést.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
         <req>• Nyerd meg a csatát.</req>
@@ -1921,10 +1927,10 @@
     <PM name="TD-13: Tank vadászok (Egyedül/Szakaszban)" short="StuG IV: TD-13" desc="Szakaszban egy célpontra tüzelve gyorsan ki tudjátok lőni az ellenséges tankokat. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="58" opID="1" mID="13" setID="4" ID="quest_1_4_13_main" secID="quest_1_4_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>A legtöbb páncélvadásznak kiváló egylövéses sebzése van. Hangold össze a tüzelést a szakasztársaiddal és adjatok le sortüzet az ellenségre. Nem sok ellenséges jármű képes túlélni az együttes találatokat.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="0" done="false">
-        <req>• Semmisíts meg 3 ellenséges járművet, te vagy az egész szakasz együtt.\n• Teljesíthető egyedül vagy egy szakasz tagjaként, a páncélvadászod mellett bármilyen tankokkal.</req>
+        <req>• Semmisíts meg 3 ellenséges járművet. A szakasztársak által megsemmisített járművek is számítanak.\n• Teljesítheted egyedül vagy szakaszban. A szakaszban a páncélvadászod mellett bármilyen jármű lehet.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-14: Nagy vadászat (Egyedül/Szakaszban)" short="StuG IV: TD-14" desc="Egy jól irányított páncélvadász szakasz nem engedi, hogy az ellenség a vonalak mögé kerüljön és hátba támadja a csapatot. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="59" opID="1" mID="14" setID="4" ID="quest_1_4_14_main" secID="quest_1_4_14_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
@@ -1933,7 +1939,7 @@
         <req>• Osszd ki te, a csapatod által az ellenséges csapatnak okozott összes sebzés 20%-át. A szakasztagok által okozott sebzés is beleszámít az összes sebzésbe\n• Nyerd meg a csatát.\n• Teljesíthető egyedül vagy egy szakasz tagjaként, a páncélvadászod mellett bármilyen tankokkal.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-15: Győzelem" short="StuG IV: TD-15" desc="Ha a diplomatikus út sikertelen, akkor a fegyvereké a szó. Úgyhogy töltsd csőre a szavaidat." tMID="60" opID="1" mID="15" setID="4" ID="quest_1_4_15_main" secID="quest_1_4_15_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
@@ -2194,7 +2200,7 @@
         <req>• Derítsd fel az ellenséges járműveket és tedd lehetővé, hogy a csapattársaid legalább 2 000 életpont sebzést okozzanak az ellenséges járművekben, egyedül vagy a szakaszod összesen.\n• Okozz legalább 1 500 életerő sebzést az ellenséges járműveknek, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.\n• Nyerd meg a csatát.</req>
+        <req>• Éld túl a csatát.\n• Nyerd meg a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-14: Harci megfigyelő (Személyes/Szakasz)" short="T28 heavy tank concept: LT-14" desc="Egy jól szervezett szakaszban egy könnyű tank igazi katasztrófa lehet az ellenségre nézve. Játssz szakaszban olyan járművekkel, amelyek jól kiegészítik a játékstílusodat: néha jobb önjáró löveg szakasz tagjaként harcolni, míg máskor jobb egy gyorsan mozgó szakaszban lenni. Ne félj kipróbálni különböző összeállításokat. Ezt a küldetést teljesítheted szakaszban vagy egyedül, bár utóbbi jóval nehezebb feladat." tMID="89" opID="2" mID="14" setID="1" ID="quest_2_1_14_main" secID="quest_2_1_14_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2203,7 +2209,7 @@
         <req>•  Derítsd fel az ellenséges járműveket és tedd lehetővé, hogy a csapattársaid legalább 3 000 életpont sebzést okozzanak az ellenséges járművekben, egyedül vagy a szakaszod összesen. \n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-15: Agresszív felderítési specialista" short="T28 heavy tank concept: LT-15" desc="Ideje megmutatni az ellenségnek, hogy mire képes egy igazi könnyű tank!" tMID="90" opID="2" mID="15" setID="1" ID="quest_2_1_15_main" secID="quest_2_1_15_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2329,7 +2335,7 @@
         <req>•  Semmisíts meg legalább 2 ellenséges járművet a csata első 3 perce alatt, egyedül vagy a szakaszod összesen. \n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-14: Foglald el azt a magaslatot! (Egyedül/Szakaszban)" short="T28 heavy tank concept: HT-14" desc="Semmisítsd meg az ellenség összes jármű típusát, állítsd meg a támadásukat ne adj nekik esélyt a győzelemre. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="104" opID="2" mID="14" setID="2" ID="quest_2_2_14_main" secID="quest_2_2_14_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2338,7 +2344,7 @@
         <req>•  Semmisíts meg legalább 4 ellenséges járművet, 2 különböző típusból, egyedül vagy a szakaszod összesen. \n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-15: Edzett acél" short="T28 heavy tank concept: HT-15" desc="Minél tovább van életben egy nehéz tank, annál több sebzést tud kiosztani az ellenségnek. Próbálj életben maradni, mert néha te leszel a csapat utolsó reménye a győzelemre." tMID="105" opID="2" mID="15" setID="2" ID="quest_2_2_15_main" secID="quest_2_2_15_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2500,7 +2506,7 @@
         <req>• Okozz legalább 1 000 életpont sebzést és semmisíts meg egy vagy több belső modult vagy okozz sebesülést az egyik harckocsizónak az ellenséges járműben.</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="0" done="false">
-        <req>• Éld túl a csatát\n• A csata végére ne legyen kilőtt harckocsizód vagy sérült/megsemmisült belső modulod.</req>
+        <req>• Éld túl a csatát.\n• A csata végére ne legyen sebesült harckocsizód vagy sérült/megsemmisült belső modulod.</req>
       </Secondary>
     </PM>
     <PM name="TD-3: Jó vadászat" short="T28 heavy tank concept: TD-3" desc="A páncélvadászok legnagyobb előnye a nagy tűzerő." tMID="123" opID="2" mID="3" setID="4" ID="quest_2_4_3_main" secID="quest_2_4_3_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2599,7 +2605,7 @@
         <req>• Semmisíts meg legalább 4 ellenséges járművet egyedül vagy a szakasz összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-14: Nagy vadászat (Egyedül/Szakaszban)" short="T28 heavy tank concept: TD-14" desc="Egy jól irányított páncélvadász szakasz nem engedi, hogy az ellenség a vonalak mögé kerüljön és hátba támadja a csapatot. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="134" opID="2" mID="14" setID="4" ID="quest_2_4_14_main" secID="quest_2_4_14_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2608,7 +2614,7 @@
         <req>• Okozd te egyedül vagy a szakaszod összesen, a csapatod ellenséges járműveknek okozott sebzésének a 25%-át.\n• Nyerd meg a csatát.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-15: Győzelem" short="T28 heavy tank concept: TD-15" desc="Ha a diplomatikus út sikertelen, akkor a fegyvereké a szó. Úgyhogy töltsd csőre a szavaidat." tMID="135" opID="2" mID="15" setID="4" ID="quest_2_4_15_main" secID="quest_2_4_15_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 heavy tank concept">
@@ -2869,7 +2875,7 @@
         <req>• Derítsd fel az ellenséges járműveket és tedd lehetővé a csapattársaknak, hogy legalább 2 500 életpont sebzést okozzanak, egyedül vagy a szakaszod összesen. \n• Okozz legalább 2 000 életpont sebzést az ellenséges járműveknek, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.\n• Nyerd meg a csatát.</req>
+        <req>• Éld túl a csatát.\n• Nyerd meg a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-14: Harci megfigyelő (Személyes/Szakasz)" short="T 55A: LT-14" desc="Egy jól szervezett szakaszban egy könnyű tank igazi katasztrófa lehet az ellenségre nézve. Játssz szakaszban olyan járművekkel, amelyek jól kiegészítik a játékstílusodat: néha jobb önjáró löveg szakasz tagjaként harcolni, míg máskor jobb egy gyorsan mozgó szakaszban lenni. Ne félj kipróbálni különböző összeállításokat. Ezt a küldetést teljesítheted szakaszban vagy egyedül, bár utóbbi jóval nehezebb feladat." tMID="164" opID="3" mID="14" setID="1" ID="quest_3_1_14_main" secID="quest_3_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -2878,7 +2884,7 @@
         <req>• Derítsd fel az ellenséges járműveket és tedd lehetővé a csapattársaknak, hogy legalább 5 000 életpont sebzést okozzanak, egyedül vagy a szakaszod összesen. \n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-15: Agresszív felderítési specialista" short="T 55A: LT-15" desc="Ideje megmutatni az ellenségnek, hogy mire képes egy igazi könnyű tank!" tMID="165" opID="3" mID="15" setID="1" ID="quest_3_1_15_main" secID="quest_3_1_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3004,7 +3010,7 @@
         <req>• Semmisít meg legalább 3 ellenséges járművet a csata első 3 perce alatt, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-14: Foglald el azt a magaslatot! (Egyedül/Szakaszban)" short="T 55A: HT-14" desc="Semmisítsd meg az ellenség összes jármű típusát, állítsd meg a támadásukat ne adj nekik esélyt a győzelemre. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="179" opID="3" mID="14" setID="2" ID="quest_3_2_14_main" secID="quest_3_2_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3013,7 +3019,7 @@
         <req>• Semmisít meg legalább 6 db 3 különböző típusú ellenséges járművet, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-15: Edzett acél" short="T 55A: HT-15" desc="Minél tovább van életben egy nehéz tank, annál több sebzést tud kiosztani az ellenségnek. Próbálj életben maradni, mert néha te leszel a csapat utolsó reménye a győzelemre." tMID="180" opID="3" mID="15" setID="2" ID="quest_3_2_15_main" secID="quest_3_2_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3175,7 +3181,7 @@
         <req>• Okozz legalább 2 000 életpont sebzést és semmisíts meg belső modult vagy sebesíts meg legénységi tagot az ellenséges járműben, összesen legalább kettőt.</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="0" done="false">
-        <req>• Éld túl a csatát\n• A csata végére ne legyen kilőtt harckocsizód vagy sérült/megsemmisült belső modulod.</req>
+        <req>• Éld túl a csatát.\n• A csata végére ne legyen sebesült harckocsizód vagy sérült/megsemmisült belső modulod.</req>
       </Secondary>
     </PM>
     <PM name="TD-3: Jó vadászat" short="T 55A: TD-3" desc="A páncélvadászok legnagyobb előnye a nagy tűzerő." tMID="198" opID="3" mID="3" setID="4" ID="quest_3_4_3_main" secID="quest_3_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3274,7 +3280,7 @@
         <req>• Semmisíts meg legalább 5 ellenséges járművet egyedül vagy a szakasz összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-14: Nagy vadászat (Egyedül/Szakaszban)" short="T 55A: TD-14" desc="Egy jól irányított páncélvadász szakasz nem engedi, hogy az ellenség a vonalak mögé kerüljön és hátba támadja a csapatot. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="209" opID="3" mID="14" setID="4" ID="quest_3_4_14_main" secID="quest_3_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3283,7 +3289,7 @@
         <req>• Okozd te egyedül vagy a szakaszod összesen, a csapatod ellenséges járműveknek okozott sebzésének a 30%-át.\n• Nyerd meg a csatát.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-15: Győzelem" short="T 55A: TD-15" desc="Ha a diplomatikus út sikertelen, akkor a fegyvereké a szó. Úgyhogy töltsd csőre a szavaidat." tMID="210" opID="3" mID="15" setID="4" ID="quest_3_4_15_main" secID="quest_3_4_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
@@ -3544,7 +3550,7 @@
         <req>• Derítsd fel az ellenséges járműveket és tedd lehetővé a csapattársaknak, hogy legalább 3 000 életpont sebzést okozzanak az ellenséges járműveknek, egyedül vagy a szakaszod összesen.\n• Okozz legalább 2 500 életpont sebzést ellenséges járműveknek egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.\n• Nyerd meg a csatát.</req>
+        <req>• Éld túl a csatát.\n• Nyerd meg a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-14: Harci megfigyelő (Személyes/Szakasz)" short="Object 260: LT-14" desc="Egy jól szervezett szakaszban egy könnyű tank igazi katasztrófa lehet az ellenségre nézve. Játssz szakaszban olyan járművekkel, amelyek jól kiegészítik a játékstílusodat: néha jobb önjáró löveg szakasz tagjaként harcolni, míg máskor jobb egy gyorsan mozgó szakaszban lenni. Ne félj kipróbálni különböző összeállításokat. Ezt a küldetést teljesítheted szakaszban vagy egyedül, bár utóbbi jóval nehezebb feladat." tMID="239" opID="4" mID="14" setID="1" ID="quest_4_1_14_main" secID="quest_4_1_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3553,7 +3559,7 @@
         <req>• Derítsd fel az ellenséges járműveket és tedd lehetővé a csapattársaknak, hogy legalább 6 000 életpont sebzést okozzanak az ellenséges járműveknek, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te könnyű tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="LT-15: Agresszív felderítési specialista" short="Object 260: LT-15" desc="Ideje megmutatni az ellenségnek, hogy mire képes egy igazi könnyű tank!" tMID="240" opID="4" mID="15" setID="1" ID="quest_4_1_15_main" secID="quest_4_1_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3679,7 +3685,7 @@
         <req>•Semmisíts meg legalább 4 ellenséges járművet a csata első 3 percében, egyedül vagy a szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-14: Foglald el azt a magaslatot! (Egyedül/Szakaszban)" short="Object 260: HT-14" desc="Semmisítsd meg az ellenség összes jármű típusát, állítsd meg a támadásukat ne adj nekik esélyt a győzelemre. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="254" opID="4" mID="14" setID="2" ID="quest_4_2_14_main" secID="quest_4_2_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3688,7 +3694,7 @@
         <req>• Semmisíts meg legalább 8db 3 különböző típusú ellenséges árművet, egyedül vagy szakaszod összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te nehéz tankod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="HT-15: Edzett acél" short="Object 260: HT-15" desc="Minél tovább van életben egy nehéz tank, annál több sebzést tud kiosztani az ellenségnek. Próbálj életben maradni, mert néha te leszel a csapat utolsó reménye a győzelemre." tMID="255" opID="4" mID="15" setID="2" ID="quest_4_2_15_main" secID="quest_4_2_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3850,7 +3856,7 @@
         <req>• Okozz az ellenséges járműnek legalább 5 000 életpont sebzést és semmisíts meg belső modult vagy sebesíts meg legénységi tagot az ellenséges járműben, összesen legalább hármat.</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="0" done="false">
-        <req>• Éld túl a csatát\n• A csata végére ne legyen kilőtt harckocsizód vagy sérült/megsemmisült belső modulod.</req>
+        <req>• Éld túl a csatát.\n• A csata végére ne legyen sebesült harckocsizód vagy sérült/megsemmisült belső modulod.</req>
       </Secondary>
     </PM>
     <PM name="TD-3: Jó vadászat" short="Object 260: TD-3" desc="A páncélvadászok legnagyobb előnye a nagy tűzerő." tMID="273" opID="4" mID="3" setID="4" ID="quest_4_4_3_main" secID="quest_4_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3949,7 +3955,7 @@
         <req>• Semmisíts meg legalább 6 ellenséges járművet egyedül vagy a szakasz összesen.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-14: Nagy vadászat (Egyedül/Szakaszban)" short="Object 260: TD-14" desc="Egy jól irányított páncélvadász szakasz nem engedi, hogy az ellenség a vonalak mögé kerüljön és hátba támadja a csapatot. Ezt a küldetés szakaszban és egyedül is teljesíteted, habár egyedül sokkal nehezebb." tMID="284" opID="4" mID="14" setID="4" ID="quest_4_4_14_main" secID="quest_4_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
@@ -3958,7 +3964,7 @@
         <req>• Okozd te egyedül vagy a szakaszod összesen, a csapatod ellenséges járműveknek okozott sebzésének a 35%-át.\n• Nyerd meg a csatát.\n• Egyedül vagy szakaszban is teljesíthető, amiben a te páncélvadászod és bármilyen más jármű van.</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="0" done="false">
-        <req>• Te éld túl a csatát.</req>
+        <req>• Éld túl a csatát.</req>
       </Secondary>
     </PM>
     <PM name="TD-15: Győzelem" short="Object 260: TD-15" desc="Ha a diplomatikus út sikertelen, akkor a fegyvereké a szó. Úgyhogy töltsd csőre a szavaidat." tMID="285" opID="4" mID="15" setID="4" ID="quest_4_4_15_main" secID="quest_4_4_15_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">

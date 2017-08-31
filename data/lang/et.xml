@@ -282,6 +282,7 @@
     <tank ID="F62_ELC_AMX" sName="AMX ELC bis" lName="AMX ELC bis" />
     <tank ID="F62_ELC_AMX_IGR" sName="ELC AMX" lName="ELC AMX" />
     <tank ID="F64_AMX_50Fosh_155" sName="Foch 155" lName="AMX 50 Foch (155)" />
+    <tank ID="F64_AMX_50Fosh_B" sName="Foch B" lName="AMX 50 Foch B" />
     <tank ID="F65_FCM_50t" sName="FCM 50 t" lName="FCM 50 t" />
     <tank ID="F66_AMX_Ob_Am105" sName="AMX 105 AM" lName="AMX 105 AM mle. 47" />
     <tank ID="F67_Bat_Chatillon155_55" sName="B-C 155 55" lName="Bat.-Châtillon 155 55" />
@@ -362,6 +363,7 @@
     <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
     <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G137_PzVI_Tiger_217" sName="Tiger 217" lName="Tiger 217" />
+    <tank ID="G138_VK168_02" sName="VK 168.01 P" lName="VK 168.01 (P)" />
     <tank ID="G14_PzIII_A" sName="Pz. III E" lName="Pz.Kpfw. III Ausf. E" />
     <tank ID="G15_VK3601H" sName="VK 36.01 H" lName="VK 36.01 (H)" />
     <tank ID="G16_PzVIB_Tiger_II" sName="Tiger II" lName="Tiger II" />
@@ -450,7 +452,8 @@
     <tank ID="G95_Pz_Sfl_IVb" sName="Pz.Sfl. IVb" lName="Pz.Sfl. IVb" />
     <tank ID="G96_VK3002M" sName="VK 30.02 M" lName="VK 30.02 (M)" />
     <tank ID="G97_Waffentrager_IV" sName="WT auf Pz. IV" lName="Waffenträger auf Pz. IV" />
-    <tank ID="G98_Waffentrager_E100" sName="WT auf E 100" lName="Waffenträger auf E 100" />
+    <tank ID="G98_Waffentrager_E100" sName="WT E 100" lName="Waffenträger auf E 100" />
+    <tank ID="G98_Waffentrager_E100_P" sName="WT E 100 (P)" lName="Waffenträger auf E 100 (P)" />
     <tank ID="G99_RhB_Waffentrager" sName="Rhm.-B. WT" lName="Rhm.-Borsig Waffenträger" />
     <tank ID="GAZ-74b" sName="SU-85B" lName="SU-85B" />
     <tank ID="GB01_Medium_Mark_I" sName="Medium I" lName="Vickers Medium Mk. I" />
@@ -778,6 +781,7 @@
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R143_T_29" sName="T-29" lName="T-29" />
     <tank ID="R146_STG" sName="STG" lName="STG" />
+    <tank ID="R146_STG_Tday" sName="Valvur" lName="STG valvur" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -861,7 +865,7 @@
     <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="R97_Object_140" sName="Obj. 140" lName="Object 140" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
-    <tank ID="R98_T44_85M" sName="T-44-85M" lName="T-44-85M" />
+    <tank ID="R98_T44_85M" sName="T-44 ltwt." lName="T-44 lightweight" />
     <tank ID="R99_T44_122" sName="T-44-122" lName="T-44-122" />
     <tank ID="Ram-II" sName="Ram II" lName="Ram II" />
     <tank ID="RenaultBS" sName="FT BS" lName="Renault FT 75 BS" />
@@ -1019,7 +1023,7 @@
     <tank ID="VK4502A" sName="VK 45.02 A" lName="VK 45.02 (P) Ausf. A" />
     <tank ID="VK4502P" sName="VK 45.02 B" lName="VK 45.02 (P) Ausf. B" />
     <tank ID="VK7201" sName="VK 72.01 K" lName="VK 72.01 (K)" />
-    <tank ID="Waffentrager_E100" sName="WT auf E 100" lName="Waffenträger auf E 100" />
+    <tank ID="Waffentrager_E100" sName="WT E 100" lName="Waffenträger auf E 100" />
     <tank ID="Waffentrager_IV" sName="WT auf Pz. IV" lName="Waffenträger auf Pz. IV" />
     <tank ID="Wespe" sName="Wespe" lName="Wespe" />
   </Lang_Tanks>
@@ -1063,6 +1067,7 @@
     <item ID="17_munchen" Name="Widepark" />
     <item ID="18_cliff" Name="Kalju" />
     <item ID="19_monastery" Name="Klooster" />
+    <item ID="212_epic_random_valley" Name="Nebelburg" />
     <item ID="22_slough" Name="Raba" />
     <item ID="23_westfeld" Name="Westfield" />
     <item ID="28_desert" Name="Liivajõgi" />
@@ -1402,6 +1407,7 @@
     <achv ID_Num="882" ID="xmasTreeBronze" Name="Halb tankiäss, III klass" />
     <achv ID_Num="883" ID="xmasTreeSilver" Name="Halb tankiäss, II klass" />
     <achv ID_Num="884" ID="xmasTreeGold" Name="Halb tankiäss, I klass" />
+    <achv ID_Num="1106" ID="rankedBattlesPioneer" Name="Edetabeli lahingute pioneer" />
     <achv ID_Num="0" ID="unknown" Name="Tundmatu" />
   </Lang_Achievements>
   <Lang_PersonalMissions>
