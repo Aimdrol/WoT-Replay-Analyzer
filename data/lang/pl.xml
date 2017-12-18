@@ -1062,6 +1062,7 @@
     <item ID="102_deathtrack" Name="Wyścig czołgów" />
     <item ID="103_ruinberg_winter" Name="Winterberg" />
     <item ID="105_germany" Name="Berlin" />
+    <item ID="109_battlecity_ny" Name="Zimowa bitwa" />
     <item ID="11_murovanka" Name="Murowanka" />
     <item ID="111_paris" Name="W okowach lodu" />
     <item ID="112_eiffel_tower" Name="Spustoszona stolica" />
@@ -1433,6 +1434,9 @@
     <achv ID_Num="883" ID="xmasTreeSilver" Name="Zły as pancerny II klasy" />
     <achv ID_Num="884" ID="xmasTreeGold" Name="Zły as pancerny I klasy" />
     <achv ID_Num="1106" ID="rankedBattlesPioneer" Name="Pionier bitew rankingowych" />
+    <achv ID_Num="1150" ID="HE17A1" Name="Znak bestii" />
+    <achv ID_Num="1151" ID="HE17A2" Name="Nieumarli" />
+    <achv ID_Num="1152" ID="HE17A3" Name="Zbawienie" />
     <achv ID_Num="0" ID="unknown" Name="Nieznany" />
   </Lang_Achievements>
   <Lang_PersonalMissions>
@@ -1599,7 +1603,7 @@
       </Secondary>
     </PM>
     <PM name="CC-4: Uderzaj tak, żeby bolało!" short="StuG IV: CC-4" desc="Powinieneś znać nie tylko swój czołg, ale również pojazdy przeciwnika. Zapoznaj się dobrze z pojazdami, które prawdopodobnie spotkasz w bitwie i celuj w ich słabe punkty." tMID="19" opID="1" mID="4" setID="2" ID="quest_1_2_4_main" secID="quest_1_2_4_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
-      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieżyczki, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
+      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieży, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>• Uszkodź lub zniszcz moduł wewnętrzny lub zrań członka załogi pojazdu przeciwnika.</req>
       </Primary>
@@ -2274,7 +2278,7 @@
       </Secondary>
     </PM>
     <PM name="CC-4: Uderzaj tak, żeby bolało!" short="T28 Heavy Tank Concept: CC-4" desc="Powinieneś znać nie tylko swój czołg, ale również pojazdy przeciwnika. Zapoznaj się dobrze z pojazdami, które prawdopodobnie spotkasz w bitwie i celuj w ich słabe punkty." tMID="94" opID="2" mID="4" setID="2" ID="quest_2_2_4_main" secID="quest_2_2_4_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
-      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieżyczki, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
+      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieży, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>• Uszkodź lub zniszcz moduły wewnętrzne pojazdu przeciwnika lub zrań członków jego załogi, łącznie 3 moduły i członków załogi.\n• Liczby uszkodzonych/zniszczonych modułów i zranionych członków załogi sumują się wśród wszystkich uszkodzonych przez Ciebie pojazdów przeciwnika.</req>
       </Primary>
@@ -2762,7 +2766,7 @@
     <PM name="DS-13: W jak współpraca" short="T28 Heavy Tank Concept: DS-13" desc="Dobra współpraca pomiędzy działami samobieżnymi i resztą drużyny stanowi duże zagrożenie dla przeciwników. Skoordynuj swoje działania i koncentruj swój ogień na jednym przeciwniku na raz." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>• Zadaj uszkodzenia pojazdom przeciwnika przynajmniej 6 razy lub ogłusz je przynajmniej 8 razy. Do tej sumy liczą się uszkodzenia i ogłuszenia przez członków plutonu. Można ukończyć w pojedynkę lub w plutonie złożonym z Twojego działa samobieżnego i dowolnych innych pojazdów.</req>
+        <req>• Zadaj uszkodzenia pojazdom przeciwnika przynajmniej 6 razy lub ogłusz je przynajmniej 8 razy. Do tej sumy liczą się uszkodzenia i ogłuszenia zadane przez członków plutonu.• Można ukończyć w pojedynkę lub w plutonie złożonym z Twojego działa samobieżnego i dowolnych innych pojazdów.</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>• Wygraj bitwę.</req>
@@ -2949,7 +2953,7 @@
       </Secondary>
     </PM>
     <PM name="CC-4: Uderzaj tak, żeby bolało!" short="T 55A: CC-4" desc="Powinieneś znać nie tylko swój czołg, ale również pojazdy przeciwnika. Zapoznaj się dobrze z pojazdami, które prawdopodobnie spotkasz w bitwie i celuj w ich słabe punkty." tMID="169" opID="3" mID="4" setID="2" ID="quest_3_2_4_main" secID="quest_3_2_4_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
-      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieżyczki, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
+      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieży, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>• Uszkodź lub zniszcz moduły wewnętrzne pojazdu przeciwnika lub zrań członków jego załogi, łącznie 5 modułów i członków załogi.\n• Liczby uszkodzonych/zniszczonych modułów i zranionych członków załogi sumują się wśród wszystkich zniszczonych przez Ciebie pojazdów przeciwnika.</req>
       </Primary>
@@ -3624,7 +3628,7 @@
       </Secondary>
     </PM>
     <PM name="CC-4: Uderzaj tak, żeby bolało!" short="Object 260: CC-4" desc="Powinieneś znać nie tylko swój czołg, ale również pojazdy przeciwnika. Zapoznaj się dobrze z pojazdami, które prawdopodobnie spotkasz w bitwie i celuj w ich słabe punkty." tMID="244" opID="4" mID="4" setID="2" ID="quest_4_2_4_main" secID="quest_4_2_4_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
-      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieżyczki, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
+      <Hint>Możesz unieruchomić pojazd przeciwnika trafiając w jego silnik, a jeden dokładnie wymierzony strzał w magazyn amunicyjny pojazdu może Ci zapewnić wygraną w najtrudniejszym pojedynku. Moduły wewnętrzne to obręcz wieży, silnik, baki paliwa, magazyn amunicyjny i radio.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>• Uszkodź lub zniszcz moduły wewnętrzne pojazdu przeciwnika lub zrań członków jego załogi, łącznie 6 modułów i członków załogi.\n• Liczby uszkodzonych/zniszczonych modułów i zranionych członków załogi sumują się wśród wszystkich zniszczonych przez Ciebie pojazdów przeciwnika.</req>
       </Primary>
