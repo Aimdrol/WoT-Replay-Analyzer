@@ -788,7 +788,7 @@
     <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Object 268 Version V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (R)" lName="T-44-100 (R)" />
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
-    <tank ID="R129_Object_257" sName="Obj. 257" lName="Object 257" />
+    <tank ID="R129_Object_257" sName="Obj. 257 P" lName="Object 257 (P)" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
     <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
     <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
@@ -796,12 +796,18 @@
     <tank ID="R134_Object_252K" sName="Defender" lName="Object 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Object 252U" />
     <tank ID="R135_T_103" sName="T-103" lName="T-103" />
+    <tank ID="R139_IS_2_Sh" sName="IS-M" lName="IS-M" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R140_M4_Loza" sName="Loza's M4-A2" lName="Loza's M4-A2 Sherman" />
     <tank ID="R143_T_29" sName="T-29" lName="T-29" />
+    <tank ID="R145_Object_705_A" sName="Obj. 705A" lName="Object 705A" />
     <tank ID="R146_STG" sName="STG" lName="STG" />
     <tank ID="R146_STG_Tday" sName="Gwardzista" lName="Gwardzista STG" />
+    <tank ID="R148_Object_430_U" sName="Obj. 430U" lName="Object 430U" />
+    <tank ID="R149_Object_268_4" sName="Obj. 268 4" lName="Object 268 Version 4" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
+    <tank ID="R151_Object_257_2" sName="Obj. 257" lName="Object 257" />
+    <tank ID="R153_Object_705" sName="Obj. 705" lName="Object 705" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
@@ -879,9 +885,11 @@
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
     <tank ID="R91_SU14_1" sName="SU-14-1" lName="SU-14-1" />
     <tank ID="R93_Object263" sName="Ob. 263" lName="Object 263" />
+    <tank ID="R93_Object263B" sName="Obj. 263B" lName="Object 263B" />
     <tank ID="R95_Object_907" sName="Ob. 907" lName="Object 907" />
     <tank ID="R95_Object_907A" sName="Obj. 907A" lName="Object 907A" />
     <tank ID="R96_Object_430" sName="Ob. 430" lName="Object 430" />
+    <tank ID="R96_Object_430B" sName="Obj. 430B" lName="Object 430B" />
     <tank ID="R97_Object_140" sName="Ob. 140" lName="Object 140" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
     <tank ID="R98_T44_85M" sName="T-44 ltwt." lName="T-44 lightweight" />
@@ -2092,7 +2100,7 @@
     <PM name="DS-9: Straty uboczne" short="StuG IV: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 3 moduły lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 3 moduły lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj</req>
@@ -2806,7 +2814,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="T28 Heavy Tank Concept: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 5 modułów lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 5 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
@@ -3537,7 +3545,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="T 55A: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 8 modułów lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 8 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Pozostań niewykryty przez całą bitwę
@@ -4271,7 +4279,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="Object 260: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 10 modułów wewnętrznych lub zrań 10 członków załogi</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 10 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Pozostań niewykryty przez całą bitwę
@@ -4979,7 +4987,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="StuG IV: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="69" opID="1" mID="9" setID="5" ID="fallout_1_5_9_main" secID="fallout_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 3 moduły lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 3 moduły lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj</req>
@@ -5693,7 +5701,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="T28 Heavy Tank Concept: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="144" opID="2" mID="9" setID="5" ID="fallout_2_5_9_main" secID="fallout_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 5 modułów lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 5 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
@@ -6424,7 +6432,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="T 55A: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="219" opID="3" mID="9" setID="5" ID="fallout_3_5_9_main" secID="fallout_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 8 modułów lub załogantów</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 8 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Pozostań niewykryty przez całą bitwę
@@ -7158,7 +7166,7 @@ lub
     <PM name="DS-9: Straty uboczne" short="Object 260: DS-9" desc="Potężne pociski odłamkowo-burzące nie tylko mogą zmniejszyć liczbę punktów wytrzymałości pojazdów przeciwnika, ale mają również dużą szansę zniszczenia ich modułów lub zranienia członków ich załogi odłamkami." tMID="294" opID="4" mID="9" setID="5" ID="fallout_4_5_9_main" secID="fallout_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 10 modułów wewnętrznych lub zrań 10 członków załogi</req>
+        <req>•  Zniszcz moduły wewnętrzne lub zrań członków załóg, łącznie przynajmniej 10 modułów lub członków załogi</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Pozostań niewykryty przez całą bitwę

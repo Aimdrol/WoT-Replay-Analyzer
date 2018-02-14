@@ -688,7 +688,7 @@
     <tank ID="Object_140_fallout" sName="Obj. 140 (D)" lName="Objekt 140 (D)" />
     <tank ID="Object_212" sName="212A" lName="212A" />
     <tank ID="Object_261" sName="Obj. 261" lName="Objekt 261" />
-    <tank ID="Object_430" sName="Obj. 430" lName="Objekt 430" />
+    <tank ID="Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="Object_704" sName="Obj. 704" lName="Objekt 704" />
     <tank ID="Object_907" sName="Obj. 907" lName="Objekt 907" />
     <tank ID="Object_907A" sName="Obj. 907A" lName="Objekt 907A" />
@@ -788,7 +788,7 @@
     <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Objekt 268 Verze V" />
     <tank ID="R127_T44_100_P" sName="T-44-100 (R)" lName="T-44-100 (R)" />
     <tank ID="R128_KV4_Kreslavskiy" sName="KV-4 Kresl." lName="KV-4 Kreslavskiy" />
-    <tank ID="R129_Object_257" sName="Obj. 257" lName="Objekt 257" />
+    <tank ID="R129_Object_257" sName="Obj. 257 P" lName="Objekt 257 (P)" />
     <tank ID="R13_KV-1s" sName="KV-1S" lName="KV-1S" />
     <tank ID="R131_Tank_Gavalov" sName="LTG" lName="LTG" />
     <tank ID="R132_VNII_100LT" sName="T-100 LT" lName="T-100 LT" />
@@ -796,12 +796,18 @@
     <tank ID="R134_Object_252K" sName="Defender" lName="Objekt 252U Defender" />
     <tank ID="R134_Object_252U" sName="Obj. 252U" lName="Objekt 252U" />
     <tank ID="R135_T_103" sName="T-103" lName="T-103" />
+    <tank ID="R139_IS_2_Sh" sName="IS-M" lName="IS-M" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R140_M4_Loza" sName="Lózův M4-A2" lName="Lózův M4-A2 Sherman" />
     <tank ID="R143_T_29" sName="T-29" lName="T-29" />
+    <tank ID="R145_Object_705_A" sName="Obj. 705A" lName="Objekt 705A" />
     <tank ID="R146_STG" sName="STG" lName="STG" />
     <tank ID="R146_STG_Tday" sName="Guard" lName="STG Guard" />
+    <tank ID="R148_Object_430_U" sName="Obj. 430U" lName="Objekt 430U" />
+    <tank ID="R149_Object_268_4" sName="Obj. 268 4" lName="Objekt 268 verze 4" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
+    <tank ID="R151_Object_257_2" sName="Obj. 257" lName="Objekt 257" />
+    <tank ID="R153_Object_705" sName="Obj. 705" lName="Objekt 705" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
@@ -879,9 +885,11 @@
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
     <tank ID="R91_SU14_1" sName="SU-14-1" lName="SU-14-1" />
     <tank ID="R93_Object263" sName="Obj. 263" lName="Objekt 263" />
+    <tank ID="R93_Object263B" sName="Obj. 263B" lName="Objekt 263B" />
     <tank ID="R95_Object_907" sName="Obj. 907" lName="Objekt 907" />
     <tank ID="R95_Object_907A" sName="Obj. 907A" lName="Objekt 907A" />
     <tank ID="R96_Object_430" sName="Obj. 430" lName="Objekt 430" />
+    <tank ID="R96_Object_430B" sName="Obj. 430B" lName="Objekt 430B" />
     <tank ID="R97_Object_140" sName="Obj. 140" lName="Objekt 140" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
     <tank ID="R98_T44_85M" sName="T-44 odl." lName="T-44 odlehčený" />
@@ -2092,7 +2100,7 @@
     <PM name="ART-9: Vedlejší škody" short="StuG IV: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 3 moduly či členy posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 3 moduly či členy posádky</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Přežijte</req>
@@ -2137,7 +2145,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="StuG IV: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+    <PM name="ART-14: Jeden z nás!" short="StuG IV: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 70 sekund (osobní/četa)
@@ -2806,7 +2814,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="T28 heavy tank concept: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 5 modulů či členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 5 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte
@@ -2852,7 +2860,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="T28 heavy tank concept: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+    <PM name="ART-14: Jeden z nás!" short="T28 heavy tank concept: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 100 sekund (osobní/četa)
@@ -3537,7 +3545,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="T 55A: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 8 modulů či členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 8 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zůstaňte po celou bitvu neodhaleni
@@ -3584,7 +3592,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="T 55A: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+    <PM name="ART-14: Jeden z nás!" short="T 55A: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 180 sekund (osobní/četa)
@@ -4271,7 +4279,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="Objekt 260: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte 10 vnitřních modulů nebo zraňte 10 členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 10 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zůstaňte po celou bitvu neodhaleni
@@ -4318,12 +4326,12 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="Objekt 260: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+    <PM name="ART-14: Jeden z nás!" short="Objekt 260: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Ochromte celkem na 250 sekund (osobní/četa)
 nebo
-•  Spojenci musí způsobit 1 000 HP poškození vozidlu, které jste ochromili</req>
+•  Spjenci musí způsobit 1 000 HP poškození nepřátelským vozidlům, která jste znehybnili</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>
@@ -4979,7 +4987,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="StuG IV: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="69" opID="1" mID="9" setID="5" ID="fallout_1_5_9_main" secID="fallout_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 3 moduly či členy posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 3 moduly či členy posádky</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Přežijte</req>
@@ -5024,7 +5032,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="StuG IV: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="74" opID="1" mID="14" setID="5" ID="fallout_1_5_14_main" secID="fallout_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
+    <PM name="ART-14: Jeden z nás!" short="StuG IV: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="74" opID="1" mID="14" setID="5" ID="fallout_1_5_14_main" secID="fallout_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 70 sekund (osobní/četa)
@@ -5693,7 +5701,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="T28 heavy tank concept: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="144" opID="2" mID="9" setID="5" ID="fallout_2_5_9_main" secID="fallout_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 5 modulů či členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 5 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte
@@ -5739,7 +5747,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="T28 heavy tank concept: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="149" opID="2" mID="14" setID="5" ID="fallout_2_5_14_main" secID="fallout_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
+    <PM name="ART-14: Jeden z nás!" short="T28 heavy tank concept: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="149" opID="2" mID="14" setID="5" ID="fallout_2_5_14_main" secID="fallout_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 100 sekund (osobní/četa)
@@ -6424,7 +6432,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="T 55A: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="219" opID="3" mID="9" setID="5" ID="fallout_3_5_9_main" secID="fallout_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte vnitřní moduly nebo zraňte členy posádky, celkem minimálně 8 modulů či členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 8 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zůstaňte po celou bitvu neodhaleni
@@ -6471,7 +6479,7 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="T 55A: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="224" opID="3" mID="14" setID="5" ID="fallout_3_5_14_main" secID="fallout_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
+    <PM name="ART-14: Jeden z nás!" short="T 55A: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="224" opID="3" mID="14" setID="5" ID="fallout_3_5_14_main" secID="fallout_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Ochromte na 180 sekund (osobní/četa)
@@ -7158,7 +7166,7 @@ nebo
     <PM name="ART-9: Vedlejší škody" short="Objekt 260: ART-9" desc="Silné HE granáty mohou nejen snížit body výdrže nepřátelských vozidel, ale také mají vysokou šanci na zničení modulů či zranění členů posádky explozivním poškozením." tMID="294" opID="4" mID="9" setID="5" ID="fallout_4_5_9_main" secID="fallout_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zničte 10 vnitřních modulů nebo zraňte 10 členů posádky</req>
+        <req>•  Zničte moduly nebo zraňte členy posádky, celkem minimálně 10 modulů či členů posádky</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zůstaňte po celou bitvu neodhaleni
@@ -7205,12 +7213,12 @@ nebo
         <req>•  Vyhrajte</req>
       </Secondary>
     </PM>
-    <PM name="ART-14: Člen posádky, součást lodi!" short="Objekt 260: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="299" opID="4" mID="14" setID="5" ID="fallout_4_5_14_main" secID="fallout_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
+    <PM name="ART-14: Jeden z nás!" short="Objekt 260: ART-14" desc="Spolupráce je klíčem k vítězství celého týmu. Označte svým spojencům nepřátelské vozidlo, na které míříte, aby na něj mohli začít pálit, jakmile bude ochromeno či znehybněno. Nezapomeňte: osamělý voják jen stěží vyhraje bitvu." tMID="299" opID="4" mID="14" setID="5" ID="fallout_4_5_14_main" secID="fallout_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Ochromte celkem na 250 sekund (osobní/četa)
 nebo
-•  Spojenci musí způsobit 1 000 HP poškození vozidlu, které jste ochromili</req>
+•  Spjenci musí způsobit 1 000 HP poškození nepřátelským vozidlům, která jste znehybnili</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>

@@ -796,12 +796,18 @@
     <tank ID="R134_Object_252K" sName="252工程" lName="252工程" />
     <tank ID="R134_Object_252U" sName="252工程" lName="252工程" />
     <tank ID="R135_T_103" sName="T-103" lName="T-103" />
+    <tank ID="R139_IS_2_Sh" />
     <tank ID="R14_SU-5" sName="SU-5" lName="SU-5" />
     <tank ID="R140_M4_Loza" sName="M4A2 \" lName="M4A2 \" />
     <tank ID="R143_T_29" sName="T-29" lName="T-29" />
+    <tank ID="R145_Object_705_A" />
     <tank ID="R146_STG" sName="STG" lName="STG" />
     <tank ID="R146_STG_Tday" sName="STG G型" lName="STG G型" />
+    <tank ID="R148_Object_430_U" />
+    <tank ID="R149_Object_268_4" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
+    <tank ID="R151_Object_257_2" />
+    <tank ID="R153_Object_705" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
@@ -878,10 +884,12 @@
     <tank ID="R89_SU122_44" sName="SU-122-44" lName="SU-122-44" />
     <tank ID="R90_IS_4M" sName="IS-4" lName="IS-4" />
     <tank ID="R91_SU14_1" sName="SU-14-1" lName="SU-14-1" />
-    <tank ID="R93_Object263" sName="263工程" lName="263工程" />
+    <tank ID="R93_Object263" />
+    <tank ID="R93_Object263B" />
     <tank ID="R95_Object_907" sName="907工程" lName="907工程" />
     <tank ID="R95_Object_907A" sName="907工程A" lName="907工程A" />
-    <tank ID="R96_Object_430" sName="430工程" lName="430工程" />
+    <tank ID="R96_Object_430" />
+    <tank ID="R96_Object_430B" />
     <tank ID="R97_Object_140" sName="140工程" lName="140工程" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
     <tank ID="R98_T44_85M" sName="T-44轻型" lName="T-44轻型" />
@@ -2091,7 +2099,7 @@
     <PM name="SPG-9:附加伤害" short="IV号突击炮: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="69" opID="1" mID="9" setID="5" ID="quest_1_5_9_main" secID="quest_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 3 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Survive</req>
@@ -2805,7 +2813,7 @@ or
     <PM name="SPG-9:附加伤害" short="T28(概念车): SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="144" opID="2" mID="9" setID="5" ID="quest_2_5_9_main" secID="quest_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 5 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 5 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Win
@@ -3536,7 +3544,7 @@ or
     <PM name="SPG-9:附加伤害" short="T-55A: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="219" opID="3" mID="9" setID="5" ID="quest_3_5_9_main" secID="quest_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 8 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 8 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Remain unspotted throughout the entire battle
@@ -4270,7 +4278,7 @@ or
     <PM name="SPG-9:附加伤害" short="260工程: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="294" opID="4" mID="9" setID="5" ID="quest_4_5_9_main" secID="quest_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy 10 internal modules or injure 10 crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 10 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Remain unspotted throughout the entire battle
@@ -4978,7 +4986,7 @@ or
     <PM name="SPG-9:附加伤害" short="IV号突击炮: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="69" opID="1" mID="9" setID="5" ID="fallout_1_5_9_main" secID="fallout_1_5_9_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 3 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Survive</req>
@@ -5692,7 +5700,7 @@ or
     <PM name="SPG-9:附加伤害" short="T28(概念车): SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="144" opID="2" mID="9" setID="5" ID="fallout_2_5_9_main" secID="fallout_2_5_9_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 5 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 5 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Win
@@ -6423,7 +6431,7 @@ or
     <PM name="SPG-9:附加伤害" short="T-55A: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="219" opID="3" mID="9" setID="5" ID="fallout_3_5_9_main" secID="fallout_3_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy internal modules or injure crew members, totaling at least 8 modules or crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 8 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Remain unspotted throughout the entire battle
@@ -7157,7 +7165,7 @@ or
     <PM name="SPG-9:附加伤害" short="260工程: SPG-9" desc="威力强大的HE弹不仅可以降低敌方坦克的生命值，还有很高的机率通过爆炸伤害摧毁装备或伤害到车组乘员。" tMID="294" opID="4" mID="9" setID="5" ID="fallout_4_5_9_main" secID="fallout_4_5_9_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Destroy 10 internal modules or injure 10 crew members</req>
+        <req>•  Destroy modules or injure crew members, totaling at least 10 modules or crew members</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Remain unspotted throughout the entire battle
