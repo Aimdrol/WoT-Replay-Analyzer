@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 Modell 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Verheerte Hauptstadt" />
     <item ID="112_eiffel_tower_ctf" Name="Paris" />
     <item ID="114_czech" Name="Pilsen" />
+    <item ID="115_sweden" Name="Gletscher" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Altes Panzerfort" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Steppen" />
     <item ID="36_fishing_bay" Name="Fischerbucht" />
     <item ID="37_caucasus" Name="Bergpass" />
-    <item ID="38_mannerheim_line" Name="Polargebiet" />
+    <item ID="38_mannerheim_line" Name="Mannerheim-Linie" />
     <item ID="39_crimea" Name="Südküste" />
     <item ID="43_north_america" Name="Nordwesten" />
     <item ID="44_north_america" Name="Live Oaks" />
@@ -1123,7 +1125,7 @@
     <item ID="83_kharkiv" Name="Charkow" />
     <item ID="84_winter" Name="Windsturm" />
     <item ID="85_winter" Name="Sewerogorsk" />
-    <item ID="86_himmelsdorf_winter" Name="Winter-Himmelsdorf" />
+    <item ID="86_himmelsdorf_winter" Name="Himmelsdorf im Winter" />
     <item ID="87_ruinberg_on_fire" Name="Ruinberg in Flammen" />
     <item ID="92_stalingrad" Name="Stalingrad" />
     <item ID="94_battlecity" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Experte: Japan" />
     <achv ID_Num="119" ID="tankExpert7" Name="Experte: ČSR" />
     <achv ID_Num="120" ID="tankExpert8" Name="Experte: Schweden" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Experte: Italien" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Maschinenbauingenieur: UdSSR" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Maschinenbauingenieur: Deutschland" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Maschinenbauingenieur: USA" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Maschinenbauingenieur: ČSR" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Maschinenbauingenieur: Schweden" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Maschinenbauingenieur: Polen" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Maschinenbauingenieur: Italien" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Waffenbrüder" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Entscheidender Beitrag" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De-Langlade-Medaille" />
@@ -2073,7 +2077,7 @@
     <PM name="SFL-6: Der Hammer der Götter" short="StuG IV: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 2 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 2 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen</req>
@@ -2787,7 +2791,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="T28 Heavy Tank Concept: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 3 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 3 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen</req>
@@ -3516,7 +3520,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="T 55A: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 5 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 5 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen
@@ -4250,7 +4254,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="Objekt 260: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 6 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 6 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen
@@ -4960,7 +4964,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="StuG IV: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 2 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 2 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen</req>
@@ -5674,7 +5678,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="T28 Heavy Tank Concept: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 3 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 3 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen</req>
@@ -6403,7 +6407,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="T 55A: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 5 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 5 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen
@@ -7137,7 +7141,7 @@ oder
     <PM name="SFL-6: Der Hammer der Götter" short="Objekt 260: SFL-6" desc="Das Hauptziel der SFL ist die Feuerunterstützung für verbündete Fahrzeuge. Betäubte Gegnerfahrzeuge sind schlechte Kämpfer, Ihre Teamkameraden werden Ihre Unterstützung also zu schätzen wissen. Feuern Sie aber vorsichtig: ein unachtsamer Treffer kann auch verbündete Fahrzeuge betäuben. Freundbeschuss wird nicht toleriert!" tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 6 Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 6 verschiedene Fahrzeuge zu beschädigen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Gewinnen

@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Zpustošená metropole" />
     <item ID="112_eiffel_tower_ctf" Name="Paříž" />
     <item ID="114_czech" Name="Plzeň" />
+    <item ID="115_sweden" Name="Ledovec" />
     <item ID="116_himmelball" Name="Himmelsdorfská aréna" />
     <item ID="117_eiffelball" Name="Eiffelův stadion" />
     <item ID="118_lostcityball" Name="Starý tankodrom" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Step" />
     <item ID="36_fishing_bay" Name="Rybářský přístav" />
     <item ID="37_caucasus" Name="Horský průsmyk" />
-    <item ID="38_mannerheim_line" Name="Arktida" />
+    <item ID="38_mannerheim_line" Name="Mannerheimova linie" />
     <item ID="39_crimea" Name="Jižní pobřeží" />
     <item ID="43_north_america" Name="Severozápad" />
     <item ID="44_north_america" Name="Dubový lesík" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Expert: Japonsko" />
     <achv ID_Num="119" ID="tankExpert7" Name="Expert: Československo" />
     <achv ID_Num="120" ID="tankExpert8" Name="Expert: Švédsko" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Expert: Itálie" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Strojní inženýr: SSSR" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Strojní inženýr: Německo" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Strojní inženýr: USA" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Strojní inženýr: Československo" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Strojní inženýr: Švédsko" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Strojní inženýr: Polsko" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Strojní inženýr: Itálie" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Bratři ve zbrani" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Zásadní přínos" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De Langladeova medaile" />
@@ -2073,7 +2077,7 @@
     <PM name="ART-6: Kladivo boží" short="StuG IV: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 2 vozidla tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 2 různá vozidla tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>
@@ -2787,7 +2791,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="T28 heavy tank concept: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 3 vozidla tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 3 různá vozidla tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>
@@ -3516,7 +3520,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="T 55A: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 5 vozidel tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 5 různých vozidel tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte
@@ -4250,7 +4254,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="Objekt 260: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 6 vozidel tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 6 různých vozidel tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte
@@ -4960,7 +4964,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="StuG IV: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 2 vozidla tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 2 různá vozidla tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>
@@ -5674,7 +5678,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="T28 heavy tank concept: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 3 vozidla tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 3 různá vozidla tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte</req>
@@ -6403,7 +6407,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="T 55A: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 5 vozidel tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 5 různých vozidel tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte
@@ -7137,7 +7141,7 @@ nebo
     <PM name="ART-6: Kladivo boží" short="Objekt 260: ART-6" desc="Primárním cílem dělostřelectva je poskytování palebné podpory spojeneckým vozidlům. Ochromená nepřátelská vozidla špatně bojují, takže spoluhráči vaši pomoc nepochybně ocení. Dávejte však při palbě pozor: neopatrný výstřel může ochromit i spojenecké vozidlo. Palba do spojenců se nebude tolerovat!" tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Dlouho očekávaná podpora" reward="Objekt 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umožněte svým spojencům poškodit 6 vozidel tím, že je ochromíte či znehybníte</req>
+        <req>•  Umožněte svým spojencům poškodit 6 různých vozidel tím, že je ochromíte či znehybníte</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Vyhrajte

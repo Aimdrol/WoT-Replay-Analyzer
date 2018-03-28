@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Harabe Başkent" />
     <item ID="112_eiffel_tower_ctf" Name="Paris" />
     <item ID="114_czech" Name="Pilsen" />
+    <item ID="115_sweden" Name="Buzul" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Eyfel Stadı" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Bozkırlar" />
     <item ID="36_fishing_bay" Name="Balıkçı Koyu" />
     <item ID="37_caucasus" Name="Dağ geçidi" />
-    <item ID="38_mannerheim_line" Name="Kutup Bölgesi" />
+    <item ID="38_mannerheim_line" Name="Mannerheim Hattı" />
     <item ID="39_crimea" Name="Güney Kıyısı" />
     <item ID="43_north_america" Name="Kuzeybatı" />
     <item ID="44_north_america" Name="Live Oaks" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Uzman: Japonya" />
     <achv ID_Num="119" ID="tankExpert7" Name="Uzman: Çekoslovakya" />
     <achv ID_Num="120" ID="tankExpert8" Name="Uzman: İsveç" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Uzman: İtalya" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Ordu Donatım Subayı: SSCB" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Ordu Donatım Subayı: Almanya" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Ordu Donatım Subayı: ABD" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Ordu Donatım Subayı: Çekoslovakya" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Ordu Donatım Subayı: İsveç" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Ordu Donatım Subayı: Polonya" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Ordu Donatım Subayı: İtalya" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Silah Arkadaşları" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Can Alıcı Katkı" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="De Langlade Madalyası" />
@@ -2073,7 +2077,7 @@
     <PM name="SPG-6: Tanrıların Çekici" short="StuG IV: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 2 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 2 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Kazanın</req>
@@ -2787,7 +2791,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="T28 Heavy Tank Concept: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 3 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 3 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Kazanın</req>
@@ -3516,7 +3520,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="T 55A: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 5 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 5 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Kazanın
@@ -4250,7 +4254,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="Object 260: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 6 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 6 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Kazanın
@@ -4960,7 +4964,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="StuG IV: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 2 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 2 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Kazanın</req>
@@ -5674,7 +5678,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="T28 Heavy Tank Concept: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 3 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 3 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Kazanın</req>
@@ -6403,7 +6407,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="T 55A: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 5 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 5 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Kazanın
@@ -7137,7 +7141,7 @@ veya
     <PM name="SPG-6: Tanrıların Çekici" short="Object 260: SPG-6" desc="KMT'lerin ana hedefi müttefik araçlara ateş desteği sağlamaktır. Şoka giren düşman araçlarının savaş yeteneği azalır o yüzden ekip arkadaşlarınız desteğinizi takdir edecektir. Ancak, ateş ederken dikkatli olun: dikkatsiz bir atış müttefik bir aracı da şoka sokabilir. Dost ateşi kabul edilemez." tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Uzun Süredir Beklenen Destek" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 6 araca hasar vermelerini sağlayın</req>
+        <req>•  Şoka sokarak veya hareketsiz bırakarak müttefiklerinizin 6 farklı araca hasar vermelerini sağlayın</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Kazanın

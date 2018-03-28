@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Париж" />
     <item ID="112_eiffel_tower_ctf" Name="Париж" />
     <item ID="114_czech" Name="Промзона" />
+    <item ID="115_sweden" Name="Штиль" />
     <item ID="116_himmelball" Name="Химмельштадион" />
     <item ID="117_eiffelball" Name="Стад Эйфель" />
     <item ID="118_lostcityball" Name="Заброшенный стадион" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Степи" />
     <item ID="36_fishing_bay" Name="Рыбацкая бухта" />
     <item ID="37_caucasus" Name="Перевал" />
-    <item ID="38_mannerheim_line" Name="Заполярье" />
+    <item ID="38_mannerheim_line" Name="Линия Маннергейма" />
     <item ID="39_crimea" Name="Южный берег" />
     <item ID="43_north_america" Name="Северо-Запад" />
     <item ID="44_north_america" Name="Лайв Окс" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="«Эксперт: Япония»" />
     <achv ID_Num="119" ID="tankExpert7" Name="«Эксперт: Чехословакия»" />
     <achv ID_Num="120" ID="tankExpert8" Name="«Эксперт: Швеция»" />
+    <achv ID_Num="122" ID="tankExpert10" Name="«Эксперт: Италия»" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="«Инженер-механик: СССР»" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="«Инженер-механик: Германия»" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="«Инженер-механик: США»" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="«Инженер-механик: Чехословакия»" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="«Инженер-механик: Швеция»" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="«Инженер-механик: Польша»" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="«Инженер-механик: Италия»" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="«Братья по оружию»" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="«Решающий вклад»" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Медаль де Ланглада" />
@@ -2072,7 +2076,7 @@
     <PM name="САУ-6. Молот Тора" short="«StuG IV»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 2 машины</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 2 разные машины</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Победить</req>
@@ -2786,7 +2790,7 @@
     <PM name="САУ-6. Молот Тора" short="«Т28 Heavy Tank Concept»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 3 машины</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 3 разные машины</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Победить</req>
@@ -3515,7 +3519,7 @@
     <PM name="САУ-6. Молот Тора" short="«T 55A»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«T 55A»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 5 машин</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 5 разных машин</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Победить
@@ -4249,7 +4253,7 @@
     <PM name="САУ-6. Молот Тора" short="«Объект 260»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 6 машин</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 6 разных машин</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Победить
@@ -4959,7 +4963,7 @@
     <PM name="САУ-6. Молот Тора" short="«StuG IV»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«StuG IV»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 2 машины</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 2 разные машины</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Победить</req>
@@ -5673,7 +5677,7 @@
     <PM name="САУ-6. Молот Тора" short="«Т28 Heavy Tank Concept»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Т28 Heavy Tank Concept»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 3 машины</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 3 разные машины</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Победить</req>
@@ -6402,7 +6406,7 @@
     <PM name="САУ-6. Молот Тора" short="«T 55A»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«T 55A»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 5 машин</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 5 разных машин</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Победить
@@ -7136,7 +7140,7 @@
     <PM name="САУ-6. Молот Тора" short="«Объект 260»: САУ-6. Молот Тора" desc="Вы — поддержка команды. С оглушёнными целями разбираться проще, потому союзники будут вам только благодарны за ваши успешные попадания. Помните, что не очень удачный выстрел может оглушить и союзника: старайтесь этого избегать." tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="«Долгожданное подкрепление»" reward="«Объект 260»">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 6 машин</req>
+        <req>•  Помочь союзникам нанести урон, оглушив или обездвижив 6 разных машин</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Победить

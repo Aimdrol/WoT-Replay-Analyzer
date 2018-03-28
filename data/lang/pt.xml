@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Capital Devastada" />
     <item ID="112_eiffel_tower_ctf" Name="Paris" />
     <item ID="114_czech" Name="Pilsen" />
+    <item ID="115_sweden" Name="Glaciar" />
     <item ID="116_himmelball" Name="Arena Himmelsdorf" />
     <item ID="117_eiffelball" Name="Estádio Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Steppes" />
     <item ID="36_fishing_bay" Name="Fisherman's Bay" />
     <item ID="37_caucasus" Name="Mountain Pass" />
-    <item ID="38_mannerheim_line" Name="Arctic Region" />
+    <item ID="38_mannerheim_line" Name="Mannerheim Line" />
     <item ID="39_crimea" Name="South Coast" />
     <item ID="43_north_america" Name="Noroeste" />
     <item ID="44_north_america" Name="Live Oaks" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Perito: Japão" />
     <achv ID_Num="119" ID="tankExpert7" Name="Perito: Checoslováquia" />
     <achv ID_Num="120" ID="tankExpert8" Name="Perito: Suécia" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Perito: Itália" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Engenheiro Técnico: URSS" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Engenheiro Técnico: Alemanha" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Engenheiro Técnico: EUA" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Engenheiro Técnico: Checoslováquia" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Engenheiro Técnico: Suécia" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Engenheiro Técnico: Polónia" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Engenheiro Técnico: Itália" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Irmãos d'Armas" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Contribuição Crucial" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Medalha De Langlade" />
@@ -2073,7 +2077,7 @@
     <PM name="AAP-6: Martelo dos Deuses" short="StuG IV: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 2 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 2 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Win</req>
@@ -2787,7 +2791,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="T28 heavy tank concept: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 3 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 3 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Win</req>
@@ -3516,7 +3520,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="T 55A: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 5 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 5 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Win
@@ -4250,7 +4254,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="Object 260: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 6 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 6 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Win
@@ -4960,7 +4964,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="StuG IV: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 2 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 2 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Win</req>
@@ -5674,7 +5678,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="T28 heavy tank concept: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="T28 heavy tank concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 3 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 3 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Win</req>
@@ -6403,7 +6407,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="T 55A: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 5 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 5 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Win
@@ -7137,7 +7141,7 @@ or
     <PM name="AAP-6: Martelo dos Deuses" short="Object 260: AAP-6" desc="O objetivo principal das AAPs é fornecer suporte de fogo aos veículos aliados. Os veículos inimigos atordoados são lutadores fracos, então os seus companheiros de equipa irão certamente apreciar a sua ajuda. No entanto, seja cauteloso quando disparar: um tiro descuidado também pode atordoar um veículo aliado. O fogo aliado não será tolerado!" tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="O Muito Antecipado Apoio" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Enable your allies to cause damage to 6 vehicles by stunning or immobilizing them</req>
+        <req>•  Enable your allies to cause damage to 6 different vehicles by stunning or immobilizing them</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Win

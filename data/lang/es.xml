@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Capital devastada" />
     <item ID="112_eiffel_tower_ctf" Name="París" />
     <item ID="114_czech" Name="Pilsen" />
+    <item ID="115_sweden" Name="Glaciar" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Estepas" />
     <item ID="36_fishing_bay" Name="Bahía del Pescador" />
     <item ID="37_caucasus" Name="Paso Montañoso" />
-    <item ID="38_mannerheim_line" Name="Región Polar" />
+    <item ID="38_mannerheim_line" Name="Línea Mannerheim" />
     <item ID="39_crimea" Name="Costa Sur" />
     <item ID="43_north_america" Name="Noroeste" />
     <item ID="44_north_america" Name="Live Oaks" />
@@ -1127,8 +1129,8 @@
     <item ID="87_ruinberg_on_fire" Name="Ruinberg en Llamas" />
     <item ID="92_stalingrad" Name="Stalingrado" />
     <item ID="94_battlecity" />
-    <item ID="95_lost_city" Name="Pueblo fantasma" />
-    <item ID="96_prohorovka_defense" Name="Saliente de fuego" />
+    <item ID="95_lost_city" Name="Ciudad fantasma" />
+    <item ID="96_prohorovka_defense" Name="Saliente de Fuego" />
     <item ID="99_himmelball" Name="Campeonato de Himmelsdorf" />
     <item ID="unknown" Name="Desconocido" />
   </Lang_Maps>
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Experto: Japón" />
     <achv ID_Num="119" ID="tankExpert7" Name="Experto: Checoslovaquia" />
     <achv ID_Num="120" ID="tankExpert8" Name="Experto: Suecia" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Experto: Italia" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Ingeniero técnico: URSS" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Ingeniero técnico: Alemania" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Ingeniero técnico: EE. UU." />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Ingeniero técnico: Checoslovaquia" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Ingeniero técnico: Suecia" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Ingeniero técnico: Polonia" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Ingeniero técnico: Italia" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Hermanos de armas" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Contribución crucial" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Medalla de de Langlade" />
@@ -2073,7 +2077,7 @@
     <PM name="AAP-6: El martillo de los dioses" short="StuG IV: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a dos vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a dos vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Ganar</req>
@@ -2787,7 +2791,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="T28 Heavy Tank Concept: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a tres vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a tres vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Ganar</req>
@@ -3516,7 +3520,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="T 55A: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daño a cinco vehículos detectándolos o destruyendo sus cadenas</req>
+        <req>•  Permitir que tus aliados causen daño a cinco vehículos diferentes detectándolos o destruyendo sus cadenas</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Ganar
@@ -4250,7 +4254,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="Object 260: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a seis vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a seis vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Ganar
@@ -4960,7 +4964,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="StuG IV: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a dos vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a dos vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Ganar</req>
@@ -5674,7 +5678,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="T28 Heavy Tank Concept: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a tres vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a tres vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Ganar</req>
@@ -6403,7 +6407,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="T 55A: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daño a cinco vehículos detectándolos o destruyendo sus cadenas</req>
+        <req>•  Permitir que tus aliados causen daño a cinco vehículos diferentes detectándolos o destruyendo sus cadenas</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Ganar
@@ -7137,7 +7141,7 @@ o
     <PM name="AAP-6: El martillo de los dioses" short="Object 260: AAP-6" desc="El objetivo principal de la AAP es proporcionar fuego de apoyo a los vehículos aliados. Los vehículos aturdidos luchan impedidos, así que tus compañeros de juego apreciarán tu ayuda. Sin embargo, sé cuidadoso al disparar: un disparo descuidado también puede aturdir un vehículo aliado. ¡No se tolerará el fuego amigo!" tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Permitir que tus aliados causen daños a seis vehículos aturdiéndolos o inmovilizándolos</req>
+        <req>•  Permitir que tus aliados causen daños a seis vehículos diferentes aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Ganar

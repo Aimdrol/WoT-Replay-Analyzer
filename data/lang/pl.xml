@@ -200,6 +200,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
     <tank ID="Chi_He" sName="Chi-He" lName="Type 1 Chi-He" />
     <tank ID="Chi_Ni" sName="Chi-Ni" lName="Chi-Ni" />
@@ -1084,6 +1085,7 @@
     <item ID="112_eiffel_tower" Name="Spustoszona stolica" />
     <item ID="112_eiffel_tower_ctf" Name="Paryż" />
     <item ID="114_czech" Name="Pilzno" />
+    <item ID="115_sweden" Name="Lodowiec" />
     <item ID="116_himmelball" Name="Himmelsdorf Arena" />
     <item ID="117_eiffelball" Name="Stade Eiffel" />
     <item ID="118_lostcityball" Name="Old Tankford" />
@@ -1108,7 +1110,7 @@
     <item ID="35_steppes" Name="Step" />
     <item ID="36_fishing_bay" Name="Zatoka rybacka" />
     <item ID="37_caucasus" Name="Przełęcz" />
-    <item ID="38_mannerheim_line" Name="Koło podbiegunowe" />
+    <item ID="38_mannerheim_line" Name="Linia Mannerheima" />
     <item ID="39_crimea" Name="Południowe Wybrzeże" />
     <item ID="43_north_america" Name="Północny zachód" />
     <item ID="44_north_america" Name="Dębina" />
@@ -1323,6 +1325,7 @@
     <achv ID_Num="118" ID="tankExpert6" Name="Ekspert: Japonia" />
     <achv ID_Num="119" ID="tankExpert7" Name="Ekspert: Czechosłowacja" />
     <achv ID_Num="120" ID="tankExpert8" Name="Ekspert: Szwecja" />
+    <achv ID_Num="122" ID="tankExpert10" Name="Ekspert: Włochy" />
     <achv ID_Num="127" ID="mechanicEngineer0" Name="Inżynier-mechanik: ZSRR" />
     <achv ID_Num="128" ID="mechanicEngineer1" Name="Inżynier-mechanik: Niemcy" />
     <achv ID_Num="129" ID="mechanicEngineer2" Name="Inżynier-mechanik: USA" />
@@ -1333,6 +1336,7 @@
     <achv ID_Num="134" ID="mechanicEngineer7" Name="Inżynier-mechanik: Czechosłowacja" />
     <achv ID_Num="135" ID="mechanicEngineer8" Name="Inżynier-mechanik: Szwecja" />
     <achv ID_Num="136" ID="mechanicEngineer9" Name="Inżynier-mechanik: Polska" />
+    <achv ID_Num="137" ID="mechanicEngineer10" Name="Inżynier-mechanik: Włochy" />
     <achv ID_Num="143" ID="medalBrothersInArms" Name="Braterstwo broni" />
     <achv ID_Num="144" ID="medalCrucialContribution" Name="Ostateczne poświęcenie" />
     <achv ID_Num="145" ID="medalDeLanglade" Name="Medal De Langlade'a" />
@@ -2073,7 +2077,7 @@
     <PM name="DS-6: Młot Thora" short="StuG IV: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="66" opID="1" mID="6" setID="5" ID="quest_1_5_6_main" secID="quest_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 2 pojazdom przeciwnika, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 2 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Wygraj</req>
@@ -2787,7 +2791,7 @@ lub
     <PM name="DS-6: Młot Thora" short="T28 Heavy Tank Concept: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="141" opID="2" mID="6" setID="5" ID="quest_2_5_6_main" secID="quest_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 3 pojazdom, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 3 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Wygraj</req>
@@ -3516,7 +3520,7 @@ lub
     <PM name="DS-6: Młot Thora" short="T 55A: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="216" opID="3" mID="6" setID="5" ID="quest_3_5_6_main" secID="quest_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 5 pojazdom przeciwnika, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 5 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
@@ -4250,7 +4254,7 @@ lub
     <PM name="DS-6: Młot Thora" short="Object 260: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="291" opID="4" mID="6" setID="5" ID="quest_4_5_6_main" secID="quest_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 6 pojazdom, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 6 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
@@ -4960,7 +4964,7 @@ lub
     <PM name="DS-6: Młot Thora" short="StuG IV: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="66" opID="1" mID="6" setID="5" ID="fallout_1_5_6_main" secID="fallout_1_5_6_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 2 pojazdom przeciwnika, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 2 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Wygraj</req>
@@ -5674,7 +5678,7 @@ lub
     <PM name="DS-6: Młot Thora" short="T28 Heavy Tank Concept: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="141" opID="2" mID="6" setID="5" ID="fallout_2_5_6_main" secID="fallout_2_5_6_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 3 pojazdom, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 3 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Wygraj</req>
@@ -6403,7 +6407,7 @@ lub
     <PM name="DS-6: Młot Thora" short="T 55A: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="216" opID="3" mID="6" setID="5" ID="fallout_3_5_6_main" secID="fallout_3_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 5 pojazdom przeciwnika, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 5 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
@@ -7137,7 +7141,7 @@ lub
     <PM name="DS-6: Młot Thora" short="Object 260: DS-6" desc="Nadrzędnym celem dział samobieżnych jest zapewnianie wsparcia ogniowego pojazdom sojuszników. Ogłuszone pojazdy przeciwnika walczą kiepsko, więc Twoi koledzy z drużyny z pewnością docenią Twoją pomoc. Jednakże uważaj z niedokładnie wymierzonymi strzałami, bo mogą one ogłuszyć pojazd sojusznika. Nikt nie lubi, kiedy strzelają do niego sojusznicy!" tMID="291" opID="4" mID="6" setID="5" ID="fallout_4_5_6_main" secID="fallout_4_5_6_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>?empty?</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 6 pojazdom, ogłuszając lub unieruchamiając je</req>
+        <req>•  Umożliw swoim sojusznikom zadanie uszkodzeń 6 różnym pojazdom, ogłuszając lub unieruchamiając je</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Wygraj
