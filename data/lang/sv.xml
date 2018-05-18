@@ -39,6 +39,7 @@
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 Patriot" />
     <tank ID="A118_M4_Thunderbolt" sName="Thunderbolt" lName="M4A3E8 Thunderbolt VII" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
+    <tank ID="A12_T32_FL" sName="T32 FL" lName="T32 FL" />
     <tank ID="A120_M48A5" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A120_M48A5_IGR" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
@@ -554,6 +555,7 @@
     <tank ID="GB91_Super_Conqueror" sName="S. Conqueror" lName="Super Conqueror" />
     <tank ID="GB92_FV217" sName="Badger" lName="FV217 Badger" />
     <tank ID="GB93_Caernarvon_AX" sName="Caernarvon X" lName="Caernarvon Action X" />
+    <tank ID="GB94_Centurion_Mk5-1_RAAC" sName="Centurion 5/1" lName="Centurion Mk. 5/1 RAAC" />
     <tank ID="Grille" sName="Grille" lName="Grille" />
     <tank ID="GW_Mk_VIe" sName="G.Pz. Mk. VI" lName="G.Pz. Mk. VI (e)" />
     <tank ID="GW_Tiger_P" sName="G.W. Tiger P" lName="G.W. Tiger (P)" />
@@ -573,6 +575,18 @@
     <tank ID="IS8" sName="T-10" lName="T-10" />
     <tank ID="ISU-152" sName="ISU-152" lName="ISU-152" />
     <tank ID="ISU-152_IGR" sName="PC방 ISU-152" lName="ISU-152" />
+    <tank ID="It03_M15_42" sName="M15/42" lName="M15/42" />
+    <tank ID="It04_Fiat_3000" sName="Fiat 3000" lName="Fiat 3000" />
+    <tank ID="It05_Carro_L6_40" sName="L6/40" lName="L6/40" />
+    <tank ID="It06_M14_41" sName="M14/41" lName="M14/41" />
+    <tank ID="It07_P26_40" sName="P26/40" lName="P26/40" />
+    <tank ID="It08_Progetto_M40_mod_65" sName="Progetto 65" lName="Progetto M40 mod. 65" />
+    <tank ID="It09_P43_ter" sName="P.43 ter" lName="P.43 ter" />
+    <tank ID="It10_P43_bis" sName="P.43 bis" lName="P.43 bis" />
+    <tank ID="It11_P43" sName="P.43" lName="P.43" />
+    <tank ID="It12_Prototipo_Standard_B" sName="Standard B" lName="Prototipo Standard B" />
+    <tank ID="It13_Progetto_M35_mod_46" sName="Progetto 46" lName="Progetto M35 mod 46" />
+    <tank ID="It14_P44_Pantera" sName="P.44 Pantera" lName="P.44 Pantera" />
     <tank ID="J01_NC27" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="J01_NC27_bot" sName="R. Otsu" lName="Renault Otsu" />
     <tank ID="J02_Te_Ke" sName="Te-Ke" lName="Type 97 Te-Ke" />
@@ -783,7 +797,7 @@
     <tank ID="R120_T22SR_A22" sName="T-22 med." lName="T-22 medium" />
     <tank ID="R121_KV4_KTT" sName="KV-4 KTTS" lName="KV-4 KTTS" />
     <tank ID="R122_T44_100" sName="T-44-100" lName="T-44-100" />
-    <tank ID="R122_T44_100B" sName="T-44-100M" lName="T-44-100M" />
+    <tank ID="R122_T44_100B" sName="T-44-100 (B)" lName="T-44-100 (B)" />
     <tank ID="R123_Kirovets_1" sName="Kirovets-1" lName="Kirovets-1" />
     <tank ID="R125_T_45" sName="T-45" lName="T-45" />
     <tank ID="R126_Object_730_5" sName="Obj. 268 5" lName="Objekt 268 Version V" />
@@ -808,6 +822,7 @@
     <tank ID="R149_Object_268_4" sName="Obj. 268 4" lName="Object 268 Version 4" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R151_Object_257_2" sName="Obj. 257" lName="Objekt 257" />
+    <tank ID="R152_KV2_W" sName="KV-2 (R)" lName="KV-2 (R)" />
     <tank ID="R153_Object_705" sName="Obj. 705" lName="Object 705" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -816,6 +831,7 @@
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
     <tank ID="R20_T-44" sName="T-44" lName="T-44" />
+    <tank ID="R20_T-44_FL" sName="T-44 FL" lName="T-44 FL" />
     <tank ID="R20_T-44_IGR" sName="T-44" lName="T-44" />
     <tank ID="R22_T-46" sName="T-46" lName="T-46" />
     <tank ID="R22_T-46_bootcamp" sName="T-46" lName="T-46" />
@@ -1068,6 +1084,7 @@
     <item ID="01_karelia" Name="Karelen" />
     <item ID="02_malinovka" Name="Malinovka" />
     <item ID="03_campania" Name="Provins" />
+    <item ID="03_campania_big" Name="Provins" />
     <item ID="04_himmelsdorf" Name="Himmelsdorf" />
     <item ID="05_prohorovka" Name="Prochorovka" />
     <item ID="06_ensk" Name="Ensk" />
@@ -1075,6 +1092,7 @@
     <item ID="08_ruinberg" Name="Ruinberg" />
     <item ID="10_hills" Name="Gruvor" />
     <item ID="100_thepit" Name="Mittengard" />
+    <item ID="1001_frontline_testmap" />
     <item ID="101_dday" Name="Overlord" />
     <item ID="102_deathtrack" Name="Tankrally" />
     <item ID="103_ruinberg_winter" Name="Vinterberg" />
@@ -1098,6 +1116,7 @@
     <item ID="17_munchen" Name="Widepark" />
     <item ID="18_cliff" Name="Klippa" />
     <item ID="19_monastery" Name="Kloster" />
+    <item ID="208_bf_epic_normandy" Name="Ärans väg" />
     <item ID="212_epic_random_valley" Name="Nebelburg" />
     <item ID="217_er_alaska" Name="Klondike" />
     <item ID="22_slough" Name="Träsk" />
@@ -1135,16 +1154,17 @@
     <item ID="unknown" Name="Okänd" />
   </Lang_Maps>
   <Lang_Nations>
+    <item ID="ussr" Name="Sovjetunionen" />
+    <item ID="germany" Name="Tyskland" />
+    <item ID="usa" Name="USA" />
     <item ID="china" Name="Kina" />
     <item ID="france" Name="Frankrike" />
-    <item ID="germany" Name="Tyskland" />
     <item ID="uk" Name="Storbritannien" />
-    <item ID="usa" Name="USA" />
-    <item ID="ussr" Name="Sovjetunionen" />
     <item ID="japan" Name="Japan" />
     <item ID="czech" Name="Tjeckoslovakien" />
     <item ID="sweden" Name="Sverige" />
     <item ID="poland" Name="Polen" />
+    <item ID="italy" Name="Italien" />
     <item ID="unknown" Name="Okänd" />
   </Lang_Nations>
   <Lang_Results>
@@ -1462,6 +1482,14 @@
     <achv ID_Num="1153" ID="NY18A1" Name="Grovkalibrrr, III:e Klassen" />
     <achv ID_Num="1154" ID="NY18A2" Name="Grovkalibrrr, II:a Klassen" />
     <achv ID_Num="1155" ID="NY18A3" Name="Grovkalibrrr, I:a Klassen" />
+    <achv ID_Num="1156" ID="rankedBattlesHero" Name="Rankad Hjälte" />
+    <achv ID_Num="1157" ID="rankedBattlesSeasonOne" Name="Deltagare i Rankade strider säsong 1" />
+    <achv ID_Num="1194" ID="occupyingForce" Name="Anfallsmästare" />
+    <achv ID_Num="1195" ID="ironShield" Name="Järnsköld" />
+    <achv ID_Num="1196" ID="generalOfTheArmy" Name="Armégeneral" />
+    <achv ID_Num="1197" ID="supremeGun" Name="Eldövertag" />
+    <achv ID_Num="1198" ID="smallArmy" Name="Liten armé" />
+    <achv ID_Num="1199" ID="frontlineMedal" Name="Frontsoldat" />
     <achv ID_Num="0" ID="unknown" Name="Okänd" />
   </Lang_Achievements>
   <Lang_PersonalMissions>

@@ -153,6 +153,8 @@
     <DataTank ID="R07_T-34-85_bootcamp" numID="167" numID_Nation="0" Tier="2" Type="mt" />
     <DataTank ID="R22_T-46_bootcamp" numID="168" numID_Nation="0" Tier="2" Type="lt" />
     <DataTank ID="R43_T-70_bootcamp" numID="169" numID_Nation="0" Tier="2" Type="lt" />
+    <DataTank ID="R152_KV2_W" numID="253" numID_Nation="0" Tier="6" Type="ht" />
+    <DataTank ID="R20_T-44_FL" numID="170" numID_Nation="0" Tier="8" Type="mt" />
     <DataTank ID="T-34" numID="0" numID_Nation="0" Tier="5" Type="mt" />
     <DataTank ID="SU-85" numID="1" numID_Nation="0" Tier="5" Type="td" />
     <DataTank ID="IS" numID="2" numID_Nation="0" Tier="7" Type="ht" />
@@ -615,6 +617,7 @@
     <DataTank ID="A22_M5_Stuart_bootcamp" numID="163" numID_Nation="2" Tier="2" Type="lt" />
     <DataTank ID="A25_M2_med_bootcamp" numID="164" numID_Nation="2" Tier="2" Type="mt" />
     <DataTank ID="A36_Sherman_Jumbo_bootcamp" numID="165" numID_Nation="2" Tier="2" Type="mt" />
+    <DataTank ID="A12_T32_FL" numID="170" numID_Nation="2" Tier="8" Type="ht" />
     <DataTank ID="T14" numID="0" numID_Nation="2" Tier="5" Type="ht" />
     <DataTank ID="M3_Stuart" numID="1" numID_Nation="2" Tier="3" Type="lt" />
     <DataTank ID="T1_Cunningham" numID="2" numID_Nation="2" Tier="1" Type="lt" />
@@ -737,6 +740,7 @@
     <DataTank ID="Ch36_WZ111_1G_FT" numID="31" numID_Nation="3" Tier="8" Type="td" />
     <DataTank ID="Ch37_WZ111G_FT" numID="32" numID_Nation="3" Tier="9" Type="td" />
     <DataTank ID="Ch38_WZ113G_FT" numID="33" numID_Nation="3" Tier="10" Type="td" />
+    <DataTank ID="Ch41_WZ_111_QL" numID="243" numID_Nation="3" Tier="10" Type="ht" />
     <DataTank ID="Ch22_113_Beijing_Opera" numID="244" numID_Nation="3" Tier="10" Type="ht" />
     <DataTank ID="Ch22_113P" numID="245" numID_Nation="3" Tier="10" Type="ht" />
     <DataTank ID="Ch40_WZ120G_FT" numID="246" numID_Nation="3" Tier="9" Type="td" />
@@ -949,6 +953,7 @@
     <DataTank ID="GB35_Sentinel_AC_IV" numID="219" numID_Nation="5" Tier="6" Type="mt" />
     <DataTank ID="GB88_T95_Chieftain_turret" numID="220" numID_Nation="5" Tier="10" Type="ht" />
     <DataTank ID="GB93_Caernarvon_AX" numID="221" numID_Nation="5" Tier="8" Type="ht" />
+    <DataTank ID="GB94_Centurion_Mk5-1_RAAC" numID="222" numID_Nation="5" Tier="8" Type="mt" />
     <DataTank ID="GB23_Centurion_IGR" numID="151" numID_Nation="5" Tier="8" Type="mt" />
     <DataTank ID="GB11_Caernarvon_IGR" numID="152" numID_Nation="5" Tier="8" Type="ht" />
     <DataTank ID="GB21_Cromwell_IGR" numID="153" numID_Nation="5" Tier="6" Type="mt" />
@@ -1052,6 +1057,18 @@
     <DataTank ID="S23_Strv_81" numID="204" numID_Nation="8" Tier="8" Type="mt" />
     <DataTank ID="S23_Strv_81_sabaton" numID="205" numID_Nation="8" Tier="8" Type="mt" />
     <DataTank ID="Pl03_PzV_Poland" numID="0" numID_Nation="9" Tier="6" Type="mt" />
+    <DataTank ID="It04_Fiat_3000" numID="0" numID_Nation="10" Tier="1" Type="lt" />
+    <DataTank ID="It05_Carro_L6_40" numID="1" numID_Nation="10" Tier="2" Type="lt" />
+    <DataTank ID="It06_M14_41" numID="2" numID_Nation="10" Tier="2" Type="mt" />
+    <DataTank ID="It03_M15_42" numID="3" numID_Nation="10" Tier="3" Type="mt" />
+    <DataTank ID="It07_P26_40" numID="4" numID_Nation="10" Tier="4" Type="mt" />
+    <DataTank ID="It11_P43" numID="5" numID_Nation="10" Tier="5" Type="mt" />
+    <DataTank ID="It10_P43_bis" numID="6" numID_Nation="10" Tier="6" Type="mt" />
+    <DataTank ID="It09_P43_ter" numID="7" numID_Nation="10" Tier="7" Type="mt" />
+    <DataTank ID="It14_P44_Pantera" numID="8" numID_Nation="10" Tier="8" Type="mt" />
+    <DataTank ID="It12_Prototipo_Standard_B" numID="9" numID_Nation="10" Tier="9" Type="mt" />
+    <DataTank ID="It08_Progetto_M40_mod_65" numID="10" numID_Nation="10" Tier="10" Type="mt" />
+    <DataTank ID="It13_Progetto_M35_mod_46" numID="200" numID_Nation="10" Tier="8" Type="mt" />
   </Tanks>
   <Maps>
     <DataItem ID="01_karelia" numID="1" />
@@ -1074,44 +1091,47 @@
     <DataItem ID="38_mannerheim_line" numID="19" />
     <DataItem ID="08_ruinberg" numID="20" />
     <DataItem ID="14_siegfried_line" numID="21" />
-    <DataItem ID="22_slough" numID="22" />
     <DataItem ID="23_westfeld" numID="23" />
     <DataItem ID="29_el_hallouf" numID="24" />
     <DataItem ID="31_airfield" numID="26" />
-    <DataItem ID="17_munchen" numID="28" />
     <DataItem ID="44_north_america" numID="31" />
-    <DataItem ID="45_north_america" numID="34" />
     <DataItem ID="47_canada_a" numID="49" />
-    <DataItem ID="73_asia_korea" numID="51" />
-    <DataItem ID="00_tank_tutorial" numID="53" />
     <DataItem ID="63_tundra" numID="55" />
+    <DataItem ID="101_dday" numID="70" />
+    <DataItem ID="112_eiffel_tower_ctf" numID="75" />
+    <DataItem ID="115_sweden" numID="76" />
+    <DataItem ID="03_campania_big" numID="77" />
+    <DataItem ID="212_epic_random_valley" numID="81" />
+    <DataItem ID="208_bf_epic_normandy" numID="96" />
+    <DataItem ID="1001_frontline_testmap" numID="1333" />
+    <DataItem ID="15_komarin" numID="10" />
+    <DataItem ID="22_slough" numID="22" />
+    <DataItem ID="03_campania" numID="27" />
+    <DataItem ID="17_munchen" numID="28" />
+    <DataItem ID="39_crimea" numID="32" />
+    <DataItem ID="43_north_america" numID="33" />
+    <DataItem ID="45_north_america" numID="34" />
+    <DataItem ID="53_japan" numID="43" />
+    <DataItem ID="51_asia" numID="44" />
+    <DataItem ID="85_winter" numID="50" />
+    <DataItem ID="73_asia_korea" numID="51" />
+    <DataItem ID="60_asia_miao" numID="52" />
+    <DataItem ID="00_tank_tutorial" numID="53" />
     <DataItem ID="84_winter" numID="56" />
     <DataItem ID="86_himmelsdorf_winter" numID="57" />
+    <DataItem ID="87_ruinberg_on_fire" numID="58" />
     <DataItem ID="83_kharkiv" numID="60" />
+    <DataItem ID="99_himmelball" numID="61" />
     <DataItem ID="96_prohorovka_defense" numID="62" />
+    <DataItem ID="102_deathtrack" numID="65" />
     <DataItem ID="92_stalingrad" numID="66" />
     <DataItem ID="100_thepit" numID="67" />
     <DataItem ID="95_lost_city" numID="68" />
     <DataItem ID="103_ruinberg_winter" numID="69" />
-    <DataItem ID="101_dday" numID="70" />
-    <DataItem ID="114_czech" numID="74" />
-    <DataItem ID="112_eiffel_tower_ctf" numID="75" />
-    <DataItem ID="212_epic_random_valley" numID="81" />
-    <DataItem ID="217_er_alaska" numID="82" />
-    <DataItem ID="15_komarin" numID="10" />
-    <DataItem ID="03_campania" numID="27" />
-    <DataItem ID="39_crimea" numID="32" />
-    <DataItem ID="43_north_america" numID="33" />
-    <DataItem ID="53_japan" numID="43" />
-    <DataItem ID="51_asia" numID="44" />
-    <DataItem ID="85_winter" numID="50" />
-    <DataItem ID="60_asia_miao" numID="52" />
-    <DataItem ID="87_ruinberg_on_fire" numID="58" />
-    <DataItem ID="99_himmelball" numID="61" />
-    <DataItem ID="102_deathtrack" numID="65" />
     <DataItem ID="109_battlecity_ny" numID="70" />
     <DataItem ID="111_paris" numID="71" />
     <DataItem ID="105_germany" numID="72" />
+    <DataItem ID="114_czech" numID="74" />
     <DataItem ID="112_eiffel_tower" numID="73" />
     <DataItem ID="119_moon_pool" numID="75" />
     <DataItem ID="116_himmelball" numID="75" />
@@ -1119,6 +1139,7 @@
     <DataItem ID="118_lostcityball" numID="77" />
     <DataItem ID="122_somme" numID="76" />
     <DataItem ID="120_kharkiv_halloween" numID="85" />
+    <DataItem ID="217_er_alaska" numID="82" />
   </Maps>
   <Nations>
     <DataItem ID="ussr" numID="0" />
@@ -1131,6 +1152,7 @@
     <DataItem ID="czech" numID="7" />
     <DataItem ID="sweden" numID="8" />
     <DataItem ID="poland" numID="9" />
+    <DataItem ID="italy" numID="10" />
   </Nations>
   <ProgressAchievements>
     <ProgressAchievement id="wolfAmongSheep" numID="229" parentID="wolfAmongSheepMedal" parentNumID="230" />
@@ -1149,556 +1171,574 @@
     <ProgressAchievement id="bruteForce" numID="503" parentID="bruteForceMedal" parentNumID="504" />
   </ProgressAchievements>
   <ExpectedValues>
-    <ExpectedValueItem TnumID="254" NnumID="3" kills="0.892" spots="1.408" DMG="1324.938" WR="0.52694000000000008" Def="0.479" />
-    <ExpectedValueItem TnumID="253" NnumID="3" kills="0.772" spots="2.592" DMG="585.433" WR="0.52972" Def="0.755" />
-    <ExpectedValueItem TnumID="252" NnumID="3" kills="0.883" spots="1.304" DMG="1240.904" WR="0.53088" Def="0.653" />
-    <ExpectedValueItem TnumID="251" NnumID="1" kills="0.821" spots="1.258" DMG="1142.969" WR="0.52089" Def="0.904" />
-    <ExpectedValueItem TnumID="250" NnumID="4" kills="0.904" spots="1.336" DMG="1219.771" WR="0.51139" Def="1.005" />
-    <ExpectedValueItem TnumID="250" NnumID="3" kills="0.899" spots="1.352" DMG="1148.488" WR="0.51054" Def="0.742" />
-    <ExpectedValueItem TnumID="249" NnumID="4" kills="0.765" spots="2.228" DMG="718.693" WR="0.51786999999999994" Def="0.81" />
-    <ExpectedValueItem TnumID="249" NnumID="3" kills="0.826" spots="1.28" DMG="1084.612" WR="0.52526000000000006" Def="0.874" />
-    <ExpectedValueItem TnumID="249" NnumID="1" kills="0.893" spots="1.214" DMG="1205.869" WR="0.51862" Def="1.193" />
-    <ExpectedValueItem TnumID="248" NnumID="4" kills="0.826" spots="1.415" DMG="1132.943" WR="0.5101" Def="0.936" />
-    <ExpectedValueItem TnumID="248" NnumID="3" kills="0.953" spots="1.131" DMG="1816.801" WR="0.51307" Def="0.734" />
-    <ExpectedValueItem TnumID="247" NnumID="3" kills="1.114" spots="0.771" DMG="1491.305" WR="0.541" Def="0.701" />
-    <ExpectedValueItem TnumID="247" NnumID="1" kills="1.033" spots="1.099" DMG="550.211" WR="0.54103" Def="1.144" />
-    <ExpectedValueItem TnumID="247" NnumID="0" kills="0.798" spots="0.885" DMG="1263.039" WR="0.53504" Def="0.643" />
-    <ExpectedValueItem TnumID="246" NnumID="4" kills="0.876" spots="0.841" DMG="1298.227" WR="0.51763" Def="0.658" />
-    <ExpectedValueItem TnumID="246" NnumID="1" kills="0.965" spots="1.063" DMG="1119.875" WR="0.54904000000000008" Def="0.855" />
-    <ExpectedValueItem TnumID="246" NnumID="0" kills="0.872" spots="1.385" DMG="1181.58" WR="0.51788" Def="0.753" />
-    <ExpectedValueItem TnumID="245" NnumID="4" kills="0.798" spots="1.006" DMG="1292.996" WR="0.54494" Def="0.591" />
-    <ExpectedValueItem TnumID="245" NnumID="1" kills="0.86" spots="0.667" DMG="1316.554" WR="0.53539" Def="0.671" />
-    <ExpectedValueItem TnumID="244" NnumID="4" kills="1.035" spots="1.048" DMG="1427.253" WR="0.52649" Def="0.708" />
-    <ExpectedValueItem TnumID="244" NnumID="1" kills="0.982" spots="0.558" DMG="1400.837" WR="0.51159" Def="0.947" />
-    <ExpectedValueItem TnumID="243" NnumID="0" kills="0.836" spots="0.727" DMG="1236.998" WR="0.53298" Def="0.771" />
-    <ExpectedValueItem TnumID="242" NnumID="1" kills="0.94" spots="0.833" DMG="1184.34" WR="0.50276" Def="1.263" />
-    <ExpectedValueItem TnumID="242" NnumID="0" kills="0.873" spots="1.346" DMG="1151.893" WR="0.51827" Def="0.797" />
-    <ExpectedValueItem TnumID="241" NnumID="4" kills="0.973" spots="0.656" DMG="1423.202" WR="0.52486" Def="0.759" />
-    <ExpectedValueItem TnumID="241" NnumID="1" kills="1.029" spots="0.543" DMG="1068.111" WR="0.5307" Def="1.066" />
-    <ExpectedValueItem TnumID="241" NnumID="0" kills="1.056" spots="1.606" DMG="1929.676" WR="0.53814" Def="0.768" />
-    <ExpectedValueItem TnumID="240" NnumID="4" kills="0.838" spots="2.854" DMG="909.716" WR="0.53674" Def="1.003" />
-    <ExpectedValueItem TnumID="240" NnumID="1" kills="0.955" spots="1.249" DMG="498.647" WR="0.54203" Def="1.053" />
-    <ExpectedValueItem TnumID="240" NnumID="0" kills="1.237" spots="1.073" DMG="495.065" WR="0.56879" Def="1.051" />
-    <ExpectedValueItem TnumID="239" NnumID="0" kills="0.869" spots="1.234" DMG="1800.218" WR="0.51449" Def="0.724" />
-    <ExpectedValueItem TnumID="238" NnumID="1" kills="0.976" spots="1.268" DMG="1548.646" WR="0.52559" Def="0.777" />
-    <ExpectedValueItem TnumID="238" NnumID="0" kills="1.033" spots="1.779" DMG="256.188" WR="0.55807000000000007" Def="0.915" />
-    <ExpectedValueItem TnumID="237" NnumID="1" kills="1.099" spots="0.634" DMG="534.335" WR="0.53227" Def="1.479" />
-    <ExpectedValueItem TnumID="236" NnumID="1" kills="1.206" spots="1.847" DMG="220.518" WR="0.58584" Def="1.432" />
-    <ExpectedValueItem TnumID="236" NnumID="0" kills="0.881" spots="0.928" DMG="1274.89" WR="0.52961" Def="0.642" />
-    <ExpectedValueItem TnumID="235" NnumID="1" kills="0.816" spots="1.086" DMG="1123.646" WR="0.51133000000000006" Def="0.885" />
-    <ExpectedValueItem TnumID="235" NnumID="0" kills="1.155" spots="1.043" DMG="880.855" WR="0.58446" Def="1.055" />
-    <ExpectedValueItem TnumID="234" NnumID="0" kills="0.86" spots="1.139" DMG="1147.969" WR="0.51902" Def="0.813" />
-    <ExpectedValueItem TnumID="233" NnumID="2" kills="0.988" spots="1.189" DMG="769.326" WR="0.5537" Def="0.814" />
-    <ExpectedValueItem TnumID="233" NnumID="1" kills="1.274" spots="1.383" DMG="318.105" WR="0.57451" Def="1.094" />
-    <ExpectedValueItem TnumID="233" NnumID="0" kills="1.119" spots="0.598" DMG="1070.091" WR="0.53113" Def="0.824" />
-    <ExpectedValueItem TnumID="232" NnumID="2" kills="0.762" spots="0.818" DMG="1267.897" WR="0.51751" Def="0.58" />
-    <ExpectedValueItem TnumID="232" NnumID="0" kills="1.035" spots="1.475" DMG="800.291" WR="0.55128" Def="0.918" />
-    <ExpectedValueItem TnumID="231" NnumID="2" kills="0.843" spots="1.255" DMG="1263.427" WR="0.53606" Def="0.733" />
-    <ExpectedValueItem TnumID="231" NnumID="0" kills="1.077" spots="1.089" DMG="1156.378" WR="0.54811999999999994" Def="0.727" />
-    <ExpectedValueItem TnumID="230" NnumID="2" kills="0.836" spots="1.232" DMG="1273.792" WR="0.53372" Def="0.7" />
-    <ExpectedValueItem TnumID="230" NnumID="0" kills="0.914" spots="1.045" DMG="1321.973" WR="0.54067" Def="0.658" />
-    <ExpectedValueItem TnumID="229" NnumID="2" kills="0.798" spots="1.22" DMG="1321.809" WR="0.53555" Def="0.475" />
-    <ExpectedValueItem TnumID="229" NnumID="1" kills="0.928" spots="1.043" DMG="1940.806" WR="0.51378" Def="0.464" />
-    <ExpectedValueItem TnumID="229" NnumID="0" kills="0.963" spots="0.407" DMG="1293.221" WR="0.49961" Def="0.622" />
-    <ExpectedValueItem TnumID="228" NnumID="0" kills="0.906" spots="1.454" DMG="1989.785" WR="0.50115" Def="0.573" />
-    <ExpectedValueItem TnumID="227" NnumID="0" kills="1.061" spots="1.292" DMG="833.739" WR="0.55137" Def="0.789" />
-    <ExpectedValueItem TnumID="226" NnumID="2" kills="0.75" spots="3.043" DMG="855.805" WR="0.52762999999999993" Def="0.816" />
-    <ExpectedValueItem TnumID="225" NnumID="2" kills="0.684" spots="2.756" DMG="709.488" WR="0.52518999999999993" Def="0.675" />
-    <ExpectedValueItem TnumID="225" NnumID="1" kills="0.965" spots="1.292" DMG="898.311" WR="0.53411" Def="1.094" />
-    <ExpectedValueItem TnumID="224" NnumID="2" kills="0.805" spots="1.3" DMG="1172.539" WR="0.51426" Def="0.74" />
-    <ExpectedValueItem TnumID="224" NnumID="1" kills="0.922" spots="1.035" DMG="712.078" WR="0.52831000000000006" Def="1.187" />
-    <ExpectedValueItem TnumID="223" NnumID="2" kills="0.825" spots="1.248" DMG="1160.602" WR="0.52182000000000006" Def="0.867" />
-    <ExpectedValueItem TnumID="223" NnumID="1" kills="1.03" spots="0.718" DMG="801.348" WR="0.52283" Def="0.983" />
-    <ExpectedValueItem TnumID="222" NnumID="2" kills="0.951" spots="1.196" DMG="1855.449" WR="0.51381999999999994" Def="0.845" />
-    <ExpectedValueItem TnumID="222" NnumID="0" kills="1.157" spots="1.519" DMG="1101.161" WR="0.54567999999999994" Def="0.896" />
-    <ExpectedValueItem TnumID="221" NnumID="5" kills="0.82" spots="1.142" DMG="1309.629" WR="0.52966" Def="0.503" />
-    <ExpectedValueItem TnumID="221" NnumID="2" kills="0.95" spots="0.786" DMG="1031.529" WR="0.53664" Def="0.81" />
-    <ExpectedValueItem TnumID="221" NnumID="0" kills="1.191" spots="1.3" DMG="273.23" WR="0.55855" Def="1.51" />
-    <ExpectedValueItem TnumID="220" NnumID="2" kills="0.984" spots="0.721" DMG="1053.601" WR="0.52157" Def="1.236" />
-    <ExpectedValueItem TnumID="219" NnumID="5" kills="0.979" spots="0.974" DMG="788.607" WR="0.53829" Def="1.033" />
-    <ExpectedValueItem TnumID="219" NnumID="2" kills="0.957" spots="1.287" DMG="699.198" WR="0.54465000000000008" Def="1.012" />
-    <ExpectedValueItem TnumID="218" NnumID="5" kills="1.093" spots="2.201" DMG="771.808" WR="0.56021" Def="0.966" />
-    <ExpectedValueItem TnumID="218" NnumID="2" kills="0.958" spots="1.062" DMG="1835.01" WR="0.49375" Def="0.766" />
-    <ExpectedValueItem TnumID="217" NnumID="5" kills="0.807" spots="1.115" DMG="1171.14" WR="0.51669" Def="0.822" />
-    <ExpectedValueItem TnumID="217" NnumID="1" kills="1.237" spots="1.416" DMG="1019.663" WR="0.5177" Def="1.526" />
-    <ExpectedValueItem TnumID="216" NnumID="1" kills="0.917" spots="0.767" DMG="1259.109" WR="0.51143" Def="1.046" />
-    <ExpectedValueItem TnumID="216" NnumID="0" kills="1.146" spots="0.77" DMG="1079.97" WR="0.52996" Def="0.881" />
-    <ExpectedValueItem TnumID="215" NnumID="5" kills="0.907" spots="1.07" DMG="1006.574" WR="0.53772" Def="1.027" />
-    <ExpectedValueItem TnumID="215" NnumID="2" kills="1.309" spots="1.594" DMG="198.715" WR="0.57595999999999992" Def="1.212" />
-    <ExpectedValueItem TnumID="215" NnumID="1" kills="1.07" spots="1.221" DMG="537.791" WR="0.52587000000000006" Def="1.251" />
-    <ExpectedValueItem TnumID="214" NnumID="5" kills="1.333" spots="1.565" DMG="201.41" WR="0.56665" Def="1.198" />
-    <ExpectedValueItem TnumID="214" NnumID="1" kills="1.102" spots="2.758" DMG="266.865" WR="0.59197" Def="1.493" />
-    <ExpectedValueItem TnumID="214" NnumID="0" kills="1.087" spots="0.568" DMG="818.704" WR="0.53606" Def="0.754" />
-    <ExpectedValueItem TnumID="213" NnumID="5" kills="1.157" spots="0.125" DMG="306.751" WR="0.5623" Def="1.628" />
-    <ExpectedValueItem TnumID="213" NnumID="1" kills="1.014" spots="1.526" DMG="527.248" WR="0.54867" Def="1.098" />
-    <ExpectedValueItem TnumID="213" NnumID="0" kills="1.378" spots="1.391" DMG="244.672" WR="0.56375999999999993" Def="1.462" />
-    <ExpectedValueItem TnumID="212" NnumID="5" kills="1.254" spots="1.566" DMG="608.323" WR="0.56790999999999991" Def="1.174" />
-    <ExpectedValueItem TnumID="212" NnumID="1" kills="0.807" spots="0.859" DMG="1267.553" WR="0.51694000000000007" Def="0.837" />
-    <ExpectedValueItem TnumID="212" NnumID="0" kills="1.886" spots="0.947" DMG="411.13" WR="0.5867" Def="1.494" />
-    <ExpectedValueItem TnumID="211" NnumID="5" kills="1.008" spots="0.753" DMG="998.978" WR="0.53793" Def="1.193" />
-    <ExpectedValueItem TnumID="211" NnumID="1" kills="1.172" spots="1.825" DMG="624.708" WR="0.55694" Def="0.845" />
-    <ExpectedValueItem TnumID="211" NnumID="0" kills="1.306" spots="1.374" DMG="646.689" WR="0.58833" Def="1.173" />
-    <ExpectedValueItem TnumID="210" NnumID="5" kills="1.065" spots="0.576" DMG="825.898" WR="0.52772" Def="1.236" />
-    <ExpectedValueItem TnumID="210" NnumID="2" kills="0.866" spots="1.306" DMG="1153.292" WR="0.51967" Def="0.895" />
-    <ExpectedValueItem TnumID="210" NnumID="0" kills="1.228" spots="0.814" DMG="590.377" WR="0.53186" Def="1.356" />
-    <ExpectedValueItem TnumID="209" NnumID="5" kills="1.095" spots="0.783" DMG="533.125" WR="0.54715" Def="1.405" />
-    <ExpectedValueItem TnumID="209" NnumID="2" kills="1.172" spots="1.499" DMG="208.458" WR="0.58241" Def="1.201" />
-    <ExpectedValueItem TnumID="209" NnumID="0" kills="1.487" spots="1.605" DMG="336.211" WR="0.55847" Def="1.661" />
-    <ExpectedValueItem TnumID="208" NnumID="0" kills="0.969" spots="1.074" DMG="1247.167" WR="0.51427" Def="0.907" />
-    <ExpectedValueItem TnumID="207" NnumID="0" kills="1.093" spots="2.41" DMG="360.926" WR="0.55686" Def="0.952" />
-    <ExpectedValueItem TnumID="206" NnumID="5" kills="0.924" spots="1.38" DMG="365.787" WR="0.56628" Def="1.367" />
-    <ExpectedValueItem TnumID="206" NnumID="2" kills="1.104" spots="2.5" DMG="277.009" WR="0.57473" Def="1.474" />
-    <ExpectedValueItem TnumID="206" NnumID="0" kills="1.062" spots="1.602" DMG="252.013" WR="0.54757" Def="1.53" />
-    <ExpectedValueItem TnumID="205" NnumID="8" kills="0.76" spots="1.278" DMG="1163.341" WR="0.52774" Def="0.604" />
-    <ExpectedValueItem TnumID="205" NnumID="5" kills="1.003" spots="0.561" DMG="1695.477" WR="0.51534" Def="0.817" />
-    <ExpectedValueItem TnumID="205" NnumID="2" kills="0.82" spots="1.139" DMG="1241.909" WR="0.51439" Def="0.677" />
-    <ExpectedValueItem TnumID="205" NnumID="1" kills="1.866" spots="1.666" DMG="307.579" WR="0.55329000000000006" Def="2.746" />
-    <ExpectedValueItem TnumID="205" NnumID="0" kills="1.272" spots="1.475" DMG="375.906" WR="0.54517" Def="1.642" />
-    <ExpectedValueItem TnumID="204" NnumID="8" kills="0.847" spots="1.198" DMG="1185.791" WR="0.52234" Def="0.953" />
-    <ExpectedValueItem TnumID="204" NnumID="6" kills="0.976" spots="1.021" DMG="813.516" WR="0.54596" Def="0.803" />
-    <ExpectedValueItem TnumID="204" NnumID="2" kills="1.022" spots="1.594" DMG="475.238" WR="0.54885" Def="1.03" />
-    <ExpectedValueItem TnumID="204" NnumID="1" kills="1.592" spots="1.578" DMG="488.748" WR="0.57866" Def="1.653" />
-    <ExpectedValueItem TnumID="204" NnumID="0" kills="1.323" spots="2.131" DMG="309.953" WR="0.5647" Def="1.272" />
-    <ExpectedValueItem TnumID="203" NnumID="8" kills="1.006" spots="0.486" DMG="1524.97" WR="0.51857" Def="0.815" />
-    <ExpectedValueItem TnumID="203" NnumID="6" kills="0.823" spots="1.127" DMG="1135.571" WR="0.51125" Def="0.878" />
-    <ExpectedValueItem TnumID="203" NnumID="1" kills="1.448" spots="1.366" DMG="353.869" WR="0.59054000000000006" Def="1.52" />
-    <ExpectedValueItem TnumID="202" NnumID="8" kills="1.161" spots="1.362" DMG="205.345" WR="0.57718" Def="0.995" />
-    <ExpectedValueItem TnumID="202" NnumID="2" kills="1.046" spots="1.383" DMG="507.943" WR="0.56058999999999992" Def="1.096" />
-    <ExpectedValueItem TnumID="202" NnumID="1" kills="1.664" spots="1.502" DMG="330.963" WR="0.63950000000000007" Def="2.219" />
-    <ExpectedValueItem TnumID="202" NnumID="0" kills="1.181" spots="1.16" DMG="596.912" WR="0.55128" Def="1.325" />
-    <ExpectedValueItem TnumID="201" NnumID="8" kills="1.057" spots="0.983" DMG="793.84" WR="0.53592" Def="0.903" />
-    <ExpectedValueItem TnumID="201" NnumID="7" kills="0.959" spots="1.345" DMG="751.921" WR="0.52975" Def="0.808" />
-    <ExpectedValueItem TnumID="201" NnumID="6" kills="0.943" spots="1.062" DMG="517.378" WR="0.52945" Def="1.079" />
-    <ExpectedValueItem TnumID="201" NnumID="2" kills="1.261" spots="2.419" DMG="219.264" WR="0.56961" Def="1.184" />
-    <ExpectedValueItem TnumID="201" NnumID="1" kills="0.927" spots="1.691" DMG="571.31" WR="0.52723" Def="0.9" />
-    <ExpectedValueItem TnumID="201" NnumID="0" kills="1.173" spots="1.099" DMG="531.513" WR="0.55741" Def="1.304" />
-    <ExpectedValueItem TnumID="200" NnumID="0" kills="1.258" spots="1.287" DMG="606.309" WR="0.58026" Def="1.252" />
-    <ExpectedValueItem TnumID="199" NnumID="1" kills="0.662" spots="2.477" DMG="879.727" WR="0.51505" Def="0.602" />
-    <ExpectedValueItem TnumID="199" NnumID="0" kills="1.262" spots="1.171" DMG="226.354" WR="0.57282" Def="1.165" />
-    <ExpectedValueItem TnumID="196" NnumID="1" kills="1.032" spots="0.578" DMG="1478.846" WR="0.5165" Def="0.653" />
-    <ExpectedValueItem TnumID="195" NnumID="1" kills="0.801" spots="1.285" DMG="1118.09" WR="0.51513" Def="0.83" />
-    <ExpectedValueItem TnumID="195" NnumID="0" kills="0.975" spots="1.128" DMG="1074.529" WR="0.53218" Def="0.604" />
-    <ExpectedValueItem TnumID="194" NnumID="0" kills="0.949" spots="0.989" DMG="1456.335" WR="0.54426" Def="0.537" />
-    <ExpectedValueItem TnumID="193" NnumID="0" kills="1.012" spots="1.101" DMG="1357.185" WR="0.53372" Def="0.654" />
-    <ExpectedValueItem TnumID="192" NnumID="1" kills="0.951" spots="1.002" DMG="840.85" WR="0.54705" Def="0.622" />
-    <ExpectedValueItem TnumID="191" NnumID="1" kills="0.829" spots="0.612" DMG="1274.326" WR="0.51034" Def="0.606" />
-    <ExpectedValueItem TnumID="190" NnumID="0" kills="0.954" spots="0.991" DMG="1473.401" WR="0.54057" Def="0.539" />
-    <ExpectedValueItem TnumID="188" NnumID="1" kills="0.849" spots="0.745" DMG="1341.389" WR="0.54126" Def="0.55" />
-    <ExpectedValueItem TnumID="188" NnumID="0" kills="0.966" spots="1.143" DMG="741.558" WR="0.55109" Def="0.581" />
-    <ExpectedValueItem TnumID="187" NnumID="0" kills="1.256" spots="1.197" DMG="332.574" WR="0.56546" Def="0.994" />
-    <ExpectedValueItem TnumID="186" NnumID="0" kills="0.861" spots="0.982" DMG="1304.038" WR="0.52574" Def="0.602" />
-    <ExpectedValueItem TnumID="185" NnumID="0" kills="0.876" spots="0.981" DMG="1316.172" WR="0.52622" Def="0.585" />
-    <ExpectedValueItem TnumID="84" NnumID="0" kills="1.204" spots="1.367" DMG="1942.604" WR="0.54559" Def="0.685" />
-    <ExpectedValueItem TnumID="83" NnumID="0" kills="1.106" spots="0.899" DMG="1943.355" WR="0.54188" Def="0.615" />
-    <ExpectedValueItem TnumID="82" NnumID="0" kills="1.094" spots="1.135" DMG="2343.918" WR="0.52228" Def="0.414" />
-    <ExpectedValueItem TnumID="81" NnumID="0" kills="0.993" spots="0.959" DMG="1891.852" WR="0.54885" Def="0.567" />
-    <ExpectedValueItem TnumID="80" NnumID="0" kills="0.844" spots="0.83" DMG="1342.406" WR="0.53736" Def="0.517" />
-    <ExpectedValueItem TnumID="79" NnumID="1" kills="0.748" spots="2.603" DMG="911.168" WR="0.52628" Def="0.684" />
-    <ExpectedValueItem TnumID="79" NnumID="0" kills="1.255" spots="1.374" DMG="2579.39" WR="0.54337" Def="0.516" />
-    <ExpectedValueItem TnumID="78" NnumID="1" kills="0.769" spots="2.982" DMG="1369.62" WR="0.47497" Def="0.658" />
-    <ExpectedValueItem TnumID="78" NnumID="0" kills="1.257" spots="1.473" DMG="2359.985" WR="0.54053" Def="0.695" />
-    <ExpectedValueItem TnumID="77" NnumID="2" kills="0.847" spots="2.824" DMG="742.172" WR="0.52365000000000006" Def="0.791" />
-    <ExpectedValueItem TnumID="77" NnumID="1" kills="0.871" spots="0.778" DMG="1343.341" WR="0.54857" Def="0.555" />
-    <ExpectedValueItem TnumID="77" NnumID="0" kills="0.981" spots="1.12" DMG="1842.339" WR="0.55234" Def="0.596" />
-    <ExpectedValueItem TnumID="76" NnumID="2" kills="0.838" spots="2.624" DMG="1499.956" WR="0.48197" Def="0.627" />
-    <ExpectedValueItem TnumID="76" NnumID="1" kills="0.95" spots="1.028" DMG="2111.222" WR="0.52014" Def="0.476" />
-    <ExpectedValueItem TnumID="76" NnumID="0" kills="0.935" spots="2.222" DMG="797.911" WR="0.52634" Def="0.805" />
-    <ExpectedValueItem TnumID="75" NnumID="1" kills="1.107" spots="0.623" DMG="2118.449" WR="0.49079" Def="0.582" />
-    <ExpectedValueItem TnumID="75" NnumID="0" kills="0.872" spots="3.151" DMG="1386.564" WR="0.49479" Def="0.776" />
-    <ExpectedValueItem TnumID="74" NnumID="1" kills="0.694" spots="1.941" DMG="805.25" WR="0.51813" Def="0.676" />
-    <ExpectedValueItem TnumID="73" NnumID="2" kills="0.992" spots="0.112" DMG="404.778" WR="0.54862" Def="1.299" />
-    <ExpectedValueItem TnumID="73" NnumID="1" kills="0.932" spots="0.721" DMG="1729.368" WR="0.53518" Def="0.503" />
-    <ExpectedValueItem TnumID="73" NnumID="0" kills="1.19" spots="1.271" DMG="637.488" WR="0.56698" Def="0.963" />
-    <ExpectedValueItem TnumID="72" NnumID="2" kills="1.019" spots="0.114" DMG="279.859" WR="0.56066" Def="1.825" />
-    <ExpectedValueItem TnumID="72" NnumID="1" kills="0.693" spots="2.506" DMG="987.565" WR="0.51185" Def="0.685" />
-    <ExpectedValueItem TnumID="72" NnumID="0" kills="0.718" spots="2.64" DMG="792.04" WR="0.526" Def="0.796" />
-    <ExpectedValueItem TnumID="71" NnumID="2" kills="0.673" spots="2.111" DMG="1004.575" WR="0.50497" Def="0.597" />
-    <ExpectedValueItem TnumID="71" NnumID="1" kills="1.028" spots="1.211" DMG="509.037" WR="0.54517" Def="0.929" />
-    <ExpectedValueItem TnumID="71" NnumID="0" kills="0.719" spots="2.39" DMG="1038.834" WR="0.50861" Def="0.632" />
-    <ExpectedValueItem TnumID="70" NnumID="2" kills="0.734" spots="2.497" DMG="793.015" WR="0.52" Def="0.747" />
-    <ExpectedValueItem TnumID="70" NnumID="1" kills="1.309" spots="0.793" DMG="451.58" WR="0.56977" Def="1.21" />
-    <ExpectedValueItem TnumID="69" NnumID="4" kills="1.214" spots="0.716" DMG="2099.647" WR="0.51124" Def="0.611" />
-    <ExpectedValueItem TnumID="69" NnumID="0" kills="0.956" spots="1.38" DMG="1506.665" WR="0.51826" Def="0.755" />
-    <ExpectedValueItem TnumID="68" NnumID="4" kills="0.781" spots="2.4" DMG="878.721" WR="0.52223999999999993" Def="0.745" />
-    <ExpectedValueItem TnumID="68" NnumID="1" kills="0.999" spots="1.286" DMG="397.565" WR="0.55997999999999992" Def="0.93" />
-    <ExpectedValueItem TnumID="67" NnumID="4" kills="0.983" spots="2.527" DMG="1583.916" WR="0.48466000000000004" Def="0.704" />
-    <ExpectedValueItem TnumID="67" NnumID="1" kills="1.285" spots="1.276" DMG="306.165" WR="0.57724" Def="1.059" />
-    <ExpectedValueItem TnumID="67" NnumID="0" kills="1.016" spots="1.462" DMG="1826.143" WR="0.49167" Def="0.747" />
-    <ExpectedValueItem TnumID="66" NnumID="4" kills="0.891" spots="1.223" DMG="2063.094" WR="0.49941" Def="0.583" />
-    <ExpectedValueItem TnumID="66" NnumID="1" kills="1.26" spots="0.468" DMG="2159.77" WR="0.48771000000000003" Def="0.704" />
-    <ExpectedValueItem TnumID="66" NnumID="0" kills="0.991" spots="1.441" DMG="1845.085" WR="0.48651000000000005" Def="0.781" />
-    <ExpectedValueItem TnumID="65" NnumID="4" kills="0.997" spots="1.138" DMG="1893.372" WR="0.54163" Def="0.58" />
-    <ExpectedValueItem TnumID="65" NnumID="2" kills="0.608" spots="2.218" DMG="541.764" WR="0.52516" Def="0.696" />
-    <ExpectedValueItem TnumID="65" NnumID="1" kills="1.094" spots="0.478" DMG="1501.476" WR="0.51082" Def="0.935" />
-    <ExpectedValueItem TnumID="65" NnumID="0" kills="0.649" spots="2.619" DMG="473.76" WR="0.52727" Def="0.755" />
-    <ExpectedValueItem TnumID="64" NnumID="4" kills="0.761" spots="0.713" DMG="1230.974" WR="0.51954" Def="0.602" />
-    <ExpectedValueItem TnumID="64" NnumID="2" kills="1.006" spots="0.065" DMG="807.41" WR="0.53569" Def="1.292" />
-    <ExpectedValueItem TnumID="64" NnumID="1" kills="1.031" spots="0.536" DMG="1748.485" WR="0.50312" Def="0.808" />
-    <ExpectedValueItem TnumID="64" NnumID="0" kills="1.024" spots="0.082" DMG="579.347" WR="0.53462" Def="1.208" />
-    <ExpectedValueItem TnumID="63" NnumID="2" kills="0.873" spots="0.035" DMG="1480.523" WR="0.50645000000000007" Def="0.797" />
-    <ExpectedValueItem TnumID="63" NnumID="1" kills="1.053" spots="0.661" DMG="590.391" WR="0.52423" Def="1.044" />
-    <ExpectedValueItem TnumID="63" NnumID="0" kills="0.875" spots="0.039" DMG="982.225" WR="0.51599" Def="0.849" />
-    <ExpectedValueItem TnumID="62" NnumID="5" kills="1.024" spots="0.708" DMG="2133.802" WR="0.51966" Def="0.654" />
-    <ExpectedValueItem TnumID="62" NnumID="4" kills="1.379" spots="0.937" DMG="230.89" WR="0.59187" Def="1.91" />
-    <ExpectedValueItem TnumID="62" NnumID="2" kills="0.978" spots="1.218" DMG="1883.997" WR="0.48804000000000003" Def="0.777" />
-    <ExpectedValueItem TnumID="62" NnumID="1" kills="0.937" spots="1.306" DMG="719.039" WR="0.53299" Def="1.002" />
-    <ExpectedValueItem TnumID="62" NnumID="0" kills="0.929" spots="1.48" DMG="333.663" WR="0.55711" Def="1.283" />
-    <ExpectedValueItem TnumID="61" NnumID="5" kills="0.955" spots="1.031" DMG="2150.042" WR="0.49529" Def="0.599" />
-    <ExpectedValueItem TnumID="61" NnumID="4" kills="0.936" spots="1.292" DMG="1573.93" WR="0.51568" Def="0.777" />
-    <ExpectedValueItem TnumID="61" NnumID="2" kills="0.689" spots="2.328" DMG="713.154" WR="0.51415" Def="0.652" />
-    <ExpectedValueItem TnumID="61" NnumID="1" kills="1.059" spots="0.091" DMG="417.236" WR="0.54984" Def="1.533" />
-    <ExpectedValueItem TnumID="61" NnumID="0" kills="1.171" spots="1.508" DMG="2022.64" WR="0.51912" Def="0.853" />
-    <ExpectedValueItem TnumID="60" NnumID="5" kills="0.805" spots="1.097" DMG="1156.236" WR="0.5266" Def="0.784" />
-    <ExpectedValueItem TnumID="60" NnumID="4" kills="0.952" spots="1.333" DMG="1844.413" WR="0.49411" Def="0.771" />
-    <ExpectedValueItem TnumID="60" NnumID="2" kills="1.047" spots="0.948" DMG="1612.303" WR="0.50526" Def="0.732" />
-    <ExpectedValueItem TnumID="60" NnumID="1" kills="0.832" spots="0.031" DMG="1196.648" WR="0.50822" Def="0.698" />
-    <ExpectedValueItem TnumID="60" NnumID="0" kills="1.317" spots="1.297" DMG="230.379" WR="0.59156" Def="1.636" />
-    <ExpectedValueItem TnumID="59" NnumID="4" kills="1.299" spots="0.814" DMG="224.907" WR="0.58034" Def="1.686" />
-    <ExpectedValueItem TnumID="59" NnumID="2" kills="0.583" spots="2.086" DMG="493.276" WR="0.52544" Def="0.649" />
-    <ExpectedValueItem TnumID="59" NnumID="1" kills="1.141" spots="0.166" DMG="186.556" WR="0.55163" Def="1.121" />
-    <ExpectedValueItem TnumID="59" NnumID="0" kills="1.216" spots="1.318" DMG="299.495" WR="0.56741" Def="1.479" />
-    <ExpectedValueItem TnumID="58" NnumID="4" kills="0.935" spots="0.872" DMG="386.386" WR="0.55078" Def="1.151" />
-    <ExpectedValueItem TnumID="58" NnumID="2" kills="1.048" spots="0.837" DMG="2021.104" WR="0.48656999999999995" Def="0.607" />
-    <ExpectedValueItem TnumID="58" NnumID="1" kills="0.898" spots="1.193" DMG="1516.431" WR="0.50705" Def="0.84" />
-    <ExpectedValueItem TnumID="57" NnumID="5" kills="0.972" spots="0.756" DMG="1358.933" WR="0.50968" Def="0.977" />
-    <ExpectedValueItem TnumID="57" NnumID="4" kills="0.978" spots="0.099" DMG="391.091" WR="0.54583" Def="1.484" />
-    <ExpectedValueItem TnumID="57" NnumID="2" kills="0.915" spots="1.249" DMG="1166.81" WR="0.50953" Def="0.991" />
-    <ExpectedValueItem TnumID="57" NnumID="1" kills="0.971" spots="1.358" DMG="1850.48" WR="0.48609" Def="0.843" />
-    <ExpectedValueItem TnumID="56" NnumID="5" kills="0.981" spots="0.87" DMG="771.915" WR="0.52668" Def="1.174" />
-    <ExpectedValueItem TnumID="56" NnumID="4" kills="0.867" spots="0.04" DMG="1403.814" WR="0.5064" Def="0.908" />
-    <ExpectedValueItem TnumID="56" NnumID="1" kills="0.593" spots="1.964" DMG="666.71" WR="0.51566" Def="0.656" />
-    <ExpectedValueItem TnumID="56" NnumID="0" kills="1.04" spots="0.904" DMG="2027.546" WR="0.49138" Def="0.663" />
-    <ExpectedValueItem TnumID="55" NnumID="5" kills="0.995" spots="0.848" DMG="1015.116" WR="0.52604" Def="1.129" />
-    <ExpectedValueItem TnumID="55" NnumID="4" kills="0.6" spots="2.43" DMG="415.797" WR="0.5325" Def="0.717" />
-    <ExpectedValueItem TnumID="55" NnumID="2" kills="0.965" spots="1.326" DMG="1882.609" WR="0.49083" Def="0.7" />
-    <ExpectedValueItem TnumID="55" NnumID="1" kills="0.958" spots="1.541" DMG="707.042" WR="0.54598" Def="1.068" />
-    <ExpectedValueItem TnumID="54" NnumID="5" kills="1.104" spots="0.442" DMG="2119.254" WR="0.49331" Def="0.441" />
-    <ExpectedValueItem TnumID="54" NnumID="4" kills="1.11" spots="0.815" DMG="2083.078" WR="0.49622" Def="0.61" />
-    <ExpectedValueItem TnumID="54" NnumID="2" kills="1.025" spots="0.734" DMG="2092.679" WR="0.50766" Def="0.505" />
-    <ExpectedValueItem TnumID="54" NnumID="1" kills="0.817" spots="1.163" DMG="1130.635" WR="0.51326" Def="0.964" />
-    <ExpectedValueItem TnumID="54" NnumID="0" kills="0.953" spots="1.402" DMG="1782.99" WR="0.48658" Def="0.731" />
-    <ExpectedValueItem TnumID="53" NnumID="1" kills="1.065" spots="1.545" DMG="369.148" WR="0.57414999999999994" Def="1.226" />
-    <ExpectedValueItem TnumID="53" NnumID="0" kills="1.047" spots="0.756" DMG="2059.629" WR="0.48355" Def="0.64" />
-    <ExpectedValueItem TnumID="52" NnumID="5" kills="1.058" spots="0.511" DMG="590.237" WR="0.54158000000000006" Def="1.469" />
-    <ExpectedValueItem TnumID="52" NnumID="2" kills="0.849" spots="0.991" DMG="1143.115" WR="0.51343" Def="0.959" />
-    <ExpectedValueItem TnumID="52" NnumID="1" kills="1.146" spots="1.007" DMG="402.389" WR="0.55619" Def="1.273" />
-    <ExpectedValueItem TnumID="52" NnumID="0" kills="0.885" spots="1.242" DMG="1168.202" WR="0.50429" Def="0.867" />
-    <ExpectedValueItem TnumID="51" NnumID="5" kills="1.006" spots="0.558" DMG="1675.285" WR="0.50031" Def="0.802" />
-    <ExpectedValueItem TnumID="51" NnumID="4" kills="1.213" spots="1.057" DMG="320.328" WR="0.5828" Def="1.454" />
-    <ExpectedValueItem TnumID="51" NnumID="2" kills="1.001" spots="0.783" DMG="2048.767" WR="0.49248" Def="0.536" />
-    <ExpectedValueItem TnumID="51" NnumID="1" kills="1" spots="1.605" DMG="277.116" WR="0.58467" Def="1.362" />
-    <ExpectedValueItem TnumID="50" NnumID="5" kills="0.998" spots="1.363" DMG="504.058" WR="0.54701" Def="0.941" />
-    <ExpectedValueItem TnumID="50" NnumID="1" kills="1.279" spots="2.048" DMG="207.465" WR="0.58321" Def="1.259" />
-    <ExpectedValueItem TnumID="49" NnumID="2" kills="1.011" spots="1.764" DMG="511.736" WR="0.5617" Def="0.969" />
-    <ExpectedValueItem TnumID="49" NnumID="1" kills="1.159" spots="2.664" DMG="260.077" WR="0.56717" Def="1.279" />
-    <ExpectedValueItem TnumID="49" NnumID="0" kills="0.921" spots="1.556" DMG="916.269" WR="0.52634" Def="0.806" />
-    <ExpectedValueItem TnumID="48" NnumID="5" kills="0.822" spots="0.028" DMG="1728.131" WR="0.50264" Def="0.783" />
-    <ExpectedValueItem TnumID="48" NnumID="1" kills="0.933" spots="1.335" DMG="1870.694" WR="0.49634" Def="0.686" />
-    <ExpectedValueItem TnumID="48" NnumID="0" kills="0.992" spots="1.817" DMG="685.447" WR="0.54447" Def="1.032" />
-    <ExpectedValueItem TnumID="47" NnumID="5" kills="0.861" spots="0.03" DMG="1191.24" WR="0.50942999999999994" Def="0.821" />
-    <ExpectedValueItem TnumID="47" NnumID="4" kills="0.917" spots="0.75" DMG="1277.439" WR="0.51117" Def="0.917" />
-    <ExpectedValueItem TnumID="47" NnumID="1" kills="1.034" spots="0.64" DMG="2042.957" WR="0.50397" Def="0.449" />
-    <ExpectedValueItem TnumID="47" NnumID="0" kills="0.976" spots="0.789" DMG="1555.382" WR="0.49271" Def="0.861" />
-    <ExpectedValueItem TnumID="46" NnumID="5" kills="1.001" spots="0.159" DMG="765.558" WR="0.53736" Def="1.821" />
-    <ExpectedValueItem TnumID="46" NnumID="4" kills="0.974" spots="0.059" DMG="1621.059" WR="0.49944000000000005" Def="0.971" />
-    <ExpectedValueItem TnumID="46" NnumID="2" kills="1.012" spots="1.64" DMG="879.488" WR="0.52377000000000007" Def="1.17" />
-    <ExpectedValueItem TnumID="46" NnumID="1" kills="1.007" spots="0.57" DMG="821.882" WR="0.51369999999999993" Def="1.08" />
-    <ExpectedValueItem TnumID="46" NnumID="0" kills="1.144" spots="0.824" DMG="624.868" WR="0.54919" Def="1.061" />
-    <ExpectedValueItem TnumID="45" NnumID="5" kills="0.87" spots="0.03" DMG="1454.322" WR="0.50662" Def="0.722" />
-    <ExpectedValueItem TnumID="45" NnumID="4" kills="0.931" spots="0.61" DMG="739.765" WR="0.52931" Def="1.04" />
-    <ExpectedValueItem TnumID="45" NnumID="2" kills="1.004" spots="1.224" DMG="791.533" WR="0.53526000000000007" Def="1.12" />
-    <ExpectedValueItem TnumID="45" NnumID="1" kills="1.007" spots="0.699" DMG="1400.794" WR="0.51395" Def="0.866" />
-    <ExpectedValueItem TnumID="45" NnumID="0" kills="0.881" spots="1.11" DMG="1538.761" WR="0.50471" Def="0.713" />
-    <ExpectedValueItem TnumID="44" NnumID="5" kills="0.887" spots="0.064" DMG="943.919" WR="0.52365000000000006" Def="1.498" />
-    <ExpectedValueItem TnumID="44" NnumID="2" kills="0.952" spots="0.496" DMG="1353.361" WR="0.5107" Def="0.908" />
-    <ExpectedValueItem TnumID="44" NnumID="1" kills="1.253" spots="0.781" DMG="489.306" WR="0.56189" Def="1.481" />
-    <ExpectedValueItem TnumID="44" NnumID="0" kills="0.994" spots="0.875" DMG="800.299" WR="0.54517" Def="0.819" />
-    <ExpectedValueItem TnumID="43" NnumID="5" kills="1.109" spots="0.107" DMG="594.938" WR="0.55158" Def="1.506" />
-    <ExpectedValueItem TnumID="43" NnumID="4" kills="0.961" spots="0.893" DMG="1601.731" WR="0.51533000000000007" Def="0.798" />
-    <ExpectedValueItem TnumID="43" NnumID="2" kills="0.912" spots="0.895" DMG="979.133" WR="0.53061" Def="1.117" />
-    <ExpectedValueItem TnumID="43" NnumID="1" kills="0.969" spots="0.461" DMG="1018.236" WR="0.50859999999999994" Def="0.936" />
-    <ExpectedValueItem TnumID="43" NnumID="0" kills="0.814" spots="0.803" DMG="1204.038" WR="0.5217" Def="0.791" />
-    <ExpectedValueItem TnumID="42" NnumID="5" kills="0.96" spots="0.092" DMG="358.738" WR="0.54408" Def="1.777" />
-    <ExpectedValueItem TnumID="42" NnumID="4" kills="0.888" spots="0.664" DMG="982.132" WR="0.53252" Def="1.013" />
-    <ExpectedValueItem TnumID="42" NnumID="2" kills="0.888" spots="1.225" DMG="1867.085" WR="0.49218000000000006" Def="0.657" />
-    <ExpectedValueItem TnumID="42" NnumID="1" kills="0.911" spots="0.926" DMG="1063.148" WR="0.54271" Def="0.986" />
-    <ExpectedValueItem TnumID="42" NnumID="0" kills="0.873" spots="0.904" DMG="1590.674" WR="0.51450000000000007" Def="0.642" />
-    <ExpectedValueItem TnumID="41" NnumID="5" kills="1.301" spots="0.204" DMG="194.61" WR="0.56604999999999994" Def="1.166" />
-    <ExpectedValueItem TnumID="41" NnumID="2" kills="1.165" spots="1.391" DMG="601.652" WR="0.5471" Def="1.339" />
-    <ExpectedValueItem TnumID="41" NnumID="1" kills="0.851" spots="1.152" DMG="1222.967" WR="0.52188" Def="0.857" />
-    <ExpectedValueItem TnumID="41" NnumID="0" kills="1.036" spots="0.686" DMG="819.475" WR="0.53633" Def="0.674" />
-    <ExpectedValueItem TnumID="40" NnumID="2" kills="1.173" spots="1.219" DMG="451.262" WR="0.57207" Def="1.487" />
-    <ExpectedValueItem TnumID="40" NnumID="1" kills="0.912" spots="1.289" DMG="1542.221" WR="0.51588" Def="0.716" />
-    <ExpectedValueItem TnumID="40" NnumID="0" kills="0.994" spots="0.803" DMG="1006.051" WR="0.52819" Def="1.122" />
-    <ExpectedValueItem TnumID="39" NnumID="5" kills="1.03" spots="0.632" DMG="1108.078" WR="0.55468000000000006" Def="1.211" />
-    <ExpectedValueItem TnumID="39" NnumID="4" kills="1.171" spots="0.711" DMG="618.266" WR="0.54164" Def="1.259" />
-    <ExpectedValueItem TnumID="39" NnumID="2" kills="0.984" spots="1.128" DMG="711.272" WR="0.54393" Def="1.067" />
-    <ExpectedValueItem TnumID="39" NnumID="1" kills="0.607" spots="2.34" DMG="495.252" WR="0.52622" Def="0.593" />
-    <ExpectedValueItem TnumID="39" NnumID="0" kills="0.951" spots="0.841" DMG="1240.214" WR="0.50049" Def="0.984" />
-    <ExpectedValueItem TnumID="38" NnumID="5" kills="0.926" spots="0.414" DMG="739.848" WR="0.53314" Def="1.108" />
-    <ExpectedValueItem TnumID="38" NnumID="4" kills="1.264" spots="0.548" DMG="429.727" WR="0.57216" Def="1.166" />
-    <ExpectedValueItem TnumID="38" NnumID="2" kills="0.599" spots="2.579" DMG="406.94" WR="0.53208" Def="0.655" />
-    <ExpectedValueItem TnumID="38" NnumID="1" kills="0.875" spots="0.981" DMG="1549.903" WR="0.51515" Def="0.691" />
-    <ExpectedValueItem TnumID="37" NnumID="5" kills="0.996" spots="0.641" DMG="756.717" WR="0.55615" Def="1.323" />
-    <ExpectedValueItem TnumID="37" NnumID="2" kills="0.851" spots="1.051" DMG="1533.422" WR="0.50436" Def="0.684" />
-    <ExpectedValueItem TnumID="37" NnumID="1" kills="0.903" spots="0.956" DMG="1895.613" WR="0.50259999999999994" Def="0.501" />
-    <ExpectedValueItem TnumID="37" NnumID="0" kills="0.838" spots="2.308" DMG="388.751" WR="0.55593" Def="0.964" />
-    <ExpectedValueItem TnumID="36" NnumID="5" kills="1.052" spots="0.536" DMG="2019.804" WR="0.4878" Def="0.477" />
-    <ExpectedValueItem TnumID="36" NnumID="2" kills="1.004" spots="0.758" DMG="1035.239" WR="0.53318" Def="1.075" />
-    <ExpectedValueItem TnumID="36" NnumID="1" kills="0.894" spots="0.035" DMG="1658.135" WR="0.49205" Def="0.63" />
-    <ExpectedValueItem TnumID="36" NnumID="0" kills="0.992" spots="1.082" DMG="1326.153" WR="0.52105" Def="0.784" />
-    <ExpectedValueItem TnumID="35" NnumID="5" kills="1.206" spots="1.148" DMG="438.837" WR="0.56922" Def="1.495" />
-    <ExpectedValueItem TnumID="35" NnumID="2" kills="0.932" spots="1.398" DMG="1528.759" WR="0.51186" Def="0.739" />
-    <ExpectedValueItem TnumID="35" NnumID="1" kills="0.956" spots="0.046" DMG="1147.205" WR="0.51007" Def="0.942" />
-    <ExpectedValueItem TnumID="35" NnumID="0" kills="0.891" spots="1.424" DMG="842.481" WR="0.54359" Def="0.975" />
-    <ExpectedValueItem TnumID="34" NnumID="5" kills="1.087" spots="0.729" DMG="544.35" WR="0.56970999999999994" Def="1.617" />
-    <ExpectedValueItem TnumID="34" NnumID="2" kills="1.054" spots="0.487" DMG="1747.568" WR="0.52365000000000006" Def="0.626" />
-    <ExpectedValueItem TnumID="34" NnumID="1" kills="0.897" spots="0.037" DMG="1442.709" WR="0.49713999999999997" Def="0.638" />
-    <ExpectedValueItem TnumID="34" NnumID="0" kills="0.909" spots="0.042" DMG="1667.789" WR="0.48861" Def="0.735" />
-    <ExpectedValueItem TnumID="33" NnumID="5" kills="0.961" spots="0.607" DMG="1335.423" WR="0.52427" Def="1.137" />
-    <ExpectedValueItem TnumID="33" NnumID="3" kills="1.06" spots="0.628" DMG="2150.999" WR="0.50501" Def="0.564" />
-    <ExpectedValueItem TnumID="33" NnumID="2" kills="0.855" spots="0.034" DMG="1641.607" WR="0.49073" Def="0.647" />
-    <ExpectedValueItem TnumID="33" NnumID="1" kills="0.809" spots="1.227" DMG="1099.497" WR="0.52703" Def="0.912" />
-    <ExpectedValueItem TnumID="33" NnumID="0" kills="0.945" spots="0.029" DMG="1500.623" WR="0.49692000000000003" Def="0.681" />
-    <ExpectedValueItem TnumID="32" NnumID="5" kills="1.651" spots="1.113" DMG="274.909" WR="0.58395000000000008" Def="1.52" />
-    <ExpectedValueItem TnumID="32" NnumID="4" kills="1.387" spots="0.912" DMG="355.438" WR="0.59522" Def="1.751" />
-    <ExpectedValueItem TnumID="32" NnumID="3" kills="1.11" spots="0.484" DMG="1875.875" WR="0.5243" Def="0.584" />
-    <ExpectedValueItem TnumID="32" NnumID="2" kills="0.971" spots="0.497" DMG="1354.289" WR="0.51767000000000007" Def="0.918" />
-    <ExpectedValueItem TnumID="32" NnumID="1" kills="0.863" spots="1.936" DMG="316.054" WR="0.56359" Def="1.091" />
-    <ExpectedValueItem TnumID="32" NnumID="0" kills="1.125" spots="0.619" DMG="1865.387" WR="0.50592" Def="0.753" />
-    <ExpectedValueItem TnumID="31" NnumID="5" kills="1.526" spots="0.748" DMG="361.926" WR="0.58" Def="1.701" />
-    <ExpectedValueItem TnumID="31" NnumID="3" kills="0.958" spots="0.458" DMG="1367.508" WR="0.51951" Def="0.628" />
-    <ExpectedValueItem TnumID="31" NnumID="2" kills="0.935" spots="0.054" DMG="1094.429" WR="0.51535" Def="0.987" />
-    <ExpectedValueItem TnumID="31" NnumID="1" kills="1.03" spots="0.607" DMG="1757.025" WR="0.5131" Def="0.752" />
-    <ExpectedValueItem TnumID="31" NnumID="0" kills="0.896" spots="1.573" DMG="1413.602" WR="0.51086" Def="0.765" />
-    <ExpectedValueItem TnumID="30" NnumID="5" kills="1.393" spots="1.721" DMG="248.734" WR="0.57151000000000007" Def="1.209" />
-    <ExpectedValueItem TnumID="30" NnumID="4" kills="1.811" spots="0.74" DMG="300.147" WR="0.58718" Def="1.758" />
-    <ExpectedValueItem TnumID="30" NnumID="3" kills="1.097" spots="0.588" DMG="1053.163" WR="0.54165999999999992" Def="0.851" />
-    <ExpectedValueItem TnumID="30" NnumID="2" kills="1.28" spots="0.95" DMG="492.12" WR="0.56599" Def="1.406" />
-    <ExpectedValueItem TnumID="30" NnumID="1" kills="1.015" spots="0.581" DMG="1402.057" WR="0.5168" Def="0.926" />
-    <ExpectedValueItem TnumID="30" NnumID="0" kills="1.169" spots="0.12" DMG="445.723" WR="0.53856" Def="1.702" />
-    <ExpectedValueItem TnumID="29" NnumID="5" kills="1.214" spots="1.602" DMG="316.503" WR="0.57138" Def="1.059" />
-    <ExpectedValueItem TnumID="29" NnumID="4" kills="0.89" spots="0.056" DMG="1259.717" WR="0.50826" Def="0.965" />
-    <ExpectedValueItem TnumID="29" NnumID="3" kills="1.045" spots="0.601" DMG="800.655" WR="0.54599" Def="0.858" />
-    <ExpectedValueItem TnumID="29" NnumID="2" kills="0.915" spots="0.041" DMG="1319.637" WR="0.50998" Def="0.772" />
-    <ExpectedValueItem TnumID="29" NnumID="1" kills="0.857" spots="0.925" DMG="1542.947" WR="0.51840000000000008" Def="0.61" />
-    <ExpectedValueItem TnumID="29" NnumID="0" kills="1.049" spots="0.517" DMG="1410.528" WR="0.50339" Def="0.76" />
-    <ExpectedValueItem TnumID="28" NnumID="5" kills="0.94" spots="1.327" DMG="1846.374" WR="0.4964" Def="0.688" />
-    <ExpectedValueItem TnumID="28" NnumID="4" kills="0.897" spots="0.063" DMG="1107.198" WR="0.51430999999999993" Def="1.13" />
-    <ExpectedValueItem TnumID="28" NnumID="3" kills="1.06" spots="0.471" DMG="583.626" WR="0.55258000000000007" Def="0.923" />
-    <ExpectedValueItem TnumID="28" NnumID="2" kills="0.993" spots="0.838" DMG="787.521" WR="0.54124" Def="1.079" />
-    <ExpectedValueItem TnumID="28" NnumID="1" kills="0.939" spots="1.231" DMG="726.508" WR="0.54364" Def="0.863" />
-    <ExpectedValueItem TnumID="28" NnumID="0" kills="0.855" spots="1.197" DMG="1797.415" WR="0.49416" Def="0.594" />
-    <ExpectedValueItem TnumID="27" NnumID="5" kills="1.288" spots="0.907" DMG="294.163" WR="0.56536" Def="1.03" />
-    <ExpectedValueItem TnumID="27" NnumID="4" kills="0.871" spots="0.916" DMG="1025.181" WR="0.53575000000000006" Def="0.975" />
-    <ExpectedValueItem TnumID="27" NnumID="3" kills="1.388" spots="0.646" DMG="505.233" WR="0.56892" Def="1.149" />
-    <ExpectedValueItem TnumID="27" NnumID="2" kills="1.116" spots="0.919" DMG="575.247" WR="0.55025" Def="1.31" />
-    <ExpectedValueItem TnumID="27" NnumID="1" kills="0.911" spots="0.869" DMG="1893.024" WR="0.52101999999999993" Def="0.629" />
-    <ExpectedValueItem TnumID="27" NnumID="0" kills="1.286" spots="0.829" DMG="492.441" WR="0.56219" Def="1.352" />
-    <ExpectedValueItem TnumID="26" NnumID="4" kills="1.13" spots="0.848" DMG="629.64" WR="0.55182" Def="1.014" />
-    <ExpectedValueItem TnumID="26" NnumID="3" kills="1.578" spots="0.618" DMG="370.472" WR="0.58335" Def="1.326" />
-    <ExpectedValueItem TnumID="26" NnumID="1" kills="1.353" spots="0.908" DMG="388.183" WR="0.58977" Def="1.48" />
-    <ExpectedValueItem TnumID="26" NnumID="0" kills="0.899" spots="1.42" DMG="861.15" WR="0.53932" Def="1.024" />
-    <ExpectedValueItem TnumID="25" NnumID="5" kills="0.884" spots="1.648" DMG="322.983" WR="0.55271" Def="1.003" />
-    <ExpectedValueItem TnumID="25" NnumID="4" kills="0.624" spots="1.852" DMG="512.751" WR="0.5231" Def="0.634" />
-    <ExpectedValueItem TnumID="25" NnumID="3" kills="1.728" spots="0.464" DMG="273.727" WR="0.61326" Def="1.281" />
-    <ExpectedValueItem TnumID="25" NnumID="2" kills="1.446" spots="1.136" DMG="359.056" WR="0.58211" Def="1.281" />
-    <ExpectedValueItem TnumID="25" NnumID="1" kills="0.925" spots="1.507" DMG="460.306" WR="0.54876" Def="0.997" />
-    <ExpectedValueItem TnumID="25" NnumID="0" kills="1.452" spots="0.797" DMG="377.481" WR="0.5748" Def="1.6" />
-    <ExpectedValueItem TnumID="24" NnumID="5" kills="0.888" spots="1.06" DMG="1876.128" WR="0.49162999999999996" Def="0.631" />
-    <ExpectedValueItem TnumID="24" NnumID="4" kills="1.017" spots="0.958" DMG="1936.552" WR="0.48844" Def="0.695" />
-    <ExpectedValueItem TnumID="24" NnumID="3" kills="0.979" spots="1.261" DMG="2161.089" WR="0.49921" Def="0.539" />
-    <ExpectedValueItem TnumID="24" NnumID="2" kills="1.828" spots="1.044" DMG="280.135" WR="0.56768" Def="1.504" />
-    <ExpectedValueItem TnumID="24" NnumID="1" kills="0.849" spots="2.386" DMG="339.809" WR="0.56562" Def="1.036" />
-    <ExpectedValueItem TnumID="24" NnumID="0" kills="0.887" spots="1.078" DMG="1852.543" WR="0.49409" Def="0.671" />
-    <ExpectedValueItem TnumID="23" NnumID="6" kills="1.442" spots="1.204" DMG="239.949" WR="0.57145" Def="1.096" />
-    <ExpectedValueItem TnumID="23" NnumID="5" kills="0.779" spots="1.219" DMG="1114.084" WR="0.52687" Def="0.893" />
-    <ExpectedValueItem TnumID="23" NnumID="4" kills="1.104" spots="0.907" DMG="252.564" WR="0.59057" Def="1.634" />
-    <ExpectedValueItem TnumID="23" NnumID="3" kills="0.846" spots="2.606" DMG="1477.559" WR="0.48295" Def="0.626" />
-    <ExpectedValueItem TnumID="23" NnumID="2" kills="0.839" spots="1.41" DMG="1126.553" WR="0.52234" Def="0.983" />
-    <ExpectedValueItem TnumID="23" NnumID="1" kills="0.99" spots="0.147" DMG="357.544" WR="0.52028" Def="1.557" />
-    <ExpectedValueItem TnumID="23" NnumID="0" kills="0.994" spots="0.81" DMG="1086.419" WR="0.53823" Def="0.816" />
-    <ExpectedValueItem TnumID="22" NnumID="6" kills="1.281" spots="1.15" DMG="729.142" WR="0.55092" Def="0.804" />
-    <ExpectedValueItem TnumID="22" NnumID="5" kills="0.876" spots="1.157" DMG="1531.331" WR="0.50984000000000007" Def="0.797" />
-    <ExpectedValueItem TnumID="22" NnumID="4" kills="0.986" spots="1.336" DMG="1444.167" WR="0.5119" Def="0.841" />
-    <ExpectedValueItem TnumID="22" NnumID="3" kills="0.732" spots="2.369" DMG="1119.39" WR="0.50143" Def="0.598" />
-    <ExpectedValueItem TnumID="22" NnumID="2" kills="1.337" spots="1.506" DMG="237.843" WR="0.57656" Def="1.435" />
-    <ExpectedValueItem TnumID="22" NnumID="1" kills="1.061" spots="0.103" DMG="631.152" WR="0.53011000000000008" Def="1.515" />
-    <ExpectedValueItem TnumID="22" NnumID="0" kills="1.029" spots="0.068" DMG="981.366" WR="0.51077" Def="1.143" />
-    <ExpectedValueItem TnumID="21" NnumID="6" kills="1.066" spots="0.811" DMG="857.985" WR="0.54527" Def="0.655" />
-    <ExpectedValueItem TnumID="21" NnumID="5" kills="0.927" spots="1.61" DMG="884.628" WR="0.52875" Def="1.027" />
-    <ExpectedValueItem TnumID="21" NnumID="3" kills="0.884" spots="1.323" DMG="1842.552" WR="0.50519" Def="0.57" />
-    <ExpectedValueItem TnumID="21" NnumID="2" kills="0.789" spots="1.883" DMG="379.774" WR="0.53705" Def="0.883" />
-    <ExpectedValueItem TnumID="21" NnumID="1" kills="0.65" spots="2.264" DMG="389.735" WR="0.53726" Def="0.71" />
-    <ExpectedValueItem TnumID="21" NnumID="0" kills="0.89" spots="0.99" DMG="1287.879" WR="0.51671" Def="0.778" />
-    <ExpectedValueItem TnumID="20" NnumID="6" kills="0.967" spots="0.983" DMG="1131.037" WR="0.55462" Def="0.662" />
-    <ExpectedValueItem TnumID="20" NnumID="5" kills="1.447" spots="1.243" DMG="257.257" WR="0.57033" Def="1.376" />
-    <ExpectedValueItem TnumID="20" NnumID="4" kills="0.709" spots="2.015" DMG="677.734" WR="0.52529" Def="0.751" />
-    <ExpectedValueItem TnumID="20" NnumID="3" kills="0.95" spots="1.464" DMG="688.358" WR="0.54031999999999991" Def="1.003" />
-    <ExpectedValueItem TnumID="20" NnumID="2" kills="0.847" spots="2.204" DMG="294.765" WR="0.56414" Def="1.02" />
-    <ExpectedValueItem TnumID="20" NnumID="1" kills="0.832" spots="0.95" DMG="1235.644" WR="0.51735" Def="0.861" />
-    <ExpectedValueItem TnumID="20" NnumID="0" kills="1.639" spots="0.433" DMG="291.573" WR="0.58641" Def="1.721" />
-    <ExpectedValueItem TnumID="19" NnumID="6" kills="0.831" spots="0.767" DMG="1297.787" WR="0.53322" Def="0.64" />
-    <ExpectedValueItem TnumID="19" NnumID="5" kills="0.815" spots="0.771" DMG="322.753" WR="0.54926" Def="1.273" />
-    <ExpectedValueItem TnumID="19" NnumID="4" kills="0.764" spots="2.171" DMG="969.341" WR="0.51612" Def="0.694" />
-    <ExpectedValueItem TnumID="19" NnumID="3" kills="0.715" spots="2.371" DMG="502.64" WR="0.53112" Def="0.717" />
-    <ExpectedValueItem TnumID="19" NnumID="2" kills="1.296" spots="1.385" DMG="298.641" WR="0.57046999999999992" Def="1.153" />
-    <ExpectedValueItem TnumID="19" NnumID="1" kills="1.145" spots="1.724" DMG="277.24" WR="0.57757" Def="1.067" />
-    <ExpectedValueItem TnumID="19" NnumID="0" kills="0.95" spots="0.098" DMG="547.111" WR="0.5075" Def="1.383" />
-    <ExpectedValueItem TnumID="18" NnumID="8" kills="1.129" spots="0.671" DMG="2259.955" WR="0.50688" Def="0.912" />
-    <ExpectedValueItem TnumID="18" NnumID="6" kills="1.117" spots="0.712" DMG="322.378" WR="0.55655" Def="1.058" />
-    <ExpectedValueItem TnumID="18" NnumID="5" kills="0.978" spots="0.728" DMG="765.573" WR="0.54525" Def="1.164" />
-    <ExpectedValueItem TnumID="18" NnumID="4" kills="1.031" spots="0.078" DMG="935.576" WR="0.52523000000000009" Def="1.421" />
-    <ExpectedValueItem TnumID="18" NnumID="3" kills="0.994" spots="1.365" DMG="486.127" WR="0.54173" Def="1.094" />
-    <ExpectedValueItem TnumID="18" NnumID="2" kills="1.002" spots="0.125" DMG="389.068" WR="0.53576" Def="1.542" />
-    <ExpectedValueItem TnumID="18" NnumID="1" kills="1.005" spots="0.166" DMG="404.197" WR="0.53806" Def="1.578" />
-    <ExpectedValueItem TnumID="18" NnumID="0" kills="1.38" spots="1.058" DMG="238.987" WR="0.57306" Def="1.753" />
-    <ExpectedValueItem TnumID="17" NnumID="8" kills="1.029" spots="0.57" DMG="1825.054" WR="0.50844" Def="0.898" />
-    <ExpectedValueItem TnumID="17" NnumID="6" kills="1.05" spots="0.704" DMG="371.159" WR="0.54353000000000007" Def="1.084" />
-    <ExpectedValueItem TnumID="17" NnumID="5" kills="0.853" spots="0.99" DMG="1605.151" WR="0.51194000000000006" Def="0.635" />
-    <ExpectedValueItem TnumID="17" NnumID="4" kills="0.999" spots="1.134" DMG="488.221" WR="0.54215" Def="0.992" />
-    <ExpectedValueItem TnumID="17" NnumID="3" kills="1.264" spots="1.178" DMG="319.962" WR="0.57455" Def="1.377" />
-    <ExpectedValueItem TnumID="17" NnumID="2" kills="0.863" spots="1.146" DMG="1244.155" WR="0.52413" Def="0.897" />
-    <ExpectedValueItem TnumID="17" NnumID="1" kills="1.021" spots="1.801" DMG="351.356" WR="0.57716" Def="1.09" />
-    <ExpectedValueItem TnumID="17" NnumID="0" kills="0.821" spots="1.467" DMG="1038.553" WR="0.52549" Def="0.897" />
-    <ExpectedValueItem TnumID="16" NnumID="8" kills="0.95" spots="0.583" DMG="1404.761" WR="0.50812" Def="0.934" />
-    <ExpectedValueItem TnumID="16" NnumID="6" kills="0.826" spots="0.685" DMG="1542.639" WR="0.52316000000000007" Def="0.48" />
-    <ExpectedValueItem TnumID="16" NnumID="4" kills="1.104" spots="0.097" DMG="619.682" WR="0.53296999999999994" Def="2.149" />
-    <ExpectedValueItem TnumID="16" NnumID="3" kills="0.941" spots="1.272" DMG="1818.342" WR="0.49771" Def="0.653" />
-    <ExpectedValueItem TnumID="16" NnumID="2" kills="0.998" spots="0.078" DMG="838.203" WR="0.51351" Def="1.365" />
-    <ExpectedValueItem TnumID="248" NnumID="1" kills="0.794" spots="1.068" DMG="227.441" WR="0.58485999999999994" Def="1.323" />
-    <ExpectedValueItem TnumID="247" NnumID="4" kills="0.757" spots="2.245" DMG="717.742" WR="0.51942" Def="0.792" />
-    <ExpectedValueItem TnumID="16" NnumID="1" kills="0.932" spots="1.516" DMG="881.375" WR="0.53293" Def="1.007" />
-    <ExpectedValueItem TnumID="16" NnumID="0" kills="0.934" spots="0.023" DMG="1282.999" WR="0.50518" Def="0.688" />
-    <ExpectedValueItem TnumID="15" NnumID="8" kills="0.949" spots="0.581" DMG="998.439" WR="0.5231" Def="1.083" />
-    <ExpectedValueItem TnumID="15" NnumID="6" kills="0.945" spots="0.807" DMG="2104.606" WR="0.52235999999999994" Def="0.523" />
-    <ExpectedValueItem TnumID="15" NnumID="5" kills="0.799" spots="1.048" DMG="1226.959" WR="0.52498" Def="0.886" />
-    <ExpectedValueItem TnumID="15" NnumID="4" kills="0.965" spots="0.85" DMG="1596.276" WR="0.5056" Def="0.754" />
-    <ExpectedValueItem TnumID="15" NnumID="3" kills="0.671" spots="2.419" DMG="873.856" WR="0.52206000000000008" Def="0.627" />
-    <ExpectedValueItem TnumID="15" NnumID="2" kills="0.999" spots="1.053" DMG="1147" WR="0.5404" Def="0.937" />
-    <ExpectedValueItem TnumID="15" NnumID="1" kills="0.994" spots="0.683" DMG="1043.232" WR="0.53055999999999992" Def="1.005" />
-    <ExpectedValueItem TnumID="15" NnumID="0" kills="1.226" spots="0.121" DMG="214.03" WR="0.54263" Def="1.458" />
-    <ExpectedValueItem TnumID="14" NnumID="8" kills="0.967" spots="0.615" DMG="783.804" WR="0.53191" Def="1.033" />
-    <ExpectedValueItem TnumID="14" NnumID="6" kills="0.972" spots="1.32" DMG="1829.098" WR="0.49107999999999996" Def="0.736" />
-    <ExpectedValueItem TnumID="14" NnumID="5" kills="0.954" spots="1.02" DMG="750.563" WR="0.52774999999999994" Def="1.032" />
-    <ExpectedValueItem TnumID="14" NnumID="4" kills="1.103" spots="1.701" DMG="1830.867" WR="0.48926000000000003" Def="0.788" />
-    <ExpectedValueItem TnumID="14" NnumID="3" kills="0.998" spots="1.069" DMG="1082.811" WR="0.54406999999999994" Def="0.766" />
-    <ExpectedValueItem TnumID="14" NnumID="2" kills="0.866" spots="0.114" DMG="473.793" WR="0.49640999999999996" Def="1.675" />
-    <ExpectedValueItem TnumID="14" NnumID="1" kills="1.756" spots="0.898" DMG="297.644" WR="0.58272" Def="1.653" />
-    <ExpectedValueItem TnumID="14" NnumID="0" kills="1.073" spots="0.731" DMG="786.589" WR="0.53344" Def="1.02" />
-    <ExpectedValueItem TnumID="13" NnumID="8" kills="1.077" spots="0.822" DMG="528.866" WR="0.54899" Def="1.019" />
-    <ExpectedValueItem TnumID="13" NnumID="6" kills="0.898" spots="1.117" DMG="1526.962" WR="0.50540999999999991" Def="0.773" />
-    <ExpectedValueItem TnumID="13" NnumID="5" kills="1.094" spots="0.126" DMG="282.605" WR="0.55831000000000008" Def="1.665" />
-    <ExpectedValueItem TnumID="13" NnumID="4" kills="1.07" spots="0.137" DMG="389.239" WR="0.52218000000000009" Def="1.804" />
-    <ExpectedValueItem TnumID="13" NnumID="3" kills="0.678" spots="2.26" DMG="722.026" WR="0.52271" Def="0.663" />
-    <ExpectedValueItem TnumID="13" NnumID="2" kills="1.134" spots="1.11" DMG="614.861" WR="0.5556" Def="1.142" />
-    <ExpectedValueItem TnumID="13" NnumID="1" kills="1.262" spots="1.274" DMG="310.699" WR="0.58095" Def="1.359" />
-    <ExpectedValueItem TnumID="13" NnumID="0" kills="1.632" spots="1.188" DMG="216.801" WR="0.57388" Def="1.593" />
-    <ExpectedValueItem TnumID="12" NnumID="8" kills="1.179" spots="0.622" DMG="427.623" WR="0.56241999999999992" Def="1.454" />
-    <ExpectedValueItem TnumID="12" NnumID="6" kills="1.221" spots="1.221" DMG="218.546" WR="0.56596" Def="1.469" />
-    <ExpectedValueItem TnumID="12" NnumID="5" kills="0.931" spots="0.834" DMG="1014.745" WR="0.55033999999999994" Def="1.177" />
-    <ExpectedValueItem TnumID="12" NnumID="4" kills="1.011" spots="0.902" DMG="1330.387" WR="0.51682000000000006" Def="0.937" />
-    <ExpectedValueItem TnumID="12" NnumID="3" kills="0.877" spots="2.14" DMG="324.963" WR="0.54859" Def="1.034" />
-    <ExpectedValueItem TnumID="12" NnumID="2" kills="1.022" spots="0.826" DMG="360.407" WR="0.55338" Def="1.007" />
-    <ExpectedValueItem TnumID="12" NnumID="1" kills="1.624" spots="1.758" DMG="220.478" WR="0.57794" Def="1.513" />
-    <ExpectedValueItem TnumID="12" NnumID="0" kills="1.057" spots="1.314" DMG="266.865" WR="0.56074" Def="1.142" />
-    <ExpectedValueItem TnumID="11" NnumID="8" kills="1.388" spots="0.594" DMG="362.43" WR="0.58297" Def="1.523" />
-    <ExpectedValueItem TnumID="11" NnumID="6" kills="0.966" spots="1.651" DMG="361.605" WR="0.55462" Def="1.097" />
-    <ExpectedValueItem TnumID="11" NnumID="5" kills="1.114" spots="0.852" DMG="622.434" WR="0.55697000000000008" Def="1.28" />
-    <ExpectedValueItem TnumID="11" NnumID="4" kills="0.798" spots="0.772" DMG="275.44" WR="0.56436" Def="1.181" />
-    <ExpectedValueItem TnumID="11" NnumID="3" kills="0.844" spots="1.078" DMG="1237.901" WR="0.53125" Def="0.754" />
-    <ExpectedValueItem TnumID="11" NnumID="2" kills="0.797" spots="0.811" DMG="1264.565" WR="0.50909" Def="0.69" />
-    <ExpectedValueItem TnumID="11" NnumID="1" kills="1.123" spots="0.187" DMG="346.991" WR="0.57126" Def="1.358" />
-    <ExpectedValueItem TnumID="11" NnumID="0" kills="1.027" spots="1.02" DMG="814.66" WR="0.53811" Def="0.738" />
-    <ExpectedValueItem TnumID="10" NnumID="8" kills="1.345" spots="0.474" DMG="239.196" WR="0.59046" Def="1.293" />
-    <ExpectedValueItem TnumID="10" NnumID="6" kills="0.818" spots="1.191" DMG="1123.415" WR="0.5104" Def="0.992" />
-    <ExpectedValueItem TnumID="10" NnumID="4" kills="0.885" spots="0.893" DMG="783.086" WR="0.53376" Def="0.822" />
-    <ExpectedValueItem TnumID="10" NnumID="2" kills="0.974" spots="0.682" DMG="1712.159" WR="0.50619" Def="0.588" />
-    <ExpectedValueItem TnumID="10" NnumID="1" kills="1.004" spots="1.185" DMG="645.209" WR="0.54627" Def="1.055" />
-    <ExpectedValueItem TnumID="10" NnumID="0" kills="0.931" spots="1.331" DMG="706.052" WR="0.54123" Def="0.943" />
-    <ExpectedValueItem TnumID="9" NnumID="8" kills="0.972" spots="1.175" DMG="1963.681" WR="0.4984" Def="0.579" />
-    <ExpectedValueItem TnumID="9" NnumID="7" kills="1.102" spots="1.345" DMG="1994.933" WR="0.49365000000000003" Def="0.693" />
-    <ExpectedValueItem TnumID="9" NnumID="6" kills="1.138" spots="1.548" DMG="287.549" WR="0.57058" Def="1.392" />
-    <ExpectedValueItem TnumID="9" NnumID="5" kills="1.171" spots="0.98" DMG="300.24" WR="0.57295000000000007" Def="1.334" />
-    <ExpectedValueItem TnumID="9" NnumID="4" kills="1.576" spots="1.063" DMG="401.124" WR="0.58032" Def="1.576" />
-    <ExpectedValueItem TnumID="9" NnumID="3" kills="1.428" spots="1.261" DMG="244.805" WR="0.57470999999999994" Def="1.428" />
-    <ExpectedValueItem TnumID="9" NnumID="1" kills="0.993" spots="1.119" DMG="759.868" WR="0.5467" Def="1.05" />
-    <ExpectedValueItem TnumID="9" NnumID="0" kills="1.004" spots="0.516" DMG="998.639" WR="0.52589" Def="0.847" />
-    <ExpectedValueItem TnumID="8" NnumID="8" kills="0.986" spots="0.948" DMG="1667.296" WR="0.52177" Def="0.586" />
-    <ExpectedValueItem TnumID="8" NnumID="7" kills="1.061" spots="1.097" DMG="1718.123" WR="0.5214" Def="0.754" />
-    <ExpectedValueItem TnumID="8" NnumID="6" kills="1.257" spots="1.164" DMG="324.115" WR="0.5749" Def="1.281" />
-    <ExpectedValueItem TnumID="8" NnumID="5" kills="0.943" spots="1.583" DMG="458.293" WR="0.55251" Def="1.154" />
-    <ExpectedValueItem TnumID="8" NnumID="4" kills="1.302" spots="0.11" DMG="657.048" WR="0.5512" Def="1.459" />
-    <ExpectedValueItem TnumID="8" NnumID="3" kills="0.872" spots="1.215" DMG="1607.431" WR="0.52266" Def="0.542" />
-    <ExpectedValueItem TnumID="8" NnumID="2" kills="1.236" spots="0.382" DMG="228.922" WR="0.54384" Def="1.809" />
-    <ExpectedValueItem TnumID="8" NnumID="1" kills="1.367" spots="1.681" DMG="235.292" WR="0.57421" Def="1.535" />
-    <ExpectedValueItem TnumID="8" NnumID="0" kills="0.83" spots="2.213" DMG="307.176" WR="0.55881" Def="1.055" />
-    <ExpectedValueItem TnumID="7" NnumID="8" kills="0.989" spots="0.85" DMG="1397.939" WR="0.53060000000000007" Def="0.701" />
-    <ExpectedValueItem TnumID="7" NnumID="7" kills="0.789" spots="1.039" DMG="1082.428" WR="0.51784" Def="0.868" />
-    <ExpectedValueItem TnumID="7" NnumID="6" kills="0.947" spots="1.053" DMG="725.95" WR="0.52452" Def="1.071" />
-    <ExpectedValueItem TnumID="7" NnumID="3" kills="0.877" spots="1.355" DMG="1438.511" WR="0.51766" Def="0.695" />
-    <ExpectedValueItem TnumID="7" NnumID="2" kills="1.466" spots="2.392" DMG="247.928" WR="0.57942" Def="1.381" />
-    <ExpectedValueItem TnumID="7" NnumID="1" kills="1.403" spots="0.6" DMG="452.668" WR="0.56784" Def="1.174" />
-    <ExpectedValueItem TnumID="7" NnumID="0" kills="0.912" spots="0.045" DMG="1163.956" WR="0.50271" Def="0.745" />
-    <ExpectedValueItem TnumID="6" NnumID="8" kills="0.903" spots="1.282" DMG="941.298" WR="0.53241" Def="0.801" />
-    <ExpectedValueItem TnumID="6" NnumID="7" kills="0.878" spots="1.208" DMG="934.848" WR="0.53216" Def="0.834" />
-    <ExpectedValueItem TnumID="6" NnumID="6" kills="0.976" spots="1.206" DMG="368.774" WR="0.56009" Def="1.101" />
-    <ExpectedValueItem TnumID="6" NnumID="5" kills="1.013" spots="0.861" DMG="378.862" WR="0.54926" Def="1.078" />
-    <ExpectedValueItem TnumID="6" NnumID="4" kills="1.349" spots="0.936" DMG="228.757" WR="0.5739" Def="2.156" />
-    <ExpectedValueItem TnumID="6" NnumID="3" kills="0.814" spots="1.486" DMG="1044.301" WR="0.5227" Def="0.912" />
-    <ExpectedValueItem TnumID="6" NnumID="2" kills="0.917" spots="1.581" DMG="946.991" WR="0.54445" Def="0.987" />
-    <ExpectedValueItem TnumID="6" NnumID="1" kills="1.042" spots="0.728" DMG="745.18" WR="0.53527" Def="1.214" />
-    <ExpectedValueItem TnumID="6" NnumID="0" kills="0.999" spots="1.182" DMG="388.462" WR="0.55509999999999993" Def="0.952" />
-    <ExpectedValueItem TnumID="5" NnumID="8" kills="0.955" spots="1.104" DMG="758.425" WR="0.53852" Def="0.992" />
-    <ExpectedValueItem TnumID="5" NnumID="7" kills="0.922" spots="1.434" DMG="723.337" WR="0.53476" Def="0.994" />
-    <ExpectedValueItem TnumID="5" NnumID="6" kills="0.911" spots="1.168" DMG="485.356" WR="0.54438" Def="1.04" />
-    <ExpectedValueItem TnumID="5" NnumID="5" kills="1.116" spots="1.75" DMG="290.709" WR="0.57481" Def="1.451" />
-    <ExpectedValueItem TnumID="5" NnumID="4" kills="1.383" spots="1.06" DMG="233.955" WR="0.58625" Def="1.921" />
-    <ExpectedValueItem TnumID="5" NnumID="3" kills="1.67" spots="1.253" DMG="220.905" WR="0.56413" Def="1.67" />
-    <ExpectedValueItem TnumID="5" NnumID="2" kills="0.973" spots="1.416" DMG="696.129" WR="0.55074" Def="1.052" />
-    <ExpectedValueItem TnumID="5" NnumID="1" kills="0.872" spots="1.229" DMG="902.542" WR="0.53987000000000007" Def="1.142" />
-    <ExpectedValueItem TnumID="4" NnumID="8" kills="0.919" spots="1.166" DMG="506.934" WR="0.53876" Def="0.977" />
-    <ExpectedValueItem TnumID="4" NnumID="7" kills="0.85" spots="1.402" DMG="488.273" WR="0.5431" Def="1.052" />
-    <ExpectedValueItem TnumID="4" NnumID="6" kills="0.886" spots="1.005" DMG="912.442" WR="0.51305" Def="1.041" />
-    <ExpectedValueItem TnumID="4" NnumID="5" kills="0.992" spots="1.856" DMG="705.256" WR="0.54689" Def="0.954" />
-    <ExpectedValueItem TnumID="4" NnumID="4" kills="1.115" spots="1.061" DMG="371.296" WR="0.55692999999999993" Def="1.451" />
-    <ExpectedValueItem TnumID="4" NnumID="3" kills="0.906" spots="1.455" DMG="917.822" WR="0.54431" Def="0.93" />
-    <ExpectedValueItem TnumID="4" NnumID="2" kills="1.065" spots="1.354" DMG="528.148" WR="0.54885" Def="0.958" />
-    <ExpectedValueItem TnumID="4" NnumID="1" kills="1.104" spots="0.697" DMG="580.698" WR="0.54183" Def="1.333" />
-    <ExpectedValueItem TnumID="4" NnumID="0" kills="1.304" spots="1.663" DMG="228.817" WR="0.56869" Def="1.374" />
-    <ExpectedValueItem TnumID="3" NnumID="8" kills="0.987" spots="1.254" DMG="380.659" WR="0.55552" Def="1.097" />
-    <ExpectedValueItem TnumID="3" NnumID="7" kills="0.951" spots="1.129" DMG="366.316" WR="0.55765" Def="1.297" />
-    <ExpectedValueItem TnumID="3" NnumID="6" kills="1.349" spots="1.434" DMG="235.343" WR="0.56836" Def="1.351" />
-    <ExpectedValueItem TnumID="3" NnumID="5" kills="1.119" spots="0.763" DMG="440.892" WR="0.56185000000000007" Def="1.557" />
-    <ExpectedValueItem TnumID="3" NnumID="4" kills="1.336" spots="0.12" DMG="221.594" WR="0.56180999999999992" Def="1.357" />
-    <ExpectedValueItem TnumID="3" NnumID="3" kills="0.926" spots="1.288" DMG="1254.404" WR="0.5259" Def="0.693" />
-    <ExpectedValueItem TnumID="3" NnumID="2" kills="0.961" spots="1.006" DMG="796.726" WR="0.53693" Def="0.856" />
-    <ExpectedValueItem TnumID="3" NnumID="1" kills="1.352" spots="1.463" DMG="233.597" WR="0.57339" Def="1.689" />
-    <ExpectedValueItem TnumID="3" NnumID="0" kills="0.981" spots="1.825" DMG="253.076" WR="0.56009" Def="1.244" />
-    <ExpectedValueItem TnumID="2" NnumID="8" kills="1.16" spots="1.379" DMG="316.264" WR="0.57028" Def="1.456" />
-    <ExpectedValueItem TnumID="2" NnumID="7" kills="0.941" spots="1.061" DMG="273.737" WR="0.56692999999999993" Def="1.445" />
-    <ExpectedValueItem TnumID="2" NnumID="6" kills="1.548" spots="1.088" DMG="193.913" WR="0.57546999999999993" Def="1.677" />
-    <ExpectedValueItem TnumID="2" NnumID="5" kills="1.358" spots="2.064" DMG="240.371" WR="0.58074" Def="1.356" />
-    <ExpectedValueItem TnumID="2" NnumID="4" kills="1.475" spots="1.194" DMG="201.382" WR="0.58048" Def="1.778" />
-    <ExpectedValueItem TnumID="2" NnumID="2" kills="1.528" spots="1.808" DMG="197.441" WR="0.57968000000000008" Def="1.342" />
-    <ExpectedValueItem TnumID="2" NnumID="1" kills="0.935" spots="0.97" DMG="1076.157" WR="0.53609000000000007" Def="0.984" />
-    <ExpectedValueItem TnumID="2" NnumID="0" kills="0.978" spots="0.996" DMG="1038.85" WR="0.5345" Def="0.809" />
-    <ExpectedValueItem TnumID="1" NnumID="8" kills="1.336" spots="1.299" DMG="240.37" WR="0.57173000000000007" Def="1.159" />
-    <ExpectedValueItem TnumID="1" NnumID="7" kills="1.2" spots="1.377" DMG="223.491" WR="0.56558999999999993" Def="1.415" />
-    <ExpectedValueItem TnumID="1" NnumID="6" kills="1.366" spots="1.171" DMG="227.711" WR="0.57735" Def="1.428" />
-    <ExpectedValueItem TnumID="1" NnumID="5" kills="1.41" spots="0.908" DMG="244.085" WR="0.56832" Def="1.176" />
-    <ExpectedValueItem TnumID="1" NnumID="4" kills="1.21" spots="0.798" DMG="291.665" WR="0.58688000000000007" Def="1.572" />
-    <ExpectedValueItem TnumID="1" NnumID="3" kills="0.65" spots="2.422" DMG="661.965" WR="0.51835999999999993" Def="0.666" />
-    <ExpectedValueItem TnumID="1" NnumID="2" kills="1.065" spots="2.157" DMG="263.557" WR="0.57200000000000006" Def="1.432" />
-    <ExpectedValueItem TnumID="1" NnumID="1" kills="1.005" spots="0.077" DMG="927.087" WR="0.51206000000000007" Def="1.239" />
-    <ExpectedValueItem TnumID="1" NnumID="0" kills="1.108" spots="0.533" DMG="576.842" WR="0.54453000000000007" Def="1.219" />
-    <ExpectedValueItem TnumID="0" NnumID="9" kills="0.991" spots="1.325" DMG="792.126" WR="0.55172" Def="0.766" />
-    <ExpectedValueItem TnumID="0" NnumID="8" kills="1.468" spots="1.368" DMG="198.747" WR="0.58837000000000006" Def="0.954" />
-    <ExpectedValueItem TnumID="0" NnumID="7" kills="1.527" spots="0.826" DMG="203.495" WR="0.58448" Def="0.969" />
-    <ExpectedValueItem TnumID="0" NnumID="5" kills="1.666" spots="0.907" DMG="217.475" WR="0.57501" Def="1.24" />
-    <ExpectedValueItem TnumID="0" NnumID="3" kills="0.893" spots="1.591" DMG="1108.388" WR="0.52127" Def="0.912" />
-    <ExpectedValueItem TnumID="0" NnumID="2" kills="1.234" spots="1.515" DMG="590.805" WR="0.56133" Def="1.178" />
-    <ExpectedValueItem TnumID="0" NnumID="0" kills="0.975" spots="1.353" DMG="486.689" WR="0.55018" Def="1.065" />
+    <ExpectedValueItem TnumID="254" NnumID="3" kills="0.877" spots="1.402" DMG="1295.587" WR="0.52391" Def="0.49" />
+    <ExpectedValueItem TnumID="253" NnumID="3" kills="0.789" spots="2.627" DMG="588.965" WR="0.5293" Def="0.758" />
+    <ExpectedValueItem TnumID="253" NnumID="0" kills="1.188" spots="0.767" DMG="894.601" WR="0.5382" Def="0.977" />
+    <ExpectedValueItem TnumID="252" NnumID="3" kills="0.88" spots="1.305" DMG="1237.167" WR="0.53057" Def="0.651" />
+    <ExpectedValueItem TnumID="251" NnumID="1" kills="0.815" spots="1.256" DMG="1135.673" WR="0.52004" Def="0.903" />
+    <ExpectedValueItem TnumID="250" NnumID="4" kills="0.899" spots="1.333" DMG="1214.195" WR="0.51079" Def="1.006" />
+    <ExpectedValueItem TnumID="250" NnumID="3" kills="0.897" spots="1.349" DMG="1147.459" WR="0.51026" Def="0.737" />
+    <ExpectedValueItem TnumID="249" NnumID="4" kills="1.032" spots="2.805" DMG="879.807" WR="0.53967" Def="0.876" />
+    <ExpectedValueItem TnumID="249" NnumID="3" kills="0.821" spots="1.281" DMG="1079.677" WR="0.52486" Def="0.87" />
+    <ExpectedValueItem TnumID="249" NnumID="1" kills="0.883" spots="1.219" DMG="1177.797" WR="0.51425" Def="1.272" />
+    <ExpectedValueItem TnumID="248" NnumID="4" kills="0.82" spots="1.414" DMG="1125.354" WR="0.50939" Def="0.936" />
+    <ExpectedValueItem TnumID="248" NnumID="3" kills="0.952" spots="1.136" DMG="1813.579" WR="0.5121" Def="0.74" />
+    <ExpectedValueItem TnumID="248" NnumID="1" kills="0.793" spots="1.073" DMG="228.491" WR="0.58583" Def="1.358" />
+    <ExpectedValueItem TnumID="247" NnumID="4" kills="0.767" spots="2.292" DMG="720.36" WR="0.52007" Def="0.795" />
+    <ExpectedValueItem TnumID="247" NnumID="3" kills="1.102" spots="0.778" DMG="1484.696" WR="0.53750999999999993" Def="0.694" />
+    <ExpectedValueItem TnumID="247" NnumID="1" kills="1.026" spots="1.095" DMG="548.075" WR="0.54095" Def="1.133" />
+    <ExpectedValueItem TnumID="247" NnumID="0" kills="0.797" spots="0.886" DMG="1260.142" WR="0.53523" Def="0.64" />
+    <ExpectedValueItem TnumID="246" NnumID="4" kills="0.868" spots="0.842" DMG="1288.018" WR="0.51605" Def="0.651" />
+    <ExpectedValueItem TnumID="246" NnumID="1" kills="0.96" spots="1.065" DMG="1113.913" WR="0.54816" Def="0.845" />
+    <ExpectedValueItem TnumID="246" NnumID="0" kills="0.891" spots="1.445" DMG="1210.865" WR="0.52201" Def="0.74" />
+    <ExpectedValueItem TnumID="204" NnumID="0" kills="1.312" spots="2.137" DMG="308.52" WR="0.56396" Def="1.282" />
+    <ExpectedValueItem TnumID="203" NnumID="8" kills="0.994" spots="0.488" DMG="1517.073" WR="0.51772" Def="0.81" />
+    <ExpectedValueItem TnumID="203" NnumID="6" kills="0.815" spots="1.13" DMG="1128.646" WR="0.51103999999999994" Def="0.878" />
+    <ExpectedValueItem TnumID="203" NnumID="2" kills="1.11" spots="1.542" DMG="308.035" WR="0.55432" Def="1.282" />
+    <ExpectedValueItem TnumID="203" NnumID="1" kills="1.448" spots="1.365" DMG="354.833" WR="0.59029" Def="1.522" />
+    <ExpectedValueItem TnumID="202" NnumID="8" kills="1.156" spots="1.371" DMG="204.21" WR="0.57616" Def="1.022" />
+    <ExpectedValueItem TnumID="202" NnumID="2" kills="1.042" spots="1.382" DMG="507.087" WR="0.56009" Def="1.099" />
+    <ExpectedValueItem TnumID="202" NnumID="1" kills="1.655" spots="1.49" DMG="330.195" WR="0.63755000000000006" Def="2.213" />
+    <ExpectedValueItem TnumID="202" NnumID="0" kills="1.178" spots="1.161" DMG="597.071" WR="0.55126" Def="1.321" />
+    <ExpectedValueItem TnumID="201" NnumID="8" kills="1.055" spots="0.984" DMG="793.762" WR="0.53569" Def="0.882" />
+    <ExpectedValueItem TnumID="201" NnumID="7" kills="0.954" spots="1.344" DMG="748.552" WR="0.52976" Def="0.807" />
+    <ExpectedValueItem TnumID="201" NnumID="6" kills="0.941" spots="1.062" DMG="516.604" WR="0.5294" Def="1.085" />
+    <ExpectedValueItem TnumID="201" NnumID="2" kills="1.278" spots="2.412" DMG="221.017" WR="0.56843" Def="1.193" />
+    <ExpectedValueItem TnumID="201" NnumID="1" kills="0.937" spots="1.702" DMG="573.727" WR="0.52833" Def="0.903" />
+    <ExpectedValueItem TnumID="201" NnumID="0" kills="1.169" spots="1.098" DMG="530.686" WR="0.55687" Def="1.301" />
+    <ExpectedValueItem TnumID="200" NnumID="10" kills="0.992" spots="1.207" DMG="1362.038" WR="0.51735" Def="0.668" />
+    <ExpectedValueItem TnumID="200" NnumID="0" kills="1.257" spots="1.287" DMG="606.296" WR="0.57918" Def="1.251" />
+    <ExpectedValueItem TnumID="199" NnumID="1" kills="0.66" spots="2.509" DMG="873.093" WR="0.51462000000000008" Def="0.6" />
+    <ExpectedValueItem TnumID="199" NnumID="0" kills="1.262" spots="1.177" DMG="226.483" WR="0.57228" Def="1.183" />
+    <ExpectedValueItem TnumID="196" NnumID="1" kills="1.019" spots="0.574" DMG="1466.885" WR="0.51496" Def="0.648" />
+    <ExpectedValueItem TnumID="195" NnumID="1" kills="0.79" spots="1.285" DMG="1107.439" WR="0.51486" Def="0.83" />
+    <ExpectedValueItem TnumID="195" NnumID="0" kills="0.969" spots="1.129" DMG="1068.006" WR="0.53308" Def="0.602" />
+    <ExpectedValueItem TnumID="194" NnumID="0" kills="0.935" spots="0.981" DMG="1447.954" WR="0.54167999999999994" Def="0.522" />
+    <ExpectedValueItem TnumID="193" NnumID="0" kills="0.998" spots="1.095" DMG="1339.535" WR="0.53139" Def="0.642" />
+    <ExpectedValueItem TnumID="192" NnumID="1" kills="0.951" spots="1.006" DMG="833.753" WR="0.54631" Def="0.625" />
+    <ExpectedValueItem TnumID="191" NnumID="1" kills="0.843" spots="0.736" DMG="1373.388" WR="0.52176" Def="0.509" />
+    <ExpectedValueItem TnumID="190" NnumID="0" kills="0.937" spots="0.981" DMG="1463.985" WR="0.53823" Def="0.518" />
+    <ExpectedValueItem TnumID="188" NnumID="1" kills="0.842" spots="0.746" DMG="1320.885" WR="0.53805" Def="0.541" />
+    <ExpectedValueItem TnumID="188" NnumID="0" kills="0.958" spots="1.209" DMG="731.644" WR="0.54562" Def="0.691" />
+    <ExpectedValueItem TnumID="187" NnumID="0" kills="1.229" spots="1.174" DMG="326.394" WR="0.56323" Def="0.909" />
+    <ExpectedValueItem TnumID="186" NnumID="0" kills="0.852" spots="0.984" DMG="1284.854" WR="0.52435" Def="0.602" />
+    <ExpectedValueItem TnumID="185" NnumID="0" kills="0.866" spots="0.985" DMG="1296.718" WR="0.52406999999999992" Def="0.592" />
+    <ExpectedValueItem TnumID="84" NnumID="0" kills="1.148" spots="1.327" DMG="1865.265" WR="0.53817" Def="0.683" />
+    <ExpectedValueItem TnumID="83" NnumID="0" kills="1.056" spots="0.84" DMG="1810.345" WR="0.52872999999999992" Def="0.605" />
+    <ExpectedValueItem TnumID="82" NnumID="0" kills="1.007" spots="1.073" DMG="2171.335" WR="0.51564999999999994" Def="0.403" />
+    <ExpectedValueItem TnumID="81" NnumID="0" kills="0.945" spots="0.948" DMG="1749.97" WR="0.53092" Def="0.49" />
+    <ExpectedValueItem TnumID="80" NnumID="0" kills="0.826" spots="0.82" DMG="1298.367" WR="0.52664" Def="0.507" />
+    <ExpectedValueItem TnumID="79" NnumID="1" kills="0.731" spots="2.647" DMG="894.906" WR="0.52530999999999994" Def="0.677" />
+    <ExpectedValueItem TnumID="79" NnumID="0" kills="1.169" spots="1.329" DMG="2403.904" WR="0.53622" Def="0.474" />
+    <ExpectedValueItem TnumID="78" NnumID="1" kills="0.749" spots="2.997" DMG="1339.432" WR="0.47682" Def="0.645" />
+    <ExpectedValueItem TnumID="78" NnumID="0" kills="1.127" spots="1.407" DMG="2155.728" WR="0.5193" Def="0.602" />
+    <ExpectedValueItem TnumID="77" NnumID="2" kills="0.826" spots="2.824" DMG="725.253" WR="0.52499000000000007" Def="0.743" />
+    <ExpectedValueItem TnumID="77" NnumID="1" kills="0.864" spots="0.774" DMG="1330.539" WR="0.54585000000000006" Def="0.559" />
+    <ExpectedValueItem TnumID="77" NnumID="0" kills="0.955" spots="1.091" DMG="1735.306" WR="0.536" Def="0.569" />
+    <ExpectedValueItem TnumID="76" NnumID="2" kills="0.812" spots="2.651" DMG="1465.781" WR="0.48365" Def="0.595" />
+    <ExpectedValueItem TnumID="76" NnumID="1" kills="0.942" spots="1.025" DMG="2089.457" WR="0.51706000000000008" Def="0.465" />
+    <ExpectedValueItem TnumID="76" NnumID="0" kills="0.913" spots="2.249" DMG="784.152" WR="0.52745" Def="0.788" />
+    <ExpectedValueItem TnumID="75" NnumID="1" kills="1.099" spots="0.617" DMG="2108.715" WR="0.49008" Def="0.578" />
+    <ExpectedValueItem TnumID="75" NnumID="0" kills="0.847" spots="3.171" DMG="1352.548" WR="0.49628" Def="0.742" />
+    <ExpectedValueItem TnumID="74" NnumID="1" kills="0.693" spots="1.957" DMG="798.535" WR="0.5176" Def="0.68" />
+    <ExpectedValueItem TnumID="73" NnumID="2" kills="0.991" spots="0.11" DMG="403.339" WR="0.54791" Def="1.291" />
+    <ExpectedValueItem TnumID="73" NnumID="1" kills="0.927" spots="0.717" DMG="1716.011" WR="0.53261" Def="0.512" />
+    <ExpectedValueItem TnumID="73" NnumID="0" kills="1.185" spots="1.271" DMG="635.344" WR="0.5668" Def="0.961" />
+    <ExpectedValueItem TnumID="72" NnumID="2" kills="1.021" spots="0.107" DMG="277.396" WR="0.562" Def="1.814" />
+    <ExpectedValueItem TnumID="72" NnumID="1" kills="0.691" spots="2.54" DMG="986.914" WR="0.51078" Def="0.686" />
+    <ExpectedValueItem TnumID="72" NnumID="0" kills="0.714" spots="2.648" DMG="790.863" WR="0.52556" Def="0.796" />
+    <ExpectedValueItem TnumID="71" NnumID="2" kills="0.675" spots="2.168" DMG="1007.118" WR="0.50468" Def="0.598" />
+    <ExpectedValueItem TnumID="71" NnumID="1" kills="1.029" spots="1.21" DMG="509.74" WR="0.54538" Def="0.932" />
+    <ExpectedValueItem TnumID="71" NnumID="0" kills="0.717" spots="2.433" DMG="1037.825" WR="0.50812" Def="0.63" />
+    <ExpectedValueItem TnumID="70" NnumID="2" kills="0.73" spots="2.503" DMG="790.384" WR="0.51963" Def="0.751" />
+    <ExpectedValueItem TnumID="70" NnumID="1" kills="1.312" spots="0.792" DMG="451.724" WR="0.56926" Def="1.209" />
+    <ExpectedValueItem TnumID="69" NnumID="4" kills="1.195" spots="0.716" DMG="2081.336" WR="0.50936" Def="0.598" />
+    <ExpectedValueItem TnumID="69" NnumID="0" kills="0.952" spots="1.378" DMG="1502.039" WR="0.51744" Def="0.751" />
+    <ExpectedValueItem TnumID="68" NnumID="4" kills="0.766" spots="2.448" DMG="864.294" WR="0.52094" Def="0.742" />
+    <ExpectedValueItem TnumID="68" NnumID="1" kills="0.999" spots="1.287" DMG="397.646" WR="0.55996" Def="0.931" />
+    <ExpectedValueItem TnumID="67" NnumID="4" kills="0.948" spots="2.55" DMG="1541.39" WR="0.48625999999999997" Def="0.661" />
+    <ExpectedValueItem TnumID="67" NnumID="1" kills="1.285" spots="1.275" DMG="307.035" WR="0.57661000000000007" Def="1.084" />
+    <ExpectedValueItem TnumID="67" NnumID="0" kills="1.013" spots="1.46" DMG="1819.055" WR="0.49095999999999995" Def="0.75" />
+    <ExpectedValueItem TnumID="66" NnumID="4" kills="0.888" spots="1.219" DMG="2018.664" WR="0.49679" Def="0.527" />
+    <ExpectedValueItem TnumID="66" NnumID="1" kills="1.259" spots="0.468" DMG="2156.173" WR="0.48753" Def="0.707" />
+    <ExpectedValueItem TnumID="66" NnumID="0" kills="0.988" spots="1.44" DMG="1840.393" WR="0.4868" Def="0.775" />
+    <ExpectedValueItem TnumID="65" NnumID="4" kills="0.98" spots="1.137" DMG="1854.283" WR="0.53665" Def="0.566" />
+    <ExpectedValueItem TnumID="65" NnumID="2" kills="0.609" spots="2.225" DMG="539.503" WR="0.52484" Def="0.699" />
+    <ExpectedValueItem TnumID="65" NnumID="1" kills="1.089" spots="0.474" DMG="1495.217" WR="0.51034" Def="0.934" />
+    <ExpectedValueItem TnumID="65" NnumID="0" kills="0.66" spots="2.624" DMG="475.747" WR="0.52727" Def="0.76" />
+    <ExpectedValueItem TnumID="64" NnumID="4" kills="0.756" spots="0.709" DMG="1216.399" WR="0.51899000000000006" Def="0.607" />
+    <ExpectedValueItem TnumID="64" NnumID="2" kills="1.009" spots="0.064" DMG="808.664" WR="0.53585" Def="1.297" />
+    <ExpectedValueItem TnumID="64" NnumID="1" kills="1.031" spots="0.531" DMG="1746.541" WR="0.50266" Def="0.809" />
+    <ExpectedValueItem TnumID="64" NnumID="0" kills="1.027" spots="0.081" DMG="579.981" WR="0.53457999999999994" Def="1.211" />
+    <ExpectedValueItem TnumID="63" NnumID="2" kills="0.869" spots="0.034" DMG="1478.442" WR="0.50679000000000007" Def="0.822" />
+    <ExpectedValueItem TnumID="63" NnumID="1" kills="1.053" spots="0.659" DMG="590.904" WR="0.52449" Def="1.049" />
+    <ExpectedValueItem TnumID="63" NnumID="0" kills="0.876" spots="0.039" DMG="981.102" WR="0.51639" Def="0.856" />
+    <ExpectedValueItem TnumID="62" NnumID="5" kills="1.017" spots="0.71" DMG="2105.349" WR="0.51525" Def="0.618" />
+    <ExpectedValueItem TnumID="62" NnumID="4" kills="1.38" spots="0.937" DMG="231.13" WR="0.59095999999999993" Def="1.944" />
+    <ExpectedValueItem TnumID="62" NnumID="2" kills="0.973" spots="1.216" DMG="1879.621" WR="0.48768" Def="0.771" />
+    <ExpectedValueItem TnumID="62" NnumID="1" kills="0.938" spots="1.306" DMG="719.612" WR="0.53363" Def="1.004" />
+    <ExpectedValueItem TnumID="62" NnumID="0" kills="0.929" spots="1.483" DMG="334.003" WR="0.55682" Def="1.283" />
+    <ExpectedValueItem TnumID="61" NnumID="5" kills="0.95" spots="1.028" DMG="2122.402" WR="0.49523000000000006" Def="0.569" />
+    <ExpectedValueItem TnumID="61" NnumID="4" kills="0.936" spots="1.301" DMG="1573.144" WR="0.51479" Def="0.775" />
+    <ExpectedValueItem TnumID="61" NnumID="2" kills="0.703" spots="2.338" DMG="717.504" WR="0.51446" Def="0.657" />
+    <ExpectedValueItem TnumID="61" NnumID="1" kills="1.059" spots="0.09" DMG="416.915" WR="0.54968000000000006" Def="1.533" />
+    <ExpectedValueItem TnumID="61" NnumID="0" kills="1.164" spots="1.523" DMG="2014.824" WR="0.51837" Def="0.832" />
+    <ExpectedValueItem TnumID="60" NnumID="5" kills="0.801" spots="1.095" DMG="1152.111" WR="0.52613" Def="0.79" />
+    <ExpectedValueItem TnumID="60" NnumID="4" kills="0.949" spots="1.347" DMG="1838.374" WR="0.49325" Def="0.762" />
+    <ExpectedValueItem TnumID="60" NnumID="2" kills="1.046" spots="0.946" DMG="1609.457" WR="0.50489" Def="0.733" />
+    <ExpectedValueItem TnumID="60" NnumID="1" kills="0.83" spots="0.03" DMG="1197.755" WR="0.50895" Def="0.71" />
+    <ExpectedValueItem TnumID="60" NnumID="0" kills="1.317" spots="1.299" DMG="230.573" WR="0.59112" Def="1.659" />
+    <ExpectedValueItem TnumID="59" NnumID="4" kills="1.293" spots="0.817" DMG="224.295" WR="0.57853" Def="1.691" />
+    <ExpectedValueItem TnumID="59" NnumID="2" kills="0.592" spots="2.097" DMG="496.9" WR="0.52530999999999994" Def="0.655" />
+    <ExpectedValueItem TnumID="59" NnumID="1" kills="1.135" spots="0.161" DMG="187.813" WR="0.55504" Def="1.127" />
+    <ExpectedValueItem TnumID="59" NnumID="0" kills="1.216" spots="1.318" DMG="299.982" WR="0.56714" Def="1.494" />
+    <ExpectedValueItem TnumID="58" NnumID="4" kills="0.936" spots="0.874" DMG="386.721" WR="0.55089" Def="1.16" />
+    <ExpectedValueItem TnumID="58" NnumID="2" kills="1.044" spots="0.836" DMG="2017.451" WR="0.48632" Def="0.602" />
+    <ExpectedValueItem TnumID="58" NnumID="1" kills="0.899" spots="1.192" DMG="1517.44" WR="0.50635" Def="0.841" />
+    <ExpectedValueItem TnumID="57" NnumID="5" kills="0.965" spots="0.749" DMG="1359.116" WR="0.51003999999999994" Def="0.953" />
+    <ExpectedValueItem TnumID="57" NnumID="4" kills="0.979" spots="0.099" DMG="390.961" WR="0.54598" Def="1.489" />
+    <ExpectedValueItem TnumID="57" NnumID="2" kills="0.913" spots="1.246" DMG="1164.884" WR="0.50947" Def="0.993" />
+    <ExpectedValueItem TnumID="57" NnumID="1" kills="0.967" spots="1.354" DMG="1845.441" WR="0.48524" Def="0.84" />
+    <ExpectedValueItem TnumID="56" NnumID="5" kills="0.985" spots="0.862" DMG="772.38" WR="0.52839" Def="1.157" />
+    <ExpectedValueItem TnumID="56" NnumID="4" kills="0.865" spots="0.039" DMG="1401.381" WR="0.50615" Def="0.917" />
+    <ExpectedValueItem TnumID="56" NnumID="1" kills="0.593" spots="1.966" DMG="666.666" WR="0.51588" Def="0.665" />
+    <ExpectedValueItem TnumID="56" NnumID="0" kills="1.039" spots="0.901" DMG="2022.555" WR="0.49094" Def="0.666" />
+    <ExpectedValueItem TnumID="55" NnumID="5" kills="1.013" spots="0.831" DMG="1045.15" WR="0.52811" Def="1.064" />
+    <ExpectedValueItem TnumID="55" NnumID="4" kills="0.604" spots="2.423" DMG="414.484" WR="0.53267" Def="0.722" />
+    <ExpectedValueItem TnumID="55" NnumID="2" kills="0.968" spots="1.323" DMG="1894.059" WR="0.49099" Def="0.691" />
+    <ExpectedValueItem TnumID="55" NnumID="1" kills="0.958" spots="1.545" DMG="706.821" WR="0.54583" Def="1.072" />
+    <ExpectedValueItem TnumID="54" NnumID="5" kills="1.123" spots="0.433" DMG="2153.86" WR="0.49396999999999996" Def="0.419" />
+    <ExpectedValueItem TnumID="54" NnumID="4" kills="1.108" spots="0.813" DMG="2078.392" WR="0.49603" Def="0.61" />
+    <ExpectedValueItem TnumID="54" NnumID="2" kills="1.022" spots="0.73" DMG="2089.933" WR="0.50702" Def="0.5" />
+    <ExpectedValueItem TnumID="54" NnumID="1" kills="0.815" spots="1.162" DMG="1129.771" WR="0.51324" Def="0.969" />
+    <ExpectedValueItem TnumID="54" NnumID="0" kills="0.951" spots="1.4" DMG="1779.2" WR="0.48631" Def="0.73" />
+    <ExpectedValueItem TnumID="53" NnumID="1" kills="1.065" spots="1.551" DMG="369.452" WR="0.57431" Def="1.242" />
+    <ExpectedValueItem TnumID="53" NnumID="0" kills="1.047" spots="0.751" DMG="2062.094" WR="0.48372" Def="0.638" />
+    <ExpectedValueItem TnumID="52" NnumID="5" kills="1.054" spots="0.51" DMG="589.937" WR="0.54171" Def="1.458" />
+    <ExpectedValueItem TnumID="52" NnumID="2" kills="0.846" spots="0.991" DMG="1140.533" WR="0.51301" Def="0.959" />
+    <ExpectedValueItem TnumID="52" NnumID="1" kills="1.155" spots="1.013" DMG="404.292" WR="0.55688" Def="1.266" />
+    <ExpectedValueItem TnumID="52" NnumID="0" kills="0.882" spots="1.235" DMG="1165.262" WR="0.50418" Def="0.867" />
+    <ExpectedValueItem TnumID="51" NnumID="5" kills="1.017" spots="0.558" DMG="1694.573" WR="0.50137999999999994" Def="0.779" />
+    <ExpectedValueItem TnumID="51" NnumID="4" kills="1.223" spots="1.058" DMG="322.703" WR="0.58317" Def="1.467" />
+    <ExpectedValueItem TnumID="51" NnumID="2" kills="0.999" spots="0.779" DMG="2048.785" WR="0.49241999999999997" Def="0.532" />
+    <ExpectedValueItem TnumID="51" NnumID="1" kills="1.002" spots="1.609" DMG="278.172" WR="0.58393000000000006" Def="1.372" />
+    <ExpectedValueItem TnumID="50" NnumID="5" kills="0.995" spots="1.361" DMG="503.694" WR="0.54692" Def="0.942" />
+    <ExpectedValueItem TnumID="50" NnumID="1" kills="1.278" spots="2.027" DMG="207.649" WR="0.58097" Def="1.253" />
+    <ExpectedValueItem TnumID="49" NnumID="2" kills="1.001" spots="1.763" DMG="508.462" WR="0.56076" Def="0.975" />
+    <ExpectedValueItem TnumID="49" NnumID="1" kills="1.163" spots="2.661" DMG="261.833" WR="0.56641" Def="1.294" />
+    <ExpectedValueItem TnumID="49" NnumID="0" kills="0.92" spots="1.553" DMG="915.192" WR="0.52682000000000007" Def="0.806" />
+    <ExpectedValueItem TnumID="48" NnumID="5" kills="0.819" spots="0.027" DMG="1726.835" WR="0.50338" Def="0.784" />
+    <ExpectedValueItem TnumID="48" NnumID="1" kills="0.931" spots="1.334" DMG="1868.975" WR="0.49548000000000003" Def="0.683" />
+    <ExpectedValueItem TnumID="48" NnumID="0" kills="0.991" spots="1.812" DMG="685.396" WR="0.54442" Def="1.036" />
+    <ExpectedValueItem TnumID="47" NnumID="5" kills="0.86" spots="0.03" DMG="1190.112" WR="0.50942" Def="0.83" />
+    <ExpectedValueItem TnumID="47" NnumID="4" kills="0.919" spots="0.748" DMG="1278.699" WR="0.5112" Def="0.916" />
+    <ExpectedValueItem TnumID="47" NnumID="1" kills="1.033" spots="0.637" DMG="2042.017" WR="0.50413" Def="0.445" />
+    <ExpectedValueItem TnumID="47" NnumID="0" kills="0.975" spots="0.788" DMG="1553.292" WR="0.49245" Def="0.867" />
+    <ExpectedValueItem TnumID="46" NnumID="5" kills="1.001" spots="0.157" DMG="765.651" WR="0.53699" Def="1.826" />
+    <ExpectedValueItem TnumID="46" NnumID="4" kills="0.966" spots="0.058" DMG="1613.77" WR="0.49936" Def="0.971" />
+    <ExpectedValueItem TnumID="46" NnumID="2" kills="1.009" spots="1.636" DMG="877.54" WR="0.52341" Def="1.169" />
+    <ExpectedValueItem TnumID="46" NnumID="1" kills="1.006" spots="0.568" DMG="821.387" WR="0.51389000000000007" Def="1.084" />
+    <ExpectedValueItem TnumID="46" NnumID="0" kills="1.145" spots="0.827" DMG="625.307" WR="0.54937" Def="1.065" />
+    <ExpectedValueItem TnumID="45" NnumID="5" kills="0.867" spots="0.03" DMG="1451.129" WR="0.50645000000000007" Def="0.734" />
+    <ExpectedValueItem TnumID="45" NnumID="4" kills="0.933" spots="0.61" DMG="741.054" WR="0.52983" Def="1.044" />
+    <ExpectedValueItem TnumID="45" NnumID="2" kills="1.002" spots="1.22" DMG="790.839" WR="0.53498" Def="1.124" />
+    <ExpectedValueItem TnumID="45" NnumID="1" kills="1.003" spots="0.694" DMG="1396.165" WR="0.51355" Def="0.867" />
+    <ExpectedValueItem TnumID="45" NnumID="0" kills="0.878" spots="1.116" DMG="1539.6" WR="0.50467" Def="0.71" />
+    <ExpectedValueItem TnumID="44" NnumID="5" kills="0.887" spots="0.064" DMG="943.583" WR="0.52373" Def="1.505" />
+    <ExpectedValueItem TnumID="44" NnumID="2" kills="0.949" spots="0.501" DMG="1352.446" WR="0.51117" Def="0.904" />
+    <ExpectedValueItem TnumID="44" NnumID="1" kills="1.257" spots="0.779" DMG="490.102" WR="0.56184" Def="1.489" />
+    <ExpectedValueItem TnumID="44" NnumID="0" kills="0.993" spots="0.878" DMG="800.279" WR="0.54501" Def="0.823" />
+    <ExpectedValueItem TnumID="43" NnumID="5" kills="1.109" spots="0.106" DMG="595.37" WR="0.55143999999999993" Def="1.511" />
+    <ExpectedValueItem TnumID="43" NnumID="4" kills="0.974" spots="0.889" DMG="1612.504" WR="0.51577" Def="0.798" />
+    <ExpectedValueItem TnumID="43" NnumID="2" kills="0.914" spots="0.893" DMG="979.873" WR="0.53065" Def="1.121" />
+    <ExpectedValueItem TnumID="43" NnumID="1" kills="0.97" spots="0.461" DMG="1018.186" WR="0.50884" Def="0.94" />
+    <ExpectedValueItem TnumID="43" NnumID="0" kills="0.814" spots="0.804" DMG="1204.167" WR="0.52166" Def="0.796" />
+    <ExpectedValueItem TnumID="42" NnumID="5" kills="0.959" spots="0.092" DMG="359.335" WR="0.54409999999999992" Def="1.775" />
+    <ExpectedValueItem TnumID="42" NnumID="4" kills="0.89" spots="0.665" DMG="983.013" WR="0.53272" Def="1.019" />
+    <ExpectedValueItem TnumID="42" NnumID="2" kills="0.886" spots="1.226" DMG="1863.652" WR="0.49174999999999996" Def="0.656" />
+    <ExpectedValueItem TnumID="42" NnumID="1" kills="0.909" spots="0.927" DMG="1061.434" WR="0.54244" Def="0.984" />
+    <ExpectedValueItem TnumID="42" NnumID="0" kills="0.872" spots="0.905" DMG="1590.002" WR="0.51434" Def="0.644" />
+    <ExpectedValueItem TnumID="41" NnumID="5" kills="1.299" spots="0.201" DMG="194.605" WR="0.56576" Def="1.159" />
+    <ExpectedValueItem TnumID="41" NnumID="2" kills="1.162" spots="1.383" DMG="601.59" WR="0.54639" Def="1.339" />
+    <ExpectedValueItem TnumID="41" NnumID="1" kills="0.849" spots="1.151" DMG="1222.708" WR="0.52201" Def="0.859" />
+    <ExpectedValueItem TnumID="41" NnumID="0" kills="1.036" spots="0.686" DMG="818.641" WR="0.53601999999999994" Def="0.67" />
+    <ExpectedValueItem TnumID="40" NnumID="2" kills="1.175" spots="1.216" DMG="452.109" WR="0.57184" Def="1.494" />
+    <ExpectedValueItem TnumID="40" NnumID="1" kills="0.914" spots="1.287" DMG="1545.22" WR="0.51552999999999993" Def="0.717" />
+    <ExpectedValueItem TnumID="40" NnumID="0" kills="1" spots="0.808" DMG="1014.906" WR="0.53001" Def="1.102" />
+    <ExpectedValueItem TnumID="39" NnumID="5" kills="1.028" spots="0.632" DMG="1105.94" WR="0.55445" Def="1.216" />
+    <ExpectedValueItem TnumID="39" NnumID="4" kills="1.17" spots="0.709" DMG="618.365" WR="0.54167" Def="1.264" />
+    <ExpectedValueItem TnumID="39" NnumID="2" kills="0.984" spots="1.125" DMG="711.407" WR="0.54408" Def="1.063" />
+    <ExpectedValueItem TnumID="39" NnumID="1" kills="0.613" spots="2.353" DMG="495.733" WR="0.52581" Def="0.6" />
+    <ExpectedValueItem TnumID="39" NnumID="0" kills="0.946" spots="0.825" DMG="1255.836" WR="0.50434" Def="0.951" />
+    <ExpectedValueItem TnumID="38" NnumID="5" kills="0.926" spots="0.414" DMG="740.895" WR="0.53313" Def="1.113" />
+    <ExpectedValueItem TnumID="38" NnumID="4" kills="1.267" spots="0.55" DMG="430.179" WR="0.57256" Def="1.168" />
+    <ExpectedValueItem TnumID="38" NnumID="2" kills="0.602" spots="2.581" DMG="405.886" WR="0.53221" Def="0.66" />
+    <ExpectedValueItem TnumID="38" NnumID="1" kills="0.874" spots="0.98" DMG="1549.615" WR="0.51498" Def="0.693" />
+    <ExpectedValueItem TnumID="37" NnumID="5" kills="0.997" spots="0.642" DMG="757.279" WR="0.55634000000000006" Def="1.327" />
+    <ExpectedValueItem TnumID="37" NnumID="2" kills="0.849" spots="1.052" DMG="1532.724" WR="0.50418999999999992" Def="0.688" />
+    <ExpectedValueItem TnumID="37" NnumID="1" kills="0.902" spots="0.954" DMG="1894.4" WR="0.50216" Def="0.499" />
+    <ExpectedValueItem TnumID="37" NnumID="0" kills="0.829" spots="2.323" DMG="387.531" WR="0.55407" Def="0.95" />
+    <ExpectedValueItem TnumID="36" NnumID="5" kills="1.049" spots="0.532" DMG="2015.621" WR="0.48778" Def="0.476" />
+    <ExpectedValueItem TnumID="36" NnumID="2" kills="1.005" spots="0.757" DMG="1036.156" WR="0.53308" Def="1.08" />
+    <ExpectedValueItem TnumID="36" NnumID="1" kills="0.89" spots="0.034" DMG="1659.507" WR="0.49316000000000004" Def="0.629" />
+    <ExpectedValueItem TnumID="36" NnumID="0" kills="0.987" spots="1.082" DMG="1320.451" WR="0.52042" Def="0.785" />
+    <ExpectedValueItem TnumID="35" NnumID="5" kills="1.208" spots="1.145" DMG="439.716" WR="0.56909" Def="1.502" />
+    <ExpectedValueItem TnumID="35" NnumID="2" kills="0.936" spots="1.389" DMG="1537.076" WR="0.51173" Def="0.738" />
+    <ExpectedValueItem TnumID="35" NnumID="1" kills="0.957" spots="0.045" DMG="1144.502" WR="0.51056" Def="0.948" />
+    <ExpectedValueItem TnumID="35" NnumID="0" kills="0.893" spots="1.426" DMG="844.345" WR="0.54343000000000008" Def="0.974" />
+    <ExpectedValueItem TnumID="34" NnumID="5" kills="1.088" spots="0.73" DMG="544.709" WR="0.56973" Def="1.628" />
+    <ExpectedValueItem TnumID="34" NnumID="2" kills="1.062" spots="0.495" DMG="1758.777" WR="0.52538" Def="0.618" />
+    <ExpectedValueItem TnumID="34" NnumID="1" kills="0.895" spots="0.036" DMG="1445.595" WR="0.49796999999999997" Def="0.65" />
+    <ExpectedValueItem TnumID="34" NnumID="0" kills="0.903" spots="0.041" DMG="1664.641" WR="0.48951" Def="0.738" />
+    <ExpectedValueItem TnumID="33" NnumID="5" kills="0.96" spots="0.606" DMG="1333.288" WR="0.52429" Def="1.143" />
+    <ExpectedValueItem TnumID="33" NnumID="3" kills="1.049" spots="0.633" DMG="2132.67" WR="0.49978" Def="0.533" />
+    <ExpectedValueItem TnumID="33" NnumID="2" kills="0.851" spots="0.033" DMG="1643.052" WR="0.49178" Def="0.644" />
+    <ExpectedValueItem TnumID="33" NnumID="1" kills="0.807" spots="1.224" DMG="1099.143" WR="0.52655" Def="0.916" />
+    <ExpectedValueItem TnumID="33" NnumID="0" kills="0.943" spots="0.028" DMG="1503.499" WR="0.49786" Def="0.695" />
+    <ExpectedValueItem TnumID="32" NnumID="5" kills="1.653" spots="1.118" DMG="275.274" WR="0.58384" Def="1.527" />
+    <ExpectedValueItem TnumID="32" NnumID="4" kills="1.387" spots="0.909" DMG="355.523" WR="0.59475" Def="1.759" />
+    <ExpectedValueItem TnumID="32" NnumID="3" kills="1.11" spots="0.488" DMG="1872.329" WR="0.52021000000000006" Def="0.588" />
+    <ExpectedValueItem TnumID="32" NnumID="2" kills="0.972" spots="0.503" DMG="1358.69" WR="0.51973" Def="0.909" />
+    <ExpectedValueItem TnumID="32" NnumID="1" kills="0.877" spots="1.977" DMG="320.523" WR="0.56462" Def="1.108" />
+    <ExpectedValueItem TnumID="32" NnumID="0" kills="1.125" spots="0.616" DMG="1862.94" WR="0.50569" Def="0.754" />
+    <ExpectedValueItem TnumID="31" NnumID="5" kills="1.528" spots="0.746" DMG="362.377" WR="0.58032" Def="1.715" />
+    <ExpectedValueItem TnumID="31" NnumID="3" kills="0.95" spots="0.455" DMG="1362.366" WR="0.51695" Def="0.634" />
+    <ExpectedValueItem TnumID="31" NnumID="2" kills="0.934" spots="0.053" DMG="1091.023" WR="0.51579" Def="0.994" />
+    <ExpectedValueItem TnumID="31" NnumID="1" kills="1.031" spots="0.606" DMG="1757.697" WR="0.51293" Def="0.753" />
+    <ExpectedValueItem TnumID="31" NnumID="0" kills="0.896" spots="1.57" DMG="1414.211" WR="0.51048" Def="0.767" />
+    <ExpectedValueItem TnumID="30" NnumID="5" kills="1.392" spots="1.726" DMG="248.431" WR="0.57109999999999994" Def="1.217" />
+    <ExpectedValueItem TnumID="30" NnumID="4" kills="1.809" spots="0.74" DMG="300.392" WR="0.58712000000000009" Def="1.768" />
+    <ExpectedValueItem TnumID="30" NnumID="3" kills="1.091" spots="0.589" DMG="1049.106" WR="0.53991" Def="0.846" />
+    <ExpectedValueItem TnumID="30" NnumID="2" kills="1.282" spots="0.946" DMG="492.694" WR="0.56574" Def="1.415" />
+    <ExpectedValueItem TnumID="30" NnumID="1" kills="1.014" spots="0.58" DMG="1401.002" WR="0.51693" Def="0.929" />
+    <ExpectedValueItem TnumID="30" NnumID="0" kills="1.17" spots="0.121" DMG="446.012" WR="0.53823" Def="1.708" />
+    <ExpectedValueItem TnumID="29" NnumID="5" kills="1.216" spots="1.604" DMG="317.574" WR="0.57127000000000006" Def="1.072" />
+    <ExpectedValueItem TnumID="29" NnumID="4" kills="0.887" spots="0.055" DMG="1257.038" WR="0.50828000000000007" Def="0.973" />
+    <ExpectedValueItem TnumID="29" NnumID="3" kills="1.045" spots="0.604" DMG="800.318" WR="0.54498" Def="0.856" />
+    <ExpectedValueItem TnumID="29" NnumID="2" kills="0.91" spots="0.04" DMG="1315.635" WR="0.51033000000000006" Def="0.783" />
+    <ExpectedValueItem TnumID="29" NnumID="1" kills="0.856" spots="0.923" DMG="1544.333" WR="0.51821" Def="0.609" />
+    <ExpectedValueItem TnumID="29" NnumID="0" kills="1.047" spots="0.515" DMG="1408.16" WR="0.50332999999999994" Def="0.763" />
+    <ExpectedValueItem TnumID="28" NnumID="5" kills="0.938" spots="1.332" DMG="1844.844" WR="0.49546" Def="0.687" />
+    <ExpectedValueItem TnumID="28" NnumID="4" kills="0.898" spots="0.063" DMG="1105.932" WR="0.51448" Def="1.137" />
+    <ExpectedValueItem TnumID="28" NnumID="3" kills="1.059" spots="0.471" DMG="586.119" WR="0.55332" Def="0.884" />
+    <ExpectedValueItem TnumID="28" NnumID="2" kills="0.994" spots="0.837" DMG="788.409" WR="0.54108" Def="1.081" />
+    <ExpectedValueItem TnumID="28" NnumID="1" kills="0.94" spots="1.234" DMG="729.067" WR="0.5437" Def="0.86" />
+    <ExpectedValueItem TnumID="28" NnumID="0" kills="0.857" spots="1.205" DMG="1805.94" WR="0.49450000000000005" Def="0.591" />
+    <ExpectedValueItem TnumID="27" NnumID="5" kills="1.301" spots="0.909" DMG="295.551" WR="0.5656" Def="1.028" />
+    <ExpectedValueItem TnumID="27" NnumID="4" kills="0.872" spots="0.918" DMG="1024.642" WR="0.53584" Def="0.975" />
+    <ExpectedValueItem TnumID="27" NnumID="3" kills="1.397" spots="0.646" DMG="511.359" WR="0.57022" Def="1.128" />
+    <ExpectedValueItem TnumID="27" NnumID="2" kills="1.116" spots="0.921" DMG="575.754" WR="0.55014000000000007" Def="1.317" />
+    <ExpectedValueItem TnumID="27" NnumID="1" kills="0.912" spots="0.866" DMG="1897.667" WR="0.52056" Def="0.622" />
+    <ExpectedValueItem TnumID="27" NnumID="0" kills="1.289" spots="0.825" DMG="493.087" WR="0.56183" Def="1.359" />
+    <ExpectedValueItem TnumID="26" NnumID="4" kills="1.129" spots="0.85" DMG="629.988" WR="0.5521" Def="1.019" />
+    <ExpectedValueItem TnumID="26" NnumID="3" kills="1.569" spots="0.613" DMG="374.33" WR="0.57923" Def="1.329" />
+    <ExpectedValueItem TnumID="26" NnumID="1" kills="1.357" spots="0.906" DMG="388.843" WR="0.5896" Def="1.489" />
+    <ExpectedValueItem TnumID="26" NnumID="0" kills="0.901" spots="1.42" DMG="862.238" WR="0.53932" Def="1.028" />
+    <ExpectedValueItem TnumID="25" NnumID="5" kills="0.885" spots="1.653" DMG="323.433" WR="0.5528" Def="1.008" />
+    <ExpectedValueItem TnumID="25" NnumID="4" kills="0.635" spots="1.875" DMG="515.752" WR="0.52321" Def="0.645" />
+    <ExpectedValueItem TnumID="25" NnumID="3" kills="1.732" spots="0.462" DMG="276.085" WR="0.61092" Def="1.266" />
+    <ExpectedValueItem TnumID="25" NnumID="2" kills="1.448" spots="1.137" DMG="359.646" WR="0.58207" Def="1.297" />
+    <ExpectedValueItem TnumID="25" NnumID="1" kills="0.925" spots="1.511" DMG="461.561" WR="0.54901" Def="0.997" />
+    <ExpectedValueItem TnumID="25" NnumID="0" kills="1.455" spots="0.794" DMG="377.931" WR="0.57485999999999993" Def="1.607" />
+    <ExpectedValueItem TnumID="24" NnumID="5" kills="0.885" spots="1.058" DMG="1871.362" WR="0.49104" Def="0.631" />
+    <ExpectedValueItem TnumID="24" NnumID="4" kills="1.014" spots="0.957" DMG="1933.641" WR="0.48765000000000003" Def="0.694" />
+    <ExpectedValueItem TnumID="24" NnumID="3" kills="0.979" spots="1.262" DMG="2137.649" WR="0.49795" Def="0.524" />
+    <ExpectedValueItem TnumID="24" NnumID="2" kills="1.83" spots="1.044" DMG="280.441" WR="0.56764" Def="1.521" />
+    <ExpectedValueItem TnumID="24" NnumID="1" kills="0.867" spots="2.411" DMG="344.919" WR="0.56615" Def="1.049" />
+    <ExpectedValueItem TnumID="24" NnumID="0" kills="0.885" spots="1.079" DMG="1851.141" WR="0.4939" Def="0.67" />
+    <ExpectedValueItem TnumID="23" NnumID="6" kills="1.442" spots="1.204" DMG="239.765" WR="0.57228" Def="1.127" />
+    <ExpectedValueItem TnumID="23" NnumID="5" kills="0.778" spots="1.223" DMG="1113.648" WR="0.52662" Def="0.894" />
+    <ExpectedValueItem TnumID="23" NnumID="4" kills="1.098" spots="0.909" DMG="253.354" WR="0.58892" Def="1.637" />
+    <ExpectedValueItem TnumID="23" NnumID="3" kills="0.817" spots="2.65" DMG="1437.734" WR="0.48506" Def="0.612" />
+    <ExpectedValueItem TnumID="23" NnumID="2" kills="0.835" spots="1.403" DMG="1125.825" WR="0.52206000000000008" Def="0.98" />
+    <ExpectedValueItem TnumID="23" NnumID="1" kills="0.992" spots="0.147" DMG="358.009" WR="0.5205" Def="1.565" />
+    <ExpectedValueItem TnumID="23" NnumID="0" kills="0.993" spots="0.812" DMG="1085.661" WR="0.53811999999999993" Def="0.82" />
+    <ExpectedValueItem TnumID="22" NnumID="6" kills="1.274" spots="1.145" DMG="724.948" WR="0.55057" Def="0.809" />
+    <ExpectedValueItem TnumID="22" NnumID="5" kills="0.879" spots="1.165" DMG="1534.392" WR="0.50983" Def="0.797" />
+    <ExpectedValueItem TnumID="22" NnumID="4" kills="0.988" spots="1.348" DMG="1444.824" WR="0.51128" Def="0.845" />
+    <ExpectedValueItem TnumID="22" NnumID="3" kills="0.721" spots="2.43" DMG="1100.594" WR="0.50164" Def="0.597" />
+    <ExpectedValueItem TnumID="22" NnumID="2" kills="1.335" spots="1.514" DMG="237.486" WR="0.57675" Def="1.427" />
+    <ExpectedValueItem TnumID="22" NnumID="1" kills="1.063" spots="0.102" DMG="631.36" WR="0.53025" Def="1.521" />
+    <ExpectedValueItem TnumID="22" NnumID="0" kills="1.029" spots="0.067" DMG="980.752" WR="0.51077" Def="1.148" />
+    <ExpectedValueItem TnumID="21" NnumID="6" kills="1.061" spots="0.806" DMG="853.355" WR="0.54506999999999994" Def="0.649" />
+    <ExpectedValueItem TnumID="21" NnumID="5" kills="0.926" spots="1.609" DMG="883.767" WR="0.52906" Def="1.031" />
+    <ExpectedValueItem TnumID="21" NnumID="3" kills="0.886" spots="1.328" DMG="1849.377" WR="0.50353" Def="0.563" />
+    <ExpectedValueItem TnumID="21" NnumID="2" kills="0.788" spots="1.889" DMG="379.883" WR="0.53706" Def="0.888" />
+    <ExpectedValueItem TnumID="21" NnumID="1" kills="0.666" spots="2.265" DMG="393.01" WR="0.53865000000000007" Def="0.709" />
+    <ExpectedValueItem TnumID="21" NnumID="0" kills="0.887" spots="0.991" DMG="1285.379" WR="0.51654" Def="0.779" />
+    <ExpectedValueItem TnumID="20" NnumID="6" kills="0.966" spots="0.979" DMG="1127.076" WR="0.55377" Def="0.651" />
+    <ExpectedValueItem TnumID="20" NnumID="5" kills="1.444" spots="1.247" DMG="256.809" WR="0.57051000000000007" Def="1.384" />
+    <ExpectedValueItem TnumID="20" NnumID="4" kills="0.724" spots="2.047" DMG="685.298" WR="0.52509000000000006" Def="0.762" />
+    <ExpectedValueItem TnumID="20" NnumID="3" kills="0.95" spots="1.461" DMG="688.678" WR="0.5406" Def="1.005" />
+    <ExpectedValueItem TnumID="20" NnumID="2" kills="0.847" spots="2.215" DMG="295.195" WR="0.56404" Def="1.031" />
+    <ExpectedValueItem TnumID="20" NnumID="1" kills="0.831" spots="0.951" DMG="1235.195" WR="0.51735999999999993" Def="0.866" />
+    <ExpectedValueItem TnumID="20" NnumID="0" kills="1.643" spots="0.434" DMG="292.297" WR="0.58629" Def="1.73" />
+    <ExpectedValueItem TnumID="19" NnumID="6" kills="0.822" spots="0.755" DMG="1295.368" WR="0.53122" Def="0.631" />
+    <ExpectedValueItem TnumID="19" NnumID="5" kills="0.817" spots="0.771" DMG="323.33" WR="0.54869" Def="1.272" />
+    <ExpectedValueItem TnumID="19" NnumID="4" kills="0.764" spots="2.193" DMG="975.381" WR="0.51466" Def="0.694" />
+    <ExpectedValueItem TnumID="19" NnumID="3" kills="0.726" spots="2.382" DMG="507.122" WR="0.53005" Def="0.723" />
+    <ExpectedValueItem TnumID="19" NnumID="2" kills="1.298" spots="1.39" DMG="300.307" WR="0.5708" Def="1.161" />
+    <ExpectedValueItem TnumID="19" NnumID="1" kills="1.151" spots="1.739" DMG="279.615" WR="0.57724" Def="1.083" />
+    <ExpectedValueItem TnumID="19" NnumID="0" kills="0.95" spots="0.098" DMG="546.831" WR="0.50735999999999992" Def="1.387" />
+    <ExpectedValueItem TnumID="18" NnumID="8" kills="1.109" spots="0.667" DMG="2234.017" WR="0.50393" Def="0.895" />
+    <ExpectedValueItem TnumID="18" NnumID="6" kills="1.139" spots="0.719" DMG="323.788" WR="0.55465000000000009" Def="1.045" />
+    <ExpectedValueItem TnumID="18" NnumID="5" kills="0.978" spots="0.728" DMG="765.931" WR="0.54546" Def="1.166" />
+    <ExpectedValueItem TnumID="18" NnumID="4" kills="1.031" spots="0.077" DMG="934.397" WR="0.52555" Def="1.427" />
+    <ExpectedValueItem TnumID="18" NnumID="3" kills="0.992" spots="1.364" DMG="486.439" WR="0.54201" Def="1.097" />
+    <ExpectedValueItem TnumID="18" NnumID="2" kills="1.002" spots="0.125" DMG="389.74" WR="0.53579999999999994" Def="1.541" />
+    <ExpectedValueItem TnumID="18" NnumID="1" kills="1.006" spots="0.166" DMG="404.442" WR="0.53821" Def="1.58" />
+    <ExpectedValueItem TnumID="18" NnumID="0" kills="1.379" spots="1.061" DMG="239.043" WR="0.57305" Def="1.767" />
+    <ExpectedValueItem TnumID="17" NnumID="8" kills="1.025" spots="0.57" DMG="1818.011" WR="0.50759" Def="0.899" />
+    <ExpectedValueItem TnumID="17" NnumID="6" kills="1.061" spots="0.704" DMG="372.921" WR="0.54433" Def="1.09" />
+    <ExpectedValueItem TnumID="17" NnumID="5" kills="0.859" spots="0.993" DMG="1619.013" WR="0.51217" Def="0.634" />
+    <ExpectedValueItem TnumID="17" NnumID="4" kills="0.997" spots="1.132" DMG="488.05" WR="0.54221" Def="0.992" />
+    <ExpectedValueItem TnumID="17" NnumID="3" kills="1.266" spots="1.181" DMG="320.764" WR="0.57503" Def="1.388" />
+    <ExpectedValueItem TnumID="17" NnumID="2" kills="0.861" spots="1.147" DMG="1242.684" WR="0.52411" Def="0.901" />
+    <ExpectedValueItem TnumID="17" NnumID="1" kills="1.024" spots="1.806" DMG="352.991" WR="0.57703" Def="1.104" />
+    <ExpectedValueItem TnumID="17" NnumID="0" kills="0.821" spots="1.458" DMG="1048.548" WR="0.52482" Def="0.885" />
+    <ExpectedValueItem TnumID="16" NnumID="8" kills="0.94" spots="0.581" DMG="1398.11" WR="0.50755000000000006" Def="0.924" />
+    <ExpectedValueItem TnumID="16" NnumID="6" kills="0.824" spots="0.684" DMG="1552.51" WR="0.5215" Def="0.478" />
+    <ExpectedValueItem TnumID="16" NnumID="4" kills="1.105" spots="0.097" DMG="620.432" WR="0.53296999999999994" Def="2.159" />
+    <ExpectedValueItem TnumID="16" NnumID="3" kills="0.94" spots="1.273" DMG="1821.746" WR="0.49631000000000003" Def="0.648" />
+    <ExpectedValueItem TnumID="16" NnumID="2" kills="0.998" spots="0.078" DMG="837.647" WR="0.51347999999999994" Def="1.37" />
+    <ExpectedValueItem TnumID="16" NnumID="1" kills="0.934" spots="1.521" DMG="883.078" WR="0.53341" Def="1.009" />
+    <ExpectedValueItem TnumID="16" NnumID="0" kills="0.931" spots="0.023" DMG="1283.733" WR="0.50594000000000006" Def="0.698" />
+    <ExpectedValueItem TnumID="15" NnumID="8" kills="0.944" spots="0.579" DMG="994.57" WR="0.52261" Def="1.078" />
+    <ExpectedValueItem TnumID="15" NnumID="6" kills="0.952" spots="0.799" DMG="2131.806" WR="0.52063" Def="0.5" />
+    <ExpectedValueItem TnumID="15" NnumID="5" kills="0.807" spots="1.043" DMG="1238.828" WR="0.52603" Def="0.869" />
+    <ExpectedValueItem TnumID="15" NnumID="4" kills="0.963" spots="0.849" DMG="1595.134" WR="0.50509" Def="0.755" />
+    <ExpectedValueItem TnumID="15" NnumID="3" kills="0.674" spots="2.448" DMG="873.349" WR="0.52142" Def="0.624" />
+    <ExpectedValueItem TnumID="15" NnumID="2" kills="0.997" spots="1.055" DMG="1145.16" WR="0.54019" Def="0.939" />
+    <ExpectedValueItem TnumID="15" NnumID="1" kills="0.994" spots="0.682" DMG="1043.17" WR="0.5305" Def="1.009" />
+    <ExpectedValueItem TnumID="15" NnumID="0" kills="1.231" spots="0.121" DMG="214.117" WR="0.5435" Def="1.445" />
+    <ExpectedValueItem TnumID="14" NnumID="8" kills="0.963" spots="0.611" DMG="781.362" WR="0.53201" Def="1.025" />
+    <ExpectedValueItem TnumID="14" NnumID="6" kills="0.969" spots="1.32" DMG="1823.855" WR="0.49065" Def="0.734" />
+    <ExpectedValueItem TnumID="14" NnumID="5" kills="0.951" spots="1.019" DMG="748.26" WR="0.52794" Def="1.031" />
+    <ExpectedValueItem TnumID="14" NnumID="4" kills="1.098" spots="1.702" DMG="1825.589" WR="0.48862" Def="0.782" />
+    <ExpectedValueItem TnumID="14" NnumID="3" kills="0.996" spots="1.068" DMG="1080.684" WR="0.54392000000000007" Def="0.765" />
+    <ExpectedValueItem TnumID="14" NnumID="2" kills="0.867" spots="0.115" DMG="473.861" WR="0.49639000000000005" Def="1.681" />
+    <ExpectedValueItem TnumID="14" NnumID="1" kills="1.756" spots="0.898" DMG="297.673" WR="0.5827" Def="1.662" />
+    <ExpectedValueItem TnumID="14" NnumID="0" kills="1.073" spots="0.73" DMG="786.503" WR="0.53322" Def="1.02" />
+    <ExpectedValueItem TnumID="13" NnumID="8" kills="1.073" spots="0.819" DMG="527.746" WR="0.54947" Def="1.022" />
+    <ExpectedValueItem TnumID="13" NnumID="6" kills="0.897" spots="1.115" DMG="1525.106" WR="0.50493" Def="0.776" />
+    <ExpectedValueItem TnumID="13" NnumID="5" kills="1.093" spots="0.126" DMG="282.908" WR="0.55952" Def="1.659" />
+    <ExpectedValueItem TnumID="13" NnumID="4" kills="1.071" spots="0.137" DMG="389.534" WR="0.52208" Def="1.816" />
+    <ExpectedValueItem TnumID="13" NnumID="3" kills="0.692" spots="2.28" DMG="724.475" WR="0.52287" Def="0.668" />
+    <ExpectedValueItem TnumID="13" NnumID="2" kills="1.134" spots="1.113" DMG="615.159" WR="0.55574" Def="1.147" />
+    <ExpectedValueItem TnumID="13" NnumID="1" kills="1.274" spots="1.277" DMG="314.018" WR="0.58206" Def="1.381" />
+    <ExpectedValueItem TnumID="13" NnumID="0" kills="1.634" spots="1.191" DMG="216.899" WR="0.57396" Def="1.599" />
+    <ExpectedValueItem TnumID="12" NnumID="8" kills="1.189" spots="0.619" DMG="428.406" WR="0.56183" Def="1.452" />
+    <ExpectedValueItem TnumID="12" NnumID="6" kills="1.22" spots="1.225" DMG="218.497" WR="0.56597" Def="1.474" />
+    <ExpectedValueItem TnumID="12" NnumID="5" kills="0.931" spots="0.832" DMG="1014.607" WR="0.55018" Def="1.181" />
+    <ExpectedValueItem TnumID="12" NnumID="4" kills="1.007" spots="0.9" DMG="1327.144" WR="0.5164" Def="0.939" />
+    <ExpectedValueItem TnumID="12" NnumID="3" kills="0.886" spots="2.161" DMG="327.712" WR="0.54991" Def="1.041" />
+    <ExpectedValueItem TnumID="12" NnumID="2" kills="1.023" spots="0.827" DMG="361.042" WR="0.55346" Def="1.018" />
+    <ExpectedValueItem TnumID="12" NnumID="1" kills="1.624" spots="1.773" DMG="220.313" WR="0.57783000000000007" Def="1.52" />
+    <ExpectedValueItem TnumID="12" NnumID="0" kills="1.06" spots="1.323" DMG="268.242" WR="0.56109" Def="1.162" />
+    <ExpectedValueItem TnumID="11" NnumID="8" kills="1.407" spots="0.593" DMG="363.867" WR="0.58272" Def="1.506" />
+    <ExpectedValueItem TnumID="11" NnumID="6" kills="0.966" spots="1.654" DMG="361.58" WR="0.55438" Def="1.107" />
+    <ExpectedValueItem TnumID="11" NnumID="5" kills="1.114" spots="0.854" DMG="622.962" WR="0.55704" Def="1.284" />
+    <ExpectedValueItem TnumID="11" NnumID="4" kills="0.801" spots="0.782" DMG="277.265" WR="0.56409" Def="1.179" />
+    <ExpectedValueItem TnumID="11" NnumID="3" kills="0.84" spots="1.075" DMG="1234.939" WR="0.53094" Def="0.754" />
+    <ExpectedValueItem TnumID="11" NnumID="2" kills="0.794" spots="0.812" DMG="1261.895" WR="0.50896" Def="0.689" />
+    <ExpectedValueItem TnumID="11" NnumID="1" kills="1.131" spots="0.185" DMG="347.17" WR="0.57253999999999994" Def="1.36" />
+    <ExpectedValueItem TnumID="11" NnumID="0" kills="1.026" spots="1.022" DMG="814.324" WR="0.53791" Def="0.742" />
+    <ExpectedValueItem TnumID="10" NnumID="10" kills="1.316" spots="1.158" DMG="2234.107" WR="0.50947" Def="0.744" />
+    <ExpectedValueItem TnumID="10" NnumID="8" kills="1.383" spots="0.496" DMG="245.485" WR="0.59243" Def="1.156" />
+    <ExpectedValueItem TnumID="10" NnumID="6" kills="0.816" spots="1.19" DMG="1121.875" WR="0.51035" Def="0.997" />
+    <ExpectedValueItem TnumID="10" NnumID="4" kills="0.885" spots="0.895" DMG="783.247" WR="0.53391" Def="0.827" />
+    <ExpectedValueItem TnumID="10" NnumID="2" kills="0.976" spots="0.68" DMG="1715.225" WR="0.50611" Def="0.587" />
+    <ExpectedValueItem TnumID="10" NnumID="1" kills="1.005" spots="1.185" DMG="645.099" WR="0.54664" Def="1.062" />
+    <ExpectedValueItem TnumID="10" NnumID="0" kills="0.93" spots="1.332" DMG="706.189" WR="0.54093" Def="0.945" />
+    <ExpectedValueItem TnumID="9" NnumID="10" kills="1.212" spots="1.084" DMG="1872.529" WR="0.52269" Def="0.733" />
+    <ExpectedValueItem TnumID="9" NnumID="8" kills="0.963" spots="1.178" DMG="1946.979" WR="0.49636" Def="0.574" />
+    <ExpectedValueItem TnumID="9" NnumID="7" kills="1.093" spots="1.349" DMG="1979.865" WR="0.49167" Def="0.681" />
+    <ExpectedValueItem TnumID="9" NnumID="6" kills="1.14" spots="1.55" DMG="288.059" WR="0.57046999999999992" Def="1.394" />
+    <ExpectedValueItem TnumID="9" NnumID="5" kills="1.17" spots="0.983" DMG="301.17" WR="0.57298" Def="1.33" />
+    <ExpectedValueItem TnumID="9" NnumID="4" kills="1.577" spots="1.06" DMG="401" WR="0.5802" Def="1.579" />
+    <ExpectedValueItem TnumID="9" NnumID="3" kills="1.431" spots="1.261" DMG="245.436" WR="0.57503" Def="1.439" />
+    <ExpectedValueItem TnumID="9" NnumID="1" kills="0.993" spots="1.12" DMG="760.252" WR="0.54667999999999994" Def="1.056" />
+    <ExpectedValueItem TnumID="9" NnumID="0" kills="1.005" spots="0.517" DMG="998.719" WR="0.52581" Def="0.854" />
+    <ExpectedValueItem TnumID="8" NnumID="10" kills="0.928" spots="1.056" DMG="1280.652" WR="0.51821" Def="0.648" />
+    <ExpectedValueItem TnumID="8" NnumID="8" kills="0.979" spots="0.949" DMG="1656.235" WR="0.52" Def="0.586" />
+    <ExpectedValueItem TnumID="8" NnumID="7" kills="1.057" spots="1.101" DMG="1711.071" WR="0.51946" Def="0.752" />
+    <ExpectedValueItem TnumID="8" NnumID="6" kills="1.258" spots="1.167" DMG="324.412" WR="0.57429" Def="1.296" />
+    <ExpectedValueItem TnumID="8" NnumID="5" kills="0.942" spots="1.584" DMG="458.296" WR="0.55256" Def="1.159" />
+    <ExpectedValueItem TnumID="8" NnumID="4" kills="1.305" spots="0.11" DMG="657.442" WR="0.5512" Def="1.448" />
+    <ExpectedValueItem TnumID="8" NnumID="3" kills="0.874" spots="1.216" DMG="1614.762" WR="0.52055" Def="0.537" />
+    <ExpectedValueItem TnumID="8" NnumID="2" kills="1.238" spots="0.383" DMG="229.296" WR="0.54384" Def="1.818" />
+    <ExpectedValueItem TnumID="8" NnumID="1" kills="1.371" spots="1.684" DMG="235.995" WR="0.57416" Def="1.546" />
+    <ExpectedValueItem TnumID="8" NnumID="0" kills="0.83" spots="2.229" DMG="307.566" WR="0.55933" Def="1.048" />
+    <ExpectedValueItem TnumID="7" NnumID="10" kills="1.001" spots="1.342" DMG="986.974" WR="0.53798" Def="0.666" />
+    <ExpectedValueItem TnumID="7" NnumID="8" kills="0.978" spots="0.848" DMG="1385.288" WR="0.52914" Def="0.697" />
+    <ExpectedValueItem TnumID="7" NnumID="7" kills="0.786" spots="1.038" DMG="1078.476" WR="0.51749" Def="0.874" />
+    <ExpectedValueItem TnumID="7" NnumID="6" kills="0.946" spots="1.054" DMG="725.772" WR="0.5246" Def="1.077" />
+    <ExpectedValueItem TnumID="7" NnumID="3" kills="0.877" spots="1.353" DMG="1439.044" WR="0.51701" Def="0.695" />
+    <ExpectedValueItem TnumID="7" NnumID="2" kills="1.478" spots="2.417" DMG="249.342" WR="0.57819" Def="1.398" />
+    <ExpectedValueItem TnumID="7" NnumID="1" kills="1.406" spots="0.6" DMG="453.107" WR="0.56767" Def="1.18" />
+    <ExpectedValueItem TnumID="7" NnumID="0" kills="0.913" spots="0.045" DMG="1162.164" WR="0.50312" Def="0.751" />
+    <ExpectedValueItem TnumID="6" NnumID="10" kills="1.033" spots="1.046" DMG="776.685" WR="0.53362" Def="0.669" />
+    <ExpectedValueItem TnumID="6" NnumID="8" kills="0.9" spots="1.284" DMG="936.424" WR="0.53221" Def="0.796" />
+    <ExpectedValueItem TnumID="6" NnumID="7" kills="0.876" spots="1.209" DMG="931.196" WR="0.53203" Def="0.834" />
+    <ExpectedValueItem TnumID="6" NnumID="6" kills="0.977" spots="1.211" DMG="369.244" WR="0.56009" Def="1.115" />
+    <ExpectedValueItem TnumID="6" NnumID="5" kills="1.012" spots="0.858" DMG="378.713" WR="0.54908" Def="1.073" />
+    <ExpectedValueItem TnumID="6" NnumID="4" kills="1.347" spots="0.939" DMG="229.084" WR="0.57381" Def="2.15" />
+    <ExpectedValueItem TnumID="6" NnumID="3" kills="0.813" spots="1.485" DMG="1043.783" WR="0.52274" Def="0.917" />
+    <ExpectedValueItem TnumID="6" NnumID="2" kills="0.92" spots="1.58" DMG="948.919" WR="0.54443" Def="0.989" />
+    <ExpectedValueItem TnumID="6" NnumID="1" kills="1.043" spots="0.727" DMG="746.38" WR="0.53534" Def="1.219" />
+    <ExpectedValueItem TnumID="6" NnumID="0" kills="1.001" spots="1.187" DMG="389.601" WR="0.55505" Def="0.962" />
+    <ExpectedValueItem TnumID="5" NnumID="10" kills="0.92" spots="1.07" DMG="502.107" WR="0.54043999999999992" Def="0.817" />
+    <ExpectedValueItem TnumID="5" NnumID="8" kills="0.95" spots="1.1" DMG="754.711" WR="0.53805" Def="0.988" />
+    <ExpectedValueItem TnumID="5" NnumID="7" kills="0.919" spots="1.433" DMG="721.017" WR="0.53487000000000007" Def="0.993" />
+    <ExpectedValueItem TnumID="5" NnumID="6" kills="0.911" spots="1.17" DMG="485.513" WR="0.54433999999999994" Def="1.046" />
+    <ExpectedValueItem TnumID="5" NnumID="5" kills="1.116" spots="1.747" DMG="291.678" WR="0.57441" Def="1.464" />
+    <ExpectedValueItem TnumID="5" NnumID="4" kills="1.39" spots="1.057" DMG="234.758" WR="0.5867" Def="1.933" />
+    <ExpectedValueItem TnumID="5" NnumID="3" kills="1.668" spots="1.253" DMG="220.676" WR="0.56488" Def="1.672" />
+    <ExpectedValueItem TnumID="5" NnumID="2" kills="0.972" spots="1.414" DMG="696.174" WR="0.55031" Def="1.055" />
+    <ExpectedValueItem TnumID="5" NnumID="1" kills="0.873" spots="1.232" DMG="902.703" WR="0.53977" Def="1.144" />
+    <ExpectedValueItem TnumID="4" NnumID="10" kills="1.083" spots="0.999" DMG="408" WR="0.54797" Def="0.92" />
+    <ExpectedValueItem TnumID="245" NnumID="4" kills="0.792" spots="1.001" DMG="1286.165" WR="0.54170000000000007" Def="0.588" />
+    <ExpectedValueItem TnumID="245" NnumID="1" kills="0.851" spots="0.662" DMG="1309.276" WR="0.53489" Def="0.699" />
+    <ExpectedValueItem TnumID="244" NnumID="4" kills="1.021" spots="1.056" DMG="1405.541" WR="0.52441" Def="0.7" />
+    <ExpectedValueItem TnumID="244" NnumID="1" kills="0.975" spots="0.554" DMG="1395.654" WR="0.51087" Def="0.944" />
+    <ExpectedValueItem TnumID="243" NnumID="4" kills="1.107" spots="0.712" DMG="1541.367" WR="0.53675" Def="0.638" />
+    <ExpectedValueItem TnumID="243" NnumID="0" kills="0.835" spots="0.724" DMG="1232.724" WR="0.53323999999999994" Def="0.799" />
+    <ExpectedValueItem TnumID="242" NnumID="1" kills="0.937" spots="0.837" DMG="1182.176" WR="0.50113" Def="1.266" />
+    <ExpectedValueItem TnumID="242" NnumID="0" kills="0.873" spots="1.365" DMG="1155.639" WR="0.51936" Def="0.781" />
+    <ExpectedValueItem TnumID="241" NnumID="4" kills="0.965" spots="0.664" DMG="1415.237" WR="0.52196" Def="0.76" />
+    <ExpectedValueItem TnumID="241" NnumID="1" kills="1.022" spots="0.546" DMG="1063.063" WR="0.53017" Def="1.055" />
+    <ExpectedValueItem TnumID="241" NnumID="0" kills="1.048" spots="1.604" DMG="1917.766" WR="0.5365" Def="0.768" />
+    <ExpectedValueItem TnumID="240" NnumID="4" kills="0.802" spots="3.014" DMG="863.505" WR="0.53551" Def="0.942" />
+    <ExpectedValueItem TnumID="240" NnumID="1" kills="0.95" spots="1.248" DMG="496.787" WR="0.54195" Def="1.042" />
+    <ExpectedValueItem TnumID="240" NnumID="0" kills="1.245" spots="1.076" DMG="494.459" WR="0.5685" Def="1.037" />
+    <ExpectedValueItem TnumID="239" NnumID="0" kills="0.874" spots="1.231" DMG="1802.483" WR="0.51763" Def="0.684" />
+    <ExpectedValueItem TnumID="238" NnumID="1" kills="0.97" spots="1.271" DMG="1541.444" WR="0.52274" Def="0.775" />
+    <ExpectedValueItem TnumID="238" NnumID="0" kills="1.037" spots="1.78" DMG="257.102" WR="0.55789" Def="0.918" />
+    <ExpectedValueItem TnumID="237" NnumID="1" kills="1.097" spots="0.63" DMG="533.862" WR="0.53268" Def="1.475" />
+    <ExpectedValueItem TnumID="236" NnumID="1" kills="1.207" spots="1.851" DMG="220.43" WR="0.58607" Def="1.428" />
+    <ExpectedValueItem TnumID="236" NnumID="0" kills="0.875" spots="0.926" DMG="1267.397" WR="0.52893" Def="0.642" />
+    <ExpectedValueItem TnumID="235" NnumID="1" kills="0.812" spots="1.086" DMG="1118.662" WR="0.5109" Def="0.887" />
+    <ExpectedValueItem TnumID="235" NnumID="0" kills="1.154" spots="1.044" DMG="880.579" WR="0.58282" Def="1.09" />
+    <ExpectedValueItem TnumID="234" NnumID="0" kills="0.857" spots="1.165" DMG="1149.02" WR="0.52023000000000008" Def="0.797" />
+    <ExpectedValueItem TnumID="233" NnumID="2" kills="0.982" spots="1.192" DMG="762.031" WR="0.55243" Def="0.816" />
+    <ExpectedValueItem TnumID="233" NnumID="1" kills="1.28" spots="1.366" DMG="324.79" WR="0.57134" Def="1.102" />
+    <ExpectedValueItem TnumID="233" NnumID="0" kills="1.116" spots="0.597" DMG="1064.929" WR="0.53073" Def="0.82" />
+    <ExpectedValueItem TnumID="232" NnumID="2" kills="0.755" spots="0.818" DMG="1258.968" WR="0.51755000000000007" Def="0.584" />
+    <ExpectedValueItem TnumID="232" NnumID="0" kills="1.028" spots="1.471" DMG="795.885" WR="0.54994999999999994" Def="0.915" />
+    <ExpectedValueItem TnumID="231" NnumID="2" kills="0.834" spots="1.249" DMG="1251.104" WR="0.53513" Def="0.731" />
+    <ExpectedValueItem TnumID="231" NnumID="0" kills="1.071" spots="1.086" DMG="1149.171" WR="0.54725" Def="0.724" />
+    <ExpectedValueItem TnumID="230" NnumID="2" kills="0.824" spots="1.228" DMG="1257.923" WR="0.53287" Def="0.692" />
+    <ExpectedValueItem TnumID="230" NnumID="0" kills="0.907" spots="1.042" DMG="1314.443" WR="0.53978" Def="0.66" />
+    <ExpectedValueItem TnumID="229" NnumID="2" kills="0.791" spots="1.219" DMG="1305.895" WR="0.53342" Def="0.476" />
+    <ExpectedValueItem TnumID="229" NnumID="1" kills="0.931" spots="1.039" DMG="1948.34" WR="0.51387" Def="0.459" />
+    <ExpectedValueItem TnumID="229" NnumID="0" kills="0.957" spots="0.407" DMG="1287.67" WR="0.50391" Def="0.703" />
+    <ExpectedValueItem TnumID="228" NnumID="0" kills="0.899" spots="1.457" DMG="1969.218" WR="0.49988999999999995" Def="0.563" />
+    <ExpectedValueItem TnumID="227" NnumID="0" kills="1.069" spots="1.301" DMG="835.209" WR="0.55006" Def="0.774" />
+    <ExpectedValueItem TnumID="226" NnumID="2" kills="0.725" spots="3.051" DMG="834.978" WR="0.52662999999999993" Def="0.786" />
+    <ExpectedValueItem TnumID="225" NnumID="2" kills="0.69" spots="2.744" DMG="709.731" WR="0.52562" Def="0.674" />
+    <ExpectedValueItem TnumID="225" NnumID="1" kills="0.974" spots="1.302" DMG="903.416" WR="0.53449" Def="1.085" />
+    <ExpectedValueItem TnumID="224" NnumID="2" kills="0.797" spots="1.306" DMG="1158.639" WR="0.51331" Def="0.739" />
+    <ExpectedValueItem TnumID="224" NnumID="1" kills="0.922" spots="1.034" DMG="712.386" WR="0.52808" Def="1.192" />
+    <ExpectedValueItem TnumID="223" NnumID="2" kills="0.82" spots="1.247" DMG="1152.543" WR="0.52104" Def="0.864" />
+    <ExpectedValueItem TnumID="223" NnumID="1" kills="1.029" spots="0.716" DMG="799.965" WR="0.52291" Def="0.981" />
+    <ExpectedValueItem TnumID="222" NnumID="5" kills="0.831" spots="1.306" DMG="1271.255" WR="0.53113" Def="0.67" />
+    <ExpectedValueItem TnumID="222" NnumID="2" kills="0.952" spots="1.199" DMG="1853.434" WR="0.51683" Def="0.876" />
+    <ExpectedValueItem TnumID="222" NnumID="0" kills="1.152" spots="1.516" DMG="1096.663" WR="0.54438" Def="0.89" />
+    <ExpectedValueItem TnumID="221" NnumID="5" kills="0.804" spots="1.125" DMG="1279.109" WR="0.5287" Def="0.496" />
+    <ExpectedValueItem TnumID="221" NnumID="2" kills="0.948" spots="0.784" DMG="1026.593" WR="0.53688" Def="0.807" />
+    <ExpectedValueItem TnumID="221" NnumID="0" kills="1.19" spots="1.303" DMG="273.313" WR="0.55831000000000008" Def="1.518" />
+    <ExpectedValueItem TnumID="220" NnumID="2" kills="0.985" spots="0.721" DMG="1053.164" WR="0.52261" Def="1.219" />
+    <ExpectedValueItem TnumID="219" NnumID="5" kills="0.973" spots="0.97" DMG="784.125" WR="0.53729" Def="1.013" />
+    <ExpectedValueItem TnumID="219" NnumID="2" kills="0.955" spots="1.286" DMG="697.946" WR="0.54427" Def="1.017" />
+    <ExpectedValueItem TnumID="218" NnumID="5" kills="1.084" spots="2.201" DMG="766.034" WR="0.55904" Def="0.962" />
+    <ExpectedValueItem TnumID="218" NnumID="2" kills="0.956" spots="1.065" DMG="1832.87" WR="0.49422" Def="0.77" />
+    <ExpectedValueItem TnumID="217" NnumID="5" kills="0.802" spots="1.153" DMG="1167.826" WR="0.51755000000000007" Def="0.806" />
+    <ExpectedValueItem TnumID="217" NnumID="1" kills="1.235" spots="1.416" DMG="1017.247" WR="0.51771" Def="1.52" />
+    <ExpectedValueItem TnumID="216" NnumID="1" kills="0.916" spots="0.768" DMG="1256.425" WR="0.5113" Def="1.048" />
+    <ExpectedValueItem TnumID="216" NnumID="0" kills="1.144" spots="0.767" DMG="1076.08" WR="0.52944" Def="0.882" />
+    <ExpectedValueItem TnumID="215" NnumID="5" kills="0.906" spots="1.07" DMG="1004.018" WR="0.53747" Def="1.03" />
+    <ExpectedValueItem TnumID="215" NnumID="2" kills="1.316" spots="1.604" DMG="199.441" WR="0.57454" Def="1.215" />
+    <ExpectedValueItem TnumID="215" NnumID="1" kills="1.064" spots="1.223" DMG="536.218" WR="0.5263" Def="1.244" />
+    <ExpectedValueItem TnumID="214" NnumID="5" kills="1.339" spots="1.571" DMG="201.986" WR="0.56607" Def="1.21" />
+    <ExpectedValueItem TnumID="214" NnumID="1" kills="1.103" spots="2.753" DMG="267.91" WR="0.59114" Def="1.519" />
+    <ExpectedValueItem TnumID="214" NnumID="0" kills="1.085" spots="0.565" DMG="816.328" WR="0.53525" Def="0.752" />
+    <ExpectedValueItem TnumID="213" NnumID="5" kills="1.167" spots="0.125" DMG="307.338" WR="0.56236" Def="1.606" />
+    <ExpectedValueItem TnumID="213" NnumID="1" kills="1.01" spots="1.527" DMG="526.03" WR="0.54831000000000008" Def="1.102" />
+    <ExpectedValueItem TnumID="213" NnumID="0" kills="1.378" spots="1.392" DMG="244.767" WR="0.56347" Def="1.466" />
+    <ExpectedValueItem TnumID="212" NnumID="5" kills="1.25" spots="1.568" DMG="608.069" WR="0.5677" Def="1.172" />
+    <ExpectedValueItem TnumID="212" NnumID="1" kills="0.804" spots="0.863" DMG="1268.46" WR="0.51754" Def="0.832" />
+    <ExpectedValueItem TnumID="212" NnumID="0" kills="1.88" spots="0.947" DMG="410.521" WR="0.58666" Def="1.492" />
+    <ExpectedValueItem TnumID="211" NnumID="5" kills="1.01" spots="0.757" DMG="997.617" WR="0.53827" Def="1.193" />
+    <ExpectedValueItem TnumID="211" NnumID="1" kills="1.197" spots="1.834" DMG="631.044" WR="0.55519" Def="0.838" />
+    <ExpectedValueItem TnumID="211" NnumID="0" kills="1.301" spots="1.377" DMG="645.433" WR="0.58768999999999993" Def="1.168" />
+    <ExpectedValueItem TnumID="210" NnumID="5" kills="1.063" spots="0.576" DMG="824.596" WR="0.52773" Def="1.241" />
+    <ExpectedValueItem TnumID="210" NnumID="2" kills="0.859" spots="1.305" DMG="1147.1" WR="0.51965000000000006" Def="0.894" />
+    <ExpectedValueItem TnumID="210" NnumID="0" kills="1.227" spots="0.813" DMG="589.968" WR="0.53193" Def="1.357" />
+    <ExpectedValueItem TnumID="209" NnumID="5" kills="1.091" spots="0.782" DMG="531.82" WR="0.54657" Def="1.402" />
+    <ExpectedValueItem TnumID="209" NnumID="2" kills="1.171" spots="1.5" DMG="208.41" WR="0.58255" Def="1.197" />
+    <ExpectedValueItem TnumID="209" NnumID="0" kills="1.479" spots="1.603" DMG="335.254" WR="0.55808" Def="1.67" />
+    <ExpectedValueItem TnumID="208" NnumID="0" kills="0.968" spots="1.075" DMG="1245.988" WR="0.51408999999999994" Def="0.909" />
+    <ExpectedValueItem TnumID="207" NnumID="0" kills="1.093" spots="2.417" DMG="361.652" WR="0.55611" Def="0.958" />
+    <ExpectedValueItem TnumID="206" NnumID="6" kills="0.769" spots="1.822" DMG="1087.256" WR="0.52601999999999993" Def="0.656" />
+    <ExpectedValueItem TnumID="206" NnumID="5" kills="0.932" spots="1.376" DMG="367.281" WR="0.5679" Def="1.33" />
+    <ExpectedValueItem TnumID="206" NnumID="2" kills="1.11" spots="2.499" DMG="278.705" WR="0.57481" Def="1.503" />
+    <ExpectedValueItem TnumID="206" NnumID="0" kills="1.06" spots="1.602" DMG="253.288" WR="0.54829" Def="1.565" />
+    <ExpectedValueItem TnumID="205" NnumID="8" kills="0.755" spots="1.28" DMG="1150.231" WR="0.526" Def="0.619" />
+    <ExpectedValueItem TnumID="205" NnumID="6" kills="0.763" spots="1.443" DMG="1265.312" WR="0.53549" Def="0.479" />
+    <ExpectedValueItem TnumID="205" NnumID="5" kills="1.007" spots="0.563" DMG="1698.178" WR="0.5159" Def="0.818" />
+    <ExpectedValueItem TnumID="205" NnumID="2" kills="0.815" spots="1.14" DMG="1236.208" WR="0.51337" Def="0.676" />
+    <ExpectedValueItem TnumID="205" NnumID="1" kills="1.868" spots="1.667" DMG="307.612" WR="0.55376" Def="2.765" />
+    <ExpectedValueItem TnumID="205" NnumID="0" kills="1.273" spots="1.47" DMG="376.494" WR="0.54514000000000007" Def="1.652" />
+    <ExpectedValueItem TnumID="204" NnumID="8" kills="0.847" spots="1.19" DMG="1183.13" WR="0.52203" Def="0.969" />
+    <ExpectedValueItem TnumID="204" NnumID="6" kills="0.976" spots="1.021" DMG="811.929" WR="0.54577" Def="0.8" />
+    <ExpectedValueItem TnumID="204" NnumID="2" kills="1.02" spots="1.596" DMG="474.933" WR="0.54871" Def="1.03" />
+    <ExpectedValueItem TnumID="204" NnumID="1" kills="1.603" spots="1.576" DMG="490.123" WR="0.57679" Def="1.65" />
+    <ExpectedValueItem TnumID="4" NnumID="8" kills="0.915" spots="1.162" DMG="505.178" WR="0.53904000000000007" Def="0.976" />
+    <ExpectedValueItem TnumID="4" NnumID="7" kills="0.849" spots="1.401" DMG="487.415" WR="0.54339" Def="1.056" />
+    <ExpectedValueItem TnumID="4" NnumID="6" kills="0.886" spots="1.005" DMG="911.804" WR="0.51331" Def="1.045" />
+    <ExpectedValueItem TnumID="4" NnumID="5" kills="0.99" spots="1.856" DMG="703.962" WR="0.54643" Def="0.958" />
+    <ExpectedValueItem TnumID="4" NnumID="4" kills="1.122" spots="1.068" DMG="373.84" WR="0.55775" Def="1.448" />
+    <ExpectedValueItem TnumID="4" NnumID="3" kills="0.906" spots="1.455" DMG="917.374" WR="0.5442" Def="0.932" />
+    <ExpectedValueItem TnumID="4" NnumID="2" kills="1.062" spots="1.354" DMG="527.162" WR="0.54876" Def="0.962" />
+    <ExpectedValueItem TnumID="4" NnumID="1" kills="1.104" spots="0.696" DMG="581.223" WR="0.54184" Def="1.34" />
+    <ExpectedValueItem TnumID="4" NnumID="0" kills="1.306" spots="1.661" DMG="229.034" WR="0.5684" Def="1.388" />
+    <ExpectedValueItem TnumID="3" NnumID="10" kills="1.293" spots="1.179" DMG="349.431" WR="0.56678" Def="1.354" />
+    <ExpectedValueItem TnumID="3" NnumID="8" kills="0.987" spots="1.254" DMG="380.737" WR="0.55545" Def="1.095" />
+    <ExpectedValueItem TnumID="3" NnumID="7" kills="0.952" spots="1.135" DMG="366.805" WR="0.55805" Def="1.302" />
+    <ExpectedValueItem TnumID="3" NnumID="6" kills="1.349" spots="1.436" DMG="235.491" WR="0.56871" Def="1.356" />
+    <ExpectedValueItem TnumID="3" NnumID="5" kills="1.119" spots="0.763" DMG="440.551" WR="0.56156" Def="1.559" />
+    <ExpectedValueItem TnumID="3" NnumID="4" kills="1.338" spots="0.119" DMG="221.246" WR="0.5623" Def="1.354" />
+    <ExpectedValueItem TnumID="3" NnumID="3" kills="0.923" spots="1.289" DMG="1250.531" WR="0.52539" Def="0.692" />
+    <ExpectedValueItem TnumID="3" NnumID="2" kills="0.96" spots="1.008" DMG="796.833" WR="0.53698" Def="0.862" />
+    <ExpectedValueItem TnumID="3" NnumID="1" kills="1.352" spots="1.468" DMG="233.648" WR="0.57305" Def="1.703" />
+    <ExpectedValueItem TnumID="3" NnumID="0" kills="0.987" spots="1.839" DMG="255.073" WR="0.56128" Def="1.25" />
+    <ExpectedValueItem TnumID="2" NnumID="10" kills="1.474" spots="1.063" DMG="270.523" WR="0.57886" Def="1.535" />
+    <ExpectedValueItem TnumID="2" NnumID="8" kills="1.166" spots="1.376" DMG="317.75" WR="0.57034" Def="1.464" />
+    <ExpectedValueItem TnumID="2" NnumID="7" kills="0.948" spots="1.062" DMG="274.84" WR="0.56725" Def="1.452" />
+    <ExpectedValueItem TnumID="2" NnumID="6" kills="1.551" spots="1.092" DMG="194.187" WR="0.5756" Def="1.685" />
+    <ExpectedValueItem TnumID="2" NnumID="5" kills="1.362" spots="2.077" DMG="240.516" WR="0.58066000000000006" Def="1.364" />
+    <ExpectedValueItem TnumID="2" NnumID="4" kills="1.473" spots="1.206" DMG="201.359" WR="0.58071" Def="1.801" />
+    <ExpectedValueItem TnumID="2" NnumID="2" kills="1.532" spots="1.814" DMG="197.733" WR="0.57994" Def="1.348" />
+    <ExpectedValueItem TnumID="2" NnumID="1" kills="0.935" spots="0.972" DMG="1075.376" WR="0.53604" Def="0.988" />
+    <ExpectedValueItem TnumID="2" NnumID="0" kills="0.976" spots="0.997" DMG="1037.621" WR="0.53425" Def="0.805" />
+    <ExpectedValueItem TnumID="1" NnumID="10" kills="1.261" spots="1.653" DMG="234.311" WR="0.58402" Def="1.527" />
+    <ExpectedValueItem TnumID="1" NnumID="8" kills="1.335" spots="1.305" DMG="240.379" WR="0.57324" Def="1.183" />
+    <ExpectedValueItem TnumID="1" NnumID="7" kills="1.204" spots="1.38" DMG="223.822" WR="0.56566" Def="1.42" />
+    <ExpectedValueItem TnumID="1" NnumID="6" kills="1.366" spots="1.175" DMG="227.899" WR="0.57731" Def="1.453" />
+    <ExpectedValueItem TnumID="1" NnumID="5" kills="1.41" spots="0.912" DMG="244.247" WR="0.56878" Def="1.187" />
+    <ExpectedValueItem TnumID="1" NnumID="4" kills="1.209" spots="0.801" DMG="292.529" WR="0.5867" Def="1.578" />
+    <ExpectedValueItem TnumID="1" NnumID="3" kills="0.661" spots="2.448" DMG="665.877" WR="0.51872" Def="0.668" />
+    <ExpectedValueItem TnumID="1" NnumID="2" kills="1.066" spots="2.161" DMG="264.527" WR="0.57139000000000006" Def="1.456" />
+    <ExpectedValueItem TnumID="1" NnumID="1" kills="1.006" spots="0.076" DMG="926.799" WR="0.51238" Def="1.245" />
+    <ExpectedValueItem TnumID="1" NnumID="0" kills="1.109" spots="0.533" DMG="577.781" WR="0.54436" Def="1.226" />
+    <ExpectedValueItem TnumID="0" NnumID="10" kills="1.703" spots="1.08" DMG="206.039" WR="0.5907" Def="1.376" />
+    <ExpectedValueItem TnumID="0" NnumID="9" kills="0.992" spots="1.329" DMG="786.962" WR="0.55111" Def="0.765" />
+    <ExpectedValueItem TnumID="0" NnumID="8" kills="1.482" spots="1.366" DMG="199.414" WR="0.58957" Def="0.994" />
+    <ExpectedValueItem TnumID="0" NnumID="7" kills="1.553" spots="0.831" DMG="205.299" WR="0.58563" Def="0.983" />
+    <ExpectedValueItem TnumID="0" NnumID="5" kills="1.669" spots="0.909" DMG="217.575" WR="0.57578000000000007" Def="1.249" />
+    <ExpectedValueItem TnumID="0" NnumID="3" kills="0.892" spots="1.582" DMG="1112.019" WR="0.52065" Def="0.906" />
+    <ExpectedValueItem TnumID="0" NnumID="2" kills="1.232" spots="1.518" DMG="590.972" WR="0.56115" Def="1.181" />
+    <ExpectedValueItem TnumID="0" NnumID="0" kills="0.973" spots="1.355" DMG="486.834" WR="0.54996" Def="1.071" />
   </ExpectedValues>
   <Records>
     <RecordItem id="xp" numID="1" />
@@ -2442,6 +2482,6 @@
     <RecordItem id="maxDamage" numID="1143" />
     <RecordItem id="maxDamageVehicle" numID="1144" />
   </Records>
-  <ExpectedValuesVersion>2018-02-09</ExpectedValuesVersion>
-  <LastUpdate_ExpectedValues>2018-02-10T21:47:11.8421447+01:00</LastUpdate_ExpectedValues>
+  <ExpectedValuesVersion>2018-05-17</ExpectedValuesVersion>
+  <LastUpdate_ExpectedValues>2018-05-18T18:33:32.1551073+02:00</LastUpdate_ExpectedValues>
 </Data>

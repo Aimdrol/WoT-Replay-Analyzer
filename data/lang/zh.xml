@@ -39,6 +39,7 @@
     <tank ID="A117_T26E5_Patriot" sName="T26E5 P" lName="T26E5 P" />
     <tank ID="A118_M4_Thunderbolt" sName="M4A3E8 \" lName="M4A3E8 \" />
     <tank ID="A12_T32" sName="T32" lName="T32" />
+    <tank ID="A12_T32_FL" />
     <tank ID="A120_M48A5" sName="M48A5" lName="M48A5" />
     <tank ID="A120_M48A5_IGR" sName="M48A5" lName="M48A5" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
@@ -554,6 +555,7 @@
     <tank ID="GB91_Super_Conqueror" sName="超级征服者" lName="超级征服者" />
     <tank ID="GB92_FV217" sName="FV217" lName="FV217" />
     <tank ID="GB93_Caernarvon_AX" sName="卡那封 AX" lName="卡那封 AX" />
+    <tank ID="GB94_Centurion_Mk5-1_RAAC" />
     <tank ID="Grille" sName="\" lName="\" />
     <tank ID="GW_Mk_VIe" sName="G.Pz.Mk.VI" lName="G.Pz.Mk.VI" />
     <tank ID="GW_Tiger_P" sName="Gw 虎(P)" lName="Gw 虎(P)" />
@@ -573,6 +575,18 @@
     <tank ID="IS8" sName="Т-10" lName="Т-10" />
     <tank ID="ISU-152" sName="ISU-152" lName="ISU-152" />
     <tank ID="ISU-152_IGR" sName="ISU-152" lName="ISU-152" />
+    <tank ID="It03_M15_42" />
+    <tank ID="It04_Fiat_3000" />
+    <tank ID="It05_Carro_L6_40" />
+    <tank ID="It06_M14_41" />
+    <tank ID="It07_P26_40" />
+    <tank ID="It08_Progetto_M40_mod_65" />
+    <tank ID="It09_P43_ter" />
+    <tank ID="It10_P43_bis" />
+    <tank ID="It11_P43" />
+    <tank ID="It12_Prototipo_Standard_B" />
+    <tank ID="It13_Progetto_M35_mod_46" />
+    <tank ID="It14_P44_Pantera" />
     <tank ID="J01_NC27" sName="雷诺轻战" lName="雷诺轻战" />
     <tank ID="J01_NC27_bot" sName="雷诺轻战" lName="雷诺轻战" />
     <tank ID="J02_Te_Ke" sName="九七轻战" lName="九七轻战" />
@@ -808,6 +822,7 @@
     <tank ID="R149_Object_268_4" sName="268工程IV型" lName="268工程IV型" />
     <tank ID="R15_S-51" sName="S-51" lName="S-51" />
     <tank ID="R151_Object_257_2" sName="257工程" lName="257工程" />
+    <tank ID="R152_KV2_W" />
     <tank ID="R153_Object_705" sName="705工程" lName="705工程" />
     <tank ID="R16_SU-18" sName="SU-18" lName="SU-18" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
@@ -816,6 +831,7 @@
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
     <tank ID="R19_IS-3_IGR" sName="IS-3" lName="IS-3" />
     <tank ID="R20_T-44" sName="T-44" lName="T-44" />
+    <tank ID="R20_T-44_FL" />
     <tank ID="R20_T-44_IGR" sName="T-44" lName="T-44" />
     <tank ID="R22_T-46" sName="T-46" lName="T-46" />
     <tank ID="R22_T-46_bootcamp" sName="T-46" lName="T-46" />
@@ -1068,6 +1084,7 @@
     <item ID="01_karelia" Name="卡累利阿" />
     <item ID="02_malinovka" Name="马利诺夫卡" />
     <item ID="03_campania" Name="坎帕尼亚" />
+    <item ID="03_campania_big" />
     <item ID="04_himmelsdorf" Name="锡默尔斯多夫" />
     <item ID="05_prohorovka" Name="普罗霍洛夫卡" />
     <item ID="06_ensk" Name="安斯克" />
@@ -1075,6 +1092,7 @@
     <item ID="08_ruinberg" Name="鲁别克" />
     <item ID="10_hills" Name="湖边的角逐" />
     <item ID="100_thepit" Name="密特朗" />
+    <item ID="1001_frontline_testmap" />
     <item ID="101_dday" Name="诺曼底" />
     <item ID="102_deathtrack" />
     <item ID="103_ruinberg_winter" Name="鲁别克(冬季)" />
@@ -1098,6 +1116,7 @@
     <item ID="17_munchen" Name="慕尼黑" />
     <item ID="18_cliff" Name="海岸争霸" />
     <item ID="19_monastery" Name="小镇争夺战" />
+    <item ID="208_bf_epic_normandy" />
     <item ID="212_epic_random_valley" Name="尼德堡" />
     <item ID="217_er_alaska" Name="克朗代克" />
     <item ID="22_slough" Name="黑暗沼泽" />
@@ -1135,16 +1154,17 @@
     <item ID="unknown" Name="未知" />
   </Lang_Maps>
   <Lang_Nations>
+    <item ID="ussr" Name="S系" />
+    <item ID="germany" Name="D系" />
+    <item ID="usa" Name="M系" />
     <item ID="china" Name="C系" />
     <item ID="france" Name="F系" />
-    <item ID="germany" Name="D系" />
     <item ID="uk" Name="Y系" />
-    <item ID="usa" Name="M系" />
-    <item ID="ussr" Name="S系" />
     <item ID="japan" Name="R系" />
     <item ID="czech" Name="J系" />
     <item ID="sweden" Name="V系" />
     <item ID="poland" Name="B系" />
+    <item ID="italy" />
     <item ID="unknown" Name="未知" />
   </Lang_Nations>
   <Lang_Results>
