@@ -45,6 +45,7 @@
     <tank ID="A120_M48A5_IGR" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A121_M26_Cologne" sName="Eagle 7" lName="T26E3 Eagle 7" />
     <tank ID="A122_TS-5" sName="TS-5" lName="TS-5" />
+    <tank ID="A123_T78" sName="T78" lName="T78" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" sName="T34 FL" lName="T34 FL" />
@@ -229,6 +230,7 @@
     <tank ID="Cz09_T_24" sName="Škoda T 24" lName="Škoda T 24" />
     <tank ID="Cz10_LT_vz38" sName="LT vz. 38" lName="LT vz. 38" />
     <tank ID="Cz11_V_8_H" sName="ST vz. 39" lName="ST vz. 39" />
+    <tank ID="Cz13_T_27" sName="Škoda T 27" lName="Škoda T 27" />
     <tank ID="D1" sName="D1" lName="D1" />
     <tank ID="D2" sName="D2" lName="D2" />
     <tank ID="DickerMax" sName="Dicker Max" lName="Dicker Max" />
@@ -266,6 +268,7 @@
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F110_Lynx_6x6" sName="Lynx 6x6" lName="Panhard AML Lynx 6x6" />
     <tank ID="F111_AM39_Gendron_Somua" sName="AM Gendron" lName="AM 39 Gendron-Somua" />
+    <tank ID="F112_M10_RBFM" sName="M10 RBFM" lName="M10 RBFM" />
     <tank ID="F12_Hotchkiss_H35" sName="H35" lName="Hotchkiss H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -326,6 +329,7 @@
     <tank ID="F82_AMX_M4_Mle1949_Ter" sName="AMX M4 54" lName="AMX M4 mle. 54" />
     <tank ID="F83_AMX_M4_Mle1949_Bis" sName="AMX M4 51" lName="AMX M4 mle. 51" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F85_M4A1_FL10" sName="M4A1 FL 10" lName="M4A1 FL 10" />
     <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
     <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="F88_AMX_13_105_sport" sName="AMX S" lName="AMX 13 105 SPORT" />
@@ -1004,6 +1008,9 @@
     <tank ID="S23_Strv_81_sabaton" sName="P:Victoria" lName="Primo Victoria" />
     <tank ID="S25_EMIL_51" sName="EMIL 1951" lName="EMIL 1951" />
     <tank ID="S26_Lansen_C" sName="Lansen C" lName="Lansen C" />
+    <tank ID="S27_UDES_16" sName="UDES 16" lName="UDES 16" />
+    <tank ID="S28_UDES_15_16" sName="UDES 15/16" lName="UDES 15/16" />
+    <tank ID="S29_UDES_14_5" sName="UDES 14 5" lName="UDES 14 Alt 5" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1326,6 +1333,76 @@
     <item ID="4" Name="Clase IV" />
     <item ID="unknown" Name="Desconocido" />
   </Lang_Ranks>
+  <Lang_Badges>
+    <item ID="1" Name="Oro, temporada beta" />
+    <item ID="10" Name="Insignia «StuG IV», clase II" />
+    <item ID="11" Name="Insignia «StuG IV», clase I" />
+    <item ID="12" Name="Insignia «T28 HTC», clase II" />
+    <item ID="13" Name="Insignia «T28 HTC», clase I" />
+    <item ID="14" Name="Insignia «T 55A», clase II" />
+    <item ID="15" Name="Insignia «T 55A», clase I" />
+    <item ID="16" Name="Insignia «Object 260», clase II" />
+    <item ID="17" Name="Insignia «Object 260», clase I" />
+    <item ID="18" Name="Campeón de la Campaña I" />
+    <item ID="19" Name="As: nivel VII" />
+    <item ID="2" Name="Oro, segunda temporada beta" />
+    <item ID="20" Name="As: nivel VIII" />
+    <item ID="21" Name="As: nivel IX" />
+    <item ID="22" Name="As: nivel X" />
+    <item ID="23" Name="Comandante experto: nivel VII" />
+    <item ID="24" Name="Comandante experto: nivel VIII" />
+    <item ID="25" Name="Comandante experto: nivel IX" />
+    <item ID="26" Name="Comandante experto: nivel X" />
+    <item ID="27" Name="Leyenda del mapa global" />
+    <item ID="28" Name="Héroe gambito" />
+    <item ID="29" Name="Oro, temporada 1" />
+    <item ID="3" Name="Oro, temporada 2" />
+    <item ID="30" Name="Plata, temporada 1" />
+    <item ID="31" Name="Bronce, Temporada 1" />
+    <item ID="32" Name="Veterano del frente" />
+    <item ID="33" Name="Héroe del frente" />
+    <item ID="34" Name="Conquistador del frente" />
+    <item ID="35" Name="Héroe de La carrera armamentística" />
+    <item ID="36" Name="Insignia «Excalibur», clase II" />
+    <item ID="37" Name="Insignia «Excalibur», clase I" />
+    <item ID="38" Name="Insignia «Chimera», clase II" />
+    <item ID="39" Name="Insignia «Chimera», clase I" />
+    <item ID="4" Name="Plata, temporada beta" />
+    <item ID="40" Name="Insignia «Object 279 (e)», clase II" />
+    <item ID="41" Name="Insignia «Object 279 (e)», clase I" />
+    <item ID="42" Name="Veterano del Segundo frente" />
+    <item ID="43" Name="RNG" />
+    <item ID="44" Name="Yushaтали всех!" />
+    <item ID="45" Name="«Нагибатор»" />
+    <item ID="46" Name="За Амвэя и двор" />
+    <item ID="47" Name="Одной левой" />
+    <item ID="48" Name="Oro, temporada 3" />
+    <item ID="49" Name="Plata, temporada 3" />
+    <item ID="5" Name="Plata, segunda temporada beta" />
+    <item ID="50" Name="Bronce, temporada 3" />
+    <item ID="51" Name="Bot bravo" />
+    <item ID="52" Name="Únete a la luz" />
+    <item ID="56" Name="Veterano de la prueba alfa" />
+    <item ID="57" Name="Veterano de la prueba beta" />
+    <item ID="58" Name="Veterano de la prueba alfa" />
+    <item ID="59" Name="Veterano de la prueba beta" />
+    <item ID="6" Name="Plata, temporada 2" />
+    <item ID="60" Name="Héroe de «Soldados de fortuna»" />
+    <item ID="61" Name="Oro del torneo" />
+    <item ID="62" Name="Plata del torneo" />
+    <item ID="63" Name="Bronce del torneo" />
+    <item ID="64" Name="Insignia de comandante, clase III" />
+    <item ID="65" Name="Insignia de comandante, clase II" />
+    <item ID="66" Name="Insignia de comandante, clase I" />
+    <item ID="67" Name="Prestigio: III" />
+    <item ID="68" Name="Prestigio: V" />
+    <item ID="69" Name="Prestigio: VII" />
+    <item ID="7" Name="Bronce, temporada beta" />
+    <item ID="70" Name="Prestigio: X" />
+    <item ID="8" Name="Bronce, segunda temporada beta" />
+    <item ID="9" Name="Bronce, temporada 2" />
+    <item ID="unknown" Name="Desconocido" />
+  </Lang_Badges>
   <Lang_DeathReasons>
     <item ID="-1" Name="Superviviente" />
     <item ID="0" Name="Destruido por un disparo" />
@@ -1603,7 +1680,7 @@
     <achv ID_Num="1233" ID="04YearsOfService" Name="Por 4 años de servicio" />
     <achv ID_Num="1234" ID="03YearsOfService" Name="Por 3 años de servicio" />
     <achv ID_Num="1235" ID="02YearsOfService" Name="Por 2 años de servicio" />
-    <achv ID_Num="1236" ID="01YearsOfService" Name="Por 1 año de servicio" />
+    <achv ID_Num="1236" ID="01YearsOfService" Name="Por 1 año de servicio" />
     <achv ID_Num="1237" ID="NY19A1" Name="Copo de nieve de oro" />
     <achv ID_Num="1238" ID="NY19A2" Name="Copo de nieve de plata" />
     <achv ID_Num="1239" ID="NY19A3" Name="Copo de nieve de bronce" />
@@ -1621,8 +1698,8 @@
     <PM name="CL-1: ¡Por la victoria!" short="StuG IV: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="1" opID="1" mID="1" setID="1" ID="quest_1_1_1_main" secID="quest_1_1_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida</req>
+        <req>•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -1685,9 +1762,9 @@
     <PM name="CL-8: ¡Sal de nuestra base!" short="StuG IV: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de una base
+        <req>•  Reiniciar los puntos de captura de tu base/la base neutral
 o
-•  Reiniciar los puntos de captura de tu base/la base neutral
+•  Participar en una captura exitosa de una base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -1734,8 +1811,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="StuG IV: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Causar 700 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 700 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 700 puntos de daño a vehículos que hayas detectado
+•  Causar 700 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -1819,9 +1896,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="StuG IV: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 500 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 500 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo</req>
@@ -1906,9 +1983,9 @@ o
     <PM name="CM-1: Primeros pasos" short="StuG IV: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="31" opID="1" mID="1" setID="3" ID="quest_1_3_1_main" secID="quest_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -1935,8 +2012,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="StuG IV: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="34" opID="1" mID="4" setID="3" ID="quest_1_3_4_main" secID="quest_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado con disparos
-•  Destruir una oruga de un vehículo enemigo</req>
+        <req>•  Destruir una oruga de un vehículo enemigo
+•  Causar daño a un vehículo enemigo inmovilizado con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo inmovilizado</req>
@@ -1982,8 +2059,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="StuG IV: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="39" opID="1" mID="9" setID="3" ID="quest_1_3_9_main" secID="quest_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 300 puntos de daño a carros pesados enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 300 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -2040,8 +2117,8 @@ o
         <req>•  Destruir 2 cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 5 vehículos enemigos</req>
+        <req>•  Causar daño a 5 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="StuG IV: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
@@ -2065,8 +2142,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="StuG IV: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="48" opID="1" mID="3" setID="4" ID="quest_1_4_3_main" secID="quest_1_4_3_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 2 vehículos enemigos</req>
+        <req>•  Causar daño a 2 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -2149,8 +2226,8 @@ o
     <PM name="CC-12: Caza mayor" short="StuG IV: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="57" opID="1" mID="12" setID="4" ID="quest_1_4_12_main" secID="quest_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -2287,8 +2364,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="StuG IV: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 50 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 50 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -2297,9 +2374,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="StuG IV: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 5 veces
+        <req>•  Causar daño 3 veces a los vehículos enemigos con disparos
 o
-•  Causar daño 3 veces a los vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 5 veces</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -2308,9 +2385,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="StuG IV: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 400 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 70 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 70 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 400 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -2319,8 +2396,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="StuG IV: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 1000 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 1000 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
         <req>•  Causar 1000 puntos de daño a vehículos enemigos
@@ -2330,8 +2407,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="T28 Heavy Tank Concept: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="76" opID="2" mID="1" setID="1" ID="quest_2_1_1_main" secID="quest_2_1_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -2396,9 +2473,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="T28 Heavy Tank Concept: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 20 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 20 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 20 puntos de base
+•  Participar en una captura exitosa de base, ganando 20 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -2444,8 +2521,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="T28 Heavy Tank Concept: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 1500 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 1500 puntos de daño a vehículos que hayas detectado
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -2529,9 +2606,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="T28 Heavy Tank Concept: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 1000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destruir 2 vehículos enemigos</req>
@@ -2616,9 +2693,9 @@ o
     <PM name="CM-1: Primeros pasos" short="T28 Heavy Tank Concept: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="106" opID="2" mID="1" setID="3" ID="quest_2_3_1_main" secID="quest_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -2645,8 +2722,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="T28 Heavy Tank Concept: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="109" opID="2" mID="4" setID="3" ID="quest_2_3_4_main" secID="quest_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 2 veces con disparos
-•  Destruir las orugas de 2 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 2 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 2 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo inmovilizado</req>
@@ -2694,8 +2771,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="T28 Heavy Tank Concept: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="114" opID="2" mID="9" setID="3" ID="quest_2_3_9_main" secID="quest_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 750 puntos de daño a carros pesados enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 750 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -2751,12 +2828,12 @@ o
     <PM name="CM-15: El cazador y el cazado" short="T28 Heavy Tank Concept: CM-15" desc="Puedes cambiar el curso de la batalla si neutralizas los cazacarros enemigos." tMID="120" opID="2" mID="15" setID="3" ID="quest_2_3_15_main" secID="quest_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Piensa dónde posicionarías tu cazacarros si condujeras uno. Ese podría ser el lugar en donde se esté ocultando un cazacarros enemigo en este mismo momento. A menudo los cazacarros se posicionan para cubrir las líneas más posibles de ataque, así que trata de alcanzarlos desde posiciones inesperadas.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Causar 1000 puntos de daño a cazacarros enemigos
-•  Destruir 2 cazacarros enemigos</req>
+        <req>•  Destruir 2 cazacarros enemigos
+•  Causar 1000 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 6 vehículos enemigos</req>
+        <req>•  Causar daño a 6 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="T28 Heavy Tank Concept: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
@@ -2771,8 +2848,8 @@ o
     <PM name="CC-2: Fuego preciso" short="T28 Heavy Tank Concept: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir un módulo interno o herir un tripulante</req>
+        <req>•  Destruir un módulo interno o herir un tripulante
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -2781,8 +2858,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="T28 Heavy Tank Concept: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="123" opID="2" mID="3" setID="4" ID="quest_2_4_3_main" secID="quest_2_4_3_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 3 vehículos enemigos</req>
+        <req>•  Causar daño a 3 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -2865,8 +2942,8 @@ o
     <PM name="CC-12: Caza mayor" short="T28 Heavy Tank Concept: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="132" opID="2" mID="12" setID="4" ID="quest_2_4_12_main" secID="quest_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Destruir un carro pesado que sea un nivel más alto</req>
+        <req>•  Destruir un carro pesado que sea un nivel más alto
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3004,8 +3081,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="T28 Heavy Tank Concept: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3014,9 +3091,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="T28 Heavy Tank Concept: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 6 veces
+        <req>•  Causar daño 4 veces a los vehículos enemigos con disparos
 o
-•  Causar daño 4 veces a los vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 6 veces</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3025,9 +3102,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="T28 Heavy Tank Concept: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 600 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 600 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3036,8 +3113,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="T28 Heavy Tank Concept: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 1500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 1500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Causar 1500 puntos de daño a vehículos enemigos
@@ -3047,8 +3124,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="T 55A: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="151" opID="3" mID="1" setID="1" ID="quest_3_1_1_main" secID="quest_3_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -3067,8 +3144,8 @@ o
     <PM name="CL-3: La persecución" short="T 55A: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Trata siempre de flanquear al enemigo y disparar en su retaguardia, en donde el blindaje es más vulnerable. No te quedes en un punto. Si cambias de posición con frecuencia, al enemigo le será más difícil apuntar con precisión a tu vehículo. Recuerda que los carros ligeros tienen la misma posibilidad de ser detectados cuando están en movimiento o parados.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Detectar 4 vehículos enemigos
-•  Causar daño 5 veces a vehículos enemigos con disparos</req>
+        <req>•  Causar daño 5 veces a vehículos enemigos con disparos
+•  Detectar 4 vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos</req>
@@ -3116,9 +3193,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="T 55A: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 40 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 40 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 40 puntos de base
+•  Participar en una captura exitosa de base, ganando 40 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -3165,8 +3242,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="T 55A: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 1800 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 1800 puntos de daño a vehículos que hayas detectado
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -3249,9 +3326,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="T 55A: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 3000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 3000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos</req>
@@ -3337,9 +3414,9 @@ o
     <PM name="CM-1: Primeros pasos" short="T 55A: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="181" opID="3" mID="1" setID="3" ID="quest_3_3_1_main" secID="quest_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -3367,8 +3444,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="T 55A: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="184" opID="3" mID="4" setID="3" ID="quest_3_3_4_main" secID="quest_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 3 veces con disparos
-•  Destruir las orugas de 3 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 3 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 3 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destruir 2 vehículos enemigos inmovilizados
@@ -3419,8 +3496,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="T 55A: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="189" opID="3" mID="9" setID="3" ID="quest_3_3_9_main" secID="quest_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 1500 puntos de daño a carros pesados enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 1500 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -3479,8 +3556,8 @@ o
         <req>•  Causar 2500 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 7 vehículos enemigos</req>
+        <req>•  Causar daño a 7 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="T 55A: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
@@ -3496,8 +3573,8 @@ o
     <PM name="CC-2: Fuego preciso" short="T 55A: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 2 módulos o miembros de la tripulación</req>
+        <req>•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 2 módulos o miembros de la tripulación
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -3506,8 +3583,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="T 55A: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="198" opID="3" mID="3" setID="4" ID="quest_3_4_3_main" secID="quest_3_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 5 vehículos enemigos</req>
+        <req>•  Causar daño a 5 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -3593,8 +3670,8 @@ o
     <PM name="CC-12: Caza mayor" short="T 55A: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="207" opID="3" mID="12" setID="4" ID="quest_3_4_12_main" secID="quest_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 3000 puntos de daño a vehículos enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 3000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -3738,8 +3815,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="T 55A: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir 2 vehículos que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 150 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 150 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir 2 vehículos que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3748,9 +3825,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="T 55A: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 8 veces
+        <req>•  Causar daño 6 veces a vehículos enemigos con disparos
 o
-•  Causar daño 6 veces a vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 8 veces</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3759,9 +3836,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="T 55A: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 800 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 180 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 180 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 800 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3770,8 +3847,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="T 55A: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 2500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 2500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
         <req>•  Causar 3000 puntos de daño a vehículos enemigos
@@ -3781,8 +3858,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="Object 260: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="226" opID="4" mID="1" setID="1" ID="quest_4_1_1_main" secID="quest_4_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -3801,8 +3878,8 @@ o
     <PM name="CL-3: La persecución" short="Object 260: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Trata siempre de flanquear al enemigo y disparar en su retaguardia, en donde el blindaje es más vulnerable. No te quedes en un punto. Si cambias de posición con frecuencia, al enemigo le será más difícil apuntar con precisión a tu vehículo. Recuerda que los carros ligeros tienen la misma posibilidad de ser detectados cuando están en movimiento o parados.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Detectar 6 vehículos enemigos
-•  Causar daño 6 veces a vehículos enemigos con disparos</req>
+        <req>•  Causar daño 6 veces a vehículos enemigos con disparos
+•  Detectar 6 vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 4 vehículos enemigos</req>
@@ -3850,9 +3927,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="Object 260: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 60 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 60 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 60 puntos de base
+•  Participar en una captura exitosa de base, ganando 60 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -3872,8 +3949,8 @@ o
     <PM name="CL-10: El máximo resultado" short="Object 260: CL-10" desc="Cuanto más efectivo seas en una batalla, más experiencia obtendrás. ¡Muéstrales de lo qué es capaz un carro ligero!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Un buen explorador sabe cuándo ser cauto y cuándo ser agresivo. Permanece alerta sobre el desarrollo de la batalla.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sobrevivir a la batalla
-•  Ser el mejor jugador de ambos equipos por experiencia conseguida</req>
+        <req>•  Ser el mejor jugador de ambos equipos por experiencia conseguida
+•  Sobrevivir a la batalla</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -3901,8 +3978,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="Object 260: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2500 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 2000 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 2000 puntos de daño a vehículos que hayas detectado
+•  Causar 2500 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -3985,9 +4062,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="Object 260: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 4000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 4000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destruir 4 vehículos enemigos</req>
@@ -4073,9 +4150,9 @@ o
     <PM name="CM-1: Primeros pasos" short="Object 260: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="256" opID="4" mID="1" setID="3" ID="quest_4_3_1_main" secID="quest_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -4103,8 +4180,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="Object 260: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="259" opID="4" mID="4" setID="3" ID="quest_4_3_4_main" secID="quest_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 4 veces con disparos
-•  Destruir las orugas de 4 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 4 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 4 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos inmovilizados
@@ -4154,8 +4231,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="Object 260: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="264" opID="4" mID="9" setID="3" ID="quest_4_3_9_main" secID="quest_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a carros pesados enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 2000 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -4215,8 +4292,8 @@ o
         <req>•  Causar 3500 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 8 vehículos enemigos</req>
+        <req>•  Causar daño a 8 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="Object 260: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
@@ -4232,8 +4309,8 @@ o
     <PM name="CC-2: Fuego preciso" short="Object 260: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Causar 5000 puntos de daño a vehículos enemigos
-•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 3 módulos o miembros de la tripulación</req>
+        <req>•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 3 módulos o miembros de la tripulación
+•  Causar 5000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -4242,8 +4319,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="Object 260: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="273" opID="4" mID="3" setID="4" ID="quest_4_4_3_main" secID="quest_4_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 6 vehículos enemigos</req>
+        <req>•  Causar daño a 6 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -4329,8 +4406,8 @@ o
     <PM name="CC-12: Caza mayor" short="Object 260: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="282" opID="4" mID="12" setID="4" ID="quest_4_4_12_main" secID="quest_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 4000 puntos de daño a vehículos enemigos
-•  Destruir 3 carros pesados enemigos</req>
+        <req>•  Destruir 3 carros pesados enemigos
+•  Causar 4000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -4474,8 +4551,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="Object 260: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir 3 vehículos que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 200 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 200 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir 3 vehículos que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -4484,9 +4561,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="Object 260: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 10 veces
+        <req>•  Causar daño 8 veces a vehículos enemigos con disparos
 o
-•  Causar daño 8 veces a vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 10 veces</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -4495,9 +4572,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="Object 260: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 1000 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 250 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 250 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 1000 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -4506,8 +4583,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="Object 260: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 3500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser el mejor jugador de ambos equipos por experiencia conseguida</req>
+        <req>•  Ser el mejor jugador de ambos equipos por experiencia conseguida
+•  Permitir que tus aliados causen 3500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
         <req>•  Causar 4000 puntos de daño a vehículos enemigos
@@ -4517,8 +4594,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="StuG IV: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="1" opID="1" mID="1" setID="1" ID="fallout_1_1_1_main" secID="fallout_1_1_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida</req>
+        <req>•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -4581,9 +4658,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="StuG IV: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="8" opID="1" mID="8" setID="1" ID="fallout_1_1_8_main" secID="fallout_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de una base
+        <req>•  Reiniciar los puntos de captura de tu base/la base neutral
 o
-•  Reiniciar los puntos de captura de tu base/la base neutral
+•  Participar en una captura exitosa de una base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -4630,8 +4707,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="StuG IV: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Causar 700 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 700 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 700 puntos de daño a vehículos que hayas detectado
+•  Causar 700 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -4715,9 +4792,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="StuG IV: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="22" opID="1" mID="7" setID="2" ID="fallout_1_2_7_main" secID="fallout_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 500 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 500 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo</req>
@@ -4802,9 +4879,9 @@ o
     <PM name="CM-1: Primeros pasos" short="StuG IV: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="31" opID="1" mID="1" setID="3" ID="fallout_1_3_1_main" secID="fallout_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Situarse entre los 10 mejores jugadores de tu equipo experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -4831,8 +4908,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="StuG IV: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="34" opID="1" mID="4" setID="3" ID="fallout_1_3_4_main" secID="fallout_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado con disparos
-•  Destruir una oruga de un vehículo enemigo</req>
+        <req>•  Destruir una oruga de un vehículo enemigo
+•  Causar daño a un vehículo enemigo inmovilizado con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo inmovilizado</req>
@@ -4878,8 +4955,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="StuG IV: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="39" opID="1" mID="9" setID="3" ID="fallout_1_3_9_main" secID="fallout_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 300 puntos de daño a carros pesados enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 300 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -4936,8 +5013,8 @@ o
         <req>•  Destruir 2 cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 5 vehículos enemigos</req>
+        <req>•  Causar daño a 5 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="StuG IV: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="46" opID="1" mID="1" setID="4" ID="fallout_1_4_1_main" secID="fallout_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
@@ -4961,8 +5038,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="StuG IV: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="48" opID="1" mID="3" setID="4" ID="fallout_1_4_3_main" secID="fallout_1_4_3_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 2 vehículos enemigos</req>
+        <req>•  Causar daño a 2 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -5045,8 +5122,8 @@ o
     <PM name="CC-12: Caza mayor" short="StuG IV: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="57" opID="1" mID="12" setID="4" ID="fallout_1_4_12_main" secID="fallout_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5183,8 +5260,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="StuG IV: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="72" opID="1" mID="12" setID="5" ID="fallout_1_5_12_main" secID="fallout_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 50 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 50 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5193,9 +5270,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="StuG IV: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="73" opID="1" mID="13" setID="5" ID="fallout_1_5_13_main" secID="fallout_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 5 veces
+        <req>•  Causar daño 3 veces a los vehículos enemigos con disparos
 o
-•  Causar daño 3 veces a los vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 5 veces</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5204,9 +5281,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="StuG IV: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="74" opID="1" mID="14" setID="5" ID="fallout_1_5_14_main" secID="fallout_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 400 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 70 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 70 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 400 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5215,8 +5292,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="StuG IV: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="75" opID="1" mID="15" setID="5" ID="fallout_1_5_15_main" secID="fallout_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 1000 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 1000 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
         <req>•  Causar 1000 puntos de daño a vehículos enemigos
@@ -5226,8 +5303,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="T28 Heavy Tank Concept: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="76" opID="2" mID="1" setID="1" ID="fallout_2_1_1_main" secID="fallout_2_1_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -5292,9 +5369,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="T28 Heavy Tank Concept: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="83" opID="2" mID="8" setID="1" ID="fallout_2_1_8_main" secID="fallout_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 20 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 20 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 20 puntos de base
+•  Participar en una captura exitosa de base, ganando 20 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -5340,8 +5417,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="T28 Heavy Tank Concept: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 1500 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 1500 puntos de daño a vehículos que hayas detectado
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -5425,9 +5502,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="T28 Heavy Tank Concept: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="97" opID="2" mID="7" setID="2" ID="fallout_2_2_7_main" secID="fallout_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 1000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destruir 2 vehículos enemigos</req>
@@ -5512,9 +5589,9 @@ o
     <PM name="CM-1: Primeros pasos" short="T28 Heavy Tank Concept: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="106" opID="2" mID="1" setID="3" ID="fallout_2_3_1_main" secID="fallout_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Ser uno de los cinco mejores jugadores de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -5541,8 +5618,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="T28 Heavy Tank Concept: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="109" opID="2" mID="4" setID="3" ID="fallout_2_3_4_main" secID="fallout_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 2 veces con disparos
-•  Destruir las orugas de 2 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 2 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 2 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destruir un vehículo enemigo inmovilizado</req>
@@ -5590,8 +5667,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="T28 Heavy Tank Concept: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="114" opID="2" mID="9" setID="3" ID="fallout_2_3_9_main" secID="fallout_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 750 puntos de daño a carros pesados enemigos
-•  Destruir un carro pesado enemigo</req>
+        <req>•  Destruir un carro pesado enemigo
+•  Causar 750 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -5647,12 +5724,12 @@ o
     <PM name="CM-15: El cazador y el cazado" short="T28 Heavy Tank Concept: CM-15" desc="Puedes cambiar el curso de la batalla si neutralizas los cazacarros enemigos." tMID="120" opID="2" mID="15" setID="3" ID="fallout_2_3_15_main" secID="fallout_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Piensa dónde posicionarías tu cazacarros si condujeras uno. Ese podría ser el lugar en donde se esté ocultando un cazacarros enemigo en este mismo momento. A menudo los cazacarros se posicionan para cubrir las líneas más posibles de ataque, así que trata de alcanzarlos desde posiciones inesperadas.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Causar 1000 puntos de daño a cazacarros enemigos
-•  Destruir 2 cazacarros enemigos</req>
+        <req>•  Destruir 2 cazacarros enemigos
+•  Causar 1000 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 6 vehículos enemigos</req>
+        <req>•  Causar daño a 6 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="T28 Heavy Tank Concept: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="121" opID="2" mID="1" setID="4" ID="fallout_2_4_1_main" secID="fallout_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
@@ -5667,8 +5744,8 @@ o
     <PM name="CC-2: Fuego preciso" short="T28 Heavy Tank Concept: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="122" opID="2" mID="2" setID="4" ID="fallout_2_4_2_main" secID="fallout_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Causar 1000 puntos de daño a vehículos enemigos
-•  Destruir un módulo interno o herir un tripulante</req>
+        <req>•  Destruir un módulo interno o herir un tripulante
+•  Causar 1000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -5677,8 +5754,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="T28 Heavy Tank Concept: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="123" opID="2" mID="3" setID="4" ID="fallout_2_4_3_main" secID="fallout_2_4_3_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 3 vehículos enemigos</req>
+        <req>•  Causar daño a 3 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -5761,8 +5838,8 @@ o
     <PM name="CC-12: Caza mayor" short="T28 Heavy Tank Concept: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="132" opID="2" mID="12" setID="4" ID="fallout_2_4_12_main" secID="fallout_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Destruir un carro pesado que sea un nivel más alto</req>
+        <req>•  Destruir un carro pesado que sea un nivel más alto
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5900,8 +5977,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="T28 Heavy Tank Concept: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="147" opID="2" mID="12" setID="5" ID="fallout_2_5_12_main" secID="fallout_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir un vehículo enemigo que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5910,9 +5987,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="T28 Heavy Tank Concept: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="148" opID="2" mID="13" setID="5" ID="fallout_2_5_13_main" secID="fallout_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 6 veces
+        <req>•  Causar daño 4 veces a los vehículos enemigos con disparos
 o
-•  Causar daño 4 veces a los vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 6 veces</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5921,9 +5998,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="T28 Heavy Tank Concept: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="149" opID="2" mID="14" setID="5" ID="fallout_2_5_14_main" secID="fallout_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 600 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 100 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 600 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -5932,8 +6009,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="T28 Heavy Tank Concept: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="150" opID="2" mID="15" setID="5" ID="fallout_2_5_15_main" secID="fallout_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 1500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 1500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Causar 1500 puntos de daño a vehículos enemigos
@@ -5943,8 +6020,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="T 55A: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="151" opID="3" mID="1" setID="1" ID="fallout_3_1_1_main" secID="fallout_3_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -5963,8 +6040,8 @@ o
     <PM name="CL-3: La persecución" short="T 55A: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="153" opID="3" mID="3" setID="1" ID="fallout_3_1_3_main" secID="fallout_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Trata siempre de flanquear al enemigo y disparar en su retaguardia, en donde el blindaje es más vulnerable. No te quedes en un punto. Si cambias de posición con frecuencia, al enemigo le será más difícil apuntar con precisión a tu vehículo. Recuerda que los carros ligeros tienen la misma posibilidad de ser detectados cuando están en movimiento o parados.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Detectar 4 vehículos enemigos
-•  Causar daño 5 veces a vehículos enemigos con disparos</req>
+        <req>•  Causar daño 5 veces a vehículos enemigos con disparos
+•  Detectar 4 vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos</req>
@@ -6012,9 +6089,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="T 55A: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="158" opID="3" mID="8" setID="1" ID="fallout_3_1_8_main" secID="fallout_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 40 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 40 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 40 puntos de base
+•  Participar en una captura exitosa de base, ganando 40 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -6061,8 +6138,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="T 55A: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 1800 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 1800 puntos de daño a vehículos que hayas detectado
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -6145,9 +6222,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="T 55A: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="172" opID="3" mID="7" setID="2" ID="fallout_3_2_7_main" secID="fallout_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 3000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 3000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos</req>
@@ -6233,9 +6310,9 @@ o
     <PM name="CM-1: Primeros pasos" short="T 55A: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="181" opID="3" mID="1" setID="3" ID="fallout_3_3_1_main" secID="fallout_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Ser uno de los tres mejores jugadores de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -6263,8 +6340,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="T 55A: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="184" opID="3" mID="4" setID="3" ID="fallout_3_3_4_main" secID="fallout_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 3 veces con disparos
-•  Destruir las orugas de 3 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 3 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 3 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destruir 2 vehículos enemigos inmovilizados
@@ -6315,8 +6392,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="T 55A: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="189" opID="3" mID="9" setID="3" ID="fallout_3_3_9_main" secID="fallout_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 1500 puntos de daño a carros pesados enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 1500 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -6375,8 +6452,8 @@ o
         <req>•  Causar 2500 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 7 vehículos enemigos</req>
+        <req>•  Causar daño a 7 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="T 55A: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="196" opID="3" mID="1" setID="4" ID="fallout_3_4_1_main" secID="fallout_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
@@ -6392,8 +6469,8 @@ o
     <PM name="CC-2: Fuego preciso" short="T 55A: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="197" opID="3" mID="2" setID="4" ID="fallout_3_4_2_main" secID="fallout_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a vehículos enemigos
-•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 2 módulos o miembros de la tripulación</req>
+        <req>•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 2 módulos o miembros de la tripulación
+•  Causar 2000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -6402,8 +6479,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="T 55A: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="198" opID="3" mID="3" setID="4" ID="fallout_3_4_3_main" secID="fallout_3_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 5 vehículos enemigos</req>
+        <req>•  Causar daño a 5 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -6489,8 +6566,8 @@ o
     <PM name="CC-12: Caza mayor" short="T 55A: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="207" opID="3" mID="12" setID="4" ID="fallout_3_4_12_main" secID="fallout_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 3000 puntos de daño a vehículos enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 3000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -6634,8 +6711,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="T 55A: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="222" opID="3" mID="12" setID="5" ID="fallout_3_5_12_main" secID="fallout_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir 2 vehículos que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 150 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 150 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir 2 vehículos que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -6644,9 +6721,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="T 55A: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="223" opID="3" mID="13" setID="5" ID="fallout_3_5_13_main" secID="fallout_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 8 veces
+        <req>•  Causar daño 6 veces a vehículos enemigos con disparos
 o
-•  Causar daño 6 veces a vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 8 veces</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -6655,9 +6732,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="T 55A: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="224" opID="3" mID="14" setID="5" ID="fallout_3_5_14_main" secID="fallout_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 800 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 180 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 180 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 800 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -6666,8 +6743,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="T 55A: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="225" opID="3" mID="15" setID="5" ID="fallout_3_5_15_main" secID="fallout_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="T 55A">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 2500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Permitir que tus aliados causen 2500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
         <req>•  Causar 3000 puntos de daño a vehículos enemigos
@@ -6677,8 +6754,8 @@ o
     <PM name="CL-1: ¡Por la victoria!" short="Object 260: CL-1" desc="En los niveles menores, algunos carros ligeros tienen casi tanta potencia de fuego como otros vehículos más pesados." tMID="226" opID="4" mID="1" setID="1" ID="fallout_4_1_1_main" secID="fallout_4_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Trata de evitar las confrontaciones directas. En su lugar, trata de flanquear a tu enemigo o atácalo por la retaguardia. Observa cuidadosamente dónde apunta el cañón enemigo y aproxímate desde la dirección opuesta.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -6697,8 +6774,8 @@ o
     <PM name="CL-3: La persecución" short="Object 260: CL-3" desc="Tu carro ligero tiene la suficiente velocidad para cruzar con rapidez el mapa y proporcionar apoyo a tus aliados en donde se necesite su ayuda." tMID="228" opID="4" mID="3" setID="1" ID="fallout_4_1_3_main" secID="fallout_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Trata siempre de flanquear al enemigo y disparar en su retaguardia, en donde el blindaje es más vulnerable. No te quedes en un punto. Si cambias de posición con frecuencia, al enemigo le será más difícil apuntar con precisión a tu vehículo. Recuerda que los carros ligeros tienen la misma posibilidad de ser detectados cuando están en movimiento o parados.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Detectar 6 vehículos enemigos
-•  Causar daño 6 veces a vehículos enemigos con disparos</req>
+        <req>•  Causar daño 6 veces a vehículos enemigos con disparos
+•  Detectar 6 vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 4 vehículos enemigos</req>
@@ -6746,9 +6823,9 @@ o
     <PM name="CL-8: ¡Sal de nuestra base!" short="Object 260: CL-8" desc="En el fragor de la batalla, es fácil olvidar la defensa de una base propia o neutral. Tal imprudencia podría permitir al enemigo obtener ventaja y conseguir sus objetivos con sorprendente velocidad. Recuerda, tu carro posee velocidad suficiente para romper el contacto y retirarse a defender la base y rechazar a los invasores con disparos precisos o una audaz embestida, salvando así a tu equipo de una inminente derrota." tMID="233" opID="4" mID="8" setID="1" ID="fallout_4_1_8_main" secID="fallout_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Si no estás seguro al 100 % de que tus proyectiles penetrarán el blindaje del invasor, carga en su lugar un proyectil de alto explosivo. Los proyectiles AE poseen mayor probabilidad de causar daño al vehículo enemigo. Recuerda, solo necesitas 1 PV de daño en un vehículo o módulo enemigo para reiniciar los puntos de captura de tu base. Al intentar capturar una base, trata de evitar el fuego enemigo tanto como te sea posible.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Participar en una captura exitosa de base, ganando 60 puntos de captura de base
+        <req>•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 60 puntos de base
 o
-•  Reiniciar los puntos de captura enemigos de tu base/una base neutral, ganando 60 puntos de base
+•  Participar en una captura exitosa de base, ganando 60 puntos de captura de base
 •  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -6768,8 +6845,8 @@ o
     <PM name="CL-10: El máximo resultado" short="Object 260: CL-10" desc="Cuanto más efectivo seas en una batalla, más experiencia obtendrás. ¡Muéstrales de lo qué es capaz un carro ligero!" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Un buen explorador sabe cuándo ser cauto y cuándo ser agresivo. Permanece alerta sobre el desarrollo de la batalla.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sobrevivir a la batalla
-•  Ser el mejor jugador de ambos equipos por experiencia conseguida</req>
+        <req>•  Ser el mejor jugador de ambos equipos por experiencia conseguida
+•  Sobrevivir a la batalla</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -6797,8 +6874,8 @@ o
     <PM name="CL-13: la clave de la victoria" short="Object 260: CL-13" desc="Si tienes varios carros ligeros en el garaje, confía en el que pueda sobrevivir el máximo tiempo posible. Al final del juego podrás liberar todo el potencial de tu carro ligero: ambos equipos se vuelven más cuidadosos y todos los enemigos detectados acaban en el campo de mira de tus aliados." tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Combina la detección activa y pasiva, evita disparar mientras sea posible. Un carro ligero que sobrevive hasta el final de la batalla es una ventaja para sus aliados y una desventaja para el equipo enemigo.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2500 puntos de daño a vehículos enemigos
-•  Permitir que tus aliados causen 2000 puntos de daño a vehículos que hayas detectado</req>
+        <req>•  Permitir que tus aliados causen 2000 puntos de daño a vehículos que hayas detectado
+•  Causar 2500 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -6881,9 +6958,9 @@ o
     <PM name="CP-7: Lo tengo cubierto" short="Object 260: CP-7" desc="Los carros pesados son buenos para las tácticas de ruptura. Penetra a través de las líneas defensivas enemigas y captura su base. Sin embargo, no infravalores a tu enemigo; podría emplear la misma táctica." tMID="247" opID="4" mID="7" setID="2" ID="fallout_4_2_7_main" secID="fallout_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Ten cuidado cuando te aproximes a la base enemiga: prepárate para una recepción \"caliente\". Si prefieres las tácticas defensivas, haz buen uso del terreno para encontrar los mejores puntos de camuflaje y ventaja, en donde podrás defenderte por tí mismo (o ser neutral en las Batallas de encuentro) ante el enemigo que se aproxima.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 4000 puntos de daño a vehículos enemigos
-•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral</req>
+        <req>•  Participar en una captura con éxito de una base o reiniciar los puntos de captura enemigos de tu base/base neutral
+•  Causar 4000 puntos de daño a vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destruir 4 vehículos enemigos</req>
@@ -6969,9 +7046,9 @@ o
     <PM name="CM-1: Primeros pasos" short="Object 260: CM-1" desc="En los niveles inferiores, tu carro medio puede fácilmente neutralizar a los demás tipos de vehículos." tMID="256" opID="4" mID="1" setID="3" ID="fallout_4_3_1_main" secID="fallout_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Hiere al enemigo cuando tengas la oportunidad, pero trata también de evadir su fuego.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
-•  Causar daño a un vehículo enemigo</req>
+        <req>•  Terminar la batalla como el mejor jugador de tu equipo por experiencia conseguida
+•  Causar daño a un vehículo enemigo
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -6999,8 +7076,8 @@ o
     <PM name="CM-4: ¿puedes estarte quieto?" short="Object 260: CM-4" desc="Destruir las orugas del enemigo le puede dejar vulnerable a más disparos de tus aliados." tMID="259" opID="4" mID="4" setID="3" ID="fallout_4_3_4_main" secID="fallout_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Apunta a las ruedas tractoras, las ruedas dentadas en la parte frontal o trasera de la suspensión. Una vez inmovilizado, un carro enemigo es un objetivo fácil. No olvides llamar la atención de tus aliados sobre el vehículo: selecciona «Solicitando fuego sobre...» en el menú de comandos.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Causar daño a un vehículo enemigo inmovilizado 4 veces con disparos
-•  Destruir las orugas de 4 vehículos enemigos distintos</req>
+        <req>•  Destruir las orugas de 4 vehículos enemigos distintos
+•  Causar daño a un vehículo enemigo inmovilizado 4 veces con disparos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destruir 3 vehículos enemigos inmovilizados
@@ -7050,8 +7127,8 @@ o
     <PM name="CM-9: Un oponente de valía" short="Object 260: CM-9" desc="Buscar y destruir carros pesados enemigos es una tarea difícil de cumplir, pero muy beneficiosa para la causa del equipo." tMID="264" opID="4" mID="9" setID="3" ID="fallout_4_3_9_main" secID="fallout_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Flanquea los vehículos enemigos, dispárales desde posiciones camufladas, o apunta a sus puntos débiles para acabar con ellos: lo que sea necesario. Recuerda que los carros pesados son más lentos que tú, y que sus torretas giran con lentitud.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 2000 puntos de daño a carros pesados enemigos
-•  Destruir 2 carros pesados enemigos</req>
+        <req>•  Destruir 2 carros pesados enemigos
+•  Causar 2000 puntos de daño a carros pesados enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -7111,8 +7188,8 @@ o
         <req>•  Causar 3500 puntos de daño a cazacarros enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 8 vehículos enemigos</req>
+        <req>•  Causar daño a 8 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Rendimiento efectivo" short="Object 260: CC-1" desc="Los cazacarros son la gran elección de aquellos jugadores a los que les gusta destruir vehículos enemigos a distancia." tMID="271" opID="4" mID="1" setID="4" ID="fallout_4_4_1_main" secID="fallout_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
@@ -7128,8 +7205,8 @@ o
     <PM name="CC-2: Fuego preciso" short="Object 260: CC-2" desc="Si dañas los módulos de los vehículos enemigos o hieres a sus tripulantes, reducirás la eficiencia en batalla del enemigo." tMID="272" opID="4" mID="2" setID="4" ID="fallout_4_4_2_main" secID="fallout_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Un disparo con éxito puede dañar o destruir los módulos de los vehículos enemigos o herir a los tripulantes. A veces, los proyectiles explosivos son mejores para este propósito.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Causar 5000 puntos de daño a vehículos enemigos
-•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 3 módulos o miembros de la tripulación</req>
+        <req>•  Destruir módulos internos o herir a miembros de la tripulación por un total de al menos 3 módulos o miembros de la tripulación
+•  Causar 5000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Al finalizar la batalla, no tener ningún módulo interno dañado/destruido o tripulantes fuera de combate en tu vehículo</req>
@@ -7138,8 +7215,8 @@ o
     <PM name="CC-3: ¡Buena caza!" short="Object 260: CC-3" desc="La ventaja más importante de los cazacarros es su gran potencia de fuego." tMID="273" opID="4" mID="3" setID="4" ID="fallout_4_4_3_main" secID="fallout_4_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Muchos cazacarros están ligeramente blindados y la mayoría carece de torretas. Enfrentarse a larga distancia suele ser la táctica más segura.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destruir todos los vehículos enemigos/capturar o defender la base
-•  Causar daño a 6 vehículos enemigos</req>
+        <req>•  Causar daño a 6 vehículos enemigos
+•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla</req>
@@ -7225,8 +7302,8 @@ o
     <PM name="CC-12: Caza mayor" short="Object 260: CC-12" desc="Armado con tu ingenio y un excelente cañón, puedes destruir vehículos enemigos antes de que se acerquen. Una vez haya sido detectado un carro pesado enemigo, puedes causarle un montón de daño antes de que pueda detectarte." tMID="282" opID="4" mID="12" setID="4" ID="fallout_4_4_12_main" secID="fallout_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint>Posees el potencial de llevar a tu equipo a la victoria. Si conoces los puntos débiles de los carros pesados enemigos, el espesor de su blindaje no podrá salvarlos.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Causar 4000 puntos de daño a vehículos enemigos
-•  Destruir 3 carros pesados enemigos</req>
+        <req>•  Destruir 3 carros pesados enemigos
+•  Causar 4000 puntos de daño a vehículos enemigos</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Sobrevivir a la batalla
@@ -7370,8 +7447,8 @@ o
     <PM name="AAP-12: El ojo malvado" short="Object 260: AAP-12" desc="¿Tus aliados destruyeron el vehículo enemigo que habías aturdido? Buenas noticias para ti entonces, ¡ya que es tu contribución la que acerca un poco la ansiada victoria! Tu objetivo es proporcionar fuego de apoyo y asistir a tus aliados donde y cuando lo necesitan." tMID="297" opID="4" mID="12" setID="5" ID="fallout_4_5_12_main" secID="fallout_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben destruir 3 vehículos que hayas aturdido o inmovilizado
-•  Aturdir vehículos enemigos durante un total de 200 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+        <req>•  Aturdir vehículos enemigos durante un total de 200 segundos. Se tiene en cuenta la duración potencial de aturdimiento
+•  Los aliados deben destruir 3 vehículos que hayas aturdido o inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -7380,9 +7457,9 @@ o
     <PM name="AAP-13: La C es de cooperación" short="Object 260: AAP-13" desc="Una buena cooperación entre AAP y sus aliados debería tener al enemigo extremadamente preocupado. Coordinad vuestras acciones y concentrad vuestro fuego en un enemigo cada vez." tMID="298" opID="4" mID="13" setID="5" ID="fallout_4_5_13_main" secID="fallout_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Aturdir vehículos enemigos 10 veces
+        <req>•  Causar daño 8 veces a vehículos enemigos con disparos
 o
-•  Causar daño 8 veces a vehículos enemigos con disparos</req>
+•  Aturdir vehículos enemigos 10 veces</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -7391,9 +7468,9 @@ o
     <PM name="AAP-14: Parte de la tripulación, ¡parte del barco" short="Object 260: AAP-14" desc="La cooperación dentro de un pelotón es la clave de la victoria para todo el equipo. Destaca al vehículo enemigo al que estás apuntando para que tus aliados puedan concentrar su fuego en él una vez haya sido aturdido o inmovilizado. Recuerda: un solo soldado dificilmente gana una batalla." tMID="299" opID="4" mID="14" setID="5" ID="fallout_4_5_14_main" secID="fallout_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Los aliados deben causar 1000 puntos de daño al vehículo enemigo que hayas inmovilizado
+        <req>•  Aturdir vehículos enemigos durante un total de 250 segundos. Se tiene en cuenta la duración potencial de aturdimiento
 o
-•  Aturdir vehículos enemigos durante un total de 250 segundos. Se tiene en cuenta la duración potencial de aturdimiento</req>
+•  Los aliados deben causar 1000 puntos de daño al vehículo enemigo que hayas inmovilizado</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destruir todos los vehículos enemigos/capturar o defender la base</req>
@@ -7402,8 +7479,8 @@ o
     <PM name="AAP-15: Dioses de la guerra" short="Object 260: AAP-15" desc="Una AAP que sobrevive tanto como sea posible es un activo importante para el equipo. Continúa disparando un proyectil tras otro mientras intentas no caer bajo fuego enemigo. Tómate tu tiempo y piénsatelo dos veces antes de \&quot;apretar el gatillo\&quot;, ya que \&quot;un disparo, un impacto\&quot; es la mejor estrategia para un vehículo con un largo tiempo de recarga." tMID="300" opID="4" mID="15" setID="5" ID="fallout_4_5_15_main" secID="fallout_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Los refuerzos largamente esperados" reward="Object 260">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Permitir que tus aliados causen 3500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos
-•  Ser el mejor jugador de ambos equipos por experiencia conseguida</req>
+        <req>•  Ser el mejor jugador de ambos equipos por experiencia conseguida
+•  Permitir que tus aliados causen 3500 puntos de daño a vehículos enemigos aturdiéndolos o inmovilizándolos</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
         <req>•  Causar 4000 puntos de daño a vehículos enemigos

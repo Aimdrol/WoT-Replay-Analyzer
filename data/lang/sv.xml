@@ -45,6 +45,7 @@
     <tank ID="A120_M48A5_IGR" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A121_M26_Cologne" sName="Eagle 7" lName="T26E3 Eagle 7" />
     <tank ID="A122_TS-5" sName="TS-5" lName="TS-5" />
+    <tank ID="A123_T78" sName="T78" lName="T78" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" sName="T34 FL" lName="T34 FL" />
@@ -229,6 +230,7 @@
     <tank ID="Cz09_T_24" sName="Škoda T 24" lName="Škoda T 24" />
     <tank ID="Cz10_LT_vz38" sName="LT vz. 38" lName="LT vz. 38" />
     <tank ID="Cz11_V_8_H" sName="ST vz. 39" lName="ST vz. 39" />
+    <tank ID="Cz13_T_27" sName="Škoda T 27" lName="Škoda T 27" />
     <tank ID="D1" sName="D1" lName="D1" />
     <tank ID="D2" sName="D2" lName="D2" />
     <tank ID="DickerMax" sName="Dicker Max" lName="Dicker Max" />
@@ -266,6 +268,7 @@
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F110_Lynx_6x6" sName="Lynx 6x6" lName="Panhard AML Lynx 6x6" />
     <tank ID="F111_AM39_Gendron_Somua" sName="AM Gendron" lName="AM 39 Gendron-Somua" />
+    <tank ID="F112_M10_RBFM" sName="M10 RBFM" lName="M10 RBFM" />
     <tank ID="F12_Hotchkiss_H35" sName="H35" lName="Hotchkiss H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -326,6 +329,7 @@
     <tank ID="F82_AMX_M4_Mle1949_Ter" sName="AMX M4 54" lName="AMX M4 mle. 54" />
     <tank ID="F83_AMX_M4_Mle1949_Bis" sName="AMX M4 51" lName="AMX M4 mle. 51" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F85_M4A1_FL10" sName="M4A1 FL 10" lName="M4A1 FL 10" />
     <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
     <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="F88_AMX_13_105_sport" sName="AMX S" lName="AMX 13 105 SPORT" />
@@ -1004,6 +1008,9 @@
     <tank ID="S23_Strv_81_sabaton" sName="P:Victoria" lName="Primo Victoria" />
     <tank ID="S25_EMIL_51" sName="EMIL 1951" lName="EMIL 1951" />
     <tank ID="S26_Lansen_C" sName="Lansen C" lName="Lansen C" />
+    <tank ID="S27_UDES_16" sName="UDES 16" lName="UDES 16" />
+    <tank ID="S28_UDES_15_16" sName="UDES 15/16" lName="UDES 15/16" />
+    <tank ID="S29_UDES_14_5" sName="UDES 14 5" lName="UDES 14 Alt 5" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1326,6 +1333,76 @@
     <item ID="4" Name="IV Klass" />
     <item ID="unknown" Name="Okänd" />
   </Lang_Ranks>
+  <Lang_Badges>
+    <item ID="1" Name="Guld, Betasäsongen" />
+    <item ID="10" Name="Förtjänsttecken StuG IV II:a Klassen" />
+    <item ID="11" Name="Förtjänsttecken StuG IV I:a klassen" />
+    <item ID="12" Name="Förtjänsttecken T28 HTC II:a Klassen" />
+    <item ID="13" Name="Förtjänsttecken T28 HTC I:a klassen" />
+    <item ID="14" Name="Förtjänsttecken T 55A II:a Klassen" />
+    <item ID="15" Name="Förtjänsttecken T 55A I:a klassen" />
+    <item ID="16" Name="Förtjänsttecken Objekt 260 II:a Klassen" />
+    <item ID="17" Name="Förtjänsttecken Objekt 260 I:a klassen" />
+    <item ID="18" Name="Segertecken Kampanj I" />
+    <item ID="19" Name="Stridsvagnsäss: Klass VII" />
+    <item ID="2" Name="Guld, andra betasäsongen" />
+    <item ID="20" Name="Stridsvagnsäss: Klass VIII" />
+    <item ID="21" Name="Stridsvagnsäss: Klass IX" />
+    <item ID="22" Name="Stridsvagnsäss: Klass X" />
+    <item ID="23" Name="Stridsvagnsexpert: Klass VII" />
+    <item ID="24" Name="Stridsvagnsexpert: Klass VIII" />
+    <item ID="25" Name="Stridsvagnsexpert: Klass IX" />
+    <item ID="26" Name="Stridsvagnsexpert: Klass X" />
+    <item ID="27" Name="Legend på världskartan" />
+    <item ID="28" Name="Hjälte i Operation Gambit" />
+    <item ID="29" Name="Guld, 1:a säsongen" />
+    <item ID="3" Name="Guld, säsong 2" />
+    <item ID="30" Name="Silver 1:a säsongen" />
+    <item ID="31" Name="Brons, 1:a säsongen" />
+    <item ID="32" Name="Frontveteran" />
+    <item ID="33" Name="Fronthjälte" />
+    <item ID="34" Name="Fronterövrare" />
+    <item ID="35" Name="Kapprustningshjälte" />
+    <item ID="36" Name="Excaliburmärket II:a klassen" />
+    <item ID="37" Name="Excaliburmärket I:a klassen" />
+    <item ID="38" Name="Chimeramärket II:a klassen" />
+    <item ID="39" Name="Chimeramärket I:a klassen" />
+    <item ID="4" Name="Silver, Betasäsongen" />
+    <item ID="40" Name="Object 279 (t)-märket II:a klassen" />
+    <item ID="41" Name="Object 279 (t)-märket I:a klassen" />
+    <item ID="42" Name="Veteran från Andra Fronten" />
+    <item ID="43" Name="RNG" />
+    <item ID="44" Name="Yushaтали всех!" />
+    <item ID="45" Name="«Нагибатор»" />
+    <item ID="46" Name="За Амвэя и двор" />
+    <item ID="47" Name="Одной левой" />
+    <item ID="48" Name="Guld, säsong 3" />
+    <item ID="49" Name="Silver, säsong 3" />
+    <item ID="5" Name="Silver, andra betasäsongen" />
+    <item ID="50" Name="Brons, säsong 3" />
+    <item ID="51" Name="Tapper Bot" />
+    <item ID="52" Name="Lys upp den" />
+    <item ID="56" Name="Alfatestveteran" />
+    <item ID="57" Name="Betatestveteran" />
+    <item ID="58" Name="Alfatestveteran" />
+    <item ID="59" Name="Betatestveteran" />
+    <item ID="6" Name="Silver, säsong 2" />
+    <item ID="60" Name="Hjältemärke Legosoldater" />
+    <item ID="61" Name="Turneringsguld" />
+    <item ID="62" Name="Turneringssilver" />
+    <item ID="63" Name="Turneringsbrons" />
+    <item ID="64" Name="Befälsmärke, Klass III" />
+    <item ID="65" Name="Befälsmärke, Klass II" />
+    <item ID="66" Name="Befälsmärke, Klass I" />
+    <item ID="67" Name="Prestige: III" />
+    <item ID="68" Name="Prestige: V" />
+    <item ID="69" Name="Prestige: VII" />
+    <item ID="7" Name="Brons, Betasäsongen" />
+    <item ID="70" Name="Prestige: X" />
+    <item ID="8" Name="Brons, andra betasäsongen" />
+    <item ID="9" Name="Brons, säsong 2" />
+    <item ID="unknown" Name="Okänd" />
+  </Lang_Badges>
   <Lang_DeathReasons>
     <item ID="-1" Name="Överlevde" />
     <item ID="0" Name="Utslagen av ett skott" />
@@ -1727,15 +1804,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-13: Nyckeln till seger" short="StuG IV: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1820,8 +1897,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -1857,8 +1934,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="StuG IV: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="26" opID="1" mID="11" setID="2" ID="quest_1_2_11_main" secID="quest_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -1867,8 +1944,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="StuG IV: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1907,8 +1984,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -1935,8 +2012,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="StuG IV: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="34" opID="1" mID="4" setID="3" ID="quest_1_3_4_main" secID="quest_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2359,8 +2436,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="T28 heavy tank concept: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -2444,8 +2521,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="T28 heavy tank concept: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2530,8 +2607,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -2567,8 +2644,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="T28 heavy tank concept: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="101" opID="2" mID="11" setID="2" ID="quest_2_2_11_main" secID="quest_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -2577,8 +2654,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="T28 heavy tank concept: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="102" opID="2" mID="12" setID="2" ID="quest_2_2_12_main" secID="quest_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2617,8 +2694,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -2645,8 +2722,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="T28 heavy tank concept: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="109" opID="2" mID="4" setID="3" ID="quest_2_3_4_main" secID="quest_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2771,8 +2848,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="T28 heavy tank concept: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -2866,7 +2943,7 @@ or
       <Hint>Du har eldkraften som kan föra ditt lag till seger. Om du lär dig fiendens svaga punkter kan inte deras pansar skydda dem.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3057,8 +3134,8 @@ or
     <PM name="L.Strv-2: Rekognoscering" short="T-55A: L.Strv-2" desc="Det viktigaste målet för lätta stridsvagnar är att spana på- och observera fienden." tMID="152" opID="3" mID="2" setID="1" ID="quest_3_1_2_main" secID="quest_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Den sämsta taktiken för lätta stridsvagnar är att storma ut för att upptäcka en massa fiender och sen bli sönderskjuten. Du måste lära dig hur du upptäcker fienden för att sen retirera utan att fienden lyckas förstöra dig vagn.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3067,8 +3144,8 @@ or
     <PM name="L.Strv-3: Jakten" short="T-55A: L.Strv-3" desc="Din lätta stridsvagn har tillräcklig hastighet för att snabbt kunna ta sig över slagfältet och hjälpa dina allierade där det behövs." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Försök att alltid flankera fienden och bekämpa dem bakifrån där de är mest sårbara. Stanna inte länge på ett ställe. Om du byter eldställning ofta kommer fienden få svårare att sikta in sig på dig. Kom ihåg att lätta stridsvagnar har samma chans att bli upptäckta i rörelse som när de står stilla.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3077,8 +3154,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="T-55A: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="154" opID="3" mID="4" setID="1" ID="quest_3_1_4_main" secID="quest_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3165,8 +3242,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="T-55A: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3250,8 +3327,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3288,8 +3365,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="T-55A: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="176" opID="3" mID="11" setID="2" ID="quest_3_2_11_main" secID="quest_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3298,8 +3375,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="T-55A: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3338,8 +3415,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -3367,8 +3444,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="T-55A: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="184" opID="3" mID="4" setID="3" ID="quest_3_3_4_main" secID="quest_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3496,8 +3573,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="T-55A: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -3791,8 +3868,8 @@ or
     <PM name="L.Strv-2: Rekognoscering" short="Objekt 260: L.Strv-2" desc="Det viktigaste målet för lätta stridsvagnar är att spana på- och observera fienden." tMID="227" opID="4" mID="2" setID="1" ID="quest_4_1_2_main" secID="quest_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Den sämsta taktiken för lätta stridsvagnar är att storma ut för att upptäcka en massa fiender och sen bli sönderskjuten. Du måste lära dig hur du upptäcker fienden för att sen retirera utan att fienden lyckas förstöra dig vagn.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3801,8 +3878,8 @@ or
     <PM name="L.Strv-3: Jakten" short="Objekt 260: L.Strv-3" desc="Din lätta stridsvagn har tillräcklig hastighet för att snabbt kunna ta sig över slagfältet och hjälpa dina allierade där det behövs." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Försök att alltid flankera fienden och bekämpa dem bakifrån där de är mest sårbara. Stanna inte länge på ett ställe. Om du byter eldställning ofta kommer fienden få svårare att sikta in sig på dig. Kom ihåg att lätta stridsvagnar har samma chans att bli upptäckta i rörelse som när de står stilla.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3811,8 +3888,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="Objekt 260: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3872,8 +3949,8 @@ or
     <PM name="L.Strv-10: Bästa resultat" short="Objekt 260: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3901,8 +3978,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="Objekt 260: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3986,8 +4063,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -4024,8 +4101,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="Objekt 260: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="251" opID="4" mID="11" setID="2" ID="quest_4_2_11_main" secID="quest_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -4034,8 +4111,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="Objekt 260: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="252" opID="4" mID="12" setID="2" ID="quest_4_2_12_main" secID="quest_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4074,8 +4151,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4103,8 +4180,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="Objekt 260: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="259" opID="4" mID="4" setID="3" ID="quest_4_3_4_main" secID="quest_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4232,8 +4309,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="Objekt 260: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -4623,15 +4700,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="L.Strv-13: Nyckeln till seger" short="StuG IV: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4716,8 +4793,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -4753,8 +4830,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="StuG IV: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="26" opID="1" mID="11" setID="2" ID="fallout_1_2_11_main" secID="fallout_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -4763,8 +4840,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="StuG IV: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="27" opID="1" mID="12" setID="2" ID="fallout_1_2_12_main" secID="fallout_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4803,8 +4880,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4831,8 +4908,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="StuG IV: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="34" opID="1" mID="4" setID="3" ID="fallout_1_3_4_main" secID="fallout_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="StuG IV">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -5255,8 +5332,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="T28 heavy tank concept: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="79" opID="2" mID="4" setID="1" ID="fallout_2_1_4_main" secID="fallout_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -5340,8 +5417,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="T28 heavy tank concept: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5426,8 +5503,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -5463,8 +5540,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="T28 heavy tank concept: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="101" opID="2" mID="11" setID="2" ID="fallout_2_2_11_main" secID="fallout_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5473,8 +5550,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="T28 heavy tank concept: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="102" opID="2" mID="12" setID="2" ID="fallout_2_2_12_main" secID="fallout_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5513,8 +5590,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -5541,8 +5618,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="T28 heavy tank concept: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="109" opID="2" mID="4" setID="3" ID="fallout_2_3_4_main" secID="fallout_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -5667,8 +5744,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="T28 heavy tank concept: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="122" opID="2" mID="2" setID="4" ID="fallout_2_4_2_main" secID="fallout_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T28 heavy tank concept">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -5762,7 +5839,7 @@ or
       <Hint>Du har eldkraften som kan föra ditt lag till seger. Om du lär dig fiendens svaga punkter kan inte deras pansar skydda dem.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5953,8 +6030,8 @@ or
     <PM name="L.Strv-2: Rekognoscering" short="T-55A: L.Strv-2" desc="Det viktigaste målet för lätta stridsvagnar är att spana på- och observera fienden." tMID="152" opID="3" mID="2" setID="1" ID="fallout_3_1_2_main" secID="fallout_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Den sämsta taktiken för lätta stridsvagnar är att storma ut för att upptäcka en massa fiender och sen bli sönderskjuten. Du måste lära dig hur du upptäcker fienden för att sen retirera utan att fienden lyckas förstöra dig vagn.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5963,8 +6040,8 @@ or
     <PM name="L.Strv-3: Jakten" short="T-55A: L.Strv-3" desc="Din lätta stridsvagn har tillräcklig hastighet för att snabbt kunna ta sig över slagfältet och hjälpa dina allierade där det behövs." tMID="153" opID="3" mID="3" setID="1" ID="fallout_3_1_3_main" secID="fallout_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Försök att alltid flankera fienden och bekämpa dem bakifrån där de är mest sårbara. Stanna inte länge på ett ställe. Om du byter eldställning ofta kommer fienden få svårare att sikta in sig på dig. Kom ihåg att lätta stridsvagnar har samma chans att bli upptäckta i rörelse som när de står stilla.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5973,8 +6050,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="T-55A: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="154" opID="3" mID="4" setID="1" ID="fallout_3_1_4_main" secID="fallout_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6061,8 +6138,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="T-55A: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6146,8 +6223,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -6184,8 +6261,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="T-55A: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="176" opID="3" mID="11" setID="2" ID="fallout_3_2_11_main" secID="fallout_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6194,8 +6271,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="T-55A: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="177" opID="3" mID="12" setID="2" ID="fallout_3_2_12_main" secID="fallout_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6234,8 +6311,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6263,8 +6340,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="T-55A: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="184" opID="3" mID="4" setID="3" ID="fallout_3_3_4_main" secID="fallout_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6392,8 +6469,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="T-55A: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="197" opID="3" mID="2" setID="4" ID="fallout_3_4_2_main" secID="fallout_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="T-55A">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -6687,8 +6764,8 @@ or
     <PM name="L.Strv-2: Rekognoscering" short="Objekt 260: L.Strv-2" desc="Det viktigaste målet för lätta stridsvagnar är att spana på- och observera fienden." tMID="227" opID="4" mID="2" setID="1" ID="fallout_4_1_2_main" secID="fallout_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Den sämsta taktiken för lätta stridsvagnar är att storma ut för att upptäcka en massa fiender och sen bli sönderskjuten. Du måste lära dig hur du upptäcker fienden för att sen retirera utan att fienden lyckas förstöra dig vagn.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6697,8 +6774,8 @@ or
     <PM name="L.Strv-3: Jakten" short="Objekt 260: L.Strv-3" desc="Din lätta stridsvagn har tillräcklig hastighet för att snabbt kunna ta sig över slagfältet och hjälpa dina allierade där det behövs." tMID="228" opID="4" mID="3" setID="1" ID="fallout_4_1_3_main" secID="fallout_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Försök att alltid flankera fienden och bekämpa dem bakifrån där de är mest sårbara. Stanna inte länge på ett ställe. Om du byter eldställning ofta kommer fienden få svårare att sikta in sig på dig. Kom ihåg att lätta stridsvagnar har samma chans att bli upptäckta i rörelse som när de står stilla.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6707,8 +6784,8 @@ or
     <PM name="L.Strv-4: Tvingat stopp" short="Objekt 260: L.Strv-4" desc="Förstör fiendevagnens band och immobilisera den, vilket i sin tur öppnar för dina allierades mer kraftfulla kanoner att göra skada. när du förstör banden på en fiendevagn stoppar du den tillfälligt och det gör det möjligt för dig och dina allierade att sikta bättre." tMID="229" opID="4" mID="4" setID="1" ID="fallout_4_1_4_main" secID="fallout_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>För att effektivt förstöra fiendens band siktar du på drivhjulen i fram eller bak på upphängningen. Kom ihåg att även om din kanon inte kan penetrera fiendens pansar kan den altid förstöra banden. Spränggranater är bäst lämpade för detta ändamål. Du kommer få en viss mängd erfarenhet för den skada som dina allierade åsamkar en fiende du immobiliserat.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6768,8 +6845,8 @@ or
     <PM name="L.Strv-10: Bästa resultat" short="Objekt 260: L.Strv-10" desc="Ju effektivare du är i strid, desto mer erfarenhet tjänar du. Visa dem vad en lätt stridsvagn kan göra!" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En bra spanare vet när man skall vara försiktig och när man skall vara agressiv. Var uppmärksam på stridens flöde.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6797,8 +6874,8 @@ or
     <PM name="L.Strv-13: Nyckeln till seger" short="Objekt 260: L.Strv-13" desc="Om du har tillgång till flera lätta stridsvagnar i ditt garage bör du välja den som du bedömer ha förmågan att överleva längst i strid. Det är slutet av striden som verkligen släpper lös potentialen i en lätt stridsvagn. Båda lagen växlar till mer statiskt och försiktigt spel och varje upptäckt fiende blir ett gemensamt mål för alla dina återstående lagkamrater." tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Kombinera både aktiv och passiv spaning, undvik att öppna eld så länge som möjligt. En lätt stridsvagn som överlever till stridens slut är en tillgång för laget och en nackdel för fiendelaget.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6882,8 +6959,8 @@ or
       <Hint>Var försiktig när du närmar dig fiendebasen—var redo för ett varmt mottagande. Om du föredrar att spela defensivt måste du använda terrängen till din fördel och hitta skyl och skydd och bra eldställningar. När du har en bra postition kan du försvara din egen (eller en neutral) bas mot fiendens anfall.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6920,8 +6997,8 @@ or
     <PM name="T.Strv-11: Inte en skråma" short="Objekt 260: T.Strv-11" desc="Alla skadade moduler och besättningsmedlemmar kan bli problematiska. Gör ditt bästa för att undvika skador när du slår dig igenom fiendens linjer." tMID="251" opID="4" mID="11" setID="2" ID="fallout_4_2_11_main" secID="fallout_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Använd första hjälpen eller reparationskit om fienden skadar en modul eller besättningsmedlem.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -6930,8 +7007,8 @@ or
     <PM name="T.Strv-12: Tjockt pansar" short="Objekt 260: T.Strv-12" desc="Ditt pansar kan ta en stor mängd skada om du använder det rätt." tMID="252" opID="4" mID="12" setID="2" ID="fallout_4_2_12_main" secID="fallout_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>Försök hålla ditt frontpansar mot fienden så mycket det går och göm dina sidor och svaga punkter. Vinklat pansar är mer effektivt, så se till att vrida dig rätt.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6970,8 +7047,8 @@ or
       <Hint>Träffa fienden vid varje tillfälle, men försök samtidigt undvika deras eld.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6999,8 +7076,8 @@ or
     <PM name="M.Strv-4: Kan du inte hålla still" short="Objekt 260: M.Strv-4" desc="Om du förstör fiendens band så blir vagnen sårbar för bekämpning av dina allierade." tMID="259" opID="4" mID="4" setID="3" ID="fallout_4_3_4_main" secID="fallout_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>När du förstört bandet på en vagn kommer de vara tillfälligt immobiliserade. Detta hjälper dig när du siktar. För att lätt förstöra banden, sikta på främre eller bakre delen av upphängningen. Glöm inte att underrätta laget genom att välja \"Begär eldunderstöd mot...\" från snabbkommandomenyn.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -7128,8 +7205,8 @@ or
     <PM name="PvKv-2: Riktad eld" short="Objekt 260: PvKv-2" desc="Om du träffar fiendens moduler eller skadar besättningen minskar det fiendens stridseffektivitet." tMID="272" opID="4" mID="2" setID="4" ID="fallout_4_4_2_main" secID="fallout_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Det efterlängtade understödet" reward="Objekt 260">
       <Hint>En bra träff kan skada eller förstöra fiendens moduler eller skada besättningen. Ibland är dock spränggranater bättre lämpade för det ändamålet.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>

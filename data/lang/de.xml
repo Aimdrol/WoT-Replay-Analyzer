@@ -45,6 +45,7 @@
     <tank ID="A120_M48A5_IGR" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A121_M26_Cologne" sName="Eagle 7" lName="T26E3 Eagle 7" />
     <tank ID="A122_TS-5" sName="TS-5" lName="TS-5" />
+    <tank ID="A123_T78" sName="T78" lName="T78" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" sName="T34 FL" lName="T34 FL" />
@@ -229,6 +230,7 @@
     <tank ID="Cz09_T_24" sName="Škoda T 24" lName="Škoda T 24" />
     <tank ID="Cz10_LT_vz38" sName="LT vz. 38" lName="LT vz. 38" />
     <tank ID="Cz11_V_8_H" sName="ST vz. 39" lName="ST vz. 39" />
+    <tank ID="Cz13_T_27" sName="Škoda T 27" lName="Škoda T 27" />
     <tank ID="D1" sName="D1" lName="D1" />
     <tank ID="D2" sName="D2" lName="D2" />
     <tank ID="DickerMax" sName="Dicker Max" lName="Dicker Max" />
@@ -266,6 +268,7 @@
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F110_Lynx_6x6" sName="Lynx 6x6" lName="Panhard AML Lynx 6x6" />
     <tank ID="F111_AM39_Gendron_Somua" sName="AM Gendron" lName="AM 39 Gendron-Somua" />
+    <tank ID="F112_M10_RBFM" sName="M10 RBFM" lName="M10 RBFM" />
     <tank ID="F12_Hotchkiss_H35" sName="H35" lName="Hotchkiss H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -326,6 +329,7 @@
     <tank ID="F82_AMX_M4_Mle1949_Ter" sName="AMX M4 54" lName="AMX M4 mle. 54" />
     <tank ID="F83_AMX_M4_Mle1949_Bis" sName="AMX M4 51" lName="AMX M4 mle. 51" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F85_M4A1_FL10" sName="M4A1 FL 10" lName="M4A1 FL 10" />
     <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
     <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="F88_AMX_13_105_sport" sName="AMX S" lName="AMX 13 105 SPORT" />
@@ -1004,6 +1008,9 @@
     <tank ID="S23_Strv_81_sabaton" sName="P:Victoria" lName="Primo Victoria" />
     <tank ID="S25_EMIL_51" sName="EMIL 1951" lName="EMIL 1951" />
     <tank ID="S26_Lansen_C" sName="Lansen C" lName="Lansen C" />
+    <tank ID="S27_UDES_16" sName="UDES 16" lName="UDES 16" />
+    <tank ID="S28_UDES_15_16" sName="UDES 15/16" lName="UDES 15/16" />
+    <tank ID="S29_UDES_14_5" sName="UDES 14 5" lName="UDES 14 Alt 5" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1326,6 +1333,76 @@
     <item ID="4" Name="IV. Klasse" />
     <item ID="unknown" Name="Unbekannt" />
   </Lang_Ranks>
+  <Lang_Badges>
+    <item ID="1" Name="Gold, Beta-Saison" />
+    <item ID="10" Name="Abzeichen „StuG IV“, II. Klasse" />
+    <item ID="11" Name="Abzeichen „StuG IV“, I. Klasse" />
+    <item ID="12" Name="Abzeichen „T28 HTC“, II. Klasse" />
+    <item ID="13" Name="Abzeichen „T28 HTC“, I. Klasse" />
+    <item ID="14" Name="Abzeichen „T 55A“, II. Klasse" />
+    <item ID="15" Name="Abzeichen „T 55A“, I. Klasse" />
+    <item ID="16" Name="Abzeichen „Objekt 260“, II. Klasse" />
+    <item ID="17" Name="Abzeichen „Objekt 260“, I. Klasse" />
+    <item ID="18" Name="Meister der I. Kampagne" />
+    <item ID="19" Name="Panzerass: Stufe VII" />
+    <item ID="2" Name="Gold, Zweite Beta-Saison" />
+    <item ID="20" Name="Panzerass: Stufe VIII" />
+    <item ID="21" Name="Panzerass: Stufe IX" />
+    <item ID="22" Name="Panzerass: Stufe X" />
+    <item ID="23" Name="Panzerexperte: Stufe VII" />
+    <item ID="24" Name="Panzerexperte: Stufe VIII" />
+    <item ID="25" Name="Panzerexperte: Stufe IX" />
+    <item ID="26" Name="Panzerexperte: Stufe X" />
+    <item ID="27" Name="Legende der Weltkarte" />
+    <item ID="28" Name="Held des Gambits" />
+    <item ID="29" Name="Gold, Saison 1" />
+    <item ID="3" Name="Gold, Saison 2" />
+    <item ID="30" Name="Silber, Saison 1" />
+    <item ID="31" Name="Bronze, Saison 1" />
+    <item ID="32" Name="Veteran der Frontlinie" />
+    <item ID="33" Name="Held der Frontlinie" />
+    <item ID="34" Name="Eroberer der Frontlinie" />
+    <item ID="35" Name="Held des Wettrüstens" />
+    <item ID="36" Name="Abzeichen „Excalibur“ II. Klasse" />
+    <item ID="37" Name="Abzeichen „Excalibur“ I. Klasse" />
+    <item ID="38" Name="Abzeichen „Chimera“ II. Klasse" />
+    <item ID="39" Name="Abzeichen „Chimera“ I. Klasse" />
+    <item ID="4" Name="Silber, Beta-Saison" />
+    <item ID="40" Name="Abzeichen „Objekt 279 (f)“, II. Klasse" />
+    <item ID="41" Name="Abzeichen „Objekt 279 (f)“, I. Klasse" />
+    <item ID="42" Name="Veteran der Zweiten Front" />
+    <item ID="43" Name="RNG" />
+    <item ID="44" Name="Yushaтали всех!" />
+    <item ID="45" Name="«Нагибатор»" />
+    <item ID="46" Name="За Амвэя и двор" />
+    <item ID="47" Name="Одной левой" />
+    <item ID="48" Name="Gold, Saison 3" />
+    <item ID="49" Name="Silber, Saison 3" />
+    <item ID="5" Name="Silber, Zweite Beta-Saison" />
+    <item ID="50" Name="Bronze, Saison 3" />
+    <item ID="51" Name="Mutiger Bot" />
+    <item ID="52" Name="Erhelle sie" />
+    <item ID="56" Name="Alpha-Test-Veteran" />
+    <item ID="57" Name="Beta-Test-Veteran" />
+    <item ID="58" Name="Alpha-Test-Veteran" />
+    <item ID="59" Name="Beta-Test-Veteran" />
+    <item ID="6" Name="Silber, Saison 2" />
+    <item ID="60" Name="Held der Glücksritter" />
+    <item ID="61" Name="Turnier-Gold" />
+    <item ID="62" Name="Turnier-Silber" />
+    <item ID="63" Name="Turnier-Bronze" />
+    <item ID="64" Name="Kommandantenabzeichen, III. Klasse" />
+    <item ID="65" Name="Kommandantenabzeichen, II. Klasse" />
+    <item ID="66" Name="Kommandantenabzeichen, I. Klasse" />
+    <item ID="67" Name="Prestige: III" />
+    <item ID="68" Name="Prestige: V" />
+    <item ID="69" Name="Prestige: VII" />
+    <item ID="7" Name="Bronze, Beta-Saison" />
+    <item ID="70" Name="Prestige: X" />
+    <item ID="8" Name="Bronze, Zweite Beta-Saison" />
+    <item ID="9" Name="Bronze, Saison 2" />
+    <item ID="unknown" Name="Unbekannt" />
+  </Lang_Badges>
   <Lang_DeathReasons>
     <item ID="-1" Name="Überlebt" />
     <item ID="0" Name="Zerstört durch Treffer" />
@@ -1621,8 +1698,8 @@
     <PM name="LP-1: Für den Sieg!" short="StuG IV: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="1" opID="1" mID="1" setID="1" ID="quest_1_1_1_main" secID="quest_1_1_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -1685,9 +1762,9 @@
     <PM name="LP-8: Raus aus unserer Basis!" short="StuG IV: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung der Basis teil
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Nehmen Sie an der erfolgreichen Eroberung der Basis teil
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -1734,8 +1811,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="StuG IV: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 700 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 700 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 700 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 700 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -1819,9 +1896,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="StuG IV: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="22" opID="1" mID="7" setID="2" ID="quest_1_2_7_main" secID="quest_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 500 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 500 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein Gegnerfahrzeug</req>
@@ -1906,9 +1983,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="StuG IV: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="31" opID="1" mID="1" setID="3" ID="quest_1_3_1_main" secID="quest_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -1935,8 +2012,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="StuG IV: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="34" opID="1" mID="4" setID="3" ID="quest_1_3_4_main" secID="quest_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette eines Gegnerfahrzeugs</req>
+        <req>•  Zerstören Sie eine Kette eines Gegnerfahrzeugs
+•  Beschädigen Sie ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein bewegungsunfähiges Fahrzeug</req>
@@ -1982,8 +2059,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="StuG IV: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="39" opID="1" mID="9" setID="3" ID="quest_1_3_9_main" secID="quest_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 300 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 300 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -2040,8 +2117,8 @@ oder
         <req>•  Zerstören Sie 2 gegnerische Jagdpanzer</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 5 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 5 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="StuG IV: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="46" opID="1" mID="1" setID="4" ID="quest_1_4_1_main" secID="quest_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
@@ -2065,8 +2142,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="StuG IV: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="48" opID="1" mID="3" setID="4" ID="quest_1_4_3_main" secID="quest_1_4_3_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 2 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 2 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -2149,8 +2226,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="StuG IV: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="57" opID="1" mID="12" setID="4" ID="quest_1_4_12_main" secID="quest_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -2287,8 +2364,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="StuG IV: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 50 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 50 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -2297,9 +2374,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="StuG IV: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="73" opID="1" mID="13" setID="5" ID="quest_1_5_13_main" secID="quest_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 5 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie Gegnerfahrzeuge 3 Mal, indem Sie diese beschießen
 oder
-•  Beschädigen Sie Gegnerfahrzeuge 3 Mal, indem Sie diese beschießen</req>
+•  Betäuben Sie 5 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -2308,9 +2385,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="StuG IV: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 400 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 70 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 70 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 400 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -2319,8 +2396,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="StuG IV: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="75" opID="1" mID="15" setID="5" ID="quest_1_5_15_main" secID="quest_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 1000 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 1000 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
@@ -2330,8 +2407,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="T28 Heavy Tank Concept: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="76" opID="2" mID="1" setID="1" ID="quest_2_1_1_main" secID="quest_2_1_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -2396,9 +2473,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="T28 Heavy Tank Concept: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 20 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 20 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 20 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 20 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -2444,8 +2521,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="T28 Heavy Tank Concept: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -2529,9 +2606,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="T28 Heavy Tank Concept: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="97" opID="2" mID="7" setID="2" ID="quest_2_2_7_main" secID="quest_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 2 Gegnerfahrzeuge</req>
@@ -2616,9 +2693,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="T28 Heavy Tank Concept: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="106" opID="2" mID="1" setID="3" ID="quest_2_3_1_main" secID="quest_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -2645,8 +2722,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="T28 Heavy Tank Concept: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="109" opID="2" mID="4" setID="3" ID="quest_2_3_4_main" secID="quest_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 2 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 2 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 2 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 2 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein bewegungsunfähiges Fahrzeug</req>
@@ -2694,8 +2771,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="T28 Heavy Tank Concept: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="114" opID="2" mID="9" setID="3" ID="quest_2_3_9_main" secID="quest_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 750 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 750 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -2751,12 +2828,12 @@ oder
     <PM name="MP-15: Jagd auf den Jäger" short="T28 Heavy Tank Concept: MP-15" desc="Sie können den Schlachtverlauf zu Ihren Gunsten verbessern, indem Sie gegnerische Jagdpanzer ausschalten." tMID="120" opID="2" mID="15" setID="3" ID="quest_2_3_15_main" secID="quest_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Wo würden Sie Ihren Jagdpanzer positionieren, wenn Sie einen fahren würden? An dieser Stelle könnte sich ein gegnerischer Jagdpanzer verstecken. Jagdpanzer stellen sich gerne so auf, dass sie übliche Angriffslinien decken, versuchen Sie also da zuzuschlagen, wo die Jagdpanzer es am wenigsten vermuten.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an gegnerischen Jagdpanzern
-•  Zerstören Sie 2 gegnerische Jagdpanzer</req>
+        <req>•  Zerstören Sie 2 gegnerische Jagdpanzer
+•  Verursachen Sie 1000 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 6 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 6 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="T28 Heavy Tank Concept: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="121" opID="2" mID="1" setID="4" ID="quest_2_4_1_main" secID="quest_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
@@ -2771,8 +2848,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="T28 Heavy Tank Concept: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie ein internes Modul oder verletzen Sie ein Besatzungsmitglied</req>
+        <req>•  Zerstören Sie ein internes Modul oder verletzen Sie ein Besatzungsmitglied
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -2781,8 +2858,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="T28 Heavy Tank Concept: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="123" opID="2" mID="3" setID="4" ID="quest_2_4_3_main" secID="quest_2_4_3_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 3 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 3 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -2865,8 +2942,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="T28 Heavy Tank Concept: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="132" opID="2" mID="12" setID="4" ID="quest_2_4_12_main" secID="quest_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie einen gegnerischen schweren Panzer, der 1 Stufe höher ist</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer, der 1 Stufe über Ihrem Fahrzeug liegt
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3004,8 +3081,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="T28 Heavy Tank Concept: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3014,9 +3091,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="T28 Heavy Tank Concept: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="148" opID="2" mID="13" setID="5" ID="quest_2_5_13_main" secID="quest_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 6 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie Gegnerfahrzeuge 4 Mal, indem Sie diese beschießen
 oder
-•  Beschädigen Sie Gegnerfahrzeuge 4 Mal, indem Sie diese beschießen</req>
+•  Betäuben Sie 6 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3025,9 +3102,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T28 Heavy Tank Concept: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 600 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 600 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3036,8 +3113,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="T28 Heavy Tank Concept: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="150" opID="2" mID="15" setID="5" ID="quest_2_5_15_main" secID="quest_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 1500 Schadenspunkte an Gegnerfahrzeugen
@@ -3047,8 +3124,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="T 55A: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="151" opID="3" mID="1" setID="1" ID="quest_3_1_1_main" secID="quest_3_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -3067,8 +3144,8 @@ oder
     <PM name="LP-3: Die Verfolgung" short="T 55A: LP-3" desc="Ihr leichter Panzer ist schnell genug, die Karte schnell zu durchqueren und Ihre Verbündeten dort zu unterstützen, wo es notwendig ist." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Versuchen Sie immer, Ihre Gegner zu flankieren und sie von hinten anzugreifen, wo sie am verwundbarsten sind. Bleiben Sie nicht auf einer Stelle. Ändern Sie Ihre Stellung häufig, kann der Gegner Ihr Fahrzeug nur schwer treffen. Vergessen Sie nicht, dass leichte Panzer in Bewegung genauso schwer zu entdecken wie im Stand.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Klären Sie 4 Gegnerfahrzeuge auf
-•  Beschädigen Sie 5 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+        <req>•  Beschädigen Sie 5 Mal Gegnerfahrzeuge, indem Sie diese beschießen
+•  Klären Sie 4 Gegnerfahrzeuge auf</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 Gegnerfahrzeuge</req>
@@ -3116,9 +3193,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="T 55A: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 40 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 40 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 40 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 40 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -3165,8 +3242,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="T 55A: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 1800 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 1800 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -3249,9 +3326,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="T 55A: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="172" opID="3" mID="7" setID="2" ID="quest_3_2_7_main" secID="quest_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 Gegnerfahrzeuge</req>
@@ -3337,9 +3414,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="T 55A: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="181" opID="3" mID="1" setID="3" ID="quest_3_3_1_main" secID="quest_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -3367,8 +3444,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="T 55A: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="184" opID="3" mID="4" setID="3" ID="quest_3_3_4_main" secID="quest_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 3 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 3 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 3 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 3 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 2 bewegungsunfähige Gegnerfahrzeuge
@@ -3419,8 +3496,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="T 55A: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="189" opID="3" mID="9" setID="3" ID="quest_3_3_9_main" secID="quest_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1500 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 1500 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -3479,8 +3556,8 @@ oder
         <req>•  Verursachen Sie 2500 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 7 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 7 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="T 55A: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="196" opID="3" mID="1" setID="4" ID="quest_3_4_1_main" secID="quest_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
@@ -3496,8 +3573,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="T 55A: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 2 Module oder Besatzungsmitglieder</req>
+        <req>•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 2 Module oder Besatzungsmitglieder
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -3506,8 +3583,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="T 55A: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="198" opID="3" mID="3" setID="4" ID="quest_3_4_3_main" secID="quest_3_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 5 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 5 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -3593,8 +3670,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="T 55A: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="207" opID="3" mID="12" setID="4" ID="quest_3_4_12_main" secID="quest_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -3738,8 +3815,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="T 55A: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ihre Verbündeten müssen 2 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 150 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 150 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Ihre Verbündeten müssen 2 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3748,9 +3825,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="T 55A: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="223" opID="3" mID="13" setID="5" ID="quest_3_5_13_main" secID="quest_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 8 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen
 oder
-•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+•  Betäuben Sie 8 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3759,9 +3836,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T 55A: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 800 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 180 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 180 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 800 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3770,8 +3847,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="T 55A: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="225" opID="3" mID="15" setID="5" ID="quest_3_5_15_main" secID="quest_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 2500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 2500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
@@ -3781,8 +3858,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="Objekt 260: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="226" opID="4" mID="1" setID="1" ID="quest_4_1_1_main" secID="quest_4_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -3801,8 +3878,8 @@ oder
     <PM name="LP-3: Die Verfolgung" short="Objekt 260: LP-3" desc="Ihr leichter Panzer ist schnell genug, die Karte schnell zu durchqueren und Ihre Verbündeten dort zu unterstützen, wo es notwendig ist." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Versuchen Sie immer, Ihre Gegner zu flankieren und sie von hinten anzugreifen, wo sie am verwundbarsten sind. Bleiben Sie nicht auf einer Stelle. Ändern Sie Ihre Stellung häufig, kann der Gegner Ihr Fahrzeug nur schwer treffen. Vergessen Sie nicht, dass leichte Panzer in Bewegung genauso schwer zu entdecken wie im Stand.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Klären Sie 6 Gegnerfahrzeuge auf
-•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+        <req>•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen
+•  Klären Sie 6 Gegnerfahrzeuge auf</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 4 Gegnerfahrzeuge</req>
@@ -3850,9 +3927,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="Objekt 260: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 60 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 60 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 60 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 60 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -3872,8 +3949,8 @@ oder
     <PM name="LP-10: Maximaler Erfolg" short="Objekt 260: LP-10" desc="Je effektiver Sie im Gefecht sind, desto mehr Erfahrung verdienen Sie. Zeigen Sie, was ein leichter Panzer leisten kann!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Ein guter Aufklärer weiß, wann er vorsichtig zu sein hat und wann offensiv. Beobachten Sie den Verlauf des Gefechts sorgsam.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Überleben Sie das Gefecht
-•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams</req>
+        <req>•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams
+•  Überleben Sie das Gefecht</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -3901,8 +3978,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="Objekt 260: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2500 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 2000 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 2000 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 2500 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -3985,9 +4062,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="Objekt 260: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="247" opID="4" mID="7" setID="2" ID="quest_4_2_7_main" secID="quest_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 4 Gegnerfahrzeuge</req>
@@ -4073,9 +4150,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="Objekt 260: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="256" opID="4" mID="1" setID="3" ID="quest_4_3_1_main" secID="quest_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -4103,8 +4180,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="Objekt 260: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="259" opID="4" mID="4" setID="3" ID="quest_4_3_4_main" secID="quest_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 4 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 4 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 4 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 4 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 bewegungsunfähige Gegnerfahrzeuge
@@ -4154,8 +4231,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="Objekt 260: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="264" opID="4" mID="9" setID="3" ID="quest_4_3_9_main" secID="quest_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 2000 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -4215,8 +4292,8 @@ oder
         <req>•  Verursachen Sie 3500 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 8 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 8 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="Objekt 260: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="271" opID="4" mID="1" setID="4" ID="quest_4_4_1_main" secID="quest_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
@@ -4232,8 +4309,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="Objekt 260: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 5000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 3 Module oder Besatzungsmitglieder</req>
+        <req>•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 3 Module oder Besatzungsmitglieder
+•  Verursachen Sie 5000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -4242,8 +4319,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="Objekt 260: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="273" opID="4" mID="3" setID="4" ID="quest_4_4_3_main" secID="quest_4_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 6 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 6 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -4329,8 +4406,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="Objekt 260: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="282" opID="4" mID="12" setID="4" ID="quest_4_4_12_main" secID="quest_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie 3 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 3 gegnerische schwere Panzer
+•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -4474,8 +4551,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="Objekt 260: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ihre Verbündeten müssen 3 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 200 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 200 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Ihre Verbündeten müssen 3 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -4484,9 +4561,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="Objekt 260: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="298" opID="4" mID="13" setID="5" ID="quest_4_5_13_main" secID="quest_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 10 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie 8 Mal Gegnerfahrzeuge, indem Sie diese beschießen
 oder
-•  Beschädigen Sie 8 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+•  Betäuben Sie 10 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -4495,9 +4572,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="Objekt 260: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 1000 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 250 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 250 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 1000 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -4506,8 +4583,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="Objekt 260: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="300" opID="4" mID="15" setID="5" ID="quest_4_5_15_main" secID="quest_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 3500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams</req>
+        <req>•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams
+•  Ermöglichen Sie Ihren Verbündeten, 3500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
@@ -4517,8 +4594,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="StuG IV: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="1" opID="1" mID="1" setID="1" ID="fallout_1_1_1_main" secID="fallout_1_1_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -4581,9 +4658,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="StuG IV: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="8" opID="1" mID="8" setID="1" ID="fallout_1_1_8_main" secID="fallout_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung der Basis teil
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Nehmen Sie an der erfolgreichen Eroberung der Basis teil
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -4630,8 +4707,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="StuG IV: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 700 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 700 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 700 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 700 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -4715,9 +4792,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="StuG IV: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="22" opID="1" mID="7" setID="2" ID="fallout_1_2_7_main" secID="fallout_1_2_7_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 500 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 500 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein Gegnerfahrzeug</req>
@@ -4802,9 +4879,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="StuG IV: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="31" opID="1" mID="1" setID="3" ID="fallout_1_3_1_main" secID="fallout_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens zehnthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -4831,8 +4908,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="StuG IV: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="34" opID="1" mID="4" setID="3" ID="fallout_1_3_4_main" secID="fallout_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette eines Gegnerfahrzeugs</req>
+        <req>•  Zerstören Sie eine Kette eines Gegnerfahrzeugs
+•  Beschädigen Sie ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein bewegungsunfähiges Fahrzeug</req>
@@ -4878,8 +4955,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="StuG IV: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="39" opID="1" mID="9" setID="3" ID="fallout_1_3_9_main" secID="fallout_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 300 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 300 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -4936,8 +5013,8 @@ oder
         <req>•  Zerstören Sie 2 gegnerische Jagdpanzer</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 5 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 5 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="StuG IV: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="46" opID="1" mID="1" setID="4" ID="fallout_1_4_1_main" secID="fallout_1_4_1_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
@@ -4961,8 +5038,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="StuG IV: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="48" opID="1" mID="3" setID="4" ID="fallout_1_4_3_main" secID="fallout_1_4_3_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 2 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 2 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -5045,8 +5122,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="StuG IV: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="57" opID="1" mID="12" setID="4" ID="fallout_1_4_12_main" secID="fallout_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5183,8 +5260,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="StuG IV: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="72" opID="1" mID="12" setID="5" ID="fallout_1_5_12_main" secID="fallout_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 50 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 50 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5193,9 +5270,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="StuG IV: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="73" opID="1" mID="13" setID="5" ID="fallout_1_5_13_main" secID="fallout_1_5_13_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 5 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie Gegnerfahrzeuge 3 Mal, indem Sie diese beschießen
 oder
-•  Beschädigen Sie Gegnerfahrzeuge 3 Mal, indem Sie diese beschießen</req>
+•  Betäuben Sie 5 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5204,9 +5281,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="StuG IV: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="74" opID="1" mID="14" setID="5" ID="fallout_1_5_14_main" secID="fallout_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 400 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 70 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 70 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 400 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5215,8 +5292,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="StuG IV: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="75" opID="1" mID="15" setID="5" ID="fallout_1_5_15_main" secID="fallout_1_5_15_add" minLvl="4" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 1000 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 1000 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
@@ -5226,8 +5303,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="T28 Heavy Tank Concept: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="76" opID="2" mID="1" setID="1" ID="fallout_2_1_1_main" secID="fallout_2_1_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -5292,9 +5369,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="T28 Heavy Tank Concept: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="83" opID="2" mID="8" setID="1" ID="fallout_2_1_8_main" secID="fallout_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 20 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 20 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 20 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 20 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -5340,8 +5417,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="T28 Heavy Tank Concept: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -5425,9 +5502,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="T28 Heavy Tank Concept: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="97" opID="2" mID="7" setID="2" ID="fallout_2_2_7_main" secID="fallout_2_2_7_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 2 Gegnerfahrzeuge</req>
@@ -5512,9 +5589,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="T28 Heavy Tank Concept: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="106" opID="2" mID="1" setID="3" ID="fallout_2_3_1_main" secID="fallout_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens fünfthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -5541,8 +5618,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="T28 Heavy Tank Concept: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="109" opID="2" mID="4" setID="3" ID="fallout_2_3_4_main" secID="fallout_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 2 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 2 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 2 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 2 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie ein bewegungsunfähiges Fahrzeug</req>
@@ -5590,8 +5667,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="T28 Heavy Tank Concept: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="114" opID="2" mID="9" setID="3" ID="fallout_2_3_9_main" secID="fallout_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 750 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie einen gegnerischen schweren Panzer</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer
+•  Verursachen Sie 750 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -5647,12 +5724,12 @@ oder
     <PM name="MP-15: Jagd auf den Jäger" short="T28 Heavy Tank Concept: MP-15" desc="Sie können den Schlachtverlauf zu Ihren Gunsten verbessern, indem Sie gegnerische Jagdpanzer ausschalten." tMID="120" opID="2" mID="15" setID="3" ID="fallout_2_3_15_main" secID="fallout_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Wo würden Sie Ihren Jagdpanzer positionieren, wenn Sie einen fahren würden? An dieser Stelle könnte sich ein gegnerischer Jagdpanzer verstecken. Jagdpanzer stellen sich gerne so auf, dass sie übliche Angriffslinien decken, versuchen Sie also da zuzuschlagen, wo die Jagdpanzer es am wenigsten vermuten.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an gegnerischen Jagdpanzern
-•  Zerstören Sie 2 gegnerische Jagdpanzer</req>
+        <req>•  Zerstören Sie 2 gegnerische Jagdpanzer
+•  Verursachen Sie 1000 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 6 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 6 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="T28 Heavy Tank Concept: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="121" opID="2" mID="1" setID="4" ID="fallout_2_4_1_main" secID="fallout_2_4_1_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
@@ -5667,8 +5744,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="T28 Heavy Tank Concept: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="122" opID="2" mID="2" setID="4" ID="fallout_2_4_2_main" secID="fallout_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie ein internes Modul oder verletzen Sie ein Besatzungsmitglied</req>
+        <req>•  Zerstören Sie ein internes Modul oder verletzen Sie ein Besatzungsmitglied
+•  Verursachen Sie 1000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -5677,8 +5754,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="T28 Heavy Tank Concept: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="123" opID="2" mID="3" setID="4" ID="fallout_2_4_3_main" secID="fallout_2_4_3_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 3 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 3 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -5761,8 +5838,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="T28 Heavy Tank Concept: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="132" opID="2" mID="12" setID="4" ID="fallout_2_4_12_main" secID="fallout_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie einen gegnerischen schweren Panzer, der 1 Stufe höher ist</req>
+        <req>•  Zerstören Sie einen gegnerischen schweren Panzer, der 1 Stufe über Ihrem Fahrzeug liegt
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5900,8 +5977,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="T28 Heavy Tank Concept: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="147" opID="2" mID="12" setID="5" ID="fallout_2_5_12_main" secID="fallout_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Verbündete müssen ein von Ihnen betäubtes oder bewegungsunfähig gemachtes Gegnerfahrzeug zerstören</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5910,9 +5987,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="T28 Heavy Tank Concept: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="148" opID="2" mID="13" setID="5" ID="fallout_2_5_13_main" secID="fallout_2_5_13_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 6 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie Gegnerfahrzeuge 4 Mal, indem Sie diese beschießen
 oder
-•  Beschädigen Sie Gegnerfahrzeuge 4 Mal, indem Sie diese beschießen</req>
+•  Betäuben Sie 6 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5921,9 +5998,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T28 Heavy Tank Concept: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="149" opID="2" mID="14" setID="5" ID="fallout_2_5_14_main" secID="fallout_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 600 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 100 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 600 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -5932,8 +6009,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="T28 Heavy Tank Concept: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="150" opID="2" mID="15" setID="5" ID="fallout_2_5_15_main" secID="fallout_2_5_15_add" minLvl="5" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 1500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 1500 Schadenspunkte an Gegnerfahrzeugen
@@ -5943,8 +6020,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="T 55A: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="151" opID="3" mID="1" setID="1" ID="fallout_3_1_1_main" secID="fallout_3_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -5963,8 +6040,8 @@ oder
     <PM name="LP-3: Die Verfolgung" short="T 55A: LP-3" desc="Ihr leichter Panzer ist schnell genug, die Karte schnell zu durchqueren und Ihre Verbündeten dort zu unterstützen, wo es notwendig ist." tMID="153" opID="3" mID="3" setID="1" ID="fallout_3_1_3_main" secID="fallout_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Versuchen Sie immer, Ihre Gegner zu flankieren und sie von hinten anzugreifen, wo sie am verwundbarsten sind. Bleiben Sie nicht auf einer Stelle. Ändern Sie Ihre Stellung häufig, kann der Gegner Ihr Fahrzeug nur schwer treffen. Vergessen Sie nicht, dass leichte Panzer in Bewegung genauso schwer zu entdecken wie im Stand.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Klären Sie 4 Gegnerfahrzeuge auf
-•  Beschädigen Sie 5 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+        <req>•  Beschädigen Sie 5 Mal Gegnerfahrzeuge, indem Sie diese beschießen
+•  Klären Sie 4 Gegnerfahrzeuge auf</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 Gegnerfahrzeuge</req>
@@ -6012,9 +6089,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="T 55A: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="158" opID="3" mID="8" setID="1" ID="fallout_3_1_8_main" secID="fallout_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 40 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 40 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 40 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 40 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -6061,8 +6138,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="T 55A: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 1800 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 1800 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -6145,9 +6222,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="T 55A: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="172" opID="3" mID="7" setID="2" ID="fallout_3_2_7_main" secID="fallout_3_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 Gegnerfahrzeuge</req>
@@ -6233,9 +6310,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="T 55A: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="181" opID="3" mID="1" setID="3" ID="fallout_3_3_1_main" secID="fallout_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Erzielen Sie die mindestens dritthöchste Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -6263,8 +6340,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="T 55A: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="184" opID="3" mID="4" setID="3" ID="fallout_3_3_4_main" secID="fallout_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 3 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 3 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 3 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 3 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 2 bewegungsunfähige Gegnerfahrzeuge
@@ -6315,8 +6392,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="T 55A: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="189" opID="3" mID="9" setID="3" ID="fallout_3_3_9_main" secID="fallout_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 1500 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 1500 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -6375,8 +6452,8 @@ oder
         <req>•  Verursachen Sie 2500 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 7 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 7 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="T 55A: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="196" opID="3" mID="1" setID="4" ID="fallout_3_4_1_main" secID="fallout_3_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
@@ -6392,8 +6469,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="T 55A: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="197" opID="3" mID="2" setID="4" ID="fallout_3_4_2_main" secID="fallout_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 2 Module oder Besatzungsmitglieder</req>
+        <req>•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 2 Module oder Besatzungsmitglieder
+•  Verursachen Sie 2000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -6402,8 +6479,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="T 55A: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="198" opID="3" mID="3" setID="4" ID="fallout_3_4_3_main" secID="fallout_3_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 5 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 5 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -6489,8 +6566,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="T 55A: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="207" opID="3" mID="12" setID="4" ID="fallout_3_4_12_main" secID="fallout_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -6634,8 +6711,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="T 55A: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="222" opID="3" mID="12" setID="5" ID="fallout_3_5_12_main" secID="fallout_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ihre Verbündeten müssen 2 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 150 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 150 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Ihre Verbündeten müssen 2 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -6644,9 +6721,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="T 55A: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="223" opID="3" mID="13" setID="5" ID="fallout_3_5_13_main" secID="fallout_3_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 8 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen
 oder
-•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+•  Betäuben Sie 8 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -6655,9 +6732,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="T 55A: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="224" opID="3" mID="14" setID="5" ID="fallout_3_5_14_main" secID="fallout_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 800 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 180 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 180 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 800 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -6666,8 +6743,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="T 55A: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="225" opID="3" mID="15" setID="5" ID="fallout_3_5_15_main" secID="fallout_3_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="T 55A">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 2500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Ermöglichen Sie Ihren Verbündeten, 2500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 3000 Schadenspunkte an Gegnerfahrzeugen
@@ -6677,8 +6754,8 @@ oder
     <PM name="LP-1: Für den Sieg!" short="Objekt 260: LP-1" desc="Auf niedriger Stufe kann Ihr leichter Panzer es leicht mit allen anderen Gegnern aufnehmen." tMID="226" opID="4" mID="1" setID="1" ID="fallout_4_1_1_main" secID="fallout_4_1_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Vermeiden Sie dennoch direkte Konfrontationen. Flankieren Sie ihren Gegner lieber oder greifen Sie ihn von hinten an. Beobachten Sie sorgfältig, wohin das Geschütz des Gegners zeigt und nähern Sie sich von der anderen Seite.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -6697,8 +6774,8 @@ oder
     <PM name="LP-3: Die Verfolgung" short="Objekt 260: LP-3" desc="Ihr leichter Panzer ist schnell genug, die Karte schnell zu durchqueren und Ihre Verbündeten dort zu unterstützen, wo es notwendig ist." tMID="228" opID="4" mID="3" setID="1" ID="fallout_4_1_3_main" secID="fallout_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Versuchen Sie immer, Ihre Gegner zu flankieren und sie von hinten anzugreifen, wo sie am verwundbarsten sind. Bleiben Sie nicht auf einer Stelle. Ändern Sie Ihre Stellung häufig, kann der Gegner Ihr Fahrzeug nur schwer treffen. Vergessen Sie nicht, dass leichte Panzer in Bewegung genauso schwer zu entdecken wie im Stand.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Klären Sie 6 Gegnerfahrzeuge auf
-•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+        <req>•  Beschädigen Sie 6 Mal Gegnerfahrzeuge, indem Sie diese beschießen
+•  Klären Sie 6 Gegnerfahrzeuge auf</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 4 Gegnerfahrzeuge</req>
@@ -6746,9 +6823,9 @@ oder
     <PM name="LP-8: Raus aus unserer Basis!" short="Objekt 260: LP-8" desc="In der Hitze des Gefechts vergisst man leicht, die eigene oder neutrale Basis zu schützen. Solcher Leichtsinn kann ein Gegner ausnutzen und das Ziel schnell einnehmen. Ihr Panzer ist schnell genug, um sich zu lösen und zur Verteidigung der Basis zurückzuziehen. Wehren Sie die Eindringlinge mit präzisen Schüssen oder gewagten Rammangriffen ab und bewahren Sie Ihr Team vor der drohenden Niederlage." tMID="233" opID="4" mID="8" setID="1" ID="fallout_4_1_8_main" secID="fallout_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Wenn Sie sich nicht zu 100 % sicher sind, dass Ihre Granate die Panzerung des Eindringlings durchschlägt, laden Sie besser eine Sprenggranate. Sprenggranaten haben eine größere Wahrscheinlichkeit, Schaden am Gegnerfahrzeug zu verursachen. Denken Sie daran, es reicht 1 Schadenspunkt am Gegnerfahrzeug oder ein beschädigtes Modul, um die Eroberung der Basis zurückzusetzen. Versuchen Sie, eine Basis zu erobern, sollten Sie gegnerischen Beschuss tunlichst vermeiden.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 60 Basiseroberungspunkte verdienen
+        <req>•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 60 Basispunkte
 oder
-•  Setzen Sie die gegnerischen Eroberungspunkte bei der Eroberung der eigenen/neutralen Basis zurück, und verdienen Sie 60 Basispunkte
+•  Nehmen Sie an der erfolgreichen Eroberung einer Basis teil, bei der Sie 60 Basiseroberungspunkte verdienen
 •  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -6768,8 +6845,8 @@ oder
     <PM name="LP-10: Maximaler Erfolg" short="Objekt 260: LP-10" desc="Je effektiver Sie im Gefecht sind, desto mehr Erfahrung verdienen Sie. Zeigen Sie, was ein leichter Panzer leisten kann!" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Ein guter Aufklärer weiß, wann er vorsichtig zu sein hat und wann offensiv. Beobachten Sie den Verlauf des Gefechts sorgsam.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Überleben Sie das Gefecht
-•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams</req>
+        <req>•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams
+•  Überleben Sie das Gefecht</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -6797,8 +6874,8 @@ oder
     <PM name="LP-13: Schlüssel zum Erfolg" short="Objekt 260: LP-13" desc="Wenn Sie mehrere leichte Panzer in der Garage haben, sollten Sie sich auf jene verlassen, mit denen Sie so lange wie möglich am Leben bleiben. Gegen Ende des Spiels kann der leichte Panzer sein volles Potential entfalten: beide Teams spielen vorsichtiger und jeder aufgeklärte Gegner endet im Visier der Verbündeten." tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Kombinieren Sie aktives und passives Aufklären, vermeiden Sie so lange wie möglich, selbst zu schießen. Ein leichter Panzer, der bis zum Ende eines Gefechts am Leben bleibt, ist ein Gewinn für sein Team und ein Nachteil für die Gegner.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2500 Schadenspunkte an Gegnerfahrzeugen
-•  Ermöglichen Sie Ihren Verbündeten, 2000 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären</req>
+        <req>•  Ermöglichen Sie Ihren Verbündeten, 2000 Schadenspunkte an Fahrzeugen zu verursachen, indem Sie diese aufklären
+•  Verursachen Sie 2500 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -6881,9 +6958,9 @@ oder
     <PM name="SP-7: Ich kümmere mich drum" short="Objekt 260: SP-7" desc="Schwere Panzer eignen sich sehr gut für die Durchbruchtaktik. Durchstoßen Sie die gegnerischen Verteidigungslinien und erobern Sie deren Basis. Unterschätzen Sie Ihren Gegner aber nicht – er könnte die gleiche Taktik einsetzen." tMID="247" opID="4" mID="7" setID="2" ID="fallout_4_2_7_main" secID="fallout_4_2_7_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Nähern Sie sich einer gegnerischen Basis sehr vorsichtig und seien Sie immer gefasst auf einen „herzlichen“ Empfang. Bevorzugen Sie eine defensive Taktik, sollten Sie das Gelände ausnutzen und die besten Deckungen und Aussichtspunkte finden, von denen aus Sie gut die eigene Basis (oder die neutrale Basis in einem Begegnungsgefecht) vor dem Feind verteidigen können.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück</req>
+        <req>•  Nehmen Sie an einer erfolgreichen Eroberung einer Basis teil oder setzen Sie die gegnerischen Eroberungspunkte der eigenen/neutralen Basis zurück
+•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 4 Gegnerfahrzeuge</req>
@@ -6969,9 +7046,9 @@ oder
     <PM name="MP-1: Erste Schritte" short="Objekt 260: MP-1" desc="Auf den unteren Stufen können mittlere Panzer es leicht mit allen anderen Fahrzeugtypen aufnehmen." tMID="256" opID="4" mID="1" setID="3" ID="fallout_4_3_1_main" secID="fallout_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Treffen Sie den Gegner bei jeder Gelegenheit, weichen Sie seinem Beschuss aber aus.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
-•  Verursachen Sie Schaden an einem Gegnerfahrzeug</req>
+        <req>•  Beenden Sie das Gefecht mit der meisten Erfahrung Ihres Teams
+•  Verursachen Sie Schaden an einem Gegnerfahrzeug
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -6999,8 +7076,8 @@ oder
     <PM name="MP-4: Bleib endlich stehen!" short="Objekt 260: MP-4" desc="Sie können Ihren Gegnern den Spaß verderben, indem Sie ihre Ketten zerstören." tMID="259" opID="4" mID="4" setID="3" ID="fallout_4_3_4_main" secID="fallout_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Zielen Sie auf Antriebs- oder das Führungsräder, die beim Kettenlaufwerk vorne oder hinten liegen. Einmal bewegungsunfähig ist ein gegnerischer Panzer leichte Beute. Vergessen Sie nicht, die Aufmerksamkeit Ihrer Verbündeten auf das Ziel zu lenken, indem Sie im Befehlsmenü „Benötige Hilfe mit …“ auswählen.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Beschädigen Sie 4 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen
-•  Zerstören Sie eine Kette von 4 verschiedenen Gegnerfahrzeugen</req>
+        <req>•  Zerstören Sie eine Kette von 4 verschiedenen Gegnerfahrzeugen
+•  Beschädigen Sie 4 Mal ein bewegungsunfähiges Gegnerfahrzeug, indem Sie es beschießen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie 3 bewegungsunfähige Gegnerfahrzeuge
@@ -7050,8 +7127,8 @@ oder
     <PM name="MP-9: Ein würdiger Gegner" short="Objekt 260: MP-9" desc="Suchen und Zerstören gegnerischer schwerer Panzer ist ein schweres Unterfangen, aber allen Aufwand wert." tMID="264" opID="4" mID="9" setID="3" ID="fallout_4_3_9_main" secID="fallout_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Flankieren Sie die Gegner, schießen Sie aus der Deckung oder zielen Sie auf Schwachstellen, um sie zu beseitigen – koste es, was wolle. Denken Sie daran, dass schwere Panzer langsamer als Sie sind und ihre Türme nur langsam drehen.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 2000 Schadenspunkte an gegnerischen schweren Panzern
-•  Zerstören Sie 2 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 2 gegnerische schwere Panzer
+•  Verursachen Sie 2000 Schadenspunkte an gegnerischen schweren Panzern</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -7111,8 +7188,8 @@ oder
         <req>•  Verursachen Sie 3500 Schadenspunkte an gegnerischen Jagdpanzern</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 8 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 8 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Secondary>
     </PM>
     <PM name="JP-1: Leistung und Effizienz" short="Objekt 260: JP-1" desc="Jagdpanzer sind eine gute Wahl für Spieler, die Gegner auf große Entfernung bekämpfen wollen." tMID="271" opID="4" mID="1" setID="4" ID="fallout_4_4_1_main" secID="fallout_4_4_1_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
@@ -7128,8 +7205,8 @@ oder
     <PM name="JP-2: Gezieltes Feuer" short="Objekt 260: JP-2" desc="Zerstören Sie die Module eines Gegnerfahrzeugs oder verletzen Sie dessen Besatzung, wird es dadurch fast unbrauchbar." tMID="272" opID="4" mID="2" setID="4" ID="fallout_4_4_2_main" secID="fallout_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Ein erfolgreicher Treffer kann die Module eines Gegnerfahrzeugs beschädigen, zerstören oder dessen Besatzung verletzen. Oftmals eignen sich Sprenggranaten besser für diesen Zweck.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 5000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 3 Module oder Besatzungsmitglieder</req>
+        <req>•  Zerstören Sie interne Module oder verletzen Sie Besatzungsmitglieder, insgesamt mindestens 3 Module oder Besatzungsmitglieder
+•  Verursachen Sie 5000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Am Ende des Gefechts dürfen Sie keine beschädigten/zerstörten internen Module oder verletzen Besatzungsmitglieder haben</req>
@@ -7138,8 +7215,8 @@ oder
     <PM name="JP-3: Weidmannsheil!" short="Objekt 260: JP-3" desc="Der wichtigste Vorteil der Jagdpanzer ist ihre große Feuerkraft." tMID="273" opID="4" mID="3" setID="4" ID="fallout_4_4_3_main" secID="fallout_4_4_3_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Viele Jagdpanzer sind leicht gepanzert und die wenigsten haben einen Turm. Ziele auf große Entfernung zu bekämpfen ist normalerweise die sicherste Taktik.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis
-•  Beschädigen Sie 6 Gegnerfahrzeuge</req>
+        <req>•  Beschädigen Sie 6 Gegnerfahrzeuge
+•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht</req>
@@ -7225,8 +7302,8 @@ oder
     <PM name="JP-12: Großwildjagd" short="Objekt 260: JP-12" desc="Bewaffnet mit Ihrem scharfen Verstand und einem ausgezeichneten Geschütz können Sie Gegnerfahrzeuge zerstören, bevor Sie Ihnen zu nahe kommen. Wurde ein gegnerischer schwerer Panzer entdeckt, können Sie ihn schwer beschädigen, noch bevor Sie selbst entdeckt werden." tMID="282" opID="4" mID="12" setID="4" ID="fallout_4_4_12_main" secID="fallout_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint>Sie haben es in der Hand, Ihr Team zum Sieg zu führen. Wenn Sie die Schwachpunkte gegnerischer schwerer Panzer kennen, kann ihre schwere Panzerung sie auch nicht mehr retten.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen
-•  Zerstören Sie 3 gegnerische schwere Panzer</req>
+        <req>•  Zerstören Sie 3 gegnerische schwere Panzer
+•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Überleben Sie das Gefecht
@@ -7370,8 +7447,8 @@ oder
     <PM name="SFL-12: Der böse Blick" short="Objekt 260: SFL-12" desc="Ihre Verbündeten haben das betäubte Gegnerfahrzeug zerstört? Erfreulich für Sie, da Ihr Beitrag das Team ein Stück näher zum Sieg gebracht hat! Ihr Ziel ist es, Feuerunterstützung zu geben und Ihre Verbündeten im richtigen Moment am richtigen Platz zu unterstützen!" tMID="297" opID="4" mID="12" setID="5" ID="fallout_4_5_12_main" secID="fallout_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ihre Verbündeten müssen 3 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 200 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 200 Sekunden. Die potentielle Betäubungsdauer zählt
+•  Ihre Verbündeten müssen 3 von Ihnen betäubte oder bewegungsunfähig gemachte Fahrzeuge zerstören</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -7380,9 +7457,9 @@ oder
     <PM name="SFL-13: K für Kooperation" short="Objekt 260: SFL-13" desc="Eine funktionierende Kooperation zwischen SFL und Verbündeten sollte dem Gegner große Sorgen bereiten. Koordinieren Sie Ihre Aktionen und fokussieren Sie Ihr Feuer auf jeweils ein Ziel." tMID="298" opID="4" mID="13" setID="5" ID="fallout_4_5_13_main" secID="fallout_4_5_13_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Betäuben Sie 10 Mal Gegnerfahrzeuge
+        <req>•  Beschädigen Sie 8 Mal Gegnerfahrzeuge, indem Sie diese beschießen
 oder
-•  Beschädigen Sie 8 Mal Gegnerfahrzeuge, indem Sie diese beschießen</req>
+•  Betäuben Sie 10 Mal Gegnerfahrzeuge</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -7391,9 +7468,9 @@ oder
     <PM name="SFL-14: Teil der Besatzung, Teil des Schiffs!" short="Objekt 260: SFL-14" desc="Kooperation ist der Schlüssel zum Erfolg des ganzen Teams. Markieren Sie das Gegnerfahrzeug, auf das Sie zielen. Ihre Verbündeten können es sofort unter Beschuss nehmen, sobald es betäubt oder unbeweglich ist. Vergessen Sie nie: ein Soldat allein ist noch keine Armee." tMID="299" opID="4" mID="14" setID="5" ID="fallout_4_5_14_main" secID="fallout_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Verbündete müssen 1000 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen
+        <req>•  Betäuben Sie Gegnerfahrzeuge für insgesamt 250 Sekunden. Die potentielle Betäubungsdauer zählt
 oder
-•  Betäuben Sie Gegnerfahrzeuge für insgesamt 250 Sekunden. Die potentielle Betäubungsdauer zählt</req>
+•  Verbündete müssen 1000 Schadenspunkte am von Ihnen bewegungsunfähig gemachten Fahrzeug verursachen</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zerstören Sie alle Gegnerfahrzeuge / erobern oder verteidigen Sie die Basis</req>
@@ -7402,8 +7479,8 @@ oder
     <PM name="SFL-15: Kriegsgötter" short="Objekt 260: SFL-15" desc="Eine SFL, die lange überlebt, ist eine wahre Bereicherung für das Team. Feuern Sie Granate um Granate, während Sie dem Feindbeschuss ausweichen. Nehmen Sie sich Zeit und überlegen Sie lieber zweimal, ehe Sie „abdrücken“ – „ein Schuss, ein Treffer“ ist die beste Strategie für Fahrzeuge mit langer Nachladezeit." tMID="300" opID="4" mID="15" setID="5" ID="fallout_4_5_15_main" secID="fallout_4_5_15_add" minLvl="6" maxLvl="10" campID="1" camp="Die langersehnte Unterstützung" reward="Objekt 260">
       <Hint />
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Ermöglichen Sie Ihren Verbündeten, 3500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen
-•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams</req>
+        <req>•  Verdienen Sie im Gefecht die meiste Erfahrung beider Teams
+•  Ermöglichen Sie Ihren Verbündeten, 3500 Schadenspunkte an Gegnerfahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
         <req>•  Verursachen Sie 4000 Schadenspunkte an Gegnerfahrzeugen

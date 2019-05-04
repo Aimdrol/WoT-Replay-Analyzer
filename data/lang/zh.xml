@@ -45,6 +45,7 @@
     <tank ID="A120_M48A5_IGR" sName="M48A5" lName="M48A5" />
     <tank ID="A121_M26_Cologne" />
     <tank ID="A122_TS-5" />
+    <tank ID="A123_T78" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" />
@@ -229,6 +230,7 @@
     <tank ID="Cz09_T_24" sName="斯柯达 T24" lName="斯柯达 T24" />
     <tank ID="Cz10_LT_vz38" sName="LT 38" lName="LT 38" />
     <tank ID="Cz11_V_8_H" sName="ST 39" lName="ST 39" />
+    <tank ID="Cz13_T_27" />
     <tank ID="D1" sName="D1" lName="D1" />
     <tank ID="D2" sName="D2" lName="D2" />
     <tank ID="DickerMax" sName="大麦克斯" lName="大麦克斯" />
@@ -266,6 +268,7 @@
     <tank ID="F11_Renault_G1R" sName="雷诺 G1" lName="雷诺 G1" />
     <tank ID="F110_Lynx_6x6" />
     <tank ID="F111_AM39_Gendron_Somua" />
+    <tank ID="F112_M10_RBFM" />
     <tank ID="F12_Hotchkiss_H35" sName="哈其开斯H35" lName="哈其开斯H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -326,6 +329,7 @@
     <tank ID="F82_AMX_M4_Mle1949_Ter" sName="AMX M4(1954)" lName="AMX M4(1954)" />
     <tank ID="F83_AMX_M4_Mle1949_Bis" sName="AMX M4(1951)" lName="AMX M4(1951)" />
     <tank ID="F84_Somua_SM" sName="索玛 SM" lName="索玛 SM" />
+    <tank ID="F85_M4A1_FL10" />
     <tank ID="F87_Batignolles-Chatillon_12t" sName="查狄伦 12t" lName="查狄伦 12t" />
     <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="F88_AMX_13_105_sport" />
@@ -1004,6 +1008,9 @@
     <tank ID="S23_Strv_81_sabaton" sName="Strv 81 S型" lName="Strv 81 S型" />
     <tank ID="S25_EMIL_51" />
     <tank ID="S26_Lansen_C" />
+    <tank ID="S27_UDES_16" />
+    <tank ID="S28_UDES_15_16" />
+    <tank ID="S29_UDES_14_5" />
     <tank ID="S35_captured" sName="S35 739(f)" lName="S35 739(f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1326,6 +1333,76 @@
     <item ID="4" Name="四级" />
     <item ID="unknown" Name="未知" />
   </Lang_Ranks>
+  <Lang_Badges>
+    <item ID="1" Name="测试赛季黄金勋章" />
+    <item ID="10" Name="IV号突击炮II级勋章" />
+    <item ID="11" Name="IV号突击炮I级勋章" />
+    <item ID="12" Name="T28(概念车)II级勋章" />
+    <item ID="13" Name="T28(概念车)I级勋章" />
+    <item ID="14" Name="T-55AII级勋章" />
+    <item ID="15" Name="T-55AI级勋章" />
+    <item ID="16" Name="260工程II级勋章" />
+    <item ID="17" Name="260工程I级勋章" />
+    <item ID="18" Name="个人任务I达人" />
+    <item ID="19" Name="VII级坦克之星" />
+    <item ID="2" Name="二测赛季黄金勋章" />
+    <item ID="20" Name="VIII级坦克之星" />
+    <item ID="21" Name="IX级坦克之星" />
+    <item ID="22" Name="X级坦克之星" />
+    <item ID="23" Name="VII级坦克专家" />
+    <item ID="24" Name="VIII级坦克专家" />
+    <item ID="25" Name="IX级坦克专家" />
+    <item ID="26" Name="X级坦克专家" />
+    <item ID="27" Name="领土战传奇" />
+    <item ID="28" Name="策略大师" />
+    <item ID="29" Name="第1赛季黄金勋章" />
+    <item ID="3" Name="第2赛季黄金勋章" />
+    <item ID="30" Name="第1赛季白银勋章" />
+    <item ID="31" Name="第1赛季青铜勋章" />
+    <item ID="32" />
+    <item ID="33" />
+    <item ID="34" />
+    <item ID="35" />
+    <item ID="36" />
+    <item ID="37" />
+    <item ID="38" />
+    <item ID="39" />
+    <item ID="4" Name="测试赛季白银勋章" />
+    <item ID="40" />
+    <item ID="41" />
+    <item ID="42" />
+    <item ID="43" />
+    <item ID="44" />
+    <item ID="45" />
+    <item ID="46" />
+    <item ID="47" />
+    <item ID="48" />
+    <item ID="49" />
+    <item ID="5" Name="二测赛季白银勋章" />
+    <item ID="50" />
+    <item ID="51" />
+    <item ID="52" />
+    <item ID="56" />
+    <item ID="57" />
+    <item ID="58" />
+    <item ID="59" />
+    <item ID="6" Name="第2赛季白银勋章" />
+    <item ID="60" />
+    <item ID="61" />
+    <item ID="62" />
+    <item ID="63" />
+    <item ID="64" />
+    <item ID="65" />
+    <item ID="66" />
+    <item ID="67" />
+    <item ID="68" />
+    <item ID="69" />
+    <item ID="7" Name="测试赛季青铜勋章" />
+    <item ID="70" />
+    <item ID="8" Name="二测赛季青铜勋章" />
+    <item ID="9" Name="第2赛季青铜勋章" />
+    <item ID="unknown" Name="未知" />
+  </Lang_Badges>
   <Lang_DeathReasons>
     <item ID="-1" Name="幸存" />
     <item ID="0" Name="因射击被击毁" />
@@ -1672,15 +1749,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="LT-13:胜利的关键" short="IV号突击炮: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1765,8 +1842,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -1802,8 +1879,8 @@ or
     <PM name="HT-11:医护大师" short="IV号突击炮: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="26" opID="1" mID="11" setID="2" ID="quest_1_2_11_main" secID="quest_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -1812,8 +1889,8 @@ or
     <PM name="HT-12:坚如磐石" short="IV号突击炮: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1852,8 +1929,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -1880,8 +1957,8 @@ or
     <PM name="MT-4:你给我站住" short="IV号突击炮: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="34" opID="1" mID="4" setID="3" ID="quest_1_3_4_main" secID="quest_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2304,8 +2381,8 @@ or
     <PM name="LT-4:停止前进" short="T28(概念车): LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -2389,8 +2466,8 @@ or
     <PM name="LT-13:胜利的关键" short="T28(概念车): LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2475,8 +2552,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -2512,8 +2589,8 @@ or
     <PM name="HT-11:医护大师" short="T28(概念车): HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="101" opID="2" mID="11" setID="2" ID="quest_2_2_11_main" secID="quest_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -2522,8 +2599,8 @@ or
     <PM name="HT-12:坚如磐石" short="T28(概念车): HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="102" opID="2" mID="12" setID="2" ID="quest_2_2_12_main" secID="quest_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2562,8 +2639,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -2590,8 +2667,8 @@ or
     <PM name="MT-4:你给我站住" short="T28(概念车): MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="109" opID="2" mID="4" setID="3" ID="quest_2_3_4_main" secID="quest_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2716,8 +2793,8 @@ or
     <PM name="TD-2:攻击目标" short="T28(概念车): TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -2811,7 +2888,7 @@ or
       <Hint>假如你知道敌方坦克的弱点，那么它们的装甲将毫无作用。你就能带领队伍获得胜利。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3002,8 +3079,8 @@ or
     <PM name="LT-2:侦察" short="T-55A: LT-2" desc="轻型坦克的主要任务之一是点亮敌方坦克。" tMID="152" opID="3" mID="2" setID="1" ID="quest_3_1_2_main" secID="quest_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>冲进敌人堆里点亮然后被击毁，是最错误的战术。你需要了解如何点亮敌人的同时躲开他们的攻击成功撤离。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3012,8 +3089,8 @@ or
     <PM name="LT-3:目标" short="T-55A: LT-3" desc="轻型坦克的速度可以快速的穿越地图，在最需要的位置给予队友支持。" tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>尝试从敌人的侧后方袭击他们装甲的弱点。不要停留在同一个地点。只要你不断的更换位置，敌人就很难击中你。记住，轻型坦克在移动和静止时都可能被点亮。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3022,8 +3099,8 @@ or
     <PM name="LT-4:停止前进" short="T-55A: LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="154" opID="3" mID="4" setID="1" ID="quest_3_1_4_main" secID="quest_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3110,8 +3187,8 @@ or
     <PM name="LT-13:胜利的关键" short="T-55A: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3195,8 +3272,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3233,8 +3310,8 @@ or
     <PM name="HT-11:医护大师" short="T-55A: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="176" opID="3" mID="11" setID="2" ID="quest_3_2_11_main" secID="quest_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3243,8 +3320,8 @@ or
     <PM name="HT-12:坚如磐石" short="T-55A: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3283,8 +3360,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -3312,8 +3389,8 @@ or
     <PM name="MT-4:你给我站住" short="T-55A: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="184" opID="3" mID="4" setID="3" ID="quest_3_3_4_main" secID="quest_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3441,8 +3518,8 @@ or
     <PM name="TD-2:攻击目标" short="T-55A: TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -3736,8 +3813,8 @@ or
     <PM name="LT-2:侦察" short="260工程: LT-2" desc="轻型坦克的主要任务之一是点亮敌方坦克。" tMID="227" opID="4" mID="2" setID="1" ID="quest_4_1_2_main" secID="quest_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>冲进敌人堆里点亮然后被击毁，是最错误的战术。你需要了解如何点亮敌人的同时躲开他们的攻击成功撤离。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3746,8 +3823,8 @@ or
     <PM name="LT-3:目标" short="260工程: LT-3" desc="轻型坦克的速度可以快速的穿越地图，在最需要的位置给予队友支持。" tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>尝试从敌人的侧后方袭击他们装甲的弱点。不要停留在同一个地点。只要你不断的更换位置，敌人就很难击中你。记住，轻型坦克在移动和静止时都可能被点亮。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3756,8 +3833,8 @@ or
     <PM name="LT-4:停止前进" short="260工程: LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3817,8 +3894,8 @@ or
     <PM name="LT-10:最大战果" short="260工程: LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量！" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3846,8 +3923,8 @@ or
     <PM name="LT-13:胜利的关键" short="260工程: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3931,8 +4008,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3969,8 +4046,8 @@ or
     <PM name="HT-11:医护大师" short="260工程: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="251" opID="4" mID="11" setID="2" ID="quest_4_2_11_main" secID="quest_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -3979,8 +4056,8 @@ or
     <PM name="HT-12:坚如磐石" short="260工程: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="252" opID="4" mID="12" setID="2" ID="quest_4_2_12_main" secID="quest_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4019,8 +4096,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4048,8 +4125,8 @@ or
     <PM name="MT-4:你给我站住" short="260工程: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="259" opID="4" mID="4" setID="3" ID="quest_4_3_4_main" secID="quest_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4177,8 +4254,8 @@ or
     <PM name="TD-2:攻击目标" short="260工程: TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -4568,15 +4645,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="LT-13:胜利的关键" short="IV号突击炮: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4661,8 +4738,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -4698,8 +4775,8 @@ or
     <PM name="HT-11:医护大师" short="IV号突击炮: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="26" opID="1" mID="11" setID="2" ID="fallout_1_2_11_main" secID="fallout_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -4708,8 +4785,8 @@ or
     <PM name="HT-12:坚如磐石" short="IV号突击炮: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="27" opID="1" mID="12" setID="2" ID="fallout_1_2_12_main" secID="fallout_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4748,8 +4825,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4776,8 +4853,8 @@ or
     <PM name="MT-4:你给我站住" short="IV号突击炮: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="34" opID="1" mID="4" setID="3" ID="fallout_1_3_4_main" secID="fallout_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="迟来的支援" reward="IV号突击炮">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -5200,8 +5277,8 @@ or
     <PM name="LT-4:停止前进" short="T28(概念车): LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="79" opID="2" mID="4" setID="1" ID="fallout_2_1_4_main" secID="fallout_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -5285,8 +5362,8 @@ or
     <PM name="LT-13:胜利的关键" short="T28(概念车): LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5371,8 +5448,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -5408,8 +5485,8 @@ or
     <PM name="HT-11:医护大师" short="T28(概念车): HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="101" opID="2" mID="11" setID="2" ID="fallout_2_2_11_main" secID="fallout_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5418,8 +5495,8 @@ or
     <PM name="HT-12:坚如磐石" short="T28(概念车): HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="102" opID="2" mID="12" setID="2" ID="fallout_2_2_12_main" secID="fallout_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5458,8 +5535,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -5486,8 +5563,8 @@ or
     <PM name="MT-4:你给我站住" short="T28(概念车): MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="109" opID="2" mID="4" setID="3" ID="fallout_2_3_4_main" secID="fallout_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -5612,8 +5689,8 @@ or
     <PM name="TD-2:攻击目标" short="T28(概念车): TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="122" opID="2" mID="2" setID="4" ID="fallout_2_4_2_main" secID="fallout_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="迟来的支援" reward="T28(概念车)">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -5707,7 +5784,7 @@ or
       <Hint>假如你知道敌方坦克的弱点，那么它们的装甲将毫无作用。你就能带领队伍获得胜利。</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5898,8 +5975,8 @@ or
     <PM name="LT-2:侦察" short="T-55A: LT-2" desc="轻型坦克的主要任务之一是点亮敌方坦克。" tMID="152" opID="3" mID="2" setID="1" ID="fallout_3_1_2_main" secID="fallout_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>冲进敌人堆里点亮然后被击毁，是最错误的战术。你需要了解如何点亮敌人的同时躲开他们的攻击成功撤离。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5908,8 +5985,8 @@ or
     <PM name="LT-3:目标" short="T-55A: LT-3" desc="轻型坦克的速度可以快速的穿越地图，在最需要的位置给予队友支持。" tMID="153" opID="3" mID="3" setID="1" ID="fallout_3_1_3_main" secID="fallout_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>尝试从敌人的侧后方袭击他们装甲的弱点。不要停留在同一个地点。只要你不断的更换位置，敌人就很难击中你。记住，轻型坦克在移动和静止时都可能被点亮。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5918,8 +5995,8 @@ or
     <PM name="LT-4:停止前进" short="T-55A: LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="154" opID="3" mID="4" setID="1" ID="fallout_3_1_4_main" secID="fallout_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6006,8 +6083,8 @@ or
     <PM name="LT-13:胜利的关键" short="T-55A: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6091,8 +6168,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -6129,8 +6206,8 @@ or
     <PM name="HT-11:医护大师" short="T-55A: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="176" opID="3" mID="11" setID="2" ID="fallout_3_2_11_main" secID="fallout_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6139,8 +6216,8 @@ or
     <PM name="HT-12:坚如磐石" short="T-55A: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="177" opID="3" mID="12" setID="2" ID="fallout_3_2_12_main" secID="fallout_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6179,8 +6256,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6208,8 +6285,8 @@ or
     <PM name="MT-4:你给我站住" short="T-55A: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="184" opID="3" mID="4" setID="3" ID="fallout_3_3_4_main" secID="fallout_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6337,8 +6414,8 @@ or
     <PM name="TD-2:攻击目标" short="T-55A: TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="197" opID="3" mID="2" setID="4" ID="fallout_3_4_2_main" secID="fallout_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="T-55A">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -6632,8 +6709,8 @@ or
     <PM name="LT-2:侦察" short="260工程: LT-2" desc="轻型坦克的主要任务之一是点亮敌方坦克。" tMID="227" opID="4" mID="2" setID="1" ID="fallout_4_1_2_main" secID="fallout_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>冲进敌人堆里点亮然后被击毁，是最错误的战术。你需要了解如何点亮敌人的同时躲开他们的攻击成功撤离。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6642,8 +6719,8 @@ or
     <PM name="LT-3:目标" short="260工程: LT-3" desc="轻型坦克的速度可以快速的穿越地图，在最需要的位置给予队友支持。" tMID="228" opID="4" mID="3" setID="1" ID="fallout_4_1_3_main" secID="fallout_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>尝试从敌人的侧后方袭击他们装甲的弱点。不要停留在同一个地点。只要你不断的更换位置，敌人就很难击中你。记住，轻型坦克在移动和静止时都可能被点亮。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6652,8 +6729,8 @@ or
     <PM name="LT-4:停止前进" short="260工程: LT-4" desc="击毁敌方坦克的履带，让其暂时停止移动，停在拥有强大火力的盟友面前，帮助盟友更好的瞄准它。" tMID="229" opID="4" mID="4" setID="1" ID="fallout_4_1_4_main" secID="fallout_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>瞄准第一个轮子和最后一个轮子更容易打断履带。请不要忘记即使你的火炮无法对敌方坦克造成伤害，你仍然可以击毁它的履带。击毁敌方履带来助攻同样可以获得收益。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6713,8 +6790,8 @@ or
     <PM name="LT-10:最大战果" short="260工程: LT-10" desc="战斗的表现越好，获得的经验越多。让他们知道轻坦的发挥不可限量！" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>好的侦察员懂得何时耐心等待，何时勇敢深入。时刻关注战况的进行。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6742,8 +6819,8 @@ or
     <PM name="LT-13:胜利的关键" short="260工程: LT-13" desc="组队更容易获取胜利，尤其当成员们配合默契的时候。你侦察敌人位置，你的同伴击毁它们，带领整个队伍走向胜利。你也可以当一个独行侠，但是独行侠总是更加艰难。" tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>如果你组队进入战斗，确保你们可以使用声音通讯，这样能省下打字的时间。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6827,8 +6904,8 @@ or
       <Hint>接近敌方基地时，要记的小心敌人的\"热情款待\"。在防守基地时，确保自己找到一个有利位置，可以帮助你对付更多的敌人。</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6865,8 +6942,8 @@ or
     <PM name="HT-11:医护大师" short="260工程: HT-11" desc="每个装备损坏或乘员受伤都会成为问题。请尽可能的在突破敌方的同时保护它们安全。" tMID="251" opID="4" mID="11" setID="2" ID="fallout_4_2_11_main" secID="fallout_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>当敌人击伤你的装备或者乘员时，请使用修理箱或急救包解决问题。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -6875,8 +6952,8 @@ or
     <PM name="HT-12:坚如磐石" short="260工程: HT-12" desc="正确高效的使用装甲就能防护更多的伤害。" tMID="252" opID="4" mID="12" setID="2" ID="fallout_4_2_12_main" secID="fallout_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>尽可能将您的正面装甲朝向敌人并隐藏您的侧面及弱点。将装甲摆出角度能提高它的有效性。</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6915,8 +6992,8 @@ or
       <Hint>不放过任何攻击敌人的机会，但同样要躲开它们的攻击。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6944,8 +7021,8 @@ or
     <PM name="MT-4:你给我站住" short="260工程: MT-4" desc="击毁敌方的履带，然后狠狠的打击他们。" tMID="259" opID="4" mID="4" setID="3" ID="fallout_4_3_4_main" secID="fallout_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>敌方坦克的履带被击毁后，将暂时无法移动。这样你能更好的瞄准它们。别忘了在命令菜单中呼叫队友一起攻击。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -7073,8 +7150,8 @@ or
     <PM name="TD-2:攻击目标" short="260工程: TD-2" desc="击伤敌方坦克的装备和乘员，能显著降低他的战斗效率。" tMID="272" opID="4" mID="2" setID="4" ID="fallout_4_4_2_main" secID="fallout_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="迟来的支援" reward="260工程">
       <Hint>成功击穿敌人有可能击伤他的装备或乘员。有时候，用高爆弹更容易做到。</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>

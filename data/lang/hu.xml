@@ -45,6 +45,7 @@
     <tank ID="A120_M48A5_IGR" sName="M48 Patton" lName="M48A5 Patton" />
     <tank ID="A121_M26_Cologne" sName="Eagle 7" lName="T26E3 Eagle 7" />
     <tank ID="A122_TS-5" sName="TS-5" lName="TS-5" />
+    <tank ID="A123_T78" sName="T78" lName="T78" />
     <tank ID="A13_T34_hvy" sName="T34" lName="T34" />
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" sName="T34 FL" lName="T34 FL" />
@@ -229,6 +230,7 @@
     <tank ID="Cz09_T_24" sName="Škoda T 24" lName="Škoda T 24" />
     <tank ID="Cz10_LT_vz38" sName="LT vz. 38" lName="LT vz. 38" />
     <tank ID="Cz11_V_8_H" sName="ST vz. 39" lName="ST vz. 39" />
+    <tank ID="Cz13_T_27" sName="Škoda T 27" lName="Škoda T 27" />
     <tank ID="D1" sName="D1" lName="D1" />
     <tank ID="D2" sName="D2" lName="D2" />
     <tank ID="DickerMax" sName="Dicker Max" lName="Dicker Max" />
@@ -266,6 +268,7 @@
     <tank ID="F11_Renault_G1R" sName="G1 R" lName="Renault G1" />
     <tank ID="F110_Lynx_6x6" sName="Lynx 6x6" lName="Panhard AML Lynx 6x6" />
     <tank ID="F111_AM39_Gendron_Somua" sName="AM Gendron" lName="AM 39 Gendron-Somua" />
+    <tank ID="F112_M10_RBFM" sName="M10 RBFM" lName="M10 RBFM" />
     <tank ID="F12_Hotchkiss_H35" sName="H35" lName="Hotchkiss H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -326,6 +329,7 @@
     <tank ID="F82_AMX_M4_Mle1949_Ter" sName="AMX M4 54" lName="AMX M4 mle. 54" />
     <tank ID="F83_AMX_M4_Mle1949_Bis" sName="AMX M4 51" lName="AMX M4 mle. 51" />
     <tank ID="F84_Somua_SM" sName="Somua SM" lName="Somua SM" />
+    <tank ID="F85_M4A1_FL10" sName="M4A1 FL 10" lName="M4A1 FL 10" />
     <tank ID="F87_Batignolles-Chatillon_12t" sName="B-C 12 t" lName="Bat.-Châtillon 12 t" />
     <tank ID="F88_AMX_13_105" sName="AMX 13 105" lName="AMX 13 105" />
     <tank ID="F88_AMX_13_105_sport" sName="AMX S" lName="AMX 13 105 Sport" />
@@ -1004,6 +1008,9 @@
     <tank ID="S23_Strv_81_sabaton" sName="P:Victoria" lName="Primo Victoria" />
     <tank ID="S25_EMIL_51" sName="EMIL 1951" lName="EMIL 1951" />
     <tank ID="S26_Lansen_C" sName="Lansen C" lName="Lansen C" />
+    <tank ID="S27_UDES_16" sName="UDES 16" lName="UDES 16" />
+    <tank ID="S28_UDES_15_16" sName="UDES 15/16" lName="UDES 15/16" />
+    <tank ID="S29_UDES_14_5" sName="UDES 14 5" lName="UDES 14 Alt 5" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
     <tank ID="Sexton_I" />
@@ -1326,6 +1333,76 @@
     <item ID="4" Name="IV osztály" />
     <item ID="unknown" Name="Ismeretlen" />
   </Lang_Ranks>
+  <Lang_Badges>
+    <item ID="1" Name="Arany, Béta szezon" />
+    <item ID="10" Name="StuG IV Jelvény II. osztály" />
+    <item ID="11" Name="StuG IV Jelvény I. osztály" />
+    <item ID="12" Name="T28 HTC Badge II Class" />
+    <item ID="13" Name="T28 HTC Badge I Class" />
+    <item ID="14" Name="T 55A Jelvény II. osztály" />
+    <item ID="15" Name="T 55AJelvény I. osztály" />
+    <item ID="16" Name="Object 260 jelvény II. osztály" />
+    <item ID="17" Name="Object 260 jelvény I. osztály" />
+    <item ID="18" Name="Kampány I Bajnoka" />
+    <item ID="19" Name="Tank ász: VII-es szint" />
+    <item ID="2" Name="Arany, 2. Béta szezon" />
+    <item ID="20" Name="Tank ász: VIII-as szint" />
+    <item ID="21" Name="Tank ász: IX-es szint" />
+    <item ID="22" Name="Tank ász: X-es szint" />
+    <item ID="23" Name="Tank szakértő: VII-es szint" />
+    <item ID="24" Name="Tank szakértő: VIII-as szint" />
+    <item ID="25" Name="Tank szakértő: IX-es szint" />
+    <item ID="26" Name="Tank szakértő: X-es szint" />
+    <item ID="27" Name="Világtérkép legenda" />
+    <item ID="28" Name="Gambit Hero" />
+    <item ID="29" Name="Arany, 1. szezon" />
+    <item ID="3" Name="Arany, 2. szezon" />
+    <item ID="30" Name="Ezüst, 1. szezon" />
+    <item ID="31" Name="Bronz, 1. szezon" />
+    <item ID="32" Name="Frontvonal veterán" />
+    <item ID="33" Name="Frontvonal hőse" />
+    <item ID="34" Name="Frontvonal meghódítója" />
+    <item ID="35" Name="Fegyverkezési verseny hőse" />
+    <item ID="36" Name="Excalibur jelvény II. osztály" />
+    <item ID="37" Name="Excalibur jelvény I. osztály" />
+    <item ID="38" Name="Chimera jelvény II. osztály" />
+    <item ID="39" Name="Chimera jelvény I. osztály" />
+    <item ID="4" Name="Ezüst, Béta. szezon" />
+    <item ID="40" Name="Object 279 (e) Jelvény II. osztály" />
+    <item ID="41" Name="Object 279 (e) Jelvény I. osztály" />
+    <item ID="42" Name="II. front veteránja" />
+    <item ID="43" Name="RNG" />
+    <item ID="44" Name="Yushaтали всех!" />
+    <item ID="45" Name="«Нагибатор»" />
+    <item ID="46" Name="За Амвэя и двор" />
+    <item ID="47" Name="Одной левой" />
+    <item ID="48" Name="Arany, 3. szezon" />
+    <item ID="49" Name="Ezüst, 3. szezon" />
+    <item ID="5" Name="Ezüst, 2. Béta szezon" />
+    <item ID="50" Name="Bronz, 3. szezon" />
+    <item ID="51" Name="Bátor bot" />
+    <item ID="52" Name="Pörögj fel" />
+    <item ID="56" Name="Alfa teszt veterán" />
+    <item ID="57" Name="Béta teszt veterán" />
+    <item ID="58" Name="Alfa teszt veterán" />
+    <item ID="59" Name="Béta teszt veterán" />
+    <item ID="6" Name="Ezüst, 2. szezon" />
+    <item ID="60" Name="Soldiers of Fortune Hős" />
+    <item ID="61" Name="Bajnokság arany" />
+    <item ID="62" Name="Bajnokság ezüst" />
+    <item ID="63" Name="Bajnokság bronz" />
+    <item ID="64" Name="Parancsnoki jelvény, III. osztály" />
+    <item ID="65" Name="Parancsnoki jelvény, II. osztály" />
+    <item ID="66" Name="Parancsnoki jelvény, I. osztály" />
+    <item ID="67" Name="Tekintély: III" />
+    <item ID="68" Name="Tekintély: V" />
+    <item ID="69" Name="Tekintély: VII" />
+    <item ID="7" Name="Bronz, Béta szezon" />
+    <item ID="70" Name="Tekintély: X" />
+    <item ID="8" Name="Bronz, 2. Béta szezon" />
+    <item ID="9" Name="Bronz, 2. szezon" />
+    <item ID="unknown" Name="Ismeretlen" />
+  </Lang_Badges>
   <Lang_DeathReasons>
     <item ID="-1" Name="Túlélt" />
     <item ID="0" Name="Megsemmisítve találat által" />
@@ -1727,15 +1804,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="LT-13: Kulcs a győzelemhez" short="StuG IV: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1820,8 +1897,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -1857,8 +1934,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="StuG IV: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="26" opID="1" mID="11" setID="2" ID="quest_1_2_11_main" secID="quest_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -1867,8 +1944,8 @@ or
     <PM name="HT-12: Masszív páncél" short="StuG IV: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -1907,8 +1984,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -1935,8 +2012,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="StuG IV: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="34" opID="1" mID="4" setID="3" ID="quest_1_3_4_main" secID="quest_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2016,7 +2093,7 @@ or
         <req>•  Be among the top 5 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="StuG IV: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
+    <PM name="MT-13: Agresszív támadás" short="StuG IV: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="43" opID="1" mID="13" setID="3" ID="quest_1_3_13_main" secID="quest_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Cause 1300 HP of damage to enemy vehicles</req>
@@ -2359,8 +2436,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="T28 Heavy Tank Concept: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="79" opID="2" mID="4" setID="1" ID="quest_2_1_4_main" secID="quest_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -2444,8 +2521,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="T28 Heavy Tank Concept: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2530,8 +2607,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -2567,8 +2644,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="T28 Heavy Tank Concept: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="101" opID="2" mID="11" setID="2" ID="quest_2_2_11_main" secID="quest_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -2577,8 +2654,8 @@ or
     <PM name="HT-12: Masszív páncél" short="T28 Heavy Tank Concept: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="102" opID="2" mID="12" setID="2" ID="quest_2_2_12_main" secID="quest_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -2617,8 +2694,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -2645,8 +2722,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="T28 Heavy Tank Concept: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="109" opID="2" mID="4" setID="3" ID="quest_2_3_4_main" secID="quest_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -2730,7 +2807,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="T28 Heavy Tank Concept: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
+    <PM name="MT-13: Agresszív támadás" short="T28 Heavy Tank Concept: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="118" opID="2" mID="13" setID="3" ID="quest_2_3_13_main" secID="quest_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2200 HP of damage to enemy vehicles</req>
@@ -2771,8 +2848,8 @@ or
     <PM name="TD-2: Célzott lövés" short="T28 Heavy Tank Concept: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="122" opID="2" mID="2" setID="4" ID="quest_2_4_2_main" secID="quest_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -2866,7 +2943,7 @@ or
       <Hint>Képes vagy győzelemre vezetni a csapatod. Ha ismered az ellenséges járművek gyengepontjait, a vastag páncéljuk sem mentheti meg őket.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3057,8 +3134,8 @@ or
     <PM name="LT-2: Felderítés" short="T 55A: LT-2" desc="A könnyű tankok egyik fő feladata az ellenséges járművek felderítése." tMID="152" opID="3" mID="2" setID="1" ID="quest_3_1_2_main" secID="quest_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>De sok járművet felderíteni és közben meghalni, az értékes tankod teljes elpocsékolása. A jó felderítő sikeresen fel tudja deríteni az ellenséget, miközben életben marad.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3067,8 +3144,8 @@ or
     <PM name="LT-3: A hajsza" short="T 55A: LT-3" desc="A könnyű tankod elég gyors, hogy gyorsan áthelyezkedhess oda, ahol a társaidnak segítségre van szükségük." tMID="153" opID="3" mID="3" setID="1" ID="quest_3_1_3_main" secID="quest_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Mindig próbálj az ellenség mögé kerülni, hogy a legvédtelenebb pontjukat lőhesd, a hátsó páncélzatot. Ne maradj túl sokáig egy helyen. Ha rendszeresen változtatod a helyzeted, az ellenség nehezebben tud eltalálni. Emlékezz rá, hogy a könnyű tankok felderítésének esélye ugyanakkora mozgás közben, mint álló helyzetben.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3077,8 +3154,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="T 55A: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="154" opID="3" mID="4" setID="1" ID="quest_3_1_4_main" secID="quest_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3165,8 +3242,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="T 55A: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3250,8 +3327,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -3288,8 +3365,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="T 55A: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="176" opID="3" mID="11" setID="2" ID="quest_3_2_11_main" secID="quest_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3298,8 +3375,8 @@ or
     <PM name="HT-12: Masszív páncél" short="T 55A: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3338,8 +3415,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -3367,8 +3444,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="T 55A: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="184" opID="3" mID="4" setID="3" ID="quest_3_3_4_main" secID="quest_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3455,7 +3532,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="T 55A: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
+    <PM name="MT-13: Agresszív támadás" short="T 55A: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="193" opID="3" mID="13" setID="3" ID="quest_3_3_13_main" secID="quest_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Cause 4500 HP of damage to enemy vehicles</req>
@@ -3496,8 +3573,8 @@ or
     <PM name="TD-2: Célzott lövés" short="T 55A: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="197" opID="3" mID="2" setID="4" ID="quest_3_4_2_main" secID="quest_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -3791,8 +3868,8 @@ or
     <PM name="LT-2: Felderítés" short="Object 260: LT-2" desc="A könnyű tankok egyik fő feladata az ellenséges járművek felderítése." tMID="227" opID="4" mID="2" setID="1" ID="quest_4_1_2_main" secID="quest_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>De sok járművet felderíteni és közben meghalni, az értékes tankod teljes elpocsékolása. A jó felderítő sikeresen fel tudja deríteni az ellenséget, miközben életben marad.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3801,8 +3878,8 @@ or
     <PM name="LT-3: A hajsza" short="Object 260: LT-3" desc="A könnyű tankod elég gyors, hogy gyorsan áthelyezkedhess oda, ahol a társaidnak segítségre van szükségük." tMID="228" opID="4" mID="3" setID="1" ID="quest_4_1_3_main" secID="quest_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Mindig próbálj az ellenség mögé kerülni, hogy a legvédtelenebb pontjukat lőhesd, a hátsó páncélzatot. Ne maradj túl sokáig egy helyen. Ha rendszeresen változtatod a helyzeted, az ellenség nehezebben tud eltalálni. Emlékezz rá, hogy a könnyű tankok felderítésének esélye ugyanakkora mozgás közben, mint álló helyzetben.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -3811,8 +3888,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="Object 260: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="229" opID="4" mID="4" setID="1" ID="quest_4_1_4_main" secID="quest_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -3872,8 +3949,8 @@ or
     <PM name="LT-10: A maximális eredmény" short="Object 260: LT-10" desc="Minél eredményesebb vagy a csatában, annál több tapasztalatot kapsz. Mutasd meg nekik, hogy mire képes egy könnyű tank!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Egy jó felderítő tudja, mikor legyen óvatos, és mikor legyen agresszív. Figyeld a csata alakulását.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -3901,8 +3978,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="Object 260: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -3986,8 +4063,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -4024,8 +4101,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="Object 260: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="251" opID="4" mID="11" setID="2" ID="quest_4_2_11_main" secID="quest_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -4034,8 +4111,8 @@ or
     <PM name="HT-12: Masszív páncél" short="Object 260: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="252" opID="4" mID="12" setID="2" ID="quest_4_2_12_main" secID="quest_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4074,8 +4151,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4103,8 +4180,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="Object 260: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="259" opID="4" mID="4" setID="3" ID="quest_4_3_4_main" secID="quest_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4191,7 +4268,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="Object 260: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
+    <PM name="MT-13: Agresszív támadás" short="Object 260: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="268" opID="4" mID="13" setID="3" ID="quest_4_3_13_main" secID="quest_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Cause 6000 HP of damage to enemy vehicles</req>
@@ -4232,8 +4309,8 @@ or
     <PM name="TD-2: Célzott lövés" short="Object 260: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="272" opID="4" mID="2" setID="4" ID="quest_4_4_2_main" secID="quest_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -4623,15 +4700,15 @@ or
         <req>•  Enable your allies to cause 250 HP of damage to vehicles spotted by you. Remain unspotted at the moment when the damage is caused.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Enter a battle with camouflage applied
-•  Enter a battle with Camouflage Net</req>
+        <req>•  Enter a battle with Camouflage Net
+•  Enter a battle with camouflage applied</req>
       </Secondary>
     </PM>
     <PM name="LT-13: Kulcs a győzelemhez" short="StuG IV: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 700 HP of damage to enemy vehicles
-•  Enable your allies to cause 700 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 700 HP of damage to vehicles spotted by you
+•  Cause 700 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4716,8 +4793,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 500 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Destroy an enemy vehicle</req>
@@ -4753,8 +4830,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="StuG IV: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="26" opID="1" mID="11" setID="2" ID="fallout_1_2_11_main" secID="fallout_1_2_11_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -4763,8 +4840,8 @@ or
     <PM name="HT-12: Masszív páncél" short="StuG IV: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="27" opID="1" mID="12" setID="2" ID="fallout_1_2_12_main" secID="fallout_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Cause 500 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding the hit points of your vehicle
+•  Cause 500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -4803,8 +4880,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 10 players on your team by experience earned</req>
+•  Be among the top 10 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -4831,8 +4908,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="StuG IV: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="34" opID="1" mID="4" setID="3" ID="fallout_1_3_4_main" secID="fallout_1_3_4_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle by shooting it
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Cause damage to an immobilized enemy vehicle by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="25000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -4912,7 +4989,7 @@ or
         <req>•  Be among the top 5 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="StuG IV: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="43" opID="1" mID="13" setID="3" ID="fallout_1_3_13_main" secID="fallout_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
+    <PM name="MT-13: Agresszív támadás" short="StuG IV: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="43" opID="1" mID="13" setID="3" ID="fallout_1_3_13_main" secID="fallout_1_3_13_add" minLvl="4" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="StuG IV">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Cause 1300 HP of damage to enemy vehicles</req>
@@ -5255,8 +5332,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="T28 Heavy Tank Concept: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="79" opID="2" mID="4" setID="1" ID="fallout_2_1_4_main" secID="fallout_2_1_4_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy a track of an enemy vehicle</req>
+        <req>•  Destroy a track of an enemy vehicle
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</req>
@@ -5340,8 +5417,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="T28 Heavy Tank Concept: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1500 HP of damage to vehicles spotted by you
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5426,8 +5503,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 1000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Destroy 2 enemy vehicles</req>
@@ -5463,8 +5540,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="T28 Heavy Tank Concept: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="101" opID="2" mID="11" setID="2" ID="fallout_2_2_11_main" secID="fallout_2_2_11_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5473,8 +5550,8 @@ or
     <PM name="HT-12: Masszív páncél" short="T28 Heavy Tank Concept: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="102" opID="2" mID="12" setID="2" ID="fallout_2_2_12_main" secID="fallout_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -5513,8 +5590,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 5 players on your team by experience earned</req>
+•  Be among the top 5 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -5541,8 +5618,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="T28 Heavy Tank Concept: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="109" opID="2" mID="4" setID="3" ID="fallout_2_3_4_main" secID="fallout_2_3_4_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 2 times by shooting it
-•  Destroy the tracks of 2 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 2 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 2 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Destroy an immobilized enemy vehicle</req>
@@ -5626,7 +5703,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="T28 Heavy Tank Concept: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="118" opID="2" mID="13" setID="3" ID="fallout_2_3_13_main" secID="fallout_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
+    <PM name="MT-13: Agresszív támadás" short="T28 Heavy Tank Concept: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="118" opID="2" mID="13" setID="3" ID="fallout_2_3_13_main" secID="fallout_2_3_13_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2200 HP of damage to enemy vehicles</req>
@@ -5667,8 +5744,8 @@ or
     <PM name="TD-2: Célzott lövés" short="T28 Heavy Tank Concept: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="122" opID="2" mID="2" setID="4" ID="fallout_2_4_2_main" secID="fallout_2_4_2_add" minLvl="5" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T28 Heavy Tank Concept">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="100000" slots="0" tokens="1" done="false">
-        <req>•  Cause 1000 HP of damage to enemy vehicles
-•  Destroy an internal module or injure a crew member</req>
+        <req>•  Destroy an internal module or injure a crew member
+•  Cause 1000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -5762,7 +5839,7 @@ or
       <Hint>Képes vagy győzelemre vezetni a csapatod. Ha ismered az ellenséges járművek gyengepontjait, a vastag páncéljuk sem mentheti meg őket.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
         <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy an enemy heavy tank of Tier I or higher</req>
+•  Destroy an enemy heavy tank that is 1 tier higher than your vehicle</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5953,8 +6030,8 @@ or
     <PM name="LT-2: Felderítés" short="T 55A: LT-2" desc="A könnyű tankok egyik fő feladata az ellenséges járművek felderítése." tMID="152" opID="3" mID="2" setID="1" ID="fallout_3_1_2_main" secID="fallout_3_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>De sok járművet felderíteni és közben meghalni, az értékes tankod teljes elpocsékolása. A jó felderítő sikeresen fel tudja deríteni az ellenséget, miközben életben marad.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -5963,8 +6040,8 @@ or
     <PM name="LT-3: A hajsza" short="T 55A: LT-3" desc="A könnyű tankod elég gyors, hogy gyorsan áthelyezkedhess oda, ahol a társaidnak segítségre van szükségük." tMID="153" opID="3" mID="3" setID="1" ID="fallout_3_1_3_main" secID="fallout_3_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Mindig próbálj az ellenség mögé kerülni, hogy a legvédtelenebb pontjukat lőhesd, a hátsó páncélzatot. Ne maradj túl sokáig egy helyen. Ha rendszeresen változtatod a helyzeted, az ellenség nehezebben tud eltalálni. Emlékezz rá, hogy a könnyű tankok felderítésének esélye ugyanakkora mozgás közben, mint álló helyzetben.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 5 times to enemy vehicles by shooting them
-•  Spot 4 enemy vehicles</req>
+        <req>•  Spot 4 enemy vehicles
+•  Cause damage 5 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -5973,8 +6050,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="T 55A: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="154" opID="3" mID="4" setID="1" ID="fallout_3_1_4_main" secID="fallout_3_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6061,8 +6138,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="T 55A: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 1800 HP of damage to vehicles spotted by you
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6146,8 +6223,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 3000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 3 enemy vehicles</req>
@@ -6184,8 +6261,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="T 55A: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="176" opID="3" mID="11" setID="2" ID="fallout_3_2_11_main" secID="fallout_3_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6194,8 +6271,8 @@ or
     <PM name="HT-12: Masszív páncél" short="T 55A: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="177" opID="3" mID="12" setID="2" ID="fallout_3_2_12_main" secID="fallout_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6234,8 +6311,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Be among the top 3 players on your team by experience earned</req>
+•  Be among the top 3 players on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6263,8 +6340,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="T 55A: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="184" opID="3" mID="4" setID="3" ID="fallout_3_3_4_main" secID="fallout_3_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 3 times by shooting it
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 3 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6351,7 +6428,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="T 55A: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="193" opID="3" mID="13" setID="3" ID="fallout_3_3_13_main" secID="fallout_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
+    <PM name="MT-13: Agresszív támadás" short="T 55A: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="193" opID="3" mID="13" setID="3" ID="fallout_3_3_13_main" secID="fallout_3_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Cause 4500 HP of damage to enemy vehicles</req>
@@ -6392,8 +6469,8 @@ or
     <PM name="TD-2: Célzott lövés" short="T 55A: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="197" opID="3" mID="2" setID="4" ID="fallout_3_4_2_main" secID="fallout_3_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="T 55A">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Cause 2000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 2 modules or crew members
+•  Cause 2000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
@@ -6687,8 +6764,8 @@ or
     <PM name="LT-2: Felderítés" short="Object 260: LT-2" desc="A könnyű tankok egyik fő feladata az ellenséges járművek felderítése." tMID="227" opID="4" mID="2" setID="1" ID="fallout_4_1_2_main" secID="fallout_4_1_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>De sok járművet felderíteni és közben meghalni, az értékes tankod teljes elpocsékolása. A jó felderítő sikeresen fel tudja deríteni az ellenséget, miközben életben marad.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Spot 8 enemy vehicles</req>
+        <req>•  Spot 8 enemy vehicles
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6697,8 +6774,8 @@ or
     <PM name="LT-3: A hajsza" short="Object 260: LT-3" desc="A könnyű tankod elég gyors, hogy gyorsan áthelyezkedhess oda, ahol a társaidnak segítségre van szükségük." tMID="228" opID="4" mID="3" setID="1" ID="fallout_4_1_3_main" secID="fallout_4_1_3_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Mindig próbálj az ellenség mögé kerülni, hogy a legvédtelenebb pontjukat lőhesd, a hátsó páncélzatot. Ne maradj túl sokáig egy helyen. Ha rendszeresen változtatod a helyzeted, az ellenség nehezebben tud eltalálni. Emlékezz rá, hogy a könnyű tankok felderítésének esélye ugyanakkora mozgás közben, mint álló helyzetben.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage 6 times to enemy vehicles by shooting them
-•  Spot 6 enemy vehicles</req>
+        <req>•  Spot 6 enemy vehicles
+•  Cause damage 6 times to enemy vehicles by shooting them</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6707,8 +6784,8 @@ or
     <PM name="LT-4: Kényszerített megállás" short="Object 260: LT-4" desc="Lődd le az ellenség lánctalpát, ezáltal mozgásképtelenné teszed és tálcán kínálod az erősebb löveggel rendelkező csapattársaknak. Ha lelövöd az ellenséges jármű lánctalpát azzal ideiglenesen mozgásképtelenné teszed. Ez segít a csapattársaidnak, hogy könnyebben célba vehessék." tMID="229" opID="4" mID="4" setID="1" ID="fallout_4_1_4_main" secID="fallout_4_1_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>A lánctalp leghatékonyabb lelövéséhez célozz a felfüggesztés első vagy a hátsó futógörgőjére. Ne feledd, ha a löveged nem is képes átütni az ellenség páncélzatát, még mindig lelőheted a lánctalpát. Az R.RO lövedékek a kiválóak erre a feladatra. XP-t kapsz azért is, ha az általad mozgásképtelenné tett ellenségnek a csapattársad sebzést okoz.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you
-•  Destroy the tracks of 3 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 3 different enemy vehicles
+•  Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy the tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</req>
@@ -6768,8 +6845,8 @@ or
     <PM name="LT-10: A maximális eredmény" short="Object 260: LT-10" desc="Minél eredményesebb vagy a csatában, annál több tapasztalatot kapsz. Mutasd meg nekik, hogy mire képes egy könnyű tank!" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Egy jó felderítő tudja, mikor legyen óvatos, és mikor legyen agresszív. Figyeld a csata alakulását.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Survive the battle
-•  Be the top player in the battle by experience earned</req>
+        <req>•  Be the top player in the battle by experience earned
+•  Survive the battle</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base</req>
@@ -6797,8 +6874,8 @@ or
     <PM name="LT-13: Kulcs a győzelemhez" short="Object 260: LT-13" desc="Ha több könnyű tank is van a garázsodban, akkor válaszd azt, amelyikkel a legtovább tudsz életben maradni. A végjátékban mutatkozik meg a könnyű tankok igazi ereje: mindkét csapat óvatosabb játékra vált és minden felderített jármű a megmaradt csapattársaid célkeresztjébe kerül." tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Kombináld az aktív és passzív felderítést, kerüld az ellenséges tüzet, ameddig csak lehetséges. A csata vége felé egy könnyű tank előny a csapata számára és bosszúság az ellenfél számára.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 2500 HP of damage to enemy vehicles
-•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you</req>
+        <req>•  Enable your allies to cause 2000 HP of damage to vehicles spotted by you
+•  Cause 2500 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6882,8 +6959,8 @@ or
       <Hint>Légy óvatos az ellenség bázisának megközelítésekor—állj készen a \"meleg\" fogadtatásra. Ha a védelmi taktikákat részesíted előnyben, akkor használd ki a terepet és találd meg a legjobb rejtekhelyeket és a legelőnyösebb pontokat, ahonnan egyedül is meg tudod védeni a saját bázisod (vagy a semleges bázist ütközet során).</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause 4000 HP of damage to enemy vehicles
-•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base</req>
+•  Participate in the successful capture of a base or reset the enemy capture points of your own or a neutral base
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Destroy 4 enemy vehicles</req>
@@ -6920,8 +6997,8 @@ or
     <PM name="HT-11: Karcolás nélkül" short="Object 260: HT-11" desc="Minden modul vagy legénység sérülés problémát okozhat. Próbáld védeni őket amennyire csak lehetséges, amikor áttörsz az ellenség sorain." tMID="251" opID="4" mID="11" setID="2" ID="fallout_4_2_11_main" secID="fallout_4_2_11_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Használd az elsősegély és szerszám készletet, ha megsérült az egyik modulod vagy legénységi tagod.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 4000 HP of damage to enemy vehicles
-•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
+        <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules
+•  Cause 4000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy 5 enemy vehicles</req>
@@ -6930,8 +7007,8 @@ or
     <PM name="HT-12: Masszív páncél" short="Object 260: HT-12" desc="A páncélzatod megfelelően használva képes nagy mennyiségű sérülést felfogni." tMID="252" opID="4" mID="12" setID="2" ID="fallout_4_2_12_main" secID="fallout_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Mindig próbáld a frontpáncélod mutatni az ellenség felé, hogy az oldalad és a gyenge pontok rejtve lehetnek. Ha szögbe fordítod a járműved, akkor megnövekszik a páncéljának a hatékonysága.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Cause 3000 HP of damage to enemy vehicles
-•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</req>
+        <req>•  Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle
+•  Cause 3000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -6970,8 +7047,8 @@ or
       <Hint>Lődd az ellenséget minden adandó alkalommal, ugyanakkor próbáld elkerülni a lövéseket.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
-•  Cause damage to an enemy vehicle
-•  Finish the battle as the top player on your team by experience earned</req>
+•  Finish the battle as the top player on your team by experience earned
+•  Cause damage to an enemy vehicle</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Survive the battle</req>
@@ -6999,8 +7076,8 @@ or
     <PM name="MT-4: Maradsz még, ugye" short="Object 260: MT-4" desc="Az ellenség lánctalpának megsemmisítésével kiszolgáltatott helyzetbe hozod szövetségeseiddel szemben." tMID="259" opID="4" mID="4" setID="3" ID="fallout_4_3_4_main" secID="fallout_4_3_4_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Célozz a vezetőgörgőkre, a felfüggesztés elején vagy hátulján található hajtókerekekre. A mozdulatlan ellenséges jármű könnyű célpont. Ne felejtsd el felhívni a csapattársaid figyelmét, hogy tüzeljenek az adott járműre, a \"Tüzelj … ellenségre!\" parancs kiválasztásával a parancs menüből.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause damage to an immobilized enemy vehicle 4 times by shooting it
-•  Destroy the tracks of 4 different enemy vehicles</req>
+        <req>•  Destroy the tracks of 4 different enemy vehicles
+•  Cause damage to an immobilized enemy vehicle 4 times by shooting it</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Destroy all enemy vehicles / capture or defend the base
@@ -7087,7 +7164,7 @@ or
         <req>•  Be among the top 3 players on your team by experience earned</req>
       </Secondary>
     </PM>
-    <PM name="MT-13: Aggresszív támadás" short="Object 260: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="268" opID="4" mID="13" setID="3" ID="fallout_4_3_13_main" secID="fallout_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
+    <PM name="MT-13: Agresszív támadás" short="Object 260: MT-13" desc="A csatában végrehajtott minden hasznos tettedért tapasztalati pontot kapsz. A pálya szélénél rejtőzködni ritkán hatásos—inkább próbálj meg olyan közel lenni az akcióhoz, amennyire csak lehet és fedezd a társaid." tMID="268" opID="4" mID="13" setID="3" ID="fallout_4_3_13_main" secID="fallout_4_3_13_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Amint megsemmisítettél egy ellenséget, közelítsd meg a következő célpontot. Csapattársaidnak valószínűleg segítségre van szükségük valahol máshol.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
         <req>•  Cause 6000 HP of damage to enemy vehicles</req>
@@ -7128,8 +7205,8 @@ or
     <PM name="TD-2: Célzott lövés" short="Object 260: TD-2" desc="Az ellenséges jármű moduljainak megsemmisítése vagy legénységének kiütése használhatatlanná teszi azt." tMID="272" opID="4" mID="2" setID="4" ID="fallout_4_4_2_main" secID="fallout_4_4_2_add" minLvl="6" maxLvl="10" campID="1" camp="A rég várt utánpótlás" reward="Object 260">
       <Hint>Egy sikeres találat sérülést okozhat vagy megsemmisítheti az ellenséges jármű moduljait vagy a legénységnek sebesülést okozhat. Néha a robbanó lövedékek jobbak erre a feladatra.</Hint>
       <Primary fXP="0" cr="300000" slots="0" tokens="1" done="false">
-        <req>•  Cause 5000 HP of damage to enemy vehicles
-•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</req>
+        <req>•  Destroy internal modules or injure crew members, totaling at least 3 modules or crew members
+•  Cause 5000 HP of damage to enemy vehicles</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  At the end of the battle, have no injured crew members or damaged/destroyed internal modules</req>
