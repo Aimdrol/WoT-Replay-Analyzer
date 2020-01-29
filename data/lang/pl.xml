@@ -55,6 +55,7 @@
     <tank ID="A13_T34_hvy_BF" sName="T34 B" lName="T34 B" />
     <tank ID="A13_T34_hvy_FL" sName="T34 FL" lName="T34 FL" />
     <tank ID="A13_T34_hvy_IGR" sName="T34" lName="T34" />
+    <tank ID="A130_Super_Hellcat" sName="Super Hellcat" lName="Super Hellcat" />
     <tank ID="A14_T30" sName="T30" lName="T30" />
     <tank ID="A15_T57" sName="T57" lName="T57" />
     <tank ID="A16_M7_Priest" sName="M7 Priest" lName="M7 Priest" />
@@ -214,6 +215,7 @@
     <tank ID="Ch39_WZ120_1G_FT" sName="WZ-120-1 FT" lName="WZ-120-1G FT" />
     <tank ID="Ch40_WZ120G_FT" sName="WZ-120G FT" lName="WZ-120G FT" />
     <tank ID="Ch41_WZ_111_5A" sName="WZ-111 5A" lName="WZ-111 model 5A" />
+    <tank ID="Ch41_WZ_111_5A_bob" sName="WZ-111 5A BB" lName="WZ-111 model 5A BB" />
     <tank ID="Ch41_WZ_111_QL" sName="WZ-111 QL" lName="WZ-111 Qilin" />
     <tank ID="Ch42_WalkerBulldog_M41D" sName="M41D" lName="M41D" />
     <tank ID="Chi_Ha" sName="Chi-Ha" lName="Type 97 Chi-Ha" />
@@ -276,6 +278,8 @@
     <tank ID="F111_AM39_Gendron_Somua" sName="AM Gendron" lName="AM 39 Gendron-Somua" />
     <tank ID="F112_M10_RBFM" sName="M10 RBFM" lName="M10 RBFM" />
     <tank ID="F113_Bretagne_Panther" sName="Bret. Panther" lName="Bretagne Panther" />
+    <tank ID="F114_Projet_4_1" sName="Char Futur 4" lName="Char Futur 4" />
+    <tank ID="F116_Bat_Chatillon_Bourrasque" sName="Bourrasque" lName="Bat.-Châtillon Bourrasque" />
     <tank ID="F12_Hotchkiss_H35" sName="H35" lName="Hotchkiss H35" />
     <tank ID="F13_AMX38" sName="AMX 38" lName="AMX 38" />
     <tank ID="F14_AMX40" sName="AMX 40" lName="AMX 40" />
@@ -305,6 +309,7 @@
     <tank ID="F36_AMX_AC_Mle1948_IGR" sName="AMX AC 48" lName="AMX AC mle. 48" />
     <tank ID="F37_AMX50_Foch" sName="Foch" lName="AMX 50 Foch" />
     <tank ID="F38_Bat_Chatillon155_58" sName="B-C 155 58" lName="Bat.-Châtillon 155 58" />
+    <tank ID="F42_AMR_35" sName="AMR 35" lName="AMR 35" />
     <tank ID="F44_Somua_S35" sName="Somua S35" lName="Somua S35" />
     <tank ID="F49_RenaultR35" sName="R35" lName="Renault R35" />
     <tank ID="F50_FCM36_20t" sName="FCM 36" lName="FCM 36" />
@@ -407,6 +412,7 @@
     <tank ID="G126_HWK_12" sName="HWK 12" lName="HWK 12" />
     <tank ID="G13_VK3001H" sName="VK 30.01 H" lName="VK 30.01 (H)" />
     <tank ID="G134_PzKpfw_VII" sName="Pz.Kpfw. VII" lName="Pz.Kpfw. VII" />
+    <tank ID="G134_PzKpfw_VII_bob" sName="Pz.Kpfw. VII BB" lName="Pz.Kpfw. VII BB" />
     <tank ID="G136_Tiger_131" sName="Tiger 131" lName="Tiger 131" />
     <tank ID="G137_PzVI_Tiger_217" sName="Tiger 217" lName="Tiger 217" />
     <tank ID="G138_VK168_02" sName="VK 168.01 P" lName="VK 168.01 (P)" />
@@ -634,6 +640,7 @@
     <tank ID="It06_M14_41" sName="M14/41" lName="M14/41" />
     <tank ID="It07_P26_40" sName="P26/40" lName="P26/40" />
     <tank ID="It08_Progetto_M40_mod_65" sName="Progetto 65" lName="Progetto M40 mod. 65" />
+    <tank ID="It08_Progetto_M40_mod_65_bob" sName="Progetto 65 BB" lName="Progetto M40 mod. 65 BB" />
     <tank ID="It09_P43_ter" sName="P.43 ter" lName="P.43 ter" />
     <tank ID="It10_P43_bis" sName="P.43 bis" lName="P.43 bis" />
     <tank ID="It11_P43" sName="P.43" lName="P.43" />
@@ -912,7 +919,11 @@
     <tank ID="R161_T_116" sName="T-116" lName="T-116" />
     <tank ID="R165_Object_703_II" sName="703 II (122)" lName="Object 703 Version II" />
     <tank ID="R165_Object_703_II_2" sName="703 II (100)" lName="Object 703-II (100)" />
+    <tank ID="R169_ST_II" sName="ST-II" lName="ST-II" />
     <tank ID="R17_SU-100" sName="SU-100" lName="SU-100" />
+    <tank ID="R170_IS_2_II" sName="IS-2-II" lName="IS-2-II" />
+    <tank ID="R171_IS_3_II" sName="IS-3-II" lName="IS-3-II" />
+    <tank ID="R172_Object_752" sName="Obj. 752" lName="Object 752" />
     <tank ID="R18_SU-152" sName="SU-152" lName="SU-152" />
     <tank ID="R18_SU-152_IGR" sName="SU-152" lName="SU-152" />
     <tank ID="R19_IS-3" sName="IS-3" lName="IS-3" />
@@ -997,6 +1008,7 @@
     <tank ID="R96_Object_430" sName="Obj. 430" lName="Object 430" />
     <tank ID="R96_Object_430B" sName="Obj. 430B" lName="Object 430B" />
     <tank ID="R97_Object_140" sName="Obj. 140" lName="Object 140" />
+    <tank ID="R97_Object_140_bob" sName="Obj. 140 BB" lName="Object 140 BB" />
     <tank ID="R98_T44_85" sName="T-44-85" lName="T-44-85" />
     <tank ID="R98_T44_85M" sName="T-44 ltwt." lName="T-44 lightweight" />
     <tank ID="R99_T44_122" sName="T-44-122" lName="T-44-122" />
@@ -1037,6 +1049,7 @@
     <tank ID="S26_Lansen_C" sName="Lansen C" lName="Lansen C" />
     <tank ID="S27_UDES_16" sName="UDES 16" lName="UDES 16" />
     <tank ID="S28_UDES_15_16" sName="UDES 15/16" lName="UDES 15/16" />
+    <tank ID="S28_UDES_15_16_bob" sName="UDES 15/16 BB" lName="UDES 15/16 BB" />
     <tank ID="S29_UDES_14_5" sName="UDES 14 5" lName="UDES 14 Alt 5" />
     <tank ID="S35_captured" sName="Pz. S35" lName="Pz.Kpfw. S35 739 (f)" />
     <tank ID="S-51" sName="S-51" lName="S-51" />
@@ -1445,6 +1458,7 @@
     <item ID="83" Name="Król szosy, klasa III" />
     <item ID="84" Name="Król szosy, klasa II" />
     <item ID="85" Name="Król szosy, klasa I" />
+    <item ID="86" Name="Generał Mróz" />
     <item ID="9" Name="Brązowa, sezon 2" />
     <item ID="unknown" Name="Nieznany" />
   </Lang_Badges>
@@ -1713,7 +1727,7 @@
     <achv ID_Num="1203" ID="FE18Collection2" Name="Zawodowy myśliwy" />
     <achv ID_Num="1204" ID="FE18Collection3" Name="Buffon jest idolem" />
     <achv ID_Num="1205" ID="FE18OpenRegistration" Name="Uczestnik turnieju" />
-    <achv ID_Num="1206" ID="FE18OpenPlayOff" Name="Etap  eliminacji" />
+    <achv ID_Num="1206" ID="FE18OpenPlayOff" Name="Etap eliminacji" />
     <achv ID_Num="1207" ID="FE18OpenFinalStage" Name="Linia mety" />
     <achv ID_Num="1208" ID="FE18OpenFirstPlace" Name="Jesteśmy mistrzami!" />
     <achv ID_Num="1213" ID="medalKursk" Name="Bohater Bitwy na Łuku Kurskim" />
@@ -1839,9 +1853,9 @@
     <PM name="CL-8: Wynocha z naszej bazy!" short="StuG IV: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="8" opID="1" mID="8" setID="1" ID="quest_1_1_8_main" secID="quest_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika
+        <req>•  Weź udział w udanym zajęciu bazy
 lub
-•  Weź udział w udanym zajęciu bazy
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -1881,15 +1895,15 @@ lub
         <req>•  Umożliw swoim sojusznikom zadanie 250 PW uszkodzeń wykrytym przez Ciebie pojazdom. Pozostań niewykrytym podczas zadawania uszkodzeń.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Wejdź do bitwy, mając siatkę maskującą
-•  Wejdź do bitwy, mając założony kamuflaż</req>
+        <req>•  Wejdź do bitwy, mając założony kamuflaż
+•  Wejdź do bitwy, mając siatkę maskującą</req>
       </Secondary>
     </PM>
     <PM name="CL-13: Klucz do zwycięstwa" short="StuG IV: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="13" opID="1" mID="13" setID="1" ID="quest_1_1_13_main" secID="quest_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 700 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 700 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 700 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 700 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -1911,8 +1925,8 @@ lub
         <req>•  Osiągnij łącznie 3000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Umożliw swoim sojusznikom uszkodzenie 4 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice</req>
+        <req>•  Umożliw swoim sojusznikom uszkodzenie 4 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice
+•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="StuG IV: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="16" opID="1" mID="1" setID="2" ID="quest_1_2_1_main" secID="quest_1_2_1_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
@@ -1974,8 +1988,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazd przeciwnika</req>
@@ -2021,8 +2035,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="StuG IV: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="27" opID="1" mID="12" setID="2" ID="quest_1_2_12_main" secID="quest_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Niech uszkodzenia zablokowane przez Twój pancerz wyniosą przynajmniej tyle, ile wynosi liczba PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń
+•  Niech uszkodzenia zablokowane przez Twój pancerz wyniosą przynajmniej tyle, ile wynosi liczba PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -2053,8 +2067,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 4000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="StuG IV: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="31" opID="1" mID="1" setID="3" ID="quest_1_3_1_main" secID="quest_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
@@ -2126,8 +2140,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="StuG IV: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="38" opID="1" mID="8" setID="3" ID="quest_1_3_8_main" secID="quest_1_3_8_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 300 PW uszkodzeń czołgom średnim przeciwnika
-•  Zadaj uszkodzenia 3 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 3 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zadaj 300 PW uszkodzeń czołgom średnim przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -2136,8 +2150,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="StuG IV: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="39" opID="1" mID="9" setID="3" ID="quest_1_3_9_main" secID="quest_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj 300 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 300 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -2303,8 +2317,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="StuG IV: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="57" opID="1" mID="12" setID="4" ID="quest_1_4_12_main" secID="quest_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -2322,8 +2336,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="StuG IV: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="59" opID="1" mID="14" setID="4" ID="quest_1_4_14_main" secID="quest_1_4_14_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 10% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 10% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -2441,8 +2455,8 @@ lub
     <PM name="DS-12: Złe oko" short="StuG IV: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="72" opID="1" mID="12" setID="5" ID="quest_1_5_12_main" secID="quest_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 50 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 50 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -2462,9 +2476,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="StuG IV: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="74" opID="1" mID="14" setID="5" ID="quest_1_5_14_main" secID="quest_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 70 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 400 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 400 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 70 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -2550,9 +2564,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="T28 Heavy Tank Concept: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="83" opID="2" mID="8" setID="1" ID="quest_2_1_8_main" secID="quest_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 20 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 20 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 20 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 20 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -2598,8 +2612,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="T28 Heavy Tank Concept: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="88" opID="2" mID="13" setID="1" ID="quest_2_1_13_main" secID="quest_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 1500 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 1500 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -2621,8 +2635,8 @@ lub
         <req>•  Osiągnij łącznie 4000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Umożliw swoim sojusznikom uszkodzenie 5 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice</req>
+        <req>•  Umożliw swoim sojusznikom uszkodzenie 5 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice
+•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="T28 Heavy Tank Concept: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="91" opID="2" mID="1" setID="2" ID="quest_2_2_1_main" secID="quest_2_2_1_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
@@ -2684,8 +2698,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 2 pojazdów przeciwnika</req>
@@ -2731,8 +2745,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="T28 Heavy Tank Concept: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="102" opID="2" mID="12" setID="2" ID="quest_2_2_12_main" secID="quest_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 2 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 2 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -2763,8 +2777,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 6000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="T28 Heavy Tank Concept: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="106" opID="2" mID="1" setID="3" ID="quest_2_3_1_main" secID="quest_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
@@ -2837,8 +2851,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="T28 Heavy Tank Concept: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="113" opID="2" mID="8" setID="3" ID="quest_2_3_8_main" secID="quest_2_3_8_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 750 PW uszkodzeń czołgom średnim przeciwnika
-•  Zadaj uszkodzenia 5 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 5 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zadaj 750 PW uszkodzeń czołgom średnim przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -2848,8 +2862,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="T28 Heavy Tank Concept: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="114" opID="2" mID="9" setID="3" ID="quest_2_3_9_main" secID="quest_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj 750 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 750 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -2877,8 +2891,8 @@ lub
     <PM name="CŚ-12: Podpalacz" short="T28 Heavy Tank Concept: CŚ-12" desc="Podpalenie pojazdu przeciwnika to jeden z najlepszych sposobów na jego zniszczenie." tMID="117" opID="2" mID="12" setID="3" ID="quest_2_3_12_main" secID="quest_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Trafienia penetrujące w silnik lub zbiorniki paliwa mogą spowodować pożar. Przestudiuj rysunki pojazdów, aby dowiedzieć się gdzie te krytyczne moduły są rozlokowane.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń
-•  Podpal pojazd przeciwnika</req>
+        <req>•  Podpal pojazd przeciwnika
+•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Bądź w swojej drużynie wśród pierwszych 3 graczy pod względem zdobytego doświadczenia</req>
@@ -2905,8 +2919,8 @@ lub
     <PM name="CŚ-15: Polowanie na myśliwego" short="T28 Heavy Tank Concept: CŚ-15" desc="Możesz zmienić bieg bitwy, neutralizując niszczyciele czołgów przeciwnika." tMID="120" opID="2" mID="15" setID="3" ID="quest_2_3_15_main" secID="quest_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Pomyśl, gdzie byś się zaczaił, gdybyś prowadził niszczyciel czołgów. To może być dokładnie to miejsce, w którym właśnie teraz ukrywa się niszczyciel czołgów przeciwnika. Często niszczyciele czołgów ustawiają się tak, aby kryć najczęstsze ścieżki ataku, więc spróbuj trafić je z niespodziewanej strony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz 2 niszczycieli czołgów przeciwnika
-•  Zadaj 1000 PW uszkodzeń niszczycielom czołgów przeciwnika</req>
+        <req>•  Zadaj 1000 PW uszkodzeń niszczycielom czołgów przeciwnika
+•  Zniszcz 2 niszczycieli czołgów przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3019,8 +3033,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="T28 Heavy Tank Concept: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="132" opID="2" mID="12" setID="4" ID="quest_2_4_12_main" secID="quest_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika z poziomu o 1 wyższego od Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
+•  Zniszcz czołg ciężki przeciwnika z poziomu o 1 wyższego od Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -3038,8 +3052,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="T28 Heavy Tank Concept: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="134" opID="2" mID="14" setID="4" ID="quest_2_4_14_main" secID="quest_2_4_14_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 15% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 15% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -3158,8 +3172,8 @@ lub
     <PM name="DS-12: Złe oko" short="T28 Heavy Tank Concept: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="147" opID="2" mID="12" setID="5" ID="quest_2_5_12_main" secID="quest_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -3179,9 +3193,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="T28 Heavy Tank Concept: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="149" opID="2" mID="14" setID="5" ID="quest_2_5_14_main" secID="quest_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 600 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 600 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -3259,8 +3273,8 @@ lub
     <PM name="CL-7: Polowanie na artylerię" short="T 55A: CL-7" desc="Artyleria to priorytetowy cel dla czołgów lekkich. Jeśli ją zniszczysz, mocno zwiększysz szanse zwycięstwa swojej drużyny." tMID="157" opID="3" mID="7" setID="1" ID="quest_3_1_7_main" secID="quest_3_1_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Zdjęcie artylerii przeciwnika nie jest łatwe. Poczekaj, aż Twoi sojusznicy odwrócą uwagę przeciwnika, a wtedy pędź do jego dział samobieżnych. Kiedy je zaatakujesz, spróbuj nie dostać się przed ich działa. Zamiast tego spróbuj zaatakować je z boku i od tyłu.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Wykryj i zadaj uszkodzenia 1 działom samobieżnym przeciwnika</req>
+        <req>•  Wykryj i zadaj uszkodzenia 1 działom samobieżnym przeciwnika
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3270,9 +3284,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="T 55A: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="158" opID="3" mID="8" setID="1" ID="quest_3_1_8_main" secID="quest_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 40 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 40 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 40 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 40 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -3319,8 +3333,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="T 55A: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="163" opID="3" mID="13" setID="1" ID="quest_3_1_13_main" secID="quest_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 1800 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 1800 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3342,8 +3356,8 @@ lub
         <req>•  Osiągnij łącznie 7000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Umożliw swoim sojusznikom zniszczenie 4 pojazdów, wykrywając je lub niszcząc ich gąsienice
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Umożliw swoim sojusznikom zniszczenie 4 pojazdów, wykrywając je lub niszcząc ich gąsienice</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="T 55A: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="166" opID="3" mID="1" setID="2" ID="quest_3_2_1_main" secID="quest_3_2_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -3404,8 +3418,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 3 pojazdów przeciwnika</req>
@@ -3452,8 +3466,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="T 55A: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="177" opID="3" mID="12" setID="2" ID="quest_3_2_12_main" secID="quest_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3484,8 +3498,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 12000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="T 55A: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="181" opID="3" mID="1" setID="3" ID="quest_3_3_1_main" secID="quest_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -3552,8 +3566,8 @@ lub
     <PM name="CŚ-7: Uderzenie z zaskoczenia" short="T 55A: CŚ-7" desc="Działa samobieżne przeciwnika to twój główny cel. Unieszkodliwiając je, zbliżysz swoją drużynę o krok do zwycięstwa." tMID="187" opID="3" mID="7" setID="3" ID="quest_3_3_7_main" secID="quest_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Ogień dział samobieżnych przeciwnika może spowodować ciężkie uszkodzenia wśród pojazdów Twojej drużyny. Przełamując flankę, najedź bazę przeciwnika i zneutralizuj jego działa.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Zadaj 2 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj 2 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3563,8 +3577,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="T 55A: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="188" opID="3" mID="8" setID="3" ID="quest_3_3_8_main" secID="quest_3_3_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg średni przeciwnika
-•  Zadaj uszkodzenia 6 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 6 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zniszcz czołg średni przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń</req>
@@ -3573,8 +3587,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="T 55A: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="189" opID="3" mID="9" setID="3" ID="quest_3_3_9_main" secID="quest_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj 1500 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 1500 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3747,8 +3761,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="T 55A: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="207" opID="3" mID="12" setID="4" ID="quest_3_4_12_main" secID="quest_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -3767,8 +3781,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="T 55A: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="209" opID="3" mID="14" setID="4" ID="quest_3_4_14_main" secID="quest_3_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -3876,8 +3890,8 @@ lub
         <req>•  Zadaj lub asystuj w zadaniu 3000 PW uszkodzeń poprzez ogłuszenie lub unieruchomienie</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Secondary>
     </PM>
     <PM name="DS-11: Obszar rażenia" short="T 55A: DS-11" desc="Oprócz zadania pokaźnych uszkodzeń dzięki celnemu strzałowi, pociski odłamkowo-burzące mogą również ogłuszyć wszystkie pojazdy w zasięgu rażenia po wybuchu pocisku. Wiele map ma takie miejsca, w których pojazdy przeciwnika często tłoczą się w grupie. Wykorzystaj swoją szansę i wyślij im wybuchowe pozdrowienia." tMID="221" opID="3" mID="11" setID="5" ID="quest_3_5_11_main" secID="quest_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -3892,8 +3906,8 @@ lub
     <PM name="DS-12: Złe oko" short="T 55A: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="222" opID="3" mID="12" setID="5" ID="quest_3_5_12_main" secID="quest_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 140 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 140 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -3913,9 +3927,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="T 55A: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="224" opID="3" mID="14" setID="5" ID="quest_3_5_14_main" secID="quest_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 160 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 800 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 800 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 160 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -4004,9 +4018,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="Object 260: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="233" opID="4" mID="8" setID="1" ID="quest_4_1_8_main" secID="quest_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 60 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 60 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 60 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 60 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -4026,8 +4040,8 @@ lub
     <PM name="CL-10: Maksymalny wynik" short="Object 260: CL-10" desc="Im bardziej efektywny jesteś w bitwie, tym więcej doświadczenia zdobywasz. Pokaż im do czego jest zdolny lekki czołg!" tMID="235" opID="4" mID="10" setID="1" ID="quest_4_1_10_main" secID="quest_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Dobry zwiadowca wie kiedy być ostrożnym, a kiedy agresywnym. Uważnie obserwuj przebieg bitwy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Przetrwaj bitwę
-•  Zdobądź najwięcej doświadczenia spośród wszystkich graczy w bitwie</req>
+        <req>•  Zdobądź najwięcej doświadczenia spośród wszystkich graczy w bitwie
+•  Przetrwaj bitwę</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -4055,8 +4069,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="Object 260: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="238" opID="4" mID="13" setID="1" ID="quest_4_1_13_main" secID="quest_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 2500 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 2000 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 2000 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 2500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4078,8 +4092,8 @@ lub
         <req>•  Osiągnij łącznie 8000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Umożliw swoim sojusznikom zniszczenie 5 pojazdów, wykrywając je lub niszcząc ich gąsienice
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Umożliw swoim sojusznikom zniszczenie 5 pojazdów, wykrywając je lub niszcząc ich gąsienice</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="Object 260: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="241" opID="4" mID="1" setID="2" ID="quest_4_2_1_main" secID="quest_4_2_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -4140,8 +4154,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 4 pojazdów przeciwnika</req>
@@ -4188,8 +4202,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="Object 260: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="252" opID="4" mID="12" setID="2" ID="quest_4_2_12_main" secID="quest_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4220,8 +4234,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 14000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="Object 260: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="256" opID="4" mID="1" setID="3" ID="quest_4_3_1_main" secID="quest_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -4288,8 +4302,8 @@ lub
     <PM name="CŚ-7: Uderzenie z zaskoczenia" short="Object 260: CŚ-7" desc="Działa samobieżne przeciwnika to twój główny cel. Unieszkodliwiając je, zbliżysz swoją drużynę o krok do zwycięstwa." tMID="262" opID="4" mID="7" setID="3" ID="quest_4_3_7_main" secID="quest_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Ogień dział samobieżnych przeciwnika może spowodować ciężkie uszkodzenia wśród pojazdów Twojej drużyny. Przełamując flankę, najedź bazę przeciwnika i zneutralizuj jego działa.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Zadaj 3 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj 3 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4308,8 +4322,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="Object 260: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="264" opID="4" mID="9" setID="3" ID="quest_4_3_9_main" secID="quest_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj 2000 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 2000 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4338,8 +4352,8 @@ lub
     <PM name="CŚ-12: Podpalacz" short="Object 260: CŚ-12" desc="Podpalenie pojazdu przeciwnika to jeden z najlepszych sposobów na jego zniszczenie." tMID="267" opID="4" mID="12" setID="3" ID="quest_4_3_12_main" secID="quest_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Trafienia penetrujące w silnik lub zbiorniki paliwa mogą spowodować pożar. Przestudiuj rysunki pojazdów, aby dowiedzieć się gdzie te krytyczne moduły są rozlokowane.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
-•  Zapal pojazd przeciwnika przynajmniej tego samego poziomu co Twój pojazd</req>
+        <req>•  Zapal pojazd przeciwnika przynajmniej tego samego poziomu co Twój pojazd
+•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Bądź w swojej drużynie wśród pierwszych 3 graczy pod względem zdobytego doświadczenia</req>
@@ -4483,8 +4497,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="Object 260: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="282" opID="4" mID="12" setID="4" ID="quest_4_4_12_main" secID="quest_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 3 czołgów ciężkich przeciwnika
-•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń
+•  Zniszcz 3 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4503,8 +4517,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="Object 260: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="284" opID="4" mID="14" setID="4" ID="quest_4_4_14_main" secID="quest_4_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -4612,8 +4626,8 @@ lub
         <req>•  Zadaj lub asystuj w zadaniu 4000 PW uszkodzeń poprzez ogłuszenie lub unieruchomienie</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Secondary>
     </PM>
     <PM name="DS-11: Obszar rażenia" short="Object 260: DS-11" desc="Oprócz zadania pokaźnych uszkodzeń dzięki celnemu strzałowi, pociski odłamkowo-burzące mogą również ogłuszyć wszystkie pojazdy w zasięgu rażenia po wybuchu pocisku. Wiele map ma takie miejsca, w których pojazdy przeciwnika często tłoczą się w grupie. Wykorzystaj swoją szansę i wyślij im wybuchowe pozdrowienia." tMID="296" opID="4" mID="11" setID="5" ID="quest_4_5_11_main" secID="quest_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -4628,8 +4642,8 @@ lub
     <PM name="DS-12: Złe oko" short="Object 260: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="297" opID="4" mID="12" setID="5" ID="quest_4_5_12_main" secID="quest_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 180 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 180 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -4649,9 +4663,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="Object 260: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="299" opID="4" mID="14" setID="5" ID="quest_4_5_14_main" secID="quest_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 200 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 1000 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 1000 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 200 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -4735,9 +4749,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="StuG IV: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="8" opID="1" mID="8" setID="1" ID="fallout_1_1_8_main" secID="fallout_1_1_8_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika
+        <req>•  Weź udział w udanym zajęciu bazy
 lub
-•  Weź udział w udanym zajęciu bazy
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
@@ -4777,15 +4791,15 @@ lub
         <req>•  Umożliw swoim sojusznikom zadanie 250 PW uszkodzeń wykrytym przez Ciebie pojazdom. Pozostań niewykrytym podczas zadawania uszkodzeń.</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
-        <req>•  Wejdź do bitwy, mając siatkę maskującą
-•  Wejdź do bitwy, mając założony kamuflaż</req>
+        <req>•  Wejdź do bitwy, mając założony kamuflaż
+•  Wejdź do bitwy, mając siatkę maskującą</req>
       </Secondary>
     </PM>
     <PM name="CL-13: Klucz do zwycięstwa" short="StuG IV: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="13" opID="1" mID="13" setID="1" ID="fallout_1_1_13_main" secID="fallout_1_1_13_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 700 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 700 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 700 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 700 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4807,8 +4821,8 @@ lub
         <req>•  Osiągnij łącznie 3000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Umożliw swoim sojusznikom uszkodzenie 4 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice</req>
+        <req>•  Umożliw swoim sojusznikom uszkodzenie 4 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice
+•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="StuG IV: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="16" opID="1" mID="1" setID="2" ID="fallout_1_2_1_main" secID="fallout_1_2_1_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
@@ -4870,8 +4884,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazd przeciwnika</req>
@@ -4917,8 +4931,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="StuG IV: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="27" opID="1" mID="12" setID="2" ID="fallout_1_2_12_main" secID="fallout_1_2_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Niech uszkodzenia zablokowane przez Twój pancerz wyniosą przynajmniej tyle, ile wynosi liczba PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 500 PW uszkodzeń
+•  Niech uszkodzenia zablokowane przez Twój pancerz wyniosą przynajmniej tyle, ile wynosi liczba PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -4949,8 +4963,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 4000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="50000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="StuG IV: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="31" opID="1" mID="1" setID="3" ID="fallout_1_3_1_main" secID="fallout_1_3_1_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
@@ -5022,8 +5036,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="StuG IV: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="38" opID="1" mID="8" setID="3" ID="fallout_1_3_8_main" secID="fallout_1_3_8_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 300 PW uszkodzeń czołgom średnim przeciwnika
-•  Zadaj uszkodzenia 3 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 3 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zadaj 300 PW uszkodzeń czołgom średnim przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -5032,8 +5046,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="StuG IV: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="39" opID="1" mID="9" setID="3" ID="fallout_1_3_9_main" secID="fallout_1_3_9_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj 300 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 300 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="35000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -5199,8 +5213,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="StuG IV: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="57" opID="1" mID="12" setID="4" ID="fallout_1_4_12_main" secID="fallout_1_4_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -5218,8 +5232,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="StuG IV: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="59" opID="1" mID="14" setID="4" ID="fallout_1_4_14_main" secID="fallout_1_4_14_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 10% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 10% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -5337,8 +5351,8 @@ lub
     <PM name="DS-12: Złe oko" short="StuG IV: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="72" opID="1" mID="12" setID="5" ID="fallout_1_5_12_main" secID="fallout_1_5_12_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 50 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 50 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -5358,9 +5372,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="StuG IV: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="74" opID="1" mID="14" setID="5" ID="fallout_1_5_14_main" secID="fallout_1_5_14_add" minLvl="4" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="StuG IV">
       <Hint />
       <Primary fXP="0" cr="75000" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 70 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 400 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 400 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 70 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="40000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -5446,9 +5460,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="T28 Heavy Tank Concept: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="83" opID="2" mID="8" setID="1" ID="fallout_2_1_8_main" secID="fallout_2_1_8_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 20 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 20 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 20 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 20 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
@@ -5494,8 +5508,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="T28 Heavy Tank Concept: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="88" opID="2" mID="13" setID="1" ID="fallout_2_1_13_main" secID="fallout_2_1_13_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 1500 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 1500 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -5517,8 +5531,8 @@ lub
         <req>•  Osiągnij łącznie 4000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Umożliw swoim sojusznikom uszkodzenie 5 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice</req>
+        <req>•  Umożliw swoim sojusznikom uszkodzenie 5 pojazdów przeciwnika, wykrywając je lub niszcząc ich gąsienice
+•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="T28 Heavy Tank Concept: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="91" opID="2" mID="1" setID="2" ID="fallout_2_2_1_main" secID="fallout_2_2_1_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
@@ -5580,8 +5594,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 2 pojazdów przeciwnika</req>
@@ -5627,8 +5641,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="T28 Heavy Tank Concept: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="102" opID="2" mID="12" setID="2" ID="fallout_2_2_12_main" secID="fallout_2_2_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 2 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 1000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 2 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -5659,8 +5673,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 6000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="T28 Heavy Tank Concept: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="106" opID="2" mID="1" setID="3" ID="fallout_2_3_1_main" secID="fallout_2_3_1_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
@@ -5733,8 +5747,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="T28 Heavy Tank Concept: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="113" opID="2" mID="8" setID="3" ID="fallout_2_3_8_main" secID="fallout_2_3_8_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 750 PW uszkodzeń czołgom średnim przeciwnika
-•  Zadaj uszkodzenia 5 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 5 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zadaj 750 PW uszkodzeń czołgom średnim przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -5744,8 +5758,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="T28 Heavy Tank Concept: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="114" opID="2" mID="9" setID="3" ID="fallout_2_3_9_main" secID="fallout_2_3_9_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika
-•  Zadaj 750 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 750 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz czołg ciężki przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="75000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -5773,8 +5787,8 @@ lub
     <PM name="CŚ-12: Podpalacz" short="T28 Heavy Tank Concept: CŚ-12" desc="Podpalenie pojazdu przeciwnika to jeden z najlepszych sposobów na jego zniszczenie." tMID="117" opID="2" mID="12" setID="3" ID="fallout_2_3_12_main" secID="fallout_2_3_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Trafienia penetrujące w silnik lub zbiorniki paliwa mogą spowodować pożar. Przestudiuj rysunki pojazdów, aby dowiedzieć się gdzie te krytyczne moduły są rozlokowane.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń
-•  Podpal pojazd przeciwnika</req>
+        <req>•  Podpal pojazd przeciwnika
+•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Bądź w swojej drużynie wśród pierwszych 3 graczy pod względem zdobytego doświadczenia</req>
@@ -5801,8 +5815,8 @@ lub
     <PM name="CŚ-15: Polowanie na myśliwego" short="T28 Heavy Tank Concept: CŚ-15" desc="Możesz zmienić bieg bitwy, neutralizując niszczyciele czołgów przeciwnika." tMID="120" opID="2" mID="15" setID="3" ID="fallout_2_3_15_main" secID="fallout_2_3_15_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Pomyśl, gdzie byś się zaczaił, gdybyś prowadził niszczyciel czołgów. To może być dokładnie to miejsce, w którym właśnie teraz ukrywa się niszczyciel czołgów przeciwnika. Często niszczyciele czołgów ustawiają się tak, aby kryć najczęstsze ścieżki ataku, więc spróbuj trafić je z niespodziewanej strony.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="2" done="false">
-        <req>•  Zniszcz 2 niszczycieli czołgów przeciwnika
-•  Zadaj 1000 PW uszkodzeń niszczycielom czołgów przeciwnika</req>
+        <req>•  Zadaj 1000 PW uszkodzeń niszczycielom czołgów przeciwnika
+•  Zniszcz 2 niszczycieli czołgów przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="100000" slots="0" tokens="2" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -5915,8 +5929,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="T28 Heavy Tank Concept: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="132" opID="2" mID="12" setID="4" ID="fallout_2_4_12_main" secID="fallout_2_4_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg ciężki przeciwnika z poziomu o 1 wyższego od Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
+•  Zniszcz czołg ciężki przeciwnika z poziomu o 1 wyższego od Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -5934,8 +5948,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="T28 Heavy Tank Concept: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="134" opID="2" mID="14" setID="4" ID="fallout_2_4_14_main" secID="fallout_2_4_14_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 15% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 15% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -6054,8 +6068,8 @@ lub
     <PM name="DS-12: Złe oko" short="T28 Heavy Tank Concept: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="147" opID="2" mID="12" setID="5" ID="fallout_2_5_12_main" secID="fallout_2_5_12_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć pojazd przeciwnika ogłuszony lub unieruchomiony przez Ciebie</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -6075,9 +6089,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="T28 Heavy Tank Concept: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="149" opID="2" mID="14" setID="5" ID="fallout_2_5_14_main" secID="fallout_2_5_14_add" minLvl="5" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T28 Heavy Tank Concept">
       <Hint />
       <Primary fXP="750" cr="50000" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 600 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 600 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 100 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="750" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -6155,8 +6169,8 @@ lub
     <PM name="CL-7: Polowanie na artylerię" short="T 55A: CL-7" desc="Artyleria to priorytetowy cel dla czołgów lekkich. Jeśli ją zniszczysz, mocno zwiększysz szanse zwycięstwa swojej drużyny." tMID="157" opID="3" mID="7" setID="1" ID="fallout_3_1_7_main" secID="fallout_3_1_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Zdjęcie artylerii przeciwnika nie jest łatwe. Poczekaj, aż Twoi sojusznicy odwrócą uwagę przeciwnika, a wtedy pędź do jego dział samobieżnych. Kiedy je zaatakujesz, spróbuj nie dostać się przed ich działa. Zamiast tego spróbuj zaatakować je z boku i od tyłu.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Wykryj i zadaj uszkodzenia 1 działom samobieżnym przeciwnika</req>
+        <req>•  Wykryj i zadaj uszkodzenia 1 działom samobieżnym przeciwnika
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6166,9 +6180,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="T 55A: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="158" opID="3" mID="8" setID="1" ID="fallout_3_1_8_main" secID="fallout_3_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 40 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 40 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 40 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 40 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
@@ -6215,8 +6229,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="T 55A: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="163" opID="3" mID="13" setID="1" ID="fallout_3_1_13_main" secID="fallout_3_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 1800 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 1800 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6238,8 +6252,8 @@ lub
         <req>•  Osiągnij łącznie 7000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Umożliw swoim sojusznikom zniszczenie 4 pojazdów, wykrywając je lub niszcząc ich gąsienice
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Umożliw swoim sojusznikom zniszczenie 4 pojazdów, wykrywając je lub niszcząc ich gąsienice</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="T 55A: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="166" opID="3" mID="1" setID="2" ID="fallout_3_2_1_main" secID="fallout_3_2_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -6300,8 +6314,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 3 pojazdów przeciwnika</req>
@@ -6348,8 +6362,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="T 55A: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="177" opID="3" mID="12" setID="2" ID="fallout_3_2_12_main" secID="fallout_3_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 2000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6380,8 +6394,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 12000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="250000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="T 55A: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="181" opID="3" mID="1" setID="3" ID="fallout_3_3_1_main" secID="fallout_3_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -6448,8 +6462,8 @@ lub
     <PM name="CŚ-7: Uderzenie z zaskoczenia" short="T 55A: CŚ-7" desc="Działa samobieżne przeciwnika to twój główny cel. Unieszkodliwiając je, zbliżysz swoją drużynę o krok do zwycięstwa." tMID="187" opID="3" mID="7" setID="3" ID="fallout_3_3_7_main" secID="fallout_3_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Ogień dział samobieżnych przeciwnika może spowodować ciężkie uszkodzenia wśród pojazdów Twojej drużyny. Przełamując flankę, najedź bazę przeciwnika i zneutralizuj jego działa.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Zadaj 2 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj 2 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6459,8 +6473,8 @@ lub
     <PM name="CŚ-8: Konfrontacja" short="T 55A: CŚ-8" desc="Niszcz pojazdy przeciwnika wyższego poziomu niż Twój pojazd, aby mieć znaczny wpływ na zwycięstwo swojej drużyny." tMID="188" opID="3" mID="8" setID="3" ID="fallout_3_3_8_main" secID="fallout_3_3_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Skoncentruj się na pojazdach przynajmniej tego samego poziomu co Twój pojazd. Walka z mocnym przeciwnikiem pomoże Ci zwiększyć umiejętność prowadzenia czołgu średniego i otrzymać po bitwie bardziej wartościowe nagrody.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz czołg średni przeciwnika
-•  Zadaj uszkodzenia 6 razy czołgom średnim przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj uszkodzenia 6 razy czołgom średnim przeciwnika, strzelając do nich
+•  Zniszcz czołg średni przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zadaj pojazdom przeciwnika 1500 PW uszkodzeń</req>
@@ -6469,8 +6483,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="T 55A: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="189" opID="3" mID="9" setID="3" ID="fallout_3_3_9_main" secID="fallout_3_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj 1500 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 1500 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6643,8 +6657,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="T 55A: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="207" opID="3" mID="12" setID="4" ID="fallout_3_4_12_main" secID="fallout_3_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6663,8 +6677,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="T 55A: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="209" opID="3" mID="14" setID="4" ID="fallout_3_4_14_main" secID="fallout_3_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 20% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -6772,8 +6786,8 @@ lub
         <req>•  Zadaj lub asystuj w zadaniu 3000 PW uszkodzeń poprzez ogłuszenie lub unieruchomienie</req>
       </Primary>
       <Secondary fXP="0" cr="150000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Secondary>
     </PM>
     <PM name="DS-11: Obszar rażenia" short="T 55A: DS-11" desc="Oprócz zadania pokaźnych uszkodzeń dzięki celnemu strzałowi, pociski odłamkowo-burzące mogą również ogłuszyć wszystkie pojazdy w zasięgu rażenia po wybuchu pocisku. Wiele map ma takie miejsca, w których pojazdy przeciwnika często tłoczą się w grupie. Wykorzystaj swoją szansę i wyślij im wybuchowe pozdrowienia." tMID="221" opID="3" mID="11" setID="5" ID="fallout_3_5_11_main" secID="fallout_3_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
@@ -6788,8 +6802,8 @@ lub
     <PM name="DS-12: Złe oko" short="T 55A: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="222" opID="3" mID="12" setID="5" ID="fallout_3_5_12_main" secID="fallout_3_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 140 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 140 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć 2 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="1" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -6809,9 +6823,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="T 55A: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="224" opID="3" mID="14" setID="5" ID="fallout_3_5_14_main" secID="fallout_3_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="T 55A">
       <Hint />
       <Primary fXP="2000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 160 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 800 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 800 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 160 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -6900,9 +6914,9 @@ lub
     <PM name="CL-8: Wynocha z naszej bazy!" short="Object 260: CL-8" desc="W ogniu walki łatwo jest zapomnieć o obronie swojej lub neutralnej bazy. Takie zaniechanie może pozwolić przeciwnikowi na błyskawiczne ich zajęcie i zyskanie przewagi. Pamiętaj, że Twój czołg jest wystarczająco szybki żeby wycofać się z walki i powrócić do obrony bazy odpierając atakujących celnymi strzałami lub śmiałym taranowaniem. Może to uchronić Twoją drużynę od grożącej klęski." tMID="233" opID="4" mID="8" setID="1" ID="fallout_4_1_8_main" secID="fallout_4_1_8_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Jeśli nie jesteś całkowicie pewien że Twoje pociski przebiją pancerz atakującego - załaduj pocisk odłamkowo-burzący. Mają one większe prawdopodobieństwo zadania uszkodzeń pojazdowi przeciwnika. Pamiętaj, że nawet zadając 1 PW uszkodzeń pojazdowi przeciwnika, zresetujesz jego licznik punktów zajęcia Twojej bazy. Starając się zająć bazę przeciwnika, jak najbardziej unikaj ognia przeciwnika.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 60 punktów bazowych
+        <req>•  Weź udział w udanym zajęciu bazy, zdobywając 60 punktów zajęcia
 lub
-•  Weź udział w udanym zajęciu bazy, zdobywając 60 punktów zajęcia
+•  Wyzeruj punkty zajęcia Twojej/neutralnej bazy zdobyte przez przeciwnika, zdobywając 60 punktów bazowych
 •  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
@@ -6922,8 +6936,8 @@ lub
     <PM name="CL-10: Maksymalny wynik" short="Object 260: CL-10" desc="Im bardziej efektywny jesteś w bitwie, tym więcej doświadczenia zdobywasz. Pokaż im do czego jest zdolny lekki czołg!" tMID="235" opID="4" mID="10" setID="1" ID="fallout_4_1_10_main" secID="fallout_4_1_10_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Dobry zwiadowca wie kiedy być ostrożnym, a kiedy agresywnym. Uważnie obserwuj przebieg bitwy.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Przetrwaj bitwę
-•  Zdobądź najwięcej doświadczenia spośród wszystkich graczy w bitwie</req>
+        <req>•  Zdobądź najwięcej doświadczenia spośród wszystkich graczy w bitwie
+•  Przetrwaj bitwę</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -6951,8 +6965,8 @@ lub
     <PM name="CL-13: Klucz do zwycięstwa" short="Object 260: CL-13" desc="Posiadając kilka czołgów lekkich w garażu, polegaj na tym, który ma szanse najdłużej pozostać w bitwie. To właśnie w ostatniej fazie gry lekkie czołgi mogą rozwinąć cały swój potencjał: obie drużyny grają ostrożniej, a każdy wykryty pojazd przeciwnika prędzej czy później trafi na celowniki Twoich sojuszników." tMID="238" opID="4" mID="13" setID="1" ID="fallout_4_1_13_main" secID="fallout_4_1_13_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Połącz aktywne i pasywne wykrywanie unikając strzelania tak długo, jak to możliwe. Czołg lekki, który przetrwał do końca bitwy daje przewagę swojej drużynie i stanowi problem dla drużyny przeciwnej.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 2500 PW uszkodzeń
-•  Umożliw swoim sojusznikom zadanie 2000 PW uszkodzeń wykrytym przez Ciebie pojazdom</req>
+        <req>•  Umożliw swoim sojusznikom zadanie 2000 PW uszkodzeń wykrytym przez Ciebie pojazdom
+•  Zadaj pojazdom przeciwnika 2500 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -6974,8 +6988,8 @@ lub
         <req>•  Osiągnij łącznie 8000 PW uszkodzeń zadanych przez Ciebie i z Twoją asystą</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Umożliw swoim sojusznikom zniszczenie 5 pojazdów, wykrywając je lub niszcząc ich gąsienice
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Umożliw swoim sojusznikom zniszczenie 5 pojazdów, wykrywając je lub niszcząc ich gąsienice</req>
       </Secondary>
     </PM>
     <PM name="CC-1: Debiut" short="Object 260: CC-1" desc="Działa czołgów ciężkich są potężne, ale im też przydaje się dobre celowanie." tMID="241" opID="4" mID="1" setID="2" ID="fallout_4_2_1_main" secID="fallout_4_2_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -7036,8 +7050,8 @@ lub
       <Hint>Bądź ostrożny, kiedy zbliżasz się do bazy przeciwnika — przygotuj się na \"ciepłe\" przyjęcie. Jeśli wolisz taktykę obronną, wykorzystaj ukształtowanie mapy aby znaleźć najlepsze schronienie i zyskać przewagę terenu tak, by móc bronić swoją (lub neutralną w trybie bitwy spotkaniowej) bazę przed zbliżającym się przeciwnikiem.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
-•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń
-•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę</req>
+•  Weź udział w udanym zajęciu bazy przeciwnika lub zresetuj punkty zajęcia przeciwnika za swoją/neutralną bazę
+•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz 4 pojazdów przeciwnika</req>
@@ -7084,8 +7098,8 @@ lub
     <PM name="CC-12: Solidny pancerz" short="Object 260: CC-12" desc="Twój pancerz zablokuje bardzo dużo pocisków, jeśli będziesz go dobrze wykorzystywać." tMID="252" opID="4" mID="12" setID="2" ID="fallout_4_2_12_main" secID="fallout_4_2_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Jeśli to tylko możliwe, staraj się wystawiać do przeciwnika tylko przedni pancerz, a chować boki i słabe punkty. Ustawiaj pancerz pod kątem, aby zwiększyć jego efektywność.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu
-•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
+•  Zablokuj pancerzem uszkodzenia równe bądź 3 razy większe od liczby PW Twojego pojazdu</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -7116,8 +7130,8 @@ lub
         <req>•  Zadaj, otrzymaj i zablokuj łącznie 14000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="500000" slots="0" tokens="2" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Secondary>
     </PM>
     <PM name="CŚ-1: Pierwsze kroki" short="Object 260: CŚ-1" desc="Na niskich poziomach większość czołgów średnich może stawić czoła dowolnemu przeciwnikowi." tMID="256" opID="4" mID="1" setID="3" ID="fallout_4_3_1_main" secID="fallout_4_3_1_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -7184,8 +7198,8 @@ lub
     <PM name="CŚ-7: Uderzenie z zaskoczenia" short="Object 260: CŚ-7" desc="Działa samobieżne przeciwnika to twój główny cel. Unieszkodliwiając je, zbliżysz swoją drużynę o krok do zwycięstwa." tMID="262" opID="4" mID="7" setID="3" ID="fallout_4_3_7_main" secID="fallout_4_3_7_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Ogień dział samobieżnych przeciwnika może spowodować ciężkie uszkodzenia wśród pojazdów Twojej drużyny. Przełamując flankę, najedź bazę przeciwnika i zneutralizuj jego działa.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 1 dział samobieżnych przeciwnika
-•  Zadaj 3 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich</req>
+        <req>•  Zadaj 3 razy uszkodzenia działom samobieżnym przeciwnika, strzelając do nich
+•  Zniszcz 1 dział samobieżnych przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -7204,8 +7218,8 @@ lub
     <PM name="CŚ-9: Godny przeciwnik" short="Object 260: CŚ-9" desc="Wyszukiwanie i niszczenie czołgów ciężkich przeciwnika to trudne do osiągnięcia zadanie, ale jednocześnie bardzo wartościowe dla drużyny." tMID="264" opID="4" mID="9" setID="3" ID="fallout_4_3_9_main" secID="fallout_4_3_9_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Zajeżdżaj pojazdy przeciwnika z flanki, strzelaj do nich z ukrycia lub celuj w ich wrażliwe punkty, aby je rozbić. Rób wszystko, co może pomóc. Pamiętaj że czołgi ciężkie są wolniejsze niż Ty, a ich wieże obracają się powoli.</Hint>
       <Primary fXP="0" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 2 czołgów ciężkich przeciwnika
-•  Zadaj 2000 PW uszkodzeń czołgom ciężkim przeciwnika</req>
+        <req>•  Zadaj 2000 PW uszkodzeń czołgom ciężkim przeciwnika
+•  Zniszcz 2 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -7234,8 +7248,8 @@ lub
     <PM name="CŚ-12: Podpalacz" short="Object 260: CŚ-12" desc="Podpalenie pojazdu przeciwnika to jeden z najlepszych sposobów na jego zniszczenie." tMID="267" opID="4" mID="12" setID="3" ID="fallout_4_3_12_main" secID="fallout_4_3_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Trafienia penetrujące w silnik lub zbiorniki paliwa mogą spowodować pożar. Przestudiuj rysunki pojazdów, aby dowiedzieć się gdzie te krytyczne moduły są rozlokowane.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń
-•  Zapal pojazd przeciwnika przynajmniej tego samego poziomu co Twój pojazd</req>
+        <req>•  Zapal pojazd przeciwnika przynajmniej tego samego poziomu co Twój pojazd
+•  Zadaj pojazdom przeciwnika 3000 PW uszkodzeń</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Bądź w swojej drużynie wśród pierwszych 3 graczy pod względem zdobytego doświadczenia</req>
@@ -7379,8 +7393,8 @@ lub
     <PM name="NC-12: Polowanie na grubego zwierza" short="Object 260: NC-12" desc="Uzbrojony w spryt i znakomite działo, możesz zniszczyć pojazdy przeciwnika, zanim podjadą zbyt blisko. Kiedy czołg ciężki przeciwnika zostanie wykryty, możesz mu zadać bardzo dużo uszkodzeń, zanim nawet Cię zobaczy." tMID="282" opID="4" mID="12" setID="4" ID="fallout_4_4_12_main" secID="fallout_4_4_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Masz potencjał, aby poprowadzić swoją drużynę do zwycięstwa. Jeśli znasz słabe punkty pojazdów przeciwnika, nie uratuje ich nawet gruby pancerz.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zniszcz 3 czołgów ciężkich przeciwnika
-•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń</req>
+        <req>•  Zadaj pojazdom przeciwnika 4000 PW uszkodzeń
+•  Zniszcz 3 czołgów ciężkich przeciwnika</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
@@ -7399,8 +7413,8 @@ lub
     <PM name="NC-14: Gruby zwierz" short="Object 260: NC-14" desc="W każdej bitwie Twoim zadaniem jest wygrać i zadać jak najwięcej uszkodzeń. Na szczęście typ pojazdu, który prowadzisz jest do tego najlepiej przystosowany." tMID="284" opID="4" mID="14" setID="4" ID="fallout_4_4_14_main" secID="fallout_4_4_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint>Oszczędzaj punkty wytrzymałości swojego pojazdu i unikaj ostrzału przeciwnika. Rachunek jest prosty – im dłużej przetrwasz, tym więcej uszkodzeń będziesz mógł zadać.</Hint>
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Zadaj 25% łącznych uszkodzeń zadanych przez Twoją drużynę</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Przetrwaj bitwę</req>
@@ -7508,8 +7522,8 @@ lub
         <req>•  Zadaj lub asystuj w zadaniu 4000 PW uszkodzeń poprzez ogłuszenie lub unieruchomienie</req>
       </Primary>
       <Secondary fXP="0" cr="200000" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
+        <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę
+•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Secondary>
     </PM>
     <PM name="DS-11: Obszar rażenia" short="Object 260: DS-11" desc="Oprócz zadania pokaźnych uszkodzeń dzięki celnemu strzałowi, pociski odłamkowo-burzące mogą również ogłuszyć wszystkie pojazdy w zasięgu rażenia po wybuchu pocisku. Wiele map ma takie miejsca, w których pojazdy przeciwnika często tłoczą się w grupie. Wykorzystaj swoją szansę i wyślij im wybuchowe pozdrowienia." tMID="296" opID="4" mID="11" setID="5" ID="fallout_4_5_11_main" secID="fallout_4_5_11_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
@@ -7524,8 +7538,8 @@ lub
     <PM name="DS-12: Złe oko" short="Object 260: DS-12" desc="Twoi sojusznicy zniszczyli ogłuszony przez Ciebie pojazd przeciwnika? To dla Ciebie dobra wiadomość, bo to Twój wkład w bitwę, który przybliży zwycięstwo o kolejny krok! Twoim celem jest zapewnienie wsparcia ogniowego i pomaganie sojusznikom we właściwym miejscu i czasie." tMID="297" opID="4" mID="12" setID="5" ID="fallout_4_5_12_main" secID="fallout_4_5_12_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie
-•  Ogłusz pojazdy przeciwnika łącznie na 180 sekund. Liczy się potencjalny czas ogłuszenia</req>
+        <req>•  Ogłusz pojazdy przeciwnika łącznie na 180 sekund. Liczy się potencjalny czas ogłuszenia
+•  Sojusznicy muszą zniszczyć 3 pojazdów ogłuszonych lub unieruchomionych przez Ciebie</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
@@ -7545,9 +7559,9 @@ lub
     <PM name="DS-14: Część drużyny, część okrętu!" short="Object 260: DS-14" desc="Współpraca jest kluczem do sukcesu całej drużyny. Podświetlaj pojazd przeciwnika, w który celujesz, aby Twoi sojusznicy mogli otworzyć do niego ogień zaraz po tym, jak go ogłuszysz lub unieruchomisz. Pamiętaj, że jeden samotny żołnierz raczej nie wygra bitwy." tMID="299" opID="4" mID="14" setID="5" ID="fallout_4_5_14_main" secID="fallout_4_5_14_add" minLvl="6" maxLvl="10" campID="1" camp="Długo oczekiwane wsparcie" reward="Object 260">
       <Hint />
       <Primary fXP="4000" cr="0" slots="0" tokens="1" done="false">
-        <req>•  Ogłusz pojazdy przeciwnika łącznie na 200 sekund. Liczy się potencjalny czas ogłuszenia
+        <req>•  Sojusznicy muszą zadać 1000 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie
 lub
-•  Sojusznicy muszą zadać 1000 PW uszkodzeń pojazdowi przeciwnika unieruchomionemu przez Ciebie</req>
+•  Ogłusz pojazdy przeciwnika łącznie na 200 sekund. Liczy się potencjalny czas ogłuszenia</req>
       </Primary>
       <Secondary fXP="0" cr="0" slots="0" tokens="1" done="false">
         <req>•  Zniszcz pojazdy przeciwnika / zajmij bazę lub obroń bazę</req>
